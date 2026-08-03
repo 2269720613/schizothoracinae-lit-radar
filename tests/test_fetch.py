@@ -7,6 +7,7 @@ from scripts.fetch import (
     compute_stats,
     fetch_openalex,
     fetch_biorxiv_recent,
+    normalize_pubmed_date,
 )
 
 
@@ -37,6 +38,13 @@ def test_merge_papers_sorts_by_date_desc():
     new = [{"id": "2", "title": "new", "date": "2026-06-01"}]
     merged, _ = merge_papers(existing, new)
     assert [p["id"] for p in merged] == ["2", "1"]
+
+
+def test_merge_papers_preserves_existing_records_without_id():
+    existing = [{"id": "", "title": "No-DOI Preprint", "date": "2026-07-01"}]
+    merged, added = merge_papers(existing, [])
+    assert len(merged) == 1
+    assert added == 0
 
 
 def test_compute_stats_counts_new_this_week_and_trend_length():
@@ -80,6 +88,25 @@ def test_fetch_openalex_parses_results(mock_get):
 def test_fetch_openalex_skips_results_without_title(mock_get):
     mock_get.return_value = {"results": [{"title": "", "doi": "10.1/x"}]}
     assert fetch_openalex("test", "2026-07-01", "A") == []
+
+
+@patch("scripts.fetch.http_get_json")
+def test_fetch_openalex_normalizes_doi_case(mock_get):
+    mock_get.return_value = {"results": [{
+        "doi": "https://doi.org/10.1234/ABC",
+        "title": "T", "authorships": [], "primary_location": {},
+        "publication_date": "2026-08-01", "id": "https://openalex.org/W1",
+    }]}
+    papers = fetch_openalex("x", "2026-07-01", "A")
+    assert papers[0]["doi"] == "10.1234/abc"
+
+
+def test_normalize_pubmed_date_handles_common_ncbi_formats():
+    assert normalize_pubmed_date("2021 Dec 23") == "2021-12-23"
+    assert normalize_pubmed_date("2021 Dec") == "2021-12-01"
+    assert normalize_pubmed_date("2021") == "2021-01-01"
+    assert normalize_pubmed_date("2026-08-01") == "2026-08-01"
+    assert normalize_pubmed_date("") == ""
 
 
 @patch("scripts.fetch.http_get_json")

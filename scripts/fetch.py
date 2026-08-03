@@ -58,7 +58,7 @@ def fetch_openalex(keyword, since_date, track):
         title = work.get("title") or ""
         if not title:
             continue
-        doi = (work.get("doi") or "").replace("https://doi.org/", "")
+        doi = (work.get("doi") or "").replace("https://doi.org/", "").strip().lower()
         papers.append({
             "id": doi or work.get("id", ""),
             "title": title,
@@ -72,6 +72,32 @@ def fetch_openalex(keyword, since_date, track):
             "source": "OpenAlex",
         })
     return papers
+
+
+def normalize_pubmed_date(pubdate):
+    # NOTE: NCBI E-utilities documentation records pubdate as historically
+    # inconsistent (e.g. "2021 Dec 23", "2021 Dec", "2021") rather than
+    # ISO-8601. This is a high-confidence assumption based on published NCBI
+    # docs; it was NOT verified against a live esummary.fcgi response in this
+    # session because eutils.ncbi.nlm.nih.gov was unreachable (connection
+    # failures / "Socket is closed") from this network environment when
+    # checked via curl and WebFetch. Treat as "documented but unverified live"
+    # until confirmed against a real response.
+    if not pubdate:
+        return ""
+    pubdate = pubdate.strip()
+    formats = ["%Y-%m-%d", "%Y/%m/%d", "%Y %b %d", "%Y %B %d", "%Y %b", "%Y %B"]
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(pubdate, fmt)
+            if fmt in ("%Y %b", "%Y %B"):
+                return dt.strftime("%Y-%m-01")
+            return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    if pubdate.isdigit() and len(pubdate) == 4:
+        return f"{pubdate}-01-01"
+    return pubdate
 
 
 def fetch_pubmed(keyword, since_date, track):
@@ -103,13 +129,14 @@ def fetch_pubmed(keyword, since_date, track):
         doi = ""
         for aid in item.get("articleids", []):
             if aid.get("idtype") == "doi":
-                doi = aid.get("value", "")
+                doi = aid.get("value", "").strip().lower()
+                break
         papers.append({
             "id": doi or uid,
             "title": item.get("title", ""),
             "authors": [a.get("name", "") for a in item.get("authors", [])],
             "journal": item.get("fulljournalname", ""),
-            "date": item.get("pubdate", ""),
+            "date": normalize_pubmed_date(item.get("pubdate", "")),
             "doi": doi,
             "url": f"https://pubmed.ncbi.nlm.nih.gov/{uid}/",
             "abstract": "",
@@ -120,6 +147,9 @@ def fetch_pubmed(keyword, since_date, track):
 
 
 def fetch_biorxiv_recent(keywords, track):
+    # bioRxiv's details API only supports fixed day-window buckets (e.g.
+    # 10d, 30d), not an arbitrary N-day range, so "10d" here is the closest
+    # available option to LOOKBACK_DAYS=7 (not a typo).
     url = "https://api.biorxiv.org/details/biorxiv/10d/0/json"
     data = http_get_json(url)
     if not data:
@@ -130,14 +160,15 @@ def fetch_biorxiv_recent(keywords, track):
         haystack = f"{item.get('title','')} {item.get('abstract','')}".lower()
         if not any(k in haystack for k in lowered_keywords):
             continue
+        doi = (item.get("doi") or "").strip().lower()
         papers.append({
-            "id": item.get("doi", ""),
+            "id": doi,
             "title": item.get("title", ""),
             "authors": [a.strip() for a in item.get("authors", "").split(";") if a.strip()],
             "journal": "bioRxiv (preprint)",
             "date": item.get("date", ""),
-            "doi": item.get("doi", ""),
-            "url": f"https://doi.org/{item.get('doi','')}" if item.get("doi") else "",
+            "doi": doi,
+            "url": f"https://doi.org/{doi}" if doi else "",
             "abstract": item.get("abstract", ""),
             "track": track,
             "source": "bioRxiv",
@@ -146,7 +177,7 @@ def fetch_biorxiv_recent(keywords, track):
 
 
 def merge_papers(existing_papers, new_papers):
-    by_id = {p["id"]: p for p in existing_papers if p.get("id")}
+    by_id = {(p.get("id") or p.get("title", "").lower()): p for p in existing_papers}
     added = 0
     for p in new_papers:
         key = p.get("id") or p.get("title", "").lower()
@@ -169,7 +200,7 @@ def compute_stats(all_papers, now):
             1 for p in all_papers
             if week_start.isoformat() <= p.get("date", "") < week_end.isoformat()
         )
-        trend.append({"week": week_start.strftime("%Y-W%V"), "count": count})
+        trend.append({"week": week_start.strftime("%G-W%V"), "count": count})
     return {"total_count": total, "new_this_week": new_this_week, "weekly_trend": trend}
 
 
@@ -213,7 +244,13 @@ def main():
         track_state["papers"] = merged
         total_added += added
 
-    all_papers = existing["tracks"]["A"]["papers"] + existing["tracks"]["B"]["papers"]
+    seen_ids = set()
+    all_papers = []
+    for p in existing["tracks"]["A"]["papers"] + existing["tracks"]["B"]["papers"]:
+        key = p.get("id") or p.get("title", "").lower()
+        if key not in seen_ids:
+            seen_ids.add(key)
+            all_papers.append(p)
     existing["stats"] = compute_stats(all_papers, now)
     existing["generated_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
