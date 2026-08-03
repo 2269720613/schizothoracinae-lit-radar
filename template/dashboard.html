@@ -1,115 +1,133 @@
-<title>裂腹鱼亚科与群体遗传文献雷达</title>
+<title>Schizothoracinae Lit Radar - 文献监测看板</title>
 <style>
   :root {
-    --bg-primary: #0b0f19;
-    --bg-card: #151c2c;
-    --bg-card-hover: #1e293b;
-    --bg-input: #1e293b;
-    --border-color: #2a364f;
-    --border-hover: #3b82f6;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
-    --accent-primary: #38bdf8;
-    --accent-primary-bg: rgba(56, 189, 248, 0.12);
-    --accent-new: #ef4444;
-    --accent-new-bg: rgba(239, 68, 68, 0.18);
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-hover: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --border-color: #e2e8f0;
+    --accent-color: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-light: #eff6ff;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
-    --source-openalex: #3b82f6;
-    --source-openalex-bg: rgba(59, 130, 246, 0.15);
-    --source-pubmed: #10b981;
-    --source-pubmed-bg: rgba(16, 185, 129, 0.15);
-    --source-biorxiv: #f97316;
-    --source-biorxiv-bg: rgba(249, 115, 22, 0.15);
-    --source-other: #a855f7;
-    --source-other-bg: rgba(168, 85, 247, 0.15);
+    --badge-new-bg: #ef4444;
+    --badge-new-text: #ffffff;
 
-    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --radius-sm: 6px;
-    --radius-md: 10px;
-    --radius-lg: 16px;
-    --shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.35);
-    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --source-openalex-bg: #dbeafe;
+    --source-openalex-text: #1e40af;
+    --source-pubmed-bg: #dcfce7;
+    --source-pubmed-text: #166534;
+    --source-biorxiv-bg: #ffedd5;
+    --source-biorxiv-text: #9a3412;
+    --source-cnki-bg: #f3e8ff;
+    --source-cnki-text: #6b21a8;
+    --source-default-bg: #e2e8f0;
+    --source-default-text: #334155;
   }
 
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) {
-      --bg-primary: #f8fafc;
-      --bg-card: #ffffff;
-      --bg-card-hover: #f1f5f9;
-      --bg-input: #ffffff;
-      --border-color: #e2e8f0;
-      --border-hover: #0284c7;
-      --text-primary: #0f172a;
-      --text-secondary: #475569;
-      --text-muted: #94a3b8;
-      --accent-primary: #0284c7;
-      --accent-primary-bg: rgba(2, 132, 199, 0.1);
-      --accent-new: #dc2626;
-      --accent-new-bg: rgba(220, 38, 38, 0.12);
-      --shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.08);
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --bg-card: #1e293b;
+      --bg-hover: #2d3748;
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #64748b;
+      --border-color: #334155;
+      --accent-color: #3b82f6;
+      --accent-hover: #60a5fa;
+      --accent-light: rgba(59, 130, 246, 0.15);
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
 
-      --source-openalex: #2563eb;
-      --source-openalex-bg: rgba(37, 99, 235, 0.1);
-      --source-pubmed: #059669;
-      --source-pubmed-bg: rgba(5, 150, 105, 0.1);
-      --source-biorxiv: #ea580c;
-      --source-biorxiv-bg: rgba(234, 88, 12, 0.1);
-      --source-other: #7c3aed;
-      --source-other-bg: rgba(124, 58, 237, 0.1);
+      --badge-new-bg: #ef4444;
+      --badge-new-text: #ffffff;
+
+      --source-openalex-bg: rgba(30, 64, 175, 0.35);
+      --source-openalex-text: #93c5fd;
+      --source-pubmed-bg: rgba(22, 101, 52, 0.35);
+      --source-pubmed-text: #86efac;
+      --source-biorxiv-bg: rgba(154, 52, 18, 0.35);
+      --source-biorxiv-text: #fdba74;
+      --source-cnki-bg: rgba(107, 33, 168, 0.35);
+      --source-cnki-text: #d8b4fe;
+      --source-default-bg: rgba(51, 65, 85, 0.5);
+      --source-default-text: #cbd5e1;
     }
-  }
-
-  :root[data-theme="dark"] {
-    --bg-primary: #0b0f19;
-    --bg-card: #151c2c;
-    --bg-card-hover: #1e293b;
-    --bg-input: #1e293b;
-    --border-color: #2a364f;
-    --border-hover: #3b82f6;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
-    --accent-primary: #38bdf8;
-    --accent-primary-bg: rgba(56, 189, 248, 0.12);
-    --accent-new: #ef4444;
-    --accent-new-bg: rgba(239, 68, 68, 0.18);
-
-    --source-openalex: #3b82f6;
-    --source-openalex-bg: rgba(59, 130, 246, 0.15);
-    --source-pubmed: #10b981;
-    --source-pubmed-bg: rgba(16, 185, 129, 0.15);
-    --source-biorxiv: #f97316;
-    --source-biorxiv-bg: rgba(249, 115, 22, 0.15);
-    --source-other: #a855f7;
-    --source-other-bg: rgba(168, 85, 247, 0.15);
-    --shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.35);
   }
 
   :root[data-theme="light"] {
     --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f1f5f9;
     --bg-card: #ffffff;
-    --bg-card-hover: #f1f5f9;
-    --bg-input: #ffffff;
-    --border-color: #e2e8f0;
-    --border-hover: #0284c7;
+    --bg-hover: #f8fafc;
     --text-primary: #0f172a;
     --text-secondary: #475569;
     --text-muted: #94a3b8;
-    --accent-primary: #0284c7;
-    --accent-primary-bg: rgba(2, 132, 199, 0.1);
-    --accent-new: #dc2626;
-    --accent-new-bg: rgba(220, 38, 38, 0.12);
-    --shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.08);
+    --border-color: #e2e8f0;
+    --accent-color: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-light: #eff6ff;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
-    --source-openalex: #2563eb;
-    --source-openalex-bg: rgba(37, 99, 235, 0.1);
-    --source-pubmed: #059669;
-    --source-pubmed-bg: rgba(5, 150, 105, 0.1);
-    --source-biorxiv: #ea580c;
-    --source-biorxiv-bg: rgba(234, 88, 12, 0.1);
-    --source-other: #7c3aed;
-    --source-other-bg: rgba(124, 58, 237, 0.1);
+    --badge-new-bg: #ef4444;
+    --badge-new-text: #ffffff;
+
+    --source-openalex-bg: #dbeafe;
+    --source-openalex-text: #1e40af;
+    --source-pubmed-bg: #dcfce7;
+    --source-pubmed-text: #166534;
+    --source-biorxiv-bg: #ffedd5;
+    --source-biorxiv-text: #9a3412;
+    --source-cnki-bg: #f3e8ff;
+    --source-cnki-text: #6b21a8;
+    --source-default-bg: #e2e8f0;
+    --source-default-text: #334155;
+  }
+
+  :root[data-theme="dark"] {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+    --bg-card: #1e293b;
+    --bg-hover: #2d3748;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+    --border-color: #334155;
+    --accent-color: #3b82f6;
+    --accent-hover: #60a5fa;
+    --accent-light: rgba(59, 130, 246, 0.15);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+    --badge-new-bg: #ef4444;
+    --badge-new-text: #ffffff;
+
+    --source-openalex-bg: rgba(30, 64, 175, 0.35);
+    --source-openalex-text: #93c5fd;
+    --source-pubmed-bg: rgba(22, 101, 52, 0.35);
+    --source-pubmed-text: #86efac;
+    --source-biorxiv-bg: rgba(154, 52, 18, 0.35);
+    --source-biorxiv-text: #fdba74;
+    --source-cnki-bg: rgba(107, 33, 168, 0.35);
+    --source-cnki-text: #d8b4fe;
+    --source-default-bg: rgba(51, 65, 85, 0.5);
+    --source-default-text: #cbd5e1;
   }
 
   * {
@@ -119,273 +137,338 @@
   }
 
   body, #app {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
-    font-family: var(--font-family);
-    line-height: 1.5;
     min-height: 100vh;
+    line-height: 1.5;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px 16px 48px 16px;
+    padding: 24px 16px;
   }
 
   /* Header Section */
   .header-card {
-    background: var(--bg-card);
+    background: var(--bg-secondary);
     border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
+    border-radius: 16px;
     padding: 24px;
     margin-bottom: 24px;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 20px;
   }
 
-  .header-info h1 {
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .header-title-group h1 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 6px;
+    letter-spacing: -0.02em;
     display: flex;
     align-items: center;
     gap: 10px;
   }
 
-  .header-info p {
-    font-size: 0.875rem;
-    color: var(--text-secondary);
-  }
-
-  .header-stats {
+  .header-title-group .time-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 4px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 6px;
+  }
+
+  .stats-summary {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     flex-wrap: wrap;
   }
 
   .stat-badge {
-    background: var(--bg-primary);
+    background: var(--bg-tertiary);
     border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
+    border-radius: 12px;
     padding: 10px 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    min-width: 100px;
+    align-items: flex-start;
   }
 
-  .stat-badge .stat-num {
-    font-size: 1.3rem;
-    font-weight: 800;
-    color: var(--accent-primary);
+  .stat-badge .stat-val {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.2;
+  }
+
+  .stat-badge .stat-lbl {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .stat-badge.highlight {
-    border-color: var(--accent-new);
-    background: var(--accent-new-bg);
+    background: var(--accent-light);
+    border-color: rgba(37, 99, 235, 0.3);
   }
 
-  .stat-badge.highlight .stat-num {
-    color: var(--accent-new);
+  .stat-badge.highlight .stat-val {
+    color: var(--accent-color);
   }
 
-  .stat-badge .stat-label {
-    font-size: 0.75rem;
+  .theme-toggle-btn {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
     color: var(--text-secondary);
-    margin-top: 2px;
-  }
-
-  .btn-theme {
-    background: var(--bg-primary);
-    border: 1px solid var(--border-color);
-    color: var(--text-primary);
-    border-radius: var(--radius-md);
-    padding: 10px 14px;
-    font-size: 0.875rem;
-    font-weight: 600;
+    border-radius: 10px;
+    padding: 8px 12px;
     cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    transition: var(--transition);
-  }
-
-  .btn-theme:hover {
-    border-color: var(--border-hover);
-    color: var(--accent-primary);
-  }
-
-  /* Trend Chart Section */
-  .section-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 20px 24px;
-    margin-bottom: 24px;
-    box-shadow: var(--shadow);
-  }
-
-  .section-title {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 6px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+  }
+
+  .theme-toggle-btn:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+  }
+
+  /* Trend Chart Container */
+  .trend-section {
+    border-top: 1px solid var(--border-color);
+    padding-top: 16px;
+  }
+
+  .trend-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
 
   .chart-overflow-container {
     width: 100%;
     overflow-x: auto;
-    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
   }
 
   .chart-svg {
-    min-width: 550px;
+    min-width: 400px;
     width: 100%;
     height: 140px;
   }
 
-  /* Filters Section */
-  .filter-bar {
+  .chart-bar {
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+  }
+
+  .chart-bar:hover {
+    opacity: 0.85;
+  }
+
+  /* Controls Section */
+  .controls-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-sm);
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
 
-  .search-row {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
-
-  .search-input-wrapper {
-    flex: 1;
-    min-width: 260px;
+  /* Search Input */
+  .search-wrapper {
     position: relative;
-  }
-
-  .search-input-wrapper input {
     width: 100%;
-    background: var(--bg-input);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    padding: 10px 14px 10px 38px;
-    color: var(--text-primary);
-    font-size: 0.9rem;
-    outline: none;
-    transition: var(--transition);
   }
 
-  .search-input-wrapper input:focus {
-    border-color: var(--accent-primary);
-    box-shadow: 0 0 0 3px var(--accent-primary-bg);
+  .search-input {
+    width: 100%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 12px 16px 12px 42px;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    outline: none;
+    transition: all 0.2s ease;
+  }
+
+  .search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px var(--accent-light);
+    background: var(--bg-secondary);
   }
 
   .search-icon {
     position: absolute;
-    left: 12px;
+    left: 14px;
     top: 50%;
     transform: translateY(-50%);
-    width: 16px;
-    height: 16px;
-    fill: none;
-    stroke: var(--text-muted);
-    stroke-width: 2;
+    color: var(--text-muted);
+    width: 18px;
+    height: 18px;
   }
 
-  .sort-select {
-    background: var(--bg-input);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    color: var(--text-primary);
-    padding: 0 14px;
-    font-size: 0.875rem;
-    outline: none;
-    cursor: pointer;
-    transition: var(--transition);
-  }
-
-  .sort-select:hover, .sort-select:focus {
-    border-color: var(--accent-primary);
-  }
-
-  .tags-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid var(--border-color);
-    padding-top: 14px;
-  }
-
-  .tab-group, .source-group {
+  /* Tracks Tabs */
+  .tabs-wrapper {
     display: flex;
     align-items: center;
     gap: 8px;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border-color);
   }
 
-  .tab-btn, .source-pill {
-    background: var(--bg-primary);
-    border: 1px solid var(--border-color);
+  .tab-btn {
+    background: transparent;
+    border: none;
     color: var(--text-secondary);
-    border-radius: 20px;
-    padding: 5px 14px;
-    font-size: 0.8rem;
+    padding: 8px 16px;
+    font-size: 0.9rem;
     font-weight: 500;
+    border-radius: 8px;
     cursor: pointer;
-    transition: var(--transition);
-    user-select: none;
+    white-space: nowrap;
+    transition: all 0.2s ease;
   }
 
-  .tab-btn:hover, .source-pill:hover {
-    border-color: var(--border-hover);
+  .tab-btn:hover {
+    background: var(--bg-tertiary);
     color: var(--text-primary);
   }
 
   .tab-btn.active {
-    background: var(--accent-primary-bg);
-    border-color: var(--accent-primary);
-    color: var(--accent-primary);
+    background: var(--accent-color);
+    color: #ffffff;
     font-weight: 600;
+  }
+
+  /* Source Filter Group */
+  .source-filter-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .source-filter-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .source-pills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .source-pill {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .source-pill:hover {
+    border-color: var(--text-muted);
   }
 
   .source-pill.active {
-    font-weight: 600;
+    border-color: transparent;
   }
 
-  .source-pill.active[data-source="OpenAlex"] {
+  .source-pill[data-source="OpenAlex"].active {
     background: var(--source-openalex-bg);
-    border-color: var(--source-openalex);
-    color: var(--source-openalex);
-  }
-  .source-pill.active[data-source="PubMed"] {
-    background: var(--source-pubmed-bg);
-    border-color: var(--source-pubmed);
-    color: var(--source-pubmed);
-  }
-  .source-pill.active[data-source="bioRxiv"] {
-    background: var(--source-biorxiv-bg);
-    border-color: var(--source-biorxiv);
-    color: var(--source-biorxiv);
-  }
-  .source-pill.active[data-source="Other"] {
-    background: var(--source-other-bg);
-    border-color: var(--source-other);
-    color: var(--source-other);
+    color: var(--source-openalex-text);
   }
 
-  /* Paper List */
+  .source-pill[data-source="PubMed"].active {
+    background: var(--source-pubmed-bg);
+    color: var(--source-pubmed-text);
+  }
+
+  .source-pill[data-source="bioRxiv"].active {
+    background: var(--source-biorxiv-bg);
+    color: var(--source-biorxiv-text);
+  }
+
+  .source-pill[data-source="CNKI"].active {
+    background: var(--source-cnki-bg);
+    color: var(--source-cnki-text);
+  }
+
+  .source-pill.active:not([data-source="OpenAlex"]):not([data-source="PubMed"]):not([data-source="bioRxiv"]):not([data-source="CNKI"]) {
+    background: var(--source-default-bg);
+    color: var(--source-default-text);
+  }
+
+  .toggle-all-btn {
+    background: transparent;
+    border: 1px dashed var(--border-color);
+    color: var(--text-muted);
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .toggle-all-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--text-muted);
+  }
+
+  /* Paper List Section */
+  .papers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .papers-count-info {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+
   .paper-list {
     display: flex;
     flex-direction: column;
@@ -393,587 +476,616 @@
   }
 
   .paper-card {
-    background: var(--bg-card);
+    background: var(--bg-secondary);
     border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 20px 24px;
-    box-shadow: var(--shadow);
-    transition: var(--transition);
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   }
 
   .paper-card:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(59, 130, 246, 0.4);
   }
 
-  .paper-header {
+  .paper-title-row {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
     margin-bottom: 10px;
   }
 
-  .badge {
-    font-size: 0.725rem;
+  .paper-title {
+    font-size: 1.05rem;
     font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 12px;
-    display: inline-flex;
-    align-items: center;
-    line-height: 1.2;
+    color: var(--text-primary);
+    line-height: 1.4;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    flex: 1;
   }
 
-  .badge-track {
-    background: var(--accent-primary-bg);
-    color: var(--accent-primary);
-    border: 1px solid rgba(56, 189, 248, 0.2);
+  .paper-title:hover {
+    color: var(--accent-color);
+  }
+
+  .paper-link-btn {
+    color: var(--text-muted);
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  .paper-link-btn:hover {
+    color: var(--accent-color);
+    background: var(--accent-light);
+  }
+
+  .paper-meta-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  /* Badges */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .badge-new {
+    background: var(--badge-new-bg);
+    color: var(--badge-new-text);
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.4);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+  }
+
+  .badge-source {
+    font-weight: 600;
   }
 
   .badge-source[data-source="OpenAlex"] {
     background: var(--source-openalex-bg);
-    color: var(--source-openalex);
-  }
-  .badge-source[data-source="PubMed"] {
-    background: var(--source-pubmed-bg);
-    color: var(--source-pubmed);
-  }
-  .badge-source[data-source="bioRxiv"] {
-    background: var(--source-biorxiv-bg);
-    color: var(--source-biorxiv);
-  }
-  .badge-source[data-source="Other"] {
-    background: var(--source-other-bg);
-    color: var(--source-other);
+    color: var(--source-openalex-text);
   }
 
-  .badge-new {
-    background: var(--accent-new-bg);
-    color: var(--accent-new);
-    border: 1px solid rgba(239, 68, 68, 0.3);
-    font-weight: 700;
+  .badge-source[data-source="PubMed"] {
+    background: var(--source-pubmed-bg);
+    color: var(--source-pubmed-text);
+  }
+
+  .badge-source[data-source="bioRxiv"] {
+    background: var(--source-biorxiv-bg);
+    color: var(--source-biorxiv-text);
+  }
+
+  .badge-source[data-source="CNKI"] {
+    background: var(--source-cnki-bg);
+    color: var(--source-cnki-text);
+  }
+
+  .badge-source:not([data-source="OpenAlex"]):not([data-source="PubMed"]):not([data-source="bioRxiv"]):not([data-source="CNKI"]) {
+    background: var(--source-default-bg);
+    color: var(--source-default-text);
   }
 
   .paper-date {
-    font-size: 0.775rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
-    margin-left: auto;
-  }
-
-  .paper-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    text-decoration: none;
-    line-height: 1.4;
-    margin-bottom: 8px;
-    display: block;
-    transition: var(--transition);
-  }
-
-  .paper-title:hover {
-    color: var(--accent-primary);
-  }
-
-  .paper-meta {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-bottom: 12px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    align-items: center;
-  }
-
-  .meta-authors {
-    color: var(--text-primary);
-    font-weight: 500;
-  }
-
-  .meta-journal {
-    color: var(--text-muted);
-    font-style: italic;
-  }
-
-  .abstract-wrapper {
-    margin-top: 10px;
-  }
-
-  .btn-toggle-abstract {
-    background: transparent;
-    border: none;
-    color: var(--accent-primary);
-    font-size: 0.825rem;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 0;
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    outline: none;
   }
 
-  .btn-toggle-abstract:hover {
-    text-decoration: underline;
+  .paper-authors {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
   }
 
-  .abstract-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
-    font-size: 0.875rem;
+  .paper-journal {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  .abstract-toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--accent-color);
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 2px 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: opacity 0.2s ease;
+  }
+
+  .abstract-toggle-btn:hover {
+    opacity: 0.8;
+  }
+
+  .abstract-box {
+    margin-top: 10px;
+    background: var(--bg-tertiary);
+    border-left: 3px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    font-size: 0.88rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    background: var(--bg-primary);
-    border-radius: var(--radius-md);
-    padding: 0 14px;
-    margin-top: 0;
+    display: none;
+    animation: fadeIn 0.2s ease-in-out;
   }
 
-  .abstract-body.open {
-    max-height: 600px;
-    transition: max-height 0.35s ease-in-out;
-    padding: 12px 14px;
-    margin-top: 8px;
-    border: 1px dashed var(--border-color);
+  .abstract-box.expanded {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 
   .empty-state {
     text-align: center;
-    padding: 48px 24px;
+    padding: 48px 16px;
     color: var(--text-muted);
+    background: var(--bg-secondary);
+    border: 1px dashed var(--border-color);
+    border-radius: 14px;
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+
+  .icon.chevron {
+    transition: transform 0.2s ease;
+  }
+
+  .abstract-toggle-btn.expanded .icon.chevron {
+    transform: rotate(180deg);
   }
 </style>
 
+<script id="lit-radar-data" type="application/json">__LIT_RADAR_DATA__</script>
+
 <div id="app">
   <div class="container">
-    <!-- Header -->
-    <header class="header-card">
-      <div class="header-info">
-        <h1>
-          <svg style="width:26px;height:26px;fill:none;stroke:var(--accent-primary);stroke-width:2" viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="9"/>
-            <path d="M12 12L16 8M12 3v3M12 18v3M3 12h3M18 12h3"/>
-          </svg>
-          裂腹鱼亚科与群体遗传文献雷达
-        </h1>
-        <p>学术文献自动监视与追踪 • 生成时间：<span id="gen-time">--</span></p>
-      </div>
-      <div class="header-stats">
-        <div class="stat-badge">
-          <span class="stat-num" id="stat-total">0</span>
-          <span class="stat-label">文献总数</span>
+    <!-- Header Card -->
+    <div class="header-card">
+      <div class="header-top">
+        <div class="header-title-group">
+          <h1>Schizothoracinae Lit Radar</h1>
+          <div class="time-meta">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            更新时间：<span id="header-time">加载中...</span>
+          </div>
         </div>
-        <div class="stat-badge highlight">
-          <span class="stat-num" id="stat-new">0</span>
-          <span class="stat-label">本周新增</span>
+        <div class="stats-summary">
+          <div class="stat-badge">
+            <span class="stat-val" id="total-count-val">0</span>
+            <span class="stat-lbl">文献总数</span>
+          </div>
+          <div class="stat-badge highlight">
+            <span class="stat-val" id="new-count-val">0</span>
+            <span class="stat-lbl">本周新增</span>
+          </div>
+          <button class="theme-toggle-btn" id="theme-toggle-btn" title="切换主题">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            <span>主题</span>
+          </button>
         </div>
-        <button class="btn-theme" id="btn-theme-toggle" onclick="toggleTheme()">
-          <span id="theme-icon">🌗</span>
-          <span id="theme-text">自动主题</span>
-        </button>
-      </div>
-    </header>
-
-    <!-- Weekly Trend SVG Chart -->
-    <section class="section-card">
-      <div class="section-title">
-        <span>周度文献追踪趋势 (近6周)</span>
-      </div>
-      <div class="chart-overflow-container">
-        <svg class="chart-svg" id="weekly-chart" viewBox="0 0 600 140" preserveAspectRatio="none">
-          <!-- Hand-crafted SVG Chart generated by JS -->
-        </svg>
-      </div>
-    </section>
-
-    <!-- Filter & Search Controls -->
-    <section class="section-card filter-bar">
-      <div class="search-row">
-        <div class="search-input-wrapper">
-          <svg class="search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-          <input type="text" id="search-input" placeholder="搜索标题、作者、摘要关键字..." oninput="handleSearchInput()">
-        </div>
-        <select class="sort-select" id="sort-select" onchange="handleSortChange()">
-          <option value="desc">最新发表 (日期降序)</option>
-          <option value="asc">最早发表 (日期升序)</option>
-        </select>
       </div>
 
-      <div class="tags-row">
-        <div class="tab-group" id="track-tabs">
-          <!-- Dynamic Track Tabs -->
+      <div class="trend-section">
+        <div class="trend-title">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          近周文献发布趋势 (Weekly Trend)
         </div>
-        <div class="source-group" id="source-filters">
-          <!-- Dynamic Source Pills -->
-        </div>
+        <div class="chart-overflow-container" id="weekly-chart-container"></div>
       </div>
-    </section>
+    </div>
 
-    <!-- Paper Cards Container -->
-    <main class="paper-list" id="paper-list">
-      <!-- Dynamic Paper Cards -->
-    </main>
+    <!-- Controls Card -->
+    <div class="controls-card">
+      <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-input" class="search-input" placeholder="搜索文献标题、摘要、作者关键词...">
+      </div>
+
+      <div class="tabs-wrapper" id="tracks-tabs"></div>
+
+      <div class="source-filter-wrapper">
+        <div class="source-filter-label">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          来源数据库：
+        </div>
+        <div class="source-pills" id="source-pills-container"></div>
+        <button class="toggle-all-btn" id="toggle-sources-btn">清空</button>
+      </div>
+    </div>
+
+    <!-- Papers List Section -->
+    <div class="papers-header">
+      <div class="papers-count-info" id="filtered-count">显示 0 篇文献</div>
+    </div>
+    <div class="paper-list" id="paper-list"></div>
   </div>
 </div>
 
-<script id="lit-radar-data" type="application/json">__LIT_RADAR_DATA__</script>
-
 <script>
-  const MOCK_DATA = {
-    generated_at: "2026-08-04T01:00:00Z",
-    stats: {
-      total_count: 28,
-      new_this_week: 6,
-      weekly_trend: [
-        { week: "06-29", count: 3 },
-        { week: "07-06", count: 5 },
-        { week: "07-13", count: 4 },
-        { week: "07-20", count: 7 },
-        { week: "07-27", count: 3 },
-        { week: "08-03", count: 6 }
-      ]
-    },
-    tracks: {
-      A: {
-        label: "裂腹鱼亚科 (Schizothoracinae)",
-        keywords: ["Schizothorax", "Gymnocypris", "Oxygymnocypris", "High-altitude adaptation"],
-        papers: [
-          {
-            id: "paper-1",
-            title: "High-altitude adaptation mechanism of Schizothorax prenanti based on comparative genomics",
-            authors: ["张伟", "李明", "王强", "陈晨", "赵六"],
-            journal: "Molecular Ecology",
-            publish_date: "2026-08-02",
-            source: "OpenAlex",
-            doi: "10.1111/mec.16888",
-            url: "https://doi.org/10.1111/mec.16888",
-            abstract: "裂腹鱼亚科鱼类是青藏高原及其周边水域的代表性鱼类。本研究通过对重口裂腹鱼（Schizothorax prenanti）进行高深度全基因组测序与比较基因组学分析，揭示了其在低氧、低温及强紫外辐射等高原极端环境下的分子适应机制。发现能量代谢及低氧信号通路关键基因发生了显著的正向选择。",
-            is_new: true
-          },
-          {
-            id: "paper-2",
-            title: "Population genetic structure and evolutionary history of Gymnocypris przewalskii in Qinghai Lake",
-            authors: ["刘洋", "Sun J.", "Wang H."],
-            journal: "Gene",
-            publish_date: "2026-07-28",
-            source: "PubMed",
-            doi: "10.1016/j.gene.2026.147000",
-            url: "https://pubmed.ncbi.nlm.nih.gov/38800000/",
-            abstract: "青海湖裸鲤（Gymnocypris przewalskii）是青海湖生态系统的核心物种。本文利用重测序数据探讨了该物种的群体遗传结构、有效群体大小动态变化及其历史人口学史。",
-            is_new: true
-          },
-          {
-            id: "paper-3",
-            title: "Chromosome-level genome assembly of Oxygymnocypris stewartii and its speciation patterns",
-            authors: ["周杰", "徐辉"],
-            journal: "bioRxiv",
-            publish_date: "2026-07-20",
-            source: "bioRxiv",
-            doi: "10.1101/2026.07.20.604000",
-            url: "https://www.biorxiv.org/content/10.1101/2026.07.20.604000v1",
-            abstract: "拉萨裸裂尻鱼为著名的特有珍稀鱼类。我们构建了染色体级别的无缝基因组图谱，并结合微卫星与SNP标志分析了同域物种分化的基因组印记。",
-            is_new: false
-          }
-        ]
+(function() {
+  function getMockData() {
+    return {
+      "generated_at": "2026-08-04T06:00:00Z",
+      "tracks": {
+        "A": {
+          "label": "裂腹鱼亚科物种精确检索",
+          "keywords": ["Schizothoracinae", "Gymnocypris", "Schizopygopsis", "Oxygymnocypris"],
+          "papers": [
+            {
+              "title": "Genome-wide speciation patterns and environmental adaptation in high-altitude Schizothoracinae fishes",
+              "authors": ["Zhang, W.", "Li, Y.", "Wang, X.", "Chen, Z."],
+              "journal": "Molecular Ecology",
+              "date": "2026-08-02",
+              "source": "OpenAlex",
+              "doi": "10.1111/mec.16890",
+              "url": "https://doi.org/10.1111/mec.16890",
+              "abstract": "Schizothoracinae (teleost fish) inhabit the Qinghai-Tibetan Plateau and provide an exceptional model for studying extreme environment adaptation. Here we sequenced 120 high-coverage genomes across 15 species from major river basins. Phylogenomic analysis resolved long-standing taxonomic controversies and pinpointed specific gene duplications in hypoxia response pathways."
+            },
+            {
+              "title": "High-altitude hypoxia adaptation mechanisms in Gymnocypris przewalskii based on single-cell transcriptome",
+              "authors": ["Liu, H.", "Zhao, K.", "Yang, L."],
+              "journal": "bioRxiv",
+              "date": "2026-07-29",
+              "source": "bioRxiv",
+              "doi": "10.1101/2026.07.29.589012",
+              "url": "https://biorxiv.org/content/10.1101/2026.07.29.589012",
+              "abstract": "Gymnocypris przewalskii is an iconic endemic Schizothoracinae fish in Qinghai Lake. Single-cell RNA sequencing of gill filaments and heart tissue revealed specialized cell clusters involved in ion regulation under high alkalinity and low oxygen conditions."
+            },
+            {
+              "title": "Phylogenomic insights into the adaptive radiation of Schizopygopsis pylzovi in the Yellow River basin",
+              "authors": ["Sun, G.", "Ma, R.", "He, S."],
+              "journal": "Systematic Biology",
+              "date": "2026-07-15",
+              "source": "PubMed",
+              "doi": "10.1093/sysbio/syab045",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38901234/",
+              "abstract": "Target capture sequencing was applied to investigate genomic divergence and historical population dynamics of Schizopygopsis pylzovi. Results suggest rapid adaptive radiation following the uplift of the northeastern Tibetan Plateau during the late Pleistocene."
+            }
+          ]
+        },
+        "B": {
+          "label": "群体遗传方法学前沿",
+          "keywords": ["Demographic History", "dadi", "fsc28", "SFS", "Polyploid Dosage"],
+          "papers": [
+            {
+              "title": "Inferring complex demographic histories in autopolyploid populations using dosage-encoded SFS",
+              "authors": ["Gautier, M.", "Vitalis, R.", "Rousset, F."],
+              "journal": "Genetics",
+              "date": "2026-08-01",
+              "source": "OpenAlex",
+              "doi": "10.1093/genetics/iyad120",
+              "url": "https://doi.org/10.1093/genetics/iyad120",
+              "abstract": "Polyploid allele dosage information is frequently lost when converting VCFs to diploid representations. We introduce a novel site frequency spectrum (SFS) inference framework that directly accepts dosage-encoded polyploid data, preventing artificial inflation of low-frequency allele estimates."
+            },
+            {
+              "title": "Fast and accurate simulation of multi-locus polyploid allele frequency spectra under selection",
+              "authors": ["Chen, Y.", "Excoffier, L."],
+              "journal": "Bioinformatics",
+              "date": "2026-07-20",
+              "source": "PubMed",
+              "doi": "10.1093/bioinformatics/btad345",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38812345/",
+              "abstract": "We present an upgraded coalescent simulator capable of modeling selection and gene flow in polyploid demographic networks. Extensive benchmark tests demonstrate superior speed and memory efficiency compared to existing tools."
+            },
+            {
+              "title": "Deep learning models for continuous spatial demographic inference from low-coverage sequencing data",
+              "authors": ["Wang, C.", "Nielsen, R."],
+              "journal": "bioRxiv",
+              "date": "2026-07-10",
+              "source": "bioRxiv",
+              "doi": "10.1101/2026.07.10.456789",
+              "url": "https://biorxiv.org/content/10.1101/2026.07.10.456789",
+              "abstract": "Spatial population genetics has traditionally relied on simplified island models. Here we present a convolutional neural network architecture for continuous spatial demography estimation directly from genotype likelihoods."
+            }
+          ]
+        }
       },
-      B: {
-        label: "群体遗传学与基因组学 (Population Genetics)",
-        keywords: ["Demographic history", "Selection sweep", "SFS", "D-stat"],
-        papers: [
-          {
-            id: "paper-4",
-            title: "Inferring complex demographic history with polyploid dosage-encoded VCF data",
-            authors: ["Gautier M.", "Rousset F.", "Li H.", "Zhang X."],
-            journal: "Genetics",
-            publish_date: "2026-08-01",
-            source: "OpenAlex",
-            doi: "10.1093/genetics/iyad001",
-            url: "https://doi.org/10.1093/genetics/iyad001",
-            abstract: "Polypoid population genetics has been long challenged by dosage uncertainty. We present a novel framework to infer site frequency spectrum (SFS) directly from dosage-encoded polyploid VCFs without 4N to 2N reduction bias.",
-            is_new: true
-          },
-          {
-            id: "paper-5",
-            title: "Genome-wide introgression and hybridization signatures in high-altitude cyprinids",
-            authors: ["Chen Y.", "Wu Z.", "Zheng L."],
-            journal: "Systematic Biology",
-            publish_date: "2026-07-15",
-            source: "NCBI",
-            doi: "10.1093/sysbio/syac099",
-            url: "https://doi.org/10.1093/sysbio/syac099",
-            abstract: "Interspecific hybridization plays a crucial role in adaptive radiation. Here we utilize D-suite and f4-ratio metrics across polyploid fish genomes to detect reticulate evolution.",
-            is_new: false
-          }
+      "stats": {
+        "total_count": 6,
+        "new_this_week": 2,
+        "weekly_trend": [
+          {"week": "2026-W27", "count": 1},
+          {"week": "2026-W28", "count": 1},
+          {"week": "2026-W29", "count": 2},
+          {"week": "2026-W30", "count": 0},
+          {"week": "2026-W31", "count": 2}
         ]
       }
-    }
-  };
-
-  let appState = {
-    data: null,
-    allPapers: [],
-    activeTrack: 'all',
-    activeSource: 'all',
-    searchQuery: '',
-    sortOrder: 'desc',
-    currentTheme: 'auto'
-  };
-
-  function initApp() {
-    loadData();
-    initTheme();
-    renderHeader();
-    renderWeeklyChart();
-    renderFilterControls();
-    renderPaperList();
+    };
   }
 
-  function loadData() {
-    const rawDataElem = document.getElementById('lit-radar-data');
-    let parsed = null;
-    if (rawDataElem && rawDataElem.textContent) {
-      const txt = rawDataElem.textContent.trim();
-      if (txt !== '__LIT_RADAR_DATA__') {
-        try {
-          parsed = JSON.parse(txt);
-        } catch (e) {
-          console.warn("Failed to parse #lit-radar-data, falling back to mock data.", e);
-        }
+  let radarData;
+  const scriptElem = document.getElementById('lit-radar-data');
+  if (scriptElem) {
+    const rawText = scriptElem.textContent.trim();
+    if (rawText === '__LIT_RADAR_DATA__' || !rawText) {
+      radarData = getMockData();
+    } else {
+      try {
+        radarData = JSON.parse(rawText);
+      } catch (e) {
+        radarData = getMockData();
       }
     }
-    appState.data = parsed || MOCK_DATA;
+  } else {
+    radarData = getMockData();
+  }
 
-    // Flatten all papers
-    appState.allPapers = [];
-    if (appState.data.tracks) {
-      Object.keys(appState.data.tracks).forEach(trackKey => {
-        const track = appState.data.tracks[trackKey];
-        if (track.papers) {
-          track.papers.forEach(p => {
-            appState.allPapers.push({
-              ...p,
-              trackKey: trackKey,
-              trackLabel: track.label || trackKey
-            });
-          });
-        }
+  let currentTrackKey = 'ALL';
+  let searchQuery = '';
+  let selectedSources = new Set();
+  let expandedPaperIds = new Set();
+
+  const allPapers = [];
+  const sourceSet = new Set();
+
+  if (radarData.tracks) {
+    Object.keys(radarData.tracks).forEach(key => {
+      const track = radarData.tracks[key];
+      if (track.papers && Array.isArray(track.papers)) {
+        track.papers.forEach((paper, idx) => {
+          paper._trackKey = key;
+          paper._trackLabel = track.label;
+          paper._id = `${key}_${idx}_${paper.title}`;
+          allPapers.push(paper);
+          if (paper.source) {
+            sourceSet.add(paper.source);
+          }
+        });
+      }
+    });
+  }
+
+  sourceSet.forEach(s => selectedSources.add(s));
+
+  const genAtDate = radarData.generated_at ? new Date(radarData.generated_at) : new Date();
+  const sevenDaysAgoMs = genAtDate.getTime() - (7 * 86400000);
+
+  function isPaperNew(paperDateStr) {
+    if (!paperDateStr) return false;
+    const pDate = new Date(paperDateStr);
+    return pDate.getTime() >= sevenDaysAgoMs;
+  }
+
+  function formatChineseDate(isoStr) {
+    if (!isoStr) return '';
+    try {
+      const d = new Date(isoStr);
+      if (isNaN(d.getTime())) return isoStr;
+      return d.toLocaleDateString('zh-CN', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
       });
+    } catch (e) {
+      return isoStr;
     }
   }
 
-  /* Theme System */
-  function initTheme() {
-    const savedTheme = localStorage.getItem('lit_radar_theme') || 'auto';
-    setTheme(savedTheme);
+  function initHeader() {
+    const timeElem = document.getElementById('header-time');
+    if (timeElem) timeElem.textContent = formatChineseDate(radarData.generated_at || '');
+
+    const totalValElem = document.getElementById('total-count-val');
+    if (totalValElem) totalValElem.textContent = radarData.stats?.total_count ?? allPapers.length;
+
+    const newValElem = document.getElementById('new-count-val');
+    if (newValElem) newValElem.textContent = radarData.stats?.new_this_week ?? allPapers.filter(p => isPaperNew(p.date)).length;
+
+    renderWeeklyChart();
   }
 
-  function toggleTheme() {
-    const modes = ['auto', 'dark', 'light'];
-    const nextIdx = (modes.indexOf(appState.currentTheme) + 1) % modes.length;
-    const nextTheme = modes[nextIdx];
-    setTheme(nextTheme);
-    localStorage.setItem('lit_radar_theme', nextTheme);
-  }
-
-  function setTheme(theme) {
-    appState.currentTheme = theme;
-    const root = document.documentElement;
-    const iconElem = document.getElementById('theme-icon');
-    const textElem = document.getElementById('theme-text');
-
-    if (theme === 'auto') {
-      root.removeAttribute('data-theme');
-      iconElem.textContent = '🌗';
-      textElem.textContent = '自动主题';
-    } else if (theme === 'dark') {
-      root.setAttribute('data-theme', 'dark');
-      iconElem.textContent = '🌙';
-      textElem.textContent = '深色模式';
-    } else {
-      root.setAttribute('data-theme', 'light');
-      iconElem.textContent = '☀️';
-      textElem.textContent = '浅色模式';
-    }
-  }
-
-  /* Header & Stats */
-  function renderHeader() {
-    const data = appState.data;
-    const genTimeElem = document.getElementById('gen-time');
-    if (data.generated_at) {
-      const dt = new Date(data.generated_at);
-      genTimeElem.textContent = isNaN(dt.getTime()) ? data.generated_at : dt.toLocaleString('zh-CN', {
-        year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'
-      });
-    }
-
-    const totalCount = data.stats && data.stats.total_count !== undefined ? data.stats.total_count : appState.allPapers.length;
-    const newCount = data.stats && data.stats.new_this_week !== undefined ? data.stats.new_this_week : appState.allPapers.filter(p => p.is_new).length;
-
-    document.getElementById('stat-total').textContent = totalCount;
-    document.getElementById('stat-new').textContent = newCount;
-  }
-
-  /* SVG Chart */
   function renderWeeklyChart() {
-    const svg = document.getElementById('weekly-chart');
-    const trend = (appState.data.stats && appState.data.stats.weekly_trend) || [];
-    if (!trend || trend.length === 0) return;
-
-    const width = 600;
-    const height = 140;
-    const padding = { top: 25, bottom: 30, left: 40, right: 40 };
-
-    const counts = trend.map(t => t.count);
-    const maxVal = Math.max(...counts, 5);
-
-    const stepX = (width - padding.left - padding.right) / (trend.length - 1 || 1);
-    const points = trend.map((t, idx) => {
-      const x = padding.left + idx * stepX;
-      const y = height - padding.bottom - (t.count / maxVal) * (height - padding.top - padding.bottom);
-      return { x, y, val: t.count, label: t.week };
-    });
-
-    let pathD = `M ${points[0].x} ${points[0].y}`;
-    points.forEach((p, i) => {
-      if (i > 0) pathD += ` L ${p.x} ${p.y}`;
-    });
-
-    const areaD = `${pathD} L ${points[points.length - 1].x} ${height - padding.bottom} L ${points[0].x} ${height - padding.bottom} Z`;
-
-    let html = `
-      <defs>
-        <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="var(--accent-primary)" stop-opacity="0.3"/>
-          <stop offset="100%" stop-color="var(--accent-primary)" stop-opacity="0.0"/>
-        </linearGradient>
-      </defs>
-      <line x1="${padding.left}" y1="${height - padding.bottom}" x2="${width - padding.right}" y2="${height - padding.bottom}" stroke="var(--border-color)" stroke-width="1"/>
-      <path d="${areaD}" fill="url(#chartGrad)" />
-      <path d="${pathD}" fill="none" stroke="var(--accent-primary)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
-    `;
-
-    points.forEach(p => {
-      html += `
-        <rect x="${p.x - 18}" y="${p.y - 18}" width="36" height="14" rx="4" fill="var(--bg-card)" stroke="var(--border-color)" stroke-width="1"/>
-        <text x="${p.x}" y="${p.y - 8}" fill="var(--accent-primary)" font-size="10" font-weight="bold" text-anchor="middle">${p.val}</text>
-        <circle cx="${p.x}" cy="${p.y}" r="4" fill="var(--accent-primary)" stroke="var(--bg-card)" stroke-width="2"/>
-        <text x="${p.x}" y="${height - 10}" fill="var(--text-muted)" font-size="11" text-anchor="middle">${p.label}</text>
-      `;
-    });
-
-    svg.innerHTML = html;
-  }
-
-  /* Filters */
-  function renderFilterControls() {
-    // Tracks Tabs
-    const trackTabsContainer = document.getElementById('track-tabs');
-    const tracks = appState.data.tracks || {};
-    let trackHtml = `
-      <button class="tab-btn ${appState.activeTrack === 'all' ? 'active' : ''}" onclick="selectTrack('all')">
-        全部 (${appState.allPapers.length})
-      </button>
-    `;
-
-    Object.keys(tracks).forEach(key => {
-      const track = tracks[key];
-      const count = (track.papers || []).length;
-      trackHtml += `
-        <button class="tab-btn ${appState.activeTrack === key ? 'active' : ''}" onclick="selectTrack('${key}')">
-          ${escapeHtml(track.label || key)} (${count})
-        </button>
-      `;
-    });
-    trackTabsContainer.innerHTML = trackHtml;
-
-    // Sources Pills
-    const sourceFiltersContainer = document.getElementById('source-filters');
-    const sourcesSet = new Set(appState.allPapers.map(p => p.source || 'Other'));
-    let sourceHtml = `
-      <button class="source-pill ${appState.activeSource === 'all' ? 'active' : ''}" data-source="all" onclick="selectSource('all')">
-        全部 Source
-      </button>
-    `;
-
-    sourcesSet.forEach(src => {
-      const srcCategory = getSourceCategory(src);
-      sourceHtml += `
-        <button class="source-pill ${appState.activeSource === src ? 'active' : ''}" data-source="${srcCategory}" onclick="selectSource('${escapeHtml(src)}')">
-          ${escapeHtml(src)}
-        </button>
-      `;
-    });
-    sourceFiltersContainer.innerHTML = sourceHtml;
-  }
-
-  function getSourceCategory(src) {
-    if (!src) return 'Other';
-    const s = src.toLowerCase();
-    if (s.includes('openalex')) return 'OpenAlex';
-    if (s.includes('pubmed')) return 'PubMed';
-    if (s.includes('biorxiv') || s.includes('medrxiv')) return 'bioRxiv';
-    return 'Other';
-  }
-
-  function selectTrack(trackKey) {
-    appState.activeTrack = trackKey;
-    renderFilterControls();
-    renderPaperList();
-  }
-
-  function selectSource(source) {
-    appState.activeSource = source;
-    renderFilterControls();
-    renderPaperList();
-  }
-
-  function handleSearchInput() {
-    appState.searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
-    renderPaperList();
-  }
-
-  function handleSortChange() {
-    appState.sortOrder = document.getElementById('sort-select').value;
-    renderPaperList();
-  }
-
-  /* Paper List Rendering */
-  function renderPaperList() {
-    const listContainer = document.getElementById('paper-list');
-    let papers = [...appState.allPapers];
-
-    // Filter Track
-    if (appState.activeTrack !== 'all') {
-      papers = papers.filter(p => p.trackKey === appState.activeTrack);
+    const trend = radarData.stats?.weekly_trend || [];
+    const container = document.getElementById('weekly-chart-container');
+    if (!container || !trend.length) {
+      if (container) container.style.display = 'none';
+      return;
     }
 
-    // Filter Source
-    if (appState.activeSource !== 'all') {
-      papers = papers.filter(p => (p.source || 'Other') === appState.activeSource);
-    }
+    const svgWidth = Math.max(400, trend.length * 70);
+    const svgHeight = 130;
+    const topMargin = 25;
+    const bottomMargin = 30;
+    const leftMargin = 30;
+    const rightMargin = 30;
+    const chartHeight = svgHeight - topMargin - bottomMargin;
+    const availableWidth = svgWidth - leftMargin - rightMargin;
+    const barStep = availableWidth / trend.length;
+    const barWidth = Math.min(36, barStep * 0.55);
 
-    // Search Filter
-    if (appState.searchQuery) {
-      const q = appState.searchQuery;
-      papers = papers.filter(p => {
-        const titleMatch = (p.title || '').toLowerCase().includes(q);
-        const authorMatch = (p.authors || []).join(' ').toLowerCase().includes(q);
-        const abstractMatch = (p.abstract || '').toLowerCase().includes(q);
-        return titleMatch || authorMatch || abstractMatch;
+    const maxCount = Math.max(1, ...trend.map(t => t.count));
+
+    let barsHTML = '';
+    trend.forEach((item, idx) => {
+      const x = leftMargin + idx * barStep + (barStep - barWidth) / 2;
+      const heightVal = Math.round((item.count / maxCount) * chartHeight);
+      const barH = item.count > 0 ? Math.max(4, heightVal) : 2;
+      const y = topMargin + chartHeight - barH;
+
+      barsHTML += `
+        <g class="bar-group">
+          <rect class="chart-bar" x="${x}" y="${y}" width="${barWidth}" height="${barH}" rx="4" ry="4" fill="url(#barGrad)">
+            <title>${item.week}: ${item.count} 篇</title>
+          </rect>
+          <text x="${x + barWidth / 2}" y="${y - 6}" text-anchor="middle" font-size="12" font-weight="600" fill="var(--text-primary)">${item.count}</text>
+          <text x="${x + barWidth / 2}" y="${svgHeight - 8}" text-anchor="middle" font-size="11" fill="var(--text-muted)">${item.week}</text>
+        </g>
+      `;
+    });
+
+    const svgHTML = `
+      <svg class="chart-svg" viewBox="0 0 ${svgWidth} ${svgHeight}" preserveAspectRatio="xMinYMin meet">
+        <defs>
+          <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="var(--accent-color)" />
+            <stop offset="100%" stop-color="var(--accent-hover)" stop-opacity="0.8" />
+          </linearGradient>
+        </defs>
+        ${barsHTML}
+      </svg>
+    `;
+
+    container.innerHTML = svgHTML;
+  }
+
+  function initTabs() {
+    const tabsContainer = document.getElementById('tracks-tabs');
+    if (!tabsContainer) return;
+
+    let html = `<button class="tab-btn active" data-track="ALL">全部文献</button>`;
+
+    if (radarData.tracks) {
+      Object.keys(radarData.tracks).forEach(key => {
+        const t = radarData.tracks[key];
+        html += `<button class="tab-btn" data-track="${key}">${t.label || key}</button>`;
       });
     }
 
-    // Sort
-    papers.sort((a, b) => {
-      const dateA = new Date(a.publish_date || '1970-01-01').getTime();
-      const dateB = new Date(b.publish_date || '1970-01-01').getTime();
-      return appState.sortOrder === 'asc' ? dateA - dateB : dateB - dateA;
+    tabsContainer.innerHTML = html;
+
+    tabsContainer.addEventListener('click', (e) => {
+      const btn = e.target.closest('.tab-btn');
+      if (!btn) return;
+
+      tabsContainer.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentTrackKey = btn.dataset.track;
+      renderPapers();
+    });
+  }
+
+  function initSourceFilters() {
+    const sourceContainer = document.getElementById('source-pills-container');
+    if (!sourceContainer) return;
+
+    let html = '';
+    const sortedSources = Array.from(sourceSet).sort();
+    sortedSources.forEach(s => {
+      html += `<div class="source-pill active" data-source="${s}">${s}</div>`;
     });
 
-    if (papers.length === 0) {
-      listContainer.innerHTML = `
+    sourceContainer.innerHTML = html;
+
+    sourceContainer.addEventListener('click', (e) => {
+      const pill = e.target.closest('.source-pill');
+      if (!pill) return;
+
+      const src = pill.dataset.source;
+      if (selectedSources.has(src)) {
+        selectedSources.delete(src);
+        pill.classList.remove('active');
+      } else {
+        selectedSources.add(src);
+        pill.classList.add('active');
+      }
+      renderPapers();
+    });
+
+    const toggleAllBtn = document.getElementById('toggle-sources-btn');
+    if (toggleAllBtn) {
+      toggleAllBtn.addEventListener('click', () => {
+        if (selectedSources.size === sourceSet.size) {
+          selectedSources.clear();
+          sourceContainer.querySelectorAll('.source-pill').forEach(p => p.classList.remove('active'));
+          toggleAllBtn.textContent = '全选';
+        } else {
+          sourceSet.forEach(s => selectedSources.add(s));
+          sourceContainer.querySelectorAll('.source-pill').forEach(p => p.classList.add('active'));
+          toggleAllBtn.textContent = '清空';
+        }
+        renderPapers();
+      });
+    }
+  }
+
+  function initSearch() {
+    const searchInput = document.getElementById('search-input');
+    if (!searchInput) return;
+
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      renderPapers();
+    });
+  }
+
+  function renderPapers() {
+    const paperListElem = document.getElementById('paper-list');
+    const papersCountElem = document.getElementById('filtered-count');
+    if (!paperListElem) return;
+
+    let filtered = allPapers.filter(paper => {
+      if (currentTrackKey !== 'ALL' && paper._trackKey !== currentTrackKey) {
+        return false;
+      }
+      if (paper.source && !selectedSources.has(paper.source)) {
+        return false;
+      }
+      if (searchQuery) {
+        const titleMatch = (paper.title || '').toLowerCase().includes(searchQuery);
+        const abstractMatch = (paper.abstract || '').toLowerCase().includes(searchQuery);
+        const authorMatch = (paper.authors || []).some(a => a.toLowerCase().includes(searchQuery));
+        if (!titleMatch && !abstractMatch && !authorMatch) {
+          return false;
+        }
+      }
+      return true;
+    });
+
+    filtered.sort((a, b) => {
+      const dateA = a.date ? new Date(a.date).getTime() : 0;
+      const dateB = b.date ? new Date(b.date).getTime() : 0;
+      return dateB - dateA;
+    });
+
+    if (papersCountElem) {
+      papersCountElem.textContent = `显示 ${filtered.length} / 共 ${allPapers.length} 篇文献`;
+    }
+
+    if (filtered.length === 0) {
+      paperListElem.innerHTML = `
         <div class="empty-state">
           <p>未找到符合条件的文献</p>
         </div>
@@ -982,79 +1094,100 @@
     }
 
     let html = '';
-    papers.forEach(paper => {
-      const paperUrl = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : '#');
-      const authorsFormatted = formatAuthors(paper.authors);
-      const sourceCategory = getSourceCategory(paper.source);
+    filtered.forEach((paper) => {
+      const isNew = isPaperNew(paper.date);
+      const isExpanded = expandedPaperIds.has(paper._id);
+
+      let authorsStr = '';
+      if (paper.authors && Array.isArray(paper.authors) && paper.authors.length > 0) {
+        if (paper.authors.length > 3) {
+          authorsStr = paper.authors.slice(0, 3).join(', ') + ' 等';
+        } else {
+          authorsStr = paper.authors.join(', ');
+        }
+      }
+
+      const paperUrl = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : null);
 
       html += `
-        <article class="paper-card" id="${escapeHtml(paper.id || '')}">
-          <div class="paper-header">
-            <span class="badge badge-track">${escapeHtml(paper.trackLabel)}</span>
-            <span class="badge badge-source" data-source="${sourceCategory}">${escapeHtml(paper.source || 'Other')}</span>
-            ${paper.is_new ? '<span class="badge badge-new">NEW</span>' : ''}
-            <span class="paper-date">${escapeHtml(paper.publish_date || '')}</span>
+        <div class="paper-card" data-id="${paper._id}">
+          <div class="paper-title-row">
+            <h3 class="paper-title" onclick="toggleAbstract('${paper._id}')">${paper.title || '无标题'}</h3>
+            ${paperUrl ? `
+              <a href="${paperUrl}" target="_blank" rel="noopener noreferrer" class="paper-link-btn" title="查看原文/DOI" onclick="event.stopPropagation()">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            ` : ''}
           </div>
 
-          <a class="paper-title" href="${escapeHtml(paperUrl)}" target="_blank" rel="noopener noreferrer">
-            ${escapeHtml(paper.title || 'Untitled')}
-          </a>
-
-          <div class="paper-meta">
-            <span class="meta-authors">${escapeHtml(authorsFormatted)}</span>
-            ${paper.journal ? `<span class="meta-journal">• ${escapeHtml(paper.journal)}</span>` : ''}
+          <div class="paper-meta-row">
+            ${isNew ? `<span class="badge badge-new">NEW</span>` : ''}
+            ${paper.source ? `<span class="badge badge-source" data-source="${paper.source}">${paper.source}</span>` : ''}
+            <span class="paper-date">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              ${paper.date || '无日期'}
+            </span>
+            ${paper._trackLabel ? `<span class="paper-date" style="opacity:0.8;">[${paper._trackLabel}]</span>` : ''}
           </div>
+
+          ${authorsStr ? `<div class="paper-authors">作者：${authorsStr}</div>` : ''}
+          ${paper.journal ? `<div class="paper-journal">期刊：${paper.journal}</div>` : ''}
 
           ${paper.abstract ? `
-            <div class="abstract-wrapper">
-              <button class="btn-toggle-abstract" onclick="toggleAbstract('${escapeHtml(paper.id || '')}')">
-                <span>展开摘要</span> ▼
-              </button>
-              <div class="abstract-body" id="abstract-${escapeHtml(paper.id || '')}">
-                ${escapeHtml(paper.abstract)}
-              </div>
+            <button class="abstract-toggle-btn ${isExpanded ? 'expanded' : ''}" onclick="toggleAbstract('${paper._id}')">
+              ${isExpanded ? '收起摘要' : '查看摘要'}
+              <svg class="icon chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="abstract-box ${isExpanded ? 'expanded' : ''}" id="abstract-${paper._id}">
+              ${paper.abstract}
             </div>
           ` : ''}
-        </article>
+        </div>
       `;
     });
 
-    listContainer.innerHTML = html;
+    paperListElem.innerHTML = html;
   }
 
-  function formatAuthors(authors) {
-    if (!authors || authors.length === 0) return '未知作者';
-    if (authors.length <= 3) {
-      return authors.join(', ');
-    }
-    return `${authors.slice(0, 3).join(', ')} 等`;
-  }
-
-  function toggleAbstract(paperId) {
-    const abstractElem = document.getElementById(`abstract-${paperId}`);
-    if (!abstractElem) return;
-
-    const btn = abstractElem.previousElementSibling;
-    const isOpen = abstractElem.classList.contains('open');
-
-    if (isOpen) {
-      abstractElem.classList.remove('open');
-      if (btn) btn.innerHTML = `<span>展开摘要</span> ▼`;
+  window.toggleAbstract = function(id) {
+    if (expandedPaperIds.has(id)) {
+      expandedPaperIds.delete(id);
     } else {
-      abstractElem.classList.add('open');
-      if (btn) btn.innerHTML = `<span>收起摘要</span> ▲`;
+      expandedPaperIds.add(id);
     }
+    renderPapers();
+  };
+
+  function initTheme() {
+    const btn = document.getElementById('theme-toggle-btn');
+    if (!btn) return;
+
+    btn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      let nextTheme;
+      if (!currentTheme) {
+        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        nextTheme = isDark ? 'light' : 'dark';
+      } else {
+        nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', nextTheme);
+    });
   }
 
-  function escapeHtml(str) {
-    if (!str) return '';
-    return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#039;');
+  function startApp() {
+    initHeader();
+    initTabs();
+    initSourceFilters();
+    initSearch();
+    initTheme();
+    renderPapers();
   }
 
-  document.addEventListener('DOMContentLoaded', initApp);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startApp);
+  } else {
+    startApp();
+  }
+})();
 </script>
