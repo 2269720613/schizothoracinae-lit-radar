@@ -11,8 +11,11 @@ PLACEHOLDER = "__LIT_RADAR_DATA__"
 
 
 def render(template_str, data_obj):
-    if PLACEHOLDER not in template_str:
-        raise ValueError(f"placeholder {PLACEHOLDER} not found in template")
+    count = template_str.count(PLACEHOLDER)
+    if count != 1:
+        raise ValueError(
+            f"expected exactly 1 occurrence of {PLACEHOLDER} in template, found {count}"
+        )
     data_json_str = json.dumps(data_obj, ensure_ascii=False).replace("</script>", "<\\/script>")
     return template_str.replace(PLACEHOLDER, data_json_str)
 
