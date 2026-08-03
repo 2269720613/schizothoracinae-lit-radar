@@ -1,24 +1,22 @@
-<title>Schizothoracinae Lit Radar - 文献监测看板</title>
+<title>Schizothoracinae Lit Radar - 科研文献看板</title>
 <style>
   :root {
-    --bg-primary: #f8fafc;
-    --bg-secondary: #ffffff;
-    --bg-tertiary: #f1f5f9;
+    --bg-body: #f8fafc;
     --bg-card: #ffffff;
+    --bg-tertiary: #f1f5f9;
     --bg-hover: #f8fafc;
     --text-primary: #0f172a;
     --text-secondary: #475569;
     --text-muted: #94a3b8;
     --border-color: #e2e8f0;
-    --accent-color: #2563eb;
-    --accent-hover: #1d4ed8;
-    --accent-light: #eff6ff;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-
-    --badge-new-bg: #ef4444;
-    --badge-new-text: #ffffff;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --primary-light: #eff6ff;
+    --accent-new: #ef4444;
+    --accent-new-bg: #fef2f2;
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
 
     --source-openalex-bg: #dbeafe;
     --source-openalex-text: #1e40af;
@@ -30,28 +28,30 @@
     --source-cnki-text: #6b21a8;
     --source-default-bg: #e2e8f0;
     --source-default-text: #334155;
+
+    --chart-bar-bg: #3b82f6;
+    --chart-bar-hover: #2563eb;
+    --chart-text: #64748b;
   }
 
   @media (prefers-color-scheme: dark) {
-    :root {
-      --bg-primary: #0f172a;
-      --bg-secondary: #1e293b;
-      --bg-tertiary: #334155;
+    :root:not([data-theme="light"]) {
+      --bg-body: #0f172a;
       --bg-card: #1e293b;
+      --bg-tertiary: #334155;
       --bg-hover: #2d3748;
       --text-primary: #f8fafc;
       --text-secondary: #cbd5e1;
       --text-muted: #64748b;
       --border-color: #334155;
-      --accent-color: #3b82f6;
-      --accent-hover: #60a5fa;
-      --accent-light: rgba(59, 130, 246, 0.15);
-      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+      --primary: #3b82f6;
+      --primary-hover: #60a5fa;
+      --primary-light: rgba(59, 130, 246, 0.15);
+      --accent-new: #f87171;
+      --accent-new-bg: rgba(239, 68, 68, 0.2);
+      --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
       --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
       --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
-
-      --badge-new-bg: #ef4444;
-      --badge-new-text: #ffffff;
 
       --source-openalex-bg: rgba(30, 64, 175, 0.35);
       --source-openalex-text: #93c5fd;
@@ -63,60 +63,30 @@
       --source-cnki-text: #d8b4fe;
       --source-default-bg: rgba(51, 65, 85, 0.5);
       --source-default-text: #cbd5e1;
+
+      --chart-bar-bg: #60a5fa;
+      --chart-bar-hover: #93c5fd;
+      --chart-text: #94a3b8;
     }
   }
 
-  :root[data-theme="light"] {
-    --bg-primary: #f8fafc;
-    --bg-secondary: #ffffff;
-    --bg-tertiary: #f1f5f9;
-    --bg-card: #ffffff;
-    --bg-hover: #f8fafc;
-    --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --text-muted: #94a3b8;
-    --border-color: #e2e8f0;
-    --accent-color: #2563eb;
-    --accent-hover: #1d4ed8;
-    --accent-light: #eff6ff;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-
-    --badge-new-bg: #ef4444;
-    --badge-new-text: #ffffff;
-
-    --source-openalex-bg: #dbeafe;
-    --source-openalex-text: #1e40af;
-    --source-pubmed-bg: #dcfce7;
-    --source-pubmed-text: #166534;
-    --source-biorxiv-bg: #ffedd5;
-    --source-biorxiv-text: #9a3412;
-    --source-cnki-bg: #f3e8ff;
-    --source-cnki-text: #6b21a8;
-    --source-default-bg: #e2e8f0;
-    --source-default-text: #334155;
-  }
-
   :root[data-theme="dark"] {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #334155;
+    --bg-body: #0f172a;
     --bg-card: #1e293b;
+    --bg-tertiary: #334155;
     --bg-hover: #2d3748;
     --text-primary: #f8fafc;
     --text-secondary: #cbd5e1;
     --text-muted: #64748b;
     --border-color: #334155;
-    --accent-color: #3b82f6;
-    --accent-hover: #60a5fa;
-    --accent-light: rgba(59, 130, 246, 0.15);
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --primary: #3b82f6;
+    --primary-hover: #60a5fa;
+    --primary-light: rgba(59, 130, 246, 0.15);
+    --accent-new: #f87171;
+    --accent-new-bg: rgba(239, 68, 68, 0.2);
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
-
-    --badge-new-bg: #ef4444;
-    --badge-new-text: #ffffff;
 
     --source-openalex-bg: rgba(30, 64, 175, 0.35);
     --source-openalex-text: #93c5fd;
@@ -128,536 +98,111 @@
     --source-cnki-text: #d8b4fe;
     --source-default-bg: rgba(51, 65, 85, 0.5);
     --source-default-text: #cbd5e1;
+
+    --chart-bar-bg: #60a5fa;
+    --chart-bar-hover: #93c5fd;
+    --chart-text: #94a3b8;
   }
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  :root[data-theme="light"] {
+    --bg-body: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-tertiary: #f1f5f9;
+    --bg-hover: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --border-color: #e2e8f0;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --primary-light: #eff6ff;
+    --accent-new: #ef4444;
+    --accent-new-bg: #fef2f2;
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+
+    --source-openalex-bg: #dbeafe;
+    --source-openalex-text: #1e40af;
+    --source-pubmed-bg: #dcfce7;
+    --source-pubmed-text: #166534;
+    --source-biorxiv-bg: #ffedd5;
+    --source-biorxiv-text: #9a3412;
+    --source-cnki-bg: #f3e8ff;
+    --source-cnki-text: #6b21a8;
+    --source-default-bg: #e2e8f0;
+    --source-default-text: #334155;
+
+    --chart-bar-bg: #3b82f6;
+    --chart-bar-hover: #2563eb;
+    --chart-text: #64748b;
   }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
 
   body, #app {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-color: var(--bg-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-body);
     color: var(--text-primary);
-    min-height: 100vh;
     line-height: 1.5;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
   }
 
-  .container {
+  .dashboard-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px 16px;
+    padding: 20px 16px 40px;
   }
 
-  /* Header Section */
-  .header-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 16px;
-    padding: 24px;
-    margin-bottom: 24px;
-    box-shadow: var(--shadow-md);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  .header-banner {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 20px;
+    box-shadow: var(--shadow-sm);
   }
 
-  .header-top {
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 12px;
   }
 
   .header-title-group h1 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .header-title-group .time-meta {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    margin-top: 4px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .stats-summary {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
-  }
-
-  .stat-badge {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 10px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .stat-badge .stat-val {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: var(--text-primary);
-    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 
-  .stat-badge .stat-lbl {
-    font-size: 0.75rem;
+  .header-time {
+    font-size: 0.85rem;
     color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .stat-badge.highlight {
-    background: var(--accent-light);
-    border-color: rgba(37, 99, 235, 0.3);
-  }
-
-  .stat-badge.highlight .stat-val {
-    color: var(--accent-color);
+    margin-top: 2px;
   }
 
   .theme-toggle-btn {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    border-radius: 10px;
-    padding: 8px 12px;
-    cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
     font-size: 0.85rem;
+    cursor: pointer;
     transition: all 0.2s ease;
   }
 
   .theme-toggle-btn:hover {
-    background: var(--bg-hover);
+    background: var(--border-color);
     color: var(--text-primary);
-  }
-
-  /* Trend Chart Container */
-  .trend-section {
-    border-top: 1px solid var(--border-color);
-    padding-top: 16px;
-  }
-
-  .trend-title {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .chart-overflow-container {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .chart-svg {
-    min-width: 400px;
-    width: 100%;
-    height: 140px;
-  }
-
-  .chart-bar {
-    transition: opacity 0.2s ease;
-    cursor: pointer;
-  }
-
-  .chart-bar:hover {
-    opacity: 0.85;
-  }
-
-  /* Controls Section */
-  .controls-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 24px;
-    box-shadow: var(--shadow-sm);
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  /* Search Input */
-  .search-wrapper {
-    position: relative;
-    width: 100%;
-  }
-
-  .search-input {
-    width: 100%;
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 12px 16px 12px 42px;
-    font-size: 0.95rem;
-    color: var(--text-primary);
-    outline: none;
-    transition: all 0.2s ease;
-  }
-
-  .search-input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px var(--accent-light);
-    background: var(--bg-secondary);
-  }
-
-  .search-icon {
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-muted);
-    width: 18px;
-    height: 18px;
-  }
-
-  /* Tracks Tabs */
-  .tabs-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .tab-btn {
-    background: transparent;
-    border: none;
-    color: var(--text-secondary);
-    padding: 8px 16px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    border-radius: 8px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 0.2s ease;
-  }
-
-  .tab-btn:hover {
-    background: var(--bg-tertiary);
-    color: var(--text-primary);
-  }
-
-  .tab-btn.active {
-    background: var(--accent-color);
-    color: #ffffff;
-    font-weight: 600;
-  }
-
-  /* Source Filter Group */
-  .source-filter-wrapper {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .source-filter-label {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .source-pills {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .source-pill {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    cursor: pointer;
-    user-select: none;
-    transition: all 0.2s ease;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .source-pill:hover {
-    border-color: var(--text-muted);
-  }
-
-  .source-pill.active {
-    border-color: transparent;
-  }
-
-  .source-pill[data-source="OpenAlex"].active {
-    background: var(--source-openalex-bg);
-    color: var(--source-openalex-text);
-  }
-
-  .source-pill[data-source="PubMed"].active {
-    background: var(--source-pubmed-bg);
-    color: var(--source-pubmed-text);
-  }
-
-  .source-pill[data-source="bioRxiv"].active {
-    background: var(--source-biorxiv-bg);
-    color: var(--source-biorxiv-text);
-  }
-
-  .source-pill[data-source="CNKI"].active {
-    background: var(--source-cnki-bg);
-    color: var(--source-cnki-text);
-  }
-
-  .source-pill.active:not([data-source="OpenAlex"]):not([data-source="PubMed"]):not([data-source="bioRxiv"]):not([data-source="CNKI"]) {
-    background: var(--source-default-bg);
-    color: var(--source-default-text);
-  }
-
-  .toggle-all-btn {
-    background: transparent;
-    border: 1px dashed var(--border-color);
-    color: var(--text-muted);
-    padding: 4px 10px;
-    border-radius: 16px;
-    font-size: 0.75rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .toggle-all-btn:hover {
-    color: var(--text-primary);
-    border-color: var(--text-muted);
-  }
-
-  /* Paper List Section */
-  .papers-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-
-  .papers-count-info {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-  }
-
-  .paper-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .paper-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 14px;
-    padding: 20px;
-    box-shadow: var(--shadow-sm);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  }
-
-  .paper-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-    border-color: rgba(59, 130, 246, 0.4);
-  }
-
-  .paper-title-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 10px;
-  }
-
-  .paper-title {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    line-height: 1.4;
-    cursor: pointer;
-    transition: color 0.2s ease;
-    flex: 1;
-  }
-
-  .paper-title:hover {
-    color: var(--accent-color);
-  }
-
-  .paper-link-btn {
-    color: var(--text-muted);
-    padding: 4px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    flex-shrink: 0;
-  }
-
-  .paper-link-btn:hover {
-    color: var(--accent-color);
-    background: var(--accent-light);
-  }
-
-  .paper-meta-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 10px;
-  }
-
-  /* Badges */
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 2px 8px;
-    border-radius: 6px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    line-height: 1.4;
-  }
-
-  .badge-new {
-    background: var(--badge-new-bg);
-    color: var(--badge-new-text);
-    box-shadow: 0 0 8px rgba(239, 68, 68, 0.4);
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.8; }
-    100% { opacity: 1; }
-  }
-
-  .badge-source {
-    font-weight: 600;
-  }
-
-  .badge-source[data-source="OpenAlex"] {
-    background: var(--source-openalex-bg);
-    color: var(--source-openalex-text);
-  }
-
-  .badge-source[data-source="PubMed"] {
-    background: var(--source-pubmed-bg);
-    color: var(--source-pubmed-text);
-  }
-
-  .badge-source[data-source="bioRxiv"] {
-    background: var(--source-biorxiv-bg);
-    color: var(--source-biorxiv-text);
-  }
-
-  .badge-source[data-source="CNKI"] {
-    background: var(--source-cnki-bg);
-    color: var(--source-cnki-text);
-  }
-
-  .badge-source:not([data-source="OpenAlex"]):not([data-source="PubMed"]):not([data-source="bioRxiv"]):not([data-source="CNKI"]) {
-    background: var(--source-default-bg);
-    color: var(--source-default-text);
-  }
-
-  .paper-date {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-  }
-
-  .paper-authors {
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    margin-bottom: 6px;
-  }
-
-  .paper-journal {
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    font-style: italic;
-    margin-bottom: 8px;
-  }
-
-  .abstract-toggle-btn {
-    background: transparent;
-    border: none;
-    color: var(--accent-color);
-    font-size: 0.82rem;
-    font-weight: 500;
-    cursor: pointer;
-    padding: 2px 0;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    transition: opacity 0.2s ease;
-  }
-
-  .abstract-toggle-btn:hover {
-    opacity: 0.8;
-  }
-
-  .abstract-box {
-    margin-top: 10px;
-    background: var(--bg-tertiary);
-    border-left: 3px solid var(--accent-color);
-    border-radius: 0 8px 8px 0;
-    padding: 12px 16px;
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    line-height: 1.6;
-    display: none;
-    animation: fadeIn 0.2s ease-in-out;
-  }
-
-  .abstract-box.expanded {
-    display: block;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-4px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .empty-state {
-    text-align: center;
-    padding: 48px 16px;
-    color: var(--text-muted);
-    background: var(--bg-secondary);
-    border: 1px dashed var(--border-color);
-    border-radius: 14px;
   }
 
   .icon {
@@ -666,353 +211,803 @@
     vertical-align: middle;
   }
 
-  .icon.chevron {
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card-highlight {
+    border-color: var(--accent-new);
+    background: linear-gradient(135deg, var(--bg-card) 80%, var(--accent-new-bg));
+  }
+
+  .stat-title {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .stat-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-top: 4px;
+  }
+
+  .stat-card-highlight .stat-value {
+    color: var(--accent-new);
+  }
+
+  .stat-badge-pulse {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: var(--accent-new);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+
+  .trend-chart-wrapper {
+    margin-top: 8px;
+  }
+
+  .overflow-x-auto {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .trend-svg {
+    width: 100%;
+    max-width: 320px;
+    height: 70px;
+    display: block;
+  }
+
+  .chart-bar {
+    fill: var(--chart-bar-bg);
+    transition: fill 0.2s ease;
+  }
+
+  .chart-bar:hover, .chart-bar-max {
+    fill: var(--primary);
+  }
+
+  .chart-value {
+    fill: var(--text-secondary);
+    font-size: 10px;
+    font-weight: 600;
+    text-anchor: middle;
+  }
+
+  .chart-label {
+    fill: var(--chart-text);
+    font-size: 9px;
+    text-anchor: middle;
+  }
+
+  .controls-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .search-box {
+    position: relative;
+    width: 100%;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    width: 18px;
+    height: 18px;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: 10px 12px 10px 38px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-box input:focus {
+    border-color: var(--primary);
+    background: var(--bg-card);
+  }
+
+  .source-filter-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .filter-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+
+  .source-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .source-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+  }
+
+  .source-pill:hover {
+    border-color: var(--primary);
+  }
+
+  .source-pill.active {
+    background: var(--primary-light);
+    border-color: var(--primary);
+    color: var(--primary);
+    font-weight: 600;
+  }
+
+  .pill-checkbox {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    border: 1px solid var(--text-muted);
+    display: inline-block;
+    position: relative;
+  }
+
+  .source-pill.active .pill-checkbox {
+    background: var(--primary);
+    border-color: var(--primary);
+  }
+
+  .source-pill.active .pill-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 6px;
+    border: solid #fff;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+  }
+
+  .btn-toggle-all {
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 0.82rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: underline;
+  }
+
+  .tabs-container {
+    display: flex;
+    gap: 8px;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 16px;
+    overflow-x: auto;
+  }
+
+  .track-tab {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+  }
+
+  .track-tab:hover {
+    color: var(--text-primary);
+  }
+
+  .track-tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+  }
+
+  .filtered-meta-row {
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .paper-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .paper-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .paper-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--text-muted);
+  }
+
+  .paper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    cursor: pointer;
+  }
+
+  .paper-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.4;
+    flex: 1;
+  }
+
+  .paper-title:hover {
+    color: var(--primary);
+  }
+
+  .paper-external-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+
+  .paper-external-link:hover {
+    background: var(--primary);
+    color: #ffffff;
+  }
+
+  .paper-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  .badge-new {
+    background: var(--accent-new);
+    color: #ffffff;
+  }
+
+  .badge-source {
+    background: var(--source-default-bg);
+    color: var(--source-default-text);
+  }
+
+  .badge-source-openalex {
+    background: var(--source-openalex-bg);
+    color: var(--source-openalex-text);
+  }
+
+  .badge-source-pubmed {
+    background: var(--source-pubmed-bg);
+    color: var(--source-pubmed-text);
+  }
+
+  .badge-source-biorxiv {
+    background: var(--source-biorxiv-bg);
+    color: var(--source-biorxiv-text);
+  }
+
+  .badge-source-cnki {
+    background: var(--source-cnki-bg);
+    color: var(--source-cnki-text);
+  }
+
+  .badge-track {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+  }
+
+  .paper-meta {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  .paper-authors {
+    color: var(--text-secondary);
+  }
+
+  .paper-journal {
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .paper-date {
+    color: var(--text-muted);
+  }
+
+  .abstract-toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 6px;
+    padding: 2px 0;
+  }
+
+  .chevron {
     transition: transform 0.2s ease;
   }
 
-  .abstract-toggle-btn.expanded .icon.chevron {
+  .abstract-toggle-btn.expanded .chevron {
     transform: rotate(180deg);
+  }
+
+  .abstract-box {
+    display: none;
+    margin-top: 10px;
+    padding: 12px;
+    background: var(--bg-tertiary);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    border-left: 3px solid var(--primary);
+  }
+
+  .abstract-box.expanded {
+    display: block;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--bg-card);
+    border: 1px dashed var(--border-color);
+    border-radius: 12px;
+    color: var(--text-muted);
   }
 </style>
 
-<script id="lit-radar-data" type="application/json">__LIT_RADAR_DATA__</script>
-
 <div id="app">
-  <div class="container">
-    <!-- Header Card -->
-    <div class="header-card">
-      <div class="header-top">
-        <div class="header-title-group">
-          <h1>Schizothoracinae Lit Radar</h1>
-          <div class="time-meta">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            更新时间：<span id="header-time">加载中...</span>
-          </div>
-        </div>
-        <div class="stats-summary">
-          <div class="stat-badge">
-            <span class="stat-val" id="total-count-val">0</span>
-            <span class="stat-lbl">文献总数</span>
-          </div>
-          <div class="stat-badge highlight">
-            <span class="stat-val" id="new-count-val">0</span>
-            <span class="stat-lbl">本周新增</span>
-          </div>
-          <button class="theme-toggle-btn" id="theme-toggle-btn" title="切换主题">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-            <span>主题</span>
-          </button>
-        </div>
+  <header class="header-banner">
+    <div class="header-content">
+      <div class="header-title-group">
+        <h1>
+          <svg class="icon" style="width:22px;height:22px;color:var(--primary);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l5 4"/></svg>
+          Schizothoracinae Lit Radar 看板
+        </h1>
+        <div class="header-time" id="generated-at-display">更新时间：加载中...</div>
+      </div>
+      <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="切换主题">
+        <!-- Theme Icon JS inserted -->
+      </button>
+    </div>
+  </header>
+
+  <main class="dashboard-container">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-title">文献总数</div>
+        <div class="stat-value" id="stat-total-count">0</div>
       </div>
 
-      <div class="trend-section">
-        <div class="trend-title">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-          近周文献发布趋势 (Weekly Trend)
+      <div class="stat-card stat-card-highlight">
+        <div class="stat-title">本周新增</div>
+        <div class="stat-value" id="stat-new-count">0</div>
+        <span class="stat-badge-pulse">NEW</span>
+      </div>
+
+      <div class="stat-card stat-card-trend">
+        <div class="stat-title">近 6 周新增趋势</div>
+        <div class="trend-chart-wrapper" id="trend-chart-container">
+          <!-- SVG rendered here -->
         </div>
-        <div class="chart-overflow-container" id="weekly-chart-container"></div>
       </div>
     </div>
 
-    <!-- Controls Card -->
     <div class="controls-card">
-      <div class="search-wrapper">
+      <div class="search-box">
         <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="text" id="search-input" class="search-input" placeholder="搜索文献标题、摘要、作者关键词...">
+        <input type="text" id="search-input" placeholder="按标题、摘要或作者关键字检索..." aria-label="搜索文献" />
       </div>
-
-      <div class="tabs-wrapper" id="tracks-tabs"></div>
 
       <div class="source-filter-wrapper">
-        <div class="source-filter-label">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
-          来源数据库：
+        <span class="filter-label">来源数据库：</span>
+        <div class="source-pills" id="source-pills-container">
+          <!-- Pills rendered here -->
         </div>
-        <div class="source-pills" id="source-pills-container"></div>
-        <button class="toggle-all-btn" id="toggle-sources-btn">清空</button>
+        <button type="button" class="btn-toggle-all" id="toggle-sources-btn">全选/清空</button>
       </div>
     </div>
 
-    <!-- Papers List Section -->
-    <div class="papers-header">
-      <div class="papers-count-info" id="filtered-count">显示 0 篇文献</div>
+    <div class="tabs-container" id="track-tabs-container">
+      <!-- Track Tabs rendered here -->
     </div>
-    <div class="paper-list" id="paper-list"></div>
-  </div>
+
+    <div class="filtered-meta-row">
+      <span id="filtered-count">显示 0 篇文献</span>
+    </div>
+
+    <div class="paper-list" id="paper-list">
+      <!-- Paper items rendered here -->
+    </div>
+  </main>
 </div>
 
+<script id="lit-radar-data" type="application/json">__LIT_RADAR_DATA__</script>
 <script>
 (function() {
-  function getMockData() {
+  function escapeHtml(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function safeUrl(rawUrl, doi) {
+    let url = rawUrl;
+    if (!url && doi) {
+      const cleanDoi = String(doi).trim();
+      if (cleanDoi.startsWith('http://') || cleanDoi.startsWith('https://')) {
+        url = cleanDoi;
+      } else {
+        url = 'https://doi.org/' + cleanDoi;
+      }
+    }
+    if (!url || typeof url !== 'string') return null;
+    const trimmed = url.trim();
+    if (/^https?:\/\//i.test(trimmed)) {
+      return trimmed;
+    }
+    return null;
+  }
+
+  function formatDateTime(isoStr) {
+    if (!isoStr) return '未知时间';
+    const d = new Date(isoStr);
+    if (isNaN(d.getTime())) return escapeHtml(isoStr);
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    const hh = String(d.getHours()).padStart(2, '0');
+    const mm = String(d.getMinutes()).padStart(2, '0');
+    return `${y}年${m}月${day}日 ${hh}:${mm}`;
+  }
+
+  function isPaperNew(paperDateStr, generatedAtStr) {
+    if (!paperDateStr || !generatedAtStr) return false;
+    const pDate = new Date(paperDateStr);
+    const gDate = new Date(generatedAtStr);
+    if (isNaN(pDate.getTime()) || isNaN(gDate.getTime())) return false;
+    const diffMs = gDate.getTime() - pDate.getTime();
+    const diffDays = diffMs / (1000 * 60 * 60 * 24);
+    return diffDays >= -1 && diffDays <= 7;
+  }
+
+  function getFallbackData() {
     return {
       "generated_at": "2026-08-04T06:00:00Z",
       "tracks": {
         "A": {
           "label": "裂腹鱼亚科物种精确检索",
-          "keywords": ["Schizothoracinae", "Gymnocypris", "Schizopygopsis", "Oxygymnocypris"],
+          "keywords": ["Schizothoracinae", "Gymnocypris"],
           "papers": [
             {
-              "title": "Genome-wide speciation patterns and environmental adaptation in high-altitude Schizothoracinae fishes",
-              "authors": ["Zhang, W.", "Li, Y.", "Wang, X.", "Chen, Z."],
+              "id": "demo-1",
+              "title": "High-altitude adaptation mechanism of Schizothorax prenanti based on chromosome-level genome assembly",
+              "authors": ["Zhang Y", "Wang X", "Li H", "Chen Z"],
               "journal": "Molecular Ecology",
               "date": "2026-08-02",
-              "source": "OpenAlex",
-              "doi": "10.1111/mec.16890",
-              "url": "https://doi.org/10.1111/mec.16890",
-              "abstract": "Schizothoracinae (teleost fish) inhabit the Qinghai-Tibetan Plateau and provide an exceptional model for studying extreme environment adaptation. Here we sequenced 120 high-coverage genomes across 15 species from major river basins. Phylogenomic analysis resolved long-standing taxonomic controversies and pinpointed specific gene duplications in hypoxia response pathways."
+              "doi": "10.1111/mec.17890",
+              "url": "https://doi.org/10.1111/mec.17890",
+              "abstract": "We present a chromosome-level genome assembly of Schizothorax prenanti and identify expanded gene families involved in hypoxia tolerance and low temperature adaptation in Qinghai-Tibet Plateau aquatic environments.",
+              "track": "A",
+              "source": "OpenAlex"
             },
             {
-              "title": "High-altitude hypoxia adaptation mechanisms in Gymnocypris przewalskii based on single-cell transcriptome",
-              "authors": ["Liu, H.", "Zhao, K.", "Yang, L."],
-              "journal": "bioRxiv",
-              "date": "2026-07-29",
-              "source": "bioRxiv",
-              "doi": "10.1101/2026.07.29.589012",
-              "url": "https://biorxiv.org/content/10.1101/2026.07.29.589012",
-              "abstract": "Gymnocypris przewalskii is an iconic endemic Schizothoracinae fish in Qinghai Lake. Single-cell RNA sequencing of gill filaments and heart tissue revealed specialized cell clusters involved in ion regulation under high alkalinity and low oxygen conditions."
-            },
-            {
-              "title": "Phylogenomic insights into the adaptive radiation of Schizopygopsis pylzovi in the Yellow River basin",
-              "authors": ["Sun, G.", "Ma, R.", "He, S."],
+              "id": "demo-2",
+              "title": "Mitochondrial phylogenomics reveals ancient introgressive hybridization in Qinghai Lake naked carp",
+              "authors": ["Liu M", "Zhao K", "Yang J"],
               "journal": "Systematic Biology",
-              "date": "2026-07-15",
-              "source": "PubMed",
-              "doi": "10.1093/sysbio/syab045",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/38901234/",
-              "abstract": "Target capture sequencing was applied to investigate genomic divergence and historical population dynamics of Schizopygopsis pylzovi. Results suggest rapid adaptive radiation following the uplift of the northeastern Tibetan Plateau during the late Pleistocene."
+              "date": "2026-07-28",
+              "doi": "10.1093/sysbio/syz045",
+              "url": "https://doi.org/10.1093/sysbio/syz045",
+              "abstract": "Analysis of 12 complete mitochondrial genomes demonstrates complex reticulate evolution and historical gene flow between Gymnocypris przewalskii and neighboring schizothoracine fishes.",
+              "track": "A",
+              "source": "PubMed"
             }
           ]
         },
         "B": {
           "label": "群体遗传方法学前沿",
-          "keywords": ["Demographic History", "dadi", "fsc28", "SFS", "Polyploid Dosage"],
+          "keywords": ["Introgression", "MSMC2", "D-statistics"],
           "papers": [
             {
-              "title": "Inferring complex demographic histories in autopolyploid populations using dosage-encoded SFS",
-              "authors": ["Gautier, M.", "Vitalis, R.", "Rousset, F."],
-              "journal": "Genetics",
-              "date": "2026-08-01",
-              "source": "OpenAlex",
-              "doi": "10.1093/genetics/iyad120",
-              "url": "https://doi.org/10.1093/genetics/iyad120",
-              "abstract": "Polyploid allele dosage information is frequently lost when converting VCFs to diploid representations. We introduce a novel site frequency spectrum (SFS) inference framework that directly accepts dosage-encoded polyploid data, preventing artificial inflation of low-frequency allele estimates."
-            },
-            {
-              "title": "Fast and accurate simulation of multi-locus polyploid allele frequency spectra under selection",
-              "authors": ["Chen, Y.", "Excoffier, L."],
-              "journal": "Bioinformatics",
-              "date": "2026-07-20",
-              "source": "PubMed",
-              "doi": "10.1093/bioinformatics/btad345",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/38812345/",
-              "abstract": "We present an upgraded coalescent simulator capable of modeling selection and gene flow in polyploid demographic networks. Extensive benchmark tests demonstrate superior speed and memory efficiency compared to existing tools."
-            },
-            {
-              "title": "Deep learning models for continuous spatial demographic inference from low-coverage sequencing data",
-              "authors": ["Wang, C.", "Nielsen, R."],
+              "id": "demo-3",
+              "title": "Detecting adaptive introgression in autopolyploid species using subgenome-aware D-statistics",
+              "authors": ["Smith JA", "Johnson B", "Garcia M", "Lee S"],
               "journal": "bioRxiv",
-              "date": "2026-07-10",
-              "source": "bioRxiv",
-              "doi": "10.1101/2026.07.10.456789",
-              "url": "https://biorxiv.org/content/10.1101/2026.07.10.456789",
-              "abstract": "Spatial population genetics has traditionally relied on simplified island models. Here we present a convolutional neural network architecture for continuous spatial demography estimation directly from genotype likelihoods."
+              "date": "2026-08-01",
+              "doi": "10.1101/2026.08.01.605432",
+              "url": "https://biorxiv.org/content/10.1101/2026.08.01.605432",
+              "abstract": "We introduce a novel allele dosage-aware D-statistic framework for polyploid populations that avoids pseudo-diploidization artifacts and increases power for detecting locus-specific introgression.",
+              "track": "B",
+              "source": "bioRxiv"
             }
           ]
         }
       },
       "stats": {
-        "total_count": 6,
+        "total_count": 3,
         "new_this_week": 2,
         "weekly_trend": [
-          {"week": "2026-W27", "count": 1},
-          {"week": "2026-W28", "count": 1},
-          {"week": "2026-W29", "count": 2},
-          {"week": "2026-W30", "count": 0},
-          {"week": "2026-W31", "count": 2}
+          {"week": "2026-W27", "count": 2},
+          {"week": "2026-W28", "count": 4},
+          {"week": "2026-W29", "count": 3},
+          {"week": "2026-W30", "count": 6},
+          {"week": "2026-W31", "count": 5},
+          {"week": "2026-W32", "count": 3}
         ]
       }
     };
   }
 
-  let radarData;
+  let radarData = null;
   const scriptElem = document.getElementById('lit-radar-data');
-  if (scriptElem) {
-    const rawText = scriptElem.textContent.trim();
-    if (rawText === '__LIT_RADAR_DATA__' || !rawText) {
-      radarData = getMockData();
-    } else {
+  if (scriptElem && scriptElem.textContent) {
+    const raw = scriptElem.textContent.trim();
+    if (raw && raw !== '__LIT_RADAR_DATA__') {
       try {
-        radarData = JSON.parse(rawText);
+        radarData = JSON.parse(raw);
       } catch (e) {
-        radarData = getMockData();
+        console.error('LitRadar JSON parse error:', e);
       }
     }
-  } else {
-    radarData = getMockData();
   }
+
+  if (!radarData || !radarData.tracks) {
+    radarData = getFallbackData();
+  }
+
+  const generatedAt = radarData.generated_at || '';
+  const tracks = radarData.tracks || {};
+  const stats = radarData.stats || {};
+
+  let allPapers = [];
+  let paperIndexCounter = 0;
+
+  Object.keys(tracks).forEach(trackKey => {
+    const trackObj = tracks[trackKey] || {};
+    const trackLabel = trackObj.label || trackKey;
+    const papers = Array.isArray(trackObj.papers) ? trackObj.papers : [];
+    papers.forEach(p => {
+      allPapers.push({
+        ...p,
+        _trackKey: trackKey,
+        _trackLabel: trackLabel,
+        _index: String(paperIndexCounter++)
+      });
+    });
+  });
 
   let currentTrackKey = 'ALL';
-  let searchQuery = '';
   let selectedSources = new Set();
-  let expandedPaperIds = new Set();
+  let availableSources = new Set();
+  let searchQuery = '';
+  let expandedPaperIndexes = new Set();
 
-  const allPapers = [];
-  const sourceSet = new Set();
-
-  if (radarData.tracks) {
-    Object.keys(radarData.tracks).forEach(key => {
-      const track = radarData.tracks[key];
-      if (track.papers && Array.isArray(track.papers)) {
-        track.papers.forEach((paper, idx) => {
-          paper._trackKey = key;
-          paper._trackLabel = track.label;
-          paper._id = `${key}_${idx}_${paper.title}`;
-          allPapers.push(paper);
-          if (paper.source) {
-            sourceSet.add(paper.source);
-          }
-        });
-      }
-    });
-  }
-
-  sourceSet.forEach(s => selectedSources.add(s));
-
-  const genAtDate = radarData.generated_at ? new Date(radarData.generated_at) : new Date();
-  const sevenDaysAgoMs = genAtDate.getTime() - (7 * 86400000);
-
-  function isPaperNew(paperDateStr) {
-    if (!paperDateStr) return false;
-    const pDate = new Date(paperDateStr);
-    return pDate.getTime() >= sevenDaysAgoMs;
-  }
-
-  function formatChineseDate(isoStr) {
-    if (!isoStr) return '';
-    try {
-      const d = new Date(isoStr);
-      if (isNaN(d.getTime())) return isoStr;
-      return d.toLocaleDateString('zh-CN', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-    } catch (e) {
-      return isoStr;
+  allPapers.forEach(p => {
+    if (p.source && typeof p.source === 'string') {
+      availableSources.add(p.source);
     }
+  });
+
+  availableSources.forEach(s => selectedSources.add(s));
+
+  function renderHeaderAndStats() {
+    const timeElem = document.getElementById('generated-at-display');
+    if (timeElem) {
+      timeElem.textContent = '更新时间：' + formatDateTime(generatedAt);
+    }
+
+    const totalCountElem = document.getElementById('stat-total-count');
+    if (totalCountElem) {
+      const total = Number.isFinite(stats.total_count) ? stats.total_count : allPapers.length;
+      totalCountElem.textContent = String(total);
+    }
+
+    const newCountElem = document.getElementById('stat-new-count');
+    if (newCountElem) {
+      let countNew = 0;
+      if (Number.isFinite(stats.new_this_week)) {
+        countNew = stats.new_this_week;
+      } else {
+        countNew = allPapers.filter(p => isPaperNew(p.date, generatedAt)).length;
+      }
+      newCountElem.textContent = String(countNew);
+    }
+
+    renderTrendChart(stats.weekly_trend);
   }
 
-  function initHeader() {
-    const timeElem = document.getElementById('header-time');
-    if (timeElem) timeElem.textContent = formatChineseDate(radarData.generated_at || '');
+  function renderTrendChart(weeklyTrend) {
+    const container = document.getElementById('trend-chart-container');
+    if (!container) return;
 
-    const totalValElem = document.getElementById('total-count-val');
-    if (totalValElem) totalValElem.textContent = radarData.stats?.total_count ?? allPapers.length;
-
-    const newValElem = document.getElementById('new-count-val');
-    if (newValElem) newValElem.textContent = radarData.stats?.new_this_week ?? allPapers.filter(p => isPaperNew(p.date)).length;
-
-    renderWeeklyChart();
-  }
-
-  function renderWeeklyChart() {
-    const trend = radarData.stats?.weekly_trend || [];
-    const container = document.getElementById('weekly-chart-container');
-    if (!container || !trend.length) {
-      if (container) container.style.display = 'none';
+    if (!Array.isArray(weeklyTrend) || weeklyTrend.length === 0) {
+      container.innerHTML = '<span style="font-size:0.8rem;color:var(--text-muted);">暂无趋势数据</span>';
       return;
     }
 
-    const svgWidth = Math.max(400, trend.length * 70);
-    const svgHeight = 130;
-    const topMargin = 25;
-    const bottomMargin = 30;
-    const leftMargin = 30;
-    const rightMargin = 30;
-    const chartHeight = svgHeight - topMargin - bottomMargin;
-    const availableWidth = svgWidth - leftMargin - rightMargin;
-    const barStep = availableWidth / trend.length;
-    const barWidth = Math.min(36, barStep * 0.55);
+    const points = weeklyTrend.slice(-6).map(pt => {
+      const cnt = Number.isFinite(pt.count) ? Math.max(0, pt.count) : 0;
+      const wStr = typeof pt.week === 'string' ? pt.week : '';
+      const shortWeek = wStr.includes('-') ? wStr.split('-')[1] || wStr : wStr;
+      return { week: escapeHtml(shortWeek), count: cnt };
+    });
 
-    const maxCount = Math.max(1, ...trend.map(t => t.count));
+    const maxVal = Math.max(...points.map(p => p.count), 1);
+    const width = 300;
+    const height = 70;
+    const paddingL = 12;
+    const paddingR = 12;
+    const barWidth = 24;
+    const gap = (width - paddingL - paddingR - points.length * barWidth) / Math.max(1, points.length - 1);
 
-    let barsHTML = '';
-    trend.forEach((item, idx) => {
-      const x = leftMargin + idx * barStep + (barStep - barWidth) / 2;
-      const heightVal = Math.round((item.count / maxCount) * chartHeight);
-      const barH = item.count > 0 ? Math.max(4, heightVal) : 2;
-      const y = topMargin + chartHeight - barH;
+    let svg = `<svg viewBox="0 0 ${width} ${height}" class="trend-svg" role="img" aria-label="近6周趋势图">`;
 
-      barsHTML += `
-        <g class="bar-group">
-          <rect class="chart-bar" x="${x}" y="${y}" width="${barWidth}" height="${barH}" rx="4" ry="4" fill="url(#barGrad)">
-            <title>${item.week}: ${item.count} 篇</title>
-          </rect>
-          <text x="${x + barWidth / 2}" y="${y - 6}" text-anchor="middle" font-size="12" font-weight="600" fill="var(--text-primary)">${item.count}</text>
-          <text x="${x + barWidth / 2}" y="${svgHeight - 8}" text-anchor="middle" font-size="11" fill="var(--text-muted)">${item.week}</text>
+    points.forEach((pt, i) => {
+      const x = Math.round(paddingL + i * (barWidth + gap));
+      const ratio = pt.count / maxVal;
+      const barH = Math.round(ratio * 36);
+      const renderH = pt.count > 0 ? Math.max(4, barH) : 2;
+      const y = Math.round(52 - renderH);
+
+      svg += `
+        <g>
+          <text x="${x + barWidth / 2}" y="${y - 4}" class="chart-value">${pt.count}</text>
+          <rect x="${x}" y="${y}" width="${barWidth}" height="${renderH}" rx="3" class="chart-bar ${pt.count === maxVal ? 'chart-bar-max' : ''}" />
+          <text x="${x + barWidth / 2}" y="65" class="chart-label">${pt.week}</text>
         </g>
       `;
     });
 
-    const svgHTML = `
-      <svg class="chart-svg" viewBox="0 0 ${svgWidth} ${svgHeight}" preserveAspectRatio="xMinYMin meet">
-        <defs>
-          <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="var(--accent-color)" />
-            <stop offset="100%" stop-color="var(--accent-hover)" stop-opacity="0.8" />
-          </linearGradient>
-        </defs>
-        ${barsHTML}
-      </svg>
-    `;
-
-    container.innerHTML = svgHTML;
+    svg += `</svg>`;
+    container.innerHTML = `<div class="overflow-x-auto">${svg}</div>`;
   }
 
   function initTabs() {
-    const tabsContainer = document.getElementById('tracks-tabs');
-    if (!tabsContainer) return;
+    const container = document.getElementById('track-tabs-container');
+    if (!container) return;
 
-    let html = `<button class="tab-btn active" data-track="ALL">全部文献</button>`;
+    let html = `<button type="button" class="track-tab active" data-track="ALL">全部文献 (${allPapers.length})</button>`;
 
-    if (radarData.tracks) {
-      Object.keys(radarData.tracks).forEach(key => {
-        const t = radarData.tracks[key];
-        html += `<button class="tab-btn" data-track="${key}">${t.label || key}</button>`;
+    Object.keys(tracks).forEach(key => {
+      const label = tracks[key]?.label || key;
+      const count = (tracks[key]?.papers || []).length;
+      html += `<button type="button" class="track-tab" data-track="${escapeHtml(key)}">${escapeHtml(label)} (${count})</button>`;
+    });
+
+    container.innerHTML = html;
+
+    container.addEventListener('click', e => {
+      const tab = e.target.closest('.track-tab');
+      if (!tab) return;
+      currentTrackKey = tab.dataset.track;
+      container.querySelectorAll('.track-tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.track === currentTrackKey);
       });
-    }
-
-    tabsContainer.innerHTML = html;
-
-    tabsContainer.addEventListener('click', (e) => {
-      const btn = e.target.closest('.tab-btn');
-      if (!btn) return;
-
-      tabsContainer.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentTrackKey = btn.dataset.track;
-      renderPapers();
+      renderPaperList();
     });
   }
 
   function initSourceFilters() {
-    const sourceContainer = document.getElementById('source-pills-container');
-    if (!sourceContainer) return;
+    const container = document.getElementById('source-pills-container');
+    if (!container) return;
 
+    const sortedSources = Array.from(availableSources).sort();
     let html = '';
-    const sortedSources = Array.from(sourceSet).sort();
-    sortedSources.forEach(s => {
-      html += `<div class="source-pill active" data-source="${s}">${s}</div>`;
+    sortedSources.forEach(src => {
+      const safeSrc = escapeHtml(src);
+      const active = selectedSources.has(src) ? 'active' : '';
+      html += `
+        <button type="button" class="source-pill ${active}" data-source="${safeSrc}">
+          <span class="pill-checkbox"></span>
+          <span>${safeSrc}</span>
+        </button>
+      `;
     });
+    container.innerHTML = html;
 
-    sourceContainer.innerHTML = html;
-
-    sourceContainer.addEventListener('click', (e) => {
+    container.addEventListener('click', e => {
       const pill = e.target.closest('.source-pill');
       if (!pill) return;
-
       const src = pill.dataset.source;
       if (selectedSources.has(src)) {
         selectedSources.delete(src);
@@ -1021,40 +1016,72 @@
         selectedSources.add(src);
         pill.classList.add('active');
       }
-      renderPapers();
+      renderPaperList();
     });
 
-    const toggleAllBtn = document.getElementById('toggle-sources-btn');
-    if (toggleAllBtn) {
-      toggleAllBtn.addEventListener('click', () => {
-        if (selectedSources.size === sourceSet.size) {
+    const toggleBtn = document.getElementById('toggle-sources-btn');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        if (selectedSources.size === availableSources.size) {
           selectedSources.clear();
-          sourceContainer.querySelectorAll('.source-pill').forEach(p => p.classList.remove('active'));
-          toggleAllBtn.textContent = '全选';
+          container.querySelectorAll('.source-pill').forEach(p => p.classList.remove('active'));
         } else {
-          sourceSet.forEach(s => selectedSources.add(s));
-          sourceContainer.querySelectorAll('.source-pill').forEach(p => p.classList.add('active'));
-          toggleAllBtn.textContent = '清空';
+          availableSources.forEach(s => selectedSources.add(s));
+          container.querySelectorAll('.source-pill').forEach(p => p.classList.add('active'));
         }
-        renderPapers();
+        renderPaperList();
       });
     }
   }
 
   function initSearch() {
-    const searchInput = document.getElementById('search-input');
-    if (!searchInput) return;
-
-    searchInput.addEventListener('input', (e) => {
+    const input = document.getElementById('search-input');
+    if (!input) return;
+    input.addEventListener('input', e => {
       searchQuery = e.target.value.trim().toLowerCase();
-      renderPapers();
+      renderPaperList();
     });
   }
 
-  function renderPapers() {
-    const paperListElem = document.getElementById('paper-list');
-    const papersCountElem = document.getElementById('filtered-count');
-    if (!paperListElem) return;
+  function initThemeToggle() {
+    const btn = document.getElementById('theme-toggle-btn');
+    if (!btn) return;
+
+    function updateBtn() {
+      const current = document.documentElement.getAttribute('data-theme');
+      let isDark = false;
+      if (current === 'dark') {
+        isDark = true;
+      } else if (current === 'light') {
+        isDark = false;
+      } else {
+        isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+      btn.innerHTML = isDark
+        ? `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg> 浅色`
+        : `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg> 深色`;
+    }
+
+    btn.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      let next;
+      if (!current) {
+        const isDarkSys = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        next = isDarkSys ? 'light' : 'dark';
+      } else {
+        next = current === 'dark' ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', next);
+      updateBtn();
+    });
+
+    updateBtn();
+  }
+
+  function renderPaperList() {
+    const listElem = document.getElementById('paper-list');
+    const countElem = document.getElementById('filtered-count');
+    if (!listElem) return;
 
     let filtered = allPapers.filter(paper => {
       if (currentTrackKey !== 'ALL' && paper._trackKey !== currentTrackKey) {
@@ -1066,7 +1093,7 @@
       if (searchQuery) {
         const titleMatch = (paper.title || '').toLowerCase().includes(searchQuery);
         const abstractMatch = (paper.abstract || '').toLowerCase().includes(searchQuery);
-        const authorMatch = (paper.authors || []).some(a => a.toLowerCase().includes(searchQuery));
+        const authorMatch = Array.isArray(paper.authors) && paper.authors.some(a => typeof a === 'string' && a.toLowerCase().includes(searchQuery));
         if (!titleMatch && !abstractMatch && !authorMatch) {
           return false;
         }
@@ -1075,119 +1102,119 @@
     });
 
     filtered.sort((a, b) => {
-      const dateA = a.date ? new Date(a.date).getTime() : 0;
-      const dateB = b.date ? new Date(b.date).getTime() : 0;
-      return dateB - dateA;
+      const dA = a.date ? new Date(a.date).getTime() : 0;
+      const dB = b.date ? new Date(b.date).getTime() : 0;
+      return dB - dA;
     });
 
-    if (papersCountElem) {
-      papersCountElem.textContent = `显示 ${filtered.length} / 共 ${allPapers.length} 篇文献`;
+    if (countElem) {
+      countElem.textContent = `显示 ${filtered.length} / 共 ${allPapers.length} 篇文献`;
     }
 
     if (filtered.length === 0) {
-      paperListElem.innerHTML = `
-        <div class="empty-state">
-          <p>未找到符合条件的文献</p>
-        </div>
-      `;
+      listElem.innerHTML = `<div class="empty-state">未找到符合筛选条件的文献</div>`;
       return;
     }
 
     let html = '';
-    filtered.forEach((paper) => {
-      const isNew = isPaperNew(paper.date);
-      const isExpanded = expandedPaperIds.has(paper._id);
+    filtered.forEach(paper => {
+      const isNew = isPaperNew(paper.date, generatedAt);
+      const isExpanded = expandedPaperIndexes.has(paper._index);
+      const validPaperUrl = safeUrl(paper.url, paper.doi);
 
+      const authorsArr = Array.isArray(paper.authors) ? paper.authors.filter(a => typeof a === 'string') : [];
       let authorsStr = '';
-      if (paper.authors && Array.isArray(paper.authors) && paper.authors.length > 0) {
-        if (paper.authors.length > 3) {
-          authorsStr = paper.authors.slice(0, 3).join(', ') + ' 等';
-        } else {
-          authorsStr = paper.authors.join(', ');
-        }
+      if (authorsArr.length > 3) {
+        authorsStr = authorsArr.slice(0, 3).map(escapeHtml).join(', ') + ' 等';
+      } else if (authorsArr.length > 0) {
+        authorsStr = authorsArr.map(escapeHtml).join(', ');
       }
 
-      const paperUrl = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : null);
+      const safeTitle = escapeHtml(paper.title || '无标题');
+      const safeJournal = escapeHtml(paper.journal || '');
+      const safeDate = escapeHtml(paper.date || '未知日期');
+      const safeSource = escapeHtml(paper.source || 'Unknown');
+      const safeTrackLabel = escapeHtml(paper._trackLabel || '');
+      const safeAbstract = escapeHtml(paper.abstract || '');
+
+      const sourceClass = 'badge-source-' + safeSource.toLowerCase();
 
       html += `
-        <div class="paper-card" data-id="${paper._id}">
-          <div class="paper-title-row">
-            <h3 class="paper-title" onclick="toggleAbstract('${paper._id}')">${paper.title || '无标题'}</h3>
-            ${paperUrl ? `
-              <a href="${paperUrl}" target="_blank" rel="noopener noreferrer" class="paper-link-btn" title="查看原文/DOI" onclick="event.stopPropagation()">
+        <div class="paper-card" data-index="${paper._index}">
+          <div class="paper-header js-paper-header">
+            <div class="paper-title">${safeTitle}</div>
+            ${validPaperUrl ? `
+              <a href="${escapeHtml(validPaperUrl)}" target="_blank" rel="noopener noreferrer" class="paper-external-link" title="查看原文/DOI">
+                <span>原文</span>
                 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             ` : ''}
           </div>
 
-          <div class="paper-meta-row">
+          <div class="paper-badges">
             ${isNew ? `<span class="badge badge-new">NEW</span>` : ''}
-            ${paper.source ? `<span class="badge badge-source" data-source="${paper.source}">${paper.source}</span>` : ''}
-            <span class="paper-date">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-              ${paper.date || '无日期'}
-            </span>
-            ${paper._trackLabel ? `<span class="paper-date" style="opacity:0.8;">[${paper._trackLabel}]</span>` : ''}
+            <span class="badge badge-source ${sourceClass}">${safeSource}</span>
+            ${safeTrackLabel ? `<span class="badge badge-track">${safeTrackLabel}</span>` : ''}
           </div>
 
-          ${authorsStr ? `<div class="paper-authors">作者：${authorsStr}</div>` : ''}
-          ${paper.journal ? `<div class="paper-journal">期刊：${paper.journal}</div>` : ''}
+          <div class="paper-meta">
+            ${authorsStr ? `<span class="paper-authors">作者：${authorsStr}</span>` : ''}
+            ${safeJournal ? `<span class="paper-journal">期刊：${safeJournal}</span>` : ''}
+            <span class="paper-date">日期：${safeDate}</span>
+          </div>
 
-          ${paper.abstract ? `
-            <button class="abstract-toggle-btn ${isExpanded ? 'expanded' : ''}" onclick="toggleAbstract('${paper._id}')">
-              ${isExpanded ? '收起摘要' : '查看摘要'}
+          ${safeAbstract ? `
+            <button type="button" class="abstract-toggle-btn js-toggle-abstract ${isExpanded ? 'expanded' : ''}">
+              <span>${isExpanded ? '收起摘要' : '展开摘要'}</span>
               <svg class="icon chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="abstract-box ${isExpanded ? 'expanded' : ''}" id="abstract-${paper._id}">
-              ${paper.abstract}
+            <div class="abstract-box ${isExpanded ? 'expanded' : ''}">
+              ${safeAbstract}
             </div>
           ` : ''}
         </div>
       `;
     });
 
-    paperListElem.innerHTML = html;
+    listElem.innerHTML = html;
   }
 
-  window.toggleAbstract = function(id) {
-    if (expandedPaperIds.has(id)) {
-      expandedPaperIds.delete(id);
-    } else {
-      expandedPaperIds.add(id);
-    }
-    renderPapers();
-  };
+  // Event Delegation for abstract expansion
+  const listContainer = document.getElementById('paper-list');
+  if (listContainer) {
+    listContainer.addEventListener('click', e => {
+      if (e.target.closest('.paper-external-link')) return;
 
-  function initTheme() {
-    const btn = document.getElementById('theme-toggle-btn');
-    if (!btn) return;
+      const headerClick = e.target.closest('.js-paper-header');
+      const toggleBtnClick = e.target.closest('.js-toggle-abstract');
 
-    btn.addEventListener('click', () => {
-      const currentTheme = document.documentElement.getAttribute('data-theme');
-      let nextTheme;
-      if (!currentTheme) {
-        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        nextTheme = isDark ? 'light' : 'dark';
-      } else {
-        nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      if (headerClick || toggleBtnClick) {
+        const card = e.target.closest('.paper-card');
+        if (!card) return;
+        const idx = card.dataset.index;
+        if (expandedPaperIndexes.has(idx)) {
+          expandedPaperIndexes.delete(idx);
+        } else {
+          expandedPaperIndexes.add(idx);
+        }
+        renderPaperList();
       }
-      document.documentElement.setAttribute('data-theme', nextTheme);
     });
   }
 
-  function startApp() {
-    initHeader();
+  function start() {
+    renderHeaderAndStats();
     initTabs();
     initSourceFilters();
     initSearch();
-    initTheme();
-    renderPapers();
+    initThemeToggle();
+    renderPaperList();
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', startApp);
+    document.addEventListener('DOMContentLoaded', start);
   } else {
-    startApp();
+    start();
   }
 })();
 </script>
