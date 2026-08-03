@@ -842,7 +842,7 @@
   const scriptElem = document.getElementById('lit-radar-data');
   if (scriptElem && scriptElem.textContent) {
     const raw = scriptElem.textContent.trim();
-    if (raw && raw !== '__LIT_RADAR_DATA__') {
+    if (raw && raw.startsWith('{')) {
       try {
         radarData = JSON.parse(raw);
       } catch (e) {
