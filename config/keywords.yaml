@@ -1,0 +1,15 @@
+track_a:
+  label: "裂腹鱼亚科物种精确检索"
+  keywords:
+    - "Schizothoracinae"
+    - "Schizothorax"
+    - "Gymnocypris"
+    - "Schizopygopsis"
+track_b:
+  label: "群体遗传方法学前沿"
+  keywords:
+    - "polyploid population genetics"
+    - "introgression gene flow detection"
+    - "high-altitude adaptation fish evolution"
+    - "allopolyploid genome phasing"
+    - "ABBA-BABA D-statistics introgression"
