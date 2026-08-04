@@ -19,7 +19,9 @@ pytest tests/ -v               # 跑单元测试
 ## 更新链路
 
 1. GitHub Actions(`.github/workflows/fetch.yml`)每日 06:00 UTC 跑 `fetch.py` 并 commit `data/data.json`。
-2. claude.ai schedule routine 每日 07:00 UTC 拉取最新 `data.json`,跑 `inject.py`,调用 Artifact 工具重新发布看板。具体路径(全自动/半自动)见 `docs/decisions/0001-artifact-in-routine-feasibility.md`。
+2. 本机 `/loop`(每小时轮询)拉取仓库最新 `data.json` → 跑 `inject.py` 重新渲染 → 比较 `generated_at` 判断数据是否有更新 → 有更新才调用 Artifact 工具,以 `config/artifact_url.txt` 记录的 URL 重新发布看板。
+
+原计划里"claude.ai schedule routine 每日拉取数据并自动渲染发布"这一环,经过两轮真实测试(`docs/decisions/0001-artifact-in-routine-feasibility.md` 确认云端 routine 无法调用 Artifact 工具;`docs/decisions/0002-cloud-routine-cannot-push.md` 进一步确认云端 routine 连 push 代码到仓库都做不到)后已放弃,改为上面的本机 `/loop` 方案。代价是"渲染+发布"这一步需要本机保留一个运行着 `/loop` 的 Claude Code 会话,不是纯云端全自动。
 
 ## 关键词配置
 
