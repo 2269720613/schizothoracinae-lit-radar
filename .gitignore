@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+.last_published_generated_at.txt
+.venv/
