@@ -172,7 +172,7 @@ def fetch_biorxiv_recent(keywords, track):
         papers.append({
             "id": doi,
             "title": item.get("title", ""),
-            "authors": [a.strip() for a in item.get("authors", "").split(";") if a.strip()],
+            "authors": [a.strip() for a in (item.get("authors") or "").split(";") if a.strip()],
             "journal": "bioRxiv (preprint)",
             "date": item.get("date", ""),
             "doi": doi,

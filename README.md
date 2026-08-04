@@ -30,3 +30,4 @@ pytest tests/ -v               # 跑单元测试
 - 数据来源:OpenAlex、PubMed(NCBI E-utilities)、bioRxiv(仅最近 10 天 + 关键词客户端过滤,因 bioRxiv API 本身不支持关键词搜索)。未接入 Semantic Scholar/Crossref/CORE/Unpaywall/database-lookup(MVP 阶段范围外)。
 - 不做 AI 精读摘要/相关性打分。
 - PubMed 数据来自 eSummary,不含摘要正文(MVP 阶段不额外调用 eFetch)。
+- Track A(裂腹鱼亚科物种精确检索)在 OpenAlex 上使用的是全文检索(`search=` 参数,匹配标题+摘要+全文索引),而非仅限标题/摘要的定向字段搜索。首次真实抓取(2026-08-04)观察到约半数结果是被属名字符串误匹配的弱相关噪声,例如 GBIF 物种分布下载数据集(标题含 "Occurrence Download")、无关虾类/其他鱼类研究、古生物学论文等,这些结果并非真正围绕裂腹鱼亚科展开。后续可考虑:改用 OpenAlex 的 `title_and_abstract.search` 等定向字段过滤,或增加 `filter=type:article` 排除 dataset/其他非论文类型,以提升精确率。

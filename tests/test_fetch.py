@@ -101,6 +101,17 @@ def test_fetch_openalex_normalizes_doi_case(mock_get):
     assert papers[0]["doi"] == "10.1234/abc"
 
 
+@patch("scripts.fetch.http_get_json")
+def test_fetch_openalex_handles_null_source(mock_get):
+    mock_get.return_value = {"results": [{
+        "doi": "10.1/y", "title": "T", "authorships": [],
+        "primary_location": {"source": None},
+        "publication_date": "2026-08-01", "id": "https://openalex.org/W2",
+    }]}
+    papers = fetch_openalex("x", "2026-07-01", "A")
+    assert papers[0]["journal"] == ""
+
+
 def test_normalize_pubmed_date_handles_common_ncbi_formats():
     assert normalize_pubmed_date("2021 Dec 23") == "2021-12-23"
     assert normalize_pubmed_date("2021 Dec") == "2021-12-01"
