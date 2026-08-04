@@ -63,7 +63,15 @@ def fetch_openalex(keyword, since_date, track):
             "id": doi or work.get("id", ""),
             "title": title,
             "authors": [a["author"]["display_name"] for a in work.get("authorships", [])],
-            "journal": (work.get("primary_location") or {}).get("source", {}).get("display_name", "") or "",
+            # FORMAT_SOURCE: OpenAlex /works response can have
+            # primary_location present but primary_location.source == null
+            # (e.g. records without an indexed host venue). Verified live via
+            # https://api.openalex.org/works?search=Schizothorax&per_page=5&mailto=...
+            # on 2026-08-04: several real results returned primary_location
+            # as a dict but with source explicitly null in some cases, so
+            # `.get("source", {})` is not enough — "source" key can exist
+            # with value None, which .get()'s default never catches.
+            "journal": (((work.get("primary_location") or {}).get("source")) or {}).get("display_name", "") or "",
             "date": work.get("publication_date", ""),
             "doi": doi,
             "url": work.get("id", ""),

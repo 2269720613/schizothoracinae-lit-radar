@@ -1,0 +1,1765 @@
+{
+  "generated_at": "2026-08-04T06:01:20Z",
+  "tracks": {
+    "A": {
+      "label": "裂腹鱼亚科物种精确检索",
+      "keywords": [
+        "Schizothoracinae",
+        "Schizothorax",
+        "Gymnocypris",
+        "Schizopygopsis"
+      ],
+      "papers": [
+        {
+          "id": "10.1016/j.cbpc.2026.110619",
+          "title": "Diel coupling between drinking rate and oxygen consumption in Gymnocypris przewalskii under saline-alkaline stress.",
+          "authors": [
+            "Shi C",
+            "Zhang S",
+            "Wei Y",
+            "Gao P",
+            "Li Y",
+            "Li Y",
+            "Sun Z",
+            "Dai Y",
+            "Zhou K",
+            "Lai Q",
+            "Yao Z"
+          ],
+          "journal": "Comparative biochemistry and physiology. Toxicology & pharmacology : CBP",
+          "date": "2026-10-01",
+          "doi": "10.1016/j.cbpc.2026.110619",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42442646/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.aquatox.2026.107909",
+          "title": "Disruption of intestinal mucosal immunity and microbial homeostasis in Schizothorax davidi under chronic DBP exposure: From functional compensation to transcriptional decompensation.",
+          "authors": [
+            "Lei L",
+            "Liao R",
+            "Peng M",
+            "Zhou Y",
+            "Xiao C",
+            "Yu X",
+            "Liu S",
+            "Duan Y",
+            "Fu S",
+            "Li H",
+            "Liu C",
+            "Chen X",
+            "Li L",
+            "Zeng B",
+            "Liu H",
+            "Zhou C"
+          ],
+          "journal": "Aquatic toxicology (Amsterdam, Netherlands)",
+          "date": "2026-09-01",
+          "doi": "10.1016/j.aquatox.2026.107909",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42330678/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.cbd.2026.101832",
+          "title": "Physiological and transcriptomic responses of the gills in Gymnocypris eckloni under acute and chronic hypoxia stress.",
+          "authors": [
+            "Wu S",
+            "Xia M",
+            "Wang Z",
+            "Liu D",
+            "Wang W",
+            "Zhang C",
+            "Jia J",
+            "Tian F",
+            "Qi D"
+          ],
+          "journal": "Comparative biochemistry and physiology. Part D, Genomics & proteomics",
+          "date": "2026-09-01",
+          "doi": "10.1016/j.cbd.2026.101832",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41996822/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.fsi.2026.111523",
+          "title": "HMGB1 down-regulation drives efferocytosis and inflammation suppression: A novel immune adaptation mechanism in Schizopygopsis younghusbandi responding to heat stress.",
+          "authors": [
+            "Chen Z",
+            "Wang J",
+            "Jiang Y",
+            "Qin Z",
+            "Wang N",
+            "Zeng B"
+          ],
+          "journal": "Fish & shellfish immunology",
+          "date": "2026-09-01",
+          "doi": "10.1016/j.fsi.2026.111523",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42315066/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.cbd.2026.101960",
+          "title": "Comparative analyses of olfactory receptor repertoires in Schizothorax fish based on the chromosome-level genomes: Implications for regulatory roles of dietary differentiation and ploidy variation",
+          "authors": [
+            "Fang Zhao",
+            "Huayan Zhao",
+            "Pinpin Zhang",
+            "Yixuan Chen",
+            "Yi Liu",
+            "Chuang Zhou"
+          ],
+          "journal": "Comparative Biochemistry and Physiology Part D Genomics and Proteomics",
+          "date": "2026-08-01",
+          "doi": "10.1016/j.cbd.2026.101960",
+          "url": "https://openalex.org/W7172204239",
+          "abstract": "",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.15468/dl.n3r5zc",
+          "title": "Occurrence Download",
+          "authors": [
+            "GBIF.org User"
+          ],
+          "journal": "Global Biodiversity Information Facility",
+          "date": "2026-07-31",
+          "doi": "10.15468/dl.n3r5zc",
+          "url": "https://openalex.org/W7172021468",
+          "abstract": "A dataset containing 51 species occurrences available in GBIF matching the query: { \"and\" : [ \"TaxonKey is one of (Gymnocypris przewalskii [Catalogue of Life])\", \"OccurrenceStatus is one of (Present)\", \"Country is one of (China)\", \"HasCoordinate is true\", \"HasGeospatialIssue is false\" ] } The dataset includes 51 records from 4 constituent datasets; see https://api.gbif.org/v1/occurrence/download/0019077-260721160103020/datasets/export for details. Data from some individual datasets included in this download may be licensed under less restrictive terms.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.70099/bj/2026.03.03.11",
+          "title": "Length weight relationship (LWR) and condition factor of black tiger shrimp (Penaeus mono-don Fabricius, 1798) reared in earthen pond during the monsoon season",
+          "authors": [
+            "Nandita Soni Deshpande",
+            "Bhavya D. Tandel",
+            "N. C. Ujjania"
+          ],
+          "journal": "Bionatura journal :",
+          "date": "2026-07-30",
+          "doi": "10.70099/bj/2026.03.03.11",
+          "url": "https://openalex.org/W7171812028",
+          "abstract": "Length weight relationship is mathematical tool used to estimate the growth patter, body composition and evaluate the biomass of Penaeus monodon (black tiger shrimp) in a commercial aquaculture farm in Gujarat, India, during the monsoon season. Total 0.125 million seeds were stocked in each pond during culture period Total 500 specimen from each pond were used for data collection. Linear regression equation and Fulton's condition factor (K) were used to assess the shrimp growth and physical well-being in pond conditions. The findings offer insights into the morphometric characteristics of P. monodon in this specific aquaculture setting, enabling farmers to optimize stocking densities, feeding strategies, and overall farm operations for enhanced yield and economic returns. Tiger shrimp showing negative allometric growth in this earthen pond attributing to the management practices and more length growth than weight. This research contributes to the understanding of shrimp growth dynamics and provides a practical tool for sustainable aquaculture practices.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.5281/zenodo.21698317",
+          "title": "Diversification of snow carp (Schizothoracinae) on the Qinghai–Tibetan Plateau",
+          "authors": [
+            "Mao Tingru"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "date": "2026-07-30",
+          "doi": "10.5281/zenodo.21698317",
+          "url": "https://openalex.org/W7171811510",
+          "abstract": "",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.5281/zenodo.21698318",
+          "title": "Diversification of snow carp (Schizothoracinae) on the Qinghai–Tibetan Plateau",
+          "authors": [
+            "Mao Tingru"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "date": "2026-07-30",
+          "doi": "10.5281/zenodo.21698318",
+          "url": "https://openalex.org/W7171798163",
+          "abstract": "",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7759/s44497-026-00189-3",
+          "title": "&lt;p&gt;Microplastics and Heavy Metals Contamination in &lt;em&gt;Clarias gariepinus&lt;/em&gt; from Eleyele Reservoir, Nigeria, During Rainy Season: A Public Health Concern&lt;/p&gt;",
+          "authors": [
+            "Oluwafemi Olowojuni",
+            "Deborah  B Ajayi",
+            "Grace B Ogundeyi",
+            "Flora E Olaifa"
+          ],
+          "journal": "Cureus Journal of Agriculture and Food Science",
+          "date": "2026-07-29",
+          "doi": "10.7759/s44497-026-00189-3",
+          "url": "https://openalex.org/W7171720503",
+          "abstract": "Microplastics and heavy metals are co-occurring aquatic contaminants with potential implications for fish safety and human health. This study assessed microplastic and heavy metal contamination in Clarias gariepinus from Eleyele reservoir. Microplastics were extracted from gill, liver, and muscle tissues using hydrogen peroxide digestion and characterized by Attenuated Total Reflectance-Fourier Transform Infrared spectroscopy, while heavy metals were quantified using atomic absorption spectrometry. A total of 490 microplastic particles were recovered, with mean abundances of 6.25 ± 1.09, 3.16 ± 0.60, and 2.23 ± 0.47 items per individual in gill, liver, and muscle, respectively. Fibers, fragments, foams, and films occurred in all tissues, with gills showing the highest abundance. Particles measuring 100-500 μm and transparent microplastics predominated, while microplastic abundance correlated positively with fish length and weight. Cadmium remained below detectable limits in all tissues. Lead concentrations ranged from 0.02 ± 0.04 mg/kg in liver to 0.60 ± 0.13 mg/kg in muscle, exceeding the permissible limit in muscle. Chromium increased from gill (0.39 ± 0.04 mg/kg) to liver (1.17 ± 0.05 mg/kg) and muscle (2.64 ± 0.70 mg/kg), while nickel concentrations were elevated in all tissues (6.83-10.34 mg/kg). Zinc was the most abundant metal but remained within guideline limits. Hazard quotient values indicated no risk from muscle consumption; however, nickel in the gill and chromium and nickel in the liver exceeded safe thresholds. Carcinogenic risk values for lead and chromium exceeded acceptable limits, indicating potential long-term public health concerns from regular fish consumption.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.algal.2026.104870",
+          "title": "Design and characterization of biodegradable curcumin-loaded active agar-based composite film packaging from Gelidium elegans seaweed for extending the shelf life of fish fillets",
+          "authors": [
+            "Nor Alia Che Nozid",
+            "Nor Hayati Ibrahim",
+            "Asami Yoshida",
+            "黃祐石",
+            "Takuya Hirose",
+            "Katsuya Hirasaka"
+          ],
+          "journal": "Algal Research",
+          "date": "2026-07-29",
+          "doi": "10.1016/j.algal.2026.104870",
+          "url": "https://openalex.org/W7171631064",
+          "abstract": "An agar-based biodegradable film was developed from Gelidium elegans seaweed by integrating curcumin and chitosan into an agar matrix, and its potential as a replacement for petroleum-based food packaging was analyzed. The agar–chitosan–curcumin (AG–CS–CUR) films exhibited significantly higher ( p < 0.05) opacity and notable antioxidant activity, with 2,2-diphenyl-1-picrylhydrazyl and hydroxyl radical scavenging activity score of 68.83% and 60.33%, respectively. The AG–CS–CUR films exhibited good mechanical strength and enhanced barrier properties, with reduced water-vapor and oxygen permeabilities of 2.99 × 10 −10 g/m·s·Pa and 6.62 × 10 −7 g/m·s compared to AG films (3.88 × 10 −10 g/m·s·Pa and 8.48 × 10 −7 g/m·s), respectively. Although the moisture content was not significantly different, the swelling degree decreased markedly to 161.90% from 686.31% of AG, attributed to changes in hydrogen bonding indicated by Fourier-transform infrared peak shifts (3200–3400 cm −1 ) toward lower wavenumbers. Overall migration from AG–CS–CUR occurred at a low rate (<2.6 × 10 −4 mg/dm 2 ) under pH lower or higher than 4.5 and fatty food media. The films were biodegradable, reaching up to 32.14% degradation within 28 days. Scanning electron microscopy confirmed a dense matrix with no visible pores. In summary, the AG-CS-CUR films exhibited active preservation by delaying fish color changes (ΔE = 7.89–9.38) compared to plastic films (ΔE = 17.41–20.00). Although AG-CS-CUR films showed higher weight loss (9.30–23.27%) than plastic films (5.88–8.60%), they outperformed pure agar films (6.64–28.67%) during one week of storage, demonstrating promising potential for advancement in active packaging technology.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740993",
+          "title": "Early Partitioning of Structural Paralog Diversity Shapes Immune Evolution Across Habitat Transitions in Gobiiform Fishes",
+          "authors": [
+            "Katerina L. Zapfe",
+            "Ian Birchler De Allende",
+            "Aditt Mahadik",
+            "Gerard R Nassar",
+            "Bruno Frédérich",
+            "Jeffrey A. Yoder",
+            "Alex Dornburg"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-29",
+          "doi": "10.64898/2026.07.27.740993",
+          "url": "https://openalex.org/W7171784691",
+          "abstract": "Abstract Habitat transitions expose species lineages to novel pathogen regimes and are often hypothesized to drive adaptive diversification of immune gene families. However, the temporal association between gene family diversification and ecological change remains unresolved. To gain deeper insight into the relationship between the diversification of species and the evolution of their immune system, we investigated the evolutionary history of Toll-like receptors (TLRs) across Gobiiformes, a clade characterized by repeated transitions across aquatic and amphibious environments. TLRs are well-studied membrane-bound pattern recognition receptors that play crucial roles in detecting pathogens and immune activation. Phylogenomic, structural, and sequence analyses reveal that a major expansion of TLR22 predates many ecological transitions, with early paralog diversification partitioning receptor architectures into distinct structural regimes that persist across lineages. Subsequent evolution is concentrated in the extracellular ligand-binding, leucine-rich repeat (LRR) domains, where localized sequence and structural variation enables likely functional tuning without major architectural innovation. These results indicate that ecological transitions do not require repeated evolution of new immune receptor forms, but can instead be facilitated by reconfiguration of pre-existing immunogenetic diversity. These findings raise the possibility that expansions of immune gene families occurring early in a clade’s evolutionary history may commonly persist and subsequently act as substrates for evolutionary responses to environmental change.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.13140/rg.2.2.27950.68162",
+          "title": "Derivative landmarking corroborates convergence in Mesozoic marine reptile skulls and their feeding performance",
+          "authors": [
+            "Francesco Della Giustina",
+            "Valentin Fischer"
+          ],
+          "journal": "Open Repository and Bibliography (University of Liège)",
+          "date": "2026-07-28",
+          "doi": "10.13140/rg.2.2.27950.68162",
+          "url": "https://openalex.org/W7171490641",
+          "abstract": "editorial reviewed",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.15468/dl.fybptt",
+          "title": "Occurrence Download",
+          "authors": [
+            "GBIF.org User"
+          ],
+          "journal": "Global Biodiversity Information Facility",
+          "date": "2026-07-28",
+          "doi": "10.15468/dl.fybptt",
+          "url": "https://openalex.org/W7171517765",
+          "abstract": "A dataset containing 847713 species occurrences available in GBIF matching the query: { \"TaxonKey\" : [ \"is one of (Myoxocephalus quadricornis, Ratabulus, Rita rita, Hemibagrus guttatus, Pseudoplatystoma corruscans, Sorubim lima, Duopalatinus emarginatus, Leiarius, Pimelodus blochii, Pimelodus fur, Pimelodus maculatus, Pimelodus ornatus, Austroglanis sclateri, Rineloricaria parva, Loricariichthys rostratus, Loricariichthys platymetopon, Loricariichthys brunneus, Ancistrus multispinis, Hisonotus notatus, Hypancistrus contradens, Hypoptopoma gulare, Pogonopoma wertheimeri, Cordylancistrus daguae, Bagarius bagarius, Tandanus tandanus, Plotosus canius, Scleromystax barbatus, Corydoras nattereri, Corydoras undulatus, Lepthoplosternum pectorale, Franciscodoras marmoratus, Platydoras armatulus, Trachydoras paraguayensis, Lophiosilurus alexandri, Ageneiosus inermis, Ageneiosus ucayalensis, Auchenipterus osteomystax, Trachelyopterus lucenai, Netuma thalassina, Lepisosteus osseus, Cyprinodon pisteri, Lamprichthys tanganicanus, Xiphophorus nigrensis, Xiphophorus cortezi, Phallotorynus victoriae, Gambusia dominicensis, Gambusia nicaraguensis, Gambusia regani, Gambusia marshi, Opsanus beta, Coregonus zuerichensis, Coregonus candidus, Coregonus arenicolus, Coregonus ladogae, Prosopium coulterii, Mastacembelus favus, Monopterus, Prochilodus mariae, Prochilodus costatus, Prochilodus magdalenae, Hoplerythrinus unitaeniatus, Hoplias lacerdae, Pygocentrus piraya, Odontostilbe pulchra, Moenkhausia costae, Mylossoma duriventre, Triportheus angulatus, Triportheus signatus, Triportheus nematurus, Metynnis maculatus, Metynnis lippincottianus, Brycon chagrensis, Brycon petrosus, Brycon amazonicus, Brycon gouldingi, Aphyocharax rathbuni, Knodus moenkhausii, Mimagoniates microlepis, Roeboides descalvadensis, Roeboides occidentalis, Roeboides guatemalensis, Serrasalmus maculatus, Serrasalmus brandtii, Serrasalmus humeralis, Hyphessobrycon roseus, Cynopotamus kincaidi, Salminus franciscanus, Salminus brasiliensis, Hemiodus orthonops, Steindachnerina brevipinna, Leporinus friderici, Leporinus obtusidens, Leporinus macrocephalus, Leporinus octofasciatus, Leporinus elongatus, Acestrorhynchus pantaneiro, Nannostomus beckfordi, Nannostomus harrisoni, Pyrrhulina brevis, Ctenolucius hujeta, Brycinus macrolepidotus, Triplophysa labiata, Barbatula quignardi, Erimyzon oblongus, Parachondrostoma toxostoma, Leucos basak, Pachychilon macedonicum, Protochondrostoma genei, Alburnoides taeniatus, Chondrostoma soetta, Plagiognathops microlepis, Telestes souffia, Romanogobio pentatrichus, Romanogobio albipinnatus, Romanogobio benacensis, Rhodeus suigensis, Campostoma pauciradii, Achondrostoma arcasii, Gymnocypris przewalskii, Notropis, Notropis bifrenatus, Luciobrama macrocephalus, Gymnodiptychus dybowskii, Scardinius hesperidicus, Scardinius graecus, Neolissochilus sumatranus, Alburnus albidus, Alburnus arborella, Alburnus hohenackeri, Luciobarbus comizo, Squalius alburnoides, Schizothorax eurystomus, Schizothorax argentatus, Barbodes hemictenus, Puntius brevis, Luciobarbus albanicus, Squalius vardarensis, Ochetobius elongatus, Culter alburnus, Chanodichthys erythropterus, Chanodichthys dabryi, Sabanejewia larvata, Lepidocephalichthys guntea, Cobitis calderoni, Cobitis paludica, Oryzias javanicus, Oryzias melastigma, Diapterus brevirostris, Eretmodus cyanostictus, Mesonauta festivus, Mesonauta guyanae, Alcolapia grahami, Laetacara curviceps, Laetacara araguaiae, Tilapia baloni, Guianacara geayi, Crenicichla macrophthalma, Apistogramma commbrae, Apistogramma macmasteri, Apistogramma borellii, Cunningtonia longiventralis, Vieja fenestrata, Vieja bifasciata, Vieja zonata, Oreochromis mweruensis, Oreochromis jipe, Pseudotropheus demasoni, Pseudotropheus crabro, Haplochromis aeneocolor, Haplochromis squamipinnis, Pempheris molucca, Leiopotherapon plumbeus, Lethrinus borbonicus, Padogobius bonelli, Knipowitschia longecaudata, Knipowitschia panizzae, Gymnogobius isaza, Periophthalmus barbarus, Bathygobius cyclopterus, Lesueurigobius sanzi, Benthophilus nudus, Benthophilus durrelli, Neogobius pallasi, Scolopsis ghanam, Siniperca scherzeri, Perca schrenkii, Toxotes chatareus, Philypnodon grandiceps, Eleotris picta, Oxyeleotris selheimi, Hypseleotris galii, Dormitator maculatus, Dormitator latifrons, Ambassis dussumieri, Ambassis macleayi, Epinephelus areolatus, Variola louti, Antigonia capros, Micropercops swinhonis, Siganus fuscescens)\" ] } The dataset includes 847713 records from 1046 constituent datasets; see https://api.gbif.org/v1/occurrence/download/0014571-260721160103020/datasets/export for details. Data from some individual datasets included in this download may be licensed under less restrictive terms.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/genes17080880",
+          "title": "Genetic Diversity and Population Structure of Macrobrachium nipponense in Huaihe River Using Microsatellite Markers",
+          "authors": [
+            "Zhiguo Hu",
+            "Yuyuan Wu",
+            "Jiahui Liu",
+            "Xusheng Guo",
+            "Baohua Duan"
+          ],
+          "journal": "Genes",
+          "date": "2026-07-28",
+          "doi": "10.3390/genes17080880",
+          "url": "https://openalex.org/W7171489477",
+          "abstract": "Background: The oriental river prawn (Macrobrachium nipponense) is an economically important aquaculture species in China. Methods: In this study, the genetic diversity and population structure of 12 populations were investigated using ten microsatellite markers. Among them, the Xiaolong Mountain (XLS) population is a cultured stock, while the Songjiachang Reservoir (SJC) population originates from the Yangtze River as an outgroup. Results: A total of 213 alleles were detected across 342 individuals, with an average of 21.3 alleles per locus. The observed heterozygosity (Ho) ranged from 0.362 to 0.902 (mean = 0.724), and the expected heterozygosity (He) ranged from 0.581 to 0.925 (mean = 0.805). Shannon’s diversity index (I) ranged from 1.224 to 2.810 (mean = 2.130). The polymorphism information content (PIC) varied from 0.532 to 0.920 (mean = 0.787), indicating high informativeness of the markers. Population structure analysis revealed a weak genetic subdivision with a subtle clustering signal (K = 2), but evaluation of LnP(K) indicated that K = 1 could not be confidently rejected. Pairwise Fst values ranged from 0.008 to 0.058, with high gene flow (Nm = 4.060–31.000), denoting low-to-moderate genetic differentiation. AMOVA showed that 98% of genetic variation resided within populations, with only 2% among populations (overall Fst = 0.020, p &lt; 0.01). Nei’s genetic distances ranged from 0.094 to 0.277. Conclusions: Overall, the 12 populations of M. nipponense exhibited high genetic diversity, low-to-moderate genetic differentiation, and a weak population structure with most variation residing within populations. These findings provide valuable molecular markers for selective breeding and offer theoretical guidance for the conservation and sustainable utilization of M. nipponense germplasm resources, although the inferred population structure should be interpreted with caution given the weak differentiation signal.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.cbpb.2026.111246",
+          "title": "Molecular profiling and gene expression analysis of myoblast determination protein (myod) and myogenic factor 5 (myf5) in snow trout Schizothorax richardsonii under different biological, nutritional and thermal conditions.",
+          "authors": [
+            "Rajesh M",
+            "Kamalam BS",
+            "Baral P",
+            "Mahija J",
+            "Ciji A",
+            "Akhtar MS",
+            "Sharma P",
+            "Singh AK"
+          ],
+          "journal": "Comparative biochemistry and physiology. Part B, Biochemistry & molecular biology",
+          "date": "2026 Aug-Sep",
+          "doi": "10.1016/j.cbpb.2026.111246",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42178041/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        }
+      ]
+    },
+    "B": {
+      "label": "群体遗传方法学前沿",
+      "keywords": [
+        "polyploid population genetics",
+        "introgression gene flow detection",
+        "high-altitude adaptation fish evolution",
+        "allopolyploid genome phasing",
+        "ABBA-BABA D-statistics introgression"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7162962396",
+          "title": "Probing metabolic integration in obligate, intracellular symbioses",
+          "authors": [
+            "C. ; https://orcid.org/0000-0002-5719-2416 Fiori Pereira",
+            "M. ; https://orcid.org/0000-0002-9574-9991 Ferrarini",
+            "M. ; https://orcid.org/0000-0001-9450-0345 Kaltenpoth",
+            "T. ; https://orcid.org/0000-0002-2200-2678 Engl"
+          ],
+          "journal": "MPG.PuRe (Max Planck Society)",
+          "date": "2026-10-01",
+          "doi": "",
+          "url": "https://openalex.org/W7162962396",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.ympev.2026.108673",
+          "title": "Phylogenomics, introgression, and demographic history of extant flamingos (Aves: Phoenicopteridae).",
+          "authors": [
+            "Díaz A",
+            "Hernández F",
+            "Mohl JE",
+            "Lavretsky P",
+            "McCracken KG"
+          ],
+          "journal": "Molecular phylogenetics and evolution",
+          "date": "2026-10-01",
+          "doi": "10.1016/j.ympev.2026.108673",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42364679/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.ympev.2026.108652",
+          "title": "Integrative taxonomic revision of Uropsilus (Uropsilinae, Talpidae) combining genomic, morphological and geographic evidence.",
+          "authors": [
+            "Li YX",
+            "Li Q",
+            "Song WY",
+            "Li XY",
+            "Onditi KO",
+            "Pei XX",
+            "Wang HJ",
+            "Fu CK",
+            "Liu SY",
+            "Chen ZZ",
+            "Jiang XL"
+          ],
+          "journal": "Molecular phylogenetics and evolution",
+          "date": "2026-10-01",
+          "doi": "10.1016/j.ympev.2026.108652",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42276466/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.envpol.2026.128502",
+          "title": "Transgene introgression into wild cotton populations generates long-term genetic and ecological effects in a center of origin.",
+          "authors": [
+            "Vázquez-Barrios V",
+            "Butler IAE",
+            "Rojas P",
+            "Wegier A"
+          ],
+          "journal": "Environmental pollution (Barking, Essex : 1987)",
+          "date": "2026-09-15",
+          "doi": "10.1016/j.envpol.2026.128502",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242540/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.bcp.2026.118157",
+          "title": "Tetraploidy in cancer: Diagnostic and therapeutic perspectives.",
+          "authors": [
+            "Lessa A",
+            "Levergeois R",
+            "Muños-Garcia J",
+            "Mountford J",
+            "Vargas-Franco JW",
+            "Cochonneau D",
+            "Renodon-Cornière A",
+            "Heymann MF",
+            "Giurgea I",
+            "Heymann D",
+            "Lézot F"
+          ],
+          "journal": "Biochemical pharmacology",
+          "date": "2026-09-01",
+          "doi": "10.1016/j.bcp.2026.118157",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42269984/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.33545/2618060x.2026.v9.i8a.6197",
+          "title": "Plant Tissue Culture: A Comprehensive Overview",
+          "authors": [
+            "Shweta",
+            "Manjeet Kaur",
+            "Chhavi Mangla",
+            "Aditya Kumar",
+            "Subhash Kajla"
+          ],
+          "journal": "International Journal of Research in Agronomy",
+          "date": "2026-08-01",
+          "doi": "10.33545/2618060x.2026.v9.i8a.6197",
+          "url": "https://openalex.org/W7172166170",
+          "abstract": "Plant tissue culture (PTC) is a technique of growing plant cells and organs In vitro which divide and regenerate into callus or specific plant parts. Micropropagation gained popularity after the discovery of Murashige and Skoog, also known as MS media in 1962. Using PTC a large number of identical, true-to-type plants can be produced in a short duration of time. Although, still there are a number of problems associated with PTC like Browning, Contamination, swollen base tube, albinism and delay of subculture. There is still a lot of work that need to be done in the domain of Plant tissue culture.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-76213-z",
+          "title": "Polymorphism can extensively reshape the genome-wide crossover landscape in Arabidopsis thaliana",
+          "authors": [
+            "Benoît Madec",
+            "Maëla Sémery",
+            "Qichao Lian",
+            "Mohamad Yassine",
+            "Loïse Leonard-Moniot",
+            "Eric Espagne",
+            "Sophie J. M. Piquerez",
+            "Chloé Girard"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-01",
+          "doi": "10.1038/s41467-026-76213-z",
+          "url": "https://openalex.org/W4416877090",
+          "abstract": "Abstract Meiotic recombination, via the formation of crossovers (COs), re-assorts parental alleles and dictate which traits are inherited together, or not. The recombination rate is not homogeneous across the genome, and uncovering the causes of these fluctuations can inform our understanding of DNA recombination and genome evolution. In this study we show that presence of sequence divergence (polymorphism) between homologous chromosomes increases the local recombination rate in Arabidopsis thaliana . This effect is observed genome-wide, turning cold regions of the genome hot. This relocation of COs towards polymorphic regions occurs at the expense of non-polymorphic ones, which become colder. This global overhaul of the CO landscape is dependent on the mismatch repair (MMR) machinery. This suggests that MMR has a pro-CO role, driving COs to regions of the genome where it could detect sequence differences between homologous chromosomes. Our study demonstrates that polymorphism can be a major recombination driver in A. thaliana .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "https://openalex.org/W7113525336",
+          "title": "Transgenerational chromosome repair in the asexual bdelloid rotifer Adineta vaga",
+          "authors": [
+            "Antoine Houtain",
+            "Marc Llirós",
+            "Boris Hespeels",
+            "Emilien Nicolas",
+            "Paul Simion",
+            "Julie Virgo",
+            "Anne‐Catherine Heuskin",
+            "Thomas Lenormand",
+            "Bernard Hallet",
+            "Karine Van Doninck"
+          ],
+          "journal": "Dépôt institutionnel de l'Université libre de Bruxelles (Université Libre de Bruxelles)",
+          "date": "2026-08-01",
+          "doi": "",
+          "url": "https://openalex.org/W7113525336",
+          "abstract": "Homologous recombination is an essential DNA repair mechanism that also promotes chromosome pairing and ensures allele segregation during meiosis in sexual organisms. Here, we explore the dual function of homologous recombination in the bdelloid rotifer Adineta vaga, an ancient asexual species known for its remarkable resilience to extreme genotoxic stresses. Genomic analyses reveal that A. vaga uses meiotic recombination, both to promote spontaneous crossovers and gene conversion during oogenesis and to repair the genome in response to DNA damage. Our study identifies a novel transgenerational DNA repair mechanism, termed break induced homologous extension repair (BIHER), which operates on single DNA ends to repair fragmented chromosomes over successive generations. Our findings suggest that meiotic BIHER, coupled with the holocentric structure of chromosomes, represents a key adaptation of life in extreme environments.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1094/phyto-07-25-0233-r",
+          "title": "Genome-Wide Association Study Reveals Significant Single-Nucleotide Polymorphism Marker Detected for Fusarium Wilt Disease Resistance in Louisiana Sweetpotato Germplasm.",
+          "authors": [
+            "Dhungana A",
+            "La Bonte DR",
+            "Wadl PA",
+            "Zhao D",
+            "Beil CT",
+            "Sheehan MJ",
+            "Power IL"
+          ],
+          "journal": "Phytopathology",
+          "date": "2026-08-01",
+          "doi": "10.1094/phyto-07-25-0233-r",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41984756/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.14719/pst.16081",
+          "title": "Speeding crop resilience: Accelerated breeding strategies for pulse crops",
+          "authors": [
+            "C N Hemanth",
+            "M. Kumar",
+            "H A Thanga",
+            "P. S. Shanmugam",
+            "K Sundaralingam"
+          ],
+          "journal": "Plant Science Today",
+          "date": "2026-08-01",
+          "doi": "10.14719/pst.16081",
+          "url": "https://openalex.org/W7172096986",
+          "abstract": "Pulses, including chickpea (Cicer arietinum L.), lentil (Lens culinaris Medik.), field pea (Pisum sativum L.), mungbean (Vigna radiata (L.) R. Wilczek) and pigeonpea (Cajanus cajan (L.) Huth), are major sources of plant protein, dietary fibre and essential micronutrients, for over one billion people worldwide. However, conventional breeding typically requires 7–12 years to develop improved cultivars, limiting the ability to respond to climate change, emerging biotic and abiotic stresses and increasing food demand. Accelerated breeding (AB) integrates innovative approaches such as speed breeding (SB), rapid generation advancement (RGA), marker-assisted breeding, genomic selection, doubled haploids (DH), high-throughput phenotyping, genome editing and artificial intelligence to shorten breeding cycles and enhance genetic gain. This review summarises recent advances in these technologies, their applications in major pulse crops and their potential to improve breeding efficiency, selection accuracy and cultivar development. It also highlights current challenges, including genotype-dependent transformation, limited phenotyping infrastructure and data integration, while discussing emerging opportunities in multi-omics, predictive breeding and AI-assisted decision support. Integrating these technologies into unified breeding pipelines will accelerate the development of climate-resilient, high-yielding and nutritionally superior pulse cultivars, thereby strengthening global food and nutritional security and promoting sustainable agriculture.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/aobpla/plag028",
+          "title": "Dioecious Poa species diversification parallels dune formation in Atlantic coastal ecosystems.",
+          "authors": [
+            "Giussani LM",
+            "Sassone AB",
+            "Sabena FR",
+            "Celsi CE",
+            "Santin F",
+            "Iannone LJ"
+          ],
+          "journal": "AoB PLANTS",
+          "date": "2026-08-01",
+          "doi": "10.1093/aobpla/plag028",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42388679/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "https://openalex.org/W7165986040",
+          "title": "Bridging Animal Production and Human Nutrition: How Production Ecology Shapes the Nutritional Quality of Terrestrial Animal Foods and Human Omega-3 Status",
+          "authors": [
+            "Joseph Vinod Varre"
+          ],
+          "journal": "Digital Commons - USU (Utah State University)",
+          "date": "2026-08-01",
+          "doi": "",
+          "url": "https://openalex.org/W7165986040",
+          "abstract": "The question at the center of this dissertation is simple: does the way food is produced change the quality of the food itself in ways that matter for human health? Across a series of studies on bison meat, eggs, and human dietary intervention, the answer was yes. This work began with a broad look at the modern food system and the nutritional consequences of industrialized diets. In particular, it focused on the growing imbalance between omega-6 and omega-3 fatty acids in the Western diet. This balance matters because omega-3 fats support heart, brain, and immune health, and diets high in omega-6 but low in omega-3 have been linked to greater risk of chronic disease. That imbalance is shaped not only by what people choose to eat, but also by how food is grown, how animals are fed, and how agricultural systems prioritize cost, yield, and convenience over nutrient density. One part of the dissertation examined bison raised in seven finishing systems, from diverse native rangeland to grain-based pen systems. The differences in the meat were striking. Bison raised on forage-rich pasture produced meat with a more favorable fatty acid profile, including lower omega-6:omega-3 ratios and higher concentrations of several omega-3 fatty acids. The meat also carried a different metabolomic signature, including compounds associated with plant-rich diets and forage exposure. In short, feeding system was not just a background detail. It left a measurable mark on the food. Another chapter asked whether geography itself leaves a trace in meat. Bison from four ranches in Kansas, the Nebraska-South Dakota border region, and two Montana sites differed in fatty acids, minerals, and metabolites. Those differences point to a kind of nutritional terroir: a signal shaped by local ecology, including soils, climate, and vegetation. The results suggest that “place” is not just a label on a map. It can become part of the biology of the food. The final study brought the question into people. In a 16-week randomized controlled trial, healthy adults consumed either pasture-raised or conventionally raised beef, pork, chicken, and eggs. Participants eating the pasture-raised foods showed higher red blood cell omega-3 levels and lower omega-6:omega-3 ratios by the end of the study. The pasture-raised foods contained more omega-3 fatty acids, and these differences were reflected in the participants’ blood. Taken together, these studies suggest that agricultural systems shape more than productivity or environmental outcomes. They also shape the nutritional quality of food in ways that can carry through to human biology. That makes production ecology a public health question as much as an agricultural one.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "https://openalex.org/W7170120166",
+          "title": "Integrating Space Use and Demography to Support Management of an Endangered Alpine Ungulate",
+          "authors": [
+            "Danielle J. Berger"
+          ],
+          "journal": "Digital Commons - USU (Utah State University)",
+          "date": "2026-08-01",
+          "doi": "",
+          "url": "https://openalex.org/W7170120166",
+          "abstract": "The places animals choose to live affect the food they find, the dangers they face, and the weather conditions they experience. These experiences influence whether individual animals survive and reproduce, which in turn affects the size and health of animal populations. Although scientists have long believed that animal movements play an important role in population trends, there has been limited real-world evidence showing this connection. Advances in GPS tracking technology now allow researchers to follow animals over long periods and better understand how movement influences survival. Using 20 years of GPS tracking data from the endangered Sierra Nevada bighorn sheep (Ovis canadensis sierrae), we examined how snow conditions affect where these bighorn choose to live, and how those decisions influence their chances of survival. Our goal was also to help wildlife managers prepare for future changes in snow conditions caused by a warming climate. First, we studied how snow influences seasonal movements up and down the mountains and investigated how bighorn sheep decide when to move. Next, we examined how these movements change the amount of snow the sheep experience and how that affects their survival. We then estimated how the snow conditions encountered by bighorn sheep may change in the future if their movement patterns remain the same. Finally, we predicted how survival is likely to change under future snow conditions while accounting for the possibility that the bighorn may adjust their movements. We found that Sierra Nevada bighorn sheep actively change where they live and travel in ways that reduce their exposure to difficult snow conditions, improving their chances of survival. Future changes in snowpack, combined with the bighorn's ability to adapt their movements, are expected to further improve survival. This study provides clear evidence that animal movement can shape population outcomes and offers practical tools that wildlife managers can use to better understand and protect species using GPS tracking data.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.31407/ijees16.330",
+          "title": "SCREENING SEEDLING ROOT ARCHITECTURE IN TRITICUM TURANICUM AND TRITICUM POLONICUM ANCIENT WHEAT SPECIES",
+          "authors": [
+            "Hayati Akman"
+          ],
+          "journal": "International Journal of Ecosystems and Ecology Science (IJEES)",
+          "date": "2026-07-31",
+          "doi": "10.31407/ijees16.330",
+          "url": "https://openalex.org/W7172028020",
+          "abstract": "Wheat (Triticum spp.) provides about one-fifth of global calories, yet modern cultivars possess a narrow genetic base, making the exploration of ancient tetraploid relatives such as Triticum turgidum ssp.turanicum and T. turgidum ssp.polonicum essential for uncovering valuable root and shoot traits to enhance climate resilience.This study aimed to characterize early-stage seminal root and shoot traits across a diverse panel of 25 genotypes, including modern bread wheats (T.aestivum), durum wheats (T.durum), T. turanicum, and T. polonicum, using a germination-paper assay under controlled laboratory conditions for 15 days, with measurements of plant height, coleoptile length, rooting depth, seminal root number, root and shoot biomass, root/shoot ratio, and root/total biomass ratio.Analysis of variance revealed highly significant genotypic variation (P < 0.001) for all traits.Notably, T. turanicum PI 481582 exhibited the longest coleoptile (10.3 cm) and PI 166554 the tallest plants (42.0 cm), indicating strong potential for deep-sowing tolerance, while T. polonicum PI 42209 achieved the deepest rooting (22.5 cm) and PI 192666 the highest root biomass (0.099 g).The modern durum variety Sırçalı demonstrated the highest root/shoot ratio (0.50) and root/total biomass percentage (33.4%), reflecting superior early carbon allocation to roots, whereas modern bread wheats, despite having shorter coleoptiles, maintained moderate rooting depths.These findings confirm that ancient wheat relatives are exceptional genetic resources for improving early root vigour and deep-sowing adaptation, while modern durum cultivars exhibit efficient biomass partitioning, collectively offering promising breeding materials to develop climate-resilient, high-yielding wheat varieties for future agricultural systems.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.aqrep.2026.103778",
+          "title": "Variation of the mitochondrial genome in the autotetraploid carp lineage derived from hybridization of Cyprinus carpio (♀) and Megalobrama amblycephala (♂)",
+          "authors": [
+            "Yalan Zhang",
+            "Qinglin Xu",
+            "Jiao Wang",
+            "Yu Hu",
+            "Xinyue Deng",
+            "Wei Chen",
+            "Sijin Fan",
+            "Gaode Zhong",
+            "Jiabao Lin",
+            "Kaikun Luo",
+            "Mingli Chai",
+            "Fangzhou Hu",
+            "Wuhui Li",
+            "Yuqin Shu",
+            "Shi Wang",
+            "Shaojun Liu"
+          ],
+          "journal": "Aquaculture Reports",
+          "date": "2026-07-31",
+          "doi": "10.1016/j.aqrep.2026.103778",
+          "url": "https://openalex.org/W7172064783",
+          "abstract": "Mitochondrial DNA (mtDNA) is strictly maternally inherited in most organisms, yet paternal leakage occurs in some species, particularly hybrids. Analysis of mitochondrial genome variation in the autotetraploid carp (4nNC, derived from female common carp × male blunt snout bream) lineage and its maternal parent allotetraploid fish (4nCB) revealed paternal leakage in multiple mitochondrial regions in 4nCB. The resulting chimeric fragments and associated de novo mutations were stably inherited in the 4nNC lineage, and most mutation sites matched the corresponding bases in diploid wild crucian carp (2nCC). Notably, from the first to the second hybrid generation, mitochondrial polymorphic sites in offspring decreased markedly, and genome structure stabilized, suggesting that persistent distant hybridization imposes strong selective pressure that triggers mitochondrial purifying selection to eliminate incompatible variants and rapidly achieve a new equilibrium. Moreover, complete mitochondrial genome analyses (nucleotide/amino acid sequences and phylogeny) revealed that the 4nNC lineage is more closely related to 2nCC than to its original parents, likely due to paternal leakage within its mitochondrial genome structure. These results demonstrate that following two rounds of distant hybridization, the mitochondrial genome structure of the newly established polyploid hybrid F 1 generation was more stable than that of its hybrid parental F 1 , and subsequent continuous self-crossing markedly reduced variation in each lineage, ultimately yielding genetically stable hybrid lineages. This study provides the first evidence that paternal mtDNA in distant hybridization-derived polyploids is stably transmitted to hybrid and self-crossed offspring, offering new insights into mitochondrial inheritance mechanisms and paternal mtDNA persistence in polyploid hybrids.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-07999-2",
+          "title": "Chromosome-level genome assembly of the cliff-dwelling plant Oresitrophe rupifraga (Saxifragaceae)",
+          "authors": [
+            "Weilong Gao",
+            "Liao-Cheng Zhao",
+            "Meng-Yao Xu",
+            "Feng-Fan Yang",
+            "Xian‐Yun Mu"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-07-31",
+          "doi": "10.1038/s41597-026-07999-2",
+          "url": "https://openalex.org/W7171947191",
+          "abstract": "Understanding the genomic basis of ecological adaptation is essential to deciphering how dominant species survive under extreme abiotic stresses. Oresitrophe rupifraga (Saxifragaceae) is a perennial herb restricted to limestone cliffs in China, possessing high ornamental and medicinal value. Its wide distribution and large population sizes make it a natural model for identifying genetic mechanisms of resilience, which may inform crop improvement for extreme environments. Here, we present a chromosome-level genome assembly of O. rupifraga , which spans 717.76 Mb and has 96.21% of its sequences anchored to 17 chromosomes. The assembly has a scaffold N50 of 42.40 Mb, a BUSCO completeness of 98%, and Merqury QV values above 50 for all chromosomes. A total of 37,005 protein-coding genes were predicted, with 99.10% BUSCO completeness and 97.3% OMArk completeness. Repetitive sequences comprise 63.35% of the genome, with long terminal repeats accounting for 44.19%. This genomic resource will facilitate studies of the ecological adaptation and evolutionary history of cliff-dwelling plants.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s42003-026-10733-8",
+          "title": "Microbes and diet reshape the Drosophila intestine via distinct cellular dynamics",
+          "authors": [
+            "Alessandro Bonfini",
+            "Nicolas Buchon"
+          ],
+          "journal": "Communications Biology",
+          "date": "2026-07-31",
+          "doi": "10.1038/s42003-026-10733-8",
+          "url": "https://openalex.org/W7172001689",
+          "abstract": "The intestine adapts to environmental challenges by changing size, but whether such remodeling reflects fixed homeostatic restoration or context-dependent adaptation remains unclear. Here, using Drosophila melanogaster, we combine defined diets with oral bacterial infection to quantify midgut size, cell number, cell size, and epithelial turnover. We show that diet and infection reshape the midgut through distinct cellular programs. Infection causes rapid shrinkage only when the organ was initially large, whereas post-infection regrowth requires dietary nutrients and converges toward a diet-defined state rather than a fixed pre-injury size. Diet-driven expansion occurs primarily through enterocyte hypertrophy and persists after stem cell ablation, whereas infection-induced recovery requires intestinal stem cell/progenitor activity. Microbes also have context-dependent effects, acting as damaging stressors in nutrient-rich conditions but promoting growth and survival under nutrient-poor conditions. These findings reveal modular cellular strategies through which diet and microbes jointly shape epithelial plasticity. Quantifying how diet and infection reshape the Drosophila midgut reveals distinct cellular strategies underlying epithelial remodeling and organ size control.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10404333/v1",
+          "title": "Chromosome-level genome reveals the phylogenomics and hibernation-related evolution in Tibetan brown bear (Ursus arctos pruinosus)",
+          "authors": [
+            "赵牧冉",
+            "Anmin Wang",
+            "Hai Liu",
+            "Chenxing Yu",
+            "Y. Liu",
+            "Nan Sun",
+            "LI Guo-gang"
+          ],
+          "journal": "Research Square",
+          "date": "2026-07-31",
+          "doi": "10.21203/rs.3.rs-10404333/v1",
+          "url": "https://openalex.org/W7172015752",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.55930/jonas.1926887",
+          "title": "CHLOROPLAST GENOME SEQUENCING IN BRASSICACEAE AND ITS PHYLOGENETIC APPLICATIONS: A COMPREHENSIVE REVIEW",
+          "authors": [
+            "Shaima Mahfood Ebrahim Abdulrahman",
+            "Mehmet Cengiz Karaismailoğlu"
+          ],
+          "journal": "Bartın University International Journal of Natural and Applied Sciences",
+          "date": "2026-07-31",
+          "doi": "10.55930/jonas.1926887",
+          "url": "https://openalex.org/W7171959691",
+          "abstract": "The Brassicaceae family is important both scientifically and economically; however, its complex evolutionary history, characterized by rapid diversification, whole-genome duplications, and significant reticular evolution, makes its classification challenging. The advent of high-throughput next-generation sequencing technology has facilitated the shift from single-locus phylogenomics to whole-plastome phylogenomics, improving our understanding of the family's deep evolutionary relationships. This comprehensive review reinforces our understanding of Brassicaceae chloroplast genomes, highlighting the highly consistent gene content, distinctive base composition patterns, and highly conserved quadruple structure. Phylogenetically relevant structural changes, including temporal shifts in the boundaries of inverted repeats (IRs), lineage-specific gene losses (e.g., rps16), and the loss of ndh genes in response to local adaptive pressures, are investigated in this study. Furthermore, the effectiveness of plastid phylogenics in clarifying taxonomically complex clades was evaluated, while directly addressing common problems such as cytonuclear incompatibility, chloroplast capture, and soft polytomies at key backbone nodes. The article examined newly developed methodologies, including genome scanning, advanced assembly tools such as GetOrganelle, and multispecies merger phylogenetic reconstruction. Finally, potential future developments were discussed, highlighting the necessity of multi-genome integration, the application of pan-plastome methodologies, and the expanding possibilities of chloroplast synthetic biology and genome editing to improve agriculture.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.31.742098",
+          "title": "Cpf1(Cas12a)-based genome editing in the filamentous cyanobacterium Nostoc punctiforme",
+          "authors": [
+            "Jenna R Ryder",
+            "Soohan Woo",
+            "Ailea A Blahm",
+            "Christine N Cummings",
+            "Douglas D. Risser"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-31",
+          "doi": "10.64898/2026.07.31.742098",
+          "url": "https://openalex.org/W7172096071",
+          "abstract": "The filamentous cyanobacterium Nostoc punctiforme is a key model organism used to study several aspects of cyanobacterial biology, including development, nitrogen-fixing symbioses with plants, and secondary metabolites, among others. While N. punctiforme is amenable to genetic manipulation, traditional approaches for the generation of mutant strains using homologous recombination are slow, requiring prolonged outgrowth under antibiotic selection to ensure isogenic mutant populations. CRISPR-based genome editing using Cpf1 (Cas12a) was recently shown to be an effective means of rapid generation of isogenic mutants in several cyanobacteria. In this study, Cpf1-based genome editing tools were developed for N. punctiforme. A total of 19 unmarked, in-frame deletion mutants were successfully constructed using Cpf1-targeted cleavage along with homology directed repair (HDR). The length of the homology arms (HAs) on the homologous repair template (HRT) used for HDR was found to be a critical factor for successful deletion of target genes, with some requiring up to 4 kb HAs to acquire mutant exconjugants. A strategy for allelic replacement was also developed by introducing an exogenous target site in place of the deleted genes, which could subsequently be targeted for cleavage and repaired with an HRT containing altered alleles of the genes of interest. Additionally, a single-step cloning strategy was devised, allowing for rapid assembly of editing plasmids, and improved conjugation protocols for genetic transfer from E. coli to N. punctiforme were implemented. Collectively, these tools and protocols should enhance the pace and ease of conducting genetic studies in this important model cyanobacterium.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.31407/ijees16.331",
+          "title": "UNLOCKING THE \"HIDDEN HALF\": ROOT PHENOTYPING OF KHORASAN AND POLISH WHEAT GENETIC RESOURCES",
+          "authors": [
+            "Hayati Akman"
+          ],
+          "journal": "International Journal of Ecosystems and Ecology Science (IJEES)",
+          "date": "2026-07-31",
+          "doi": "10.31407/ijees16.331",
+          "url": "https://openalex.org/W7172000138",
+          "abstract": "Wheat root systems are critical for water and nutrient uptake, yet they remain an underexplored \"hidden half\" in breeding programs.Ancient wheat relatives may harbor valuable root traits for climate resilience.This study aimed to investigate phenotypic diversity in root and shoot traits among modern and ancient wheat genotypes (T.aestivum, T. durum, T. polonicum, and T. turanicum) during the stem elongation stage to identify genetic resources with superior root characteristics.Twenty-five wheat genotypes were grown in 100 cm PVC tubes under controlled greenhouse conditions.Root and shoot morphological traits were measured at the stem elongation stage, including rooting depth, biomass allocation, tiller number, and plant height.Significant genotypic differences (P < 0.001) were detected for all traits.T. turanicum accessions (CItr 11390 and PI 166308) displayed greater rooting depth than modern wheats and T. polonicum accessions.For root biomass, T. polonicum (PI 192666) and T. turanicum (PI 166450 and CItr 14082) accessions showed substantial root biomass accumulation relative to modern wheats.The hierarchical clustering dendrogram demonstrated a close association between traits, specifically grouping root biomass and shoot biomass within the same sub-cluster.Phenotypic grouping indicated a substantial extent of within-species plasticity.Ancient wheats, particularly T. turanicum and T. polonicum, offer valuable genetic resources for improving root architecture.Ancient wheats harbor valuable root traits that could be introgressed into modern varieties for wheat improvement.This study suggests that deep-rooting accessions are particularly advantageous for improving new varieties for rainfed conditions, whereas large-rooted accessions should be prioritized for yield evaluation, with the breeding goal of assessing their relative suitability under irrigated versus rainfed conditions.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11627-026-10687-w",
+          "title": "Development of plant regeneration and stable Agrobacterium tumefaciens–mediated transformation methods for Solanum retroflexum Dunal",
+          "authors": [
+            "Julie Thakur",
+            "Marina Martínez-López",
+            "Joyce Van Eck"
+          ],
+          "journal": "In Vitro Cellular & Developmental Biology - Plant",
+          "date": "2026-07-31",
+          "doi": "10.1007/s11627-026-10687-w",
+          "url": "https://openalex.org/W7171943833",
+          "abstract": "Abstract Solanum retroflexum is cultivated for both its fruit and leaves in Africa, China, India, and Indonesia. However, it is still considered an underutilized crop due to limited genetic and genomic resources to support improvement. To enable gene function studies for future improvement by new breeding technologies, this study established efficient plant regeneration and Agrobacterium tumefaciens –mediated transformation approaches. Cotyledon and hypocotyl explants were used to test plant regeneration on a Murashige and Skoog salts-based medium supplemented with 0.5 mg L −1 zeatin. Both explant types showed 100% regeneration; however, cotyledons produced a greater number of whole plants than hypocotyls. For transformation experiments, cotyledon explants were infected with A. tumefaciens AGL1 carrying the pJL33 binary vector containing the Green Fluorescent Protein ( GFP ) reporter and the Neomycin Phosphotransferase-II ( nptII ) selectable marker genes. Following cocultivation, firstly, kanamycin at various concentrations (75.0 to 400.0 mg L −1 ) was evaluated to determine the optimal concentration for maximizing transgenic line recovery. However, a significant number of escapes even at 400.0 mg L −1 kanamycin were observed. Because the nptII gene also confers resistance to G418, in this study’s subsequent experiments the current authors tested the effectiveness of a range of G418 concentrations (25.0 to 150.0 mg L −1 ). Fluorescence microscopy and PCR analysis showed that 25.0 mg L −1 G418 resulted in the highest transformation efficiency at 88% and the fewest escapes. Ploidy levels of regenerated, transgenic, and wild-type plants were assessed using flow cytometry, confirming stable ploidy. The optimized selection medium facilitated an efficient and stable transformation system that will be utilized to support crop improvement efforts of S. retroflexum .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1002/ece3.74055",
+          "title": "Unique Population or Unique Species? Genetic Insights Into the Pygmy Freshwater Crocodiles of Northern Australia",
+          "authors": [
+            "Katherine Brittain",
+            "Torre Muhlbach",
+            "Rui Cao",
+            "Jose L. Mijangos",
+            "Dean Yibarbuk",
+            "Erin O'Brien",
+            "Ruchira Somaweera",
+            "Nancy N. FitzSimmons",
+            "Jaime Gongora"
+          ],
+          "journal": "Ecology and Evolution",
+          "date": "2026-07-31",
+          "doi": "10.1002/ece3.74055",
+          "url": "https://openalex.org/W4408885831",
+          "abstract": ") in few elevated, rocky escarpment areas of the Northern Territory of Australia reach sexual maturity earlier and generally have an adult size half that of their downstream counterparts. There is debate over whether these \"pygmy\" or \"dwarf\" crocodile populations are the result of extreme phenotypic plasticity or the origins of a unique species through peripatric speciation. This debate is of conservation concern as these populations face immediate threats from invasive species and climate change, and species classification can affect conservation management strategies. We used mitochondrial DNA control region and cytochrome b sequences to investigate whether mtDNA haplotype variation supports any evidence of speciation between the pygmy and standard-size freshwater crocodiles. Additionally, we used genotyping by sequencing (dd-RADseq) to examine genetic clustering. Separated and concatenated control region and cytochrome b haplotypes were shared between pygmy and standard-size crocodile populations. Principle Component Analysis and STRUCTURE analyses on dd-RADseq data showed pygmy and standard-size crocodiles cluster by geographic location as much as by phenotype. We found no clear and objective genetic evidence to suggest that the pygmy freshwater crocodiles should be considered a separate species from any other population of the standard-size crocodiles. However, the isolation and environmental adaptability of these unique pygmy freshwater crocodile populations make them ecologically unique and valuable for conservation, and worth safeguarding against potential threats.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10144969/v1",
+          "title": "Comparative Morphological and SSR-Based Molecular Characterization of Zea nicaraguensis and the Maize Inbred Line",
+          "authors": [
+            "Senthilkumar Velmurugan",
+            "Priya Garkoti",
+            "Sharat Prabhakaran",
+            "Anu Singh",
+            "D. Pandey",
+            "Usha Pant",
+            "Jai Prakash Jaiswal",
+            "N. K. Singh"
+          ],
+          "journal": "Research Square",
+          "date": "2026-07-31",
+          "doi": "10.21203/rs.3.rs-10144969/v1",
+          "url": "https://openalex.org/W7171967268",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1813217",
+          "title": "LTR retrotransposons shape genome architecture, function, and evolution in diverse plant species",
+          "authors": [
+            "Asmaa H. Hassan",
+            "Morad M. Mokhtar",
+            "Achraf El Allali"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-07-30",
+          "doi": "10.3389/fpls.2026.1813217",
+          "url": "https://openalex.org/W7171766023",
+          "abstract": "Long terminal repeat retrotransposons (LTR-RTs) are major components of plant genomes, shaping genome structure and evolution; however, their chromosomal distribution and lineage-specific dynamics remain incompletely understood. Here, we analyzed the abundance, spatial organization, and evolutionary history of intact LTR-RTs across 208 plant species using highquality chromosome-level genomes and the MegaLTR tool. Our analyses reveal extensive interspecific variability in LTR-RTs composition and chromosomal organization. Across families, LTR-RTs distributions are significantly non-random, with chromosome identity strongly influencing accumulation patterns. Although both Copia and Ty3-retrotransposons superfamilies exhibit significant inter-chromosomal heterogeneity, these superfamilies differ in the dimension of their non-randomness: Copia elements show more frequent heterogeneity between chromosomes, while Ty3-retrotransposons display stronger within-chromosome spatial structuring, consistent with preferential accumulation in recombination-suppressed heterochromatic regions. Distinct lineage patterns were observed, including highly structured Ty3-retrotransposons distributions in Poaceae. Insertion time analyses across 16 major clades revealed significant differences between genic and intergenic regions, with most clades showing younger insertions within genes. This pattern supports the role of purifying selection in removing older deleterious insertions from functional sequences. Together, these findings demonstrate that although regulatory mechanisms of LTR-RTs are broadly conserved, their chromosomal landscapes are shaped by superfamily-specific behavior, lineage history, and selective constraints, highlighting the central role of transposable elements in plant genome evolution.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740913",
+          "title": "Identification and functional analysis of αKNL2 genes in cowpea",
+          "authors": [
+            "Andriy Kochevenko",
+            "Itzel Amasende-Morales",
+            "Gloria León-Martínez",
+            "Judith Lúa",
+            "Osvaldo Ruíz-Maciel",
+            "Jörg Fuchs",
+            "Jean‐Philippe Vielle‐Calzada",
+            "Andreas Houben"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-30",
+          "doi": "10.64898/2026.07.27.740913",
+          "url": "https://openalex.org/W7171833189",
+          "abstract": "Summary Although the KINETOCHORE NULL2 (KNL2) protein is an essential inner centromeri c protein that is crucially important for assembly and functioning of kinetochores, our understanding of its organization, dynamics and function of distinct isoforms in the cells of plant species undergoing mitosis/meiosis is far from complete. In this study, we identified and characterized two αKNL2.1 / αKNL2.2 genes in cowpea. GUS reporter constructs and qRT-PCR revealed that the expression profiles of both genes were variable across organs, with the highest expression in leaves and roots. Using an EYFP gene fusion coupled with immunostaining, it was demonstrated that both αKNL2 variants colocalized at centromeres in a cell-cycle-dependent manner. The CRISPR/Cas9 technique was used to generate various in-frame deletion and out-of-frame knock-out αknl2 mutants. Single- and double-gene knock-out mutants were generated, and the effects of mutations on plant development and seed setting were analyzed. The results are discussed both with respect to the roles of these proteins in kinetochore assembly and in the context of using αKNL2 genes for in vivo production of haploids in cowpea. Significance statement This study identifies two paralogous αKNL2 genes in cowpea and reveals their functional redundancy during centromere assembly and essential role in seed development. These findings expand our knowledge of kinetochore dynamics and provide a basis for exploring the evolutionary diversification of centromeric proteins in legumes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.nxmate.2026.102920",
+          "title": "Next-generation nanotechnology in plant genome editing for sustainable agriculture and environmental management: A comprehensive review",
+          "authors": [
+            "Saranyadevi Subburaj",
+            "T. Selva Kumar"
+          ],
+          "journal": "Next Materials",
+          "date": "2026-07-30",
+          "doi": "10.1016/j.nxmate.2026.102920",
+          "url": "https://openalex.org/W7171821483",
+          "abstract": "The integrated nanotechnology and plant genome editing are opening novel prospects for precision-based agriculture and ecological sustainability. Though some recent works highlighted advances in the two areas, there is still a gap in extensive reviews o relate emerging nanotechnologies, especially those influenced by quantum biology to practical uses in plant systems. This review fills the gap by addressing how next-generation nanomaterials and nano-enabled tools is transforming plant genome editing and environmental genomics. Recent advances in nanoscale delivery systems, such as biodegradable nanoparticles and nano-biohybrid systems, which enhance the specificity and targeting of gene editing, are explored. Development of real-time gene expression monitoring with nanosensors and the application of programmable nano-chips also pointed out to their contribution to the controlled and adaptive crop engineering. Moreover, the review discusses modification strategies of the epigenome, including targeted DNA methylation and histone modification, which facilitate long-term crop adaptation. The prospect of nano-enabled strategies in enhancing plant-microbe interactions, phytoremediation and soil health is also discussed. Moreover, optogenetic devices and light-dependent nanodevices are also novel techniques for spatially targeted genome regulation. Together with these technological improvements, the development of environmentally responsible nanomaterials could be safe and sustainable uses. Lastly, this review describes some of the major ethical, legal, and ecological issues related to the application of advanced genome editing technologies. Connecting the contributions of nanotechnology, synthetic biology, and plant science, this review provides a better map to approach future research to achieve a sustainable and climate-resilient agricultural system.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.56093/jisas.v80i1.16",
+          "title": "Pan-Genomics in Fruit Crops: Current Progress, Challenges and Future Directions",
+          "authors": [
+            "Anupama Roy",
+            "Sarika",
+            "Mir Asif Iquebal"
+          ],
+          "journal": "Journal of the Indian Society of Agricultural Statistics",
+          "date": "2026-07-30",
+          "doi": "10.56093/jisas.v80i1.16",
+          "url": "https://openalex.org/W7171782807",
+          "abstract": "Pan-genomics captures the full spectrum of genetic diversity within plant species and overcomes the limitations of single reference genomes. By integrating core, dispensable, and unique genomic components, pan-genomic approaches enable comprehensive detection of structural variants, presence–absence variations, and lineage-specific genes that underpin phenotypic diversity, domestication, and environmental adaptation. In plant and horticultural crops, particularly tropical and subtropical fruit species characterized by high heterozygosity, polyploidy, and clonal propagation, pangenomics has revealed extensive hidden variation influencing fruit quality, disease resistance, and stress tolerance that was previously inaccessible using traditional genomics.This review synthesizes the concepts, methodological advances, computational tools, and recent progress in plant pan-genomics, with a focused emphasis on tropical and subtropical fruit crops. We discuss pan-genome construction strategies, graph-based representations, and emerging resources, alongside key applications in trait discovery, evolutionary analysis, and molecular breeding. Current challenges, including limited accession diversity, incomplete functional annotation, and computational complexity, are critically examined. Finally, we highlight future directions toward population-scale, graph-based, and multi-omics–integrated pan-genomes, underscoring their potential to accelerate precision breeding and support the development of climate-resilient, high-quality fruit crop varieties.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/aob/mcag229",
+          "title": "Cryptic diversity, polyploidy, and intraspecific divergence in <i>Erysimum</i> (Brassicaceae) species endemic to the western Balkans",
+          "authors": [
+            "Richard Bačák",
+            "Marek Šlenker",
+            "Hana Majerová",
+            "Barbora Šingliarová",
+            "Adam Kantor",
+            "Katarína Skokanová",
+            "Ingrid Turisová",
+            "Peter Turis",
+            "Terezie Mandáková",
+            "Judita Zozomová‐Lihová"
+          ],
+          "journal": "Annals of Botany",
+          "date": "2026-07-30",
+          "doi": "10.1093/aob/mcag229",
+          "url": "https://openalex.org/W7171858570",
+          "abstract": "BACKGROUND AND AIMS: Several evolutionary drivers have been proposed to explain the exceptional species and genetic diversity of the Balkan flora, including the moderate impact of glaciations enabling long-term in situ persistence, ecological and topographic heterogeneity promoting vicariant differentiation, and polyploidy. Despite these shared drivers, plant lineages often show contrasting evolutionary histories, suggesting lineage-specific rather than broadly generalizable responses. The genus Erysimum, notable for its high endemism, karyological variation, recent and rapid speciation, and signatures of reticulate evolution, provides an excellent model for exploring this diversity of evolutionary trajectories and speciation drivers in the Balkans. METHODS: Focusing on five Balkan endemics of the E. odoratum species complex sampled from 47 populations, we examined chromosomal and genome size variation and applied two complementary genomic approaches, target enrichment (Hyb-Seq) and RADseq, along with morphometric analyses. These datasets were used to circumscribe species, uncover intraspecific variation patterns, and assess the extent and evolutionary consequences of interspecific gene flow and polyploidy. KEY RESULTS: Genetic and morphological evidence was largely congruent, clarifying species boundaries but also revealing cryptic diversity, leading to the recognition of eight entities. Most diversity was concentrated in the southern Dinarides, where we detected multiple cytotypes, an undescribed lineage, a polyphyletic species resulting from two independent autopolyploidization events, and allotetraploids arising in a contact zone. Geographic distance and biogeographic barriers across the mountainous Balkan landscape likely shaped patterns of divergence and promoted speciation. Discrepancies between chromosome numbers and genome size indicate dynamic chromosomal evolution. CONCLUSIONS: Vicariant differentiation, auto- and allopolyploidy, genome size and chromosomal dynamics together account for the pronounced diversity of Erysimum in the Balkans, illustrating how speciation is driven within this biodiversity hotspot. Importantly, substantial evolutionary potential is retained within species, as the coexistence of multiple intraspecific genetic lineages and cytotypes can reinforce reproductive barriers and promote future diversification.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-07817-9",
+          "title": "Chromosome-level genome assemblies of Brownlowia tersa and Brownlowia argentata (Brownlowioideae: Malvaceae)",
+          "authors": [
+            "Panthita Ruang‐areerate",
+            "Duangjai Sangsrakru",
+            "Poompat Phadphon",
+            "Chutima Sonthirod",
+            "Chaiwat Naktang",
+            "Wasitthee Kongkachana",
+            "Nukoon Jomchai",
+            "Tamanai Pravinvongvuthi",
+            "Sumet Thongdon-um",
+            "Poonsri Wanthongchai",
+            "Sithichoke Tangphatsornruang",
+            "Wirulda Pootakham"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-07-30",
+          "doi": "10.1038/s41597-026-07817-9",
+          "url": "https://openalex.org/W7171822586",
+          "abstract": "Although Brownlowia tersa and Brownlowia argentata are classified as near-threatened and data-deficient mangrove species, respectively, their genomic resources remain limited. Here, we present chromosome-level genome assemblies for both species and a SNP data for B. tersa in Thailand. The assembled genomes of B. tersa and B. argentata are 392.91 Mb and 395.11 Mb in size, with scaffold N50 values of 25.70 Mb and 26.03 Mb, respectively. Both genomes showed approximately 98% complete BUSCOs and LAI scores of 10. Approximately 96% of each assembly was anchored to 14 pseudochromosomes. Repetitive elements comprised approximately 45% of both genomes, including 25% unclassified repeats. A total of 31,864 and 28,920 protein-coding genes were predicted in B. tersa and B. argentata, respectively, of which approximately 88% were functionally annotated and 90% were complete BUSCOs. Additionally, 1,196 and 1,222 ncRNAs were identified in B. tersa and B. argentata, respectively. SNP data from 37 B. tersa accessions were also generated. These genome assemblies and the SNP dataset provide valuable resources for studying mangrove evolution and conservation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.741083",
+          "title": "Expanded unbiased population-genomic summary statistics in pixy",
+          "authors": [
+            "Kieran Samuk",
+            "Matt Stone",
+            "Erin McAuley",
+            "Nicholas P. Bailey",
+            "Gina Lucas",
+            "Mikhail Plaza"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-30",
+          "doi": "10.64898/2026.07.27.741083",
+          "url": "https://openalex.org/W7171793776",
+          "abstract": "Abstract Estimates of population-genetic summary statistics are often computed from variant-only VCFs, which commonly omit invariant sites (i.e. sites with only homozygous reference genotypes across all samples). However, these sites are critical for correctly estimating per site statistics such as nucleotide diversity (π) and between population divergence (d xy ). Our software pixy addressed this issue by providing support for computing statistics directly from “all-sites” VCFs that encode invariant positions explicitly (Korunes and Samuk 2021). pixy has since been widely adopted and used in a large variety of population genetic studies. Here we present a major update to pixy, which expands the original tool in four major areas. First, we provide implementations of new estimators of Watterson’s θ and Tajima’s D that are unbiased with respect to missing data. Secondly, we provide support for arbitrary ploidy and multiallelic sites. Third, we introduce a variety of optimizations, including multicore execution and a roughly order-of-magnitude reduction in per-worker memory footprint. Finally, we have broadly modernized our code base, test suite, and community contribution pathway. We validate these new features on simulated polyploid and multiallelic datasets, as well as two empirical datasets (one diploid and one autotetraploid), and benchmark the new multicore scaling. We position pixy relative to contemporary tools and discuss shared limitations of VCF-based estimators. By integrating support for diverse ploidies, allelic complexity, and genome-wide scale in one workflow, pixy provides the population genetics community with a straightforward tool for estimates of key summary statistics that are unbiased with respect to missing data. pixy remains completely open-source (MIT-licensed) and easily installable with the conda package management system.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.29.741575",
+          "title": "Evolution of endogenized densoviral elements across aphid species",
+          "authors": [
+            "Paula Rozo-López",
+            "Joseph Torres",
+            "Vanesa Torres",
+            "Meaghan J. Adler",
+            "Keertana Tallapragada",
+            "Oliver Cope",
+            "Benjamin J. Parker"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-30",
+          "doi": "10.64898/2026.07.29.741575",
+          "url": "https://openalex.org/W7171974050",
+          "abstract": "A bstract Endogenous viral elements (EVEs) are widespread across animal genomes, yet the processes governing EVE evolution and diversification remain poorly understood. Here, we characterize the evolution of densoviral EVEs and exogenous densoviruses across the aphid tribe Macrosiphini, an agriculturally important group in which exogenous densoviruses and their endogenous derivatives have been linked to the plastic production of wings. Using new genome assemblies, transcriptomics, and phylogenetic analysis, we find that EVE content varies extensively across species. Moreover, we discovered a novel densovirus that is vertically transmitted, but phylogenetic incongruence between other densoviruses and their hosts suggests that horizontal transmission may also occur. Finally, we show that EVE-mediated regulation of wing plasticity extends across species that use different environmental signals to induce winged offspring. Our study shows that in this system, the evolution of EVEs is highly variable and lineage-specific, generating genomic patterns that cannot be predicted from host evolutionary relationships.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740932",
+          "title": "The role of reticulate evolution in biodiversity formation: the case of neotropical Adiantum ferns",
+          "authors": [
+            "Chi‐Chuan Chen",
+            "Samuli Lehtonen",
+            "Jefferson Prado",
+            "Blake D. Fauskee",
+            "Hanna Tuomisto"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-30",
+          "doi": "10.64898/2026.07.27.740932",
+          "url": "https://openalex.org/W7171870604",
+          "abstract": "Hybridization and introgression are thought to play key roles in the formation of biodiversity. However, detecting gene flow between species and understanding reticulation patterns remain challenging, especially in species-rich lineages with complex evolutionary histories. Adiantum is a large fern genus, and ecological studies in Amazonia have found that species identification is often difficult due to morphological similarity and overlapping characteristics among species. Although several hybrids have been described in tropical America, comprehensive studies investigating genetic exchanges in this genus are still lacking. We used chloroplast and nuclear phylogenomic data to examine evolutionary relationships among tropical American Adiantum species. By combining traditional phylogenetic analyses with advanced bioinformatic methods such as HybSeq-based target capture, reference-guided phasing (HybPhaser), and network-based analyses, we found widespread reticulate evolution involving both recent and ancient hybridization events. These were especially common among those species that have been difficult to delineate morphologically. Our findings indicate that reticulate evolution has played an important role in shaping the diversity of neotropical Adiantum, especially within the tetraphyllum lineage. Such widespread hybridization has no doubt contributed to morphological ambiguity and taxonomic challenges. Our integrated analytical approach provides a first attempt at untangling the reticulate evolutionary history in this group, and future studies with additional sampling can be expected to clarify the evolutionary processes further.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s13157-026-02106-y",
+          "title": "Breeding Habitat Selection in the Great Crested Newt (Triturus cristatus), the Marbled Newt (Triturus marmoratus), and their Hybrids at the Southern Edge of their Contact Zone",
+          "authors": [
+            "Mathilde Foucteau",
+            "Tristan Berry",
+            "Thomas Duchesne",
+            "Yann Sellier",
+            "Nicolas Titeux",
+            "Olivier Lourdais"
+          ],
+          "journal": "Wetlands",
+          "date": "2026-07-30",
+          "doi": "10.1007/s13157-026-02106-y",
+          "url": "https://openalex.org/W7171766052",
+          "abstract": "Abstract Contact zones between parapatric species provide valuable opportunities to study habitat selection and species responses to environmental changes. This is particularly relevant for amphibians, whose breeding success depends on abiotic (physico-chemical) and biotic (competition, predation) conditions of aquatic habitats. We investigated breeding habitat selection in the great crested newt ( Triturus cristatus ), the marbled newt ( Triturus marmoratus ) and their hybrids within their contact zone, at the southern edge of T. cristatus distribution. We sampled 53 ponds spanning gradients in pH, conductivity and surface area in the Pinail National Nature Reserve, western France, a RAMSAR site containing over 15 700 ponds across 923 ha. Using single-species dynamic site-occupancy models, we showed that T. cristatus exclusively uses fish-free ponds and prefers low-conductivity waters. Triturus marmoratus preferentially used small ponds and did not strictly avoid fish. The two species co-occurred in 12 ponds, and hybrids were found in 13 ponds, always alongside at least one of the parental species. These results reveal fine-scale habitat selection and contrasting breeding habitat preferences between these parapatric species. As previous work in the contact zone suggested that T. marmoratus leaves breeding sites earlier in the season than T. cristatus , future work should investigate whether seasonal changes in physicochemical conditions influence breeding phenology and habitat use. Integrating water temperature as an additional dynamic pond characteristic may provide new insights into species-specific responses, especially for T. cristatus at the southern edge of its range.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.47352/jmans.2774-3047.469",
+          "title": "Evolution of Population Genetics Research: Insights into Hardy-Weinberg Equilibrium and Mathematical Modeling",
+          "authors": [
+            "Priyambodo Priyambodo",
+            "Agung Putra Wijaya",
+            "Nindy Permatasari",
+            "Hidayatullah Hidayatullah",
+            "Siti Hamidatul Aliyah",
+            "Elly Lestari Rustiati"
+          ],
+          "journal": "Journal of Multidisciplinary Applied Natural Science",
+          "date": "2026-07-30",
+          "doi": "10.47352/jmans.2774-3047.469",
+          "url": "https://openalex.org/W7172132111",
+          "abstract": "Population genetics has long relied on mathematical frameworks to interpret patterns of genetic variation and evolutionary processes within populations. Among these frameworks, the Hardy-Weinberg equilibrium is one of the most fundamental models for evaluating allele and genotype frequency distributions under theoretical population conditions. Despite its central role in population genetics, the development and research trends related to the Hardy-Weinberg equilibrium and mathematical modeling have not been systematically examined at the bibliometric level. This study aimed to analyze the evolution of scientific research on Hardy-Weinberg equilibrium and mathematical modeling within population genetics using bibliometric approaches. Bibliographic data were retrieved from the Scopus database, resulting in a final dataset of 1,899 research articles. Publication trends, leading journals, productive authors, citation impact, international collaboration networks, thematic structures, and historiographic evolution were analyzed using bibliometric techniques, VOSviewer, and Bibliometrix in R Studio. The results indicate a sustained growth in publications, particularly since the early 2000s, reflecting the increasing role of quantitative and computational approaches in population genetics. Citation and thematic analyses reveal a substantial intellectual transition from classical equilibrium-based population genetics toward molecular, computational, and genomics-oriented research. Historiographic periodization further demonstrates that Hardy-Weinberg-based mathematical frameworks have continuously evolved alongside advances in high-throughput sequencing, statistical genetics, and large-scale genomic analysis. An important insight from this study is that modern genomics research has not replaced the classical Hardy-Weinberg principles, but has instead expanded their application through the integration of computational biology, bioinformatics, and genomics technologies. These findings highlight the continuing relevance of mathematical population genetic frameworks in contemporary genetic science and provide a clearer understanding of the state of the art and future direction of population genetics research.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/molecules31152656",
+          "title": "Fructans and Fructooligosaccharides in Plants and Fruits: Metabolism, Functional Roles, and Emerging Biotechnological Opportunities",
+          "authors": [
+            "Luis Morales‐Quintana",
+            "Patricio Ramos",
+            "Carolina Parra-Palma"
+          ],
+          "journal": "Molecules",
+          "date": "2026-07-30",
+          "doi": "10.3390/molecules31152656",
+          "url": "https://openalex.org/W7171774619",
+          "abstract": "Fructans and fructooligosaccharides (FOSs) are structurally diverse fructose-based carbohydrates synthesized from sucrose through the coordinated action of fructosyltransferases. These compounds are widely distributed in plants and have attracted increasing attention due to their dual relevance in plant physiology and human nutrition. In plants, fructans function as dynamic carbon reserves and play key roles in tolerance to abiotic stresses such as drought, cold, and salinity. In parallel, their selective fermentability and prebiotic properties have positioned them as valuable functional ingredients in food and nutraceutical applications. This review provides an updated overview of fructan and FOS metabolism, focusing on their biosynthetic pathways, structural diversity, and physiological roles in plants. Particular attention is given to the occurrence and potential functions of fructans in fruits, a topic that remains comparatively underexplored. We also discuss recent advances in strategies aimed at enhancing fructan accumulation through breeding, metabolic engineering, and synthetic biology approaches. Finally, emerging opportunities for the biotechnological exploitation of fructan metabolism are highlighted, including crop biofortification, development of functional foods, and the improvement of plant resilience to environmental stress.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.26192/9z59q",
+          "title": "Use of marker assisted selection for the introgression of quality traits from Australian into Chinese wheats",
+          "authors": [
+            "Benedette Watson"
+          ],
+          "journal": "University of Southern Queensland ePrints (University of Southern Queensland)",
+          "date": "2026-07-30",
+          "doi": "10.26192/9z59q",
+          "url": "https://openalex.org/W135125850",
+          "abstract": "Quantitative Trait Loci (QTLs) for polyphenol oxidase and xanthophyll have a significant impact on variation in wheat flour for noodle colour and colour stability. QTLs from two Australian wheat cultivars, Sunco and Tasman, have been backcrossed into two Chinese wheat varieties, Chuanmai 22 and Mianyang 11, to assess marker predictability for these important traits in significantly different genetic backgrounds. The concept of Marker-Assisted-Selection (MAS) is being trialled in this study as a proposed method for wheat improvement. In this approach molecular markers are used in conjunction with backcross breeding methods to introgress specific characters into elite breeding materials, with the goal of improving the quality attributes of wheat for the Asian noodle market. After three single seed descent generations, the backcross populations generated allow four QTLs to be investigated. These include two for polyphenol oxidase (chromosome 2A and 2D) and two for xanthophyll (chromosome 3B and 7A). This research was successful in identifying microsatellite markers that are capable of predicting PPO activity levels and Xanthophyll content within the backcross populations. These microsatellites were validated as useful markers for these quality traits, as they have also found to be important in the Sunco x Tasman doubled haploid population. The combination of marker assisted selection and backcrossing has generated three lines that contain different combinations of the PPO activity and Xanthophyll content QTLs. These lines have been found to produce low levels of PPO activity and have a low Xanthophyll content. This improvement in flour colour and colour stability highlights the potential of marker assisted selection as a useful tool in wheat breeding.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.28.741189",
+          "title": "Ecological Diversification into Broad Thermal Niches Revealed by Protein Resurrection and Proteome-Wide Ancestral Reconstruction During the Rapid Radiation of Alvinellid Worms",
+          "authors": [
+            "Pierre-Guillaume Brun",
+            "Anne‐Sophie Le Port",
+            "Marion Ballenghien",
+            "Sébastien Brûlé",
+            "Magali Aumont‐Nicaise",
+            "Lionel Cladière",
+            "Didier Jollivet",
+            "Jean Mary"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-30",
+          "doi": "10.64898/2026.07.28.741189",
+          "url": "https://openalex.org/W7171986488",
+          "abstract": "In the deep Pacific and Indian oceans, Alvinellid worms diversified about 100 million years ago to colonize a variety of hydrothermal vent environments. It has been suggested that the last common ancestor of this family was a thermophilic species. However, the evolutionary history of these worms is complex, with putative gene flow among ancestors. In this study, we investigated the early evolution of the family in relation to the diversification of thermal niches. We demonstrated that phylogenetic histories of alvinellid species greatly vary along chromosomes, possibly due to allele introgression between nascent ecotypes. We performed sequence reconstructions of ancestral cytosolic MDH and Cu/Zn SOD under the two most frequent phylogenies encountered along the genome. In silico simulations of folding stability for these two enzymes were highly correlated with their biophysical characterization (micro-calorimetry and differential scanning fluorimetry), and were used to predict the thermostability of thousands of alternatively reconstructed proteins. We further generalized the reconstruction at the proteome scale, taking the amino-acid usage bias as a proxy for folding stability in a new phylogenetic model accounting for amino-acid variations over time. Both approaches agree that the last common ancestors of Alvinellidae gained highly stable proteins, comparable to proteins of present-day thermotolerant species. Our computational protocol allowed us to validate this scenario under multiple phylogenetic hypotheses and different sequence reconstruction models. Considered together, Alvinellidae shed light on how metazoan species diversify in order to colonize different thermal niches, combining adaptive mutation and selection on genetic variants.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/frsen.2026.1852249",
+          "title": "Remote sensing-based detailed wetland classification: a review of advances from 2020 to 2025",
+          "authors": [
+            "Ying He",
+            "Muzi Li",
+            "Xiaoyan Tang",
+            "Ping Ren"
+          ],
+          "journal": "Frontiers in Remote Sensing",
+          "date": "2026-07-30",
+          "doi": "10.3389/frsen.2026.1852249",
+          "url": "https://openalex.org/W7171786713",
+          "abstract": "Wetlands play an irreplaceable role in maintaining ecological balance and conserving biodiversity. However, driven by both natural and human factors, vast wetland areas worldwide are being rapidly converted into agricultural or urban land, leading to a sharp decline in their extent and a degradation of their quality. Against this backdrop, remote sensing technology, with its unique advantages in macro-level monitoring and multi-temporal dynamic capture, provides indispensable technical support for the precise identification, classification, and change detection of wetlands, making it an essential tool for wetland monitoring, restoration assessment, conservation planning, and SDG-related evaluation. This review examines recent advances in remote sensing for detailed wetland classification over the past 5 years. It elaborates on commonly used remote sensing data sources, local and international wetland classification standards, diverse classification methods, accuracy evaluation metrics, and prospects. This review provides a comprehensive reference to remote sensing-based wetland classification studies and applications.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.55696/ejset.1920970",
+          "title": "Effects of climate change on biodiversity, ecosystem functioning and adaptations in aquatic ecosystems",
+          "authors": [
+            "Nurevşan Gündoğdu",
+            "Gowhar Hamid Dar",
+            "Hüseyin Turker",
+            "Bengü Türkyılmaz Ünal",
+            "Volkan Altay",
+            "Moonisa Aslam Dervash",
+            "Münir Öztürk"
+          ],
+          "journal": "Eurasian Journal of Science Engineering and Technology",
+          "date": "2026-07-30",
+          "doi": "10.55696/ejset.1920970",
+          "url": "https://openalex.org/W7171813452",
+          "abstract": "Climate change is causing alterations in the physiology, behaviour, reproductive rates, and overall functioning of organisms in aquatic ecosystems. Organisms living in aquatic environments are highly vulnerable to increasing temperatures, changing rainfall patterns, and extreme weather events. Aquatic photosynthetic organisms—such as seagrasses, phytoplankton, and mangroves—are susceptible to environmental factors, including temperature, light, and acidification, which influence ecosystem productivity and habitat structure. These effects have cascading consequences, transforming not only individual species but also food cycles, interspecies interactions, and ecosystem functions. Organisms may exhibit limited resilience through adaptive mechanisms at the morphological, physiological, behavioural, and genetic levels. However, the speed and capacity of adaptation are constrained by human-induced habitat degradation and extreme weather events. In the future, holistic approaches at both species-specific and ecosystem levels will be critical for maintaining the health of aquatic ecosystems. Long-term monitoring studies, enhancing inter-population genetic diversity and ecosystem connectivity, protecting critical microhabitats, and developing early warning systems are essential for climate change-resilient and sustainable aquatic ecosystems. This article discusses how climate change affects aquatic ecosystems, how aquatic organisms respond to these changes, and how ecological adaptation processes operate.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s10164-026-00892-w",
+          "title": "Deceased calf-carrying by female Arctic killer whale suggests species-wide epimeletic behavior",
+          "authors": [
+            "Caila Kucheravy",
+            "Bertie Gregory",
+            "Nicholas Gates",
+            "Cory J. D. Matthews"
+          ],
+          "journal": "Journal of Ethology",
+          "date": "2026-07-30",
+          "doi": "10.1007/s10164-026-00892-w",
+          "url": "https://openalex.org/W7171863218",
+          "abstract": "Abstract Carrying dead calves is an epimeletic behaviour (caregiving or attentive actions towards injured or dead individuals) documented in several social cetacean species. During focal follows using a drone, we recorded an adult female killer whale ( Orcinus orca ) in the eastern Canadian Arctic carrying a deceased calf by its pectoral fins. Although the calf possessed several injuries, the cause of death was unclear. Similar accounts of dead calf carrying have been limited primarily to killer whales in eastern North Pacific, and our observation demonstrates epimeletic behavior is more widespread across the species than previously documented.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1017/9781009443586",
+          "title": "Ethics and Planetary Boundaries",
+          "authors": [
+            "Jeremy J. Schmidt",
+            "Simon P. Meisch",
+            "Louise du Toit",
+            "Christine Winter",
+            "Miriam Gay-Antaki",
+            "Tanguy Sandré",
+            "Jeanne-Marie Gherardi",
+            "Uta Eser",
+            "Makere Stewart-Harawira",
+            "Joana Castro Pereira",
+            "Carlota Houart",
+            "Alice Benessia",
+            "Neelke Doorn",
+            "Nicole J. Wilson"
+          ],
+          "journal": "Cambridge University Press eBooks",
+          "date": "2026-07-30",
+          "doi": "10.1017/9781009443586",
+          "url": "https://openalex.org/W7171720036",
+          "abstract": "The planetary boundaries framework examines the profound risks human actions pose to Earth's stability and resilience. Since its introduction in 2009, and through subsequent updates, the framework has become one of the most influential ideas of our age, yet it has not been put to close ethical scrutiny. This book takes a multidisciplinary approach to the ethics of the planetary boundaries, ranging from international law to Indigenous knowledge and from science to art, and political ecology. The editors introduce each boundary before two chapters examine the reach, limits, and ethical stakes of each of the nine planetary boundaries. This volume comes at a critical moment, when unprecedented environmental challenges demand new approaches, tools, and perspectives to address questions of epistemology and justice. It is a valuable resource for students, citizens, and academics concerned with relationships of knowledges, ethics, and environments. This title is available Open Access through Cambridge Core.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.28.741380",
+          "title": "Bridging physiological responses to population outcomes under variable thermal stress",
+          "authors": [
+            "Alison J. Robey",
+            "David Vasseur"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-30",
+          "doi": "10.64898/2026.07.28.741380",
+          "url": "https://openalex.org/W7171828580",
+          "abstract": "Abstract Embedding thermal tolerance metrics into population dynamics offers a promising toolkit for understanding the impacts of stressful heat events, but the time-dependence of thermal stress rarely factors into such assessments. Within organisms, heat causes damage that alternatively accumulates under stressful temperatures and is repaired under permissive ones. While risk under exclusively stressful temperatures is well characterized by thermal death time models, resilience to fluctuating temperatures is less clear. Understanding how this damage accumulation within organisms scales up to affect population thermal tolerance is a necessary step for predicting population dynamics and extinction risk. We address this gap by embedding a model of organismal stress and recovery into population dynamics, yielding time-dependent thermal performance curves of population growth rates. By parameterizing this novel framework with existing data from Drosophila melanogaster , we explore how integrating thermal stress across biological scales shapes the consequences of organismal stress on population outcomes under realistic thermal fluctuations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/ijms27156824",
+          "title": "Coordinated MBW, GIS, and RSL Regulatory Networks in Plant Epidermal Patterning Under Environmental Cues",
+          "authors": [
+            "Muhammad Yasin",
+            "Zulqarnain Haider",
+            "Irshan Ahmad",
+            "Yinbo Gan"
+          ],
+          "journal": "International Journal of Molecular Sciences",
+          "date": "2026-07-30",
+          "doi": "10.3390/ijms27156824",
+          "url": "https://openalex.org/W7171836124",
+          "abstract": "The plant epidermis, adorned with trichomes and root hairs, represents a critical interface where developmental programming and environmental responses converge. Although the genetic basis of epidermal patterning has been extensively characterized in model systems, how these pathways are modulated under abiotic stress remains incompletely understood. This review integrates recent advances in epidermal development and stress biology, focusing on MYB–bHLH–WD40 (MBW) complexes, GIS-family C2H2 zinc-finger proteins, and ROOT HAIR DEFECTIVE SIX-LIKE (RSL) transcription factors. These regulators participate in interconnected, organ-specific networks that coordinate trichome and root-hair development. Their activities are shaped by gibberellin–brassinosteroid interactions, ethylene–auxin coordination, jasmonate and abscisic acid signaling, and cytokinin- and nutrient-responsive pathways. We further discuss how reactive oxygen species and calcium oscillations translate transcriptional regulation into polarized cell growth. The resulting epidermal plasticity reflects trade-offs among growth, defense, resource acquisition, and conservation. By integrating single-cell transcriptomics, nutrient sensing, and evolutionary perspectives, this review provides a framework for understanding environmentally responsive epidermal development and identifies opportunities for improving crop resilience. The resulting framework identifies testable opportunities for crop improvement, while emphasizing that native network equivalence, pleiotropic effects, and field-level stress benefits remain to be established in crop species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/jpy.70214",
+          "title": "The consequences of partial clonality on the spatiotemporal genetic structure of the red alga <i>Chondria tumulosa</i> (Ceramiales, Rhodophyta)",
+          "authors": [
+            "Taylor M. Williams",
+            "Heather L. Spalding",
+            "Solenn Stoeckel",
+            "Brian B. Hauk",
+            "Jonathan H. Plissner",
+            "Randall K. Kosaki",
+            "Stacy A. Krueger‐Hadfield"
+          ],
+          "journal": "Journal of Phycology",
+          "date": "2026-07-29",
+          "doi": "10.1111/jpy.70214",
+          "url": "https://openalex.org/W4414643078",
+          "abstract": "ABSTRACT The relative rates of sexual versus clonal reproduction partition genetic diversity but the quantification of these rates remains limited in natural populations. This knowledge gap is particularly acute among tropical macroalgae. Chondria tumulosa is a red macroalga that has been documented at high abundance in the three northernmost atolls in the Papahānaumokuākea Marine National Monument. We sampled thalli at Manawai in 2021 and 2023, at Kuaihelani in 2022 and 2023, and at Hōlanikū in 2023 to characterize the reproductive mode and patterns of gene flow. Tetrasporophytes overwhelmingly dominated at all sites, atolls, and years, although eight cystocarpic female gametophytes (&lt;1%) were documented for the first time. We observed evidence of very high clonal rates, accompanied by an increase in homozygosity. Surprisingly, our temporal analyses suggested site-specific trends in the predominance of selfing, outcrossing, or clonality. A very small haploid proportion combined with high genetic drift likely rendered temporal analyses of genotypic frequencies challenging to implement and interpret whereby point estimates were a better reflection of reproductive mode variation. Genetic differentiation increased with geographic distance, with strong temporal and spatial structure. The patterns of genetic diversity and structure combined with the dominance of tetrasporophytes suggest that C. tumulosa thalli were introduced to this region, possibly via marine debris. Future studies should focus on identifying the native range to document the ecological and evolutionary shifts that have facilitated the rapid increase and spread of C. tumulosa and its potential similarities to other invasive haploid-diploid algae.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/plants15152334",
+          "title": "Origin and Evolution of Ammonium Transporters (AMTs) in Plants and Systematic Expression Studies in Brassica napus",
+          "authors": [
+            "Mingming Chen",
+            "Li Zhang",
+            "Yixuan Zhang",
+            "Xingzhi Qian",
+            "Qingyang Yang",
+            "Zhuo Chen",
+            "Huiyan Zhao",
+            "Nengwen Yin",
+            "Ti Zhang",
+            "Cunmin Qu",
+            "Jing Wen",
+            "Hai Du",
+            "Daixiang Xu"
+          ],
+          "journal": "Plants",
+          "date": "2026-07-29",
+          "doi": "10.3390/plants15152334",
+          "url": "https://openalex.org/W7171617018",
+          "abstract": "Brassica napus L. is one of the most important oil crops in the world, and improving its nitrogen efficiency is a key strategy for enhancing low-nitrogen tolerance and increasing yield. Ammonium transporters (AMTs) play critical roles in NH4+ transport in plants and significantly influence nitrogen use efficiency and yield. To identify promising candidate AMT genes for rapeseed improvement, this study systematically analyzed the evolution and expression of AMT genes across the Archaeplastida plants, especially in Brassica species of the U’s triangle. A total of 368 AMT genes were identified from 35 Archaeplastida species, including 180 AMT1 and 188 AMT2 homologs. Gene duplication analysis revealed that small-scale duplication (SSD) was the primary mechanism driving gene expansion from aquatic algae to angiosperms in both AMT1 and AMT2 families, which were under the influence of purifying selection. In the U’s triangle, allopolyploidization, particularly whole-genome duplication (WGD), was the primary mechanism for AMT expansion, accompanied by gene loss. Expression profiling indicated that most BnAMTs respond to hormonal and low-nitrogen signals and exhibit tissue-specific expression patterns. Notably, four candidate genes (BnAMT1;5, BnAMT1;12, BnAMT2;2, BnAMT2;4) exhibited high expression levels and responsiveness to low-nitrogen stress. Haplotype analysis further linked specific polymorphisms in BnAMT1;5 and BnAMT2;2 to variations in plant height and yield. Collectively, these findings elucidate the evolutionary processes and regulatory mechanisms of AMTs, laying a foundation for enhancing nitrogen utilization efficiency in B. napus and other crops.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1861445",
+          "title": "Restricted distribution and population genetic structure in the rare Korean endemic plant Veronica pusanensis: implications for conservation",
+          "authors": [
+            "Kyu Tae Park",
+            "Young-Ho Kim",
+            "Sang-Jun Kim",
+            "KyoungSu CHOI"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-07-29",
+          "doi": "10.3389/fpls.2026.1861445",
+          "url": "https://openalex.org/W7171673890",
+          "abstract": "Introduction Veronica pusanensis is a critically endangered plant endemic to Korea and is restricted to a single wild population in Busan. Understanding its genetic diversity, population structure, and effective population size is essential for conservation genomics and for evaluating the representativeness of ex situ collections. Methods We applied triple-digest restriction site-associated DNA sequencing (3RAD-seq) to compare genetic diversity and population structure between the wild population and four ex situ populations maintained in botanical gardens, identifying 43,885 single-nucleotide polymorphisms (SNPs) across 95 individuals. Clone correction based on the full SNP dataset reduced the dataset to 59 representative multilocus genotypes. Results The wild population (GJ) showed moderate genetic diversity compared with other Korean endemic species, and positive inbreeding coefficients were observed in all populations. Population structure analyses based on the clone-corrected and LD-pruned 5,539-SNP dataset revealed genetic differentiation among populations. Principal component analysis showed that GJ and HM clustered closely, whereas GC, HT, and YM showed varying degrees of differentiation. ADMIXTURE analysis identified K = 3 as the best-supported value based on the lowest cross-validation error, with GJ and HM sharing a common ancestry component, YM showing a distinct ancestry pattern, and GC and HT exhibiting mixed ancestry. Pairwise fixation index ( F ST ) values ranged from −0.069 to 0.126. Finite effective population size estimates were obtained only for GJ and HM, whereas finite estimates could not be obtained for GC, HT, and YM, likely reflecting the small number of independent individuals remaining after clone correction. Discussion Genetic differences among ex situ populations may reflect differences in source material, propagation history, and clonal redundancy. These findings suggest that ex situ groups differ in their ability to represent the genetic composition of the wild population. Conservation of V. pusanensis should prioritize in situ habitat protection, the maintenance of genetically distinct lineages in ex situ collections, and improved documentation of source materials and propagation history.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.26907/2949-3919.2026.2.118-133",
+          "title": "On fixed points of strictly positive stochastic operators on a one-dimensional simplex",
+          "authors": [
+            "Sh. D. Nodirov",
+            "Yu. Kh. Èshkabilov"
+          ],
+          "journal": "Mathematics and Theoretical Computer Science",
+          "date": "2026-07-29",
+          "doi": "10.26907/2949-3919.2026.2.118-133",
+          "url": "https://openalex.org/W7171628884",
+          "abstract": "A class of strictly positive stochastic operators of degree n acting on a one-dimensional simplex is investigated. The main focus is on the problem of the number of fixed points of such operators. It is shown that this problem reduces to studying the number of roots of the corresponding degree n polynomial on the interval (0 , 1). The existence of at least one fixed point is proved for arbitrary n . For the quadratic case ( n = 2), the uniqueness of the fixed point is established. For a cubic operator ( n = 3), conditions for the existence of one, two, or three fixed points are obtained. For a quartic operator ( n = 4), criteria determining the number of fixed points are proved in terms of the operator’s parameters.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/plants15152341",
+          "title": "Integrated Comparative Genomics and Population Genomics Reveal the Genomic and Epigenomic Basis of Barley (Hordeum vulgare) Evolution and Domestication",
+          "authors": [
+            "Wenhao Yue",
+            "Kangfeng Cai",
+            "Lei Liu",
+            "Yong Li",
+            "Shengguan Cai",
+            "Junmei Wang"
+          ],
+          "journal": "Plants",
+          "date": "2026-07-29",
+          "doi": "10.3390/plants15152341",
+          "url": "https://openalex.org/W7171623609",
+          "abstract": "Barley (Hordeum vulgare) is one of the earliest domesticated cereal crops and remains important for global feed, food, and malting industries. Although high-quality genomic resources are now available, its large repeat-rich genome has complicated genome-wide characterization of genomic features associated with barley evolution and domestication. Here, we integrated comparative genomics, methylomics, population genomics, and Hi-C analyses to investigate genome evolution and domestication in barley. Comparative analyses across representative grass species revealed that barley exhibits lineage-specific genome expansion associated with the extensive proliferation of long terminal repeat retrotransposons. Genome-wide DNA methylation analyses revealed distinct cytosine methylation landscapes in barley. Population genomic analyses of 291 wild and domesticated barley accessions revealed relatively slow linkage disequilibrium decay and identified 243 candidate domestication-associated genes. These candidate genes were enriched in starch and sucrose metabolism pathways. Comparative Hi-C analyses of three barley accessions further uncovered differences in A/B chromatin compartments and topologically associating domain (TAD) organization despite their largely conserved gene content. In addition, the enrichment of DNA transposons and Copia retrotransposons at TAD boundaries suggests potential associations between specific TE classes and higher-order chromatin organization. Together, these complementary analyses connect genome expansion, epigenetic regulation, domestication-associated selection, and chromatin organization into a unified framework for understanding barley genome evolution and domestication.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.cpb.2026.100648",
+          "title": "Plant pan-transcriptomics: Integrating structural genomics, isoform diversity, and systems genetics for next-generation breeding",
+          "authors": [
+            "Rasmieh Hamid",
+            "Rasmieh Hamid",
+            "Zahra Ghorbanzadeh"
+          ],
+          "journal": "Current Plant Biology",
+          "date": "2026-07-29",
+          "doi": "10.1016/j.cpb.2026.100648",
+          "url": "https://openalex.org/W7171642530",
+          "abstract": "Pan-transcriptomics represents a transformative advance in plant systems biology, extending the pangenome concept to encompass transcriptional, isoform, and regulatory diversity across populations. This review integrates structural genomics, transcriptomics, and quantitative genetics to elucidate how genotype-dependent expression, alternative splicing, and transcript presence–absence variation (tPAV) collectively shape phenotypic plasticity and environmental adaptation in crops. We present a unified methodological framework that combines short- and long-read sequencing, genotype-specific reference transcript dataset (RTD) construction, and pan-RTD integration within linear and graph-based coordinate systems. Comparative analyses across cereals, legumes, and polyploid crops reveal pervasive isoform turnover, stress-inducible dispensable transcripts, and structural variants that drive regulatory diversity. Coupling isoform-resolved expression matrices with eQTL and sQTL mapping uncovers the cis- and trans-regulatory polymorphisms underlying complex traits, while network-level analyses demonstrate how core and variable isoforms remodel co-expression and signalling architecture under stress. Finally, we highlight translational applications in marker development, predictive modelling, and AI-assisted molecular breeding. Together, these advances establish crop pan-transcriptomics as a central systems framework linking genome architecture to transcriptional regulation, phenotypic diversity, and next-generation breeding innovation. Statement of Significance This review establishes a unified conceptual and methodological framework for crop pan-transcriptomics, integrating structural genomics, isoform diversity, and systems genetics to bridge genome architecture with transcriptional regulation and phenotypic diversity. Highlighting advances in genotype-specific reference transcript datasets, long-read sequencing, and isoform-resolved eQTL/sQTL mapping, it defines the analytical foundation for next-generation breeding and demonstrates how pan-transcriptomic approaches reveal dispensable and stress-responsive isoforms that enable predictive, AI-assisted crop improvement.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.32614/cran.package.familia",
+          "title": "Familia: 'shiny' Application for Population Structure and Ancestry Assessments",
+          "authors": [
+            "Josue Chinchilla-Vargas",
+            "Breeding Insight Team",
+            "Alexander M. Sandercock"
+          ],
+          "journal": "",
+          "date": "2026-07-29",
+          "doi": "10.32614/cran.package.familia",
+          "url": "https://openalex.org/W7171676953",
+          "abstract": "Provides a 'shiny' web application developed by the Breeding Insight team to support pedigree validation and ancestry assessment of plant and animal populations. The app integrates Mendelian error analysis, parentage assignment and genetic composition/ancestry methods to help researchers evaluate genomic relationships through an accessible, web-based interface without requiring command-line tools. Pedigree validation, Mendelian error analysis and parentage assignment build on the 'BIGpopA' package (&lt;<a href=\"https://CRAN.R-project.org/package=BIGpopA\" target=\"_top\">https://CRAN.R-project.org/package=BIGpopA</a>&gt;). Ancestry estimation uses the sparse non-negative matrix factorization method of Frichot et al. (2014) &lt;<a href=\"https://doi.org/10.1534%2Fgenetics.113.160572\" target=\"_top\">doi:10.1534/genetics.113.160572</a>&gt; as implemented in the 'LEA' package by Frichot and Francois (2015) &lt;<a href=\"https://doi.org/10.1111%2F2041-210X.12382\" target=\"_top\">doi:10.1111/2041-210X.12382</a>&gt;. Line and breed composition are estimated using the breed composition regression method of Funkhouser et al. (2017) &lt;<a href=\"https://doi.org/10.2527%2Ftas2016.0003\" target=\"_top\">doi:10.2527/tas2016.0003</a>&gt;, extended to polyploid species by Sandercock et al. (2025) &lt;<a href=\"https://doi.org/10.1002%2Ftpg2.70067\" target=\"_top\">doi:10.1002/tpg2.70067</a>&gt;.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740807",
+          "title": "Single-cell foundation modeling with species-native protein tokens links regenerative competence across frog and mouse",
+          "authors": [
+            "Hu Cang",
+            "Sha Sun"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-29",
+          "doi": "10.64898/2026.07.27.740807",
+          "url": "https://openalex.org/W7171686464",
+          "abstract": "Abstract Appendage regenerative capacity varies dramatically across species, developmental stages, and anatomical sites, yet comparing functional transitions across organisms remains difficult because gene vocabularies diverge. Cross-species single-cell analysis conventionally collapses divergent genomes to one-to-one orthologs—a reduction that is not neutral. Here, we construct a species-native input representation for allotetraploid Xenopus laevis that preserves duplicated L and S homeologs (96.39% feature coverage versus 53.14% under symbol collapse) within a frozen universal cell embedding (UCE). A causally validated tail-organizer contrast defines a portable vector competence ruler. While baseline representations (direct expression, SVD, Harmony) recover organizer identity, only species-native UCE preserves the stage-52-versus-stage-58 limb competence transition, which ortholog collapse reverses. Applied without refitting, the ruler distinguishes regenerative from fibrotic digit repair in adult mice and resolves an aligned component in state-balanced macrophages, an ordering reproduced by simpler representations. Preserving species-native gene vocabularies carries functional contrasts across evolutionary and genomic boundaries.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.26359059",
+          "title": "Origin and structural evolution of the complex genomic regions of human Y chromosome",
+          "authors": [
+            "Jing Liu",
+            "Qingyang Ni",
+            "Quanyu Chen",
+            "Yu Zhang",
+            "Dan Yu",
+            "Chentao Yang",
+            "Dongya Wu",
+            "Guojie Zhang",
+            "Qi Zhou"
+          ],
+          "journal": "medRxiv",
+          "date": "2026-07-29",
+          "doi": "10.64898/2026.07.27.26359059",
+          "url": "https://openalex.org/W7171739881",
+          "abstract": "The human Y chromosome comprises mosaic classes of complex male-specific sequences that remain unclear for their evolution origins, structural variations and pathogenic roles. To address these, we present population-scale analyses of high-quality Y chromosomal sequences of 206 human individuals vs. six ape species, including 160 near complete sequences from the East Asian population, 85 of which are gapless. We uncovered an extensive cryptic diversity of the largest heterochromatin of the human genome on the Y chromosome Yq12, and traced its dual-origin from ancestral centromeric satellites respectively on the Y chromosome and acrocentric autosomes shared with other apes. We showed that such diversity is attributed to the variable and layered expansion of DYZ satellites in the internal array of Yq12, while the Yq12 boundary is marked by conserved inverted arrays. Similarly, the largest Y-linked gene family TSPY can be divided into a highly variable tandem array whose copy number was found to be associated with prostate cancer risks, and an invariable TSPY2 under stronger functional constraints. Within the largest amplicon region AMPL7, we annotated the orientation and copy number per individual of the highly similar amplicons in palindromes, and characterized their recurrent inversion togglings and subsequent microdeletions impacting the male fertility. We further identified population-stratified structural variants in disease-associated genes, including some fixed mutations in TSPY2 and the promoter of DDX3Y in the prevalent Asian haplogroups O1a that are probably associated with elevated prostate cancer risks. Together, our study revealed the mosaic internal structures and evolutionary history of respective complex regions of the human Y chromosome, and provided a foundation for understanding its functional role beyond male determination.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740986",
+          "title": "Genomic Population Structure of Atlantic surfclams: Cryptic Taxonomic Units and Population Connectivity",
+          "authors": [
+            "Hannah Hartung",
+            "Yuqing Chen",
+            "Matthew P. Hare"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-29",
+          "doi": "10.64898/2026.07.27.740986",
+          "url": "https://openalex.org/W7171783567",
+          "abstract": "Abstract The Atlantic surfclam, Spisula solidissima solidissima supports multimillion dollar harvests in the western North Atlantic, including Georges Bank and Mid-Atlantic Bight populations along the continental shelf. Surfclam populations in this part of the Exclusive Economic Zone (3-200 nm from shore) are managed as a single unit, but demographic connectivity has never been tested directly. This study analyzed &gt;8,500 SNPs in 548 Atlantic surfclams sampled across the USA harvested range to infer population structure, genomic diversity, and gene flow patterns. Genomic analyses included eight sampled and 10 reference Spisula solidissima similis samples, a morphologically cryptic nominal subspecies previously known only from nearshore habitats. Novel morphologically cryptic population structure was identified in S.s. solidissima. One operational taxonomic unit (OTU-A) was found only in the inshore region of southern New England, south of Cape Cod. The other population unit, OTU-B, was found offshore and in Cape Cod Bay. The federal fishing grounds only had OTU-B clams. Populations within each OTU were connected by gene flow, justifying current fishery management practices. Nearshore state waters had mixed OTU stocks. Hybridization was analyzed between the two OTUs and between the two subspecies based on nuclear SNPs and asymmetrical mitochondrial DNA introgression. Finally, we demonstrated the utility of a novel SNP panel for diagnosing all three taxa and their hybrids.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.26.740788",
+          "title": "BMP2 signaling cooperates with retinoic acid to activate a meiotic-entry transcriptional program in chicken primordial germ cells",
+          "authors": [
+            "Mohammad Hossein Ghazimoradi",
+            "Sofía Corazza",
+            "Ali Nemati",
+            "Christina Grozou",
+            "Cheng Ma",
+            "Mohamad Moustafa Ali",
+            "Salar Delavari",
+            "Ying Xue",
+            "Martin Johnsson",
+            "Amir Fallahshahroudi",
+            "Sara Yousefi Taemeh"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-29",
+          "doi": "10.64898/2026.07.26.740788",
+          "url": "https://openalex.org/W7171740248",
+          "abstract": "Abstract The initiation of meiosis in germ cells is largely regulated by extrinsic cues from the gonadal environment, but the logic of these signals remains poorly understood in non-mammalian vertebrates. Retinoic acid has long been considered a principal meiosis-inducing signal, yet recent genetic and reconstitution studies indicate that retinoic acid alone is insufficient. In mice, bone morphogenetic protein 2 cooperates with retinoic acid to establish the oogenic program through the bone morphogenetic protein-responsive transcriptional regulator Zglp1 , but whether this regulatory logic is conserved beyond mammals is unknown. Here, using cultured chicken ( Gallus gallus ) primordial germ cells, we show that bone morphogenetic protein 2 cooperates with retinoic acid to promote a meiotic-entry transcriptional program. Retinoic acid alone induced a limited retinoic acid-responsive state, whereas combined treatment reduced the primordial germ cell program and activated early meiotic genes. The resulting transcriptome matched the premeiotic-to-meiotic-entry transition of the embryonic ovary in a single-cell atlas of chicken germ cells. We also generated a genome-edited primordial germ cell line carrying an SYCP3 promoter–green fluorescent protein reporter as a platform for dissecting meiotic-entry signals in culture. Comparative genomic analysis revealed Gallus -specific pseudogenization of ZGLP1 , which is intact in closely related galliform species. Retinoic acid and bone morphogenetic protein may therefore act through a different downstream regulator in chicken. Article summary Eggs and sperm are produced by meiosis, a specialized cell division that starts during embryonic development. Retinoic acid, a signal derived from vitamin A, was long thought to be enough to start meiosis, but on its own it is not. In mice, a second signal, bone morphogenetic protein 2 (BMP2), works alongside retinoic acid to push germ cells toward the egg-producing program. We asked whether birds use the same combination. Giving both signals to chicken primordial germ cells in culture switched on genes for egg development and for the first steps of meiosis; retinoic acid alone did not. Birds and mammals last shared an ancestor more than 300 million years ago, so the pairing of these two signals appears to be an old feature of vertebrate germ cells. The cells stopped short of completing meiosis, which means other signals are still missing. Graphical abstract",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fevo.2026.1862503",
+          "title": "Intraspecific genetic diversity as a driver of ecosystem functioning: trophic pathways, temporal dynamics, and conservation implications",
+          "authors": [
+            "Arayaselassie Abebe Semu",
+            "Agegnehu Wasse Abegaz"
+          ],
+          "journal": "Frontiers in Ecology and Evolution",
+          "date": "2026-07-29",
+          "doi": "10.3389/fevo.2026.1862503",
+          "url": "https://openalex.org/W7171726950",
+          "abstract": "Biodiversity research has historically emphasized species richness as a driver of ecosystem functioning, whereas intraspecific genetic diversity, the heritable variation within species has received comparatively less attention. Yet, genetic variation within species can influence productivity, nutrient cycling, community composition, trophic interactions, and ecosystem resilience. This review synthesizes empirical and theoretical evidence from terrestrial, freshwater, and marine systems to examine how intraspecific genetic diversity affects ecosystem processes across trophic levels and through time. Across the literature, the strongest evidence comes from systems dominated by foundation or keystone species, where genotype-dependent traits alter resource quality, habitat structure and species interactions, thereby generating cascading effects on herbivores, predators, decomposers, and associated microbial communities. These effects are particularly important under disturbance and environmental stress, and in several systems, they strengthen over time as trophic feedback accumulates. However, current knowledge remains taxonomically and geographically uneven, with temperate plant-based systems far better represented than tropical, microbial, freshwater, and deep-sea communities. Methodological heterogeneity in genetic metrics and experimental design also limits cross-study comparability. Further progress will depend on better integration of genomic tools with multi-trophic ecological experiments and long-term field studies. Recognizing and conserving intraspecific genetic diversity is therefore an evolutionary concern and a practical requirement for sustaining ecosystem resilience, restoration success, and climate adaptation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740993",
+          "title": "Early Partitioning of Structural Paralog Diversity Shapes Immune Evolution Across Habitat Transitions in Gobiiform Fishes",
+          "authors": [
+            "Katerina L. Zapfe",
+            "Ian Birchler De Allende",
+            "Aditt Mahadik",
+            "Gerard R Nassar",
+            "Bruno Frédérich",
+            "Jeffrey A. Yoder",
+            "Alex Dornburg"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-29",
+          "doi": "10.64898/2026.07.27.740993",
+          "url": "https://openalex.org/W7171784691",
+          "abstract": "Abstract Habitat transitions expose species lineages to novel pathogen regimes and are often hypothesized to drive adaptive diversification of immune gene families. However, the temporal association between gene family diversification and ecological change remains unresolved. To gain deeper insight into the relationship between the diversification of species and the evolution of their immune system, we investigated the evolutionary history of Toll-like receptors (TLRs) across Gobiiformes, a clade characterized by repeated transitions across aquatic and amphibious environments. TLRs are well-studied membrane-bound pattern recognition receptors that play crucial roles in detecting pathogens and immune activation. Phylogenomic, structural, and sequence analyses reveal that a major expansion of TLR22 predates many ecological transitions, with early paralog diversification partitioning receptor architectures into distinct structural regimes that persist across lineages. Subsequent evolution is concentrated in the extracellular ligand-binding, leucine-rich repeat (LRR) domains, where localized sequence and structural variation enables likely functional tuning without major architectural innovation. These results indicate that ecological transitions do not require repeated evolution of new immune receptor forms, but can instead be facilitated by reconfiguration of pre-existing immunogenetic diversity. These findings raise the possibility that expansions of immune gene families occurring early in a clade’s evolutionary history may commonly persist and subsequently act as substrates for evolutionary responses to environmental change.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11103-026-01741-7",
+          "title": "FLC genes control flowering time to varying degrees in a Brassica napus spring cultivar",
+          "authors": [
+            "Sarah Duveneck",
+            "Kea Ille",
+            "Siegbert Melzer"
+          ],
+          "journal": "Plant Molecular Biology",
+          "date": "2026-07-29",
+          "doi": "10.1007/s11103-026-01741-7",
+          "url": "https://openalex.org/W7171691186",
+          "abstract": "In the crop Brassica napus (oilseed rape), distinct growth types have been established that differ mainly in their vernalization requirement for flowering. The need for vernalization in Arabidopsis is controlled by the expression of the floral repressor FLOWERING LOCUS C (FLC), which also regulates cold-responsive flowering in B. napus. Notably, FLC homologs are also retained in spring oilseed rape despite its lack of vernalization requirement. To elucidate the functions of the nine BnFLC homologs in a spring type, we generated CRISPR/Cas9 knockout mutants of all homologs in the cultivar Westar. We show that the loss of BnFLC genes significantly accelerates flowering, demonstrating that BnFLC genes regulate flowering in spring types independently of vernalization. Transcriptomic analyses in leaves revealed distinct expression patterns among the BnFLC genes, with some remaining active during floral transition. Finally, no epigenetic regulation of the BnFLC homologs associated with flowering time was detected, while BnFLC.A03b carried persistent repressive marks and was constitutively silenced. Unexpectedly, additional flowering time regulators, including genes typically active in the shoot apical meristem, were expressed in leaves, with some showing altered expression and chromatin states in the mutant. These findings reveal that BnFLC genes are developmentally regulated and directly control flowering in spring oilseed rape, while also modulating the expression of other floral regulators in B. napus.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740979",
+          "title": "Breakdown of sporophytic self-incompatibility: Diploids versus tetraploids",
+          "authors": [
+            "Diane Douet",
+            "Sylvain Billiard",
+            "Xavier Vekemans",
+            "Josselin Clo"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-28",
+          "doi": "10.64898/2026.07.27.740979",
+          "url": "https://openalex.org/W7171526910",
+          "abstract": "Abstract Many angiosperm species possess self-incompatibility (SI) systems that prevent self-fertilization. Because empirical studies often report higher selfing rates in tetraploids than in diploids, we investigate whether sporophytic self-incompatibility (SSI) is more likely to break down after the introduction of a self-compatible (SC) allele in tetraploid populations. To address this question, we use analytical models and individual-based simulations to compare diploid and tetraploid populations under two main scenarios: (1) all SI alleles are codominant, and (2) SI alleles are structured into dominance classes. Overall, our results indicate that SSI is more difficult to maintain in tetraploids than in diploids, with dominance relationships playing a key role in the invasion success of an SC allele. When SI alleles are organized into dominance classes, increasing the dominance of the SC allele generally favors SSI breakdown in tetraploids, while diploids show weaker sensitivity to dominance, with SSI maintained across all dominance scenarios for the SC allele under sufficiently high inbreeding depression. However, when the SC allele is dominant over all SI alleles, SSI is more readily maintained in both the codominant and dominance-class models.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.24.740608",
+          "title": "The Polyploid History of Cultivated Dahlia",
+          "authors": [
+            "Zachary Meharg",
+            "Kristine Albrecht",
+            "Jenell Webber",
+            "Lori Beth Boston",
+            "Jane Grimwood",
+            "Virginia Walbot",
+            "Alex Harkess"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-28",
+          "doi": "10.64898/2026.07.24.740608",
+          "url": "https://openalex.org/W7171554712",
+          "abstract": "Abstract The cultivated dahlia has a complex evolutionary history that is likely the driver for its diverse floral forms. Previous studies have proposed cultivated dahlia as an allotetraploid, autotetraploid, and in one study an auto-allooctoploid. Here, we used PacBio HiFi long-reads and Dovetail Omni-C reads to assemble and annotate a genome for a tetraploid Dahlia variabilis cultivar Edna C. We identified ‘Edna C’ as a segmental tetraploid with signature of auto- and allo-polyploidy events based on subgenome-specific repeat partitioning and single-copy gene tree construction within homoeologous groups. Additionally, we identified a cultivated dahlia - specific centromeric monomer shared between Dahlia variabilis ‘Edna C’ and the Dahlia pinnata ‘Kelvin Floodlight’. Based on finding three major chromosome clusters, we propose that Dahlia variabilis ‘Edna C’ is a segmental tetraploid with evidence of auto- and allopolyploidy.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-07960-3",
+          "title": "A near telomere to telomere genome assembly of red crucian carp (Carassius auratus red var.)",
+          "authors": [
+            "Zhengkun Liu",
+            "Chongqing Wang",
+            "Kun Zhang",
+            "Yuhan Yang",
+            "Zeyang Li",
+            "Qian Xiao",
+            "Xu Huang",
+            "Xiaowei Xu",
+            "Xidan Xu",
+            "Yue Zhou",
+            "Jinhai Bai",
+            "Yuchen Jiang",
+            "Wanjing Peng",
+            "Ling Xiong",
+            "Enkui Hu",
+            "Siyang Li",
+            "Qinbo Qin"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-07-28",
+          "doi": "10.1038/s41597-026-07960-3",
+          "url": "https://openalex.org/W7171544964",
+          "abstract": "Red crucian carp, a variant of Carassius auratus , has a long history of cultivation as both a food and an ornamental fish. Here, we integrated MGI short-reads, PacBio HiFi long-reads, ONT ultra-long reads, and Hi-C sequencing data to assemble a nearly telomere-to-telomere (T2T) genome for this species, containing only four gaps. This assembly, which consists of a primary haplotype containing 50 chromosomes, covers 99.88% of the sequence, with a total length of 1.55 Gb, and reveals 93 telomeres and 50 centromeres. Key quality metrics for the assembly include a contig N50 of 29.92 Mb (contiguity), a BUSCO score of 99.40% (completeness), and a consensus quality value of 64.44 (correctness), collectively reflecting a high-quality genome. Annotation identified 46,061 protein-coding genes and 679.10 Mb (43.72% of the assembly) of repetitive sequences. Furthermore, 22,454 tRNAs, 42,628 rRNAs, 3,309 miRNAs, and 3,380 snRNAs were annotated. This represents the first near-T2T genome assembly for any species within the genus Carassius , offering a valuable genomic resource for investigating the biological traits of the red crucian carp and advancing research in evolutionary genomics.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.celrep.2026.117566",
+          "title": "Cunninghamia lanceolata genome illuminates the evolutionary dynamics of gymnosperms.",
+          "authors": [
+            "Lin SZ",
+            "Chen Y",
+            "Wu C",
+            "Sun WH",
+            "Li Z",
+            "Chen HC",
+            "Wang JY",
+            "Ji CM",
+            "Li SB",
+            "Wang ZW",
+            "Tsai WC",
+            "Ma XQ",
+            "Lan SR",
+            "Zhang FP",
+            "Xie YC",
+            "Yao L",
+            "Zhang Y",
+            "Lü MM",
+            "Zhang JJ",
+            "Zhang DY",
+            "Ye YQ",
+            "Yu X",
+            "Xu SS",
+            "Ma ZH",
+            "Ding GC",
+            "Cao GQ",
+            "He ZM",
+            "Wu PF",
+            "Lin KM",
+            "Liu AQ",
+            "Lin YQ",
+            "Ruan SN",
+            "Liu B",
+            "Cao SJ",
+            "Zhou LL",
+            "Li M",
+            "Shuai P",
+            "Hou XL",
+            "Wu YH",
+            "Li N",
+            "Xiong S",
+            "Hao Y",
+            "Zhou Z",
+            "Liu XD",
+            "Zuo DD",
+            "Li J",
+            "Wang P",
+            "Zhang J",
+            "Liu DK",
+            "Chen GZ",
+            "Huang J",
+            "Huang MZ",
+            "Li YY",
+            "Zheng QY",
+            "Zhao XW",
+            "Zhao X",
+            "Zhong WY",
+            "Zhang XW",
+            "Xia ZB",
+            "Yu Y",
+            "Liu ZW",
+            "Zheng HK",
+            "Ming R",
+            "Van de Peer Y",
+            "Liu ZJ"
+          ],
+          "journal": "Cell reports",
+          "date": "2026-07-28",
+          "doi": "10.1016/j.celrep.2026.117566",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42319826/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1093/aob/mcaf317",
+          "title": "Population density influences genetic connectivity in the Canary Islands endemics Viola cheiranthifolia and Viola guaxarensis.",
+          "authors": [
+            "Sarmiento Cabello S",
+            "Murphy MA",
+            "Sosa PA",
+            "Fernández de Castro AG",
+            "Martín-Esquivel JL",
+            "Rodríguez-Rodríguez P"
+          ],
+          "journal": "Annals of botany",
+          "date": "2026-07-28",
+          "doi": "10.1093/aob/mcaf317",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41362993/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.64898/2026.07.27.740875",
+          "title": "Hidden genetic diversity in 320 nearly-complete East Asian genome assemblies",
+          "authors": [
+            "Dongya Wu",
+            "Chentao Yang",
+            "Quanyu Chen",
+            "Mingyu Suo",
+            "Feifei Zhou",
+            "Anguo Liu",
+            "Dan Yu",
+            "Lei Nie",
+            "Ting Yang",
+            "Yanqing Sun",
+            "Junmin Han",
+            "Lili Yang",
+            "Qingyang Ni",
+            "Di Sun",
+            "Yanlin Lu",
+            "Lianting Fu",
+            "Yiqing Yang",
+            "Jie Yu",
+            "Jiajia Qi",
+            "Wei Dai",
+            "Xiangyu Yang",
+            "Lingxin Qiu",
+            "Dongxia Yang",
+            "Yonghui Jiao",
+            "Feng Zhou",
+            "Wenya Zhang",
+            "Fen Wang",
+            "Yihua Yang",
+            "Zhonghong Zeng",
+            "Zonghui Feng",
+            "Yan Chen",
+            "Yafeng Li",
+            "Li YaHeng",
+            "Shuyun Zhao",
+            "Aizhuan Long",
+            "Zhixue Wang",
+            "Qiye Li",
+            "Ruoping Zhao",
+            "Guo Ding",
+            "Qiong Wang",
+            "Ya Tuo",
+            "Jingjing Yu",
+            "Hui Li",
+            "Kai Liu",
+            "Yu Zhang",
+            "Xiaosong Yan",
+            "Dawa Dawa",
+            "Yanfei Zhang",
+            "Aoyue Bi",
+            "Guangji Chen",
+            "Sheng Hu Qian",
+            "Xin Li",
+            "Xupeng Bi",
+            "Jing Liu",
+            "Jiaqi Li",
+            "Kezhi Fu",
+            "Sirui Ye",
+            "Shichun Wang",
+            "Jialan Yang",
+            "Qi Zhou",
+            "Jingxin Jiang",
+            "Wenna Xu",
+            "Yifeng Liu",
+            "Aixia Liu",
+            "Jiajun Meng",
+            "Yunlong Zhao",
+            "Yu Zhou",
+            "Bo Hong",
+            "Chuanfeng Lin",
+            "Long Zhou",
+            "Feng Liu",
+            "Jiawei Yang",
+            "Yunqiu He",
+            "Xiaofei Yang",
+            "Xiaotao Wang",
+            "Chuanle Xiao",
+            "Longjiang Fan",
+            "Ammar Al-Baadani",
+            "Jian Chen",
+            "Aifu Lin",
+            "Wanlin Wang",
+            "Weijie Fang",
+            "Zihui Zhang",
+            "Yaoxi He",
+            "YongYong SHI",
+            "Kai Ye",
+            "Qi Zhou",
+            "Bing Su",
+            "Jian Huang",
+            "Jian Xu",
+            "Kai Wang",
+            "Dan Zhang",
+            "Hefeng Huang",
+            "Songmin Ying",
+            "Tianhua Zhou",
+            "Yafei Mao",
+            "Guojie Zhang"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-28",
+          "doi": "10.64898/2026.07.27.740875",
+          "url": "https://openalex.org/W7171539737",
+          "abstract": "East Asian populations, representing over 20% of the global population, remain critically underrepresented in human genomic studies, limiting our understanding of population-stratified genetic variation and its implications for health and disease. Here we present the first phase of the Asian Pan-Genome project (APG), comprising 320 nearly complete, fully phased haploid genome assemblies from 160 East Asian individuals. These assemblies achieve unprecedented quality, with an average contig N50 of 144.3 megabase pairs and an average quality value of 64.5. Leveraging these superior assemblies, we reveal previously uncharacterized diversity in human repeatome, including population-stratified patterns in centromere satellites and rDNA arrays. Compared to existing global human genome assemblies, the newly generated genomes supplement 152 million base pairs of novel sequences, 355 gene gains, 18,300 structural variation loci and 26 large euchromatic inversions missing from current human pangenomes. We perform population stratification analyses of structural variations, and further resolve the structural haplotypes of complex genomic regions such as Major Histocompatibility Complex and Survival Motor Neuron loci across global pangenomes, exemplifying tandem-duplicate and inversion-rich complex locus architectures in the human genome, respectively. This resource provides a critical foundation for human genetic studies, especially for East Asian populations, promoting more accurate variant discovery, reducing bias, and ultimately advancing the equity and efficacy of genomic medicine.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.738391",
+          "title": "The epigenomic landscape of deep lineage divergence: The case of the European sea bass",
+          "authors": [
+            "Alessio Longo",
+            "Massimiliano Babbucci",
+            "Zexin Jiao",
+            "Serena Ferraresso",
+            "Rafaella Franch",
+            "Martina Bortoletti",
+            "Daniela Bertotto",
+            "Sara Faggion",
+            "Garth R Ilsley",
+            "Vasileios Papadogiannis",
+            "Tereza Manousaki",
+            "Jon Bent Kristoffersen",
+            "Costas S. Tsigenopoulos",
+            "Daniel J. Macqueen",
+            "Luca Bargelloni"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-28",
+          "doi": "10.64898/2026.07.27.738391",
+          "url": "https://openalex.org/W7171540396",
+          "abstract": "Abstract Background Understanding the role of non-coding genomic variation in speciation remains a major challenge in evolutionary biology. Here, we investigated whether regulatory elements contribute to this process between Atlantic and Mediterranean lineages of European sea bass ( Dicentrarchus labrax ), a well-characterized case-study near speciation where barriers to introgression exist in the presence of connectivity between diverging populations. Results We generated a novel, highly contiguous genome assembly, which was annotated at the epigenomic level using ATAC-seq and ChIP-seq with six embryonic developmental stages and five tissue types in adult fish, identifying thousands of promoters, enhancers, and open chromatin regions. Integrating this annotation with whole-genome sequence data from 65 individuals across three geographically distinct populations, we identified 57,505 outlier SNPs and 332 structural variants (SVs) showing elevated differentiation between Atlantic and East Mediterranean lineages. Outlier SVs affected key regulatory elements and coding genes, while outlier SNPs were enriched in regulatory elements, particularly enhancers active in adult tissues. Local genomic divergence correlated positively with regulatory element density, especially on chromosomes 1, 9, and 18, which are enriched in genes related to osmoregulation, immune response, and oxidative stress — processes relevant to adaptation across contrasting marine environments. Conclusions These findings support a major role for regulatory variation in driving deep lineage divergence through local adaptation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.27.740719",
+          "title": "Methane-producing microorganisms are widespread in surface waters and floating algal mats of inshore Baltic Sea habitats",
+          "authors": [
+            "Maysoon Lundevall Zara"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-07-28",
+          "doi": "10.64898/2026.07.27.740719",
+          "url": "https://openalex.org/W7171724574",
+          "abstract": "Abstract Inshore coastal waters are almost invariably supersaturated with respect to methane and are thereby sources of methane to the atmosphere. We investigated floating algal mats and surface waters of four contrasting inshore habitats and quantified methane concentrations, sea-to-air emissions, and microbial community composition of surface waters over a seasonal cycle to determine the potential for in-situ microbial methane production in shallow oxygen-saturated surface waters with floating algal biomass. 16S rDNA sequencing indicated that Archaea belonging to the genera Methanocorpusculum, Methanosarcina, Candidatus Methanomethylophilus, and some genera from order Methanobacteriales occurred in the floating algal mats. qPCR of the genes encoding the methyl coenzyme M reductase mcrA revealed the highest expression levels during the warmest sampling periods supporting active methane production directly in surface water. Co-occurrence of the Archaea sequences and sequences belonging to the cyanobacterium strain Nodularia PCC 9350 suggests a structural relationship. Our study underscores the significant, yet underexplored impact of methane production on the surface in aggregates of floating algal material. While Nodularia and methanogens can exist independently in surface waters, their co-occurrence in algal mats reveals where the layered mat structure creates distinct microenvironments that facilitate direct metabolic exchange and provide physical stability for both groups, thereby potentially enhancing methane production in these shallow coastal systems.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.13140/rg.2.2.27950.68162",
+          "title": "Derivative landmarking corroborates convergence in Mesozoic marine reptile skulls and their feeding performance",
+          "authors": [
+            "Francesco Della Giustina",
+            "Valentin Fischer"
+          ],
+          "journal": "Open Repository and Bibliography (University of Liège)",
+          "date": "2026-07-28",
+          "doi": "10.13140/rg.2.2.27950.68162",
+          "url": "https://openalex.org/W7171490641",
+          "abstract": "editorial reviewed",
+          "track": "B",
+          "source": "OpenAlex"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_count": 81,
+    "new_this_week": 80,
+    "weekly_trend": [
+      {
+        "week": "2026-W26",
+        "count": 0
+      },
+      {
+        "week": "2026-W27",
+        "count": 0
+      },
+      {
+        "week": "2026-W28",
+        "count": 0
+      },
+      {
+        "week": "2026-W29",
+        "count": 0
+      },
+      {
+        "week": "2026-W30",
+        "count": 0
+      },
+      {
+        "week": "2026-W31",
+        "count": 71
+      }
+    ]
+  }
+}
