@@ -2,8 +2,12 @@ name: Fetch literature daily
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * *"  # 06:00 UTC ≈ 北京时间 14:00
   workflow_dispatch: {}
+
+concurrency:
+  group: fetch-literature
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -11,6 +15,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
