@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T08:38:32Z",
+  "generated_at": "2026-08-06T08:38:17Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -228,6 +228,22 @@
           "doi": "10.5281/zenodo.21698318",
           "url": "https://openalex.org/W7171798163",
           "abstract": "",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.65995/njf.2026.v2301.05",
+          "title": "PHENOTYPIC AND GENETIC DIVERGENCE IN SOME CICHLID POPULATIONS FROM TWO SELECTED BRACKISH WATER BODIES IN BENIN REPUBLIC AND NIGERIA",
+          "authors": [
+            "O.K. Kareem",
+            "Olugbenga Orisasona",
+            "D. A. T. Gnoulonfoun"
+          ],
+          "journal": "Nigerian Journal of Fisheries",
+          "date": "2026-07-30",
+          "doi": "10.65995/njf.2026.v2301.05",
+          "url": "https://openalex.org/W7172259520",
+          "abstract": "For sustainable management of fish resources, an understanding of the adaptive capacity and population structure of species is important. However, there are still limited data on tilapine variations across West African lagoons. The morphological and genetic differences in Oreochromis niloticus, Coptodon guineensis, and Tilapia mariae populations were investigated in Porto-Novo Lagoon (PNL), Benin, and Epe Lagoon (EPL), Nigeria, to determine their heterogeneity. For eight months, from December 2022 to July 2023, 188 fish samples were collected (EPL: 43 O. niloticus, 29 C. guineensis, 17 T. mariae; PNL: 44 O. niloticus, 30 C. guineensis, 27 T. mariae) and analyzed for meristic attributes (MRA), morphometric attributes (MPA), phenotypic heterogeneity, and genetic diversity using cytochrome b (Cyt-b) gene sequences. For MPA, the coefficients of variation ranged from 9.33% to 33.25% in O. niloticus, 6.18% to 32.22% in C. guineensis, and 7.19% to 39.58% in T. mariae, pointing to substantial inter-population variability. From genetic analyses, O. niloticus populations in PNL were more closely related to the Coptodon aff. louka 'Samou' strain than EPL counterparts; PNL C. guineensis clustered nearer to Oreochromis niloticus haplotype HAP14 and Oreochromis niloticus Asejire12 than EPL populations; and T. mariae from PNL showed closer affinity to Bathybates graueri from Lake Tanganyika than EPL. It can be concluded that there are significant phenotypic and genetic divergence between the lagoons, affirming the need for location-specific conservation and management to sustain biodiversity.",
           "track": "A",
           "source": "OpenAlex"
         },
@@ -468,6 +484,49 @@
           "source": "PubMed"
         },
         {
+          "id": "10.3389/fpls.2026.1898203",
+          "title": "Optimizing phenotypic data analysis strategies to enhance genomic prediction in winter wheat breeding",
+          "authors": [
+            "Ravindra Reddy Gundala",
+            "Georg Witte",
+            "Jost Doernte",
+            "Michael Koch",
+            "Yusheng Zhao",
+            "Jochen C. Reif"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-04",
+          "doi": "10.3389/fpls.2026.1898203",
+          "url": "https://openalex.org/W7172383710",
+          "abstract": "Proper analysis of phenotypic data is essential for reliable genomic prediction (GP) and sustained genetic gain in breeding programs. In this study, we used phenotypic and genotypic data generated from the winter wheat breeding program of Deutsche Saatveredelung AG (DSV), Lippstadt, Germany, comprising 1,941 genotypes and 6,335 SNP markers across three traits: grain yield, plant height, and heading date. We evaluated the impact of different two-stage analysis strategies: one using the environment (year × location combination) as the analysis unit (TS-S1) and the other using the breeding stage as the analysis unit (TS-S2), each with and without accounting for breeding-stage effects (-YesBS and -NoBS), on the computation of best linear unbiased estimates (BLUEs) and genome-wide prediction ability (PA), defined as the correlation between BLUEs and predicted values. The performance of these 4 different second stage models (TS-S1-NoBS, TS-S1-YesBS, TS-S2-NoBS, and TS-S2-YesBS) were evaluated using the extended genomic best linear prediction (EGBLUP) model under 5-fold cross validation (5-fold CV), leave one year out cross validation (LOY-CV) and leave one breeding stage out cross validation (LOBS-CV) scenarios. In the presence of the strong breeding stage effect ignoring the breeding stage in the model resulted in biased BLUEs and overestimated prediction abilities in the 5-fold CV, and underestimated prediction abilities in the LOY-CV and LOBS-CV. These unstable prediction abilities are driven by confounded environmental effects in the BLUEs due to omission of the breeding-stage effect. In contrast, models that accounted for the breeding stage produced more reliable BLUEs and more stable prediction results across all cross-validation scenarios, with TS-S1-YesBS performing best overall. Overall, our findings demonstrate that breeding stage effects mainly arise from differences in growing conditions and must be adequately considered. Therefore, including breeding stage in phenotypic models is critical to obtaining unbiased BLUEs and ensuring accurate genomic prediction and selection decisions.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.62476/abes112485",
+          "title": "Climatic Regions and Flowering Period Influence Genetic Diversity and Structure of Oloptum miliaceum in Jordan",
+          "authors": [],
+          "journal": "Advances in Biology & Earth Sciences",
+          "date": "2026-08-04",
+          "doi": "10.62476/abes112485",
+          "url": "https://openalex.org/W7172386620",
+          "abstract": "Environmental gradients, especially climatic factors, significantly impact plant distribution and may also affect population genetic diversity and differentiation.Variations in water supply can lead to inter-population discrepancies in ecological processes, hence disrupting connection and resulting in environmental isolation of populations.This study investigates the impact of environmental variability on Oloptum populations and the analysis accounted for variations in geographic location and climate.We employed AFLP markers to examine genetic diversity and differentiation among 10 populations of Oloptum miliaceum from three phytogeographical zones (Mediterranean, Irano-Turanian and Saharo-Arabian), including the species' geographic distribution in Jordan.Flowering phenology has shown variability among populations and areas.The Irano-Turanian and Saharo-Arabian groups exhibited greater genetic diversity than Mediterranean populations and genetic diversity significantly increased with rising temperatures and decreasing precipitation.The Mantel, partial Mantel and distance-based redundancy analyses showed a significant correlation between genetic distances and environmental distances but not with geographic distance, which is consistent with isolation by environment rather than isolation by distance.Marked genetic differentiation was observed, alongside three robustly supported phytogeographical population groups: the first group comprised Mediterranean populations, the second encompassed Irano-Turanian populations and the third included Saharo-Arabian populations, as indicated by PCoA and cluster analysis.Our data suggest that populations from humid and arid regions are ecologically isolated, with environmental gradients influencing their blooming phenology, restricting gene flow and determining their genetic structure.We infer that environmental heterogeneity, particularly moisture availability, temperature and flowering time, may serve as a principal determinant of the observed variation in genetic diversity.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.66273/3134-6359.2026.1.2",
+          "title": "Kazakhstan Society of Geneticists and Breeders",
+          "authors": [],
+          "journal": "",
+          "date": "2026-08-04",
+          "doi": "10.66273/3134-6359.2026.1.2",
+          "url": "https://openalex.org/W7172346927",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.3390/jgbg1020013",
           "title": "Genomic Potential and Climate Resilience of Agave angustifolia Haworth in Raicilla Production",
           "authors": [
@@ -520,6 +579,181 @@
           "source": "OpenAlex"
         },
         {
+          "id": "10.1371/journal.ppat.1014468",
+          "title": "What hybrids reveal about the notion of species in Leishmania",
+          "authors": [
+            "Marcela Fuentes-Carias",
+            "Viviane Noll Louzada-Flores",
+            "Isabelle Louradour"
+          ],
+          "journal": "PLoS Pathogens",
+          "date": "2026-08-03",
+          "doi": "10.1371/journal.ppat.1014468",
+          "url": "https://openalex.org/W7172342251",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s43897-026-00241-y",
+          "title": "Comparative genomics and time-course transcriptomics uncover homoeologous exchange events reshaping glucosinolate metabolism in Brassica napus",
+          "authors": [
+            "Yizhou He",
+            "Zetao Bai",
+            "Zengfeng Wang",
+            "Yu-Xuan Bai",
+            "Qinlin Ke",
+            "Fan Liu",
+            "Chaobo Tong",
+            "Aixia Gu",
+            "Marta Francisco",
+            "Deyang Xu",
+            "Lijiang Liu",
+            "Qingyong Yang",
+            "Shengyi Liu",
+            "Wen-Hui Lin",
+            "Yuanyuan Zhang"
+          ],
+          "journal": "Molecular Horticulture",
+          "date": "2026-08-03",
+          "doi": "10.1186/s43897-026-00241-y",
+          "url": "https://openalex.org/W7172260561",
+          "abstract": "Improving glucosinolate (GSL) profiles in rapeseed (Brassica napus)-high in leaves for pathogen resistance but low in seeds for meal quality-is a key breeding goal, yet its genetic basis remains unclear. Here, we present a chromosome-level genome assembly for ZY821, an elite high-GSL variety, generated using long-read sequencing and Hi-C scaffolding. Comparative analysis with the low-GSL variety ZS11 identified three major homoeologous exchange (HE) events and extensive structural variation. Notably, an A09-C09 HE event replaced the low-expression BnaC09.MYB28 allele with the high-expression BnaA09.MYB28 allele, resulting in elevated MYB28s expression and thereby increased GSL accumulation in ZY821, whereas a deletion of BnaA09.MYB28 in ZS11 significantly reduced the expression of multiple putative downstream targets in the GSL biosynthesis pathway, leading to a reduction in GSL content. This mechanism was supported by population-level HE analysis and time-course transcriptomes across 116 RNA-Seq samples. Furthermore, joint differential expression and co-expression network analyses uncovered several novel candidate genes implicated in GSL metabolism. Collectively, our study provides new mechanistic insights into the genetic control of GSL accumulation, with significant implications for breeding optimized GSL profiles.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08028-y",
+          "title": "A chromosomal-level genome assembly of Promethis valgipes Marseul, 1876 (Coleoptera: Tenebrionidae)",
+          "authors": [
+            "Jianfeng Jin",
+            "Wenji Zhu",
+            "Maolin Ye",
+            "Jiaming Qiao"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-03",
+          "doi": "10.1038/s41597-026-08028-y",
+          "url": "https://openalex.org/W7172252944",
+          "abstract": "Promethis valgipes is an important fungus-eating beetle distributed in central China, Korea, and Japan. However, research on its biology and evolution has been limited by the lack of a high-quality genome. Here, we report a chromosome-level genome assembly of P. valgipes , generated using an integrated approach that combines PacBio HiFi long reads, Illumina short reads, and Hi-C data. The final genome assembly spans 213.69 Mb, with 98.91% (211.35 Mb) of the total sequence anchored to 10 chromosomes. The genome assembly consists of 19 scaffolds and 30 contigs, with scaffold and contig N50 values of 21.50 Mb and 17.10 Mb, respectively. BUSCO analysis using the insecta_odb10 dataset (n = 1,367) indicated high completeness, with 99.7% of conserved genes detected (99.3% single-copy and 0.4% duplicated). Repetitive elements constituted 41.74% (89.19 Mb) of the genome, and 13544 protein-coding genes were identified. This high-quality genome provides a foundation for studying the ecology, genetics, and evolution of P. valgipes .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s42397-026-00274-0",
+          "title": "Cotton insect resistance and integrated pest management: current research and future directions",
+          "authors": [
+            "Xinyue Xu",
+            "Lili Zhou",
+            "Peilin Wang",
+            "Jiayue Fu",
+            "Xinyan Liu",
+            "Wenfang Guo",
+            "Xiaofeng Su",
+            "Hongmei Cheng",
+            "Huiming Guo"
+          ],
+          "journal": "Journal of Cotton Research",
+          "date": "2026-08-03",
+          "doi": "10.1186/s42397-026-00274-0",
+          "url": "https://openalex.org/W7172333702",
+          "abstract": "Abstract Cotton production has long been challenged by combined damage from chewing and piercing-sucking pests. Bt cotton has provided effective control of the cotton bollworm in many production regions. However, several factors have rendered single-tactic management unsustainable. These include the increasing prominence of piercing-sucking pests, accelerating resistance evolution, and growing concerns over non-target effects. Critically, the lack of standardized, cross-environment protocols for reproducible resistance phenotyping has become the primary bottleneck preventing the translation of laboratory-discovered resistance genes into field-effective cultivars. Over the past three decades, major advances have been made in elucidating resistance mechanisms and developing gene identification technologies. Breeding-to-field transformation efficiency has not improved in parallel. Standardized, cross-environment protocols for reproducible insect-resistance phenotyping are still lacking. Specifically, there is a lack of unified specifications for defining pest pressure levels, selecting sampling time points, determining tissue positions for investigation, and establishing criteria for resistance evaluation. Moreover, agronomic cost assessments that balance resistance with yield have rarely been incorporated into breeding decision pipelines. Consequently, many candidate genes remain at the stage of functional validation rather than deployment. At present, insect-resistance breeding is shifting from simply identifying new resistance genes toward evaluating their effects in combination with yield and performance in field trials. In essence, this transition expands breeding objectives from single resistance indices to a broader assessment of yield stability, multi-pest management, and field ecological function. The overarching objective is to improve yield stability under multi-pest pressure while slowing pest adaptation and preserving field ecological functions. Achieving this objective will require explicitly linking genetic resistance traits with physical, chemical, and biological control measures within a dynamic, threshold-based Integrated pest management (IPM) framework.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.14411/fp.2026.007",
+          "title": "Host switching via rare sex: Oncorhynchus mykiss as a vector in fusion of three Gyrodactylus salaris genomes into a sexual-clonal population on a landlocked Salmo salar (Monogenea, Platyhelminthes)",
+          "authors": [
+            "Jaakko Lumme",
+            "Jussi Kuusela",
+            "Marek S. Ziętara",
+            "Е. П. Иешко",
+            "Д. И. Лебедева",
+            "Julia Barskaya"
+          ],
+          "journal": "Folia Parasitologica",
+          "date": "2026-08-03",
+          "doi": "10.14411/fp.2026.007",
+          "url": "https://openalex.org/W7172335988",
+          "abstract": "The monogenean ectoparasite Gyrodactylus salaris Malmberg, 1957 was detected in 2001 on juveniles of landlocked Salmo salar Linnaeus in three rivers draining to Lake Kuitozero in the White Sea basin. The ancestry of the colony was studied by internal transcribed spacers of the nuclear ribosomal operon (ITS), mitochondrial COI gene and by 12 microsatellite markers. The maternal ancestor was a frozen heterozygotic and heteroplasmic diploid clone RBT marked by a ITS-1068R, spread by rainbow trout and observed in Denmark, Norway, Finland and Russia. The clone combined genomes from two divergent matrilines, probably from grayling (Thymallus Linck) in the Southern Baltic basin (COI alien, 84 % bootstrap support) and in Balkans (COI rbt, 99 %). The genetic distance of the 1545 bp sequences was dMCL = 0.025. The population in Kuitozero was a progeny of RBT females repeatedly inseminated by conspecific males. It was sexual but propagated as parthenogenetic clones. The derived population carried only COI rbt.. The microsatellite alleles of the RBT clone segregated with the paternal alleles following Mendelian model, with an excess of heterozygotes: He = 0.608, Ho = 0.883. Among 244 genotyped worms, 27 multilocus clones were observed, as segregated among the parr (FST = 0.824). Parental genotypes were not detected. The largest clone (104 worms) was heterozygotic in all 12 loci and was identified on fifteen fish, in two rivers and four years. The balancing selection (excess of heterozygotes) equalised the allelic frequencies and maximised the genetic variance available for purifying and adaptive natural selection on a new host. The two sexual episodes associated with three host switch steps offers a model to understand the evolution of the diverse host spectrum of host-specific Gyrodactylus von Nordmann, 1832.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10471860/v1",
+          "title": "Rivers, hybridisation, and range margins: drivers of genetic structure in the Danube crested newt in northern Pannonia",
+          "authors": [
+            "Peter Mikulíček",
+            "Zdeněk Mačát",
+            "Petr Papežík",
+            "Antonín Reiter"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-03",
+          "doi": "10.21203/rs.3.rs-10471860/v1",
+          "url": "https://openalex.org/W7172259960",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10467419/v1",
+          "title": "Optimization of In Vitro Pollen Germination Medium for Ilex cornuta",
+          "authors": [
+            "Fei Yu",
+            "Peng Zhou",
+            "Can Jiang",
+            "Yanming Fang",
+            "Min Zhang"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-03",
+          "doi": "10.21203/rs.3.rs-10467419/v1",
+          "url": "https://openalex.org/W7172246458",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.46989/001c.165388",
+          "title": "Whole-Genome survey and microsatellite analysis of spotbanded scat <i>Selenotoca multifasciata</i>",
+          "authors": [
+            "Chao Peng",
+            "Gaojie Chen",
+            "Peirong Ye",
+            "谢林文",
+            "Xi Luo",
+            "Shuiqing Wu",
+            "范嗣刚"
+          ],
+          "journal": "Israeli Journal of Aquaculture - Bamidgeh",
+          "date": "2026-08-03",
+          "doi": "10.46989/001c.165388",
+          "url": "https://openalex.org/W7172335733",
+          "abstract": "In this study, we conducted a comprehensive genome survey of Selenotoca multifasciata using Illumina short-read sequencing technology. A total of 51.63 Gb of high-quality clean sequencing data were generated, with Q20 and Q30 values reaching 98.77% and 96.64%, respectively. The 42.59 Gb of clean reads were assembled into 551,813 contigs (587.82 Mb) and 431,116 scaffolds (593.38 Mb). 17-mer frequency analysis estimated a genome size of 575.38 Mb, with 42.20% GC content, 0.43% heterozygosity, and 25.97% repeat ratio. 214,419 SSR loci were detected genome-wide, with dinucleotide repeats being the most prevalent type (80.49%) and AC/AG as the dominant motifs. Among 53 tested markers, 30 produced clear and stable bands, and 9 polymorphic loci were applied to assess the genetic diversity of a wild S. multifasciata population from Zhanjiang Bay. These results provide a valuable genomic basis for whole-genome sequencing and molecular marker development in S. multifasciata and related Scatophagidae species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/agriculture16151668",
+          "title": "Smart Urban Agriculture in Transition: A Systematic Review of ICT Integration, Applications, and Challenges",
+          "authors": [
+            "Ruhang Wei",
+            "Dan Wu",
+            "Wulijiang Mulati",
+            "Qifeng Hou",
+            "Shengxi Xin"
+          ],
+          "journal": "Agriculture",
+          "date": "2026-08-03",
+          "doi": "10.3390/agriculture16151668",
+          "url": "https://openalex.org/W7172262358",
+          "abstract": "This paper systematically reviews the emerging field of smart urban agriculture, defined as the integration of information and communication technologies (ICTs) into food production practices within and around built-up urban areas. Although urban agriculture and digital agriculture have each generated substantial scholarship, their intersection remains conceptually fragmented and empirically uneven. Following the PRISMA 2020 guidelines, this study reviews 143 English-language articles indexed in Web of Science and Scopus between 2016 and 2026, combining bibliometric mapping with structured thematic coding. The analysis shows that smart urban agriculture has expanded rapidly since 2021, but remains geographically concentrated and disciplinarily dispersed. Current research is organized mainly around IoT and sensor networks, machine learning, soilless cultivation, vertical farming, plant factories, and controlled-environment agriculture. ICT applications are most mature in enclosed, data-rich, and technically controllable systems, where they support monitoring, prediction, automation, and resource optimization. By contrast, community-based, open-space, and governance-oriented forms of urban agriculture remain underexplored. By systematically linking ICT families with different urban agriculture production settings, this review clarifies the field’s emerging knowledge structure and demonstrates that technological development remains uneven across agricultural forms and socio-institutional contexts.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.3390/coasts6030032",
           "title": "Phylogeography of Halophytes Across Saline Landscapes: A Systematic Review of Coastal–Inland Connectivity and Genetic Differentiation",
           "authors": [
@@ -531,6 +765,25 @@
           "doi": "10.3390/coasts6030032",
           "url": "https://openalex.org/W7172256182",
           "abstract": "Saline habitats, which include both coastal and inland, host specialised halophytic communities that can withstand high salinity. Coastal communities are shaped by tidal inundation and marine connectivity, whereas inland saline habitats are driven by evaporation, groundwater salinisation, and greater landscape isolation. These contrasting hydrological and environmental variables likely drive divergent patterns of genetic diversity, influencing local adaptation, connectivity, and evolutionary divergence, which is important for understanding species persistence and guiding conservation of saline ecosystems under environmental change. This systematic review brings together phylogeographic studies on halophytic species from both environments to uncover global drivers of genetic difference. A systematic search of Web of Science, Scopus, and PubMed was done, and 20 studies were identified focusing on key genera including Salicornia, Sarcocornia, Suaeda, and Triglochin. Distinct genetic clades were often associated with habitat type or geographic region, indicating repeated divergence linked to coastal–inland environmental gradients. Genetic differentiation between coastal and inland halophyte populations is primarily driven by habitat fragmentation, restricted gene flow, historical refugia and recolonisation, salinity-mediated adaptation, and differences in dispersal capacity. As a result, coastal populations are generally more genetically connected, whereas inland populations tend to be more isolated, structured, and evolutionarily divergent. The data also showed a strong regional bias; while research is well established in Europe, Asia, and North America, African inland saline ecosystems are critically understudied. We conclude that habitat connectivity and dispersal pathways are the primary determinants of halophyte genetic structure. Future research must integrate ecological niche modelling and landscape genetics to resolve the evolutionary dynamics of these taxa, particularly in under-sampled regions such as southern Africa, to support effective conservation of saline biodiversity. However, the synthesis is constrained by the small number of eligible studies (n = 23) and their uneven geographic distribution, with limited representation from Africa, South America, and Australia, which restricts the ability to draw fully global conclusions. Recognising and protecting these systems is essential for safeguarding global saline biodiversity.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/ijms27156935",
+          "title": "The Pan-Plastome of Walnuts (Juglans regia L.) from Xinjiang Reveals New Insights into Their Genetic Diversity",
+          "authors": [
+            "Lulu Zhang",
+            "Fangdong Geng 耿方东",
+            "Huijuan Zhou",
+            "Baoqing Wang",
+            "Peng Zhao",
+            "Qingguo Ma"
+          ],
+          "journal": "International Journal of Molecular Sciences",
+          "date": "2026-08-02",
+          "doi": "10.3390/ijms27156935",
+          "url": "https://openalex.org/W7172276657",
+          "abstract": "Persian walnut (Juglans regia L.) is an economically important tree species in the Juglandaceae family. Comparative analysis of its chloroplast genome sequences is of great significance for species identification and evolutionary research. In this study, high-throughput sequencing was performed using the Illumina HiSeq platform, followed by de novo assembly of the chloroplast genome, and then analyses of its repetitive sequences, codon usage bias, nucleotide polymorphism and population structure. The results showed that the chloroplast genome size of walnut ranged from 160,311 bp to 160,367 bp with a GC content of 36.11%. It exhibited a typical quadripartite circular structure, and a total of 78 distinct protein-coding genes (PCGs), 30 tRNA genes and four rRNA genes were annotated. A total of 16 distinct SSR motifs were identified, among which A/T motifs were the most abundant; 31–40 bp long tandem repeats were the most abundant in all samples, which increased genomic variability. Codon usage bias analysis revealed that all walnut samples preferentially use the codon UUA (Leu), and most codons end with A/U. Nucleotide sequence alignment identified 129 polymorphic sites. Single nucleotide variants (SNVs) were the dominant variation type, followed by InDels. Furthermore, the phylogenetic tree, principal component analysis (PCA), haplotype network and population structure classified the 41 walnut samples into three genetic clusters (C1, C2 and C3). This study elucidated the conserved characteristics and evolutionary variations in walnut chloroplast genomes, providing theoretical support for its phylogenetic research and germplasm resource utilization.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -719,6 +972,48 @@
           "doi": "10.3390/ani16152343",
           "url": "https://openalex.org/W7172304664",
           "abstract": "The Tumbler pigeon, a genetic resource of pigeons, exhibits diverse feather colors and distinct flight characteristics compared with other pigeon species, but the genetic basis of these traits remains unclear. Using whole-genome resequencing technology with Illumina NovaSeq X Plus paired-end sequencing (PE150, read length 150 bp) at an average genome coverage of 14.5×, this study analyzed the genetic structure, genetic diversity, and genetic differentiation of 80 individual Tumbler pigeons, Tarim pigeons and homing pigeons, collected from different regions of Xinjiang. In principal component analysis, the Tarim pigeon (TP) and the homing pigeon (XY) each formed relatively independent clusters, and there is a detectable genetic distance between them and the Tumbler pigeon (FC, FY) from the two regions. Moreover, there is an individual overlap phenomenon between the two Tumbler pigeon populations. In the analysis of genetic diversity, Na ranged from 1.93 to 1.97 and Ne from 1.55 to 1.56 across populations, with the TP population exhibiting the highest Na. PIC values ranged between 0.251 and 0.256, and HE values were lower than HO values in all four pigeon populations, indicating that moderate levels of genetic polymorphism were retained. In phylogenetic tree and population structure analyses, TP and XY formed relatively independent clusters. At the same time, individuals from the two Tumbler pigeon regions showed intermixing, resulting in the most distinct clustering pattern. Based on these findings, detectable genetic differentiation exists among the Tumbler pigeon, Tarim pigeon, and homing pigeon, suggesting that Tumbler pigeons may represent a locally differentiated genetic resource. The findings of this study will enhance our understanding of the population genetic structure of Tumbler pigeon resources, which is of great significance for promoting the conservation of Tumbler pigeon genetic resources and facilitating breed innovation and genetic improvement.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.psj.2026.107561",
+          "title": "Integrated Analysis of SNPs and Structural Variations via High-depth Whole-genome Sequencing Reveals the Genetic Architecture and Optimizes Genomic Prediction in Chickens",
+          "authors": [
+            "Haoqiang Ye",
+            "Siyu Zhang",
+            "Lin Qi",
+            "Xiaoqi Liu",
+            "Semiu Folaniyi Bello",
+            "Changbin Zhao",
+            "Wen Luo",
+            "Qinghua Nie"
+          ],
+          "journal": "Poultry Science",
+          "date": "2026-08-01",
+          "doi": "10.1016/j.psj.2026.107561",
+          "url": "https://openalex.org/W7172275604",
+          "abstract": "ABSTRACT The characterization of genetic architecture and the optimization of genomic prediction are pivotal for the genetic improvement of complex traits in poultry. In this study, we investigated the genetic basis of 15 growth and carcass traits in an F2 chicken population (n = 877) using high-depth whole-genome sequencing with an average coverage of 31.2 × . By implementing an ensemble strategy involving four independent callers, we identified 35,924 high-confidence structural variations (SVs), with deletions being the most prevalent type. Combining SNPs and SVs enhanced genomic heritability for 14 out of 15 traits compared to SNPs alone. SNP-based GWAS corroborated well-known genes, including the prominent QTL cluster on chromosome 1, the NCAPG-LCORL locus on chromosome 4, and IGF2BP1 on chromosome 27. Notably, SV-based analysis unveiled additional candidate genes, such as ZNF385D, MYH10 , and MOB1B . To gain functional insights, eQTL-GWAS colocalization analysis integrating SNP-based GWAS signals with tissue-specific eQTL data identified significant colocalization signals for ITM2B in brain tissue, potentially implicating excitatory synaptic transmission, and TRIM13 in blood, potentially implicating inflammatory and immune regulation. To optimize genomic breeding value estimation through the effective utilization of multi-type markers, we developed GPDLBP, a hybrid deep learning framework that integrates locally connected networks to capture SV effects with the GBLUP model for SNP effects. Compared with the traditional SNP-only model, GPDLBP improved prediction accuracy for most traits, with gains exceeding 2% for BW21 (body weight at 21 days of age), BW49 (body weight at 49 days of age), EW (eviscerated weight), LMW (leg muscle weight), and AFW (abdominal fat weight); for example, prediction accuracy increased from 0.512 to 0.532 for BW49 and from 0.471 to 0.491 for EW. These findings show that SVs complement SNPs in both genetic dissection and genomic prediction of economically important traits in chickens. The integration of multiple variant types provides a practical strategy for accelerating precision breeding in high-depth sequencing-based poultry programs.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/f17080901",
+          "title": "Genetic Erosion and Fine-Scale Genetic Structure in a Mediterranean Oak: Defining Genetically Informed Conservation Strategies for Quercus trojana in Southern Italy",
+          "authors": [
+            "Francisco Alcaide",
+            "Alexis Marchesini",
+            "Paola Pollegioni",
+            "Francesca Chiocchini",
+            "Paola Mairota",
+            "M. Cherubini",
+            "Luca Leonardi",
+            "Claudia Mattioni"
+          ],
+          "journal": "Forests",
+          "date": "2026-08-01",
+          "doi": "10.3390/f17080901",
+          "url": "https://openalex.org/W7172298313",
+          "abstract": "Understanding patterns and processes affecting genetic diversity and structure of fragmented tree populations is essential for defining effective conservation strategies. Here, we investigate the genetic diversity of the Macedonian oak (Quercus trojana Webb 1839) across its entire Italian range by sampling 546 georeferenced trees from 30 forest stands. Using ten polymorphic nuclear microsatellite markers, we assessed within-population genetic variability and population structure, estimated effective population size (Ne), bottleneck signatures, and fine-scale relatedness among individual trees. Our results showed overall moderate genetic diversity, but marked variation emerged among populations and between two subregions. Populations in the North-Western Murge subregion exhibited lower allelic richness (Ar), critically small Ne (&lt;50 in 12 populations), evidence of past bottlenecks, and higher pairwise differentiation, with three populations standing out as genetically distinct. Isolation by distance was significant only within the South-Eastern Murge subregion, suggesting contrasting demographic histories. Fine-scale relatedness analysis revealed higher within-site relatedness in North-Western Murge and a substantial proportion (30%) of related dyads across subregions, indicating large-scale connectivity due to natural or anthropogenic factors. Overall, our results reveal a complex scenario of historical and ongoing genetic erosion in some populations, particularly in the northern part of the range, alongside relatively high gene flow across the study area, especially in the south. We recommend prioritizing conservation actions for populations with critically low Ne and distinct gene pools, while maintaining genetic diversity hotspots and landscape connectivity.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1000,6 +1295,20 @@
           "doi": "10.64898/2026.07.30.741913",
           "url": "https://openalex.org/W7172212137",
           "abstract": "Aim Seamounts are key components of deep-sea ecosystems. Yet, their biodiversity patterns and conservation needs remain poorly understood, presenting a critical knowledge gap as they face multiple environmental stressors. Here, we aim to characterize benthic community structure across multiple seamounts along the Kyushu Palau Ridge (KPR) and identify conservation priorities. Location Philippine Sea in the Western Pacific. Major taxa studied Deep sea benthos. Methods We surveyed six transects (13.3N to 22.9N; 614 to 5,055 m depth; 165 km in total length) using a towed camera system, yielding 31,342 images and 14,218 identified individuals. Community structure was assessed through species depth range overlap analysis to distinguish nestedness versus turnover patterns. beta diversity was partitioned into local contributions (LCBD) and species contributions (SCBD) to evaluate site level uniqueness and species level influence. Generalized linear mixed models were used to relate LCBD and SCBD to depth, slope, aspect, bathymetric position, and functional traits. Results Community structures varied among slopes and seamounts. Western, steeper slopes were dominated by nestedness, whereas gentler eastern slopes showed mixed patterns of nestedness and gradual turnover. Sessile species largely exhibited nestedness, while mobile taxa showed mixed structures. LCBD declined with depth overall but increased on north facing slopes and sites with higher broad scale bathymetric position. Wide ranging generalist species, particularly among Echinoidea and Holothuroidea, contributed disproportionately to beta diversity. Main conclusions Seamount benthic communities along the KPR are structured by interactions between depth, geomorphology, and species' ecological breadth. The dominance of nestedness on western slopes suggests that protecting shallow, species rich habitats could capture much of the biodiversity therein. In contrast, the mixed structures on eastern slopes indicate the need for a hybrid conservation approach that includes both shallow summits and deeper, compositionally distinct zones. Our findings highlight the importance of slope specific, depth informed strategies to conserve these vulnerable marine ecosystems.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.5772/intechopen.1014969",
+          "title": "Pellagra and the Importance of NAD Metabolism to Social Status and Health",
+          "authors": [
+            "Adrian Williams"
+          ],
+          "journal": "IntechOpen eBooks",
+          "date": "2026-07-31",
+          "doi": "10.5772/intechopen.1014969",
+          "url": "https://openalex.org/W7172257610",
+          "abstract": "Nicotinamide (vitamin B3) is sourced from milk and meat, and a deficiency causes pellagra, a multisystem condition causing cognitive impairment and premature death. Pellagrins were known as the butterfly caste in the American epidemic around 1900. Pellagra had been described much earlier by Casal in 1735 after observations on Italians on very poor maize based and low meat diets. Some blamed infection from faulty maize but other Europeans blamed diet and noted an association with TB. Americans however were impressed by a genetic cause contributing to eugenic thinking until Goldberger pointed out the dietary link soon after shown to be due to nicotinamide and tryptophan deficiency. The butterfly caste was shown to be treatable. Subclinical pellagra is never comprehensively screened for, so it is a testable hypothesis that other caste, class, gender, and ethno-racial systems and frictions, whether within or between nations, are metabolic and curable imbalances. The first natural anti-TB antibiotic was nicotinamide and the first commercial antibiotics such as Isoniazid were nicotinamide analogues so it is no mystery that TB incidence falls drastically with meat transitions such as in the UK 1850-1930 before there were any drugs or BCG vaccination and replaced by increased longevity but more auto-immune and inflammatory disease. A reduction in high meat intake variances that developed over the last 10,000 years but worsened during colonial and capitalist times, may be the highest and cheapest common factor required to hasten epidemiological, demographic, and economic transitions, reducing the risk of (civil) wars, migration stresses, and zoonotic pandemics.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1991,7 +2300,7 @@
     }
   },
   "stats": {
-    "total_count": 95,
+    "total_count": 112,
     "new_this_week": 83,
     "weekly_trend": [
       {
@@ -2012,7 +2321,7 @@
       },
       {
         "week": "2026-W30",
-        "count": 11
+        "count": 28
       },
       {
         "week": "2026-W31",
