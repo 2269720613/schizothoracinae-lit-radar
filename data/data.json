@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T08:38:17Z",
+  "generated_at": "2026-08-07T07:18:01Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -30,6 +30,29 @@
           "date": "2026-10-01",
           "doi": "10.1016/j.cbpc.2026.110619",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42442646/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.fsi.2026.111577",
+          "title": "Antibacterial mechanisms of magnolol against Streptococcus agalactiae and immunomodulatory effects in Schizothorax prenanti.",
+          "authors": [
+            "Wang Y",
+            "Peng K",
+            "Deng L",
+            "Wang Y",
+            "Jiang Q",
+            "Li T",
+            "Ouyang P",
+            "Chen D",
+            "Huang X",
+            "Geng Y"
+          ],
+          "journal": "Fish & shellfish immunology",
+          "date": "2026-10-01",
+          "doi": "10.1016/j.fsi.2026.111577",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42431286/",
           "abstract": "",
           "track": "A",
           "source": "PubMed"
@@ -103,6 +126,35 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.3390/genes17080920",
+          "title": "Purifying Selection and Interspecific Differentiation at the Myf5 Locus Inform Hybrid Identification and Genetic Management of Thai Clariid Resources",
+          "authors": [
+            "Phonemany Thammachak",
+            "Ton Huu Duc Nguyen",
+            "Rinrapat Nitipatpornpanya",
+            "Anh Huynh Luu",
+            "Edem Uduak Linus",
+            "Thitipong Panthum",
+            "Kednapat Sriphairoj",
+            "Sittichai Hatachote",
+            "Satid Chatchaiphan",
+            "Chaiwut Grudpan",
+            "Jarungjit Grudpan",
+            "S. Kiriratnikom",
+            "Jiraboon Prasanpan",
+            "Orathai Sawatdichaikul",
+            "Worapong Singchat",
+            "Kornsorn Srikulnath"
+          ],
+          "journal": "Genes",
+          "date": "2026-08-04",
+          "doi": "10.3390/genes17080920",
+          "url": "https://openalex.org/W7172416245",
+          "abstract": "Background/Objectives: Clariid catfishes are a cornerstone of Southeast Asian aquaculture, where intensive breeding and interspecific hybridization have significantly decreased genetic diversity. To address the limited understanding of growth-governing molecular determinants, we characterized the genomic architecture and evolutionary dynamics of the myogenic factor 5 (Myf5) gene, a master regulator of myogenesis, in 511 individuals from 17 catfish populations in Thailand. Methods: A total of 511 individuals representing 17 catfish populations were analyzed. A 334-bp fragment of exon 1 of the Myf5 gene was sequenced using Illumina short-read technology. Genetic diversity indices were calculated to evaluate sequence variation, population structure, and selective constraints acting on the locus. Results: Sequence analysis of a 334-bp segment of exon 1 using Illumina short-read technology identified 17 haplotypes and 92 variable sites, which revealed moderate allelic richness despite low overall nucleotide diversity (π ≈ 0.008). Evolutionary analyses indicated that the Myf5 locus is governed by stringent purifying selection (ω = 0.063), wherein site-specific constraints preserve the stability of the α-helix folding architecture, which is essential for myogenic regulation. Population genetic analyses revealed substantial differentiation among taxa (56% among-population variation), while Bayesian clustering successfully resolved a hierarchical structure (K = 2) that distinguished Clarias gariepinus, Clarias macrocephalus, and Clarias batrachus. These findings demonstrate that species-specific Myf5 haplotypes serve as diagnostic markers for identifying parental species and assisting in the identification of F1 hybrid stocks. Conclusions: Overall, this study provides the molecular markers for species identification, broodstock authentication, hybrid detection, and sustainable genetic management of Thai Clariid resources, which are critical for balancing production efficiency with the conservation of native biodiversity in Southeast Asia.",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.1016/j.aqrep.2026.103783",
@@ -484,6 +536,58 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1093/sysbio/syag001",
+          "title": "A Genomic Perspective on Cryptic Species Reveals Complex Evolutionary Dynamics in the Gray Zone of the Speciation Continuum.",
+          "authors": [
+            "Chan KO",
+            "Neokleous DN",
+            "Anuar S",
+            "Brown RM",
+            "Hutter CR",
+            "Das I",
+            "Hertwig ST"
+          ],
+          "journal": "Systematic biology",
+          "date": "2026-08-06",
+          "doi": "10.1093/sysbio/syag001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41533667/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1038/s41597-026-08016-2",
+          "title": "A gap-free, telomere-to-telomere chromosome-scale genome assembly of the mangrove red snapper, Lutjanus argentimaculatus",
+          "authors": [
+            "Yang Xiang",
+            "Zhencheng Lu",
+            "Haoling Jiang",
+            "Yusong Guo",
+            "Zhongduo Wang"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-05",
+          "doi": "10.1038/s41597-026-08016-2",
+          "url": "https://openalex.org/W7172529979",
+          "abstract": "Abstract The mangrove red snapper ( Lutjanus argentimaculatus ) is a commercially important marine fish species in the Indo-Pacific region. Despite its significant economic value for aquaculture, existing genomic resources remain fragmented, limiting the advancement of molecular breeding and functional genomic studies. Here, we present a gap-free, telomere-to-telomere (T2T) genome assembly of L. argentimaculatus , generated using a hybrid approach combining PacBio HiFi, Oxford Nanopore ultra-long reads and Hi-C technology. The resulting assembly comprises exactly 24 scaffolds spanning 1.03 Gb, perfectly matching the haploid chromosome number with a contig N50 of 46.17 Mb. Notably, this assembly resolves all physical gaps present in previous versions, achieving a BUSCO completeness score of 98.2%. Comprehensive genome annotation successfully predicted 23,167 protein-coding genes. Among these, 22,067 genes (95.25%) were functionally annotated across major public databases, including eggNOG, InterPro, and Swiss-Prot. Furthermore, structural analysis successfully identified 19 telomeres and 20 centromeres, validating the chromosomal integrity. This high-fidelity, gap-free reference genome provides a robust foundation for comparative genomics, population genetics, and the genetic improvement of Lutjanidae species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1867181",
+          "title": "Integrative evolutionary and structural modeling of leaf rust resistance genes in wheat (Triticum aestivum subsp. and T. monococcum)",
+          "authors": [
+            "Meshal M. Almutairi"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-05",
+          "doi": "10.3389/fpls.2026.1867181",
+          "url": "https://openalex.org/W7172549630",
+          "abstract": "This study investigated the evolutionary relationships and molecular characteristics of selected genes in wheat ( Triticum aestivum subsp .) using phylogenetic reconstruction and motif analysis. A phylogenetic tree was constructed using the Maximum Likelihood method, and conserved motif patterns were identified using ClustalW alignment and R-based analyses. The detection of a shared conserved motif across genes G3 to G11 at the same position suggests functional conservation, shared regulatory roles, or evolutionary constraint. Highly significant motifs identified in Gen1 and Gen2 indicate potential functional importance, possibly corresponding to active or binding sites. Phylogenetic analysis grouped the genes into two main clusters; a strongly supported monophyletic clade (Gen1, Gen10) suggests conserved functional roles, whereas weaker support among Gen13–Gen18 limits resolution of deeper evolutionary relationships. Sequence logo analysis revealed conserved regions between positions 107 and 301, particularly at residues P, L, R, F, G, and K, while positions 200–260 exhibited low conservation, indicating potential functional divergence. Structural prediction using AlphaFold2 revealed a canonical ABC transporter fold with high-confidence nucleotide-binding domains and a membrane-spanning helical bundle containing conserved catalytic residues, supporting an ATP-dependent transport function in wheat. Overall, these findings provide insights into the evolutionary history, structural conservation, and potential functional roles of these genes in wheat.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.3389/fpls.2026.1898203",
           "title": "Optimizing phenotypic data analysis strategies to enhance genomic prediction in winter wheat breeding",
           "authors": [
@@ -523,6 +627,239 @@
           "doi": "10.66273/3134-6359.2026.1.2",
           "url": "https://openalex.org/W7172346927",
           "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1864074",
+          "title": "QTL rich genomic clusters in wheat: a catalogue for resistance to Puccinia striiformis f. sp. tritici",
+          "authors": [
+            "Cyrus Mugambi Micheni",
+            "Davinder Singh",
+            "Robert Park",
+            "Laura Ziems"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-04",
+          "doi": "10.3389/fpls.2026.1864074",
+          "url": "https://openalex.org/W7172437460",
+          "abstract": "Wheat stripe/yellow rust, caused by Puccinia striiformis f. sp. tritici (Pst), remains one of the most significant constraints to global wheat production. Genetic resistance breeding is the most effective, economical, and environmentally sustainable strategy for controlling stripe rust. Over the past two decades, advances in genome sequencing, molecular markers and high-throughput genotyping have led to the reporting of numerous Yr genes and an even greater number of quantitative trait loci (QTL, QYr ). Alignment of QYr onto a common refence map is therefore required to consolidate dispersed reports, identify regions of co-localization, and define stable genomic regions underlying stripe rust resistance. In this review, catalogued Yr genes and published stripe rust QTL were systematically compiled from 142 studies and, where sufficient marker information was available, physically re-anchored to the IWGSC RefSeq v2.1 wheat reference genome. This integrative approach enabled consolidation of overlapping loci and delineation of 42 QTL-rich clusters (QRCs). The B-sub genome had the highest number of clusters (20), followed by the A-sub genome (16). The D-sub genome had the least number of clusters (6), with two chromosomes, 5D and 6D, lacking any clusters. Thirteen cloned Yr genes were mapped within these clusters, thereby providing functional validation of QRCs as biologically meaningful reservoirs of resistance. This cluster-based framework provides a practical roadmap for consolidating Yr/QYr loci, prioritizing novel genomic targets, and deploying resistance strategically against evolving pathogen populations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44307-026-00128-5",
+          "title": "Engineering monosex and sterile fish for food production: from conventional methods to CRISPR-based precision",
+          "authors": [
+            "Yue Min",
+            "Fei Sun",
+            "Joey Wong",
+            "May Lee",
+            "Gen Hua Yue"
+          ],
+          "journal": "Advanced Biotechnology",
+          "date": "2026-08-04",
+          "doi": "10.1007/s44307-026-00128-5",
+          "url": "https://openalex.org/W7172437564",
+          "abstract": "Monosex and sterile fish populations are increasingly recognized as essential tools for enhancing aquaculture productivity while safeguarding ecosystems from genetic introgression and uncontrolled reproduction. Conventional approaches such as hormonal manipulation and triploidy have demonstrated utility but face persistent limitations in efficiency, welfare, and regulatory acceptance. Recent breakthroughs in CRISPR-based genome editing and germ cell transplantation now enable heritable, scalable, and biocontained control of sex and fertility, offering transformative potential for sustainable aquaculture. This paper synthesizes advances across finfish and crustaceans, critically evaluates technical and regulatory bottlenecks, and highlights convergent solutions integrating automation, artificial intelligence, and governance frameworks. By positioning reproductive programming as a cornerstone of climate-resilient and sustainable aquatic food systems, we propose a roadmap toward commercial adoption that balances biological precision, ecological safety, and societal acceptance.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/ijms27157005",
+          "title": "Machine Learning-Guided Stress Atlases Reveal Co-Expression Rewiring and Divergent Cellular Deployment of Abiotic Stress Programs in Rice and Wheat",
+          "authors": [
+            "Zixuan Wang",
+            "Zhouxuan Ge",
+            "Haoyu Chao",
+            "Алибек Затыбеков",
+            "Qirong He",
+            "Xiaoying Zheng",
+            "Yue Wang",
+            "Shilong Zhang",
+            "Zhimeng Zhao",
+            "Renbo Yao",
+            "В. А. Иванисенко",
+            "Cong Feng",
+            "Ming Chen"
+          ],
+          "journal": "International Journal of Molecular Sciences",
+          "date": "2026-08-04",
+          "doi": "10.3390/ijms27157005",
+          "url": "https://openalex.org/W7172376669",
+          "abstract": "Abiotic stress limits cereal productivity, yet whether conserved stress-responsive genes retain similar transcriptional network organization and cellular deployment across cereal species remains unknown. Here, we developed a machine learning-guided comparative framework to integrate public leaf transcriptomes of rice (Oryza sativa) and wheat (Triticum aestivum) under major abiotic perturbations. Using harmonized compendia comprising 787 rice and 337 wheat samples, we found that rice samples resolved into more discrete stress-associated transcriptional states, whereas wheat samples formed a more continuous landscape with partial overlap among stress responses. Supervised learning prioritized compact sets of stress-predictive candidate genes, including heat-shock/chaperone-related, ABA-biosynthetic and membrane-associated features. Orthology-guided co-expression analysis further showed that homologous stress-predictive genes, particularly heat-associated candidates, can retain stress responsiveness while occupying divergent module neighborhoods in rice and wheat. Leaf single-cell projection resolved this divergence at cellular resolution: several rice predictors showed compartmentalized expression in parenchyma and vascular parenchyma, whereas their wheat counterparts were more broadly deployed across mesophyll, epidermal and vascular cell types. Our findings reveal context-dependent redeployment of homologous stress-associated genes in cereals and offer a scalable strategy for prioritizing candidates for functional validation and climate-resilience breeding.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-75288-y",
+          "title": "Identification of carnivory in the flowering plant Saxifraga via multidisciplinary evidence",
+          "authors": [
+            "Xinjian Zhang",
+            "Tao Deng",
+            "Nan Lin",
+            "Hengchang Wang",
+            "Bo Song",
+            "Erna Xun",
+            "Xianhan Huang",
+            "Quansheng Fu",
+            "Jun‐Tong Chen",
+            "Peng‐Rui Luo",
+            "Douglas E. Soltis",
+            "Hang Sun"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-04",
+          "doi": "10.1038/s41467-026-75288-y",
+          "url": "https://openalex.org/W7172452468",
+          "abstract": "Abstract The transformation from prey to predator is a striking adaptive innovation shared by all carnivorous plants, which capture and digest diverse animal prey for nutrients (nitrogen, N). Here, we report carnivory in the alpine flowering plant Saxifraga candelabrum (Saxifragaceae; Saxifragales). Field experiments and herbarium surveys reveal that this plant actively attracts and captures insect prey via glandular hairs. Enzymatic analyses further confirm the ability of plants to digest prey, and isotope labelling experiments using ¹⁵N-labelled insects demonstrate the transfer of nitrogen from prey to plant tissues, thus verifying the presence of carnivory. Genomic comparisons reveal a significant genome-wide convergence in genes related to carnivory (e.g., leaf morphogenesis, digestion and nutrition) across six independent origins of carnivory in diverse flowering plant lineages. Our findings provide definitive evidence of carnivory in Saxifraga , addressing Charles Darwin’s long-standing hypothesis that some Saxifraga species may be capable of carnivory, and further suggest that carnivory may be more widespread among angiosperms than previously recognized.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44372-026-00804-9",
+          "title": "Weed dynamics and management strategies for dry direct-seeded rice in South Asia: a review",
+          "authors": [
+            "Akbar Hossain",
+            "Mst. Tanjina Islam",
+            "Md. Parvez Kabir",
+            "Md. Harun-Or-Rashid",
+            "Buddhika Sampath Chamara",
+            "Tahir Awan",
+            "Sharif Ahmed",
+            "Alison M. Laing",
+            "Mahesh K. Gathala"
+          ],
+          "journal": "Discover Plants.",
+          "date": "2026-08-04",
+          "doi": "10.1007/s44372-026-00804-9",
+          "url": "https://openalex.org/W7172452126",
+          "abstract": "Background Weeds are the number one pest of agricultural production systems and are a major constraint to the success of dry direct-seeded rice (DDSR). Main text In this paper, the weed dynamics and management practices of DDSR are critically reviewed to minimize their influence on rice-based cropping systems in South Asia (SA). The yield losses due to uncontrolled weeds in the DDSR can reach 100%. Even when farmers manage weeds, yield losses generally range from 20 to 30% in SA. The dominant weed species reported in DDSR systems are Cyperus rotundus L., Echinochloa colona (L.) Link, Cynodon dactylon (L.) Pers., Digitaria ciliaris (Retz.) Koel., Leptochloa chinensis (L.) Nees., Alternenthera sessilis L., etc. Shifting of weed species was reported from SA studies when farmers practiced DDSR because of changes from flooding to aerobic soil conditions and changes in weed management strategies. Manual weeding is popular in SA, but relying solely on it is not economically viable in DDSR systems. Therefore, available integrated approaches, such as preventive, cultural, mechanical, and chemical measures, are needed. Herbicides are considered essential in DDSR systems because they help prevent early flushes of weeds and subsequent growth. Effective herbicide strategies include the use of preemergence applications of pendimethalin, followed by postemergence treatments with herbicides such as bispyribac-sodium or penoxsulam, and then manual weeding as needed. However, the increasing reliance on herbicides has led to the emergence of herbicide resistance, particularly in species such as Echinochloa spp. and weedy rice, which poses a significant threat to sustainable weed control. Limited information was found on weed resistance issues in SA. Conclusion The future perspective on weed management in DDSR systems emphasizes the need for continued research collaboration and stakeholder involvement, farmer training, and the development of the capacity of researchers and extension workers.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1371/journal.pone.0355194",
+          "title": "Genetic diversity and yield trait associations in soybean germplasm using SSR markers",
+          "authors": [
+            "宗海龙",
+            "Xiaolei Li",
+            "Songyin Liu",
+            "鲍鸿春",
+            "Chongyang Bai"
+          ],
+          "journal": "PLoS ONE",
+          "date": "2026-08-04",
+          "doi": "10.1371/journal.pone.0355194",
+          "url": "https://openalex.org/W7172415212",
+          "abstract": "Soybean (Glycine max (L.) Merrill), a vital food and oilseed crop native to China, has the development of high-yield and high-quality new varieties as a core objective in soybean breeding. However, studies on genetic diversity and marker-trait associations for yield-related traits across multiple environments using simple sequence repeat (SSR) markers remain limited. This study utilized 20 pairs of SSR primers to investigate genetic diversity and marker-trait associations (MTAs) between SSR markers and yield-related traits in 150 soybean accessions of diverse origins, which were grown under two environmental conditions. Genetic diversity analysis of 12 key agronomic traits, including plant height, number of branches, number of pods per plant, and hundred-seed weight, showed substantial phenotypic variation with large ranges and high coefficients of variation among the accessions. Cluster analysis based on agronomic traits classified the germplasm into five clusters under environment E1 and four clusters under environment E2. SSR primer amplification of the accessions' genomic DNA produced an average of 7.10 amplified loci and 6.80 polymorphic loci per primer pair, with an average polymorphic locus rate of 96%. The average values of effective allele number (Ne), gene diversity index (H), Shannon's information index (I), polymorphism information content (PIC), and genetic similarity coefficient (GSC) were 1.5035, 0.3581, 0.5176, 0.3539, and 0.57, respectively. SSR-based cluster analysis divided the 150 accessions into three distinct clusters. Principal coordinate analysis (PCoA) validated that the selected SSR primers could effectively discriminate among the accessions. Population structure analysis indicated complex genetic relationships and substantial genetic diversity within the germplasm panel. Association analysis between agronomic traits and SSR markers identified 44 markers significantly associated with yield-related traits, of which 13 were simultaneously linked to two or more yield-related traits. Using generalized linear model (GLM) and mixed linear model (MLM) analyses, six SSR markers significantly associated with yield-related traits were consistently detected across the two environments. These results provide a theoretical basis for germplasm utilization and molecular breeding in soybean.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/genes17080920",
+          "title": "Purifying Selection and Interspecific Differentiation at the Myf5 Locus Inform Hybrid Identification and Genetic Management of Thai Clariid Resources",
+          "authors": [
+            "Phonemany Thammachak",
+            "Ton Huu Duc Nguyen",
+            "Rinrapat Nitipatpornpanya",
+            "Anh Huynh Luu",
+            "Edem Uduak Linus",
+            "Thitipong Panthum",
+            "Kednapat Sriphairoj",
+            "Sittichai Hatachote",
+            "Satid Chatchaiphan",
+            "Chaiwut Grudpan",
+            "Jarungjit Grudpan",
+            "S. Kiriratnikom",
+            "Jiraboon Prasanpan",
+            "Orathai Sawatdichaikul",
+            "Worapong Singchat",
+            "Kornsorn Srikulnath"
+          ],
+          "journal": "Genes",
+          "date": "2026-08-04",
+          "doi": "10.3390/genes17080920",
+          "url": "https://openalex.org/W7172416245",
+          "abstract": "Background/Objectives: Clariid catfishes are a cornerstone of Southeast Asian aquaculture, where intensive breeding and interspecific hybridization have significantly decreased genetic diversity. To address the limited understanding of growth-governing molecular determinants, we characterized the genomic architecture and evolutionary dynamics of the myogenic factor 5 (Myf5) gene, a master regulator of myogenesis, in 511 individuals from 17 catfish populations in Thailand. Methods: A total of 511 individuals representing 17 catfish populations were analyzed. A 334-bp fragment of exon 1 of the Myf5 gene was sequenced using Illumina short-read technology. Genetic diversity indices were calculated to evaluate sequence variation, population structure, and selective constraints acting on the locus. Results: Sequence analysis of a 334-bp segment of exon 1 using Illumina short-read technology identified 17 haplotypes and 92 variable sites, which revealed moderate allelic richness despite low overall nucleotide diversity (π ≈ 0.008). Evolutionary analyses indicated that the Myf5 locus is governed by stringent purifying selection (ω = 0.063), wherein site-specific constraints preserve the stability of the α-helix folding architecture, which is essential for myogenic regulation. Population genetic analyses revealed substantial differentiation among taxa (56% among-population variation), while Bayesian clustering successfully resolved a hierarchical structure (K = 2) that distinguished Clarias gariepinus, Clarias macrocephalus, and Clarias batrachus. These findings demonstrate that species-specific Myf5 haplotypes serve as diagnostic markers for identifying parental species and assisting in the identification of F1 hybrid stocks. Conclusions: Overall, this study provides the molecular markers for species identification, broodstock authentication, hybrid detection, and sustainable genetic management of Thai Clariid resources, which are critical for balancing production efficiency with the conservation of native biodiversity in Southeast Asia.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fgene.2026.1865980",
+          "title": "From markers to mechanisms: a comprehensive review of major genes and quantitative trait loci shaping the modern sheep (Ovis aries)",
+          "authors": [
+            "Mostafa Ghaderi-Zefrehei",
+            "Effat Nasre Esfahani",
+            "Hassan Amini Pozveh",
+            "Mohammadreza Hashemi",
+            "Parisa Dolati",
+            "S. Zakizadeh",
+            "Maryam Montazeri",
+            "Mustafa Muhaghegh Dolatabady",
+            "Ikhide G. Imumorin",
+            "Mohammad Hossein Banabazi"
+          ],
+          "journal": "Frontiers in Genetics",
+          "date": "2026-08-04",
+          "doi": "10.3389/fgene.2026.1865980",
+          "url": "https://openalex.org/W7172441807",
+          "abstract": "One of the most important agricultural industries in the world is sheep ( Ovis aries ), considering essential resources such as meat, milk, and wool. Genetic and genomics innovations have significantly improved the efficiency and sustainability of sheep production, which requires a thorough knowledge of the genetic basis of economically relevant traits that are controlled. This is a comprehensive review of the historical development of sheep genetics, from basic stages in the use of microsatellite markers in linkage mapping to the current environment of high-throughput genotyping methods, whole-genome sequencing, and GS (Genomic Selection), which collectively form the basis of contemporary improvement programs. The review is organized by major trait categories, which include growth and body composition, reproduction and fertility, wool quality, and disease resistance. The major genes and QTL (Quantitative trait loci) of each category are defined and described, as well as their biological roles, molecular mechanisms, and their usage in modern breeding solutions are discussed. The most important methodologies that enable these discoveries are elucidated, including linkage analysis, GWAS (Genome-wide association studies), RNA-sequencing (RNA-Seq), and newly emerging multi-omics approaches. Comparative studies also show that there are conserved genetic processes and structures in various sheep breeds and other livestock species, specifically cattle, which indicates species-specific and common regulatory pathways. Rather than claiming to be an exhaustive historical record, this narrative review synthesizes major advances in sheep genetic mapping, functional genomics, and GS relevant to economically important traits. By critically evaluating the strength of evidence, mapping resolution, and practical breeding applications, this work aims to provide researchers, breeders, and students with a balanced, evidence-based resource to guide future genomic improvements in sustainable sheep production.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.12657/978-83-7986-598-7-33",
+          "title": "Biological Aspects of Human Migration and Mobility; Recent Findings",
+          "authors": [
+            "Monika Krzyżanowska",
+            "C. G. N. Mascie‐Taylor"
+          ],
+          "journal": "Bogucki Wydawnictwo Naukowe eBooks",
+          "date": "2026-08-04",
+          "doi": "10.12657/978-83-7986-598-7-33",
+          "url": "https://openalex.org/W7172434276",
+          "abstract": "This paper builds on previous reviews on the relationship between biological aspects of migration in showing that geographical migration and social mobility impact on nutrition, health, including mental health and depression, personality traits, physical attractiveness, obesity and gene flow.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s10750-026-06285-x",
+          "title": "Macroplastics as artificial substrates for macroinvertebrates in four subtropical river systems in the Eastern Cape, South Africa",
+          "authors": [
+            "Andrew Ali",
+            "Chika Felicitas Nnadozie",
+            "Frank Chukwuzuoke Akamagwuna",
+            "Victoria I. Chukwuemeka",
+            "Unique N. Keke",
+            "Oghenekaro Nelson Odume"
+          ],
+          "journal": "Hydrobiologia",
+          "date": "2026-08-04",
+          "doi": "10.1007/s10750-026-06285-x",
+          "url": "https://openalex.org/W7172429191",
+          "abstract": "Abstract The ecological implications of macroplastic accumulation in rivers, particularly their role as artificial substrates for aquatic organisms, remain poorly understood, especially in the Afrotropical streams. We investigated how macroinvertebrates colonise macroplastic substrates relative to natural substrates in four minimally disturbed headwater stream sites in the Eastern Cape, South Africa. Experimental substrate groups, including NS (100% natural substrate), NP (1:1 mix of natural and plastic substrates), and PD (100% plastic substrate), were deployed for 180 days. Macroinvertebrates colonised macroplastics and natural substrates, and overall community structure did not differ significantly amongst the substrate groups. However, the natural substrate supported higher taxonomic richness (41) than the macroplastic substrate (33). Temporal variation strongly influenced macroinvertebrate community assemblage, with colonisation significantly increasing over time, across all substrate groups. Taxon-specific preferences were also evident: macroinvertebrate taxa such as Glossosomatidae, Psephenidae, and Veliidae showed positive associations with plastic substrates, whereas Libellulidae, Tipulidae, and Tabanidae preferred natural substrates. These findings suggest that macroplastics serve as suitable artificial substrates for aquatic macroinvertebrates, but their ecological importance varies amongst taxa. Natural substrates still supported a higher number of taxa, though not statistically significant, underscoring the importance of preserving naturally occurring substrates as key habitats for freshwater biodiversity.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/ani16152406",
+          "title": "Association of MAX Copy Number Variation with Morphometric Traits in Chinese Cattle",
+          "authors": [
+            "Shiyi Lv",
+            "Boyu Li",
+            "Suyun Fan",
+            "Xiangnan Wang",
+            "Nan Liu",
+            "Xiukai Cao",
+            "Ping Qian",
+            "Jie Cheng"
+          ],
+          "journal": "Animals",
+          "date": "2026-08-04",
+          "doi": "10.3390/ani16152406",
+          "url": "https://openalex.org/W7172451514",
+          "abstract": "Copy number variation (CNV) is a major class of genomic structural variation that can shape economically important traits by altering gene dosage and gene expression. MAX (MYC-associated factor X), a core component of the MYC-MAX-MXD1 transcriptional regulatory network, is critically involved in cell proliferation, differentiation, and development. However, the relationship between MAX CNVs and morphometric traits in cattle remains largely unknown. Here, we genotyped MAX CNVs by quantitative real-time PCR (qPCR) in 572 Chinese cattle from five breeds, including Qinchuan (QC), Ji’an (JA), Jinnan (JN), Nanyang (NY), and Xianan (XN) cattle, and evaluated the association of MAX CNVs with morphometric traits. MAX CNVs exhibited distinct breed-specific distribution patterns: the gain type predominated in QC, the loss type predominated in JN, NY, and XN, whereas JA showed a relatively balanced distribution across the three CNV types. Based on raw p values, MAX CNVs showed a nominal association with chest girth in JN cattle and nominal associations with chest girth and hucklebone width in NY cattle (p &lt; 0.05). Individuals with the medium type showed higher least-squares means for the nominally associated traits than those with the loss or gain types. MAX CNVs explained 5.9% of the phenotypic variance in chest girth in JN cattle and 13.6% and 12.2% of the phenotypic variance in chest girth and hucklebone width in NY cattle, respectively. These results suggest that MAX CNVs may represent a breed-specific candidate locus related to morphometric traits in Chinese cattle. However, because no formal multiple-testing correction was applied and this study did not include independent population validation or functional validation, further studies are needed before considering any potential application in marker-assisted selection.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1309,6 +1646,23 @@
           "doi": "10.5772/intechopen.1014969",
           "url": "https://openalex.org/W7172257610",
           "abstract": "Nicotinamide (vitamin B3) is sourced from milk and meat, and a deficiency causes pellagra, a multisystem condition causing cognitive impairment and premature death. Pellagrins were known as the butterfly caste in the American epidemic around 1900. Pellagra had been described much earlier by Casal in 1735 after observations on Italians on very poor maize based and low meat diets. Some blamed infection from faulty maize but other Europeans blamed diet and noted an association with TB. Americans however were impressed by a genetic cause contributing to eugenic thinking until Goldberger pointed out the dietary link soon after shown to be due to nicotinamide and tryptophan deficiency. The butterfly caste was shown to be treatable. Subclinical pellagra is never comprehensively screened for, so it is a testable hypothesis that other caste, class, gender, and ethno-racial systems and frictions, whether within or between nations, are metabolic and curable imbalances. The first natural anti-TB antibiotic was nicotinamide and the first commercial antibiotics such as Isoniazid were nicotinamide analogues so it is no mystery that TB incidence falls drastically with meat transitions such as in the UK 1850-1930 before there were any drugs or BCG vaccination and replaced by increased longevity but more auto-immune and inflammatory disease. A reduction in high meat intake variances that developed over the last 10,000 years but worsened during colonial and capitalist times, may be the highest and cheapest common factor required to hasten epidemiological, demographic, and economic transitions, reducing the risk of (civil) wars, migration stresses, and zoonotic pandemics.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.31943/agrowiralodra.v9i2.176",
+          "title": "Effects Of Photosynthetic Bacteria Fertilizer and Push-Pull System On Growth And Yield Of Maize (Zea mays)",
+          "authors": [
+            "Victor Bintang Panunggul Panunggul",
+            "Niken Hapsari Arimurti Susanto",
+            "Ayu Sitanini",
+            "Zaenal Abidin"
+          ],
+          "journal": "Agro Wiralodra",
+          "date": "2026-07-31",
+          "doi": "10.31943/agrowiralodra.v9i2.176",
+          "url": "https://openalex.org/W7172425898",
+          "abstract": "Marginal soils are characterized by low nutrient availability, which adversely affects crop productivity. The incorporation of organic materials and cultivation techniques plays an important role in maintaining soil health and crop yield. This study aimed to evaluate the effects of photosynthetic bacterial fertilizers and the push-pull system cultivation technique. The research was conducted in Banjaran Village, Purbalingga Regency, utilizing a completely randomized block design. Treatments tested included S0 (control), S1 (50 mL/2L), and S2 (100 mL/2L), as well as P0 (control), P1 (lemongrass), and P2 (peanuts). Each treatment was replicated three times and analyzed using ANOVA, with Duncan's Multiple Range Test (DMRT) (α=5%) applied for significant differences. The observed variables included fresh plant weight, leaf area, fresh root weight, age of male flowers, and chlorophyll a levels. The results indicate that the application of photosynthetic bacteria significantly affects the fresh weight of the plants and the age of male flowers. However, there is no significant effect on leaf area, fresh root weight, and chlorophyll a levels. The push-pull system cultivation technique significantly affects chlorophyll a levels, although no significant differences were found in fresh plant weight, leaf area, fresh root weight, and age of male flowers.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -2300,8 +2654,8 @@
     }
   },
   "stats": {
-    "total_count": 112,
-    "new_this_week": 83,
+    "total_count": 128,
+    "new_this_week": 75,
     "weekly_trend": [
       {
         "week": "2026-W26",
@@ -2321,11 +2675,11 @@
       },
       {
         "week": "2026-W30",
-        "count": 28
+        "count": 52
       },
       {
         "week": "2026-W31",
-        "count": 74
+        "count": 65
       }
     ]
   }
