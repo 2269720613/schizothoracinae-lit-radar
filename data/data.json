@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:18:01Z",
+  "generated_at": "2026-08-08T06:55:30Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -556,6 +556,67 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1007/s44372-026-00810-x",
+          "title": "Genetic breeding and multi-omics integration for alfalfa improvement from trait discovery to cultivar development",
+          "authors": [
+            "Muhammad Abu Bakar Ghalib",
+            "Ayesha Khawar",
+            "Muhammad Talha Ramzan",
+            "Waqas Mushtaq",
+            "Ziming Wu"
+          ],
+          "journal": "Discover Plants.",
+          "date": "2026-08-06",
+          "doi": "10.1007/s44372-026-00810-x",
+          "url": "https://openalex.org/W7197023300",
+          "abstract": "Alfalfa ( Medicago sativa L.) is a globally cultivated perennial forage legume whose productivity is increasingly constrained by climate-induced stresses, yet its autotetraploid genome, self-incompatibility, and 8–12-year breeding cycles impede rapid cultivar development. This review critically evaluates the transition from conventional phenotypic selection to data-driven breeding strategies, examining genomic selection (GS), genome-wide association studies (GWAS), multi-omics integration, CRISPR/Cas9 genome editing, and high-throughput phenotyping (HTP) within the context of polyploid crop improvement. We demonstrate that GS offers the most practical near-term path for polygenic trait improvement, with prediction accuracies enhanced through marker importance weighting and genotype-by-environment covariance modeling, while GWAS and pan-genome analyses, including structural variant incorporation improving GS accuracy, enable high-resolution trait dissection. Multi-omics integration shows greatest utility for oligogenic traits with moderate-to-high heritability, whereas CRISPR/Cas9 has enabled functional validation of key loci but faces transformation bottlenecks and regulatory barriers precluding commercial deployment. HTP platforms coupled with machine learning provide scalable phenotyping, though standardization gaps and infrastructure costs persist. We propose an integrated digital breeding pipeline connecting trait discovery through cultivar deployment, supported by community reference resources and actionable breeding recommendations including rapid-cycle GS and sparse testing designs. This framework positions alfalfa breeding for systematic translation of molecular discovery into climate-resilient, high-yielding cultivars.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/hr/uhag319",
+          "title": "From genome to gene module: decoding the BsAlfin2-BsTT2 regulatory network controlling low temperature-induced anthocyanin biosynthesis in <i>Begonia semperflorens</i>",
+          "authors": [
+            "Lingyu Song",
+            "Zhirou Liu",
+            "Yixue Zhang",
+            "Puyu Ren",
+            "Fei Li",
+            "Qirui Wang",
+            "Yonghua Li",
+            "Fude Shang",
+            "Kaiming Zhang"
+          ],
+          "journal": "Horticulture Research",
+          "date": "2026-08-06",
+          "doi": "10.1093/hr/uhag319",
+          "url": "https://openalex.org/W7172540530",
+          "abstract": "Abstract Begonia semperflorens is an important ornamental plant worldwide, but its practical application is severely limited by low temperature sensitivity. However, the molecular regulatory mechanisms underlying low temperature-induced anthocyanin biosynthesis remain unclear. In this study, we assembled a high-quality chromosome-level B. semperflorens genome. Through genomic and MYB gene family analysis, we identified a key transcription factor BsTT2, which directly binds to the BsDFR promoter and enhances its activity, thereby driving anthocyanin accumulation in B. semperflorens. Furthermore, using BsTT2 as bait, we identified its interacting protein BsAlfin2. Under low temperature-induced reactive oxygen species (ROS) signaling, BsAlfin2 undergoes nuclear translocation and forms a complex with BsTT2, synergistically enhancing the activation of the BsDFR promoter and significantly improving anthocyanin production efficiency. Based on these results, we propose a previously uncharacterized BsAlfin2/BsTT2-BsDFR regulatory module, which reveals a molecular links low-temperature ROS signaling to anthocyanin biosynthesis in B. semperflorens. In summary, this study not only provides chromosome-level genomic resources for B. semperflorens research but also elucidates a key molecular module in low temperature-induced anthocyanin biosynthesis regulatory pathway, laying a theoretical and data foundation for future studies on leaf color improvement and stress resistance breeding in Begonia.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s10123-026-00875-4",
+          "title": "Diurnal dynamics of maize gene expression is associated with phyllosphere microbiome composition",
+          "authors": [
+            "Renato Santos",
+            "Kelly Hidalgo",
+            "Jorge Mario Muñoz‐Pérez",
+            "Daniel Laspisa",
+            "Chenxin Li",
+            "Lucas William Mendes",
+            "Diego Mauricio Riaño‐Pachón",
+            "Jason G. Wallace"
+          ],
+          "journal": "International Microbiology",
+          "date": "2026-08-06",
+          "doi": "10.1007/s10123-026-00875-4",
+          "url": "https://openalex.org/W7172541110",
+          "abstract": "Bacterial communities play important roles in the plant phyllosphere. Both microbial communities and their hosts exhibit endogenous circadian rhythms while simultaneously responding to environmental changes across the diurnal cycle. However, the interaction between the host and microbiome is still poorly understood. Here, we exploit paired sequencing data of host transcriptome and microbiome derived from diverse maize genotypes in field conditions and under two contrasting diurnal periods. Expression patterns of known maize circadian clock genes were consistent with the expected sampling phases. Groups of co-expressed genes that responded to diurnal periods were associated with nucleic acid-binding, heat stress responses, and photosynthesis. Microbiome analysis revealed only modest differences in alpha diversity between midday and midnight samples. However, beta diversity indicated a significant shift in community composition. Co-occurrence network analysis identified keystone taxa specific to each time point, suggesting time-dependent ecological roles within the phyllosphere microbiome. Cross-correlation analyses between host gene expression and bacterial taxon abundance revealed a greater number of host-microbe associations during the night. Several canonical circadian clock genes significantly correlated with microbial taxa. Our findings provide initial evidence for diurnal associations between host gene expression and leaf-associated bacteriome, suggesting that maize diurnal transcriptional dynamics, including the activity of circadian clock genes, may contribute to shaping the composition and functional potential of the phyllosphere microbiome.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1038/s41597-026-08016-2",
           "title": "A gap-free, telomere-to-telomere chromosome-scale genome assembly of the mangrove red snapper, Lutjanus argentimaculatus",
           "authors": [
@@ -584,6 +645,165 @@
           "doi": "10.3389/fpls.2026.1867181",
           "url": "https://openalex.org/W7172549630",
           "abstract": "This study investigated the evolutionary relationships and molecular characteristics of selected genes in wheat ( Triticum aestivum subsp .) using phylogenetic reconstruction and motif analysis. A phylogenetic tree was constructed using the Maximum Likelihood method, and conserved motif patterns were identified using ClustalW alignment and R-based analyses. The detection of a shared conserved motif across genes G3 to G11 at the same position suggests functional conservation, shared regulatory roles, or evolutionary constraint. Highly significant motifs identified in Gen1 and Gen2 indicate potential functional importance, possibly corresponding to active or binding sites. Phylogenetic analysis grouped the genes into two main clusters; a strongly supported monophyletic clade (Gen1, Gen10) suggests conserved functional roles, whereas weaker support among Gen13–Gen18 limits resolution of deeper evolutionary relationships. Sequence logo analysis revealed conserved regions between positions 107 and 301, particularly at residues P, L, R, F, G, and K, while positions 200–260 exhibited low conservation, indicating potential functional divergence. Structural prediction using AlphaFold2 revealed a canonical ABC transporter fold with high-confidence nucleotide-binding domains and a membrane-spanning helical bundle containing conserved catalytic residues, supporting an ATP-dependent transport function in wheat. Overall, these findings provide insights into the evolutionary history, structural conservation, and potential functional roles of these genes in wheat.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/biology15151299",
+          "title": "Miocene Evolutionary History Shaped the Phylogeography of Willow Species (Salix L.) in the European Alps",
+          "authors": [
+            "Loïc Pittet",
+            "Piotr Kosiński",
+            "Natascha D. Wagner",
+            "Elvira Hörandl"
+          ],
+          "journal": "Biology",
+          "date": "2026-08-05",
+          "doi": "10.3390/biology15151299",
+          "url": "https://openalex.org/W7172493293",
+          "abstract": "In the European Alps, plant species have persisted through major geological and climatic changes, leaving distinct genetic signatures of divergence. While these patterns are often attributed to Pleistocene glacial refugia, they may also reflect older, pre-Quaternary events. In mountain systems, lineage-specific ecological divergence, recurrent hybridization, and polyploidization can further complicate interpretations of genetic structure. Here, we combined RAD sequencing phylogenomic, demographic modelling, and ecological analyses to determine whether genetic variation in ten alpine willows (Salix spp.) reflects pre-glacial divergence or glacial dynamics, and to assess the role of extant environmental differentiation. Across all species, genetic data revealed consistent East–West structure. Demographic analyses indicate that lineage divergences predate Quaternary glaciations by several million years and are best explained by ancient founder events followed by periods of secondary contact. Ecological niche analyses identified differences in climatic and edaphic preferences, suggesting ecological divergence as an additional driver of lineage differentiation. Together, these findings demonstrate that the persistence of spatially differentiated yet incompletely diverged Salix lineages in the Alps was likely shaped by the combined effects of pre-Quaternary divergence, ecological selection, and recurrent gene flow, highlighting the importance of integrating ecological processes to understand evolutionary responses to climatic oscillations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.07.30.741870",
+          "title": "A Telomere-to-telomere genome of the hibernating fat-tailed dwarf lemur ( <i>Cheirogaleus medius</i> )",
+          "authors": [
+            "Ana M. Breit",
+            "Rafaela S. C. Takeshita",
+            "Erin Ehmke",
+            "Carrie Walls",
+            "Charles Billington",
+            "Peter Larsen",
+            "Adam McLain",
+            "Christopher Faulk"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-05",
+          "doi": "10.64898/2026.07.30.741870",
+          "url": "https://openalex.org/W7172531106",
+          "abstract": "Madagascars dwarf lemurs (genus Cheirogaleus ) are the only obligate-hibernating primates and closest relative to humans capable of hibernation. Endemic to the increasingly fragmented dry forests of Madagascar, the fat tailed dwarf lemur ( Cheirogaleus medius ) represents a unique model for understanding primate physiology and tropical hibernation. Here we present FatTail1, a highly contiguous diploid genome assembly generated from a male C. medius at the Duke Lemur Center using Oxford Nanopore Technologies PromethION sequencing. The assembly spans 2.3 Gb, with an N50 of 103Mb, L50 of 10, and a BUSCO completeness score of over 99%. In addition to a complete mitogenome, we generated allele-specific DNA methylation profiles and annotated 23,925 genes using NCBIs EGAPX. FatTail1 exceeds the gap-free contiguity of previously published strepsirrhine genomes, representing the first telomere-to-telomere genome of a Strepsirrhine primate, and providing a foundation for future studies of primate hibernation, epigenetic regulation, and conservation genomics.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s40104-026-01473-0",
+          "title": "Integrating landscape genomics and machine learning to analyze the genetic structure and specific molecular markers of Chinese dairy goats (Capra hircus)",
+          "authors": [
+            "Jinke Xiong",
+            "Mingyu Shang",
+            "Jingjing Bao",
+            "Tianyi Liu",
+            "Peifu Yang",
+            "Xintian Sun",
+            "Yuting Jiang",
+            "Li Zhang"
+          ],
+          "journal": "Journal of Animal Science and Biotechnology/Journal of animal science and biotechnology",
+          "date": "2026-08-05",
+          "doi": "10.1186/s40104-026-01473-0",
+          "url": "https://openalex.org/W7172503577",
+          "abstract": "BACKGROUND: During long-term artificial selection, China has developed indigenous dairy goat populations with breed-specific traits and environmental adaptability. However, the genetic relationships and genomic characteristics of these populations remain insufficiently studied. RESULTS: We analyzed 270 whole-genome sequences from 16 goat breeds, including eight Chinese dairy breeds, four introduced dairy breeds, and four other breeds. Population structure analysis revealed significant genetic differentiation among Chinese, European, and African dairy goats. Different dairy goat breeds in China formed geographically distinct subclusters, and multiple gene flow events with introduced breeds were detected. Compared with European and African populations, Chinese dairy goats exhibited higher genetic diversity, lower genomic inbreeding levels, and faster linkage disequilibrium decay. Among five machine learning algorithms evaluated across 10 repeated validations, k-nearest neighbors (KNN) showed the best performance (accuracy = 0.981, AUC = 0.991), and a minimal 134-SNP panel was selected for accurate classification of Chinese dairy goat breeds. Genome-environment association analyses identified candidate genes associated with energy and lipid metabolism, stress response, reproduction, and immune function, with a missense variant in HDAC10 (chr5:118557145 A > G) showing significant differentiation among Chinese dairy goat populations from different regions. Selection signature and genome-wide association analyses identified candidate genes associated with horn type and coat color, including two missense mutations in ERG (chr1:149921788 C > G) and MITF (chr22:31686241 T > C). CONCLUSIONS: These findings systematically reveal the genetic structure and genomic characteristics of Chinese dairy goats, providing an important scientific basis for genetic improvement, breed identification, and the conservation of dairy goat genetic resources.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41564-026-02420-5",
+          "title": "Genomic surveillance reveals co-occurrence of Plasmodium falciparum drug resistance variants across diverse transmission settings in Ethiopia",
+          "authors": [
+            "Alemayehu Letebo",
+            "Leen N. Vanheer",
+            "Mengst Engdaw",
+            "Legesse Alamerie Ejigu",
+            "Dawit Hailu Alemayehu",
+            "Jimma Dinsa Deressa",
+            "Bethlehem Adnew",
+            "Abaysew Ayele",
+            "Migbaru Keffale Bezabih",
+            "Mulugeta Demisse",
+            "Tamrayehu Seyoum",
+            "Meklit Shiferaw",
+            "Heven Sime",
+            "Atsbeha Gebreegziabxier Weldemariam",
+            "Amanuel Shimelash",
+            "Elias B. Tafa",
+            "Wakweya Chali",
+            "Lina Alemayehu",
+            "Fikregabrail Aberra Kassa",
+            "Ayalew Jejaw Zeleke",
+            "Tajudin Abdurhaman Hamza",
+            "Abel Beliyu Tamirat",
+            "Tadesse Misganaw",
+            "Alayu Bogale",
+            "Zufan Yiheyis Abriham",
+            "Yasin Nasir",
+            "Gutema Jebessa",
+            "Metmiku Yohannes",
+            "Betelhem Akililu Kebede",
+            "Matiwos Kidane Ayele",
+            "Melat Abdo",
+            "Getinet Habtamu",
+            "Addisu Gizat",
+            "Jody Phelan",
+            "Bryce Matlock",
+            "David A. Fidock",
+            "Susana Campino",
+            "Ashenafi Assefa",
+            "Cristian Koepfli",
+            "Fekadu Massebo",
+            "Fitsum G. Tadesse"
+          ],
+          "journal": "Nature Microbiology",
+          "date": "2026-08-05",
+          "doi": "10.1038/s41564-026-02420-5",
+          "url": "https://openalex.org/W7172534540",
+          "abstract": "The emergence of antimalarial drug resistance threatens malaria control and elimination efforts in Africa. Ethiopia, once a success story in case reduction, is now experiencing a resurgence. Here we examine key drug resistance genes (Pfmdr1, Pfcrt, Pfk13, Pfdhfr and Pfdhps) and mitochondrial genomes from 605 Plasmodium falciparum isolates collected across 15 districts in Ethiopia with varying transmission intensity and Plasmodium vivax co-endemicity. Although chloroquine was withdrawn for P. falciparum long ago, it remains the first-line treatment for P. vivax; this overlapping use may shape selection pressure in co-endemic settings that influences resistance markers to artemether-lumefantrine, the current first-line therapy for P. falciparum. A dominant PfMDR1 NFSND haplotype, associated with reduced lumefantrine susceptibility, was identified alongside near fixation of the chloroquine-resistant PfCRT CVIET haplotype in specific areas. Concerningly, PfK13 variants associated with partial artemisinin resistance, R622I (10%), A675V (1.7%) and P441L (1.1%), were expanding. Multilevel models demonstrated robust, independent associations of R622I with PfCRT CVIET and PfDHFR AICNI, while ecological predictors were weaker and less consistent. These findings highlight genetic co-occurrence of Pfcrt and Pfk13 mutations in P. vivax-P. falciparum co-endemic settings and can inform antimalarial policy in Ethiopia.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10421458/v1",
+          "title": "Style Length in Wild Rhododendron: From Cryptic Genetic Variation to Efficient Genome Prediction Strategy",
+          "authors": [
+            "Qirui Liu",
+            "Tingting Hang",
+            "Qiannan Ye",
+            "Zhenzhen Wu",
+            "Chuan Dong",
+            "Lu Zhang",
+            "Ruiyuan Li",
+            "Yupeng Li",
+            "Xiaopei Wu",
+            "Xiaojuan Liu",
+            "Chengjun Zhang",
+            "Yongpeng Ma",
+            "Xiuping Chen"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-05",
+          "doi": "10.21203/rs.3.rs-10421458/v1",
+          "url": "https://openalex.org/W7172514937",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1080/02705060.2026.2706853",
+          "title": "Mitochondrial DNA reveals genetic diversity and population structure of Reba carp ( <i>Cirrhinus reba</i> ) across rivers and haors of Bangladesh",
+          "authors": [
+            "Animesh Roy",
+            "Kazi Ahsan Habib",
+            "Md. Shakhawate Hossain",
+            "Md. Nazmus Sakib",
+            "Mohammad Shafiqul Alam",
+            "Md. Shahanoor Alam",
+            "Sadia Afrin Kamal"
+          ],
+          "journal": "Journal of Freshwater Ecology",
+          "date": "2026-08-05",
+          "doi": "10.1080/02705060.2026.2706853",
+          "url": "https://openalex.org/W7172538166",
+          "abstract": "Reba carp, Cirrhinus reba, is an economically important endemic fish species in Bangladesh. A 758 bp fragment of the mitochondrial DNA control region (mtDNA) was analyzed to assess the genetic diversity, intraspecific genetic structure, and historical demography of C. reba from three wild populations in Bangladesh. Individual samples were collected from two rivers (the Padma and Karatoya) and one haor (Dingapota) basin in Bangladesh. A total of 38 haplotypes were detected among the 89 individuals analyzed, which included 56 substitutions. Analysis revealed that the haplotype diversity (h) of the Padma River population was high (0.961 ± 0.026), followed by the Karatoya River (0.749 ± 0.055) and Dingapota Haor (0.753 ± 0.059) populations. On the contrary, nucleotide diversity (π) was high in the Karatoya population (0.007 ± 0.004), followed by the Padma River (0.005 ± 0.003) and Dingapota Haor (0.003 ± 0.002) populations. Pairwise F ST comparisons and AMOVA results indicate that the Karatoya population was significantly different from the Padma and Dingapota Haor populations. However, a statistically insignificant difference was observed between the Padma River and Dingapota Haor populations. The minimum spanning tree showed two different clusters of haplotypes. Phylogenetic analysis also revealed two distinct clades, one of which was composed of haplotypes from Padma River and Dingapota Haor, and the other from the Karatoya River. Demographic analysis indicated that the Padma River and Dingapota Haor populations underwent recent population expansion, as evidenced by significantly negative Tajima's D and Fu's Fs values and mismatch distribution analyses. In contrast, the Karatoya River population exhibited signs of weaker expansion, indicated by a significant negative Tajima's D but a positive, non-significant Fu's Fs value. Evolutionary factors, species biology, and hydrological characteristics of water bodies can all contribute to the formation of a structured population. Present findings can provide baseline information for initiating management strategies for this commercially important species in Bangladesh.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -860,6 +1080,26 @@
           "doi": "10.3390/ani16152406",
           "url": "https://openalex.org/W7172451514",
           "abstract": "Copy number variation (CNV) is a major class of genomic structural variation that can shape economically important traits by altering gene dosage and gene expression. MAX (MYC-associated factor X), a core component of the MYC-MAX-MXD1 transcriptional regulatory network, is critically involved in cell proliferation, differentiation, and development. However, the relationship between MAX CNVs and morphometric traits in cattle remains largely unknown. Here, we genotyped MAX CNVs by quantitative real-time PCR (qPCR) in 572 Chinese cattle from five breeds, including Qinchuan (QC), Ji’an (JA), Jinnan (JN), Nanyang (NY), and Xianan (XN) cattle, and evaluated the association of MAX CNVs with morphometric traits. MAX CNVs exhibited distinct breed-specific distribution patterns: the gain type predominated in QC, the loss type predominated in JN, NY, and XN, whereas JA showed a relatively balanced distribution across the three CNV types. Based on raw p values, MAX CNVs showed a nominal association with chest girth in JN cattle and nominal associations with chest girth and hucklebone width in NY cattle (p &lt; 0.05). Individuals with the medium type showed higher least-squares means for the nominally associated traits than those with the loss or gain types. MAX CNVs explained 5.9% of the phenotypic variance in chest girth in JN cattle and 13.6% and 12.2% of the phenotypic variance in chest girth and hucklebone width in NY cattle, respectively. These results suggest that MAX CNVs may represent a breed-specific candidate locus related to morphometric traits in Chinese cattle. However, because no formal multiple-testing correction was applied and this study did not include independent population validation or functional validation, further studies are needed before considering any potential application in marker-assisted selection.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/aob/mcag242",
+          "title": "Temporal dynamics of incomplete lineage sorting, introgression and divergence in eucalypts distributed across an expansive and ancient landscape",
+          "authors": [
+            "Harvey K. Orel",
+            "Rachael M. Fowler",
+            "Todd G B McLay",
+            "David J. Cantrill",
+            "Donald C Franklin",
+            "Daniel J. Murphy",
+            "Michael J. Bayly"
+          ],
+          "journal": "Annals of Botany",
+          "date": "2026-08-04",
+          "doi": "10.1093/aob/mcag242",
+          "url": "https://openalex.org/W7172525253",
+          "abstract": "BACKGROUND AND AIMS: The eucalypt clade composed of Angophora, Blakella and Corymbia (the 'bloodwood eucalypts') includes over 110 species and dominates the vast savannahs, open forests and woodlands of northern Australia. Relationships within this clade have been difficult to decipher despite significant previous investigation. METHODS: Using target-capture data from a eucalypt-specific bait set (568 nuclear genes) and whole plastome sequences, we conducted a phylogenomic study of Angophora, Blakella and Corymbia (sampling 97 species with 168 accessions) employing tree, network, divergence dating, and coalescent simulation analyses to investigate evolutionary relationships and patterns of phylogenomic discordance. KEY RESULTS: Phylogenetic relationships in Angophora, Blakella and Corymbia are affected by extensive phylogenomic discordance, attributed to persistently high levels of incomplete lineage sorting through time, and frequent introgression concentrated at particular branches. Branches affected by introgression were consistently co-affected by incomplete lineage sorting, and nuclear genes with higher recombination rates more frequently supported discordant topologies affected by incomplete lineage sorting. Additionally, a mixture of incomplete lineage sorting, plastid capture and sex-biased dispersal are likely responsible for substantial cytonuclear discordance. Based on molecular divergence dating analyses, diversification of lineages within genera was estimated to have commenced during the late Oligocene. CONCLUSIONS: We provide a robust framework phylogeny for Angophora, Blakella and Corymbia, and further support for the position of Blakella sister to Angophora and Corymbia .We attribute the difficulty in resolving this trichotomy to incomplete lineage sorting during divergence, with subsequent hybridisation between Blakella and Corymbia. Patterns of high discordance, incomplete lineage sorting and introgression across the phylogeny indicate that evolution at the genomic level does not follow a single, bifurcating species tree. Ultimately, our results demonstrate the intrinsic entwinement of diversification and discordance-inducing processes in the evolutionary history of eucalypts and highlight the group as an example of a phylogenomic mosaic.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -2654,8 +2894,8 @@
     }
   },
   "stats": {
-    "total_count": 128,
-    "new_this_week": 75,
+    "total_count": 138,
+    "new_this_week": 66,
     "weekly_trend": [
       {
         "week": "2026-W26",
@@ -2675,11 +2915,11 @@
       },
       {
         "week": "2026-W30",
-        "count": 52
+        "count": 71
       },
       {
         "week": "2026-W31",
-        "count": 65
+        "count": 56
       }
     ]
   }
