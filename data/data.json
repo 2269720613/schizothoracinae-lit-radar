@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:55:30Z",
+  "generated_at": "2026-08-09T06:58:41Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -126,6 +126,44 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.aqrep.2026.103785",
+          "title": "Serum biochemical reference intervals in farmed greater amberjack (Seriola dumerili): Variation across production periods",
+          "authors": [
+            "Josip Barišić",
+            "Slavica Čolak",
+            "Marija Jurica",
+            "Matko Kolega",
+            "Danijel Mejdandžić",
+            "Ivan Župan",
+            "Tomislav Šarić"
+          ],
+          "journal": "Aquaculture Reports",
+          "date": "2026-08-07",
+          "doi": "10.1016/j.aqrep.2026.103785",
+          "url": "https://openalex.org/W7197020546",
+          "abstract": "Greater amberjack ( Seriola dumerili ) is an emerging high-value species in Mediterranean aquaculture; however, effective health management is constrained by the lack of species-specific clinical pathology benchmarks. This study established serum biochemical reference intervals (RIs) for clinically healthy, farmed S. dumerili under Adriatic cage-farming conditions and evaluated temperature-associated seasonal variation across three production periods (July, December, and March). Blood samples were collected from clinically healthy fish in each period, and 17 biomarkers representing metabolic substrates, enzymes, electrolytes, and minerals were quantified. The July cohort, corresponding to the optimal growth period, was used to calculate central 95% reference intervals (2.5th–97.5th percentiles). Comparison revealed pronounced physiological modulation across multiple biomarkers. Glucose concentrations were consistently elevated in winter and spring relative to the summer baseline, whereas phosphate levels were markedly reduced. Additional seasonal shifts were observed in enzymatic activity, lipid metabolism, and electrolyte balance, reflecting broad environmental influences on physiological status. These findings demonstrate that biochemical profiles in S. dumerili are strongly temperature-associated and seasonally dependent and highlight the limitations of single-temperature reference intervals. The integration of seasonal-temperature framed RIs provides a robust framework for improving diagnostic interpretation and supporting proactive health management in greater amberjack aquaculture.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/ani16152440",
+          "title": "Altitude-Related Adaptation in Freshwater Snails (Cipangopaludina cathayensis): Insights from Biochemical, Transcriptomic, and Metabolomic Analyses",
+          "authors": [
+            "Yuhan Jiang",
+            "Qigen Liu",
+            "Qing Liu",
+            "Weijun Wu",
+            "Jiamin Sun"
+          ],
+          "journal": "Animals",
+          "date": "2026-08-06",
+          "doi": "10.3390/ani16152440",
+          "url": "https://openalex.org/W7197005820",
+          "abstract": "High-altitude environments expose aquatic organisms to complex environmental challenges, including fluctuations in dissolved oxygen levels, water temperature, and other habitat conditions. The freshwater snail Cipangopaludina cathayensis has limited dispersal ability and is strongly associated with local habitat conditions, making it a suitable species for investigating biological responses to long-term environmental variation. In this study, high-altitude and low-altitude populations of Cipangopaludina cathayensis were compared using biochemical assays, shell elemental composition analysis, transcriptomics, and metabolomics to explore altitude-associated physiological and molecular responses. Environmental monitoring showed that the high-altitude habitat exhibited lower water temperatures, greater thermal variability, and significantly higher dissolved oxygen availability than the low-altitude habitat, indicating distinct environmental conditions between the two populations. The high-altitude population exhibited significantly higher superoxide dismutase (SOD) and pyruvate kinase (PK) activities than the low-altitude population, whereas malondialdehyde (MDA) content and total ATPase (T-ATPase) activity showed no significant differences between populations. Shell microstructure and elemental analyses revealed altitude-associated differences in biomineralization. Transcriptomic analysis identified differentially expressed genes involved in intracellular transport, including KIF10, KIF11, KIF13, KIF17, MYO3, and MYO7A, as well as apoptosis-associated genes, including CASP2, CASP3, and BCL-2. Integrated transcriptomic and metabolomic analyses further highlighted purine metabolism, D-amino acid metabolism, insulin resistance, and alanine, aspartate and glutamate metabolism as shared enriched pathways between the two populations. These findings indicate that Cipangopaludina cathayensis may cope with high-altitude environments through coordinated regulation of antioxidant defense, intracellular transport, apoptosis-associated pathways, and metabolic homeostasis.",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.3390/genes17080920",
@@ -536,6 +574,25 @@
           "source": "PubMed"
         },
         {
+          "id": "10.3389/fpls.2026.1872935",
+          "title": "Overcoming serious incompatibilities resulting from intergeneric hybridisation between Diplotaxis tenuifolia and Brassica oleracea to develop CMS wall-rocket",
+          "authors": [
+            "Thomas Nothnagel",
+            "Barbara Sell",
+            "O. Schrader",
+            "Johannes Wolff",
+            "Bright Enogieru Osatohanmwen",
+            "Holger Budahn"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-07",
+          "doi": "10.3389/fpls.2026.1872935",
+          "url": "https://openalex.org/W7197022666",
+          "abstract": "Alloplasmic male-sterile breeding lines of Diplotaxis tenuifolia were developed by intergeneric hybridisation between cytoplasmic male-sterile cauliflower ( Brassica oleracea L.) and perennial wall-rocket. Amphidiploid filial generation (F 1 ) plants (2 n = 2 x = 20, CD) were obtained by manual crosses and ovary culture. The phenotype of the hybrids was mostly similar to that of the wall-rocket parent. The plants were male-sterile, but absolutely no seed set was achieved after pollination with D. tenuifolia . Amphitetraploid F 1 hybrid plants (4 n = 4 x = 40, CCDD) obtained by colchicine treatment were backcrossed seven times with pollen of the Diplotaxis parent to develop alloplasmic diploid (2 n = 2 x = 22, DD) D. tenuifolia lines. The reduction of Brassica chromosomes was recorded by flow cytometry and chromosome counting. Ovary culture was essential up to the Backcross generation 4 (BC 4 generation) because of absent or disturbed seed development. From the BC 5 generation onward, no further embryo rescue was necessary. The developed D . tenuifolia lines are completely stable with regard to their cytoplasmic male sterility (CMS) status. Fertile or partially fertile pollen was observed neither in the F 1 generation nor in any of the subsequent backcross generations (BC 1 to BC 7 ). Male sterility was attributed to both premeiotic (sporophytic) and postmeiotic (pollen-abortive) effects, similar to those observed in the CMS Brassica oleracea parent. Regarding morphological traits and growth dynamics, only variations in the dimensions and dissection of leaves between different cross progenies were observed. The plant phenotype, vigour, and yield potential of the CMS lines (BC 7 ) are comparable to those of the D. tenuifolia parental line. The female fertility has been only moderately restored; however, the proportion of normally shaped seeds per pod is still lower than that of the Diplotaxis control. A significant number of the developed seeds showed disturbed and shrunken embryogenic tissue, which could be visualised and measured in more detail by 3D X-ray CT. The reasons for these developmental abnormalities need to be investigated in further studies. No further incompatibilities were observed between the used CMS-inducing cybrid cytoplasm and the D. tenuifolia genome. Therefore, the used CMS-inducing cybrid cytoplasm has been proven to be a vital source of CMS for D. tenuifolia , and the developed lines are applicable for hybrid breeding programs.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1093/sysbio/syag001",
           "title": "A Genomic Perspective on Cryptic Species Reveals Complex Evolutionary Dynamics in the Gray Zone of the Speciation Continuum.",
           "authors": [
@@ -613,6 +670,234 @@
           "doi": "10.1007/s10123-026-00875-4",
           "url": "https://openalex.org/W7172541110",
           "abstract": "Bacterial communities play important roles in the plant phyllosphere. Both microbial communities and their hosts exhibit endogenous circadian rhythms while simultaneously responding to environmental changes across the diurnal cycle. However, the interaction between the host and microbiome is still poorly understood. Here, we exploit paired sequencing data of host transcriptome and microbiome derived from diverse maize genotypes in field conditions and under two contrasting diurnal periods. Expression patterns of known maize circadian clock genes were consistent with the expected sampling phases. Groups of co-expressed genes that responded to diurnal periods were associated with nucleic acid-binding, heat stress responses, and photosynthesis. Microbiome analysis revealed only modest differences in alpha diversity between midday and midnight samples. However, beta diversity indicated a significant shift in community composition. Co-occurrence network analysis identified keystone taxa specific to each time point, suggesting time-dependent ecological roles within the phyllosphere microbiome. Cross-correlation analyses between host gene expression and bacterial taxon abundance revealed a greater number of host-microbe associations during the night. Several canonical circadian clock genes significantly correlated with microbial taxa. Our findings provide initial evidence for diurnal associations between host gene expression and leaf-associated bacteriome, suggesting that maize diurnal transcriptional dynamics, including the activity of circadian clock genes, may contribute to shaping the composition and functional potential of the phyllosphere microbiome.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1080/07352689.2026.2712196",
+          "title": "Toward multi-omics dissection of fungal disease resistance in oat ( <i>Avena sativa</i> L.): current evidence, knowledge gaps, and a comparative cereal roadmap",
+          "authors": [
+            "Wiktoria Jędrys",
+            "Tomasz Ociepa"
+          ],
+          "journal": "Critical Reviews in Plant Sciences",
+          "date": "2026-08-06",
+          "doi": "10.1080/07352689.2026.2712196",
+          "url": "https://openalex.org/W7196926255",
+          "abstract": "Common oat (Avena sativa L.) is a nutritionally important cereal constrained by fungal pathogens including rusts, powdery mildew, and Fusarium head blight. Unlike wheat and barley, whose defenses are characterized across multiple omics levels, oat resistance research was long hindered by its complex hexaploid genome. Critically, despite expanding genomic resources, no genuine multi-omics integration has yet been achieved for any oat–fungal pathosystem. This review synthesizes oat-specific evidence across individual omics layers, spanning genomic inventories of resistance genes and meta-QTL, transcriptomic reprogramming of defense signaling, and limited proteomic and metabolomic data, and identifies knowledge gaps relative to wheat and barley. Oat-specific defenses, including steroidal saponins and induced avenanthramide phytoalexins, are distinguished from the benzoxazinoid chemistry of wheat. An evidence matrix shows that of six pathosystems surveyed, only Fusarium head blight is characterized at all three post-genomic levels, whereas crown rust, despite over 90 cataloged resistance genes, lacks any proteomic or metabolomic data. Three priorities are identified: (i) genome sequencing of oat-specific pathogens for dual-genome analyses; (ii) proteomic and metabolomic profiling of resistant versus susceptible genotypes; and (iii) adoption of single-cell transcriptomics, spatial metabolomics, and CRISPR/Cas9 validation. The genomic resources now available provide the foundation for genuine multi-omics integration in this crop.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.19103/as.2027.0181.08",
+          "title": "Advances in pre-breeding of apple",
+          "authors": [
+            "Hilde Nybom"
+          ],
+          "journal": "Burleigh Dodds series in agricultural science",
+          "date": "2026-08-06",
+          "doi": "10.19103/as.2027.0181.08",
+          "url": "https://openalex.org/W7196989504",
+          "abstract": "This chapter explores advances in prebreeding of apple. It begins by describing the Malus genus before outlining the cornerstones of pre-breeding. Sections covering germplasm collections, pest and disease resistance and fruit quality trains are also included, followed, finally, by a section detailing climate adaptation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/cells15151427",
+          "title": "Genome-Wide Identification of the GDSL Gene Family and Functional Validation of DfDACX1 in Secondary Wall Synthesis in Dendrocalamus farinosus",
+          "authors": [
+            "Xin Zhao",
+            "Yanwen Zhao",
+            "Mengqiu Chen",
+            "Man Tang",
+            "Zhijian Long",
+            "Gang Xu",
+            "Ying Cao",
+            "Shanglian Hu"
+          ],
+          "journal": "Cells",
+          "date": "2026-08-06",
+          "doi": "10.3390/cells15151427",
+          "url": "https://openalex.org/W7196958695",
+          "abstract": "GDSL esterases/lipases constitute a large and functionally versatile gene family in plants, yet their systematic characterization in bamboo—perennial woody grasses with exceptionally rapid shoot elongation—remains scarce. Here, we performed a genome-wide identification of the GDSL family in allohexaploid Dendrocalamus farinosus and characterized the function of a candidate gene in secondary wall synthesis. A total of 265 DfGDSL genes were identified and classified into nine clades; rice xylan deacetylases BS1 and DARX1 fell within Clade VIII, which harbors 75 members. Chromosomal distribution, exon–intron organization, conserved motifs, and collinearity analyses indicated that whole-genome and tandem duplications drove family expansion, with purifying selection as the predominant evolutionary force. Expression profiling across tissues and shoot developmental stages pinpointed DfGDSL58 as the sole highly expressed OsDARX1 homolog in D. farinosus, showing specific upregulation during rapid elongation (50–400 cm). Its promoter contains auxin-responsive elements, and exogenous NAA treatment significantly induced its expression, with a peak at 6 h. Heterologous overexpression of DfGDSL58 (designated DfDACX1) in tobacco increased plant height and basal diameter while reducing lignin and hemicellulose deposition, xylem width, and transcript levels of xylan synthase (NtIRX9) and lignin biosynthetic genes (NtC4H, NtCOMT, NtCAD), whereas cellulose content and cellulose synthase genes (NtCESA4, NtCESA7) remained largely unchanged. Collectively, these findings demonstrate that DfDACX1 negatively regulates secondary wall thickening and promotes longitudinal growth, likely via modulating xylan deacetylation and downstream lignin biosynthesis. This study presents the first systematic characterization of the GDSL family in D. farinosus and identifies DfDACX1 as a key modulator of the trade-off between cell wall deposition and rapid shoot elongation, offering mechanistic insights into bamboo’s extraordinary growth and a potential target for engineering plant architecture.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/evolut/qpag141",
+          "title": "Recent hybridization burst in diploid-tetraploid <i>Cardamine</i> contact zones in the Apennines: Are allotriploids threatening the persistence of parental species?",
+          "authors": [
+            "Hana Majerová",
+            "Adam Kantor",
+            "Marek Šlenker",
+            "Karol Marhold",
+            "Terezie Mandáková",
+            "Fabio Conti",
+            "Anna Rita Frattaroli",
+            "Judita Zozomová‐Lihová"
+          ],
+          "journal": "Evolution",
+          "date": "2026-08-06",
+          "doi": "10.1093/evolut/qpag141",
+          "url": "https://openalex.org/W7197018322",
+          "abstract": "Differences in ploidy levels represent a significant barrier to interspecific gene flow, but growing evidence from natural and experimental systems suggests that this barrier may not be as strong as commonly believed. In this study, we aimed to examine patterns of interploidy hybridization between two ecologically similar and partially sympatric wetland perennials in the central Apennines: diploid Cardamine apennina and allotetraploid C. amporitana. Our detailed chromosomal, flow cytometric, and genomic (RADseq) analyses revealed a strikingly high frequency of allotriploids across multiple sites, with no evidence of backcrossing, later-generation hybrids, or higher-level allopolyploids. Contrary to expectations, clonal propagation is not the primary mechanism underlying the observed abundance of triploids. Instead, a high hybridization rate with recurrent, bidirectional, and polytopic hybrid formation, together with the presumed longevity of triploid individuals, appears to explain their persistence. Our findings also raise two key issues: the possible triggers of this apparently recent burst of hybridization, and the potential long-term consequences of frequent allotriploid formation for the survival of the parental (sub)endemic species in the Apennines. From a broader perspective, this study underscores the evolutionary significance and dynamics of species contact zones.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-76204-0",
+          "title": "Archaic ancestry inference in imputed ancient human genomes",
+          "authors": [
+            "Marco Rosario Capodiferro",
+            "Léo Planche",
+            "Emily M. Breslin",
+            "Linda Ongaro",
+            "María C. Ávila‐Arcos",
+            "Flora Jay",
+            "Lara M. Cassidy",
+            "Emilia Huerta‐Sánchez"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-06",
+          "doi": "10.1038/s41467-026-76204-0",
+          "url": "https://openalex.org/W4412619853",
+          "abstract": "Abstract When modern humans expanded from Africa into Eurasia, they interbred with archaic hominins such as Neanderthals and Denisovans. This groundbreaking discovery, made in part possible through the genomic analysis of archaic remains, reshaped our understanding of human origins, and opened new research avenues to study the effects and consequences of archaic introgression. While significant progress has been made in identifying and quantifying archaic introgression, most studies have focused on contemporary individual genomic data. As a result, relatively little is known about the evolution of archaic variants within modern human populations shortly after interbreeding occurred. While analysis of ancient DNA from modern humans offers the potential to address this scientific gap, its poor quality has hindered its exploration. However, recent studies have shown that imputation using contemporary reference panels can accurately infer missing genotypes in ancient genomes. Here, we investigate the feasibility of using imputation to improve both global and local archaic ancestry inference in ancient genomes, by downsampling to different low-coverage values and imputing 20 high-coverage (&gt;10X) ancient genomes, representing individuals from diverse temporal and geographical contexts. We tested the reliability of detecting and quantifying archaic introgression using D-statistics and the f4-ratio . We identified consistent results from the imputed and the original ancient genomes, suggesting that genomic estimates to detect and quantify introgression work well in imputed genomes. Regarding Local Ancestry Inference we find that we can identify more introgressed segments in imputed genomes than in non-imputed genomes. Surprisingly, we find that imputation accuracy is even higher in regions of archaic ancestry compared to other regions of the genome, facilitating the detection of introgressed segments in imputed genomes. Imputation also allows detection of Denisovan segments in Siberian and Alaskan individuals. We show that segments identified even at 0.0625X coverage can be used to reconstruct the history of introgressed haplotypes. For example, comparisons with archaic segments in contemporary humans reveal that the oldest individual analyzed, Ust’Ishim, carried segments that are now found exclusively in either European or East Eurasian populations, indicating that these segments co-occurred in a shared ancestral population. By comparing only ancient individuals, we demonstrate that clustering based solely on the identified archaic segments effectively groups individuals into genetic clusters that correspond to populations defined by geography and time. This analysis shows a clear distinction between individuals with Denisovan introgression and those without, as well as a more detailed separation between Mesolithic and Neolithic Europeans, with the latter closely resembling Central Eurasian individuals. Furthermore, despite the small sample size in this study, we are able to reconstruct the origins of genes identified as candidates for adaptive introgression in contemporary populations, such as the BCN2 gene, which is an adaptively introgressed gene identified in contemporary West Eurasians. Additionally, we identify new candidates for adaptive introgression including LEMD2 and MLN in Europe. In this gene-region, imputation helps resolve the introgressed haplotype, which is closest to the Vindija Neanderthal haplotype.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/horticulturae12080982",
+          "title": "Divergent Effects of Distinct SlCRTISO Alleles on Phenolic Content, Fruit Size, and Transcriptomic Profiles in Tangerine Tomatoes",
+          "authors": [
+            "Anran Xu",
+            "Lingxia Zhao"
+          ],
+          "journal": "Horticulturae",
+          "date": "2026-08-06",
+          "doi": "10.3390/horticulturae12080982",
+          "url": "https://openalex.org/W7196929613",
+          "abstract": "Carotenoids are essential nutritional compounds in tomato (Solanum lycopersicum), and mutations in carotenoid biosynthesis genes can alter both fruit color and other quality traits. Carotenoid isomerase (CRTISO) converts prolycopene to all-trans-lycopene; its mutation results in the orange-fruited tangerine mutant characterized by prolycopene accumulation. However, the broader impacts of distinct SlCRTISO mutations on fruit quality traits and agronomic performance remain largely unexplored. Here, we evaluated agronomic traits and nutritional quality in two tangerine mutants carrying distinct SlCRTISO alleles. The yellow/orange-fruited tomato 5 (yft5) mutant, which harbors a single point mutation in SlCRTISO, exhibited lower flavonoids, chlorogenic acid, and prolycopene than the CRISPR/Cas9-mediated knockout mutants, but maintained fruit size and weight comparable to wild type, whereas knockout lines showed severely reduced fruit size, highlighting the potential agronomic advantage of yft5. Pearson correlation analysis revealed negative associations between abscisic acid (ABA) levels and rutin, chlorogenic acid, as well as the prolycopene-to-lycopene ratio during fruit ripening. Transcriptome analysis demonstrated that knockout mutations more profoundly affected primary metabolism than the yft5 point mutation. Notably, 9-cis-epoxycarotenoid dioxygenase 2 (NCED2), a gene involved in ABA biosynthesis, was specifically upregulated in yft5 fruits at the mature green stage (38 days post-anthesis (dpa)), consistent with ABA levels. Quality-related genes including chalcone synthase (CHS), citrate synthase (CS), and invertase (INV) were significantly upregulated in knockout lines during ripening. These findings reveal a trade-off between phenolic content and fruit size in tangerine tomatoes carrying distinct SlCRTISO alleles, positioning yft5 as a valuable genetic resource for breeding high-quality varieties.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/ani16152440",
+          "title": "Altitude-Related Adaptation in Freshwater Snails (Cipangopaludina cathayensis): Insights from Biochemical, Transcriptomic, and Metabolomic Analyses",
+          "authors": [
+            "Yuhan Jiang",
+            "Qigen Liu",
+            "Qing Liu",
+            "Weijun Wu",
+            "Jiamin Sun"
+          ],
+          "journal": "Animals",
+          "date": "2026-08-06",
+          "doi": "10.3390/ani16152440",
+          "url": "https://openalex.org/W7197005820",
+          "abstract": "High-altitude environments expose aquatic organisms to complex environmental challenges, including fluctuations in dissolved oxygen levels, water temperature, and other habitat conditions. The freshwater snail Cipangopaludina cathayensis has limited dispersal ability and is strongly associated with local habitat conditions, making it a suitable species for investigating biological responses to long-term environmental variation. In this study, high-altitude and low-altitude populations of Cipangopaludina cathayensis were compared using biochemical assays, shell elemental composition analysis, transcriptomics, and metabolomics to explore altitude-associated physiological and molecular responses. Environmental monitoring showed that the high-altitude habitat exhibited lower water temperatures, greater thermal variability, and significantly higher dissolved oxygen availability than the low-altitude habitat, indicating distinct environmental conditions between the two populations. The high-altitude population exhibited significantly higher superoxide dismutase (SOD) and pyruvate kinase (PK) activities than the low-altitude population, whereas malondialdehyde (MDA) content and total ATPase (T-ATPase) activity showed no significant differences between populations. Shell microstructure and elemental analyses revealed altitude-associated differences in biomineralization. Transcriptomic analysis identified differentially expressed genes involved in intracellular transport, including KIF10, KIF11, KIF13, KIF17, MYO3, and MYO7A, as well as apoptosis-associated genes, including CASP2, CASP3, and BCL-2. Integrated transcriptomic and metabolomic analyses further highlighted purine metabolism, D-amino acid metabolism, insulin resistance, and alanine, aspartate and glutamate metabolism as shared enriched pathways between the two populations. These findings indicate that Cipangopaludina cathayensis may cope with high-altitude environments through coordinated regulation of antioxidant defense, intracellular transport, apoptosis-associated pathways, and metabolic homeostasis.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/math14152858",
+          "title": "IAOO: An Improved Animated Oat Optimization Algorithm with Adaptive Multi-Strategy Search for UAV Path Planning",
+          "authors": [
+            "Xingxing Zhang",
+            "Cankun Xie",
+            "Shaobo Li"
+          ],
+          "journal": "Mathematics",
+          "date": "2026-08-06",
+          "doi": "10.3390/math14152858",
+          "url": "https://openalex.org/W7196992576",
+          "abstract": "The recently proposed Animated Oat Optimization (AOO) algorithm exhibits competitive search behavior, but its fixed branching rules and limited use of inter-individual information may cause diversity loss and premature stagnation. This study proposes an Improved Animated Oat Optimization algorithm (IAOO) that integrates the original AOO operator, a hybrid DE/rand/1–DE/best/1 operator with a decreasing scale factor, and an elite neighborhood-directed local search within a feedback-driven framework. Strategy probabilities are updated according to normalized successful fitness gains, enabling search effort to adapt to the current optimization state. IAOO was evaluated through 30 independent runs on the CEC2017 (dim = 30/100), CEC2020, and CEC2022 suites and achieved Friedman mean ranks of 1.50, 1.37, 2.70, and 1.83, respectively, achieving competitive Friedman mean ranks among the compared algorithms and demonstrating statistically supported advantages on most benchmark suites. In three-dimensional UAV reference-path planning, IAOO reduced the mean path cost from 406.26 for AOO to 298.94, corresponding to a 26.4% reduction, while the standard deviation decreased from 67.01 to 40.73. Its runtime increased only from 26.99 s to 27.13 s. These results indicate that feedback-based operator cooperation improves solution quality and robustness with limited computational overhead. The current UAV model produces geometrically feasible and kinematically constrained reference paths; full six-degree-of-freedom tracking validation remains future work.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s42003-026-10550-z",
+          "title": "Long-term major histocompatibility complex class I suppression in astronauts and clinical implications",
+          "authors": [
+            "Erik LeRoy",
+            "JangKeun Kim",
+            "Helena Ruland",
+            "Nathan Schanzer",
+            "Anurag Sakharkar",
+            "Lucinda Innes",
+            "Zachary Feinstein",
+            "Daniel Zuniga",
+            "Robert Chen",
+            "Mohith Reddy Arikatla",
+            "Kübra Can",
+            "Brian Crucian",
+            "Michael A. Schmidt",
+            "Christopher E. Mason"
+          ],
+          "journal": "Communications Biology",
+          "date": "2026-08-06",
+          "doi": "10.1038/s42003-026-10550-z",
+          "url": "https://openalex.org/W7196962360",
+          "abstract": "Spaceflight can disrupt astronaut immunity, including sustained downregulation of Major Histocompatibility Complex (MHC) class I genes across missions ranging from the three-day Inspiration4 flight to long-duration International Space Station stays. MHC class I downregulation is a known mechanism of immune evasion in cancer and viral infection, potentially increasing health risks during and after spaceflight. The underlying mechanisms, clinical implications and therapeutic options remain underexplored. This Perspective discusses long-term risks associated with astronaut MHC class I suppression, proposes future research directions and outlines therapeutic approaches with broader relevance to related health challenges on Earth. Spaceflight is associated with persistent MHC class I suppression in astronauts, a mechanism linked to immune evasion in cancer and viral infection. This Perspective discusses risks, mechanisms and countermeasures.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111508.3.sa2",
+          "title": "Reviewer #2 (Public review): The cistrome response to hypoxia in human umbilical vein endothelial cells",
+          "authors": [],
+          "journal": "",
+          "date": "2026-08-06",
+          "doi": "10.7554/elife.111508.3.sa2",
+          "url": "https://openalex.org/W7196986448",
+          "abstract": "The genomic response of endothelial cells to hypoxia via MOA-seq transcription factor occupancy profiling identified known and novel HIF1A-associated and independent cis-regulatory elements, which defined ten distinct hypoxic kinetic clusters.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111508.3.sa1",
+          "title": "Reviewer #1 (Public review): The cistrome response to hypoxia in human umbilical vein endothelial cells",
+          "authors": [],
+          "journal": "",
+          "date": "2026-08-06",
+          "doi": "10.7554/elife.111508.3.sa1",
+          "url": "https://openalex.org/W7196928041",
+          "abstract": "The genomic response of endothelial cells to hypoxia via MOA-seq transcription factor occupancy profiling identified known and novel HIF1A-associated and independent cis-regulatory elements, which defined ten distinct hypoxic kinetic clusters.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111508.3.sa0",
+          "title": "eLife Assessment: The cistrome response to hypoxia in human umbilical vein endothelial cells",
+          "authors": [
+            "Yamini Dalal"
+          ],
+          "journal": "",
+          "date": "2026-08-06",
+          "doi": "10.7554/elife.111508.3.sa0",
+          "url": "https://openalex.org/W7196940317",
+          "abstract": "The genomic response of endothelial cells to hypoxia via MOA-seq transcription factor occupancy profiling identified known and novel HIF1A-associated and independent cis-regulatory elements, which defined ten distinct hypoxic kinetic clusters.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111508.3.sa3",
+          "title": "Author response: The cistrome response to hypoxia in human umbilical vein endothelial cells",
+          "authors": [
+            "Ayush Singh",
+            "Viktor Pastukh",
+            "Justin T. Roberts",
+            "Zachary M. Turpin",
+            "Zehta S. Glover",
+            "Grant Daly",
+            "Jane M Benoit",
+            "Mark N Gillespie",
+            "Hank W. Bass"
+          ],
+          "journal": "",
+          "date": "2026-08-06",
+          "doi": "10.7554/elife.111508.3.sa3",
+          "url": "https://openalex.org/W7196979534",
+          "abstract": "The genomic response of endothelial cells to hypoxia via MOA-seq transcription factor occupancy profiling identified known and novel HIF1A-associated and independent cis-regulatory elements, which defined ten distinct hypoxic kinetic clusters.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -2894,8 +3179,8 @@
     }
   },
   "stats": {
-    "total_count": 138,
-    "new_this_week": 66,
+    "total_count": 153,
+    "new_this_week": 68,
     "weekly_trend": [
       {
         "week": "2026-W26",
@@ -2915,11 +3200,11 @@
       },
       {
         "week": "2026-W30",
-        "count": 71
+        "count": 84
       },
       {
         "week": "2026-W31",
-        "count": 56
+        "count": 58
       }
     ]
   }
