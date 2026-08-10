@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:58:41Z",
+  "generated_at": "2026-08-10T07:44:27Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -128,6 +128,48 @@
           "source": "PubMed"
         },
         {
+          "id": "10.15468/dl.j54npf",
+          "title": "Occurrence Download",
+          "authors": [
+            "GBIF.org User"
+          ],
+          "journal": "Global Biodiversity Information Facility",
+          "date": "2026-08-08",
+          "doi": "10.15468/dl.j54npf",
+          "url": "https://openalex.org/W7201976902",
+          "abstract": "A dataset containing 2870826 species occurrences available in GBIF matching the query: { \"TaxonKey\" : [ \"is one of (Pseudocuma cercarioides, Pseudocuma graciloides, Pseudocuma laeve, Pseudocuma tenuicauda, Pseudodactylogyrus anguillae, Pseudodactylogyrus bini, Pseudodiaptomus forbesi, Pseudodiaptomus trihamatus, Pseudogobio esocinus, Pseudomugil gertrudae, Pseudomyicola spinosus, Pseudoplatystoma corruscans, Pseudoplatystoma fasciatum, Pseudoplatystoma punctifer, Pseudoplatystoma reticulatum, Pseudopolydora kempi, Pseudopolydora paucibranchiata, Pseudorasbora pumila, Pseudosuccinea columella, Pseudotropheus ater, Pseudotropheus crabro, Pseudotropheus cyaneorhabdos, Pseudotropheus demasoni, Pseudotropheus johannii, Pseudotropheus socolofi, Pseudoxiphophorus bimaculatus, Pterodoras granulosus, Pterophyllum scalare, Pterygoplichthys ambrosettii, Pterygoplichthys anisitsi, Pterygoplichthys gibbiceps, Pterygoplichthys joselimaianus, Ptychocheilus grandis, Ptychocheilus umpquae, Pungitius platygaster, Pungitius pungitius, Pungtungia herzi, Puntigrus partipentazona, Puntigrus tetrazona, Puntius brevis, Puntius sealei, Puntius titteya, Puntius vittatus, Pyganodon grandis, Pygmaeodrilus arausionensis, Pygmaeodrilus lacuum, Pygocentrus cariba, Pygocentrus piraya, Pygopristis denticulata, Pyrgophorus coronatus, Pyrgulopsis minckleyi, Pyrrhulina brevis, Pyrrhulina laeta, Quadrula quadrula, Quistadrilus multisetosus, Racesina luteola, Radix auricularia, Radix rubiginosa, Rasbora borapetensis, Rasbora trilineata, Rastrineobola argentea, Relictus solitarius, Rhamdia quelen, Rhamphichthys hahni, Rhinichthys atratulus, Rhinichthys cataractae, Rhinichthys osculus, Rhinogobius brunneus, Rhinogobius giurinus, Rhinogobius kurodai, Rhinogobius lindbergi, Rhinogobius similis, Rhodeus amarus, Rhodeus sericeus, Rhodeus sinensis, Rhodeus suigensis, Rhyacodrilus falciformis, Richardsonius balteatus, Richardsonius egregius, Rineloricaria parva, Ripistes parasita, Rita rita, Robustodorus arachidis, Rocio octofasciata, Roeboides descalvadensis, Roeboides guatemalensis, Roeboides occidentalis, Romanogobio albipinnatus, Romanogobio belingi, Romanogobio benacensis, Romanogobio pentatrichus, Rotylenchus robustus, Rutilus frisii, Rutilus rutilus, Sabanejewia larvata, Salaria fluviatilis, Salmincola californiensis, Salmincola edwardsii, Salmincola lotae, Salminus brasiliensis, Salminus franciscanus, Salmo abanticus, Salmo dentex, Salmo farioides, Salmo labrax, Salmo letnica, Salmo macrostigma, Salmo marmoratus, Salsuginus seculus, Salvelinus alpinus, Salvelinus confluentus, Salvelinus lepechini, Salvelinus leucomaenis, Salvelinus malma, Salvelinus umbla, Sandelia capensis, Sander canadensis, Sander vitreus, Sander volgensis, Sanguinicola inermis, Sarcocheilichthys variegatus, Sarmarutilus rubilio, Sarotherodon galilaeus, Sarotherodon melanotheron, Sarotherodon occidentalis, Sartoriana spinigera, Satanoperca jurupari, Satanoperca pappaterra, Sayamia bangkokensis, Scardinius graecus, Scardinius hesperidicus, Scatophagus argus, Schilbe intermedius, Schilbe mystus, Schizopera borutzkyi, Schizothorax argentatus, Schizothorax eurystomus, Schmidtea polychroa, Sciadicleithrum bravohollisae, Sciadicleithrum mexicanum, Sciadicleithrum splendidae, Sciaenochromis ahli, Sciaenochromis fryeri, Scleromystax barbatus, Scleropages formosus, Scleropages jardinii, Scleropages leichardti, Scolex pleuronectis, Scortum barcoo, Scutellonema brachyurum, Scutellonema bradys, Scutogyrus longicornis, Scylla serrata, Sebastes schlegelii, Semisulcospira decipiens, Semotilus atromaculatus, Semotilus corporalis, Serranochromis jallae, Serranochromis robustus, Serrasalmus brandtii, Serrasalmus gibbus, Serrasalmus humeralis, Serrasalmus maculatus, Serrasalmus marginatus, Serrasalmus rhombeus, Serrasalmus sanchezi, Serrasalmus serrulatus, Serrasalmus spilopleura, Shablogammarus shablensis, Sicydium altum, Silurus aristotelis, Silurus asotus, Silurus glanis, Simocephalus heilongjiangensis, Simocephalus serrulatus, Sinanodonta lauta, Sinelobus vanhaareni, Siniperca chuatsi, Siniperca scherzeri, Sinocalanus doerrii, Sinodiaptomus sarsi, Sinodiaptomus valkanovi, Sinohyriopsis cumingii, Sinohyriopsis schlegelii, Sinotaia quadrata, Siphateles bicolor, Skistodiaptomus pallidus, Soldanellonyx monardi, Sorubim lima, Sorubimichthys planiceps, Sparganophilus tamesis, Sphaerium corneum, Sphaerium rivicola, Sphaeroma walkeri, Spirometra mansoni, Spirorchis elegans, Spirosperma ferox, Squalidus chankaensis, Squalidus gracilis, Squalius alburnoides)\" ] } The dataset includes 2870826 records from 2088 constituent datasets; see https://api.gbif.org/v1/occurrence/download/0003927-260806074905277/datasets/export for details. Data from some individual datasets included in this download may be licensed under less restrictive terms.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.15468/dl.3p74ff",
+          "title": "Occurrence Download",
+          "authors": [
+            "GBIF.org User"
+          ],
+          "journal": "Global Biodiversity Information Facility",
+          "date": "2026-08-08",
+          "doi": "10.15468/dl.3p74ff",
+          "url": "https://openalex.org/W7201973306",
+          "abstract": "A dataset containing 31128714 species occurrences available in GBIF matching the query: { \"TaxonKey\" : [ \"is one of (Aedes aegypti, Aedes japonicus, Agrilus auroguttatus, Alosa pseudoharengus, Alosa sapidissima, Ameiurus natalis, Amynthas hawayanus, Anthonomus grandis, Aphis glycines, Aporrectodea rosea, Aporrectodea, Arion ater, Arion, Arion subfuscus, Balclutha rubrostriata, Cactoblastis cactorum, Callidiellum rufipennis, Cephus cinctus, Chironomus calligraphus, Chironomus columbiensis, Chironomus crassicaudatus, Chironomus plumosus, Cicadellidae, Cipangopaludina, Cipangopaludina chinensis, Coccinella septempunctata, Coccus viridis, Cochliomyia hominivorax, Contarinia nasturtii, Coptotermes gestroi, Cricotopus subletteorum, Cryptotermes brevis, Cyrtepistomus castaneus, Dalbulus maidis, Delia radicum, Dendrobaena octaedra, Bimastos rubidus, Dendrobaena, Dendrodrilus rubidus, Deroceras reticulatum, Diabrotica, Diaphorina citri, Diaprepes abbreviatus, Diuraphis noxia, Drosophila suzukii, Lumbrineris, Eisenia rosea, Eoreuma loftini, Esox lucius, Euproctis chrysorrhoea, Faxonius rusticus, Gilpinia hercyniae, Glyptotendipes paripes, Gnathotrichus sulcatus, Halyomorpha halys, Pentatomidae, Homadaula anisocentra, Hypera postica, Hypothenemus hampei, Ips typographus, Leucoptera coffeella, Limax maximus, Loricariidae, Lumbricus castaneus, Lyrodus pedicellatus, Maconellicoccus hirsutus, Macronoctua onusta, Mastotermes darwiniensis, Metamasius callizona, Musca domestica, Nassarius, Mya arenaria, Mysis diluviana, Nasutitermes corniger, Octolasion tyrtaeum, Octolasion, Oncorhynchus, Osmerus mordax, Ostrinia nubilalis, Oulema melanopus, Pectinophora gossypiella, Penaeus vannamei, Phyllotreta cruciferae, Polypedilum nubifer, Pomoxis annularis, Pristiphora erichsonii, Profenusa thomsoni, Pylodictis olivaris, Rhinocyllus conicus, Rhipicephalus microplus, Scirtothrips perseae, Sitodiplosis mosellana, Sitona lineatus, Solenopsis richteri, Sphaeroma quoianum, Taeniothrips inconsequens, Teredo navalis, Tomicus piniperda, Trypodendron lineatum, Varroa jacobsoni, Gastropoda, Gambusia, Scardinius erythrophthalmus, Tinca tinca, Schizothorax richardsonii, Pangasianodon hypophthalmus, Pangasius sanitwongsei, Batocera rufomaculata, Oryctes rhinoceros, Darna nararia, Chitala chitala, Deroceras panormitanum, Chitala ornata, Diaspidiotus perniciosus, Pomacea diffusa, Physella acuta, Mariaella dussumieri, Deroceras, Laevicaulis haroldi, Pomacea bridgesii, Anoplolepis gracilipes, Aceria guerreronis, Aleurodicus rugioperculatus, Rhynchophorus ferrugineus, Euproctis fraterna, Paracoccus marginatus, Quadrastichus erythrinae, Meloidogyne graminicola, Promecotheca cumingii, Diaphorina communis, Phthorimaea operculella, Stenochironomus nelumbus, Pterochloroides persicae, Technomyrmex albipes, Abax parallelus, Abgrallaspis cyanophylli, Silpha laevigata, Ablerus chionaspidis, Acalyptris platani, Acanalonia conica, Acanthocinus aedilis, Acanthocinus griseus, Acanthocinus reticulatus, Acanthocnemus nigricans, Eriococcus agropyri, Eriococcus micracanthus, Psapharochrus jaspideus, Acanthoscelides obtectus, Dactylispa pallidipennis, Acanthoxyla geisovii, Acaphylla theae, Acaudaleyrodes rachipora, Aceratoneuromyia indica, Aceria alpestris, Eriophyes loewi, Pseudaphycus angelicus, Pseudaphycus maculipennis, Pseudaphycus malinus, Acerophagus, Acharia stimulea, Achatina achatina, Achatina tincta, Acheta domesticus, Acinipe hesperica, Acizzia acaciaebaileyanae, Acizzia hollisi, Acizzia jamatonica, Acizzia uncatoides, Aclees cribratus, Acleris undulana, Acleris variegana, Aclypea opaca, Acontia candefacta, Acontia crocata, Acritus nigricornis, Acrocinus longimanus, Acrocrypta purpurea, Acrotelsa collaris, Stylifera impudica, Acrotona parens, Acrotona pseudotenera, Acrotrichis henrici, Acrotrichis insularis, Acrotrichis josephi, Acrotrichis sanctaehelenae, Graellsia isabellae, Actinopteryx fucicola, Aculops gleditsiae, Adelencyrtus aulacaspidis, Adelges laricis, Adelges viridulus, Adistemia watsoni, Adota maritima, Adoxophyes orana, Aedes koreicus, Aedes atropalpus, Aedes triseriatus, Aegopinella nitens, Aegopinella nitidula, Aegopinella pura)\" ] } The dataset includes 31128714 records from 11067 constituent datasets; see https://api.gbif.org/v1/occurrence/download/0003676-260806074905277/datasets/export for details. Data from some individual datasets included in this download may be licensed under less restrictive terms.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.15468/dl.czcamz",
+          "title": "Occurrence Download",
+          "authors": [
+            "GBIF.org User"
+          ],
+          "journal": "Global Biodiversity Information Facility",
+          "date": "2026-08-08",
+          "doi": "10.15468/dl.czcamz",
+          "url": "https://openalex.org/W7201997160",
+          "abstract": "A dataset containing 1696278 species occurrences available in GBIF matching the query: { \"TaxonKey\" : [ \"is one of (Ficopomatus uschakovi, Filopaludina martensi, Filopaludina sumatrensis, Forbesichthys agassizii, Franciscodoras marmoratus, Fredericella sultana, Fundulus catenatus, Fundulus chrysotus, Fundulus diaphanus, Fundulus grandis, Fundulus heteroclitus, Fundulus kansae, Fundulus lineolatus, Fundulus notatus, Fundulus sciadicus, Fundulus seminolis, Fundulus stellifer, Fundulus zebrinus, Fusconaia flava, Galaxias brevipinnis, Galaxias truttaceus, Galba bulimoides, Galba cubensis, Galba schirazensis, Galba truncatula, Gambusia dominicensis, Gambusia geiseri, Gambusia marshi, Gambusia nicaraguensis, Gambusia nobilis, Gambusia regani, Gammarus fasciatus, Gammarus kischineffensis, Gammarus lacustris, Gammarus roeselii, Gammarus varsoviensis, Gasterosteus gymnurus, Gasterosteus microcephalus, Geophagus altifrons, Geophagus brasiliensis, Geophagus proximus, Geophagus steindachneri, Geophagus surinamensis, Geophagus sveni, Geosesarma bicolor, Geosesarma tiomanicum, Geothelphusa dehaani, Geukensia demissa, Gianius aquaedulcis, Gila atraria, Gila coerulea, Gila orcuttii, Gila pandora, Gila robusta, Gila seminuda, Gillia altilis, Girardia dorotocephala, Glanitaenia osculata, Glossolepis incisus, Gnathonemus petersii, Gnathopogon caerulescens, Gnathopogon elongatus, Gnathopogon strigatus, Gobio alverniae, Gobio gobio, Gobio lozanoi, Gobio occitaniae, Gobionellus oceanicus, Gobiopterus semivestitus, Gobiosoma bosc, Grandidierella japonica, Grundulus bogotensis, Guianacara geayi, Gymnocorymbus ternetzi, Gymnocypris przewalskii, Gymnodiptychus dybowskii, Gymnogobius isaza, Gymnorhamphichthys hypostomus, Gymnothorax tile, Gymnotus inaequilabiatus, Gymnotus maculosus, Gymnotus pantanal, Gymnotus paraguensis, Gymnotus sylvius, Gyraulus albus, Gyraulus chinensis, Gyraulus parvus, Gyrinocheilus aymonieri, Gyrodactylus anguillae, Gyrodactylus avalonia, Gyrodactylus bullatarudis, Gyrodactylus cichlidarum, Gyrodactylus colemanensis, Gyrodactylus cyprini, Gyrodactylus elegans, Gyrodactylus fairporti, Gyrodactylus gasterostei, Gyrodactylus katharineri, Gyrodactylus kherulensis, Gyrodactylus kobayashii, Gyrodactylus nebulosus, Gyrodactylus neotropicalis, Gyrodactylus perccotti, Gyrodactylus proterorhini, Gyrodactylus salaris, Gyrodactylus salmonis, Gyrodactylus shariffi, Gyrodactylus turnbulli, Gyrodactylus ulinganisus, Gyrodactylus yacatli, Habrotrocha constricta, Halocaridina rubra, Hampala macrolepidota, Haplochromis aeneocolor, Haplochromis erythromaculatus, Haplochromis squamipinnis, Haplorchis pumilio, Harpacticella paradoxa, Hasemania nana, Hediste diadroma, Hediste diversicolor, Heleobia australis, Heleobia charruana, Helicotylenchus crenacauda, Helicotylenchus erythrinae, Helicotylenchus pseudorobustus, Helicotylenchus vulgaris, Helisoma anceps, Helobdella punctatolineata, Helobdella stagnalis, Helodrilus oculatus, Helophorus aquaticus, Helophorus grandis, Helophorus porculus, Helophorus sibiricus, Helostoma temminckii, Hemibagrus guttatus, Hemibagrus nemurus, Hemibarbus labeo, Hemibarbus longirostris, Hemibarbus maculatus, Hemicaloosia nudata, Hemichromis bimaculatus, Hemichromis elongatus, Hemichromis fasciatus, Hemichromis guttatus, Hemichromis letourneuxi, Hemiculter lucidus, Hemicycliophora arenaria, Hemicycliophora gracilis, Hemicycliophora guptai, Hemicycliophora halophila, Hemicycliophora hesperis, Hemicycliophora koreana, Hemicycliophora natalensis, Hemicycliophora parvana, Hemicycliophora robusta, Hemicycliophora similis, Hemicycliophora thienemanni, Hemicycliophora truncata, Hemicycliophora uniformis, Hemicycliophora vaccinii, Hemicycliophora vidua, Hemicycliophora vitiensis, Hemigrammus bleheri, Hemigrammus erythrozonus, Hemigrammus ocellifer, Hemigrammus pulcher, Hemiodus gracilis, Hemiodus orthonops, Hemitrygon laosensis, Henneguya salminicola, Herichthys carpintis, Herichthys cyanoguttatus, Herklotsichthys quadrimaculatus, Heros efasciatus, Heros severus, Herotilapia multispinosa, Hesperoleucus symmetricus, Heterandria formosa, Heterochelamon tessellatum, Heterocope appendiculata, Heterodera cruciferae, Heterodera oryzae, Heterodera oryzicola, Heterodera schachtii, Heteromastus filiformis, Heteropneustes fossilis, Heterorotula multidentata, Heterotilapia buettikoferi, Heterotilapia buttikoferi, Heterotis niloticus, Hiodon alosoides, Hiodon tergisus, Hirschmanniella diversa, Hirschmanniella gracilis, Hirschmanniella imamuri, Hirschmanniella miticausa, Hirschmanniella oryzae, Hirschmanniella spinicaudata)\" ] } The dataset includes 1696278 records from 2224 constituent datasets; see https://api.gbif.org/v1/occurrence/download/0003896-260806074905277/datasets/export for details. Data from some individual datasets included in this download may be licensed under less restrictive terms.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1016/j.aqrep.2026.103785",
           "title": "Serum biochemical reference intervals in farmed greater amberjack (Seriola dumerili): Variation across production periods",
           "authors": [
@@ -144,6 +186,24 @@
           "doi": "10.1016/j.aqrep.2026.103785",
           "url": "https://openalex.org/W7197020546",
           "abstract": "Greater amberjack ( Seriola dumerili ) is an emerging high-value species in Mediterranean aquaculture; however, effective health management is constrained by the lack of species-specific clinical pathology benchmarks. This study established serum biochemical reference intervals (RIs) for clinically healthy, farmed S. dumerili under Adriatic cage-farming conditions and evaluated temperature-associated seasonal variation across three production periods (July, December, and March). Blood samples were collected from clinically healthy fish in each period, and 17 biomarkers representing metabolic substrates, enzymes, electrolytes, and minerals were quantified. The July cohort, corresponding to the optimal growth period, was used to calculate central 95% reference intervals (2.5th–97.5th percentiles). Comparison revealed pronounced physiological modulation across multiple biomarkers. Glucose concentrations were consistently elevated in winter and spring relative to the summer baseline, whereas phosphate levels were markedly reduced. Additional seasonal shifts were observed in enzymatic activity, lipid metabolism, and electrolyte balance, reflecting broad environmental influences on physiological status. These findings demonstrate that biochemical profiles in S. dumerili are strongly temperature-associated and seasonally dependent and highlight the limitations of single-temperature reference intervals. The integration of seasonal-temperature framed RIs provides a robust framework for improving diagnostic interpretation and supporting proactive health management in greater amberjack aquaculture.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/microorganisms14081734",
+          "title": "Gut Microbiome of Aquatic Organisms: Role in Immunity Formation and Effects on Aquaculture Productivity",
+          "authors": [
+            "Liudmila E. Khmelevtsova",
+            "Evgeniya V. Prazdnova",
+            "Maria S. Mazanko",
+            "Yaroslav A. Brislavsky",
+            "Dmitry Rudoy"
+          ],
+          "journal": "Microorganisms",
+          "date": "2026-08-07",
+          "doi": "10.3390/microorganisms14081734",
+          "url": "https://openalex.org/W7201869402",
+          "abstract": "Aquaculture is central to global food security, but intensification of production has increased disease risk and environmental pressure. The gut microbiome of aquatic organisms is now recognized as a key mediator of host physiology, nutrition, immunity, and pathogen resistance, making it a promising alternative to antimicrobial-based disease control. This review summarizes current knowledge on the composition, assembly, and functional roles of the gut microbiome in fish and crustaceans of aquacultural importance. Major bacterial phyla include Proteobacteria, Firmicutes, Bacteroidetes, Fusobacteria, Actinobacteria, and Verrucomicrobia. Community structure is shaped by environment, diet, host age, genetics, stress, and stochastic processes, with differences between marine and freshwater systems. The microbiome contributes to immune defense through short-chain fatty acid production, Toll-like receptor signaling, cytokine regulation, mucosal immunoglobulin responses, antimicrobial peptide and bacteriocin production, and competitive exclusion of pathogens. It also supports productivity by improving nutrient assimilation, vitamin and enzyme synthesis, and feed conversion. Probiotics, prebiotics, and synbiotics are discussed as strategies for targeted microbiome modulation, although unstable colonization and the lack of standardized protocols remain major challenges. Overall, targeted microbiome manipulation offers a promising route toward sustainable, antimicrobial-reduced aquaculture.",
           "track": "A",
           "source": "OpenAlex"
         },
@@ -574,6 +634,27 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1038/s41597-026-08059-5",
+          "title": "Chromosome-level genome assembly of Oxyria digyna",
+          "authors": [
+            "Jeong Woen Shin",
+            "Moonkyo Kim",
+            "Mi Jeong Moon",
+            "Jung Sung Kim",
+            "Jung Sung Kim",
+            "Yoo Kyung Lee",
+            "Jun Kim",
+            "Jun Kim"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-08",
+          "doi": "10.1038/s41597-026-08059-5",
+          "url": "https://openalex.org/W7201973693",
+          "abstract": "Abstract Oxyria digyna is a perennial herb widely distributed across Arctic and Alpine regions, representing one of the oldest extant Arctic plant lineages. Despite its ecological and evolutionary importance, no chromosome-scale reference genome has been published as a research paper to date. Here, we present two high-quality chromosome-level genome assemblies of O. digyna generated using high-fidelity long-read sequencing data and long-read–based chromatin conformation capture sequencing data. Our final phased genome assemblies span 548.60 Mb and 540.00 Mb with scaffold N50 values of 77.17 Mb and 76.59 Mb, respectively. Karyotyping confirmed a chromosome number of 2n = 14, which matches the number of chromosome-scale scaffolds in our final genome assemblies. Also, Telomere-to-telomere continuity was achieved for three chromosomes in one haplotype. The assemblies exhibit high completeness and accuracy, with BUSCO scores exceeding 95% and QV values above 57. Gene annotation identified 20,794 genes, including 19,500 protein-coding genes. Pan-genome analysis incorporating publicly available assemblies revealed 3.17 million variant loci, including 84,360 structural variants. This chromosome-level genome provides a valuable resource for studying Arctic plant adaptation, genome evolution, and genetic mechanisms underlying environmental resilience.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.3389/fpls.2026.1872935",
           "title": "Overcoming serious incompatibilities resulting from intergeneric hybridisation between Diplotaxis tenuifolia and Brassica oleracea to develop CMS wall-rocket",
           "authors": [
@@ -589,6 +670,244 @@
           "doi": "10.3389/fpls.2026.1872935",
           "url": "https://openalex.org/W7197022666",
           "abstract": "Alloplasmic male-sterile breeding lines of Diplotaxis tenuifolia were developed by intergeneric hybridisation between cytoplasmic male-sterile cauliflower ( Brassica oleracea L.) and perennial wall-rocket. Amphidiploid filial generation (F 1 ) plants (2 n = 2 x = 20, CD) were obtained by manual crosses and ovary culture. The phenotype of the hybrids was mostly similar to that of the wall-rocket parent. The plants were male-sterile, but absolutely no seed set was achieved after pollination with D. tenuifolia . Amphitetraploid F 1 hybrid plants (4 n = 4 x = 40, CCDD) obtained by colchicine treatment were backcrossed seven times with pollen of the Diplotaxis parent to develop alloplasmic diploid (2 n = 2 x = 22, DD) D. tenuifolia lines. The reduction of Brassica chromosomes was recorded by flow cytometry and chromosome counting. Ovary culture was essential up to the Backcross generation 4 (BC 4 generation) because of absent or disturbed seed development. From the BC 5 generation onward, no further embryo rescue was necessary. The developed D . tenuifolia lines are completely stable with regard to their cytoplasmic male sterility (CMS) status. Fertile or partially fertile pollen was observed neither in the F 1 generation nor in any of the subsequent backcross generations (BC 1 to BC 7 ). Male sterility was attributed to both premeiotic (sporophytic) and postmeiotic (pollen-abortive) effects, similar to those observed in the CMS Brassica oleracea parent. Regarding morphological traits and growth dynamics, only variations in the dimensions and dissection of leaves between different cross progenies were observed. The plant phenotype, vigour, and yield potential of the CMS lines (BC 7 ) are comparable to those of the D. tenuifolia parental line. The female fertility has been only moderately restored; however, the proportion of normally shaped seeds per pod is still lower than that of the Diplotaxis control. A significant number of the developed seeds showed disturbed and shrunken embryogenic tissue, which could be visualised and measured in more detail by 3D X-ray CT. The reasons for these developmental abnormalities need to be investigated in further studies. No further incompatibilities were observed between the used CMS-inducing cybrid cytoplasm and the D. tenuifolia genome. Therefore, the used CMS-inducing cybrid cytoplasm has been proven to be a vital source of CMS for D. tenuifolia , and the developed lines are applicable for hybrid breeding programs.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-07923-8",
+          "title": "A transcriptomic atlas of the parasitoid wasp Nasonia vitripennis across ploidy, sex, and tissue",
+          "authors": [
+            "Saminathan Sivaprakasham Murugesan",
+            "Xuan Li",
+            "Leo W. Beukeboom",
+            "Kelley Leung",
+            "Eveline C. Verhulst"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-07",
+          "doi": "10.1038/s41597-026-07923-8",
+          "url": "https://openalex.org/W7201882446",
+          "abstract": "Abstract The parasitoid wasp Nasonia vitripennis is a major insect model for morphology, behavior, and genetics. Like all hymenopterans, it has haplodiploid sex determination: unfertilized eggs develop into haploid males and fertilized eggs develop into diploid females. Ploidy-linked transcriptomic regulation underlying sex determination and sexual phenotypic divergence is fundamental to hymenopteran biology. Additionally, polyploids (diploid males, triploid females) occur in Nasonia and other hymenopterans, representing gene expression mechanisms regulating sexual maintenance outside of standard haplodiploidy. To facilitate the investigation of these phenomena, we generated a transcriptomic atlas for N. vitripennis across two tissues (head and abdomen) for typical haploid males and diploid females and polyploid diploid males and triploid females. These data are ~3,108 Gb of transcriptomic sequences for 264 samples (for a longstanding polyploid line originating from a spontaneous mutation, and for multiple generations of three neo-polyploid lines: two generated from RNA interference of sex-determining genes, and one from colchicine induction). These data are a resource for analyses on transcriptomic differences across sex, tissue type, ploidy, strain, and temporal change.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fevo.2026.1896232",
+          "title": "The ecology and evolution of the model species Xenopus laevis",
+          "authors": [
+            "Dareen Almojil",
+            "John Measey",
+            "Stéphane Boissinot"
+          ],
+          "journal": "Frontiers in Ecology and Evolution",
+          "date": "2026-08-07",
+          "doi": "10.3389/fevo.2026.1896232",
+          "url": "https://openalex.org/W7201831096",
+          "abstract": "The African clawed frog Xenopus laevis has been a cornerstone of experimental biology for over a century, but its value as a model organism extends far beyond embryology. In this integrative review, we synthesize how the natural history and systematics of X. laevis underpin its power to address fundamental questions in evolution and ecology. We highlight three areas where the study of X. laevis has been especially transformative. First, as a relatively recent vertebrate allopolyploid, it provides a rare opportunity to investigate the evolutionary consequences of whole-genome duplication, including sub-genome asymmetry, biased gene loss, and the evolutionary roles of transposable elements in reshaping gene regulation. Second, X. laevis has emerged as a premier system for studying the early stages and rapid turnover of sex-determination mechanisms, yielding insights from the dm-w locus and the surprising diversity of sex-determining regions across Xenopus species. Third, global escapes and releases have produced replicated invasive populations across continents, creating natural experiments to test adaptation, niche shifts, rapid evolution of dispersal traits, and the hypothesized advantages of polyploidy in invasions. We conclude by outlining key open questions, especially how polyploid genomes generate adaptive potential, how sub-genome evolution varies among Xenopus lineages, and how integrating field ecology with modern genomics can further establish this classic laboratory organism as a powerful model in evolutionary biology.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.03.742459",
+          "title": "Chloroplast Genome Evolution, Heteroplasmy, and Inverted Repeat Dynamics in the Elymus Complex (Triticeae, Poaceae): Insights from Single‑Molecule Sequencing of Elymus ciliaris and Comparative Analysis of St‑Genome Lineages",
+          "authors": [
+            "Negar Karimi",
+            "Y. P. Zhang",
+            "Hojjatollah Saeidi",
+            "Trude Schwarzacher",
+            "Qing Liu",
+            "J. S. Heslop‐Harrison"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-07",
+          "doi": "10.64898/2026.08.03.742459",
+          "url": "https://openalex.org/W7201885742",
+          "abstract": "Background/Objectives: Elymus sensu lato (Poaceae) is arguably the largest and most complex genus in the tribe Triticeae. It includes hybrids and polyploids based on x=7 chromosomes, all including the St genome, forming a valuable genepool for forage grass and cereal breeding. Analysis of chloroplast genome diversity and structural dynamics is critical for resolving maternal lineages, reticulate evolution and biodiversity across this agronomically important complex, refining their taxonomy, conservation and exploitation. Methods: We sequenced the complete chloroplast genome (plastome) of Elymus ciliaris (4x=2n=28; StStYY genome composition) using ultra-long Oxford Nanopore single-molecule reads and compared it to 76 additional chloroplast genomes representing major St-genome lineages in Elymus s.l. (Pseudoroegneria St; Elymus s.s. StH, StY; Thinopyrum StJ/E; Campeiostachys StYH; Kengyilia StYP). We analyzed structure, nucleotide diversity, inverted repeat (IR) dynamics, and phylogenetic signal. Results: The E. ciliaris chloroplast genome was 135,004 bp long (38.3% GC) with a canonical quadripartite structure. Single-molecule reads (n=74) revealed heteroplasmy: two Small-Single-Copy (SSC) orientations at 30%:70% frequency, indicating an inversion polymorphism. Across the Elymus group, comparative analysis of chloroplast assemblies showed high structural conservation but lineage-specific IR-boundary shifts. Kengyilia exhibits exceptional IR expansion. Nucleotide diversity hotspots localize to the large single-copy region, especially in StY lineages. Phylogenies recover a monophyletic St-containing clade but do not delineate genera, reflecting reticulate evolution, with North American/Southeast Asian and Eurasian geographic sub-clades. Conclusions: Single-molecule sequencing uncovered heteroplasmy with an inversion polymorphism in a single plant of Elymus ciliaris, hidden in short read assemblies. There were no other polymorphisms, as expected for chloroplast sequences (except for technical homopolymer variation). Our analyses showed that a Pseudoroegneria-like St chloroplast genome predominates as the maternal donor across Elymus polyploids. Variable regions and IR dynamics offer strong models for chloroplast genome evolution in reticulate lineages and suggest exploiting plastome variation to complement nuclear biodiversity studies.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/pce.70802",
+          "title": "Decoding Calcium Signaling: Functional Roles of Calmodulin and Calmodulin‑Like Proteins in Plant Development and Stress Responses",
+          "authors": [
+            "Ruixin Jin",
+            "Tao Zhang",
+            "Xin Bai",
+            "Xingpei You",
+            "Tayeb Muhammad",
+            "Tao Yang",
+            "Chunping Jia",
+            "Juan Wang",
+            "Baike Wang"
+          ],
+          "journal": "Plant Cell & Environment",
+          "date": "2026-08-07",
+          "doi": "10.1111/pce.70802",
+          "url": "https://openalex.org/W7201879506",
+          "abstract": ") acts as a ubiquitous secondary messenger in plants, orchestrating adaptive responses to developmental cues and environmental fluctuations. The decoding of these signatures is primarily mediated by calmodulin (CaM) and plant-specific calmodulin-like (CML) protein family. While canonical CaMs are evolutionarily conserved and feature high-affinity-binding motifs, CMLs exhibit substantial sequence divergence and structural variability, enabling functional specialization. This review synthesizes current knowledge on the structural characteristics and functional roles of CaMs and CMLs, emphasizing their pivotal contributions to plant development, stress resilience, and secondary metabolism. We highlight the significance of spatial compartmentalization, wherein the discrete subcellular partitioning of CaM/CMLs-exemplified by chloroplast and nuclear populations-facilitates the refined modulation of photosynthetic efficiency and transcriptional reprogramming. Furthermore, we discuss recent advances in manipulating CaM/CML-mediated pathways to enhance agronomic traits, including yield stability and stress tolerance. Ultimately, these insights provide a theoretical framework for leveraging calcium signaling components in molecular breeding programs aimed at developing elite crop varieties.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10553865/v1",
+          "title": "Leveraging a SNP-based genomic relationship matrix to enhance GWAS for spittlebug resistance and mode of reproduction in tetraploid Urochloa hybrids",
+          "authors": [
+            "Rosangela Maria Simeão",
+            "Sanzio Carvalho Lima Barrios",
+            "Karem Guimarães Xavier Meireles",
+            "F. Z. V. Torres",
+            "Aline da Costa Lima Moraes",
+            "Yasmin Lany Ventura Said",
+            "A. Raposo",
+            "Eric Ragalzi",
+            "Anete Pereira de Souza"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-07",
+          "doi": "10.21203/rs.3.rs-10553865/v1",
+          "url": "https://openalex.org/W7201902790",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-76200-4",
+          "title": "Biosynthetic mechanism and ecological function of chirality in Solanum steroidal alkaloids",
+          "authors": [
+            "Yang Gao",
+            "Wei Song",
+            "Xuan Zhang",
+            "Wenfeng Ye",
+            "Yibin Lin",
+            "Junyu Ma",
+            "Ying Fu",
+            "Boyang Wang",
+            "Wenxian Lan",
+            "Xiaoyan Xu",
+            "Weijie Huang",
+            "Chen Lin",
+            "Ian T. Baldwin",
+            "José Maurício S. Bento",
+            "Zheyong Xue",
+            "Jiancai Li"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-07",
+          "doi": "10.1038/s41467-026-76200-4",
+          "url": "https://openalex.org/W7201862852",
+          "abstract": "Chirality fundamentally influences the bioactivity and ecological roles of plant natural products. Steroidal glycoalkaloids (SGAs) in tomato and wild relatives exhibit this stereochemical variation. Forward genetics identifies C26 hydroxylase GAME8 as the key enzyme controlling SGA chirality. Cultivated tomato harbors two identical GAME8 copies yielding S-configured intermediates, whereas Solanum pennellii homologs GAME8a and GAME8b dominantly produce R- and S-configured products, respectively. Site-saturation mutagenesis and molecular docking reveal four residues sufficient to switch this chirality. Bioassays demonstrate that R-type SGAs, predominant in wild tomato, offer superior defense against the specialist pest Phthorimaea absoluta, although chirality does not affect resistance to the generalist Spodoptera litura. Collectively, these results elucidate the biosynthetic mechanism and ecological significance of SGA chirality, establishing a basis for tailoring phytochemical stereochemistry to enhance crop protection. Authors investigate the biosynthetic mechanism of steroidal glycoalkaloid (SGA) chirality in Solanum species. GAME8 enzymes are found to catalyze the biosynthesis of R- and S-configured SGAs, which contribute to variations in defense against pests.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.06.743240",
+          "title": "FIDDL: depth-matched negative controls distinguish genuine interspecific introgression from competitive-mapping artifact",
+          "authors": [
+            "Kaitlyn Taylor",
+            "Kennadi A. Shumaker",
+            "Spencer J Gray",
+            "Matthew L. Bochman"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-07",
+          "doi": "10.64898/2026.08.06.743240",
+          "url": "https://openalex.org/W7201879131",
+          "abstract": "Interspecific introgression is routinely detected by competitively mapping reads to a concatenated multi-species reference and calling regions where a non-focal species recruits coverage. Using strains that cannot contain the ancestry being detected, we show this design generates substantial false-positive signal through two mechanisms with opposite phylogenetic-distance signatures. Standard nuclear assemblies omit the mitochondrion and 2-micron plasmid, leaving high-copy cytoplasmic reads without a legitimate target; completing the reference preferentially removes signal from the most divergent donor. Genuine cross-species sequence conservation inflates the most closely related donor. Masking chromosome ends removes its subtelomeric part but plateaus at a non-zero floor, and the interior residual traces to conserved single-copy genes where a short read carries under one base of discriminating information. The floor grows with sequencing depth (1.19% of callable positions at 50x, 2.02% at 147x, 3.85% at 393x in a pure strain), is not mitigated by long reads, and appears at sub-diploid dosage - three properties widely read as evidence of authenticity. Because the discriminating information is below single-read resolution, no read-level filter separates artifact from introgression; we show three that fail. What works is locus-level: a consensus-phylogenetic test (29/29 specificity on confirmed artifact) and an allele-fraction donor-match test, complementary and validated in both directions on independent published introgression. We package the comparative controls as FIDDL (False Introgression Detection via Depth-matched controls and Loci-recurrence), an open-source tool, withdraw two of our own analysis-ready calls, and show re-analysis of published wild isolates reduces low-confidence introgression by ~53% while leaving high-confidence signal intact.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3161/15081109acc2026.28.2.015",
+          "title": "Bat Species Diversity at Rugezi Marsh, Northern Rwanda, as a Basis for Wetland Conservation",
+          "authors": [
+            "Paul W. Webala",
+            "Sospeter Kibiwot",
+            "Peace Iribagiza",
+            "Pascal Hishamunda",
+            "Pamela Sánchez‐Vendizú",
+            "Juan J. Pellón",
+            "Zane Libke",
+            "Richard Muvunyi",
+            "Gideon Erkenswick",
+            "Olivier Nsengimana"
+          ],
+          "journal": "Acta Chiropterologica",
+          "date": "2026-08-07",
+          "doi": "10.3161/15081109acc2026.28.2.015",
+          "url": "https://openalex.org/W7201904314",
+          "abstract": "Los humedales de África Oriental constituyen recursos naturales fundamentales, pero se carece de información sobre la riqueza y abundancia de especies de fauna silvestre. Ruanda se caracteriza por su relieve accidentado, donde los pantanos y otros humedales representan aproximadamente el 8% de la superficie del país. Se prevé que estos humedales, que sirven como zonas de refugio y alimentación, alberguen una mayor diversidad de especies de murciélagos que las tierras agrícolas abiertas y las colinas dominadas por eucaliptos adyacentes. En 2023 se llevó a cabo un estudio sobre murciélagos en el humedal de Rugezi, en el norte de Ruanda, abarcando dos temporadas distintas: de junio a julio y de noviembre a diciembre. Para la recopilación de datos se emplearon técnicas de búsqueda de refugios, métodos tradicionales de captura, monitoreo acústico y códigos de barras de ADN. Se registraron veintidós especies de murciélagos pertenecientes a seis familias, incluida una especie indeterminada del género Pipistrellus que, según datos moleculares, podría constituir una nueva especie y, por tanto, requiere un análisis más exhaustivo. Cabe destacar que aquí se encuentra más del cuarenta por ciento de la biodiversidad de murciélagos de Ruanda; no obstante, muchas especies parecen ser escasas, como el amenazado murciélago gigante de Harrison (Otomops harrisoni), clasificado como Vulnerable en la Lista Roja de la UICN. Existen razones de peso para proteger este humedal dada su excepcional riqueza de especies de murciélagos, que incluye una especie amenazada. Los datos de referencia sobre la biodiversidad de murciélagos ofrecen una oportunidad única para monitorear los cambios que podrían derivarse de una eventual restauración de este singular humedal.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.03.742036",
+          "title": "BLink-seq delivers population-scale haplotypes without long reads: a scalable framework for non-model genomics",
+          "authors": [
+            "Azwad Iqbal",
+            "Pavel V. Dimens",
+            "Jessica A. Rick",
+            "Paul R. Munn",
+            "Adrian J. McNairn",
+            "Jacob B. Landis",
+            "Rhiannon Schembri",
+            "Yingguang Frank Chan",
+            "Marek Kučka",
+            "Nina Overgaard Therkildsen",
+            "Jennifer K. Grenier"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-07",
+          "doi": "10.64898/2026.08.03.742036",
+          "url": "https://openalex.org/W7201830522",
+          "abstract": "Information about segregating haplotypes and structural variation (SV) can be extremely rich for a variety of applications in population genomics but remains largely inaccessible for many non-model species. Of the available methods, linked-read sequencing is especially promising for its low cost and scalability, but its adoption remains limited. One existing linked-read method is Haplotagging, which barcodes sequencing reads to reconstruct long molecules that encode haplotype information, with the potential to generate phased whole-genome data and detect structural variants. In this study, we present BLink-seq, a novel Haplotagging method that is compatible with standard short-read next-generation sequencing platforms, is locally reproducible with low-cost reagents, and is scalable for high-throughput sample processing. We optimized library preparation parameters, explored their relationship to linked-read library metrics, and validated phasing performance and structural variant detection in two evolutionary extremes: an experimental Drosophila melanogaster cross of inbred lines carrying known inversions, and four Atlantic silverside ( Menidia menidia ) parent-offspring trios sourced from highly outbred, wild-caught populations. We then applied our protocol to a cohort of 376 silversides to demonstrate its scalability and potential for SV detection and genotype imputation. Using BLink-seq, we generated chromosome-scale phased blocks and identified known inversions in both validation datasets. We discovered previously uncharacterized structural complexity within a known adaptive inversion on silverside chromosome 11, demonstrating that linked-read data can refine our understanding of SV architecture beyond what short reads alone can resolve. Finally, we provide a user guide for researchers interested in using BLink-seq.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.33774/coe-2026-tzkf5",
+          "title": "Design and Validation of a Multi-Tier Hybrid Renewable Energy System for Off-Grid Communities: A Simulation-Based Approach to Energy Resilience and Economic Viability",
+          "authors": [
+            "S M Nazmuz Sakib"
+          ],
+          "journal": "",
+          "date": "2026-08-07",
+          "doi": "10.33774/coe-2026-tzkf5",
+          "url": "https://openalex.org/W7201888371",
+          "abstract": "The deployment of renewable energy systems in isolated regions presents unique challenges related to resource intermittency, storage requirements, and economic feasibility. This study presents a comprehensive framework for designing and validating a hybrid renewable energy system tailored for off-grid communities, combining photovoltaic arrays, wind turbines, battery storage, and hydrogen-based long-term energy storage with diesel backup. Unlike conventional optimization-only approaches, the proposed methodology integrates analytical sizing with dynamic simulation and multi-scenario validation to ensure system resilience under varying climatic conditions. The framework is applied to a representative case study in Salah Bey, Algeria, where a 12,090 MWh/year load demand is to be met. Through MATLAB-based hourly simulations and independent validation using HOMER Pro, the system demonstrates reliable performance under normal, degraded, and stochastic climatic scenarios, achieving 100% renewable penetration under standard conditions and maintaining supply continuity even under extreme resource reduction (99.7% load coverage). Techno-economic analysis reveals a levelized cost of energy of 41.29 DA/kWh, an internal rate of return of 15.35%, and annual CO₂ emission reductions exceeding 8,000 tonnes compared to diesel-only alternatives. The close agreement between MATLAB and HOMER Pro results (deviations below 7% for key parameters) validates the proposed sizing methodology. This work provides a practical, replicable design and validation framework applicable to diverse off-grid electrification contexts, demonstrating that hybrid renewable systems can achieve both technical reliability and economic competitiveness while substantially reducing environmental impact.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/1749-4877.70164",
+          "title": "Osteological, Biological, and Genetic Consequences of Colonization of Fresh Waters by Marine Cottoid Fishes (Cottidae)",
+          "authors": [
+            "В. Г. Сиделева",
+            "Zakhar Zhidkov",
+            "Nataliia V. Annenkova",
+            "Alexander Ryumin",
+            "Danila A. Melentev"
+          ],
+          "journal": "Integrative Zoology",
+          "date": "2026-08-07",
+          "doi": "10.1111/1749-4877.70164",
+          "url": "https://openalex.org/W7201863476",
+          "abstract": "Мarine cottoid fishes of the genus Triglopsis colonized large lakes of glacial genesis in Northern Europe and North America. The fourhorn sculpin Triglopsis quadricornis dispersed into post-glacial European lakes (e.g., Ladoga and Onega) from the Baltic Sea. The Great Lakes are inhabited by a freshwater species, Triglopsis thompsonii. Lacustrine forms of Triglopsis from North American and European lakes are at different stages of evolution, making them a suitable model for testing hypotheses about evolutionary patterns and rates. An integrative analysis of morphological, genetic, and biological adaptations occurring in lacustrine forms of the genus Triglopsis was carried out. The obtained results demonstrate the presence of rapid adaptive changes in morphological features associated with skeletal lightening. The degree of morphological transformation varies from lake to lake, thus gradual morphological changes are observed. The diet of lake forms is dominated by crustaceans, as in marine Triglopsis, but the objects they consume gradually decrease in size. In contrast to morphological differences, populations are characterized by weak genetic differentiation from each other due to recent colonization (10-15 kya). However, genetic evidence of the adaptive nature of speciation processes occurring in the genus Triglopsis, which are not characteristic of Myoxocephalinae in general, was found. Methods for the detection of natural selection revealed an increase in episodic positive selection occurring in the cytb gene in species of the genus Triglopsis (as well as Megalocottus) that successfully adapted to low water salinity. Thus, the studied species undergo rapid adaptive changes associated with the colonization of a new habitat.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/land15081417",
+          "title": "Spatial Insights into the Carbon and Environmental Footprint of Mediterranean Wheat: Integrating Life Cycle Assessment and Data Envelopment Analysis for Land-System Climate Resilience",
+          "authors": [
+            "Eleni Adam",
+            "Athanasia Mavrommati‬",
+            "Angelos Patakas"
+          ],
+          "journal": "Land",
+          "date": "2026-08-07",
+          "doi": "10.3390/land15081417",
+          "url": "https://openalex.org/W7201851380",
+          "abstract": "Rainfed wheat covers much of the semi-arid Mediterranean, yet its environmental cost is rarely measured at the field scale where management decisions are made. This study assesses the carbon and environmental footprint of rainfed wheat in the Mygdonia Basin, Northern Greece, drawing on a primary dataset of 1385 fields (~976 ha). Life Cycle Assessment (LCA) was coupled with Data Envelopment Analysis (DEA) to link environmental performance with technical efficiency. Carbon footprint ranged from 2030 to 3110 kg CO2e ha−1, revealing pronounced spatial variability across management systems. Excess nitrogen fertilization emerged as the principal driver of greenhouse gas emissions, acidification, and eutrophication in lowland systems. High-altitude systems showed lower impacts per hectare, an advantage partly offset by higher terrestrial ecotoxicity from increased machinery use. DEA revealed widespread technical inefficiency, most fields scoring between 0.70 and 0.90, with input slacks tracing this to excess nitrogen and seed. The convergence of LCA and DEA findings identifies nitrogen management as the key leverage point for improving environmental and technical performance without compromising productivity. The findings support spatially differentiated interventions under the Common Agricultural Policy, promoting precision nutrient management and conservation-oriented practices to strengthen the resilience of Mediterranean agroecosystems.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -902,6 +1221,64 @@
           "source": "OpenAlex"
         },
         {
+          "id": "10.64898/2026.08.02.742285",
+          "title": "MMMAS: A Mendelian Mismatch Matrix Analysis System for Deterministic Pre-Screening of Germplasm Collections",
+          "authors": [
+            "QiLiang Chen",
+            "Liuxiu Chen",
+            "Jing Fan",
+            "Xiaoping Yang",
+            "Jingguo Zhang",
+            "Wei Du",
+            "Wei Du",
+            "Ziang Liu",
+            "Hongju Hu"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-06",
+          "doi": "10.64898/2026.08.02.742285",
+          "url": "https://openalex.org/W7201880421",
+          "abstract": "Germplasm collections are expanding, yet erroneous pedigree records, duplicate accessions, and undocumented kinship remain widespread. We present MMMAS (Mendelian Mismatch Matrix Analysis System) v1.0.0, an open-source tool that converts pairwise Mendelian mismatch numbers (Mmn) into an N x N mismatch matrix. From this matrix, MMMAS derives five population-scale diagnostics: the Mendelian Minimum Mismatch Number (Mmin), the Mendelian Average Mismatch Number (Mavg), the Mendelian Zero-mismatch Partner Number (Mzmp), the Mendelian Mismatch Mode Duplication Index (Mmmd), and the Mendelian Exhaustive Stratification (MES) grading system, with the core computation requiring neither allele frequency estimates nor assumptions of genetic models. When validated on 1,085 apple and 383 sweet cherry accessions from the German Fruit Genebank, MMMAS reproduced published CERVUS assignments at 97.31% (apple)~100% (sweet cherry) recall, detected one literature-confirmed duplicate genotype via the Mmmd index, and identified documented breeding hub parents such as 'Cox Orange'. Marker-reduction analysis on the apple dataset showed that nine simple sequence repeat (SSR) loci were sufficient to maintain a stable MES grading structure, whereas resolving highly distinct wild germplasm required no fewer than 13 loci. End-to-end analysis of a simulated 10,000-accession panel (50 million pairwise comparisons) completed in under six minutes on a workstation, with runtime scaling near-linearly with the number of pairwise comparisons (O(N 2 L)). MMMAS is released under the MIT license, featuring a bilingual graphical interface, standard CSV input, and complete documentation. It provides a deterministic pre-screening layer for stratifying genetic distinctness in germplasm collections.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.13057/biodiv/d270620",
+          "title": "Chromosome karyotype analysis of&lt;i&gt; Sapindus rarak&lt;/i&gt; (&lt;i&gt;lerak&lt;/i&gt;) from Ungaran, Central Java, Indonesia",
+          "authors": [
+            "ANANDA PUTRI DEWANTARI MASAILLA",
+            "Endang Yuniastuti",
+            "PARJANTO PARJANTO"
+          ],
+          "journal": "Biodiversitas Journal of Biological Diversity",
+          "date": "2026-08-06",
+          "doi": "10.13057/biodiv/d270620",
+          "url": "https://openalex.org/W7201955813",
+          "abstract": "Abstract. Masailla APD, Yuniastuti E, Parjanto. 2026. Chromosome karyotype analysis of Sapindus rarak (lerak) from Ungaran, Central Java, Indonesia. Biodiversitas 27 (6): d270620. https://doi.org/10.13057/biodiv/d270620. Sapindus rarak (lerak), a member of the family Sapindaceae and the soapberry group, has long been utilized as a natural cleaning agent due to its high saponin content. Despite its potential as an environmentally friendly and renewable resource, genetic information on this species remains limited. This study aimed to analyze the karyotype of S. rarak to provide fundamental cytogenetic data that can support plant breeding and conservation efforts. Two types of S. rarak, namely yellow and brown variants originating from Ungaran, Central Java, Indonesia, were used as research materials. Chromosome analysis was conducted using the squash preparation method, followed by microscopic observation and measurement of chromosome number, size, and centromere position. The data were analyzed descriptively to determine the karyotype characteristics. The results showed that both S. rarak types have the same chromosome number, 2n = 28, with chromosome sizes ranging from 0.856±0.145 to 2.487±0.222 µm. The karyotype formula was determined as 2n = 2x = 28 = 13m + 1sm, indicating a predominance of metacentric chromosomes. These findings provide essential baseline genetic information that can be used for species identification, support plant breeding programs, and contribute to the development of S. rarak as a sustainable, eco-friendly natural soap resource.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.48620/93879",
+          "title": "A Genomic Perspective on Cryptic Species Reveals Complex Evolutionary Dynamics in the Gray Zone of the Speciation Continuum.",
+          "authors": [
+            "Kin Onn Chan",
+            "Dario N. Neokleous",
+            "Shahrul Anuar",
+            "Rafe M Brown",
+            "Carl R. Hutter",
+            "Das, Indraneil",
+            "Stefan Hertwig"
+          ],
+          "journal": "Open Access CRIS of the University of Bern",
+          "date": "2026-08-06",
+          "doi": "10.48620/93879",
+          "url": "https://openalex.org/W7124465997",
+          "abstract": "The evolutionary dynamics of cryptic species remain poorly understood, and their detection relies primarily on methods that quantify divergence, assuming that gene flow is absent. Here, we examine how gene flow shapes the evolutionary trajectories and species boundaries in Bornean Fanged Frogs, a renowned example of cryptic diversity where a single species has been split into 18 genetically divergent yet morphologically indistinguishable species. We employed target-capture data from over 13,000 loci to assess lineage independence of 14 nominal species distributed across Malaysian Borneo by evaluating both divergence and cohesion using network multispecies coalescent (NMSC) and MSC + migration approaches. Under the Unified Species Concept, only six of the 14 nominal species unambiguously form independently evolving lineages; the remainder represent cohesive metapopulation lineages nested within those six species. While mitochondrial p-distances varied substantially (up to 10%), genome-wide net divergences (Da) were more consistent, ranging from 0.5-2%, placing all the hypothesized \"cryptic species\" within the empirical gray zone of the speciation continuum. We show that diversification in the gray zone is unpredictable and heavily impacted by gene flow, leading to two key phenomena that confound species delimitation: (1) the artifactual branch effect, where admixed lineages are inferred as long, early-diverging branches, creating an illusion of deep divergence; and (2) the species-definition anomaly zone, where intraspecific pairwise sequence distances exceed interspecific ones. We further demonstrate that divergence in the gray zone varies among metrics and genomic regions, reflecting heterogeneity in evolutionary dynamics across the genome. Different genomic markers also vary considerably in phylogenetic discordance and their ability to retain signatures of gene flow. Loci from anchored hybrid enrichment (AHE) and ultraconserved elements (UCE) produced less phylogenetic discordance and retained signals of older introgression but failed to detect recent migration, making them suitable for phylogenetic reconstruction and inferring ancient introgression, but not ongoing gene flow. Recognizing the central role of gene flow reframes our understanding of cryptic species; rather than being considered as genetically distinct units that failed to evolve morphological differentiation, they are manifestations of continuous diversification in the gray zone. This shift in perspective offers a new and dynamic evolutionary framework for identifying and interpreting cryptic biodiversity across the Tree of Life.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1038/s41597-026-08016-2",
           "title": "A gap-free, telomere-to-telomere chromosome-scale genome assembly of the mangrove red snapper, Lutjanus argentimaculatus",
           "authors": [
@@ -1089,6 +1466,20 @@
           "doi": "10.1080/02705060.2026.2706853",
           "url": "https://openalex.org/W7172538166",
           "abstract": "Reba carp, Cirrhinus reba, is an economically important endemic fish species in Bangladesh. A 758 bp fragment of the mitochondrial DNA control region (mtDNA) was analyzed to assess the genetic diversity, intraspecific genetic structure, and historical demography of C. reba from three wild populations in Bangladesh. Individual samples were collected from two rivers (the Padma and Karatoya) and one haor (Dingapota) basin in Bangladesh. A total of 38 haplotypes were detected among the 89 individuals analyzed, which included 56 substitutions. Analysis revealed that the haplotype diversity (h) of the Padma River population was high (0.961 ± 0.026), followed by the Karatoya River (0.749 ± 0.055) and Dingapota Haor (0.753 ± 0.059) populations. On the contrary, nucleotide diversity (π) was high in the Karatoya population (0.007 ± 0.004), followed by the Padma River (0.005 ± 0.003) and Dingapota Haor (0.003 ± 0.002) populations. Pairwise F ST comparisons and AMOVA results indicate that the Karatoya population was significantly different from the Padma and Dingapota Haor populations. However, a statistically insignificant difference was observed between the Padma River and Dingapota Haor populations. The minimum spanning tree showed two different clusters of haplotypes. Phylogenetic analysis also revealed two distinct clades, one of which was composed of haplotypes from Padma River and Dingapota Haor, and the other from the Karatoya River. Demographic analysis indicated that the Padma River and Dingapota Haor populations underwent recent population expansion, as evidenced by significantly negative Tajima's D and Fu's Fs values and mismatch distribution analyses. In contrast, the Karatoya River population exhibited signs of weaker expansion, indicated by a significant negative Tajima's D but a positive, non-significant Fu's Fs value. Evolutionary factors, species biology, and hydrological characteristics of water bodies can all contribute to the formation of a structured population. Present findings can provide baseline information for initiating management strategies for this commercially important species in Bangladesh.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "https://openalex.org/W7201919697",
+          "title": "Ethiopian Coffee (Coffea arabica L.) Germplasm Genetic Diversity: Implication in current research achievement and Breeding Program",
+          "authors": [
+            "Dawit Merga"
+          ],
+          "journal": "Journals & Books Hosting (International Knowledge Sharing Platform)",
+          "date": "2026-08-05",
+          "doi": "",
+          "url": "https://openalex.org/W7201919697",
+          "abstract": "Coffea arabica L. is the dominant coffee species in the world coffee production contributing over 60% of total production. Ethiopian 30% of foreign exchange income earned from Arabica coffee. Arabica coffee has unique aroma, flavor and low caffeine that make it highly demanding coffee species in coffee producing and consuming countries. As Ethiopia is home land for Arabica coffee very enormous genetic variability expected among coffee germplasm which is vital for further improvement to response the existing world’s demand on Arabica coffee. Thus, this review conducted with the intention to assess the genetic diversity among Ethiopian Coffee (Coffea arabica L.) germplasm for the next breeding program and in the current research results achievement. Up to date, about 7,067 coffee accessions were collected by Jimma Agricultural Research Center; but, 15.33% were died due to enormous environmental factors. Those collected from different coffee growing areas are under utilization as germplasm in order to search for desirable traits and genetic improvement. Different methods like Morphological marker and molecular markers which include DNA markers and RNA markers are being under use for genetic diversity studies. From studies conducted in Ethiopia on coffee germplasm collected from forest coffee, semi forest and garden coffee production system across region, clearly indicated that the availability of coffee genetic diversity which is the primarily required for coffee genetic improvement. The current reviewed scholars authenticated that the existence of wider genetic diversity in Arabica coffee collection in terms of yield and other agronomical traits, diseases and insect pest resistance potential. Hence, up to date 7 hybrid and 35 pureline varieties, totally 42 coffee varieties released in Ethiopia for different coffee growing regions. The highest yield potential of pure line and hybrid variety is 2380Kg ha-1 and 2680 Kg ha-1 respectively; still, the average national coffee yield is 646Kgha-1; thus, further extension work and improvement for yield and disease resistance are lacking. The achievement of 60%-120% heterosis in yield, implies that the availability of great opportunity and experts to be confident in Coffea arabica L. genetic potential improvement for economic traits, diseases resistance and insect pest tolerance in Ethiopia specifically and in the World generally. Key words: - Coffee arabica L., Diversity, Germplasm, Molecular marker and Morphological marker",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -3179,13 +3570,9 @@
     }
   },
   "stats": {
-    "total_count": 153,
-    "new_this_week": 68,
+    "total_count": 174,
+    "new_this_week": 87,
     "weekly_trend": [
-      {
-        "week": "2026-W26",
-        "count": 0
-      },
       {
         "week": "2026-W27",
         "count": 0
@@ -3200,11 +3587,15 @@
       },
       {
         "week": "2026-W30",
-        "count": 84
+        "count": 0
       },
       {
         "week": "2026-W31",
-        "count": 58
+        "count": 86
+      },
+      {
+        "week": "2026-W32",
+        "count": 77
       }
     ]
   }
