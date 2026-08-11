@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:44:27Z",
+  "generated_at": "2026-08-11T07:10:03Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -634,6 +634,26 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1093/aob/mcag083",
+          "title": "Genomic evidence of hybridization between two species in Nicotiana sect. Alatae.",
+          "authors": [
+            "Couto MAMDS",
+            "Soares LS",
+            "Rodrigues DM",
+            "Garcia-Carpintero Burgos V",
+            "Bombarely A",
+            "Brandão Freitas L",
+            "Turchetto C"
+          ],
+          "journal": "Annals of botany",
+          "date": "2026-08-10",
+          "doi": "10.1093/aob/mcag083",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41933913/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
           "id": "10.1038/s41597-026-08059-5",
           "title": "Chromosome-level genome assembly of Oxyria digyna",
           "authors": [
@@ -651,6 +671,22 @@
           "doi": "10.1038/s41597-026-08059-5",
           "url": "https://openalex.org/W7201973693",
           "abstract": "Abstract Oxyria digyna is a perennial herb widely distributed across Arctic and Alpine regions, representing one of the oldest extant Arctic plant lineages. Despite its ecological and evolutionary importance, no chromosome-scale reference genome has been published as a research paper to date. Here, we present two high-quality chromosome-level genome assemblies of O. digyna generated using high-fidelity long-read sequencing data and long-read–based chromatin conformation capture sequencing data. Our final phased genome assemblies span 548.60 Mb and 540.00 Mb with scaffold N50 values of 77.17 Mb and 76.59 Mb, respectively. Karyotyping confirmed a chromosome number of 2n = 14, which matches the number of chromosome-scale scaffolds in our final genome assemblies. Also, Telomere-to-telomere continuity was achieved for three chromosomes in one haplotype. The assemblies exhibit high completeness and accuracy, with BUSCO scores exceeding 95% and QV values above 57. Gene annotation identified 20,794 genes, including 19,500 protein-coding genes. Pan-genome analysis incorporating publicly available assemblies revealed 3.17 million variant loci, including 84,360 structural variants. This chromosome-level genome provides a valuable resource for studying Arctic plant adaptation, genome evolution, and genetic mechanisms underlying environmental resilience.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/evolut/qpag139",
+          "title": "Integration promotes morphological innovation in deep-sea anglerfishes (Eupercaria: Lophiiformes)",
+          "authors": [
+            "HoWan Chan",
+            "Elizabeth Christina Miller",
+            "Kory M Evans"
+          ],
+          "journal": "Evolution",
+          "date": "2026-08-08",
+          "doi": "10.1093/evolut/qpag139",
+          "url": "https://openalex.org/W7201979276",
+          "abstract": "Anglerfishes (Lophiiformes) have evolved diverse morphological solutions for life in the deep sea (>200 m). Previous studies have shown that the bathypelagic lineage (Ceratioidei) exhibits high evolutionary rates; however, the intrinsic mechanisms underlying this accelerated evolution remained unclear. Here, we examine patterns of modularity and integration, rates of morphological evolution, and evolutionary rate matrices across the skulls of 100 anglerfish species spanning shallow and deep-sea habitats using geometric morphometrics and phylogenetic comparative methods. We find that both deep-benthic and bathypelagic anglerfishes exhibit stronger patterns of integration compared to their shallow-water relatives. The iconic bathypelagic anglerfishes (Ceratioidei) differ from other Lophiiformes by exhibiting an integrated upper-lower jaw system, likely driven by selection for feeding efficiency in resource-scarce environments. Jaw evolution in Ceratioidei, Chaunacoidei, and Ogcocephaloidei exhibits novel evolutionary trajectories that differ from the dominant pattern across Lophiiformes. Our findings suggest that extreme environments promoted morphological innovation in anglerfishes through evolution in novel phenotypic directions and strengthening of evolutionary integration.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1776,6 +1812,57 @@
           "doi": "10.1093/aob/mcag242",
           "url": "https://openalex.org/W7172525253",
           "abstract": "BACKGROUND AND AIMS: The eucalypt clade composed of Angophora, Blakella and Corymbia (the 'bloodwood eucalypts') includes over 110 species and dominates the vast savannahs, open forests and woodlands of northern Australia. Relationships within this clade have been difficult to decipher despite significant previous investigation. METHODS: Using target-capture data from a eucalypt-specific bait set (568 nuclear genes) and whole plastome sequences, we conducted a phylogenomic study of Angophora, Blakella and Corymbia (sampling 97 species with 168 accessions) employing tree, network, divergence dating, and coalescent simulation analyses to investigate evolutionary relationships and patterns of phylogenomic discordance. KEY RESULTS: Phylogenetic relationships in Angophora, Blakella and Corymbia are affected by extensive phylogenomic discordance, attributed to persistently high levels of incomplete lineage sorting through time, and frequent introgression concentrated at particular branches. Branches affected by introgression were consistently co-affected by incomplete lineage sorting, and nuclear genes with higher recombination rates more frequently supported discordant topologies affected by incomplete lineage sorting. Additionally, a mixture of incomplete lineage sorting, plastid capture and sex-biased dispersal are likely responsible for substantial cytonuclear discordance. Based on molecular divergence dating analyses, diversification of lineages within genera was estimated to have commenced during the late Oligocene. CONCLUSIONS: We provide a robust framework phylogeny for Angophora, Blakella and Corymbia, and further support for the position of Blakella sister to Angophora and Corymbia .We attribute the difficulty in resolving this trichotomy to incomplete lineage sorting during divergence, with subsequent hybridisation between Blakella and Corymbia. Patterns of high discordance, incomplete lineage sorting and introgression across the phylogeny indicate that evolution at the genomic level does not follow a single, bifurcating species tree. Ultimately, our results demonstrate the intrinsic entwinement of diversification and discordance-inducing processes in the evolutionary history of eucalypts and highlight the group as an example of a phylogenomic mosaic.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/microorganisms14081712",
+          "title": "Early Response QTLs and DEGs Underlying Oil Palm Resistance to Ganoderma boninense in Two Breeding Populations Evaluated in Pre-Nursery Trials",
+          "authors": [
+            "Aurélie Daval",
+            "David Lopez",
+            "Térésa Cuellar",
+            "Aqdi Prasetio",
+            "Marie Denis",
+            "Alexandre Soriano",
+            "Solène Puerto",
+            "Dadang Afandi",
+            "Virginie Pomiès",
+            "Jeanne Danon",
+            "Deni Arifiyanto",
+            "Camille Madec",
+            "Younes Amara",
+            "Virginie Riou",
+            "Indra Syahputra",
+            "Florence Jacob",
+            "Norbert Billotte",
+            "Sébastien Tisné"
+          ],
+          "journal": "Microorganisms",
+          "date": "2026-08-04",
+          "doi": "10.3390/microorganisms14081712",
+          "url": "https://openalex.org/W7172433490",
+          "abstract": "Ganoderma boninense, a soil-borne pathogenic fungus causing basal stem rot (BSR) disease in oil palm, is the major threat to cultivation in Southeast Asia, with the potential to reduce oil production by up to 80% in severely affected plantations. With a view to marker-assisted selection (MAS) of resistant planting material, we combined genetics and transcriptomics approaches to investigate the defense mechanisms of oil palm against infection by G. boninense. We first performed quantitative trait locus (QTL) mapping of BSR resistance using a multi-locus Bayesian variable selection approach applied to more than 10 years of data collected during pre-nursery tests of Deli and La Mé breeding populations. We found 6 and 5 BSR resistance loci segregating in Deli and La Mé respectively, with no overlap between them. Then we performed an RNA-sequencing approach on libraries of roots and bole of oil palm seedlings inoculated or not with G. boninense, focusing on Deli × La Mé crosses with contrasted BSR resistance. A Bayesian variable selection on predictors obtained by tracing the resistance loci haplotypes in profiled individuals identified 195 differentially expressed genes (DEGs) for the G. boninense inoculation × QTL interaction, among the 551 DEGs found for inoculation effects. The DEGs were located both in cis and trans positions compared to the segregating QTL intervals, enabling the prioritization of candidate genes and resistance mechanisms associated. Focusing on a strong effect QTL region on chromosome 4 in the Deli genetic background, we identified three candidate genes in cis positions that exhibited differential expression both in response to G. boninense inoculation and between resistant and susceptible haplotypes. Our study is the first combining QTL and RNA-seq approaches in oil palm based on genetically connected experimental setup, providing valuable information on the underlying mechanisms and paving the way for MAS of BSR resistant planting material.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.4269/ajtmh.26-0049",
+          "title": "Considerations for Postrelease Environmental Safety Monitoring of Gene Drive-Modified Mosquitoes as a Tool for Malaria Control in Sub-Saharan Africa",
+          "authors": [
+            "Paul K. Abram",
+            "Jérémy Bouyer",
+            "Brinda Dass",
+            "Dorington Ogoyi",
+            "Fredros Okumu",
+            "Justin M. Overcash",
+            "Stephanie L. James"
+          ],
+          "journal": "American Journal of Tropical Medicine and Hygiene",
+          "date": "2026-08-04",
+          "doi": "10.4269/ajtmh.26-0049",
+          "url": "https://openalex.org/W7172441891",
+          "abstract": "Progress on malaria elimination has stalled, especially in Africa where approximately 600,000 deaths occurred in 2024. Gene drive-modified mosquito (GDMM) technologies are a potentially transformational new tool to prevent malaria transmission by Anopheles mosquitoes. Gene drive-modified mosquito technologies have been successful in contained (caged) testing, and field testing is being planned. Gene drive-modified mosquitoes are designed to be more specific vector control tools than chemical insecticides. However, the potential for spread and persistence of engineered gene drive constructs within interbreeding mosquito populations has raised concerns about possible negative effects on biodiversity. Postrelease safety monitoring of GDMMs will be an important component of risk management, yet scientifically based strategies for evaluating the environmental safety of GDMMs are lacking. Drawing from experience with related technologies in use, we propose a systematic approach to safety monitoring that is risk proportionate, considers ecological priorities and stakeholder concerns, and is practicable to implement in malaria-endemic countries. Suggested methods aim to achieve maximal decision-making value within available resources. Indicators of possible adverse impacts are selected strategically according to ecological analyses using a transparent ranking system. Intensity and coverage of monitoring reflect characteristics of both the GDMMs and the ecological indicator species, with allowance for adjusting the plan in response to initial results, ongoing observations, and regulator feedback. Although developed for early field testing, the framework can also help to guide later phase research and postimplementation environmental monitoring of GDMMs for malaria control in Africa, and it may inform the development of other genetic biological control technologies.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -3570,8 +3657,8 @@
     }
   },
   "stats": {
-    "total_count": 174,
-    "new_this_week": 87,
+    "total_count": 178,
+    "new_this_week": 77,
     "weekly_trend": [
       {
         "week": "2026-W27",
@@ -3591,11 +3678,11 @@
       },
       {
         "week": "2026-W31",
-        "count": 86
+        "count": 100
       },
       {
         "week": "2026-W32",
-        "count": 77
+        "count": 67
       }
     ]
   }
