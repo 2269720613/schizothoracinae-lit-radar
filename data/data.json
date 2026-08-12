@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T07:10:03Z",
+  "generated_at": "2026-08-12T07:26:56Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -126,6 +126,49 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.64898/2026.08.04.742811",
+          "title": "The fate of a dynasty: Population genomics uncovers the demographic history of Ardea insignis, one of the rarest bird species in the world",
+          "authors": [
+            "Martin Kapun",
+            "Tshering Tobgay",
+            "Alexandra Wanka",
+            "Wolfgang Fiedler",
+            "Tricia C. Goulding",
+            "Andreas Kroh",
+            "Luise Kruckenhauser",
+            "Samten Leki",
+            "Thinley Phuntsho",
+            "Marcela Suarez‐Rubio",
+            "Sonam Tshering",
+            "Swen C. Renner"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-09",
+          "doi": "10.64898/2026.08.04.742811",
+          "url": "https://openalex.org/W7202023142",
+          "abstract": "The White-bellied Heron (Ardea insignis) is one of the world's rarest birds, with fewer than 60 known individuals remaining in the wild. Whether this extreme rarity reflects a recent anthropogenic collapse or a long history of persistently small population size has remained unknown, limiting our understanding of the species' evolutionary resilience and conservation needs. Here, we present the first high-quality reference genome for A. insignis, generated using Oxford Nanopore long-read sequencing and complemented with Illumina whole-genome data. Comparative mitochondrial and nuclear phylogenomic analyses consistently recover A. insignis as the sister species of Purple Heron (A. purpurea), while revealing moderate mitonuclear discordance among deeper ardeid lineages. Genome-wide analyses demonstrate exceptionally low heterozygosity and extensive runs of homozygosity relative to the widespread and closely related Great Blue Heron (A. herodias), indicating pronounced genomic erosion and long-term inbreeding. However, the predominance of short and intermediate-length homozygous tracts, together with robust Pairwise Sequentially Markovian Coalescent (PSMC) reconstructions across alternative parameterizations, indicates that A. insignis has persisted with comparatively small effective population sizes over much of its evolutionary history rather than experiencing only a recent demographic collapse. The two sampled individuals nevertheless differ in the abundance of longer homozygous tracts, indicating that inbreeding accumulated over the past few generations has not been uniform among the surviving birds, despite their shared history of chronic rarity. Our results indicate that the White-bellied Heron represents a lineage that has survived prolonged demographic adversity and that its greatest genetic challenge may be limited adaptive potential rather than recent genomic deterioration alone. Beyond providing the first genomic resource for this critically endangered species, our study establishes an evolutionary baseline for future monitoring and highlights the importance of integrating genomic and ecological data to guide conservation strategies for species persisting at the edge of extinction.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3390/fishes11080465",
+          "title": "Scale-Dependent Microhabitat Choice of an Asian Minnow (Schizothorax grahami) in Heterogeneous Rock-Array Flows",
+          "authors": [
+            "Biao Wang",
+            "Hongze Li",
+            "Huijuan Chen",
+            "Xiaogang Wang",
+            "Jianzhang Lv"
+          ],
+          "journal": "Fishes",
+          "date": "2026-08-09",
+          "doi": "10.3390/fishes11080465",
+          "url": "https://openalex.org/W7202076851",
+          "abstract": "Fish can perceive and respond to local flow structures when selecting microhabitats, yet how scale-dependent hydrodynamic heterogeneity shapes behavioral habitat choice remains poorly understood. In this study, a multi-scale rock-array flow field was constructed using flume experiments, and the volitional swimming behavior of Schizothorax grahami was observed. Hydrodynamic parameters including velocity magnitude (Umag), turbulent kinetic energy (TKE), and kinetic energy gradient (KEG) were analyzed. The results indicated that fish distribution changed with rock size: at a rock-element diameter of 0.12 m, fish were dispersed without forming stable high-utilization core areas; at 0.24 m, fish aggregated in the lee-side regions behind the rock elements; and at 0.50 m, fish shifted toward the upstream faces. The hydrodynamic variables significantly associated with fish microhabitat selection varied with rock-array scale: in the 0.24 m rock arrays, KEG differed significantly between high- and low-use units under all flow conditions; in the 0.50 m rock arrays, Umag and TKE showed consistent and significant between-group differences across flow conditions. Moreover, cross-scale overlap analysis revealed that the utilization range of velocity magnitude had the highest overlap, followed by TKE, with KEG exhibiting the lowest overlap. Collectively, these findings support a hierarchical interpretation of fish microhabitat selection characterized by “velocity rigidity–turbulence elasticity,” providing a potential perspective for understanding differences in the hydrodynamic variables associated with fish microhabitat selection across studies. These results indicate that both mean velocity constraints and local turbulence-creating structures should be considered in river habitat restoration and roughness element configuration.",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.15468/dl.j54npf",
@@ -652,6 +695,123 @@
           "abstract": "",
           "track": "B",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1186/s13104-026-07953-w",
+          "title": "Diversity parameter calculation from SSR data with varying and higher ploidy levels: an example on pear (Pyrus ssp.) data",
+          "authors": [
+            "Lea Broschewitz",
+            "Stefanie Reim",
+            "Henryk Flachowsky",
+            "Monika Höfer"
+          ],
+          "journal": "BMC Research Notes",
+          "date": "2026-08-10",
+          "doi": "10.1186/s13104-026-07953-w",
+          "url": "https://openalex.org/W7202069812",
+          "abstract": "Abstract Objective SSR markers are used for a myriad of genetic analyses, such as genotyping, parentage analysis or genetic structure, due to their high polymorphism, co-dominance and genomic ubiquity. Most downstream analysis tools usually require a diploid dataset but some plant species may have higher ploidy levels or there may be genotypes within the species that differ in ploidy level. Additionally, SSR markers can show multi-locus behaviour and are prone to genotyping errors. Consequently, existing analysis tools often do not meet the requirements of plant datasets. Nevertheless, accurately estimating genetic diversity parameters remains essential, even for polyploid datasets. This emphasizes the importance of adapting such datasets appropriately to enable subsequent analysis while preserving their biological validity. Results This study examines an example dataset of pear cultivars to evaluate how genetic diversity parameters are affected by data adjustments. The original dataset, which includes numerous markers with more than two alleles, was compared with three modified subsets in which additional alleles (more than two) and selected markers were excluded. The results show that genetic diversity statistics remain largely consistent across datasets. The script used in this work thus provides a robust basis for making dataset adjustments before further analyses.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/aob/mcag247",
+          "title": "Cytogenetic constraints on hybridization: A meta-analysis investigating the role of chromosome number in monocot hybrid evolution using a newly developed tool, the ploidy deviation index (PDI)",
+          "authors": [
+            "Justin Scholten",
+            "Adrian Sprenger",
+            "Ava Perez",
+            "Olivia Hullihen",
+            "Chelsea D. Specht"
+          ],
+          "journal": "Annals of Botany",
+          "date": "2026-08-10",
+          "doi": "10.1093/aob/mcag247",
+          "url": "https://openalex.org/W4416295111",
+          "abstract": "BACKGROUND AND AIMS: Hybridization is a major driver of plant diversity, yet the role of cytogenetic compatibility, particularly differences in chromosome number, remains poorly understood. Differences in parental chromosome number can present barriers to hybrid formation by disrupting meiotic stability, but the extent to which biological and ecological factors influence the chromosomal architecture of hybrids remains poorly quantified, especially in monocots. This study aims to investigate how chromosome number divergence interacts with biological and ecological factors to shape hybrid formation in monocots, using a novel quantitative metric, the Ploidy Deviation Index (PDI), to standardize comparisons of hybrid cytogenetic architecture. MATERIAL AND METHODS: We developed and applied the PDI, a continuous index quantifying chromosome-number deviation between a hybrid and its two parents, across approximately 200 hybrid cases with documented parental karyotypes. Hybrids were categorized as homoploid, uniparentally homoploid, intermediate, or polyploid based on their PDI values. We analyzed the distribution of PDI scores in relation to type of hybrid origin (natural vs. artificial), growth habit, size of the genus (a proxy for richness), and range of chromosome number within a genus (proxy for diversity). Comparisons across categories employed Anderson-Darling k-sample tests, multinomial logistic regression, and Mann-Whitney U tests to determine significance. KEY RESULTS: Homoploid hybrids were found to be the most frequent. We found no significant difference in PDI distributions between natural and artificial hybrids. Significant variation in PDI distributions was found among growth habits, with aquatic hybrids more likely to be homoploid and geophytic hybrids showing higher proportions of polyploidy. Intermediate hybrids were common in larger genera with broader chromosome-number ranges, whereas polyploid hybrids showed the highest PDI values in large and karyotypically diverse genera. CONCLUSION: These results challenge long-held assumptions that polyploidy dominates hybrid formation and reveal that homoploid and intermediate chromosomal configurations are common in monocots. The PDI framework offers a powerful, standardized approach for assessing cytogenetic constraints on hybridization, with implications for systematics, evolutionary biology, and conservation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1002/ppp3.70212",
+          "title": "Genomic insights into the local adaptation of spontaneous olive trees in the Mediterranean Basin highlight the need for conservation planning in the face of global change",
+          "authors": [
+            "Lison Zunino",
+            "Gautier Sarah",
+            "Lorenzo Rocchetti",
+            "Bénédicte Rhoné",
+            "Alexandre Soriano",
+            "Gaëtan Droc",
+            "Pierre Mournet",
+            "Ahmed El Bakkali",
+            "Evelyne Costes",
+            "Bouchaïb Khadari",
+            "Philippe Cubry"
+          ],
+          "journal": "Plants People Planet",
+          "date": "2026-08-10",
+          "doi": "10.1002/ppp3.70212",
+          "url": "https://openalex.org/W7202144525",
+          "abstract": "Societal Impact Statement The Mediterranean Basin, a major biodiversity hotspot, is highly vulnerable to climate and global changes. Wild olive trees form an essential part of this landscape and hold strong ecological, cultural and socio‐economic significance. By examining how these trees responded to past climatic conditions, this study shows adaptation of olive trees to local conditions of temperature and precipitation. Gene flow from cultivated olive into wild populations does not appear to reduce this adaptive potential. These findings provide valuable guidance for conservation planning and restoration efforts, supporting the protection of resilient olive populations and Mediterranean ecosystems under ongoing climate change. Le bassin méditerranéen, une zone de forte biodiversité, est particulièrement vulnérable aux changements globaux. Les oliviers sauvages constituent une partie essentielle de ce paysage et possèdent une grande importance écologique, culturelle et socio‐économique. En examinant comment ces arbres ont réagi aux conditions climatiques passées, cette étude met en évidence l'adaptation des oliviers aux conditions locales de température et de précipitations. Le flux de gènes provenant des oliviers cultivés vers les populations sauvages ne semble pas réduire ce potentiel d'adaptation. Ces résultats fournissent des orientations précieuses pour la planification de la conservation et les efforts de restauration, en soutenant la protection des populations d'oliviers résilientes et des écosystèmes méditerranéens face au changement climatique en cours. Summary Rapid environmental changes threaten global biodiversity, with the Mediterranean Basin (MB) being highly vulnerable due to faster warming rates. In the western MB, spontaneously occurring populations of Olea europaea var. sylvestris comprise both genuinely wild individuals and admixed forms resulting from crop‐to‐wild gene flow. The genuinely wild ones likely maintain genetic variation shaped by local environmental pressures. We analysed genome sequencing data from spontaneously occurring populations and cultivated olives. Selective sweep detection and genotype–environment association (GEA) approaches were applied to wild populations to detect genomic regions associated with climate variations. Our results revealed genomic signatures of adaptation in wild olives, mainly related to temperature and precipitation during the coldest quarter. Notably, numerous polymorphic candidate SNPs detected in the wild compartment were also found polymorphic in admixed individuals but were invariant in cultivated individuals, suggesting that introgression might conserve much of the wild adaptive potential. The broadening of standing genetic variation resulting from hybridization could further accelerate adaptation to novel or shifting environments. In conclusion, we provide evidence that western genuine wild olives are locally adapted and that admixed populations maintain key adaptive variants. It also highlights the risk of future (mal)adaptation of natural populations and reinforces the need for spontaneously occurring olives conservation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.04.742811",
+          "title": "The fate of a dynasty: Population genomics uncovers the demographic history of Ardea insignis, one of the rarest bird species in the world",
+          "authors": [
+            "Martin Kapun",
+            "Tshering Tobgay",
+            "Alexandra Wanka",
+            "Wolfgang Fiedler",
+            "Tricia C. Goulding",
+            "Andreas Kroh",
+            "Luise Kruckenhauser",
+            "Samten Leki",
+            "Thinley Phuntsho",
+            "Marcela Suarez‐Rubio",
+            "Sonam Tshering",
+            "Swen C. Renner"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-09",
+          "doi": "10.64898/2026.08.04.742811",
+          "url": "https://openalex.org/W7202023142",
+          "abstract": "The White-bellied Heron (Ardea insignis) is one of the world's rarest birds, with fewer than 60 known individuals remaining in the wild. Whether this extreme rarity reflects a recent anthropogenic collapse or a long history of persistently small population size has remained unknown, limiting our understanding of the species' evolutionary resilience and conservation needs. Here, we present the first high-quality reference genome for A. insignis, generated using Oxford Nanopore long-read sequencing and complemented with Illumina whole-genome data. Comparative mitochondrial and nuclear phylogenomic analyses consistently recover A. insignis as the sister species of Purple Heron (A. purpurea), while revealing moderate mitonuclear discordance among deeper ardeid lineages. Genome-wide analyses demonstrate exceptionally low heterozygosity and extensive runs of homozygosity relative to the widespread and closely related Great Blue Heron (A. herodias), indicating pronounced genomic erosion and long-term inbreeding. However, the predominance of short and intermediate-length homozygous tracts, together with robust Pairwise Sequentially Markovian Coalescent (PSMC) reconstructions across alternative parameterizations, indicates that A. insignis has persisted with comparatively small effective population sizes over much of its evolutionary history rather than experiencing only a recent demographic collapse. The two sampled individuals nevertheless differ in the abundance of longer homozygous tracts, indicating that inbreeding accumulated over the past few generations has not been uniform among the surviving birds, despite their shared history of chronic rarity. Our results indicate that the White-bellied Heron represents a lineage that has survived prolonged demographic adversity and that its greatest genetic challenge may be limited adaptive potential rather than recent genomic deterioration alone. Beyond providing the first genomic resource for this critically endangered species, our study establishes an evolutionary baseline for future monitoring and highlights the importance of integrating genomic and ecological data to guide conservation strategies for species persisting at the edge of extinction.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.07.743600",
+          "title": "Topographic complexity shapes adaptive genomic variation in co-occurring plant species",
+          "authors": [
+            "Simon Eduardo Lobos",
+            "Collin W. Ahrens",
+            "Paul D. Rymer",
+            "Kathryn A. Hodgins",
+            "Adam D. Miller"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-09",
+          "doi": "10.64898/2026.08.07.743600",
+          "url": "https://openalex.org/W7202024592",
+          "abstract": "Co-occurring species often face similar selective environments, although adaptive responses to these environments are generally assumed to be species-specific, particularly in complex landscapes where selective pressures are likely to be multi-dimensional. We test this assumption by contrasting genotype-environment associations (GEAs) among a range of co-occurring but unrelated plants with different life histories from an isolated, mountainous national park in south-eastern Australia. Analyses were performed using single nucleotide polymorphism (SNP) loci derived from reduced genome representation sequencing to investigate genomic associations with spatial and environmental drivers across unrelated plant species within the same heterogeneous landscape. Several species showed GEAs that aligned with similar environmental gradients, particularly edaphic features, suggesting that similar selective pressures can shape genomic responses across taxa. Other species exhibited distinct spatial and environmental associations, highlighting idiosyncratic outcomes. Notably, GEAs were detected at fine spatial scales despite generally low levels of genome-wide divergence, suggesting adaptive variants can persist in the face of gene flow under strong selective pressure. This study highlights how community-level genomic diversity is shaped by common environmental processes, with implications for biodiversity management in rapidly changing environments, where diverse ecosystem-level responses to selection may underpin resilience.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41598-026-63009-w",
+          "title": "Systematic bias undermines mitochondrial phylogenomics of deep divergences of Diptera",
+          "authors": [
+            "Debajyoti Kabiraj",
+            "Pulakeswar Basumatary"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-08-09",
+          "doi": "10.1038/s41598-026-63009-w",
+          "url": "https://openalex.org/W7202049048",
+          "abstract": "Mitochondrial genomes (mtDNA) are widely used in insect phylogenetics, yet their reliability for resolving ancient and rapid radiations, such as in Diptera, remains confounded by systematic bias. We analyzed 112 dipteran mitogenomes, treating the 13 protein-coding genes as partitions of a single non-recombining locus, to quantify the limits of mitochondrial signal and identify sources of deep-branch inference error. While mtDNA retains a structured, largely tree-like signal that reliably resolves terminal clades, deeper backbone relationships remain unstable and inconsistent across inference methods. This instability arises from compositional non-stationarity, substitution saturation, and lineage-specific rate heterogeneity; when these properties violate the assumptions of homogeneous models, they generate misleading statistical support for incorrect topologies. Although heterogeneous methods, including reduced-state recoding and heterotachy-aware mixture models, alleviate some biases, deep-node distortions persist. Diptera-parameterized simulations successfully reproduce these empirical patterns through compositional convergence, covarion-like heterotachy, and terminal rate acceleration, directly linking specific evolutionary processes to inference error. Extensive conflict among the 13 non-recombining partitions, negative internode certainty, and spurious non-tree-like signals further diagnose severe systematic bias. Tree-based metrics reveal predictable structural distortions, including branch-length inflation and reduced stemminess. Together, our results show that dipteran mitogenomes are information-rich yet analytically fragile at depth, and we provide a diagnostic workflow demonstrating that apparent phylogenetic complexity can emerge from structured error and homoplasy rather than true evolutionary history.",
+          "track": "B",
+          "source": "OpenAlex"
         },
         {
           "id": "10.1038/s41597-026-08059-5",
@@ -1516,6 +1676,31 @@
           "doi": "",
           "url": "https://openalex.org/W7201919697",
           "abstract": "Coffea arabica L. is the dominant coffee species in the world coffee production contributing over 60% of total production. Ethiopian 30% of foreign exchange income earned from Arabica coffee. Arabica coffee has unique aroma, flavor and low caffeine that make it highly demanding coffee species in coffee producing and consuming countries. As Ethiopia is home land for Arabica coffee very enormous genetic variability expected among coffee germplasm which is vital for further improvement to response the existing world’s demand on Arabica coffee. Thus, this review conducted with the intention to assess the genetic diversity among Ethiopian Coffee (Coffea arabica L.) germplasm for the next breeding program and in the current research results achievement. Up to date, about 7,067 coffee accessions were collected by Jimma Agricultural Research Center; but, 15.33% were died due to enormous environmental factors. Those collected from different coffee growing areas are under utilization as germplasm in order to search for desirable traits and genetic improvement. Different methods like Morphological marker and molecular markers which include DNA markers and RNA markers are being under use for genetic diversity studies. From studies conducted in Ethiopia on coffee germplasm collected from forest coffee, semi forest and garden coffee production system across region, clearly indicated that the availability of coffee genetic diversity which is the primarily required for coffee genetic improvement. The current reviewed scholars authenticated that the existence of wider genetic diversity in Arabica coffee collection in terms of yield and other agronomical traits, diseases and insect pest resistance potential. Hence, up to date 7 hybrid and 35 pureline varieties, totally 42 coffee varieties released in Ethiopia for different coffee growing regions. The highest yield potential of pure line and hybrid variety is 2380Kg ha-1 and 2680 Kg ha-1 respectively; still, the average national coffee yield is 646Kgha-1; thus, further extension work and improvement for yield and disease resistance are lacking. The achievement of 60%-120% heterosis in yield, implies that the availability of great opportunity and experts to be confident in Coffea arabica L. genetic potential improvement for economic traits, diseases resistance and insect pest tolerance in Ethiopia specifically and in the World generally. Key words: - Coffee arabica L., Diversity, Germplasm, Molecular marker and Morphological marker",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.gecco.2026.e04365",
+          "title": "Genome-wide assessment of suspected domestic cat introgression in the critically endangered Tsushima leopard cat",
+          "authors": [
+            "Yuki Matsumoto",
+            "Takuma Kaito",
+            "Koki Taniguchi",
+            "Daijiro HATA",
+            "Rumi Kaneko",
+            "Yui Habe",
+            "Keisuke Matsushita",
+            "Noriyoshi Akiyama",
+            "Yushi Koshida",
+            "Takae Shimizu-Matsumoto",
+            "Miho Inoue‐Murayama",
+            "Hideyuki Ito"
+          ],
+          "journal": "Global Ecology and Conservation",
+          "date": "2026-08-05",
+          "doi": "10.1016/j.gecco.2026.e04365",
+          "url": "https://openalex.org/W7172482538",
+          "abstract": "The Tsushima leopard cat, an insular felid endemic to the Tsushima Island, Japan, is listed as Critically Endangered in the Japanese Red List, with an estimated population size of approximately 100 individuals. Recently, a short-tailed individual was detected, raising concerns over its possible hybrid origins because such a phenotype has not been documented in leopard cats but is relatively common in domestic cats. However, whether this phenotype reflects domestic introgression or variation within the wild population remains unknown. We hypothesized that recent introgression would produce a detectable domestic ancestry signal in the focal individual. We therefore analyzed whole-genome data from the focal individual, 15 additional Tsushima leopard cats, five domestic cats from Tsushima Island, and four Amur leopard cats as continental wild references. Principal component analysis placed the focal individual within the Tsushima leopard cat cluster. ADMIXTURE assigned the focal individual almost entirely to the Tsushima leopard cat ancestry component, and neither f 3 nor f 4 admixture statistics supported recent domestic cat introgression. Mitochondrial DNA analysis showed that the focal individual shared a haplotype with the Tsushima leopard cats and was distinct from the domestic cat clade. The same genetic pattern was observed across the sampled population, with no evidence of substantial recent hybridization in the focal individual or nearby wildcats. To the best of our knowledge, this is the first report of a short-tailed individual in the genus Prionailurus . These findings highlight the value of genome-wide evaluation in resolving suspected hybrid cases in endangered wild felids.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -3657,8 +3842,8 @@
     }
   },
   "stats": {
-    "total_count": 178,
-    "new_this_week": 77,
+    "total_count": 186,
+    "new_this_week": 68,
     "weekly_trend": [
       {
         "week": "2026-W27",
@@ -3674,15 +3859,15 @@
       },
       {
         "week": "2026-W30",
-        "count": 0
+        "count": 11
       },
       {
         "week": "2026-W31",
-        "count": 100
+        "count": 106
       },
       {
         "week": "2026-W32",
-        "count": 67
+        "count": 58
       }
     ]
   }
