@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T07:36:44Z",
+  "generated_at": "2026-08-14T07:26:30Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -128,6 +128,30 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1016/j.cbpa.2026.112050",
+          "title": "Single-cell transcriptomics identifies a candidate osmoregulatory cell population in the mid-intestine of the saline-alkaline fish Gymnocypris przewalskii.",
+          "authors": [
+            "Wei Y",
+            "Shi C",
+            "Wang F",
+            "Lai Q",
+            "Gao P",
+            "Zhou K",
+            "Sun Z",
+            "Li Y",
+            "Li Y",
+            "Wang Z",
+            "Yao Z"
+          ],
+          "journal": "Comparative biochemistry and physiology. Part A, Molecular & integrative physiology",
+          "date": "2026-09-01",
+          "doi": "10.1016/j.cbpa.2026.112050",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42468776/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
           "id": "10.1016/j.marpolbul.2026.120224",
           "title": "Thermal effluent exposure reveals early physiological constraints and the bioindicator potential of the invasive pearl oyster Pinctada radiata in a warming Mediterranean Sea",
           "authors": [
@@ -168,6 +192,24 @@
           "doi": "10.1111/jfb.70604",
           "url": "https://openalex.org/W7202144429",
           "abstract": "Tambaqui (Colossoma macropomum) is a tropical fish widely cultivated in South America. The increasing demand for this species has heightened interest in its cultivation in subtropical regions with greater thermal variability, where cold shock may induce oxidative stress. This study evaluated the effects of cold shock and subsequent recovery on antioxidant enzyme activity, which included superoxide dismutase (SOD), catalase (CAT), glutathione peroxidase (GPx), glutathione reductase (GR), glutathione S-transferase (GST) and oxidative damage biomarkers (lipid peroxidation and protein carbonyl) in different tissues of juvenile tambaqui exposed to cold shock at 20°C for 24 h. Samples were collected before temperature reduction (baseline) and at 1, 24 and 48 h after returning to 28°C (recovery phase). Because sampling was restricted to the recovery period, the biomarkers primarily reflected post-stressor physiological reorganization. Recovery responses were strongly tissue-specific. The liver exhibited the broadest biomarker modulation, whereas the gills showed the highest integrated disturbance and the earliest response according to Integrated Biomarker Response version 2 (IBRv2). The brain displayed the clearest tendency towards restoration of basal redox homeostasis, while the intestine and muscle retained oxidative demands during later recovery. These findings demonstrate that post-cold recovery in juvenile tambaqui is a dynamic and tissue-dependent process and highlight the importance of multibiomarker and multitissue approaches for physiological monitoring and thermal stress assessment in tropical aquaculture species.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.ese.2026.100752",
+          "title": "Hydrodynamics rather than water temperature shapes the macroinvertebrate communities in alpine rivers on the Qinghai–Xizang Plateau",
+          "authors": [
+            "Yaqi Luo",
+            "Mengzhen Xu",
+            "Xiongdong Zhou",
+            "Dongfeng Li",
+            "Xudong Fu"
+          ],
+          "journal": "Environmental Science and Ecotechnology",
+          "date": "2026-08-10",
+          "doi": "10.1016/j.ese.2026.100752",
+          "url": "https://openalex.org/W7202122442",
+          "abstract": "Climate change is rapidly altering global glacier-fed rivers, with prevailing models assuming that temperature increases dictate aquatic community succession. However, this thermal-centric paradigm struggles to explain biodiversity patterns within the extreme topographic and hydrologic gradients of the Third Pole. By analyzing macroinvertebrate assemblages across the Yarlung Tsangpo Basin, we show that hydrodynamic condition, rather than water temperature, primarily influences biodiversity and community assembly in these high-altitude alpine rivers. With hydrodynamic intensity indicated by specific stream power, taxa richness exhibits a universal unimodal response, consistently peaking under moderate hydrodynamic intensity (1 to 10 W m −2 ). Extreme stream power acts as a severe physical filter, driving a stark taxonomic shift from filamentous-gilled species in moderate flows to robust, flat-bodied specialists capable of resisting ultra-high-power environments. These findings demonstrate that localized hydrodynamic modulation—rather than unattainable temperature control—provides a highly viable, climate-resilient strategy to safeguard biodiversity in the Third Pole and analogous alpine river networks worldwide.",
           "track": "A",
           "source": "OpenAlex"
         },
@@ -785,6 +827,105 @@
           "source": "PubMed"
         },
         {
+          "id": "10.3389/fpls.2026.1889274",
+          "title": "Conservation and divergence of abiotic stress-responsive gene co-expression networks in diploid and tetraploid cotton",
+          "authors": [
+            "Heng Wang",
+            "Yumeng Zhu",
+            "Ting Zhao",
+            "Xueying Guan",
+            "Junduo Wang",
+            "Luyao Wang"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-12",
+          "doi": "10.3389/fpls.2026.1889274",
+          "url": "https://openalex.org/W7202294158",
+          "abstract": "Cotton ( Gossypium spp.) is highly susceptible to abiotic stresses, including temperature extremes, drought, and salinity. The diploid species Gossypium arboreum retains stress adaptive traits that are poorly represented in modern tetraploid cultivars, yet the evolutionary and regulatory bases of these ploidy associated differences remain insufficiently understood. Here, we performed a comparative transcriptomic analysis of 54 seedling leaf RNA-seq libraries from Gossypium arboreum , Gossypium hirsutum , and Gossypium barbadense subjected to four abiotic stress treatments. By integrating standardized cross-species normalization with an optimized gene co-expression network framework, we minimized interspecific technical heterogeneity and enabled robust comparison of stress responsive regulatory architectures. Consensus network analysis revealed marked topological divergence between diploid and tetraploid cotton. The G. arboreum A 2 network showed strong structural conservation with the A t subgenome of G. hirsutum , whereas extensive co-expression rewiring was detected in the A t subgenome of G. barbadense , which may reflect lineage-specific regulatory remodeling of stress-response programs after allopolyploidization. By integrating conserved multi-species networks with five genome or subgenome specific networks, we identified 54 core cold-repressed candidate genes, including a BBR-BPC transcription factor potentially associated with ethylene related stress signaling. The divergent topology of the cold-responsive subnetwork defined by these candidates suggests extensive transcriptional reprogramming associated with polyploid evolution. Module preservation analysis also uncovered an A 2 -specific heat-responsive module centered on an ERF transcription factor. In a distinct drought/heat co-responsive module, another ERF was predicted to coordinate both a heat shock factor (HSF) and an ABA responsive TALE transcription factor, suggesting potential regulatory crosstalk between heat and drought signaling pathways. Collectively, our study resolves conserved and lineage-specific components of cotton abiotic stress regulation and provides candidate regulators for resilience oriented molecular breeding.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08085-3",
+          "title": "Chromosome-Level Genome Assembly and Annotation of the South Pacific Albacore (Thunnus alalunga)",
+          "authors": [
+            "Dongqi Lu",
+            "Feng Wu",
+            "Jiangfeng Zhu",
+            "Fan Zhang"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-12",
+          "doi": "10.1038/s41597-026-08085-3",
+          "url": "https://openalex.org/W7202179114",
+          "abstract": "Thunnus alalunga is an economically important pelagic species widely distributed in subtropical and temperate waters. In this study, we generated a chromosome-level genome assembly of T. alalunga by integrating PacBio HiFi and Hi-C sequencing technologies. The final assembled genome spanned approximately 809.18 Mb, with a contig N50 of 33.53 Mb. Using Hi-C data, 99.85% of the assembly was anchored onto 24 pseudochromosomes. BUSCO analysis indicated high completeness, with 99.40% of conserved orthologs detected in the genome assembly. A total of 24,432 protein-coding genes were predicted, of which 99.74% were functionally annotated. Repetitive sequences accounted for 235.42 Mb, representing 29.22% of the genome. This high-quality genome provides a valuable genomic resource for future studies on evolution, population structure, and conservation of T. alalunga in the context of climate change and increasing anthropogenic pressures.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1887538",
+          "title": "Deciphering centuries of selection: genetic structure and reproductive screening in Basilicata and Calabria’s ancient olives",
+          "authors": [
+            "Roberto Mariotti",
+            "Filomena Carriero",
+            "Thomas Vatrano",
+            "G. Lacertosa",
+            "Roya Nikbakht",
+            "Muhammad Ajmal Bashir",
+            "Lorenzo Cruciani",
+            "Soraya Mousavi"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-12",
+          "doi": "10.3389/fpls.2026.1887538",
+          "url": "https://openalex.org/W7202271297",
+          "abstract": "The olive tree ( Olea europaea L.) is a cornerstone of Mediterranean biocultural heritage, yet the shift toward intensive monoculture threatens its vast genetic diversity. This study presents a comprehensive molecular characterization of 347 olive accessions, including 172 monumental trees, from the Calabria and Basilicata regions of Southern Italy. Utilizing 10 nuclear SSR markers and chloroplast (cp-SSR) genotyping, we explored genetic diversity and maternal inheritance. Furthermore, we employed a novel diagnostic marker targeting the GA2ox -S gene, the functional determinant of the diallelic self-incompatibility (DSI) system, to assign genotypes to reproductive groups G1 and G2. Our results identified 114 unique genotypes, representing a significant reservoir of uncatalogued traditional germplasm. Notably, we discovered three instances of putative polyploidy in indigenous Calabrian olives, a rarity for the species typically considered diploid. Comparative analysis with an international dataset revealed a highly admixed genetic structure, with local genotypes showing strong affinity to Algerian and Greek pools while remaining distinct from Western Mediterranean and Middle Eastern clusters. Systematic genotyping of both canopies and rootstocks provided genetic evidence consistent with historical grafting practices in 34 instances. We observed a clear structural and maternal partition: cultivated canopies predominantly belonged to the E1 (Eastern) lineage, while uncultivated rootstocks preserved the indigenous E2 (Central-Western) maternal heritage. Reproductive screening revealed a regional dichotomy: the G1 group dominates in Basilicata, while the G2 group is more prevalent among Calabrian landraces. These findings underscore how historical agricultural practices, grafting elite clones onto resilient wild oleasters, clonal propagation, and DSI-driven obligate outcrossing have synergistically shaped the high heterozygosity of Southern Italian groves. This work provides valuable genetic resources for conservation and future breeding programs aimed at exploring resilience against climate change and emerging pathogens.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41420-026-03284-8",
+          "title": "Interconnected roles of cellular senescence and the immune microenvironment in tumor progression: from pan-cancer mechanisms to glioblastoma implications",
+          "authors": [
+            "Wenwen Zhao",
+            "Pengfei Zhang",
+            "Lixin Li",
+            "Jingran Yang",
+            "Jia Cheng",
+            "Wenjing Zhou",
+            "Yongchao Zhang",
+            "Lin Dong",
+            "Feng Ding",
+            "Jianxiong Ji",
+            "Jianyang Du"
+          ],
+          "journal": "Cell Death Discovery",
+          "date": "2026-08-12",
+          "doi": "10.1038/s41420-026-03284-8",
+          "url": "https://openalex.org/W7202279679",
+          "abstract": "Abstract Cellular senescence is an irreversible cell state induced by diverse stressors, characterized by permanent cell cycle arrest coupled with sustained metabolic activity. In the context of tumor evolution, senescence exhibits remarkable complexity and dynamism: it functions not only as an early tumor-suppressive barrier that blocks malignant transformation but also recruits and reprograms immune cells through the senescence-associated secretory phenotype (SASP), thereby constructing a distinctive tumor microenvironment (TME). Concurrently, the status of the immune system, including the efficacy of immunosurveillance and the occurrence of local immune exhaustion, reciprocally determines the ultimate fate of senescent cells and governs the transition between their tumor-suppressive and tumor-promoting effects. This dynamic tripartite regulatory network comprising senescence, immunity, and the tumor constitutes the core framework for understanding tumor heterogeneity and drug resistance mechanisms. Advances in single-cell and spatial multi-omics technologies have provided unprecedented precision for dissecting the spatiotemporal evolution of this network. Current efforts to integrate senescence-targeted interventions, such as combinatorial “induce-modulate-eliminate” strategies, with modern immunotherapy show immense potential, although precisely breaching physical barriers and eradicating highly invasive senescent clones remain formidable challenges. This review systematically examines the molecular mechanisms of cellular senescence, with emphasis on the intrinsic logic governing bidirectional remodeling between senescent cells and the immune microenvironment. Glioblastoma (GBM) serves as the focal disease model throughout, providing in-depth analysis of how these mechanisms manifest within a highly immune-privileged ecosystem and their therapeutic implications. By dissecting the interplay between pan-cancer mechanisms and the GBM-specific microenvironment, this review aims to provide a new theoretical foundation for next-generation precision cancer immunotherapy.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fmicb.2026.1913067",
+          "title": "Unexpected enrichment of antibiotic resistance genes in recirculating aquaculture effluents of rainbow trout (Oncorhynchus mykiss): microbial community assembly and mobile genetic elements as key drivers",
+          "authors": [
+            "Xiaofei Yang",
+            "Lili Li",
+            "Jinxin Zhang",
+            "Jiangqi Qu",
+            "Shaogang Xu"
+          ],
+          "journal": "Frontiers in Microbiology",
+          "date": "2026-08-12",
+          "doi": "10.3389/fmicb.2026.1913067",
+          "url": "https://openalex.org/W7202290984",
+          "abstract": "Introduction Recirculating aquaculture systems (RAS) are increasingly used in intensive aquaculture because of their capacity to reduce nitrogen, phosphorus, and organic matter discharges. However, whether improved conventional effluent quality is accompanied by a reduced antibiotic resistance gene (ARG) burden remains unclear. Methods During the mid-cultivation stage, effluents were collected from four RAS farms and four paved flow-through raceway systems (PFRS). Water quality parameters, including total nitrogen (TN), total phosphorus (TP), chemical oxygen demand (COD), chlorophyll-a (Chl-a), and dissolved oxygen (DO), were measured. Microbial community composition was characterized using 16S rRNA gene sequencing, while ARGs and mobile genetic elements (MGEs) were quantified using GeoChip 5.0. Multivariate statistics and co-occurrence network analyses were used to evaluate associations among environmental conditions, microbial communities, ARG profiles, and MGE profiles. Results RAS effluents showed substantially lower nutrient and organic loads than PFRS, confirming improved conventional water quality. However, total ARG abundance was significantly higher in RAS than in PFRS, increasing from 35.39 ± 11.43 × 10 6 to 63.99 ± 15.33 × 10 6 , corresponding to a 1.81-fold increase. In contrast, total MGE abundance was numerically higher in RAS but did not differ significantly between systems. Microbial alpha diversity was lower in RAS, and beta diversity analysis showed distinct community structuring between cultivation modes, with both compositional differences and dispersion effects contributing to group separation. ARG class- and subtype-level profiles showed heterogeneous abundance patterns, with several major ARG categories remaining highly abundant in RAS, although most feature-level differences were not significant after FDR correction. Co-occurrence network analysis further revealed structured associations among microbial species, ARGs, and MGEs, with modular organization and highly connected resistance-associated nodes. Conclusion This study demonstrates a “low-pollution but non-reduced ARG burden” pattern in RAS effluents. Improved removal of conventional pollutants did not correspond to a proportional reduction in ARG or MGE profiles. These findings indicate that conventional water-quality indicators alone are insufficient to evaluate resistance-associated genetic pollution in engineered aquaculture systems, and that ARGs, MGEs, microbial community structure, and species–ARG/MGE association patterns should be integrated into future RAS monitoring and management.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.3389/fmicb.2026.1878689",
           "title": "Epichloë—the obligate mutualist protecting some commercially important temperate grasses from biotic and abiotic stresses",
           "authors": [
@@ -839,6 +980,225 @@
           "doi": "10.1017/s0031182026102637",
           "url": "https://openalex.org/W7202148078",
           "abstract": "Speciation in parasites of marine mammals represents an important yet relatively understudied facet of marine research.Evolutionary and ecological interactions between the trematode family Brachycladiidae and their cetacean definitive hosts have previously been investigated at family level, but not at genus level.Using the molecular markers NADH dehydrogenase subunit 3 (mtND3) and 28s, the Brachycladiidae family are utilised as a model to study speciation and divergence events that underpin variation within parasites of marine mammals, with issues surrounding accurate taxonomy and the extent to which specific parasite species can utilise multiple definitive hosts.Specifically, Campula oblonga was investigated; a cosmopolitan, globally distributed brachycladiid liver fluke, capable of infecting multiple Phocoenidae species, but also considered to be phylogenetically challenging.Here, it is found that C. oblonga is in fact several cryptic species and that divergence is ultimately linked to the evolutionary histories and ecological traits of the specific host population or species.These findings indicate that parasite speciation occurs across spatial and host species scales, illustrating the importance of not only geographical isolation but also host specialisationwith potential applications for cetacean conservation, utilising patterns of parasite speciation and divergence as evidence of host evolutionary history.This study also highlights issues with the current classification of brachycladiid parasites within the genera Oschmarinella and Orthosplanchnus, proving recommendations for future studies to fully resolve brachycladiid phylogeny.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/pce.70810",
+          "title": "Frequent Tandem Gene Duplications Enhance Stress Resistance and Environmental Adaptation in Extremophilic <i>Apocynum</i> Species",
+          "authors": [
+            "Xiaofan He",
+            "Qing Wang",
+            "Jiaxin Nie",
+            "Hao Hu",
+            "Fangqian Liu",
+            "Yingyan Chen",
+            "Ying Dong",
+            "Huajuan Leng",
+            "Xiaofeng Wu",
+            "Yunling Zhang",
+            "Tiejun Zhang",
+            "Xinqing Shao",
+            "Li Jiang",
+            "Shangang Jia"
+          ],
+          "journal": "Plant Cell & Environment",
+          "date": "2026-08-11",
+          "doi": "10.1111/pce.70810",
+          "url": "https://openalex.org/W7202186425",
+          "abstract": "Extremophile Apocynum species hold significant economic and ecological value in arid regions. Deciphering their genetic variation is therefore essential for understanding geographic adaptation to abiotic stresses. Here, we assembled a high-quality genome of Apocynum pictum, and, through comparison with the A. venetum genome, identified abundant genome-wide structural variations, particularly tandem gene duplications (TDs). For instance, a key TD spanning 19 tandem SRP genes was found in A. pictum, compared to only four in A. venetum. We further performed whole-genome resequencing of 280 individuals from natural populations of A. venetum and A. pictum that were widely distributed across arid and saline-alkali regions in northern China. We revealed a distinct geographical distribution of six genetic population clusters in the current landscape. Demographic inference identified a severe population decline during the Last Glacial Maximum, while genetic offset analysis forecasted high vulnerability to future climate change in the mountains and Tarim Basin for both species. TDs, for example, tandemly duplicated LRR-RLK, ABCG, and TLP genes, were under significant selection, as revealed by both selective sweep analysis between A. venetum and A. pictum and genome-environment association analysis with temperature and precipitation variables. TLP overexpression in tobacco enhanced drought tolerance by alleviating oxidative damage. Furthermore, a dual-luciferase assay confirmed that the A. pictum TLP promoter haplotypes carrying selection signals exhibited higher transcriptional activity than their counterparts in A. venetum. Our findings highlighted the combined roles of gene dosage effects and regulatory sequence selection of frequent stress-resistant TDs in harsh environments.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.07.743568",
+          "title": "Genomics and CT imaging reveal diversity in silk genes and gland morphology of webspinners",
+          "authors": [
+            "Amanda Markee",
+            "Lillian J. Davis",
+            "Daniel Davis",
+            "Janice S Edgerly",
+            "Edward L. Stanley",
+            "Jessica L. Ware",
+            "Akito Y. Kawahara",
+            "Ashlyn Powell",
+            "Cheryl Y. Hayashi",
+            "Richard H. Baker",
+            "Paul B. Frandsen"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-11",
+          "doi": "10.64898/2026.08.07.743568",
+          "url": "https://openalex.org/W7202169141",
+          "abstract": "Webspinners (Insecta: Embioptera) are an unusual insect order that are known for their subsocial behavior and prolific silk-production. Due to their unique foreleg silk glands, and spider-like ability to produce silk throughout their entire life cycle, webspinners are hypothesized to have evolved silk independently from other arthropod lineages. To date, there are no reference-quality genomes available for the order, preventing the study of their silk gene origination and diversification. Here, we assembled PacBio HiFi reference genomes and characterized the silk genes present in two webspinner species, Aposthonia ceylonica and Oligotoma nigra . The genomes reveal multiple full-length copies of the primary Embioptera silk gene, e-fibroin , that have undergone both ancestral and recent gene duplications within the group. For both species, all e-fibroin paralogs show the presence of complex repeat units consisting of multiple exons and introns that are remarkably homogenized across each gene. We also used μ7CT-scanning of the internal silk glands to provide details concerning the localization of silk production in foreleg tarsi, and interspecific morphology.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1371/journal.pgen.1012271",
+          "title": "Genomic constraint and hypervariability correlate with fitness effects in elite tetraploid potato breeding material",
+          "authors": [
+            "Trine Aalborg",
+            "Zihui Ding",
+            "Yaoyao Wu",
+            "Elsa Sverrisdóttir",
+            "Kåre Lehmann Nielsen",
+            "Guillaume P. Ramstein"
+          ],
+          "journal": "PLoS Genetics",
+          "date": "2026-08-11",
+          "doi": "10.1371/journal.pgen.1012271",
+          "url": "https://openalex.org/W7202178894",
+          "abstract": "Tetraploid potato is the most important vegetable food crop in the world. However, genetic gains from modern breeding efforts have been limited due to tetrasomic inheritance, the accumulation of deleterious mutations during domestication, and subsequent clonal propagation during modern breeding. In this study, we analyzed previously identified evolutionarily constrained genomic regions in the potato genome relative to a breeding panel of tetraploid potato clones derived from elite cultivars (the MASPOT panel). We demonstrate a significant association between derived allele frequency (DAF) and both positive (constrained) and negative (excess of substitutions relative to neutrality, i.e., hypervariable) nucleotide conservation scores (GERP scores) in the breeding panel, indicating that negative GERP scores can annotate sites affected by positive selection or other non-neutral processes affecting population allele frequency. The deep phylogeny approach can be leveraged to alleviate inbreeding in potatoes through the qualification of causative alleles in tetraploids, offering a valuable resource for potato genetic improvement by molecular breeding. Estimates of genetic load within the tetraploid clones reveal that heterozygous loads vastly exceed homozygous loads for deleterious alleles, consistent with masking of recessive mutations. Deleterious load was significantly correlated with several trait phenotypes but did not improve prediction accuracy of any traits in the tetraploid panel. This could be due to the increased complexity of tetrasomic inheritance, including more effective load complementation, and/or a higher proportion of heterozygosity in tetraploid compared to diploid potato. Intriguingly, the hypervariable load correlated significantly with several phenotypes and improved genomic prediction accuracy of yield by 5% relative to a negative control (permuted loads). This indicates that the inferred hypervariable sites from Solanaceae evolutionary information may contain genetic information relevant for breeding, and that, in contrast to current practice, it is relevant to include and further explore sites with negative GERP scores in general.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.32942/x2p966",
+          "title": "Chromosomal speciation through holocentric lenses",
+          "authors": [
+            "Inés Gómez-Ramos",
+            "Rogelio Sánchez-Villegas",
+            "Ana Valdés-Florido",
+            "Carmen Benítez-Benítez",
+            "Lucía Laynez-Puyana",
+            "Kjetil Voje",
+            "František Zedek",
+            "Enrique Maguilla",
+            "Kohta Yoshida",
+            "Kay Lucek",
+            "Marcial Escudero"
+          ],
+          "journal": "",
+          "date": "2026-08-11",
+          "doi": "10.32942/x2p966",
+          "url": "https://openalex.org/W7202191124",
+          "abstract": "Chromosomal rearrangements (CRs) can trigger speciation by acting as barriers to gene flow. Two main theoretical frameworks were developed on how they contribute to speciation: causing infertility in heterokaryotypes (hybrid dysfunction) or creating islands of divergence through recombination suppression. However, these theories were developed with monocentric chromosomes in mind. Species with holocentric chromosomes, which lack a localized centromere, account for 15-20 % of the eukaryote biodiversity in terms of species richness. These organisms have a higher tolerance for large CRs but the number of chiasmata (recombination) is more restricted, defying assumptions for both types of chromosomal speciation models. This highlights the need to look at chromosomal speciation through holocentric lenses. Here, we synthesize how holocentricity redefines these frameworks across diverse lineages, shedding light into the diverse patterns in both karyotypic diversity and their impact on speciation. We further show that the effects of CRs depend on interactions among meiotic mechanisms, genome organization, reproductive barriers, and demographic history. Rather than producing a single evolutionary outcome, holocentricity generates a diversity of pathways through which chromosome evolution can influence speciation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44279-026-00688-z",
+          "title": "Evaluation of bread wheat (Triticum aestivum L.) genotypes in Ethiopia through multi-environment trial analysis using factor analytic mixed models",
+          "authors": [
+            "Negash Geleta",
+            "Tarekegn Argaw",
+            "Bayisa Asefa",
+            "Brehanu Sime",
+            "Gadisa Alemu",
+            "Alemu Dabi",
+            "Tafesse Solomon",
+            "Rut Duga",
+            "Abebe Delesa",
+            "Habtemariam Zegeye",
+            "Demeke Zewudu",
+            "Abebe Getamesay",
+            "Dawit Asnake",
+            "Zerihun Tadesse",
+            "Geremew Awas"
+          ],
+          "journal": "Discover Agriculture",
+          "date": "2026-08-11",
+          "doi": "10.1007/s44279-026-00688-z",
+          "url": "https://openalex.org/W7202208055",
+          "abstract": "Abstract Bread wheat is a vital crop for Ethiopia’s food security, with expanding cultivation driven by variety development efforts and strategic national initiatives. This study presents a multi-environment trial (MET) analysis to evaluate the genetic performance of 140 unique bread wheat genotypes, using data from 20 trials conducted across Ethiopia’s major wheat-growing regions. Each trial was designed using a row-column design (RCD) arranged in a rectangular array of plots. Four traits —grain yield (GYLD), hectoliter weight (HLW), days to heading (DTH), and thousand kernel weight (TKW) were considered in the analysis. We fitted a factor analytic linear mixed model (FAMM) based on a one-stage approach. Spatial models were fitted to account for field trends, while factor analytic (FA) model was used to model genotype-by-environment (G × E) effects. Model comparisons showed that the FA model consistently outperformed the diagonal (DIAG) model across all traits, offering greater flexibility capturing the variation in G × E effects. Heritability estimates were generally high, especially for DTH, which also showed strong genetic correlations across environments highlighting its reliability as a selection trait. In contrast, yield-related traits exhibited complex G × E patterns and variable heritability, reflecting their polygenic nature and environmental sensitivity. While the highest-yielding check variety, Balcha , retained its lead in GYLD, three genotypes—EBW202104, EBW202110, and EBW193155—demonstrated stable and competitive performance across environments for multiple traits, particularly grain quality and maturity. This makes them strong candidates for varietal release and registration for commercial production in Ethiopia. Future research should integrate genomic and environmental data.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/pbr.70124",
+          "title": "New Considerations on Meiosis, Affinity and Genomic Constitution in Aneuploids and Interploid Hybrids of <i>Urochloa</i> P. Beauv. ( <i>Brachiaria</i> )",
+          "authors": [
+            "Isabella de Campos Moraes",
+            "Pedro Henrique Mendes Carvalho",
+            "Fausto Souza Sobrinho",
+            "Vânia Helena Techio"
+          ],
+          "journal": "Plant Breeding",
+          "date": "2026-08-11",
+          "doi": "10.1111/pbr.70124",
+          "url": "https://openalex.org/W7202225109",
+          "abstract": "ABSTRACT The combination of polyploidy, apomixis and the formation of aneuploid and interploid hybrids makes the genus Urochloa an interesting system for investigating meiotic stability and genome behaviour in grasses. In this study, routine meiotic analysis and genomic in situ hybridization (GISH) were used to (i) evaluate meiosis in three hybrids of the Brizantha clade, (ii) characterize chromosome/genome behaviour throughout division and (iii) confirm the genomic constitution of the interploid hybrid 7F/153 (synthetic autotetraploid Urochloa ruziziensis × allopentaploid Urochloa brizantha , with B 2 and putative B/B 1 genomes, respectively) and its male parent, U. brizantha . The interploid hybrids (2 n = 40 and 41) showed broadly similar meiotic behaviour and differed from the aneuploid hybrid 1F/21 (2 n = 36 + 1), suggesting that increased chromosome number was accompanied by higher frequencies of multivalent configurations, meiotic abnormalities and lower pollen viability. GISH analysis in the hybrid 7F/153 revealed preferential bivalent pairing between chromosomes of the B 2 genome and between those of the B/B 1 genomes, whereas intergenomic associations between B/B 1 and B 2 genomes occurred predominantly in multivalent configurations. Most univalents identified belonged to the B 2 genome, and some showed chromatid segregation during Anaphase I. Chromosomes from the B 2 genome were also predominant in the micronuclei of tetrads. The parent U. brizantha (2 n = 5 x = 45) presented a set of nine B 2 chromosomes, confirming for the first time U. ruziziensis as a diploid ancestor. Despite the irregular meiotic behaviour of B 2 chromosomes in pentaploid U. brizantha , pollen viability and the chromosomal complement of the hybrid indicate that some gametes result from regular segregation and the transmission of four B 2 chromosomes and 18 B/B 1 chromosomes. The results provide important insights into meiotic behaviour, genomic interactions and chromosome transmission, contributing to the understanding of genome evolution in the Brizantha clade.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.106269.3.sa3",
+          "title": "Author response: Divergent C. elegans toxin alleles are suppressed by distinct mechanisms",
+          "authors": [
+            "Stefan Zdraljevic",
+            "Laura Walter-McNeill",
+            "Giancarlo N. Bruni",
+            "Joshua S. Bloom",
+            "Daniel HW Leighton",
+            "Heriberto Marquez",
+            "Noah Alexander",
+            "Leonid Kruglyak"
+          ],
+          "journal": "",
+          "date": "2026-08-11",
+          "doi": "10.7554/elife.106269.3.sa3",
+          "url": "https://openalex.org/W7202166193",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.106269.3",
+          "title": "Divergent C. elegans toxin alleles are suppressed by distinct mechanisms",
+          "authors": [
+            "Stefan Zdraljevic",
+            "Laura Walter-McNeill",
+            "Giancarlo N. Bruni",
+            "Joshua S. Bloom",
+            "Daniel Leighton",
+            "Jennifer B. Collins",
+            "Heriberto Marquez",
+            "Noah Alexander",
+            "Leonid Kruglyak"
+          ],
+          "journal": "eLife",
+          "date": "2026-08-11",
+          "doi": "10.7554/elife.106269.3",
+          "url": "https://openalex.org/W4411673884",
+          "abstract": "Abstract Toxin-antidote elements (TAs) are selfish DNA sequences that bias their transmission to the next generation. TAs typically consist of two linked genes: a toxin and an antidote. The toxin kills progeny that do not inherit the TA, while the antidote counteracts the toxin in progeny that inherit the TA. We previously discovered two TAs in C. elegans that follow the canonical TA model of two linked genes: peel-1/zeel-1 and sup-35/pha-1. Here, we report a new TA that exists in three distinct states across the C. elegans population. The canonical TA, which is found in isolates from the Hawaiian islands, consists of two genes that encode a maternally deposited toxin (MLL-1) and a zygotically expressed antidote (SMLL-1). The toxin induces larval lethality in embryos that do not inherit the antidote gene. A second version of the TA has lost the toxin gene but retains a partially functional antidote. Most C. elegans isolates, including the standard laboratory strain N2, carry a highly divergent allele of the toxin that has retained its activity, but have lost the antidote through pseudogenization. We show that the N2 toxin allele has acquired mutations that enable piRNA binding to initiate MUT-16-dependent 22G small RNA amplification that targets the transcript for degradation. The N2 haplotype represents the first naturally occurring unlinked toxin-antidote system where the toxin is post-transcriptionally suppressed by endogenous small RNA pathways.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10489550/v1",
+          "title": "Unravelling Population Structures and Selection Signatures for milk production and adaptive traits in Genetically Admixed Population of Sub-Saharan African Cattle",
+          "authors": [
+            "Kazeem Ajasa Badmus",
+            "Jayesh Vyas",
+            "Anil Chitra",
+            "Ishmeet Kumar",
+            "Ritik Kumar Singh",
+            "Sabyasachi Mukherjee",
+            "Anupama Mukherjee"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-11",
+          "doi": "10.21203/rs.3.rs-10489550/v1",
+          "url": "https://openalex.org/W7202160120",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44279-026-00724-y",
+          "title": "Effect of planting density on the agronomic performance and forage potential of Vicia sativa L. in the high Andes of Peru",
+          "authors": [
+            "Robert A. Quiñones",
+            "Tomás Samaniego",
+            "Samuel Hurtado",
+            "Richard Solórzano"
+          ],
+          "journal": "Discover Agriculture",
+          "date": "2026-08-11",
+          "doi": "10.1007/s44279-026-00724-y",
+          "url": "https://openalex.org/W7202169589",
+          "abstract": "In the high Andean regions of Ancash, Peru, limited high-protein forage during dry seasons challenges livestock feeding. A locally adapted ecotype of common vetch ( Vicia sativa L.) grows spontaneously and shows resilience to harsh conditions. This study evaluates its agro-morphological traits, forage and seed yields, and chemical composition to assess its potential as a sustainable forage resource for improving livestock nutrition in the region. This study was conducted using a completely randomized design with four plant spacing treatments: 10 cm, 20 cm, 30 cm, and 40 cm, maintaining a fixed row spacing of 30 cm. Seeds were collected from smallholder agricultural fields during the dry season. The highest plant densities, particularly 10 and 20 cm spacing, produced greater dry biomass. The forage biomass contained nitrogen (5.08%) and potassium (2.03%), with crude protein and crude fiber at 26.27 and 22.82%, respectively. Seed analysis revealed a crude protein content of 25.45%, corresponding to an estimated energy contribution from protein of 102 kcal. Based on these findings, Vicia sativa L . demonstrates strong potential as a forage crop and a viable alternative for smallholder farmers in the high Andean regions of Ancash, particularly during dry seasons, serving as an economical and accessible protein source for livestock feed.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -4228,8 +4588,8 @@
     }
   },
   "stats": {
-    "total_count": 202,
-    "new_this_week": 74,
+    "total_count": 219,
+    "new_this_week": 71,
     "weekly_trend": [
       {
         "week": "2026-W27",
@@ -4245,15 +4605,15 @@
       },
       {
         "week": "2026-W30",
-        "count": 28
+        "count": 52
       },
       {
         "week": "2026-W31",
-        "count": 99
+        "count": 95
       },
       {
         "week": "2026-W32",
-        "count": 63
+        "count": 59
       }
     ]
   }
