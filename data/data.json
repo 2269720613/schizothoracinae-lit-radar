@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:26:30Z",
+  "generated_at": "2026-08-15T06:39:57Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -827,6 +827,49 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1016/j.ympev.2026.108717",
+          "title": "Beyond species trees: pervasive gene flow limits phylogenomic resolution in the diversification of Juniperus from the Qinghai-Tibet Plateau.",
+          "authors": [
+            "Zhang Y",
+            "Li J",
+            "Wu D",
+            "Yang H",
+            "Han Z",
+            "Mao K"
+          ],
+          "journal": "Molecular phylogenetics and evolution",
+          "date": "2026-08-14",
+          "doi": "10.1016/j.ympev.2026.108717",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42600876/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1186/s12870-026-09729-7",
+          "title": "Chromosome-level genome assembly of landrace ‘Huangzhou’ provides insights into high cellulose accumulation in radish",
+          "authors": [
+            "Shi-Sheng Li",
+            "KE XU",
+            "Yujia Liu",
+            "Huan Liu",
+            "Yuanyuan Tan",
+            "Wei Tu",
+            "Hongjin Dong",
+            "Haiping Xin",
+            "Changjun Ge",
+            "Lei Gao",
+            "Xiaofen Yu"
+          ],
+          "journal": "BMC Plant Biology",
+          "date": "2026-08-13",
+          "doi": "10.1186/s12870-026-09729-7",
+          "url": "https://openalex.org/W7166194778",
+          "abstract": "<title>Abstract</title> Radish ( <italic>Raphanus sativus</italic> L.) is an important root vegetable crop with extensive morphological and nutritional diversity. The landrace radish, ‘Huangzhou’ (HZ) radish, origins in Huangzhou area, Hubei province of China, and characterized by a special subconical-shaped taproot and high dry matter content, making it particularly suitable for processing. However, the genetic basis underlying these agronomic traits remains largely unexplored due to the lack of a reference genome. In this study, we generated a high-quality haplotype-resolved genome assembly of HZ radish by integrating PacBio HiFi, Oxford Nanopore, and Hi-C sequencing technologies. Comparative analysis between the two haplotypes revealed substantial structural divergence and transposable elements (TEs) probably contributed to the differentiation of haplomes. Further population analysis with eight HZ radishes from different regions, as well as another 190 radish accessions identified 21,004 unique single nucleotide polymorphism sites (SNPs) in the HZ radishes, and those related genes were enriched in response to environmental pH and aluminum ion, suggesting local environmental adaptation. Phenotypic and cytological analyses demonstrated that the high dry matter content of HZ taproots was primarily associated with increased cellulose accumulation and thicker cell walls. Transcriptome analysis across four developmental stages of taproots showed that multiple cellulose synthase-related genes were consistently upregulated in HZ compared with the low-dry-matter cultivar ‘Dachangbai’. Collectively, our research provides new genetic resources for the radish genome research, and offers new insights into the genetic mechanisms underlying dry matter accumulation and cellulose biosynthesis in radish.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.3389/fpls.2026.1889274",
           "title": "Conservation and divergence of abiotic stress-responsive gene co-expression networks in diploid and tetraploid cotton",
           "authors": [
@@ -922,6 +965,173 @@
           "doi": "10.3389/fmicb.2026.1913067",
           "url": "https://openalex.org/W7202290984",
           "abstract": "Introduction Recirculating aquaculture systems (RAS) are increasingly used in intensive aquaculture because of their capacity to reduce nitrogen, phosphorus, and organic matter discharges. However, whether improved conventional effluent quality is accompanied by a reduced antibiotic resistance gene (ARG) burden remains unclear. Methods During the mid-cultivation stage, effluents were collected from four RAS farms and four paved flow-through raceway systems (PFRS). Water quality parameters, including total nitrogen (TN), total phosphorus (TP), chemical oxygen demand (COD), chlorophyll-a (Chl-a), and dissolved oxygen (DO), were measured. Microbial community composition was characterized using 16S rRNA gene sequencing, while ARGs and mobile genetic elements (MGEs) were quantified using GeoChip 5.0. Multivariate statistics and co-occurrence network analyses were used to evaluate associations among environmental conditions, microbial communities, ARG profiles, and MGE profiles. Results RAS effluents showed substantially lower nutrient and organic loads than PFRS, confirming improved conventional water quality. However, total ARG abundance was significantly higher in RAS than in PFRS, increasing from 35.39 ± 11.43 × 10 6 to 63.99 ± 15.33 × 10 6 , corresponding to a 1.81-fold increase. In contrast, total MGE abundance was numerically higher in RAS but did not differ significantly between systems. Microbial alpha diversity was lower in RAS, and beta diversity analysis showed distinct community structuring between cultivation modes, with both compositional differences and dispersion effects contributing to group separation. ARG class- and subtype-level profiles showed heterogeneous abundance patterns, with several major ARG categories remaining highly abundant in RAS, although most feature-level differences were not significant after FDR correction. Co-occurrence network analysis further revealed structured associations among microbial species, ARGs, and MGEs, with modular organization and highly connected resistance-associated nodes. Conclusion This study demonstrates a “low-pollution but non-reduced ARG burden” pattern in RAS effluents. Improved removal of conventional pollutants did not correspond to a proportional reduction in ARG or MGE profiles. These findings indicate that conventional water-quality indicators alone are insufficient to evaluate resistance-associated genetic pollution in engineered aquaculture systems, and that ARGs, MGEs, microbial community structure, and species–ARG/MGE association patterns should be integrated into future RAS monitoring and management.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s12870-025-07645-w",
+          "title": "Chromosome-scale genome assembly of Artabotrys hexapetalus provides insights into its evolution and terpenoid biosynthesis",
+          "authors": [
+            "Zhen‐Jia Cui",
+            "Dan Ye",
+            "Yun‐Bao Liu",
+            "Ping Zhu",
+            "Shi‐Shan Yu"
+          ],
+          "journal": "BMC Plant Biology",
+          "date": "2026-08-12",
+          "doi": "10.1186/s12870-025-07645-w",
+          "url": "https://openalex.org/W7202246587",
+          "abstract": "Abstract Artabotrys hexapetalus is used as traditional Chinese medicine for the treatment of malaria. Its antimalarial activity has been shown to be the result of the sesquiterpene designated as yingzhaosu A (YZSA), which mainly occurs in the roots of A. hexapetalus. Despite its medicinal significance, the genetic basis and molecular mechanisms underlying the biosynthesis of its active terpenoids remain unclear. In this study, a high-quality chromosome-scale genome of A. hexapetalus was first reported. In total, 915.15 Mb of genome sequences were assembled, of which 911.58 Mb was sorted into 8 chromosomes. Phylogenetic analysis indicated that the divergence between the genera Artabotrys and Annona happened at approximately 45.77 million years ago (Mya) and the Annonaceae family diverged from other Magnolia species about 103.58 Mya. An ancient whole genome duplication (WGD) event was discovered in the A. hexapetalus genome, earlier than the divergence between Annonaceae and Magnoliaceae families. It correlates with a significant expansion of gene families related to secondary metabolism, especially the terpene synthase (TPS) and cytochrome P450 (P450) families. The analysis of TPS, P450, and 2-oxoglutarate/Fe(II)-dependent dioxygenase (2-ODD) gene families provides a foundation for future functional studies. Additionally, three putative terpene biosynthetic gene clusters were identified within the genome. Our work provides a foundation for elucidating the complete biosynthetic pathway of terpenoids in A. hexapetalus in the future.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08032-2",
+          "title": "A near-complete telomere-to-telomere reference genome of the domestic Bactrian camel (Camelus bactrianus)",
+          "authors": [
+            "Jiajia Liu",
+            "Zhou Hao",
+            "Caiyun Zhang",
+            "Wenhao Yang",
+            "Wuren Taodi",
+            "Xiaoshan Wang",
+            "Hui Zhang",
+            "Chen Zeming",
+            "Jianshen Zhu",
+            "Qin Chao",
+            "Liyuan Wang",
+            "Yunfei Wang",
+            "Qiujv Chen",
+            "Wang Fei",
+            "Li Jianjun",
+            "Wuni Menghe",
+            "Zhang Jian",
+            "Dong Zhimin",
+            "Zhang Shunping",
+            "Li Yanhui",
+            "Zhu Wenqi",
+            "Jinlong Huang",
+            "Ai Dong",
+            "Qiu Shengyu",
+            "Zhang Wenbin",
+            "Ma Peipei",
+            "Dao Lema",
+            "He Meng"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-12",
+          "doi": "10.1038/s41597-026-08032-2",
+          "url": "https://openalex.org/W7202256995",
+          "abstract": "High-quality reference genomes are essential tools for studying chromosome structure, environmental adaptation, and trait-associated variation in camelids. The Bactrian camel assemblies currently available still contain unresolved regions, particularly in repeat-rich sequences and the sex chromosomes. We report Camelus.1.0 , a near-complete telomere-to-telomere (near-T2T) grade reference genome for the domestic Bactrian camel ( Camelus bactrianus ), generated from a single adult male from Alashan, Inner Mongolia, China. The assembly was built by integrating PacBio HiFi reads (117.44 Gb; 57.6×), Oxford Nanopore ultra-long reads (231.42 Gb; 113.4×), Hi-C reads (111.39 Gb; 54.6×), and Illumina short reads (204.19 Gb; 100.1×). The final assembly spans 2.46 Gb and consists of 69 contigs and 60 scaffolds, with a contig N50 of 71.57 Mb and a scaffold N50 of 78.00 Mb. The assembly contains seven gaps. Camelus.1.0 includes the first Y chromosome assembly for the domestic Bactrian camel, recovers telomeric repeats at both ends of 22 chromosomes and at one end of 16 additional chromosomes, and identifies 36 candidate centromeric regions. The mean Merqury QV was 56.21, and BUSCO recovered 99.1% complete orthologues against the mammalia_odb12 and 99.3% against the artiodactyla_odb12. We annotated 29,932 genes in total, including 20,149 protein-coding genes, 7,406 lncRNA genes, 884 tRNAs, 791 snRNAs, 566 snoRNAs, 27 guide RNAs, and 3 rRNAs. Repetitive elements account for 28.54% of the genome. This resource supports camelid comparative genomics, chromosome biology, population analysis, conservation genetics, and molecular breeding.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/molbev/msag202",
+          "title": "Population structure and punctuated genomic hyper-diversity in <i>Caenorhabditis briggsae</i>",
+          "authors": [
+            "Nicolas D. Moya",
+            "Bowen Wang",
+            "Robyn E. Tanny",
+            "Michael E G Sauria",
+            "L O'Connor",
+            "Ayeh Khorshidian",
+            "Ryan McKeown",
+            "Charlie Gosse",
+            "Clayton M. Dilks",
+            "Timothy A. Crombie",
+            "Gaotian Zhang",
+            "Emha Rais",
+            "Lise Frézal",
+            "Viet Dai Dang",
+            "Elkana Haryoso",
+            "M. P. Devi",
+            "Clotilde Gimond",
+            "Daniel E. Cook",
+            "Jung-Chen Hsu",
+            "Amanda O. Shaver",
+            "Stefan Zdraljevic",
+            "Aurélien Richaud",
+            "Tongshu Wen",
+            "Aatira Mehraj",
+            "Sharanya H",
+            "Karthick Raja Arulprakasam",
+            "Emily Koury",
+            "Nicole M. Roberto",
+            "Etta S. Schaye",
+            "Varsha Singh",
+            "Hagus Tarno",
+            "Michael Ailion",
+            "Annalise B. Paaby",
+            "Zhongying Zhao",
+            "Asher D. Cutter",
+            "John Wang",
+            "Matthew V. Rockman",
+            "Marie-Anne Félix",
+            "Christian Braendle",
+            "Erik C. Andersen"
+          ],
+          "journal": "Molecular Biology and Evolution",
+          "date": "2026-08-12",
+          "doi": "10.1093/molbev/msag202",
+          "url": "https://openalex.org/W7202279562",
+          "abstract": "Abstract Comparative genomics provides a powerful framework to uncover the molecular and evolutionary mechanisms that shape genetic diversity, revealing how shared or lineage-specific processes influence their evolutionary trajectories. The nematode Caenorhabditis briggsae is distributed world-wide and is a comparative model to Caenorhabditis elegans in the biology of development, cellular mechanisms, neurobiology, complex trait mappings, and evolution. Following massive collection efforts by the nematode research community, we present the isolation of over 1,900 wild strains and analyses of genome sequences that catalog over six million single-nucleotide and insertion-deletion variants. These resources provide a powerful means to interrogate the causal genetic bases of phenotypic variation. Additionally, we describe C. briggsae population structure and discover new, genetically distinct groups within this primarily self-fertilizing species, including groups of highly related strains sampled across entire continents. We leverage expansive genetic variation to decipher the effects of linkage and selection on the distribution of genetic diversity across the genome and across geographic regions. Within the species, we find genomic regions with extremely high levels of genetic variation similar to hyper-divergent regions found in C. elegans and other species. These regions harbor new genes and variation enriched for environmental sensing and pathogen responses. Based on comparisons to the outbreeding sister species Caenorhabditis nigoni, we conclude that long-term balancing selection has maintained substantial functional variation, likely associated with ecological variation, within C. briggsae since its divergence from an outbreeding ancestor. Overall, this massive strain resource enables future comparative genetics studies, including genome-wide association study contrasts between Caenorhabditis species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1088/1748-3190/ae98cd",
+          "title": "Bioinspired Hooves for Robotics: Structural, Material, and Functional Insights",
+          "authors": [
+            "Alok Ranjan",
+            "Shehara Perera",
+            "Zedong Zhang",
+            "Chris Kalogroulis",
+            "Franco Angelini",
+            "Manolo Garabini",
+            "Sara-Adela Abad",
+            "Thrishantha Nanayakkara"
+          ],
+          "journal": "Bioinspiration & Biomimetics",
+          "date": "2026-08-12",
+          "doi": "10.1088/1748-3190/ae98cd",
+          "url": "https://openalex.org/W7202303592",
+          "abstract": "Abstract Hoofed animals such as mountain goats, camels, horses, cows, and pigs exhibit exceptional capability in managing complex contact dynamics within their ecological niches, ranging from steep rocky slopes to loose sand and muddy ground. Recent numerical modelling and experimental work have demonstrated that the passive dynamics of mountain goat hooves can significantly reduce slippage without the need for active closed-loop control, provided that joint compliance lies within an appropriate range. In this paper, we review the biomechanics of biological hooves in relation to their environmental specialisations and examine the corresponding design principles, advantages, and limitations of robotic feet. By integrating evidence from biological morphology, robotic prototypes, and contact mechanics, we identify the critical morphological and material features required for robotic feet to perform effectively across diverse terrains. The paper highlights that: (a) layered and anisotropic material organisation in biological hooves enables passive, terrain-adaptive contact dynamics that provide stability and traction without active control; (b) anticipatory and morphology-driven contact modulation can replace high-bandwidth control in legged robots. This involves tunability of mechanical parameters, such as stiffness, damping, and contact geometry; (c) future robotic feet should combine bio-informed minimalism with adaptive compliance to achieve terrain-general locomotion.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44307-026-00126-7",
+          "title": "BEST4⁺ cells: a potential hub of intestinal ion transport and diarrhea manipulation",
+          "authors": [
+            "Hao-zhan Qu",
+            "Xiuqi Wang"
+          ],
+          "journal": "Advanced Biotechnology",
+          "date": "2026-08-12",
+          "doi": "10.1007/s44307-026-00126-7",
+          "url": "https://openalex.org/W7202248178",
+          "abstract": "Abstract BEST4⁺ cells are a recently identified, functionally specialized intestinal epithelial cell population characterized through single-cell and spatial transcriptomic analyses in humans, pigs, rats, and other vertebrates. These cells characteristically express BEST4 , OTOP2 , CA7 , and GUCY2C , and exhibit particularly high CFTR expression in the small intestine, supporting their roles in luminal pH sensing, fluid-electrolyte homeostasis, and mucus hydration. Emerging evidence from organoid and cross-species studies supports a predominant role for the NOTCH–SPIB signaling axis in driving BEST4⁺ cell differentiation, but their lineage identity and regulatory mechanisms remain incompletely resolved. This review focuses on intestinal epithelial BEST4⁺ cells as a critical cellular hub that connects ion transport physiology with the pathophysiology of secretory diarrhea. We summarize the molecular identity, regional distribution, and cross-species conservation of BEST4⁺ cells. We then evaluate their roles in luminal pH regulation, electrogenic fluid secretion, and mucus barrier integrity. We detail how bacterial enterotoxins activate the GC-C/cGMP/CFTR and cAMP/PKA/CFTR pathways in BEST4⁺ cells to drive pathological fluid hypersecretion, and discuss how viral infections may indirectly engage or amplify BEST4⁺ cell-associated ion-transport pathways. We also outline their relevance to viral diarrhea, inflammatory bowel disease, and cystic fibrosis-associated intestinal dysfunction. Finally, we assess established antidiarrheal approaches and investigational strategies that modulate BEST4⁺ cell-associated pathways, and emphasize the need for cell-type-specific validation in physiologically relevant in vivo models.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/jen.70149",
+          "title": "Does Temporal Mismatch Between Species Occurrence Records and Climate Data Affect the Reliability of Ecological Niche Models for Cereal Stemborers in Kenya?",
+          "authors": [
+            "Quinto Juma Meltus",
+            "Komi Agboka",
+            "John Odindi",
+            "Paul‐André Calatayud",
+            "Elfatih M. Abdel‐Rahman",
+            "Bonoukpoè Mawuko Sokame"
+          ],
+          "journal": "Journal of Applied Entomology",
+          "date": "2026-08-12",
+          "doi": "10.1111/jen.70149",
+          "url": "https://openalex.org/W7202260669",
+          "abstract": "ABSTRACT Species distribution modelling (SDM) is a central tool in ecological forecasting and biogeography studies, yet uncertainty remains regarding the optimal temporal scale of predictor variables. We investigated how predictor temporality influences SDM performance using two economically significant cereal stemborers, Busseola fusca and Chilo partellus, across different agroecosystems in Kenya. Models were developed under two scenarios: (1) long‐term climate baselines (1970–2000) and (2) climate data temporally aligned with species records (2001–2006), while using identical topographic and vegetation predictors. Contrary to our hypothesis, the model with temporally aligned predictors (scenario 2) did not outperform the one based on long‐term baseline (scenario 1). Internal cross‐validation showed no significant differences in mean area under the curve (AUC) or true skill statistic (TSS) ( p ≥ 0.05). However, marginal differences were observed for B. fusca (0.86/0.71 vs. 0.87/0.69) and C. partellus (0.76/0.51 vs. 0.75/0.52). External validation consistently favoured scenario 1, with higher precision and F 1‐scores, particularly for C. partellus (0.88/0.93 vs. 0.83/0.88; p = 0.024). These findings indicated that long‐term climatic baselines better capture stable species‐environment relationships. More broadly, our results highlighted the significance of predictor temporality as a source of uncertainty in SDMs and underlined the importance of combined internal and external assessments to enhance good modelling practices (GMP). Such rigour is essential for reliable ecological forecasting and for developing climate‐informed Integrated Pest Management (IPM) strategies for cereal stemborers. The model outputs from our study highlighted hotspots of B. fusca and C. partellus habitat suitability across Kenyan agroecosystems, providing a foundation for targeted and effective management strategies.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -4588,8 +4798,8 @@
     }
   },
   "stats": {
-    "total_count": 219,
-    "new_this_week": 71,
+    "total_count": 227,
+    "new_this_week": 61,
     "weekly_trend": [
       {
         "week": "2026-W27",
@@ -4605,15 +4815,15 @@
       },
       {
         "week": "2026-W30",
-        "count": 52
+        "count": 71
       },
       {
         "week": "2026-W31",
-        "count": 95
+        "count": 94
       },
       {
         "week": "2026-W32",
-        "count": 59
+        "count": 50
       }
     ]
   }
