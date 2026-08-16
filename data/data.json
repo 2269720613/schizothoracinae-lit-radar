@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:39:57Z",
+  "generated_at": "2026-08-16T06:41:17Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -150,6 +150,38 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.6084/m9.figshare.33244956",
+          "title": "Data of Schizothorax",
+          "authors": [
+            "wang tongyang",
+            "Yongrui Lu",
+            "Luohao Xu"
+          ],
+          "journal": "Figshare",
+          "date": "2026-08-14",
+          "doi": "10.6084/m9.figshare.33244956",
+          "url": "https://openalex.org/W7203494272",
+          "abstract": "Data of Resolving the Phylogeny and Classification of Schizothoracinae through Integrated Mitochondrial and Genomic Analyses",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.6084/m9.figshare.33244956.v1",
+          "title": "Data of Schizothorax",
+          "authors": [
+            "wang tongyang",
+            "Yongrui Lu",
+            "Luohao Xu"
+          ],
+          "journal": "Figshare",
+          "date": "2026-08-14",
+          "doi": "10.6084/m9.figshare.33244956.v1",
+          "url": "https://openalex.org/W7203457556",
+          "abstract": "Data of Resolving the Phylogeny and Classification of Schizothoracinae through Integrated Mitochondrial and Genomic Analyses",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.1016/j.marpolbul.2026.120224",
@@ -846,6 +878,43 @@
           "source": "PubMed"
         },
         {
+          "id": "10.32942/x2s38t",
+          "title": "Plant sex chromosome evolution in the phylogenomic era",
+          "authors": [
+            "Mark S. Hibbins",
+            "Wright, Stephen, 1975-"
+          ],
+          "journal": "",
+          "date": "2026-08-14",
+          "doi": "10.32942/x2s38t",
+          "url": "https://openalex.org/W7203455147",
+          "abstract": "Plants harbor a tremendous diversity of sexual systems, including various forms of chromosomal sex determination that have arisen repeatedly across major clades, especially in angiosperms. The causes and consequences of sex chromosome evolution are far-reaching, with implications for sexual system, mating system, and life history evolution, genome architecture, and speciation, extinction, and diversification across lineages. With advances in sequencing, it is now possible to generate high-quality, chromosome-scale genome assemblies for many non-model plant species, ushering in a “golden age” for phylogenomic research. In this review, we argue that the time is ripe for a phylogenomic perspective on the evolution of plant sex chromosomes; the repeated origins of these systems, availability of hermaphroditic close relatives, and access to high quality genomic data will enable new approaches to testing classic models for the initiation, progression, and consequences of sex chromosome evolution. We conduct a clade-level survey of documented plant sex chromosome systems, revealing remarkable variation in the size, age, and degree of differentiation across sex-linked regions, revealing the need for renewed consideration of alternate models. Identifying key questions for future research, we highlight how phylogenomic approaches can be used to test hypotheses across a wide range of models, paving the way for a more robust understanding of how sex chromosomes arise and persist across lineages.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.32942/x2m97z",
+          "title": "Cold adaptation in mammals: mechanisms and genomic insights from bats",
+          "authors": [
+            "Gamze Özbay",
+            "Veronika Laine",
+            "Chris Heilakka",
+            "Mariia Matlova",
+            "Ella Sippola",
+            "Alexandra Streicher",
+            "Tanya Troitsky",
+            "Victoria Twort",
+            "Thomas Lilley"
+          ],
+          "journal": "",
+          "date": "2026-08-14",
+          "doi": "10.32942/x2m97z",
+          "url": "https://openalex.org/W7203459140",
+          "abstract": "Cold environments impose strong energetic constraints on mammals, driving adaptations including thermogenesis, insulation and torpor. Bats are the only mammals capable of powered flight and inhabit different climates, yet the evolutionary basis of their cold tolerance remains poorly understood. In this study, we screened 571 records and retained 137 studies on mammalian cold adaptation. While physiological research focused mainly on non-shivering thermogenesis and metabolic regulation, studies were concentrated in the Palearctic and Nearctic regions, with Rodentia predominating. In contrast, bats were comparatively underrepresented. Among 478 reported genes, most were reported only once. Using thermogenesis-related genes derived from the review, we tested 33 nuclear genes across published bat genomes for positive selection. Site-level evidence consistent with positive selection was limited to six genes. Meanwhile, none of the branch-site tests across predefined cold-associated lineages remained statistically significant. Notably, uncoupling protein 1 (UCP1), the most frequently reported gene in the cold adaptation literature, showed no significant evidence of positive selection in any model. Overall, thermogenesis-related genes frequently emphasized in the literature did not show a common pattern of coding-sequence positive selection across cold-associated bat lineages. Future studies should examine whether regulatory, expression-level or other genomic mechanisms contribute to cold adaptation in bats.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1186/s12870-026-09729-7",
           "title": "Chromosome-level genome assembly of landrace ‘Huangzhou’ provides insights into high cellulose accumulation in radish",
           "authors": [
@@ -866,6 +935,157 @@
           "doi": "10.1186/s12870-026-09729-7",
           "url": "https://openalex.org/W7166194778",
           "abstract": "<title>Abstract</title> Radish ( <italic>Raphanus sativus</italic> L.) is an important root vegetable crop with extensive morphological and nutritional diversity. The landrace radish, ‘Huangzhou’ (HZ) radish, origins in Huangzhou area, Hubei province of China, and characterized by a special subconical-shaped taproot and high dry matter content, making it particularly suitable for processing. However, the genetic basis underlying these agronomic traits remains largely unexplored due to the lack of a reference genome. In this study, we generated a high-quality haplotype-resolved genome assembly of HZ radish by integrating PacBio HiFi, Oxford Nanopore, and Hi-C sequencing technologies. Comparative analysis between the two haplotypes revealed substantial structural divergence and transposable elements (TEs) probably contributed to the differentiation of haplomes. Further population analysis with eight HZ radishes from different regions, as well as another 190 radish accessions identified 21,004 unique single nucleotide polymorphism sites (SNPs) in the HZ radishes, and those related genes were enriched in response to environmental pH and aluminum ion, suggesting local environmental adaptation. Phenotypic and cytological analyses demonstrated that the high dry matter content of HZ taproots was primarily associated with increased cellulose accumulation and thicker cell walls. Transcriptome analysis across four developmental stages of taproots showed that multiple cellulose synthase-related genes were consistently upregulated in HZ compared with the low-dry-matter cultivar ‘Dachangbai’. Collectively, our research provides new genetic resources for the radish genome research, and offers new insights into the genetic mechanisms underlying dry matter accumulation and cellulose biosynthesis in radish.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10582305/v1",
+          "title": "Genome-wide sequencing of clonal seagrass reveals high heterozygosity and low genetic structure in the Western Mediterranean",
+          "authors": [
+            "Joan Pons",
+            "Inés Castejón",
+            "Laura Botigué",
+            "Jorge Terrados"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-13",
+          "doi": "10.21203/rs.3.rs-10582305/v1",
+          "url": "https://openalex.org/W7202349977",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11295-026-01751-y",
+          "title": "Haplotype phasing of de novo chromosome-level assembly of ‘Antonovka’ facilitated the identification of candidate genes for apple scab resistance",
+          "authors": [
+            "Anže Švara",
+            "Stijn Vanderzande",
+            "Richard Tegtmeier",
+            "Hana Feulner",
+            "Matthew D. Clark",
+            "James J. Luby",
+            "Awais Khan"
+          ],
+          "journal": "Tree Genetics & Genomes",
+          "date": "2026-08-13",
+          "doi": "10.1007/s11295-026-01751-y",
+          "url": "https://openalex.org/W7202339566",
+          "abstract": "Malus genomic resources with improved quality are becoming an integral part of candidate gene identification and functional validation. Recently, we released a reference-based phased chromosome-level genome assembly of ‘Antonovka’ 172670B Malus domestica cultivar from the ‘Antonovka’ group known for its disease resistance and abiotic stress tolerance. However, reference-based assemblies have limited accuracy in candidate alleles identification along extended genomic loci, as these may contain contigs from different haplotypes. Here, we provide an improved high-quality version of the ‘Antonovka’ 172670B genome. This assembly is fully phased as it integrates chromosome conformation capture sequencing and parental SNP data binning for de novo scaffolding and post-assembly phasing of pseudochromosomes into haplotypes, respectively. It shows improved quality scores and completeness of 59.8 and 96.7%, respectively. A total of 21,740 structural variations larger than 50 bp and over 3 million SNPs were identified between the two haplomes and can be further validated for genetic mapping studies. This assembly identified new candidate alleles for apple scab resistance in the extended flanking region of the Rvi6 -linked marker Ch-Vf1 on linkage group 1 of haplotype 1. These alleles have kinase and transferase activity, and those that show high homology with the HcrVf scab resistance gene showed between 3.6- to 8.3-fold upregulation upon Venturia inaequalis inoculation, making them the prime candidates for future functional validation studies of ‘Antonovka’ scab resistance.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1897976",
+          "title": "Breeding jassid-resistant okra (Abelmoschus esculentus): from morpho-biochemical traits to precision breeding",
+          "authors": [
+            "Fabrice Vihou",
+            "Barthélémy B. Yarou",
+            "Ya‐Ping Lin",
+            "Xingbo Wu",
+            "Mathieu A. T. Ayenan"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-13",
+          "doi": "10.3389/fpls.2026.1897976",
+          "url": "https://openalex.org/W7202368812",
+          "abstract": "Okra, an economically important vegetable in tropical and subtropical regions, faces severe yield constraints due to sap-sucking pests, particularly jassids ( Amrasca spp.). These insects cause hopper burn, leaf curling, and chlorosis, leading to estimated yield losses of 30-100% under severe infestation. Farmers’ heavy reliance on chemical control to manage these insects poses environmental, economic, and health risks, underscoring the need for host-plant resistance as a sustainable component of integrated pest management. Successful breeding for jassid resistance requires in-depth knowledge of its underlying mechanisms. This review synthesizes current knowledge on jassid resistance in okra, focusing on morphological (trichome density, leaf thickness), biochemical (phenolics, defensive enzymes), and physiological traits that confer antixenosis and antibiosis, as well as the largely untapped potential of wild Abelmoschus species as reservoirs of novel and durable resistance alleles. We examine advances in genomics, including QTL mapping, genome-wide association studies, and transcriptomics, as tools for dissecting complex resistance mechanisms in okra’s polyploid genome. We further discuss biotechnological and precision breeding strategies such as genomic selection, gene editing, and speed breeding, as avenues to accelerate the development of jassid-resistant cultivars. We conclude by proposing a multi-trait ideotype that integrates morphological, biochemical, and genetic resistance while maintaining high yield and product quality and is supported by an integrated breeding framework that combines conventional and genomic approaches. Key research priorities include discovering new sources of resistance, functionally validating resistance loci, and integrating high-throughput phenotyping with genomic selection to enhance breeding precision and efficiency in okra improvement programs.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41598-026-65822-9",
+          "title": "Phenotypic selection of high-yielding, water-productive wheat (Triticum aestivum L.) putative mutants under well-watered and limited-irrigation conditions",
+          "authors": [
+            "Ayman Anter Saber"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-08-13",
+          "doi": "10.1038/s41598-026-65822-9",
+          "url": "https://openalex.org/W7202378699",
+          "abstract": "Developing high-yielding and water-stress-tolerant bread wheat cultivars with high water productivity is vital for sustainable wheat cultivation under the limited water resources in Egypt. In this study, bread wheat mutant lines from the M3, M4, and M5 generations and their mother cultivars were evaluated under both well-watered and limited-irrigation conditions over three growing seasons (2022-2024). Eight agronomic traits and water productivity were estimated to detect high-yielding, water stress-tolerant wheat lines with improved water productivity. Significant differences (p ≤ 0.05) were observed among the mutant lines for the studied traits under both conditions. Twelve selected mutant lines surpassed their mother cultivars. Mutant line G5 exhibited the shortest plant height with high potential yield, representing a dwarf phenotype. Mutant lines G10, G1, G2 and G4 exhibited the highest actual genetic gain relative to the highest-yielding mother cultivar. High broad-sense heritability coupled with moderate to high genetic advance for the studied traits indicated the predominance of additive gene action and confirmed the effectiveness of phenotypic selection. Drought tolerance indices selected the same promising lines under limited-irrigation conditions. GGE biplot analysis revealed that mutant lines G2, G3, G4, G5 and G6 were superior high-yielding lines, whereas G4, G7, G10 and G11 exhibited greater stability across irrigation regimes. Selected mutant lines exhibited improved water productivity compared with their mother cultivar under both conditions. Selected putative mutant lines will be advanced to multi-environment trials to further evaluate genotype x environment interactions and genetic stability. These mutant lines could serve as valuable genetic resources for bread wheat breeding programs aimed at enhancing grain yield under water-limited conditions.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41598-026-63315-3",
+          "title": "Gene-environment interaction between VDR variants and vitamin D deficiency identifies a high-risk inflammatory phenotype associated with COVID-19 severity",
+          "authors": [
+            "HariOm Singh",
+            "Aishwarya Nair",
+            "Meenakshi Bhattacharya",
+            "Sayed Sartaj Sohrab",
+            "Esam I. Azhar"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-08-13",
+          "doi": "10.1038/s41598-026-63315-3",
+          "url": "https://openalex.org/W7202381572",
+          "abstract": "Abstract Host determinants of inflammatory escalation remain incompletely defined in COVID-19. Vitamin D receptor (VDR) signaling regulates immune activation and cytokine responses, yet the contribution of VDR genetic variation to severe disease is unclear. We investigated two common VDR polymorphisms (rs7975232 and rs1544410) in a prospective, clinically stratified Indian cohort ( n = 323), integrating genotype–phenotype associations, inflammatory biomarkers, interaction modeling, and polygenic risk stratification. Both variants were independently associated with severe disease under additive genetic models (per-risk allele adjusted OR 1.69 for rs7975232 and 1.82 for rs1544410) and demonstrated allele-dose relationships across severity categories. Risk alleles correlated with elevated IL-6, C-reactive protein, and ferritin levels, indicating amplified inflammatory signaling. A statistically significant gene–gene interaction between rs7975232 and rs1544410 (OR 2.48, p = 0.006) was observed; however, this finding should be considered exploratory pending independent replication. Vitamin D deficiency (&lt; 20 ng/mL) further amplified genotype-associated risk, supporting a biologically relevant gene-environment interaction. Integration of genetic information into multivariable clinical models improved model discrimination within this cohort (AUC 0.83 vs. 0.72), although external validation is required. In silico functional annotation was performed using RegulomeDB, HaploReg, and GTEx (Supplementary Table S7). Together, these findings identify a genetically associated inflammatory risk profile characterized by VDR risk alleles, vitamin D deficiency, and heightened inflammatory responses, providing a framework for precision risk stratification targeting the vitamin D-VDR axis.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1371/journal.pgen.1011820",
+          "title": "New biologically relevant resistance to bacterial wilt in heat-stressed tomato revealed by two-reference Genome Wide Association",
+          "authors": [
+            "Adrien Belny",
+            "Henri Desaint",
+            "Mylène Rigal",
+            "Sébastien Carrère",
+            "Jérôme Gouzy",
+            "Grégori Bonnet",
+            "Céline Labourey",
+            "Elise Albert",
+            "Laurent Grivet",
+            "Fabrice Roux",
+            "Fabienne Vailleau",
+            "Tristan Mary‐Huard",
+            "Richard Berthomé"
+          ],
+          "journal": "PLoS Genetics",
+          "date": "2026-08-13",
+          "doi": "10.1371/journal.pgen.1011820",
+          "url": "https://openalex.org/W7202383825",
+          "abstract": "Ongoing climate change is driving unprecedented environmental fluctuations, with extreme events predicted to increase in frequency, intensity and duration. Among climatic parameters, temperature elevation is among those expected to fluctuate the most by the end of the century and already demonstrated to pose major challenge to plant health. In this context understanding how temperature modulates plant-pathogen interactions and their underlying genetic architecture is critical. Bacterial wilt, caused by strains of the Ralstonia solanacearum species complex, is a devastating disease affecting many plant species. Genetic resistance remains the most effective control strategy. In tomato, resistance is quantitative and mostly relies on quantitative trait loci (QTLs) bwr-6 and bwr-12 . However, as in other crops, high temperature and humidity can compromise this resistance in commercial tomato cultivars. We investigated temperature-dependent quantitative disease resistance (QDR) using a panel of 189 wild tomato accessions, predominantly Solanum pimpinellifolium , representing genetic diversity from contrasted ecological conditions. Disease progression was monitored from three to ten days post-inoculation at 28°C and 32°C, using a time-course phenotyping approach. Genome-Wide Association (GWA) analyses were performed, based on daily symptom scores and two reference genomes, to account for structural variations and improve QTL detection. This strategy identified 44 candidate genes and revealed a temporally dynamic genetic architecture of the plant response. Strickingly, no candidate genes were shared between temperatures, supporting distinct genetic determinants under different temperature conditions. Many candidate genes were expressed in roots and belong to gene families involved in plant immunity, with two candidates co-localizing with bwr-6 and bwr-12 , whose causal genes remain unknown. Altogether, our findings demonstrate that resistance to bacterial wilt in wild tomato is flexible, environment-dependent, and temporally dynamic highlighting the importance of integrating environmental context and genomic diversity to better understand plant - pathogen interactions.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s10661-026-15765-5",
+          "title": "Refined analysis of microplastics in endemic fish species from Lake Victoria using µ-FTIR and pyrolysis GC-MS",
+          "authors": [
+            "Timothy Omara",
+            "Barbora Benetková",
+            "Ivan Sumerskii",
+            "Patrick Ssebugere",
+            "Christine Kyarimpa",
+            "Solomon Omwoma Lugasi",
+            "Thomas Rosenau",
+            "Christine Betty Nagawa",
+            "Stefan Böhmdorfer"
+          ],
+          "journal": "Environmental Monitoring and Assessment",
+          "date": "2026-08-13",
+          "doi": "10.1007/s10661-026-15765-5",
+          "url": "https://openalex.org/W7202353707",
+          "abstract": "Pyrolysis-gas chromatography-mass spectrometry (Pyr-GC-MS) has evolved into one of the most powerful methods for microplastics (MPs) analysis. However, analytical challenges are still encountered whenever Pyr-GC-MS is applied to matrices with high organic matter, protein and lipid contents. In this study, a workflow integrating stereomicroscopy, micro-Fourier transform infrared (µ-FTIR) spectroscopy and Pyr-GC-MS was extended to analyse MPs in three endemic fish species (Protopterus aethiopicus, Rastrineobola argentea and Synodontis victoriae) from Lake Victoria. Stereomicroscopic analysis only detected MPs in the gastrointestinal tracts of P. aethiopicus and S. victoriae, with the highest mean particle numbers being 16.0 ± 7.8 and 14.7 ± 6.7 items/fish taxon, respectively. No MPs were found in whole samples of R. argentea. The microparticles were mostly blue and brown 0.3-1.9-mm fragments and filaments, which µ-FTIR analysis confirmed to be composed of nylon 66, nylon 6/66, nylon 6/10, nylon 11, polyethylene and polypropylene. Retention time locking and post-column backflush considerably reduced the cycle time and increased stability of the Pyr-GC-MS method. Nylon 66 (243 µg/g in S. victoriae), nylon 6 (0.24-96 µg/g), polypropylene (6.4 µg/g in P. aethiopicus), poly(ethylene terephthalate) (1.2-107 µg/g) and styrene-butadiene rubber (8.5-34.8 µg/g) were quantified. Polyethylene and poly(methyl methacrylate) were detected below their limits of quantification. To prevent false positive detection of polyethylene in the lipid-rich tissues, the evaluation focussed on C21-α,ω-alkene as a marker. Polypropylene was not detected in some samples, as it formed several discrete propylene oligomers during pyrolysis, which suppressed the yield of its target quantification marker (2,4-dimethyl-1-heptene).",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1177/09730052261474277",
+          "title": "Navigating Water Shortages and Community Tensions: A Case Study in Leh District, India",
+          "authors": [
+            "Jigmat Norboo",
+            "Padma Namgyal",
+            "Vikas Rawat"
+          ],
+          "journal": "International Journal of Rural Management",
+          "date": "2026-08-13",
+          "doi": "10.1177/09730052261474277",
+          "url": "https://openalex.org/W7202379565",
+          "abstract": "This study presents how local governance shapes community responses to water scarcity in three high-altitude villages of Leh District, India. Using a convergent mixed-methods design, we surveyed 122 households and interviewed 12 village heads, water managers, farmers and non-governmental organisation (NGO) representatives. All three villages faced severe water shortages affecting 94%–96% of households annually, yet outcomes differed dramatically. In Nang, a centralised hereditary authority manages water behind closed doors, leading to high conflict (91.2%) with only fragmented individual conservation (80.9%). In Stakmo, kinship-based governance produced moderate conflict (42.1%) and partial conservation (68.4%). In Umla, participatory rule-making with NGO support achieved low conflict (12.5%) and universal conservation (100%). Our findings show that transparent and participatory governance, not water availability, determines whether scarcity leads to conflict or cooperation. Based on this, we offer three policy recommendations: reform centralised governance to establish fair water allocation and dispute resolution; scale community-led conservation that builds social trust; and invest in water storage and livelihood diversification to strengthen adaptive capacity.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1409,6 +1629,25 @@
           "doi": "10.1007/s44279-026-00724-y",
           "url": "https://openalex.org/W7202169589",
           "abstract": "In the high Andean regions of Ancash, Peru, limited high-protein forage during dry seasons challenges livestock feeding. A locally adapted ecotype of common vetch ( Vicia sativa L.) grows spontaneously and shows resilience to harsh conditions. This study evaluates its agro-morphological traits, forage and seed yields, and chemical composition to assess its potential as a sustainable forage resource for improving livestock nutrition in the region. This study was conducted using a completely randomized design with four plant spacing treatments: 10 cm, 20 cm, 30 cm, and 40 cm, maintaining a fixed row spacing of 30 cm. Seeds were collected from smallholder agricultural fields during the dry season. The highest plant densities, particularly 10 and 20 cm spacing, produced greater dry biomass. The forage biomass contained nitrogen (5.08%) and potassium (2.03%), with crude protein and crude fiber at 26.27 and 22.82%, respectively. Seed analysis revealed a crude protein content of 25.45%, corresponding to an estimated energy contribution from protein of 102 kcal. Based on these findings, Vicia sativa L . demonstrates strong potential as a forage crop and a viable alternative for smallholder farmers in the high Andean regions of Ancash, particularly during dry seasons, serving as an economical and accessible protein source for livestock feed.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "https://openalex.org/W7202427550",
+          "title": "Variabilidad del contenido de materia seca y de los caracteres relacionados con el rendimiento en batata (Ipomoea batatas [L.] Lam.)",
+          "authors": [
+            "Abiodun David Arowolo",
+            "Abduslalam Mosobalaje Murtadha",
+            "Michael Segun",
+            "Kolapo Kazeem Olalekan",
+            "Aminu Goma Abubakar",
+            "Maryanne Owoye Akhigbe"
+          ],
+          "journal": "Magazine Portal Bibliotech Digital (Universidad Nacional de Colombia)",
+          "date": "2026-08-11",
+          "doi": "",
+          "url": "https://openalex.org/W7202427550",
+          "abstract": "Understanding genetic variability is fundamental to sweetpotato (Ipomoea batatas [L.] Lam.) improvement. This study evaluated 44 genotypes across two locations in Nigeria, Ejigbo and Ilesa, over two growing seasons (2023-2024) to estimate genetic variability, heritability, genetic advance, and associations among yield-related traits, morphological descriptors, and dry matter content. The experiment used a randomised complete block design with three replications. A combined analysis of variance revealed highly significant genotypic effects (p &lt; 0.01) for all traits, with significant genotype × environment interactions for most yield-related traits. The phenotypic coefficient of variation exceeded the genotypic coefficient of variation for all traits, although the differences were small. Broad-sense heritability ranged from 74 % for stand count to 100 % for pigmentation traits and dry matter content, while genetic advance ranged from 14.09 % for fresh shoot yield to 178.90 % for petiole colour. Genotypic correlation analysis showed significant positive associations between mature leaf length and both fresh shoot yield (r = 0.38) and fresh root yield (r = 0.32), whereas petiole colour exhibited the strongest negative correlation with dry matter content (r = −0.40). Path coefficient analysis identified petiole colour as having the largest negative direct effect (−0.54) on dry matter content, whereas mature leaf colour and vine length exerted the largest positive direct effects (0.13 each). The residual effect (0.83) indicates that additional factors influence dry matter accumulation. These findings demonstrate substantial genetic variability and high heritability for most traits, suggesting promising prospects for genetic improvement through selection. However, significant genotype × environment interactions and trade-offs between pigmentation and dry matter content necessitate multi-environment testing and careful breeding programme design.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -4798,8 +5037,8 @@
     }
   },
   "stats": {
-    "total_count": 227,
-    "new_this_week": 61,
+    "total_count": 240,
+    "new_this_week": 69,
     "weekly_trend": [
       {
         "week": "2026-W27",
@@ -4815,15 +5054,15 @@
       },
       {
         "week": "2026-W30",
-        "count": 71
+        "count": 84
       },
       {
         "week": "2026-W31",
-        "count": 94
+        "count": 86
       },
       {
         "week": "2026-W32",
-        "count": 50
+        "count": 58
       }
     ]
   }
