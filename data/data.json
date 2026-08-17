@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:41:17Z",
+  "generated_at": "2026-08-17T06:57:50Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -813,6 +813,44 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1038/s41598-026-65517-1",
+          "title": "Towards whole plastome phylogeography: resolving small genetic distances among European Arnica montana L. with the PlastidPipeline",
+          "authors": [
+            "Siddharth Annaldasula",
+            "Manuel Vera",
+            "Adrián Casanova",
+            "Thomas Borsch",
+            "Katja Reichel"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-08-15",
+          "doi": "10.1038/s41598-026-65517-1",
+          "url": "https://openalex.org/W4412841979",
+          "abstract": "<title>Abstract</title> <italic>Arnica montana</italic> L. is a medicinal plant endemic to Europe and declining in large parts of its range. Low sequence diversity in genetic marker regions caused biogeographic patterns and the phylogenetic relationship between <italic>A. montana</italic> and its Holarctic congeners to remain obscure. We therefore evaluated entire chloroplast genomes of <italic>A. montana</italic> and related species as complex markers. To reliably detect even small genetic distances, we developed the PlastidPipeline, which consistently and repeatably provides structurally standardized and annotated, ready-to-analyze plastomes from short-read sequences.Complementing publicly available data, we obtained plastid genomes for eight <italic>A. montana</italic> accessions across Europe, four further species of <italic>Arnica</italic> and three outgroup species. All <italic>A. montana</italic> plastomes formed a well-supported clade. In contrast with the current circumscription of <italic>A. montana</italic> ssp. <italic>atlantica</italic>, both <italic>A. montana</italic> plastomes from the Iberian Peninsula were differentiated from those of Central and Northern Europe. Very low genetic distances among the Central European samples imply a common ancestor much more recent than the split from the Iberian lineage. Several plastome SNPs within <italic>A. montana</italic> further showed potential heteroplasmy. Rather than individual marker regions, phylogeographic studies in <italic>Arnica</italic> should use complete plastid genomes, including microstructural variation and intra-individual polymorphism in their analyses.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08087-1",
+          "title": "Gap-free T2T genomic landscape of an XY male Larimichthys crocea",
+          "authors": [
+            "Junzhu Xiao",
+            "Qian He",
+            "Jiaying Wang",
+            "Fei Pu",
+            "Ning Li",
+            "Tao Zhou",
+            "Peng Xu"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-15",
+          "doi": "10.1038/s41597-026-08087-1",
+          "url": "https://openalex.org/W7203478545",
+          "abstract": "Larimichthys crocea (the large yellow croaker) is one of the most economically significant marine fish in East Asia. While chromosome-scale genome assemblies for three female (XX) geographical populations (Mindong, South China Sea, and Daiqu) were available, the lack of a high-quality male (XY) reference genome has hindered the exploration of male-specific sequences and the molecular mechanisms underlying sex determination. Here, we present the male T2T reference genome for the Mindong population of L. crocea by integrating Oxford Nanopore ultra-long, PacBio HiFi, and Hi-C sequencing. The assembly totals 747.28 Mb with a contig N50 of 31.79 Mb. We further achieved telomere-to-telomere (T2T) assembly and haplotype partitioning of the X and Y sex chromosomes. Telomeric repeats (TTAGGG) were identified at both termini of all 23 autosomes and two sex chromosomes. Moreover, centromeric regions exhibited significant enrichment of six major transposable elements, including DNA MULE, LTR Gypsy, DNA CMC-EnSpm, RC Helitron, LTR ERV1, and DNA TcMar-Tc2, with 76.19–93.42% of their total copies localized to centromeres. Together with a 42 bp tandem repeat (Cen-42), these elements form the centromeric architecture characterized by higher-order repeats (HORs). The T2T genome assembly exhibits high technical quality, with a BUSCO completeness of 99.6% and a base accuracy (QV) exceeding 59.75. The genome annotation yielded 29,933 protein-coding genes, providing a comprehensive map of the male-specific regions. This gap-free male reference genome provides a definitive genetic resource for studying sex-biased traits, sex chromosome evolution, and precision molecular breeding in L. crocea .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1126/sciadv.aea7469",
           "title": "Jomon genomics reveal cold adaptation in Upper Paleolithic hunter-gatherers of eastern Eurasia.",
           "authors": [
@@ -911,6 +949,97 @@
           "doi": "10.32942/x2m97z",
           "url": "https://openalex.org/W7203459140",
           "abstract": "Cold environments impose strong energetic constraints on mammals, driving adaptations including thermogenesis, insulation and torpor. Bats are the only mammals capable of powered flight and inhabit different climates, yet the evolutionary basis of their cold tolerance remains poorly understood. In this study, we screened 571 records and retained 137 studies on mammalian cold adaptation. While physiological research focused mainly on non-shivering thermogenesis and metabolic regulation, studies were concentrated in the Palearctic and Nearctic regions, with Rodentia predominating. In contrast, bats were comparatively underrepresented. Among 478 reported genes, most were reported only once. Using thermogenesis-related genes derived from the review, we tested 33 nuclear genes across published bat genomes for positive selection. Site-level evidence consistent with positive selection was limited to six genes. Meanwhile, none of the branch-site tests across predefined cold-associated lineages remained statistically significant. Notably, uncoupling protein 1 (UCP1), the most frequently reported gene in the cold adaptation literature, showed no significant evidence of positive selection in any model. Overall, thermogenesis-related genes frequently emphasized in the literature did not show a common pattern of coding-sequence positive selection across cold-associated bat lineages. Future studies should examine whether regulatory, expression-level or other genomic mechanisms contribute to cold adaptation in bats.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10529722/v1",
+          "title": "Integrative GWAS and Haplotype-Based Dissection Identify Additive Genomic Hotspots conferring Bacterial Leaf Streak Resistance in the Barley Interspecific Cytonuclear Multi-Parent Population (CMPP)",
+          "authors": [
+            "Muhammad Ahmad",
+            "T. Sivakumar",
+            "Joseph Tilstra",
+            "Tapish Pawar",
+            "Avital Beery",
+            "Schewach Bodenheimer",
+            "Shengming Yang",
+            "Shyam Solanki",
+            "Eyal Fridman",
+            "Gazala Ameen"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-14",
+          "doi": "10.21203/rs.3.rs-10529722/v1",
+          "url": "https://openalex.org/W7203475768",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.14.744813",
+          "title": "The relationship of genetic diversity and inbreeding to extinction risk across over 500 vertebrate diploid genomes",
+          "authors": [
+            "Amanda M. Gardiner",
+            "Richard Durbin"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-14",
+          "doi": "10.64898/2026.08.14.744813",
+          "url": "https://openalex.org/W7203532467",
+          "abstract": "Genetics may help address the biodiversity crisis by providing information about genetic diversity and temporal changes in demography for species of interest. Advances in whole-genome sequencing create new opportunities for demographic analysis, even based on the two copies of a genome found in a single diploid individual. The Vertebrate Genomes Project (VGP) is generating high-quality, chromosome-level reference genomes across the full range of extant vertebrate species, with its first phase delivering assemblies spanning approximately 95% of vertebrate orders. Using 512 diploid VGP genomes, we quantified intra-species heterozygosity, runs of homozygosity (ROH), and inferred past effective population sizes (Ne) with the Pairwise Sequentially Markovian Coalescent (PSMC). Threatened species are more likely to exhibit lower heterozygosity and longer ROH, though there is large variation in both measures across all IUCN categories. Interestingly, PSMC suggests that estimated historical Ne several thousand generations ago is a better predictor of threatened status than the present day estimate. Co-analysing with life history traits, we found that marine species tend to have lower ROH content, while fossorial species show significantly higher inbreeding levels. Indeed, habitat and foraging strata are much stronger predictors of IUCN status than genetics, with estimated historical Ne providing a small but significant amount of additional information. Together, these results suggest that, while measures of genetic diversity are correlated with IUCN status, much of that correlation may derive from ecological factors such as habitat, with only a relatively small direct contribution. Nevertheless, reference genomes like those generated by the VGP can yield valuable information, like historical Ne, while facilitating population monitoring and management for species of interest.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1128/aem.00754-26",
+          "title": "Chemotypic diversity of the fungus <i>Epichloë brachyelytri</i> symbiotic with the wild forest grass <i>Brachyelytrum erectum</i>",
+          "authors": [
+            "Padmaja Nagabhyru",
+            "Simona Florea",
+            "Huazhen Liu",
+            "Pradeep Kachroo",
+            "Patrick J. Calie",
+            "Carolyn A. Young",
+            "Christopher L. Schardl"
+          ],
+          "journal": "Applied and Environmental Microbiology",
+          "date": "2026-08-14",
+          "doi": "10.1128/aem.00754-26",
+          "url": "https://openalex.org/W7203491388",
+          "abstract": "ABSTRACT Many cool-season grasses (Poaceae subfam. Poöideae) host seed-transmissible symbionts (endophytes) in the fungal genus Epichloë , which can produce diverse alkaloids that protect against invertebrate and, in some cases, vertebrate herbivores. Rarely have population surveys been conducted to assess comprehensive alkaloid profiles and diversity of Epichloë in wild grasses. In this study, we surveyed Brachyelytrum erectum , which is a woodland grass in an early-diverging lineage of Poöideae, and commonly symbiotic with Epichloë brachyelytri . Analytical methods based on high-resolution UHPLC-MS/MS were refined to provide rapid, comprehensive detection, and quantitation of E. brachyelytri alkaloids, for six B. erectum populations in Kentucky. Chemotypes were identified with two or three of the alkaloids exo -1-acetamidopyrrolizidine ( 1 ), chanoclavine ( 2 ), and peramine ( 3 ). Both 1 and 2 are known as intermediates in biosynthetic pathways to more complex alkaloids, and chemotypes having both 1 and 2 as pathway end-products are novel. Such chemotypes were also identified in other species, and phylogenetic analysis indicated their multiple origins by a combination of convergent evolution, possible horizontal gene transfer, and interspecific hybridization. Alkaloid levels were comparable between most populations and at most plant developmental stages. Levels of 3 were compared between E. brachyelytri variants with and without 1 , providing evidence for competition between the pathways in young shoots, but not in older leaves or seeds. Furthermore, levels of 1 and 2 were moderate to high compared with their respective alkaloid classes in other grass- Epichloë symbiotic systems. We conclude that production of the alkaloids likely represents an important metabolic investment by E. brachyelytri . IMPORTANCE Defensive mutualisms, symbioses of hosts with organisms that defend them against parasites or predators, play important ecological roles. A widespread example is protection of cool-season grasses by symbiotic Epichloë species, which are fungi that transmit in seeds and produce several kinds of anti-insect alkaloids. Profiles of alkaloids evolve due to shifting balances of their benefits and the costs of producing them. In this study, Epichloë brachyelytri symbiotic with the wild forest grass Brachyelytrum erectum produced three alkaloids, of which two have been rarely reported. Furthermore, variations in its alkaloid profiles and quantities of each alkaloid at different plant growth stages and tissues suggested that occasional loss of its most abundant alkaloid can be adaptive due to the metabolic load of producing it. Although rare, similar alkaloid profiles were identified in several other species in which they arose by a combination of convergent evolution, possible horizontal gene transfer, and interspecific hybridization.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.10.743976",
+          "title": "A meta-analysis of ancient and present-day Central Eurasian genome data to revise archaic hominin ancestry",
+          "authors": [
+            "Aigerim Rymbekova",
+            "Martin Kuhlwilm"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-14",
+          "doi": "10.64898/2026.08.10.743976",
+          "url": "https://openalex.org/W7203465258",
+          "abstract": "Archaic introgression has shaped the evolutionary history of Eurasian populations, yet Central Eurasian region remains understudied despite being at the crossroads of ancient human migration. Here, we analyzed the whole-genome data of five Central Eurasian (CE) individuals from Early Bronze Age (EBA) and five present-day CE individuals to characterize the archaic introgression landscape. We estimated that archaic introgression from Neanderthal and Denisovan archaic hominins comprises approximately 2.2% of the Central Eurasian genomes. Both amount and chromosomal distribution of archaic introgression remained largely unchanged between the EBA and present-day CE individuals. Putative introgressed fragments matching the Altai Neanderthal and the Altai Denisovan were retrieved. Our results suggest that while the archaic introgression levels seemingly remained stable over the past several thousand years, larger modern CE genomes panels will be required to fully characterize the genomic landscape of archaic ancestry in the region.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.10.743091",
+          "title": "Robertsonian translocations in Danish sika deer (Cervus nippon). Markers for absent F1-hybridization with red deer (C. elaphus) and potential models for selection, speciation and infertility.",
+          "authors": [
+            "Niels Tommerup",
+            "Kasper Kristoffer Alsing",
+            "Esben Budtz–Jørgensen",
+            "Flemming Thune-Stephensen",
+            "Astrid Jorun Ingstrup;"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-14",
+          "doi": "10.64898/2026.08.10.743091",
+          "url": "https://openalex.org/W7203486988",
+          "abstract": "EU has reclassified the sika deer (Cervus nippon) as an undesirable invasive species based on reports that hybridization with the indigenous red deer (C. elaphus) may produce fertile offspring. Since sika-derived DNA previosuly introduced into the red deer population (introgression) cannot be removed, the crucial question is whether new (F1) hybridisation occur. To address this, we analysed the chromosomes in 56 sika and 22 red deer. All red deer had a chromosome number 2n=68. In contrast, the chromosome number in sika ranged from 64 to 67, due to the variable presence of two sika-specific Robertsonian translocations (ROB1,ROB2). In the free-ranging sika population in Jutland, &gt;90% of the sika deer were homozygote for at least one of these ROBs, excluding that they could be F1-hybrids. Moreover, ROB2 was in Hardy-Weinberg equilibrium, further supporting the absence of gene flow between the two species. In contrast, ROB1 was in Hardy-Weinberg disequilibrium, suggesting negative fitness of heterozygotes, including potential F1-hybrids. In Jaegersborg Deer Park, the eight examined sika deer had the same genotype (absence of ROB1, homozygosity of ROB2), supporting that it is a founder population which may have been isolated for ~100 years. Again, none of these can be F1-hybrids due to the homozygosity of ROB2. We conclude that F1-hybridisation between sika and red deer either does not occur or occur very rarely in Denmark. The study establish the Danish sika-populations as unique models for adressing important biological questions: What underlies the absence of hybridisation? Why are ROBs frequent in sika deer but not in the closely related red deer? How fast do new species/subspecies develop in isolated founder populations? Which factors determine, that some ROBs have little heterozygous effects, whereas others are selected against, with implications for the role of ROBs as genetic barriers promoting speciation, and for fertility problems in some human ROB carriers.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1352,6 +1481,26 @@
           "doi": "10.1111/jen.70149",
           "url": "https://openalex.org/W7202260669",
           "abstract": "ABSTRACT Species distribution modelling (SDM) is a central tool in ecological forecasting and biogeography studies, yet uncertainty remains regarding the optimal temporal scale of predictor variables. We investigated how predictor temporality influences SDM performance using two economically significant cereal stemborers, Busseola fusca and Chilo partellus, across different agroecosystems in Kenya. Models were developed under two scenarios: (1) long‐term climate baselines (1970–2000) and (2) climate data temporally aligned with species records (2001–2006), while using identical topographic and vegetation predictors. Contrary to our hypothesis, the model with temporally aligned predictors (scenario 2) did not outperform the one based on long‐term baseline (scenario 1). Internal cross‐validation showed no significant differences in mean area under the curve (AUC) or true skill statistic (TSS) ( p ≥ 0.05). However, marginal differences were observed for B. fusca (0.86/0.71 vs. 0.87/0.69) and C. partellus (0.76/0.51 vs. 0.75/0.52). External validation consistently favoured scenario 1, with higher precision and F 1‐scores, particularly for C. partellus (0.88/0.93 vs. 0.83/0.88; p = 0.024). These findings indicated that long‐term climatic baselines better capture stable species‐environment relationships. More broadly, our results highlighted the significance of predictor temporality as a source of uncertainty in SDMs and underlined the importance of combined internal and external assessments to enhance good modelling practices (GMP). Such rigour is essential for reliable ecological forecasting and for developing climate‐informed Integrated Pest Management (IPM) strategies for cereal stemborers. The model outputs from our study highlighted hotspots of B. fusca and C. partellus habitat suitability across Kenyan agroecosystems, providing a foundation for targeted and effective management strategies.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.20900/cbgg20260018",
+          "title": "A Public Mid-Density Genotyping Platform for Genomic Selection in Wheat",
+          "authors": [
+            "Susanne Dreisigacker",
+            "Pacome Judon",
+            "Leonardo Crespo‐Herrera",
+            "Andrzej Kilian",
+            "Eng Hwa Ng",
+            "José Crossa",
+            "Paolo Vitale"
+          ],
+          "journal": "Crop Breeding Genetics and Genomics",
+          "date": "2026-08-12",
+          "doi": "10.20900/cbgg20260018",
+          "url": "https://openalex.org/W7203471081",
+          "abstract": "Genomic selection (GS) has become an important tool for accelerating genetic gain in wheat breeding by enabling the prediction of target traits using genome-wide molecular markers. However, the large-scale implementation of GS in public breeding programs remains constrained by the cost of high-density genotyping platforms. Medium-density targeted genotyping approaches provide a cost-effective alternative while maintaining prediction accuracy. In this study, we evaluated the performance of a public wheat mid-density genotyping platform (Wheat DArTag 3.9K EIB 2.0) for GS by comparing it with a previously deployed higher-density genotyping-by-sequencing (GBS) platform. The analyses were conducted using five consecutive years of CIMMYT Elite Yield Trials comprising more than 5000 elite spring wheat lines evaluated across multiple irrigated, drought, and heat-stressed environments. Trait predictability was assessed for agronomic, phenological, and disease resistance traits using the genomic best linear unbiased prediction (GBLUP) model under several cross-validation scenarios, including within-year and across-year predictions. After quality filtering, the DArTag platform retained approximately 1600–1800 SNPs, whereas the GBS platform retained approximately 6500–9600 SNPs. Across traits and years, no consistent superiority of GBS over DArTag was observed, and correlations between genomic estimated breeding values (GEBVs) obtained from both platforms were high, indicating that both genotyping systems would lead to highly similar selection decisions. The results suggest that, in elite wheat germplasm characterized by long-range linkage disequilibrium and strong realized genomic relationships, medium-density targeted genotyping platforms can retain most of the predictability achieved by higher-density systems. Overall, the public Wheat DArTag 3.9K EIB 2.0 platform represents a scalable and cost-effective solution for implementing GS in operational wheat breeding programs.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1851,6 +2000,24 @@
           "doi": "10.1371/journal.pgen.1012267",
           "url": "https://openalex.org/W7202112147",
           "abstract": "Acting as the central endocrine hub, the pituitary gland is closely related to the mechanism of adaptation to high-altitude hypoxia. Here, by integratively combining long-read (Oxford Nanopore) and short-read (Illumina) single-cell sequencing approaches, we profiled pituitaries from Diqing Tibetan pigs, inhabiting high-altitude environments (3,200 m) and Diannan small-ear pigs from low-altitude regions (500 m), thereby generating a full-length single-cell atlas, which in turn enabled the identification of molecular mechanisms potentially underlying adaptation to high-altitude hypoxia stress. Systematically delineating pituitary structure and transcriptional dynamics, we profiled 27,339 single cells encompassing 28,932 expressed genes. Leveraging unsupervised clustering coupled with marker-based annotation, we identified ten major cell types. Expression profiling of 20 canonical marker genes revealed pronounced cell-type-specific expression patterns, ten of which were independently validated by immunofluorescence, thus substantiating the accuracy of cell-type annotation. Gene-ontology enrichment analysis further suggested that upregulated genes were predominantly involved in oxidative metabolism and energy production, whereas downregulated genes were significantly associated with protein biosynthesis and translation processes, indicating a functional reprogramming of metabolic pathways. Moreover, comparative analyses between breeds and cell-cell communication analyses highlighted pathway shifts, including broad upregulation of the collagen family and four ligand-receptor pairs that may mediate pituitary intercellular coordination. In parallel, transcription-factor activity analysis nominated several regulators, including EBF3, DBX2, and TCF21, which may collectively contribute to altitude-associated adaptation. Finally, integrating long-read sequencing data revealed widespread transcript isoform diversity, with ~28% novel annotations, indicating considerable isoform complexity in pigs. Our findings delineate cellular heterogeneity, inferred intercellular communication networks, and transcript-isoform diversity in the porcine pituitary, thereby providing a cell-resolved resource for understanding pituitary features associated with high-altitude environments.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.stress.2026.101513",
+          "title": "Epigenetic control of heat stress responses in cotton: Mechanisms and breeding prospects",
+          "authors": [
+            "Guangming Han",
+            "Quanqiu Chen",
+            "Shengxi Zhang",
+            "Guorong Li",
+            "Jiayang Lan"
+          ],
+          "journal": "Plant Stress",
+          "date": "2026-08-10",
+          "doi": "10.1016/j.stress.2026.101513",
+          "url": "https://openalex.org/W7202052909",
+          "abstract": "Global climate change intensifies heat stress, severely threatening cotton production by impairing growth, reproduction, and fiber quality. Recent advances highlight that dynamic epigenetic mechanisms—including DNA methylation, histone modifications, chromatin remodeling, and non-coding RNAs (ncRNAs)—orchestrate stress-responsive gene networks and establish heat stress memory in cotton. These reversible modifications provide a crucial regulatory layer for sensing, responding to, and potentially recalling thermal stress. Multi-omics integration has been pivotal in linking these epigenetic changes to physiological and agronomic outcomes. Translational tools such as epigenome editing and marker-assisted selection demonstrate the potential of harnessing epialleles (allelic variants defined by epigenetic modifications rather than DNA sequence changes) for breeding resilient varieties. However, challenges persist, including understanding epigenetic crosstalk and tissue-specificity. This review synthesizes current knowledge on epigenetic regulation in heat-stressed cotton, explores integrative omics approaches, and discusses their application in crop improvement. We conclude by outlining key research priorities to accelerate the development of epigenetics-informed breeding strategies for climate-resilient cotton.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -5037,13 +5204,9 @@
     }
   },
   "stats": {
-    "total_count": 240,
-    "new_this_week": 69,
+    "total_count": 249,
+    "new_this_week": 73,
     "weekly_trend": [
-      {
-        "week": "2026-W27",
-        "count": 0
-      },
       {
         "week": "2026-W28",
         "count": 0
@@ -5054,7 +5217,7 @@
       },
       {
         "week": "2026-W30",
-        "count": 84
+        "count": 0
       },
       {
         "week": "2026-W31",
@@ -5062,7 +5225,11 @@
       },
       {
         "week": "2026-W32",
-        "count": 58
+        "count": 89
+      },
+      {
+        "week": "2026-W33",
+        "count": 62
       }
     ]
   }
