@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T06:57:50Z",
+  "generated_at": "2026-08-18T06:44:31Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -808,6 +808,22 @@
           "date": "2026-09-01",
           "doi": "10.1016/j.bcp.2026.118157",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42269984/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1093/evolut/qpag107",
+          "title": "Autopolyploid establishment under gametophytic self-incompatibility: the impact of self-fertilization and pollen limitation.",
+          "authors": [
+            "Douet D",
+            "Vekemans X",
+            "Clo J"
+          ],
+          "journal": "Evolution; international journal of organic evolution",
+          "date": "2026-08-17",
+          "doi": "10.1093/evolut/qpag107",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42264455/",
           "abstract": "",
           "track": "B",
           "source": "PubMed"
@@ -5204,8 +5220,8 @@
     }
   },
   "stats": {
-    "total_count": 249,
-    "new_this_week": 73,
+    "total_count": 250,
+    "new_this_week": 60,
     "weekly_trend": [
       {
         "week": "2026-W28",
@@ -5221,7 +5237,7 @@
       },
       {
         "week": "2026-W31",
-        "count": 86
+        "count": 100
       },
       {
         "week": "2026-W32",
@@ -5229,7 +5245,7 @@
       },
       {
         "week": "2026-W33",
-        "count": 62
+        "count": 49
       }
     ]
   }
