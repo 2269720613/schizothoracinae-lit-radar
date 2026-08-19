@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:44:31Z",
+  "generated_at": "2026-08-19T06:45:55Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -150,6 +150,49 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1038/s41597-026-08062-w",
+          "title": "Chromosome-level genome assembly and annotation of the Diptychus maculatus",
+          "authors": [
+            "Peng Xie",
+            "Ziyi Wu",
+            "Han Zheng",
+            "Yan Guo",
+            "Xufa Ma",
+            "Jian Liu",
+            "Xin Zhong",
+            "Yun Zhang"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-15",
+          "doi": "10.1038/s41597-026-08062-w",
+          "url": "https://openalex.org/W7203547544",
+          "abstract": "Diptychus maculatus is a state second-class protected fish species with significant ecological value, primarily distributed in Xinjiang, China. This study reports a high-quality chromosome-level genome assembly of D. maculatus , offering an essential resource for investigating its adaption to extreme environments. The assembly was achieved by integrating PacBio long-read sequencing, Hi-C chromatin interaction data, and transcriptomic evidence. The final genome assembled size was 1.805 Gb, with a contig N50 of 2.84 Mb and a scaffold N50 of 34.86 Mb. Based on Hi-C sequencing data, 94.4% of the assembled sequences were successfully anchored and oriented onto the 49 chromosomes. The genome contains 52.29% repetitive sequences. A total of 51,356 protein-coding genes were annotated, of which 99.37% received functional annotations. BUSCO assessment indicated a genome completeness of 98.08%. This high-quality reference genome provides a solid foundation for elucidating the genetic mechanisms underlying high-altitude adaptation in D. maculatus and will facilitate further studies in evolutionary genomics, conservation genetics, and aquaculture.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11356-026-38080-5",
+          "title": "Anthropogenic drivers of algal regime shifts in a Himalayan watershed and pathways for nature-based solutions",
+          "authors": [
+            "BHAWNA PANDEY",
+            "N. Chandra",
+            "Aman Srivastava",
+            "Himanshu Sahu",
+            "Arun Pratap Mishra",
+            "Ravindra Kumar",
+            "Dhani Arya",
+            "Upaka Rathnayake",
+            "Komali Kantamaneni"
+          ],
+          "journal": "Environmental Science and Pollution Research",
+          "date": "2026-08-15",
+          "doi": "10.1007/s11356-026-38080-5",
+          "url": "https://openalex.org/W7203540255",
+          "abstract": "Freshwater ecosystems worldwide are increasingly threatened by human activities, yet the ecological mechanisms linking anthropogenic pressures to algal community dynamics remain incompletely resolved in the Himalayan river systems. To bridge this gap, this study presents a rapid ecological assessment of algal diversity and water quality across three sites in the Kosi watershed, India, integrating comprehensive physicochemical analyses, Water Quality Index (WQI) evaluation, and multivariate statistics. We collected and analyzed 33 water and algal samples during the summer of 2023, identifying 11 algal genera spanning Cyanophyta, Chlorophyta, Xanthophyta, and Charophyta. Our results reveal a pronounced spatial gradient in water quality, with WQI values ranging from \"excellent\" (42.6) at the minimally impacted upstream site to \"very poor\" (266.3) at the most anthropogenically influenced downstream site. Canonical correspondence analysis demonstrates that turbidity and pH are the primary environmental drivers shaping algal assemblages, with nutrient-tolerant Spirulina and Oscillatoria dominating disturbed sites, while Oedogonium and Spirogyra prevail under more stable conditions. The rapid assessment approach enabled the timely detection of pollution hotspots and ecological responses, providing implementable steps for watershed management. Our findings underscore the urgent need for targeted conservation and pollution mitigation strategies to preserve riverine biodiversity and ecosystem services in Himalayan catchments. Nature-based solutions can be among the potential pathways to sustainability.",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.6084/m9.figshare.33244956",
@@ -829,6 +872,138 @@
           "source": "PubMed"
         },
         {
+          "id": "10.3897/phytokeys.278.203604",
+          "title": "Rediscovery and reexamination of a declared 'extinct' plant in South China: The species delimitation and conservation implications of Callicarpa oligantha (Lamiaceae)",
+          "authors": [
+            "Huimin Cai",
+            "Qiyi Yang",
+            "Yicheng Xu",
+            "涂铁要",
+            "Zhonghui Ma"
+          ],
+          "journal": "PhytoKeys",
+          "date": "2026-08-17",
+          "doi": "10.3897/phytokeys.278.203604",
+          "url": "https://openalex.org/W7203610283",
+          "abstract": "Accurate species delimitation serves as a cornerstone for effective biodiversity conservation strategies, particularly for rare taxa where misclassification of taxa may lead to misallocation of limited resources. Callicarpa oligantha , one of only two plant species declared extinct in Guangdong Province, South China, was historically documented solely from its type specimen--a single individual collected in 1917 at Luofushan (Loh Fau Mountain). However, the morphological similarities with C. brevipes have long challenged the taxonomic status of C. oligantha . Following the rediscovery of the species at its type locality in 2024, we conducted an integrative taxonomic reassessment of C. oligantha and C. brevipes based on the newly collected materials using combined analyses of molecular phylogenetics and morphological comparisons. Both molecular and morphological evidence congruently support the conspecificity of C. oligantha and C. brevipes . We therefore propose synonymizing C. oligantha under C. brevipes and recommend its exclusion from extinction lists. This study underscores the importance of robust taxonomic frameworks in preventing conservation misprioritization, and highlights the value of integrative, multidisciplinary approaches for establishing accurate biodiversity baselines prior to biological conservation action.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s42397-026-00279-9",
+          "title": "Egyptian cotton: harnessing genetic diversity, molecular tools, fiber anatomy, and innovation for a climate-smart future",
+          "authors": [
+            "Ibrahim A. A. Mohamed",
+            "Usama Abdel Hameid Abdel Razek",
+            "Junjuan Wang",
+            "Wuwei Ye",
+            "Honghong Wu",
+            "Qing Liu",
+            "Zujun Yin"
+          ],
+          "journal": "Journal of Cotton Research",
+          "date": "2026-08-17",
+          "doi": "10.1186/s42397-026-00279-9",
+          "url": "https://openalex.org/W7203586444",
+          "abstract": "Abstract Egyptian cotton, derived primarily from Gossypium barbadense L., has shaped the country’s agricultural economy and international reputation for nearly two centuries. Among these, the Giza varieties—renowned for their exceptional fiber length, fineness, and strength—have garnered global recognition and made substantial contributions to export revenues and rural livelihoods. This review systematically analyzes more than 120 scientific publications from the past 30 years. It synthesizes research advances in Egypt, focusing on germplasm resources, fiber anatomical characteristics, variety improvement, and the integration of molecular and biotechnological tools. Progress in molecular markers, quantitative trait locus (QTL) mapping, and genome-wide association studies (GWAS) is highlighted for its role in dissecting traits related to fiber quality and stress tolerance. Experimental transformation studies and functional genomics have provided proof-of-concept for genes involved in insect resistance and fiber development. At the same time, genome editing—particularly clustered regularly interspaced short palindromic repeats/CRISPR-associated protein (CRISPR/Cas) systems—represents an emerging frontier for precise trait improvement in G. barbadense . Molecular markers have been used to assess genetic diversity within Egyptian cotton germplasm, enabling the development of unique varietal fingerprints and guiding breeding programs to improve yield, quality, and stress resilience. Techniques such as QTL mapping and GWAS facilitate the identification of genomic regions underlying key traits, thereby establishing a foundation for marker-assisted selection. Specific Egyptian varieties—including Giza 94 (a heat-tolerant variety), Giza 95 (a drought-tolerant variety), and Giza 90/Giza 97 (salinity-tolerant varieties)—have demonstrated measurable stress resilience in controlled and field trials. However, formal release designations for these traits remain lacking. Concurrently, functional genomics approaches have enabled the characterization of genes involved in fiber development in Egyptian cotton. Furthermore, biotechnological innovations—including experimental Bt-transformation and the emerging precision of CRISPR/Cas genome editing—offer promising pathways to introduce adaptive traits more efficiently.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s00040-026-01127-4",
+          "title": "Sociality and nesting strategy account for non-random associations between bees and their parasitic dipterans",
+          "authors": [
+            "Carlo Polidori",
+            "Andrea Ferrari"
+          ],
+          "journal": "Insectes Sociaux",
+          "date": "2026-08-17",
+          "doi": "10.1007/s00040-026-01127-4",
+          "url": "https://openalex.org/W7203581375",
+          "abstract": "Abstract Bees (Apoidea: Anthophila) are recorded as common hosts of a diverse array of parasitic Diptera species, but information is widely scattered across the literature, limiting our knowledge of global bee-dipteran association patterns. Here, we retrieved published information on 453 bee-dipteran associations to test the role of life-history traits of hosts and parasites on such patterns. The 13 families and 37 genera of Diptera associated with bees are unevenly distributed across bee families within a specialized and modular network. The family Apidae was the most associated with parasitoids of adults, Colletidae were the most attacked by nest-entering larval parasitoids, Apidae and Megachilidae were the most attacked by non-nest-entering larval parasitoids, and cleptoparasites were more frequently observed attacking Andrenidae and Halictidae nests. The number of parasitic strategies, but not the richness of Diptera, was higher in fossorial species and both weakly depended on bee phylogeny. However, when considered singularly, the four parasitic strategies ((i) parasitoids of adults; (ii) nest-entering larval parasitoids; (iii) non-nest-entering larval parasitoids; and (iv) cleptoparasites) yielded moderate phylogenetic signals. Fossorial species were more associated with cleptoparasites, while the association rate of non-nest-entering larval parasitoids was higher in aerial-nesting bee species and in solitary bee species. In addition, fossorial bee species were found to be more specialised in their associate dipteran fauna. Despite the uneven distribution of studies across bee genera, our results suggest that these associations emerged through co-evolutionary processes, during which dipterans specialized and optimized their parasitic strategies based on the ecological traits of their host bees.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1864793",
+          "title": "Genetic mapping reveals QTLs associated with HLB response determined by Candidatus Liberibacter asiaticus quantification in a Citrus sunki × Poncirus trifoliata segregating population",
+          "authors": [
+            "Luciane Santini-Gazaffi",
+            "Rodrigo Gazaffi",
+            "Sinara Oliveira de Aquino",
+            "Dario Grattapaglia",
+            "Marinês Bastianel",
+            "Mariângela Cristofani–Yaly",
+            "Marcos Antônio Machado"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-17",
+          "doi": "10.3389/fpls.2026.1864793",
+          "url": "https://openalex.org/W7203598343",
+          "abstract": "Introduction Huanglongbing (HLB) is a devastating disease impacting citrus orchards worldwide. Identifying candidate genes and/or genomic regions that significantly influence plants' response to HLB is essential for breeding programs. Nevertheless, this remains a challenge, especially during the early stages of the citrus-pathogen interaction, when phenotypically distinguishing tolerant genotypes is not trivial. This work focused on identifying genomic regions and candidate genes associated with citrus response to Candidatus Liberibacter asiaticus ( C Las). Methods Quantitative trait loci (QTL) mapping was performed in a citrandarin population (278 individuals) derived from a fullsib cross between susceptible Citrus sunki (CS) and tolerant Poncirus trifoliata (PT). The mapping population was genotyped using DArTseq markers and the SNPs obtained from them (DArTseq-derived SNPs), as well as the EMBRAPA Multispecies 65K Illumina Infinium® chip. Phenotyping was based on four individual trials (two in a greenhouse and two in field conditions). QTL mapping was based on composite interval mapping implemented in the fullsibQTL software, with the cycle threshold (Ct) of quantitative PCR (qPCR) as the trait of interest for assessing C Las quantification in infected tissues, which can be evaluated in plants at any developmental stage. The biological function of QTLs was investigated by gene annotation using the chromosome-level phased Citrus sinensis genome (assembly DVS_A1.0) as the reference. The candidate genes were functionally annotated using Blast2Go software. Results A predominance of markers in a 1:1 ratio was observed, resulting in two maps, one for each parent. The linkage map had 5464 cM (1872 markers) for CS and 4794 cM (1340 markers) for PT. A total of 44 QTLs were mapped: 25 for the CS map (13 for field and 12 for greenhouse conditions), of which 17 were located at gene sites; and 19 were mapped for the PT (nine for field and 10 for greenhouse conditions), of which 16 were located at gene sites. Discussion Several genes associated with the identified QTLs are involved in stress responses, making them potential targets for further functional validation. These genomic regions and candidate genes provide valuable targets for future incorporation into citrus breeding programs aimed at developing HLB tolerance.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/jse.70102",
+          "title": "From genomes to graphs: Why macroevolution still matters in the pangenome era",
+          "authors": [
+            "Binbin Liu"
+          ],
+          "journal": "Journal of Systematics and Evolution",
+          "date": "2026-08-16",
+          "doi": "10.1111/jse.70102",
+          "url": "https://openalex.org/W7203640941",
+          "abstract": "Abstract As genomics moves from multilocus data sets to pangenomes and graph genome representations, the main challenge is no longer only to detect variation but also to explain how genomic features are distributed across lineages. Pangenomes and graph genomes reveal structural variants, alternative haplotypes, lineage‐specific sequences, and complex patterns of lineage sharing. These signals, however, do not by themselves show whether a pattern reflects common ancestry, retained ancestral polymorphism, introgression, recurrent origin, or analytical artifact. This problem is especially acute in clades shaped by hybridization, introgression, and polyploidy, where a single bifurcating tree may be useful for some questions but misleading for others. Here, we argue that the pangenome era increases the need for explicit macroevolutionary coordinates. We propose a conservative evidence ladder that treats conflict first as an observation, evaluates incomplete lineage sorting and analytical artifacts before stronger process claims are made, and then considers introgression, backbone‐level reticulation, and, when necessary, polyploid‐aware interpretation. For many downstream questions, the output may be a compressed reticulate backbone rather than a fully elaborated network. Such a backbone should be auditable and retain only those departures from treeness that change comparative, functional, breeding‐oriented, or taxonomic interpretation. Examples from crop pangenomes, Rosaceae, and other conflict‐rich systems illustrate how macroevolutionary reasoning can improve the interpretation of micro‐scale genomic signals in the pangenome era.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.13.744633",
+          "title": "Chromosome-level reference genome assembly of the Saimaa ringed seal (Pusa saimensis) - an ancient glacial relict landlocked pinniped",
+          "authors": [
+            "Martin Grethlein",
+            "Zsófia Fekete",
+            "Steffi Goffart",
+            "Angelika Kiebler",
+            "Mervi Kunnasranta",
+            "Marja Niemi",
+            "Danilo Fabrizio Santoro",
+            "Gerrit Wehrenberg",
+            "Sven Winter",
+            "Stefan Prost",
+            "Jaakko Pohjoismäki"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-16",
+          "doi": "10.64898/2026.08.13.744633",
+          "url": "https://openalex.org/W7203638853",
+          "abstract": "We present a high-quality chromosome-level reference genome for the Saimaa ringed seal (Pusa saimensis), an endangered freshwater pinniped endemic to Lake Saimaa, Finland. The assembly spans 2.353 Gb and comprises 15 autosomes together with the X and Y sex chromosomes. Using Oxford Nanopore Technologies (ONT) long-read sequencing and Hi-C scaffolding, we achieved a telomere-to-telomere assembly for all chromosomes, except the Y chromosome. Genome annotation identified approximately 21,800 protein-coding genes, consistent with other mammalian genomes. Assembly completeness was high, with BUSCO analysis recovering 98.5% of expected complete single-copy genes (97.7% single-copy and 0.8% duplicated). Comparative analyses revealed a highly conserved chromosomal architecture, with only minor syntenic differences relative to other pinniped chromosome-level assemblies. Previously described cytogenetic fusion events in Phocidae were confirmed (chromosomes 2 and 7). A translocation between chromosomes 6 and 7 distinguishes phocids from the otariids. In general, more distantly related taxa exhibit an increasing degree of intrachromosomal rearrangements. Notably, we identified a large intrachromosomal rearrangement on chromosome 2 that appears specific to the Saimaa ringed seal. Phylogenomic analysis based on 9,226 single-copy orthologues placed the Saimaa ringed seal as a sister lineage to the Baltic ringed seal (Pusa hispida botnica), while confirming also other established evolutionary relationships among pinnipeds. Comparative gene family analysis between the Saimaa ringed seal and the closely related grey seal (Halichoerus grypus) revealed lineage-specific differences driven by a limited number of gene families. In the Saimaa ringed seal, expansions were observed in ion transport, cytoskeleton, and regulatory genes, potentially reflecting adaptation to freshwater conditions. In contrast, the grey seal showed expansions in olfaction, immune- and spermatogenesis-associated gene families, including MAGE/MIA genes, consistent with differences in ecology and mating systems. This reference genome provides an important resource for studies of pinniped genome evolution, as well as conservation and population genomics of the Saimaa ringed seal, facilitating future work on genetic diversity, inbreeding, mutational load and adaptive potential in this highly endangered species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s13071-026-07619-3",
+          "title": "Insecticide susceptibility and knockdown resistance (Kdr) mutations (F1534C and V1016I) in Aedes aegypti populations from Dar es Salaam, Tanzania",
+          "authors": [
+            "Frank S.C. Tenywa",
+            "Silvan Hälg",
+            "Makame Haji",
+            "Jason Moore",
+            "Osward Dogan",
+            "Mapipi Haruna",
+            "P C Müller",
+            "Sarah J. Moore"
+          ],
+          "journal": "Parasites & Vectors",
+          "date": "2026-08-16",
+          "doi": "10.1186/s13071-026-07619-3",
+          "url": "https://openalex.org/W7165160966",
+          "abstract": "<title>Abstract</title> Background Dengue, Zika and chikungunya are <italic>Aedes</italic> -borne arboviruses that pose a major global public health threat. In the absence of effective treatments or universally available vaccines, disease control in sub-Saharan Africa relies primarily on insecticidal vector control. However, sustained insecticide application imposes selection pressure for insecticide resistance that compromises intervention effectiveness. This study assessed the insecticide resistance profile of <italic>Aedes aegypti</italic> populations in Dar es Salaam, Tanzania. Methods Phenotypic resistance of <italic>Ae. aegypti</italic> was evaluated using WHO-recommended adulticide and larvicide susceptibility bioassays at 1x discriminating concentrations. F <sub>1</sub> progeny derived from wild <italic>Ae. aegypti</italic> larvae were used for the tests. In adulticide bioassays, groups of 25 female <italic>Ae. aegypti</italic> were exposed for 1 h to insecticide-treated WHO susceptibility test papers. Larvicide bioassays exposed 25 third- and fourth-instar larvae to a larvicide based on <italic>Bacillus thuringiensis israelensis</italic> ( <italic>Bti</italic> ) or temephos for 24 h in 200 ml of water. Mosquito mortality was recorded 24 h post-exposure. Genotypic resistance was assessed using DNA extracted from phenotyped mosquitoes. The extracted DNA was screened for knockdown resistance ( <italic>Kdr</italic> ) mutations using diagnostic quantitative polymerase chain reaction (qPCR) assays. Results <italic>Aedes aegypti</italic> populations from Ilala and Temeke districts of Dar es Salaam demonstrated phenotypic resistance to pyrethroids, and organochlorine, with adult mortality rates below 20% and 5%, respectively, while remaining susceptible to organophosphates and carbamates. In Kinondoni, resistance was observed across all classes except carbamates, and pre-exposure to piperonlyl butoxide (PBO) increased pyrethroids mortality to an average of 40%. The LD <sub>50</sub> and LD <sub>90</sub> values for <italic>Bti</italic> and temephos showed resistance ratios (RR) below 5. The F1534C mutation was detected across all study districts; Ilala (77%, n = 77), Kinondoni (90%, n = 90) and Temeke (83%, n = 83), while low frequencies were observed for V1016I mutation. Conclusion <italic>Aedes aegypti</italic> populations from Dar es Salaam show widespread resistance to pyrethroids, and organochlorines. There was evidence of metabolic involvement suggested by partial restoration of susceptibility to pyrethroids through pre-exposure to PBO. A two-fold increase in LD₉₀ relative to the susceptible reference strain for <italic>Bti</italic> and temephos indicates no evidence of resistance, although continued monitoring is warranted to detect potential shifts in susceptibility.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1038/s41598-026-65517-1",
           "title": "Towards whole plastome phylogeography: resolving small genetic distances among European Arnica montana L. with the PlastidPipeline",
           "authors": [
@@ -863,6 +1038,100 @@
           "doi": "10.1038/s41597-026-08087-1",
           "url": "https://openalex.org/W7203478545",
           "abstract": "Larimichthys crocea (the large yellow croaker) is one of the most economically significant marine fish in East Asia. While chromosome-scale genome assemblies for three female (XX) geographical populations (Mindong, South China Sea, and Daiqu) were available, the lack of a high-quality male (XY) reference genome has hindered the exploration of male-specific sequences and the molecular mechanisms underlying sex determination. Here, we present the male T2T reference genome for the Mindong population of L. crocea by integrating Oxford Nanopore ultra-long, PacBio HiFi, and Hi-C sequencing. The assembly totals 747.28 Mb with a contig N50 of 31.79 Mb. We further achieved telomere-to-telomere (T2T) assembly and haplotype partitioning of the X and Y sex chromosomes. Telomeric repeats (TTAGGG) were identified at both termini of all 23 autosomes and two sex chromosomes. Moreover, centromeric regions exhibited significant enrichment of six major transposable elements, including DNA MULE, LTR Gypsy, DNA CMC-EnSpm, RC Helitron, LTR ERV1, and DNA TcMar-Tc2, with 76.19–93.42% of their total copies localized to centromeres. Together with a 42 bp tandem repeat (Cen-42), these elements form the centromeric architecture characterized by higher-order repeats (HORs). The T2T genome assembly exhibits high technical quality, with a BUSCO completeness of 99.6% and a base accuracy (QV) exceeding 59.75. The genome annotation yielded 29,933 protein-coding genes, providing a comprehensive map of the male-specific regions. This gap-free male reference genome provides a definitive genetic resource for studying sex-biased traits, sex chromosome evolution, and precision molecular breeding in L. crocea .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.14.744773",
+          "title": "Deep learning-based identification and quantification of rare circulating hybrid cells in orthotopic pancreatic cancer models",
+          "authors": [
+            "Cody C. Rounds",
+            "Divya Ravi",
+            "Ge Huang",
+            "Biruk Mengesha",
+            "Sophia Tran",
+            "Allyson Garcia",
+            "Nicole Rueb",
+            "Young Hwan Chang",
+            "Byung Park",
+            "Melissa H. Wong",
+            "Summer L. Gibbs"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-15",
+          "doi": "10.64898/2026.08.14.744773",
+          "url": "https://openalex.org/W7203555020",
+          "abstract": "Significance: Rare-cell identification in fluorescence microscopy remains challenging because targets are sparse and background varies between specimens. Combining specimen-specific fluorescence enrichment with image classification may enable efficient and more specific automated detection of rare cells. Aim: We developed a two-stage framework to identify and quantify candidate rare circulating hybrid neoplastic cells (CHCs, ECAD+/CD45+) in peripheral blood mononuclear cell (PBMC) preparations from tumor-bearing and tumor-naive mice. Approach: PBMCs from 28 mice were imaged by multichannel fluorescence microscopy. Matched unstained samples established animal-specific ECAD and CD45 background distributions for candidate cell enrichment. Blinded multi-annotator consensus labels were used to train a convolutional neural network (CNN) from DAPI, ECAD, and CD45 image crops. Generalization was evaluated by leave-one-animal-out validation across 10 random initializations. Final classification used a 10-model ensemble, and rare-cell burden was compared between groups using negative-binomial regression with total segmented-cell count as an exposure. Results: Of the 1,065,512 segmented cells, enrichment retained 10,176 candidates (0.96%), reducing the search space by &gt;99%. Four of five evaluable tumor-bearing animals showed reproducible held-out discrimination, with median quantified area under the receiver operator characteristic curve (AUROCs) of 0.918 - 0.951; one animal was a reproducible outlier (median AUROC, 0.338). Ensemble deployment identified 157.94 positive-consensus cells per 50,000 segmented cells in tumor-bearing animals versus 49.55 in controls. The estimated rare-cell rate was 3.15-fold higher in tumor-bearing animals (95% CI, 0.91 - 10.99; two-sided p=0.071; prespecified one-sided p=0.036). Conclusions: Specimen-specific fluorescence enrichment combined with supervised image classification reduced the cellular search space and enabled automated quantification of a rare CHC (ECAD+/CD45+) phenotypes. Cross-animal validation also identified specimen-specific generalization failure, highlighting the importance of biological-specimen-level validation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08062-w",
+          "title": "Chromosome-level genome assembly and annotation of the Diptychus maculatus",
+          "authors": [
+            "Peng Xie",
+            "Ziyi Wu",
+            "Han Zheng",
+            "Yan Guo",
+            "Xufa Ma",
+            "Jian Liu",
+            "Xin Zhong",
+            "Yun Zhang"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-15",
+          "doi": "10.1038/s41597-026-08062-w",
+          "url": "https://openalex.org/W7203547544",
+          "abstract": "Diptychus maculatus is a state second-class protected fish species with significant ecological value, primarily distributed in Xinjiang, China. This study reports a high-quality chromosome-level genome assembly of D. maculatus , offering an essential resource for investigating its adaption to extreme environments. The assembly was achieved by integrating PacBio long-read sequencing, Hi-C chromatin interaction data, and transcriptomic evidence. The final genome assembled size was 1.805 Gb, with a contig N50 of 2.84 Mb and a scaffold N50 of 34.86 Mb. Based on Hi-C sequencing data, 94.4% of the assembled sequences were successfully anchored and oriented onto the 49 chromosomes. The genome contains 52.29% repetitive sequences. A total of 51,356 protein-coding genes were annotated, of which 99.37% received functional annotations. BUSCO assessment indicated a genome completeness of 98.08%. This high-quality reference genome provides a solid foundation for elucidating the genetic mechanisms underlying high-altitude adaptation in D. maculatus and will facilitate further studies in evolutionary genomics, conservation genetics, and aquaculture.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-76753-4",
+          "title": "Unveiling centromeric retrotransposon dynamics through a high-quality rye genome assembly",
+          "authors": [
+            "Erwang Chen",
+            "Carlotta Marie Wehrkamp",
+            "Srijan Jhingan",
+            "Thomas Lux",
+            "Zihao Zhu",
+            "Jianyong Chen",
+            "Zuzana Tulpová",
+            "Axel Himmelbach",
+            "Jörg Fuchs",
+            "Jia‐Wu Feng",
+            "M. Timothy Rabanus‐Wallace",
+            "Hana Šimková",
+            "M. Spannagl",
+            "Martin Mascher",
+            "Thomas Wicker",
+            "Andreas Houben",
+            "Nils Stein"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-15",
+          "doi": "10.1038/s41467-026-76753-4",
+          "url": "https://openalex.org/W7171643457",
+          "abstract": "Rye (Secale cereale L.) is an important cereal crop known for its high yield potential and tolerance to biotic and abiotic stresses. However, its large, repeat-rich, and heterozygous genome has posed challenges for assembly compared to related species such as wheat and barley. Here, we present a high-quality, chromosome-scale genome assembly of the inbred line Lo7, generated using PacBio HiFi, Oxford Nanopore, Hi-C, and BioNano technologies with the TRITEX pipeline. The resulting Lo7_V3 assembly spans 6.76 Gb with a contig N50 of 128 Mb, correcting previous misorientations and fully assembling all seven centromeres. Repetitive clusters containing rye-specific satellite sequences (pSc200 and pSc250) are contiguously assembled. Their chromosomal positions are validated using FISH. Centromeric retrotransposon analysis reveals RLG_Abia and RLG_Abigail as abundant, recently active elements, unlike in wheat. Collectively, the Lo7_V3 genome assembly provides an improved genomic resource for future genomic research in rye and related cereal species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44372-026-00803-w",
+          "title": "Identification of genomic regions associated with the important micronutrients in maize (Zea mays L.) for multi-trait stacking",
+          "authors": [
+            "Diksha Jasrotia",
+            "Seema Sheoran",
+            "Dinesh Kumar Saini",
+            "A. K. Das",
+            "Alla Singh",
+            "Ramesh Kumar"
+          ],
+          "journal": "Discover Plants.",
+          "date": "2026-08-15",
+          "doi": "10.1007/s44372-026-00803-w",
+          "url": "https://openalex.org/W7203528371",
+          "abstract": "Maize ( Zea mays L.), a global staple, is often deficient in essential micronutrients and amino acids, contributing significantly to malnutrition. To solve this problem, genetic biofortification has emerged as a practical, cost-effective, convenient, and sustainable approach. Despite numerous QTL mapping studies for micronutrients (such as iron and zinc), only a few of these have been effectively utilized in a breeding program. To bridge this gap, a meta-QTL (MQTL) analysis was conducted using 532 QTLs from 14 published studies. These QTLs were associated with key vitamins (A and E) and minerals (iron, zinc, calcium, copper, manganese, magnesium, phosphorus, potassium, and sulphur). The analysis identified 28 MQTLs distributed across all ten chromosomes of maize. Additionally, 139 candidate genes associated with different minerals and vitamins were also detected. Several known genes encoding for some enzymes involved in biosynthetic pathways were also found to be co-localized with several MQTL, including MQTL 2.1, 2.3, 5.2, 6.1, 6.2, 7.1, 7.2, 8.2, 9.1, 10.1, and 10.2. Furthermore, 161 significant SNPs or marker-trait associations (MTAs) from previous genome-wide association studies (GWAS) also co-localized with as many as 14 MQTLs. By integrating MQTL analysis, GWAS, and gene expression data, this study precisely refines key genomic regions and identifies promising candidate genes, providing the necessary molecular markers to accelerate maize nutritional enhancement via marker-assisted breeding.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1056,6 +1325,21 @@
           "doi": "10.64898/2026.08.10.743091",
           "url": "https://openalex.org/W7203486988",
           "abstract": "EU has reclassified the sika deer (Cervus nippon) as an undesirable invasive species based on reports that hybridization with the indigenous red deer (C. elaphus) may produce fertile offspring. Since sika-derived DNA previosuly introduced into the red deer population (introgression) cannot be removed, the crucial question is whether new (F1) hybridisation occur. To address this, we analysed the chromosomes in 56 sika and 22 red deer. All red deer had a chromosome number 2n=68. In contrast, the chromosome number in sika ranged from 64 to 67, due to the variable presence of two sika-specific Robertsonian translocations (ROB1,ROB2). In the free-ranging sika population in Jutland, &gt;90% of the sika deer were homozygote for at least one of these ROBs, excluding that they could be F1-hybrids. Moreover, ROB2 was in Hardy-Weinberg equilibrium, further supporting the absence of gene flow between the two species. In contrast, ROB1 was in Hardy-Weinberg disequilibrium, suggesting negative fitness of heterozygotes, including potential F1-hybrids. In Jaegersborg Deer Park, the eight examined sika deer had the same genotype (absence of ROB1, homozygosity of ROB2), supporting that it is a founder population which may have been isolated for ~100 years. Again, none of these can be F1-hybrids due to the homozygosity of ROB2. We conclude that F1-hybridisation between sika and red deer either does not occur or occur very rarely in Denmark. The study establish the Danish sika-populations as unique models for adressing important biological questions: What underlies the absence of hybridisation? Why are ROBs frequent in sika deer but not in the closely related red deer? How fast do new species/subspecies develop in isolated founder populations? Which factors determine, that some ROBs have little heterozygous effects, whereas others are selected against, with implications for the role of ROBs as genetic barriers promoting speciation, and for fertility problems in some human ROB carriers.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.59796/rmj.v21n2.2026.r0711",
+          "title": "“Chaohu Folk Songs” for Choir: A Creative Research in Music Arranging",
+          "authors": [
+            "Shanshan Du",
+            "Supachai Suriyut"
+          ],
+          "journal": "Rangsit Music Journal",
+          "date": "2026-08-14",
+          "doi": "10.59796/rmj.v21n2.2026.r0711",
+          "url": "https://openalex.org/W7203548713",
+          "abstract": "After finishing my undergraduate studies, I started working in music education in Chaohu, where I engaged in collecting and studying local folk songs through various academic events. This work allowed me to meet important figures in the folk music community and deepened my passion for traditional music. Inspired by my experiences and China's national efforts to protect cultural heritage, I chose to focus my research on Chaohu folk songs, making them the main topic of my thesis by aiming to preserve the Chinese folk song. Since China's reform and opening, its economy and society have experienced rapid development. However, with the advancements in science and technology, economic development, the influx of Western culture, and the rise of Internet technology, the traditional way of life is disappearing at an accelerating rate. As a result, the development of Chaohu folk songs has encountered increasing challenges and now faces the risk of extinction. The study of the artistic characteristics of Chaohu folk songs and the creation of the traditional Chaohu folk songs are of great significance for the rescue and protection of Chaohu folk songs, which is a key motivation for my research on this cultural tradition. Chaohu folk songs are a regional musical tradition originating in Chaohu City, Anhui Province, China, and have been officially recognized as part of the nation’s intangible cultural heritage. These songs are deeply rooted in the everyday lives, emotions, and customs of local communities, reflecting both the natural environment and the cultural identity of the region. To preserve the Chaohu folk songs by compose and arrange the song to choir with Western classic music setting effectively, it is essential to gain a thorough understanding of their melodic structures, rhythmic patterns, core lyrical themes, and performance practices. When this knowledge is integrated with appropriate theories and methods of choral composition, the songs can be shaped into artistic expressions that communicate with a contemporary audience while preserving their authenticity. In my work, I have selected and arranged three representative Chaohu folk songs for choir, blending traditional elements with contemporary harmonic textures. This creative process not only enhances the artistic form of the songs but also advances their preservation, revitalization, and continued development within today’s musical landscape. This research aims to arrange three traditional Chaohu folk songs for choir performance. This initiative seeks to foster the inheritance and development of Chaohu folk music, thereby contributing to its contemporary music landscape. The research procedure involves a brief exploration of the historical context and musical attributes of Chaohu folk songs as well as an analysis of the adapted choral arrangements, with the objective of both conserving and innovating traditional cultural practices. Emerging from the Western ecclesiastical liturgy, choral music has undergone significant evolution, becoming a musical form widely esteemed for its intricate setting and textures. Considering the rapid expansion of the Chinese economy and its music sector, choral art, particularly the folk song chorus, has emerged as a potent vehicle for the transmission of cultural heritage. In contrast to solo vocal performances, choral singing facilitates broader engagement and more profound emotional articulation. By incorporating Western choral compositional methods, this study seeks to arrange traditional Chaohu folk melodies into novel choral compositions, thereby amplifying their artistic resonance while ensuring the Preservation and dissemination of the folk songs as well as the folk culture. This research process begins with establishing a comprehensive research methodology, encompassing objective setting, identification of key issues, and target group selection, with a focus on an in-depth investigation into the development and current status of Chaohu folk songs. The researcher analyzed the musical characteristics of three rearranged songs to reflect the connection between traditional roots and modern musical innovation (continuity and innovation). The final stage involves synthesizing knowledge from both the research findings and the creative process to compile a complete academic article and present the full research project to the academic community. The three adapted choral works are inspired by the beautiful scenery of Chaohu and people's love and praise for their hometown. The purpose of this study is to sort out the development process and evolution rules of Chaohu folk songs, understand the musical characteristics of traditional Chaohu folk songs, and combine Western music creation methods to create three traditional Chaohu folk songs in chorus to inherit and innovate Chaohu folk songs. The choral composition the Chaohu Folk Song demonstrates a more sophisticated music architecture, enhanced harmonic richness, and a broader spectrum of melodic variation, thereby contributing significant referential value to the study and future development of the song composition.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -5220,8 +5504,8 @@
     }
   },
   "stats": {
-    "total_count": 250,
-    "new_this_week": 60,
+    "total_count": 263,
+    "new_this_week": 59,
     "weekly_trend": [
       {
         "week": "2026-W28",
@@ -5233,19 +5517,19 @@
       },
       {
         "week": "2026-W30",
-        "count": 0
+        "count": 11
       },
       {
         "week": "2026-W31",
-        "count": 100
+        "count": 106
       },
       {
         "week": "2026-W32",
-        "count": 89
+        "count": 86
       },
       {
         "week": "2026-W33",
-        "count": 49
+        "count": 48
       }
     ]
   }
