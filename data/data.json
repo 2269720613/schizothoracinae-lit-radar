@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:45:55Z",
+  "generated_at": "2026-08-20T06:48:34Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -856,6 +856,43 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1093/aob/mcaf309",
+          "title": "Genome-wide association study reveals genomic regions impacting yield-related traits in allohexaploid Brassica with AABBCC genomes.",
+          "authors": [
+            "Zhang K",
+            "Yang S",
+            "Zou J",
+            "Huang Q",
+            "Chen S",
+            "Yan G",
+            "Cowling WA",
+            "Xu L",
+            "Zhou W"
+          ],
+          "journal": "Annals of botany",
+          "date": "2026-08-19",
+          "doi": "10.1093/aob/mcaf309",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41329696/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1093/aob/mcaf298",
+          "title": "Genetic signatures of long-term evolutionary history in a herbaceous, high-polyploid, clonal plant species in Central Europe.",
+          "authors": [
+            "Walden N",
+            "Koch MA"
+          ],
+          "journal": "Annals of botany",
+          "date": "2026-08-19",
+          "doi": "10.1093/aob/mcaf298",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41243184/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
           "id": "10.1093/evolut/qpag107",
           "title": "Autopolyploid establishment under gametophytic self-incompatibility: the impact of self-fertilization and pollen limitation.",
           "authors": [
@@ -945,6 +982,67 @@
           "source": "OpenAlex"
         },
         {
+          "id": "10.1371/journal.pone.0352247",
+          "title": "Beyond domestication: The unexpected contribution of native Musa wild relatives to cultivated banana diversity in Mainland Southeast Asia",
+          "authors": [
+            "Xavier Perrier",
+            "Gabriel Sachter-Smith",
+            "Catherine Breton",
+            "Ronan Rivallan",
+            "Jean-Pierre Jacquemoud-Collet",
+            "Cécile Dubois",
+            "Julie Sardos",
+            "Frédéric Bakry",
+            "Matthieu Chabannes",
+            "NGỌC-SÂM LÝ",
+            "Thomas Haevermans",
+            "Tiến-Dũng Triệu",
+            "Oudomphone Insisiengmay",
+            "Ting Zhang",
+            "Marie‐Line Iskra‐Caruana",
+            "Christophe Jenny"
+          ],
+          "journal": "PLoS ONE",
+          "date": "2026-08-17",
+          "doi": "10.1371/journal.pone.0352247",
+          "url": "https://openalex.org/W7203617529",
+          "abstract": "The diversity of cultivated bananas remains partially unknown, whereas cultivars with suitable adaptive traits could address the drastically increasing biotic and abiotic constraints on banana production. This partial knowledge also impacts our understanding of domestication processes, although replicating these processes is an endorsed strategy for banana varietal improvement. To address this gap, 91 specimens were collected during a collecting mission across northern Vietnam, northern Laos, and China's Yunnan region, an underexplored area at the northern limit of the Musa natural range. Native wild relatives were also collected (Musa acuminata subsp. burmannica, M. balbisiana, M. itinerans, M. yunnanensis) to assess their potential contributions to cultivated crops. SNP polymorphisms revealed that, beyond the globally cultivated sweet or starchy cultivars, farmers cultivate numerous previously undescribed landraces. SNP-based chromosome paintings further showed that all these landraces carry genomic signatures from endemic wild Musa relatives. Notably, Musa acuminata subsp. burmannica, typically regarded as a minor contributor to cultivated bananas, was detected in several M. acuminata derived diploids (AA) and triploids (AAA) as well as M. acuminata × M. balbisiana derived AAB and ABB landraces. Remarkably, we also report here for the first time polyploid landraces containing a complete haplotype of the local M. itinerans. Crucially, we showed that these landraces were not directly domesticated from the endemic wild Musa. They appear to result from local hybridizations of endemic wilds with exogenous AA diploids introduced into Mainland Southeast Asia from distant regions and originating from earlier domestication farther south. In addition, the various M. acuminata subspecies contributing to these exogenous diploids, provide arguments for an alternative eastern route of introduction via southern China or Taiwan and through the Philippines, distinct from the previously described western route via the Malay Peninsula, through Java, and Sumatra. We highlight an accumulation of genomic introgressions from native wild relatives, suggesting that banana diversity was shaped by an atypical process of cumulative diversification. This 'post-domestication' process is thought to enhance local adaptation through genes pyramiding. This multi-level genetic stacking is strengthened in bananas by polyploidy and vegetative propagation fixing any valuable combinations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44372-026-00751-5",
+          "title": "Biology and agricultural relevance of Triticum timopheevii (Zhuk.) Zhuk. and Triticum zhukovskyi Menabde &amp; Ericzjan as underutilised wheat crops historically cultivated in Georgia",
+          "authors": [
+            "Jonas V. Müller",
+            "Marine Mosulishvili"
+          ],
+          "journal": "Discover Plants.",
+          "date": "2026-08-17",
+          "doi": "10.1007/s44372-026-00751-5",
+          "url": "https://openalex.org/W7203596831",
+          "abstract": "The loss of genetic diversity as a result of modern wheat breeding has led to a renewed interest in ancient and underutilised wheats, which often display distinctive agronomic and ecological attributes. Triticum timopheevii and Triticum zhukovskyi are two hulled wheats of the independent AAGG polyploid lineage. They were traditionally cultivated in Georgia and represent a separate branch of wheat evolution. Synthesising taxonomic, archaeobotanical, molecular, agronomic, and historical evidence, this review paper aims to reassess their origin, distribution, domestication history, and their relevance today. Archaeobotanical studies which identified New Glume Wheat (NGW) as belonging to the T. timopheevii group have changed earlier interpretations of these wheats as minor crops. It was demonstrated that these wheats were not marginal relics but formed a significant component of Neolithic and Bronze Age agriculture. This paper examines the long-standing “Zanduri puzzle” regarding the domestication of T. timopheevii , which relates to the geographic separation of its wild progenitors and its cultivated forms. From an agronomic perspective, both T. timopheevii and T. zhukovskyi are characterised by resistance to major wheat diseases, tolerance to environmental stresses, and by stable performance under low-input and marginal conditions. Looking at their grain quality and favourable nutritional profiles, we argue that T. timopheevii and T. zhukovskyi should be considered not as locally confined relic crops but as significant contributors to both, the evolutionary history of wheat and future breeding strategies aiming at resilience, sustainability, and diversification.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1080/19475705.2026.2717855",
+          "title": "Integrated ecological risk assessment with composite risk index and machine learning: spatiotemporal analysis of Beshilo Watershed, Northwest Ethiopia",
+          "authors": [
+            "Abel Balew",
+            "Woubet G. Alemu",
+            "Wubshet Alebel",
+            "Abraham Mebrat Asmare"
+          ],
+          "journal": "Geomatics Natural Hazards and Risk",
+          "date": "2026-08-17",
+          "doi": "10.1080/19475705.2026.2717855",
+          "url": "https://openalex.org/W7203664955",
+          "abstract": "Climate change and anthropogenic activities pose significant threats to terrestrial ecosystem functions and processes, which greatly increase ecological risk. Therefore, investigating the spatiotemporal dynamics of ecological risk and its driving factors in the Beshilo River Watershed is essential for evaluating ecological conditions and supporting sustainable ecosystem management. This study integrates the composite ecological risk index (ERI) with machine learning (ML) and ensemble learning (EL) approaches to assess ecological risk. Ten driving factors were analyzed using the Geodetector and Shapley Additive Explanations (SHAP) to explore their influence on ecological risk. The results revealed that high ecological risk was primarily concentrated in the western and central parts of the watershed. Furthermore, the ML and EL models outperform the ERI in predictive accuracy. Among the ensemble models, the Random Forest -Extreme Gradient Boosting (XGBoost) model achieved the best performance (R2 = 0.976, RMSE = 0.0028, MAE = 0.0024). Trend analysis using the Mann-Kendall test and Sen’s slope indicates a statistically significant declining trend in ecological risk, despite noticeable temporal fluctuations during the study period. The normalized vegetation index, leaf area index, elevation, soil and precipitation were identified as the dominant drivers of ecological risk. This study provides valuable insights for developing effective ecological restoration and conservation strategies in the watershed.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1111/jse.70102",
           "title": "From genomes to graphs: Why macroevolution still matters in the pangenome era",
           "authors": [
@@ -1000,6 +1098,20 @@
           "doi": "10.1186/s13071-026-07619-3",
           "url": "https://openalex.org/W7165160966",
           "abstract": "<title>Abstract</title> Background Dengue, Zika and chikungunya are <italic>Aedes</italic> -borne arboviruses that pose a major global public health threat. In the absence of effective treatments or universally available vaccines, disease control in sub-Saharan Africa relies primarily on insecticidal vector control. However, sustained insecticide application imposes selection pressure for insecticide resistance that compromises intervention effectiveness. This study assessed the insecticide resistance profile of <italic>Aedes aegypti</italic> populations in Dar es Salaam, Tanzania. Methods Phenotypic resistance of <italic>Ae. aegypti</italic> was evaluated using WHO-recommended adulticide and larvicide susceptibility bioassays at 1x discriminating concentrations. F <sub>1</sub> progeny derived from wild <italic>Ae. aegypti</italic> larvae were used for the tests. In adulticide bioassays, groups of 25 female <italic>Ae. aegypti</italic> were exposed for 1 h to insecticide-treated WHO susceptibility test papers. Larvicide bioassays exposed 25 third- and fourth-instar larvae to a larvicide based on <italic>Bacillus thuringiensis israelensis</italic> ( <italic>Bti</italic> ) or temephos for 24 h in 200 ml of water. Mosquito mortality was recorded 24 h post-exposure. Genotypic resistance was assessed using DNA extracted from phenotyped mosquitoes. The extracted DNA was screened for knockdown resistance ( <italic>Kdr</italic> ) mutations using diagnostic quantitative polymerase chain reaction (qPCR) assays. Results <italic>Aedes aegypti</italic> populations from Ilala and Temeke districts of Dar es Salaam demonstrated phenotypic resistance to pyrethroids, and organochlorine, with adult mortality rates below 20% and 5%, respectively, while remaining susceptible to organophosphates and carbamates. In Kinondoni, resistance was observed across all classes except carbamates, and pre-exposure to piperonlyl butoxide (PBO) increased pyrethroids mortality to an average of 40%. The LD <sub>50</sub> and LD <sub>90</sub> values for <italic>Bti</italic> and temephos showed resistance ratios (RR) below 5. The F1534C mutation was detected across all study districts; Ilala (77%, n = 77), Kinondoni (90%, n = 90) and Temeke (83%, n = 83), while low frequencies were observed for V1016I mutation. Conclusion <italic>Aedes aegypti</italic> populations from Dar es Salaam show widespread resistance to pyrethroids, and organochlorines. There was evidence of metabolic involvement suggested by partial restoration of susceptibility to pyrethroids through pre-exposure to PBO. A two-fold increase in LD₉₀ relative to the susceptible reference strain for <italic>Bti</italic> and temephos indicates no evidence of resistance, although continued monitoring is warranted to detect potential shifts in susceptibility.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.82921/mro-10",
+          "title": "The origins and evolution of Libertia (Iridaceae).",
+          "authors": [
+            "Sophie Newmarch"
+          ],
+          "journal": "Pātaka Rangahau Massey Research Online",
+          "date": "2026-08-16",
+          "doi": "10.82921/mro-10",
+          "url": "https://openalex.org/W7203719817",
+          "abstract": "Polyploidy is a mechanism that has generated plant species diversity. The condition arises from whole genome duplication resulting in organisms with multiple chromosome sets. Polyploidy has been proposed to increase the genetic potential of species diversity to evolve that, in the presence of other factors, has contributed to evolutionary innovation and lineage radiation throughout plant evolution, especially of the angiosperms. In this thesis, factors that may influence the contribution of polyploidy to plant diversity are explored through phylogenomic studies of Libertia Spreng. (Iridaceae), a non-model genus that comprises ca. 14 species ranging in ploidy level from diploid (2x) to dodecaploid (12x). To establish and contribute to diversity (i.e., be ‘successful’), polyploidy requires opportunities that arise from environmental change. In Chapter 2, the environmental context in which Libertia evolved was inferred through a biogeographic study. The genus occurs in New Zealand, Australia, New Guinea, and South America. Although this disjunct distribution is not unusual amongst plants, it is distinctive amongst the Iridaceae with only the sister genus of Libertia, Orthrosanthus Sweet., similarly occupying both Australia and the Americas. Biogeographic analyses were conducted on a plastome sequence-based phylogeny of the Iridaceae. To address a challenge whereby widely used biogeographic models tend not to reconstruct areas that are not currently occupied, the connectivity parameter was adjusted amongst southern landmasses to assess whether Antarctica could be inferred. The model that was most stable and biologically reasonable suggested that Antarctica was likely involved in the early evolution of the Libertia-Orthrosanthus lineage. Ultimately, long-distance dispersal explained the disjunct distributions of Libertia and Orthrosanthus. Additional dispersal and environmental changes within the southern landmasses likely underpinned in situ speciation of each genus. Taken together, the evolution of Libertia appears to have been shaped by environmental change that has likely provided opportunities for the success of polyploid lineages. In Chapter 3, species relationships were inferred to understand the sequence of, and contributing lineages involved in, polyploidy events that generated Libertia species diversity. Reconstructing relationships of non-model and high ploidy species has been challenging predominantly due to short-read sequences often not spanning polymorphisms that distinguish locus copies. Using a modified method, long-read sequence data were generated. A novel bioinformatic pipeline was applied firstly, to phase the long-read data into homeolog sequences for three polyploid species then, secondly, to use the polymorphism information of the phased long-reads to phase short-read data of other accessions and polyploid species. Phylogenetic tree and network analyses were employed which inferred four allopolyploidy events involving four putative progenitor lineages. All polyploid species appeared to share a subgenome that is closely related to a South American diploid species, explaining the close relationships and morphological affinities amongst the South American and polyploid Australasian Libertia species. Given the prevalence of polyploidy and uptake of target enrichment for phylogenetic studies, the methods developed in Chapter 3 may be of wide interest and application. In Chapter 4 the genetic diversity and structure of a hexaploid species, Libertia peregrinans, was investigated to provide insights into polyploid evolution following establishment and to inform ideas concerning the longer-term consequence of polyploidy on plant diversity. Libertia peregrinans is endemic to New Zealand and displays all the reproductive assurance traits typically associated with polyploidy. Despite these, the species is endangered in nature and is being actively conserved. On the other hand, these traits make cultivation easy and the species a popular ornamental that is planted in urban settings throughout New Zealand. RAPDseq data were generated with a novel approach used to inform homeolog assembly, which involved the use of genetic diversity statistics of the phased homeolog sequences generated in Chapter 3. Population genetic analyses were conducted to investigate the level and distribution of genetic diversity as well as assess the identification of inland individuals as hybrids of the species with L. ixioides (12x). Results suggested that the genetic diversity of L. peregrinans is low with only broad genetic structure of natural coastal populations supported across analyses. The identification of hybrid inland individuals was supported with no gene flow detected between natural coastal and inland individuals. Together, these results support the idea that reproductive traits that aid polyploid establishment may hinder further divergence in the longer-term. Results also suggested that current ex situ conservation and urban plantings are conserving genetic diversity of L. peregrinans from the North Island, emphasizing the value of conservation efforts as well as the opportunities for conservation in urban settings. The three studies conducted in this thesis provide a multi-level account, in terms of time, space, and taxonomy, of the origins and evolution of Libertia. The approaches used in Chapters 2-4 all have novel aspects that contribute to fields of biogeography, phylogenetics, and population genetics, respectively. They work towards enabling the reconstruction of the evolutionary histories of non-model polyploid taxa that have been considered challenging to study. Hence, Libertia is shown to be a deceptively modest system that is useful for solving analytical challenges associated with investigating the complex role of polyploidy in the evolution of plant diversity.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -5504,8 +5616,8 @@
     }
   },
   "stats": {
-    "total_count": 263,
-    "new_this_week": 59,
+    "total_count": 269,
+    "new_this_week": 53,
     "weekly_trend": [
       {
         "week": "2026-W28",
@@ -5517,19 +5629,19 @@
       },
       {
         "week": "2026-W30",
-        "count": 11
+        "count": 28
       },
       {
         "week": "2026-W31",
-        "count": 106
+        "count": 99
       },
       {
         "week": "2026-W32",
-        "count": 86
+        "count": 88
       },
       {
         "week": "2026-W33",
-        "count": 48
+        "count": 42
       }
     ]
   }
