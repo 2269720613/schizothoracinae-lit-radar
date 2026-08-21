@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:48:34Z",
+  "generated_at": "2026-08-21T06:49:53Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -851,6 +851,71 @@
           "date": "2026-09-01",
           "doi": "10.1016/j.bcp.2026.118157",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42269984/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1111/nph.71443",
+          "title": "Cross-ploidy hybridisation in Alpine woodrushes is associated with ecological additivity and scale-dependent niche divergence.",
+          "authors": [
+            "Heimer V",
+            "Schönswetter P",
+            "Frajman B"
+          ],
+          "journal": "The New phytologist",
+          "date": "2026-09-01",
+          "doi": "10.1111/nph.71443",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42477510/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1073/pnas.2523784123",
+          "title": "Regulatory divergence of homoeologs underlies network optimization for fiber improvement in domesticated cotton.",
+          "authors": [
+            "Qi Z",
+            "Yang J",
+            "Xu Y",
+            "Tian X",
+            "Chen Z",
+            "Wang Y",
+            "Chen B",
+            "Meng Y",
+            "Zhang W",
+            "Zhang Z",
+            "Nie X",
+            "Tu L",
+            "Zhang X",
+            "Wendel JF",
+            "Liu F",
+            "Wang M"
+          ],
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "date": "2026-08-25",
+          "doi": "10.1073/pnas.2523784123",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42623441/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1093/jhered/esag059",
+          "title": "The contemporary Pacific gray whale (Eschrichtius robustus) gene pool includes ancestry from a potential ghost population: inferences from population genomics.",
+          "authors": [
+            "Allen NM",
+            "Brüniche-Olsen A",
+            "Jeon JY",
+            "Mularo AJ",
+            "Bickham JW",
+            "Ramírez JU",
+            "DeWoody JA"
+          ],
+          "journal": "The Journal of heredity",
+          "date": "2026-08-20",
+          "doi": "10.1093/jhered/esag059",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42623250/",
           "abstract": "",
           "track": "B",
           "source": "PubMed"
@@ -4317,6 +4382,23 @@
           "source": "OpenAlex"
         },
         {
+          "id": "10.1002/ece3.73980",
+          "title": "Local Genetic Signatures of a Global Weed: Population Structure and Ecological Drivers of Capsella bursa-pastoris Diversity in the Korean Peninsula.",
+          "authors": [
+            "Choi B",
+            "Kim E",
+            "Tiffin P",
+            "Kim ST"
+          ],
+          "journal": "Ecology and evolution",
+          "date": "2026-08-01",
+          "doi": "10.1002/ece3.73980",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42621327/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
           "id": "10.31407/ijees16.330",
           "title": "SCREENING SEEDLING ROOT ARCHITECTURE IN TRITICUM TURANICUM AND TRITICUM POLONICUM ANCIENT WHEAT SPECIES",
           "authors": [
@@ -5616,8 +5698,8 @@
     }
   },
   "stats": {
-    "total_count": 269,
-    "new_this_week": 53,
+    "total_count": 273,
+    "new_this_week": 47,
     "weekly_trend": [
       {
         "week": "2026-W28",
@@ -5629,19 +5711,19 @@
       },
       {
         "week": "2026-W30",
-        "count": 28
+        "count": 52
       },
       {
         "week": "2026-W31",
-        "count": 99
+        "count": 96
       },
       {
         "week": "2026-W32",
-        "count": 88
+        "count": 77
       },
       {
         "week": "2026-W33",
-        "count": 42
+        "count": 34
       }
     ]
   }
