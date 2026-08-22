@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:49:53Z",
+  "generated_at": "2026-08-22T06:41:38Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -150,6 +150,58 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.17017/j.fish.1477",
+          "title": "Food and feeding ecology of Tor putitora (Hamilton, 1822) from Rajouri River of Pir Panjal Himalayan Range, India",
+          "authors": [
+            "Shahid Mehmood",
+            "Imtiaz Ahmed",
+            "Niamat M. Ali"
+          ],
+          "journal": "Journal of Fisheries",
+          "date": "2026-08-19",
+          "doi": "10.17017/j.fish.1477",
+          "url": "https://openalex.org/W7203774601",
+          "abstract": "The present investigation provides the first comprehensive account of food and feeding habits of 375 Endangered putitor mahseer, Tor putitora, from Rajouri River of the Pir Panjal Himalayan region. Food items were grouped into eight categories, namely macroinvertebrates, zooplanktons, algal matter, unidentified plant matter, fish remains, detritus, unidentified-debris, and mud and sand, which were broadly classified into three major groups- plant matter, animal matter and miscellaneous materials. Quantitative and qualitative analyses revealed that plant matter constituted 38.97% of the diet, followed by miscellaneous materials 34.16% and animal matter 26.75%. The gastro somatic index and fullness index varied with sex, maturity stage and season owing to changes in food availability and reproductive activity. Both indices were the lowest during the spawning stage and highest during the pre-spawning stage. Feeding intensity increased during maturation and ripening (stages III and IV), but decreased significantly during the ripe stage (stage V). The relationship between total length and gut length indicated that gut was longer than the body, with body length-to-gut length ratios were 1:1.50 in females and 1:1.65 in males. Overall, relative length of gut, the index of preponderance, and predominance of algal matter throughout the year, together with the occurrence of animal matter in the gut indicate that the T. putitora is a column-feeding omnivore. These findings provide baseline information on the feeding ecology of this threatened species and will be valuable for the development of captive breeding, habitat management and conservation strategies.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.17605/osf.io/h75un",
+          "title": "Conserved Molecular Responses to Heat Stress in Cold-Water Fishes: A Systematic Review of Transcriptomic and Metabolomic Evidence",
+          "authors": [
+            "Asare Derrick"
+          ],
+          "journal": "Open Science Framework",
+          "date": "2026-08-19",
+          "doi": "10.17605/osf.io/h75un",
+          "url": "https://openalex.org/W7203740555",
+          "abstract": "This project presents a systematic review entitled **“Conserved Molecular Responses to Heat Stress in Cold-Water Fishes: A Systematic Review of Transcriptomic and Metabolomic Evidence.”** The review was undertaken to determine whether transcriptomic and metabolomic studies conducted across cold-water fish taxa reveal reproducible molecular responses to elevated temperature, and to assess what these responses indicate about thermal tolerance, resilience, and vulnerability under ongoing climate warming. Cold-water fishes are particularly sensitive to increasing water temperatures because many species occupy relatively narrow thermal niches and depend on habitats in which warming can rapidly alter metabolic demand, oxygen availability, cellular homeostasis, and physiological performance. Although a growing number of studies have examined heat-stress responses using transcriptomic and metabolomic approaches, the evidence remains dispersed across species, tissues, life stages, exposure regimes, ecological settings, and analytical platforms. This fragmentation makes it difficult to distinguish broadly conserved molecular responses from species-specific, tissue-specific, or context-dependent effects. The purpose of this review was therefore to systematically identify, appraise, harmonize, and synthesize the available evidence in order to establish a more integrated understanding of the molecular architecture of heat-stress responses in cold-water fishes. The review follows PRISMA 2020 principles and applies a predefined PECO-based eligibility framework. The population comprises cold-water and cold-adapted fishes, including salmonids, chars, whitefish, grayling, lenok, taimen, sturgeon, schizothoracine fishes, *Gymnocypris*, and other recognized cold-water taxa. The exposure of interest is experimentally imposed elevated temperature, including acute heat stress, chronic warming, and heatwave-like conditions. Eligible outcomes include transcriptomic responses, RNA sequencing and gene-expression profiling, metabolomic responses, and studies integrating both omics domains. Only original experimental studies with a relevant heat-stress comparison were included. Literature searches were conducted across Web of Science Core Collection, Scopus, PubMed, CNKI, and Google Scholar using Publish or Perish, covering studies published between January 2005 and December 2025 in English and Chinese. Records were deduplicated and screened through title and abstract assessment followed by full-text eligibility evaluation. Two reviewers independently verified study inclusion, extracted relevant study characteristics, and assessed methodological quality. The final evidence base comprised **147 included studies**. The synthesis evaluates variation in heat exposure design, species and taxonomic representation, tissue and life-stage coverage, ecological and altitudinal context, oxygen conditions, recovery periods, and omics methodology. Particular emphasis is placed on identifying molecular responses that recur across independent studies and taxa. Transcriptomic and metabolomic findings are harmonized into higher-order biological processes to determine where independent lines of evidence converge. The review specifically examines evidence for conserved responses involving **proteostasis and heat-shock regulation, mitochondrial and energetic remodeling, oxidative-stress regulation, immune modulation, membrane and lipid restructuring, and broader metabolic reprogramming**. It also distinguishes molecular signatures that may be associated with resilience, vulnerability, or uncertain functional significance, while considering the strength, recurrence, taxonomic breadth, tissue consistency, and methodological confidence of the supporting evidence. The expected outcome of the project is a structured evidence synthesis that moves beyond a descriptive catalogue of differentially expressed genes or metabolites. Instead, it seeks to identify molecular processes that are repeatedly supported across cold-water fish species and experimental contexts, evaluate the degree of cross-omics convergence, and determine where current evidence is robust or limited. The review is also intended to identify major gaps in the literature, including taxonomic concentration, uneven tissue and life-stage representation, limited metabolomic coverage, methodological heterogeneity, and insufficient integration of ecological variables such as altitude and oxygen availability. By integrating transcriptomic and metabolomic evidence within a common analytical framework, this project aims to provide a clearer mechanistic basis for understanding how cold-water fishes respond to thermal stress and how these responses may influence their capacity to persist under climate warming. The resulting synthesis is expected to inform future experimental design, comparative thermal biology, conservation physiology, and climate-resilient management and aquaculture research involving cold-water fish species.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1128/mra.00441-26",
+          "title": "Whole-genome sequence of Streptococcus agalactiae strain GIFTS31 isolated from streptococcosis-infected Nile tilapia in Bangladesh",
+          "authors": [
+            "Santu Biswas",
+            "Md. Rony Babu",
+            "Promi Saha",
+            "Farzana Yeasmin",
+            "Arpita Guha",
+            "Md. Amzad Hossain",
+            "Mustafizur Rahman",
+            "Tofazzal Islam",
+            "Md Mahbubur Rahman"
+          ],
+          "journal": "Microbiology Resource Announcements",
+          "date": "2026-08-18",
+          "doi": "10.1128/mra.00441-26",
+          "url": "https://openalex.org/W7203713347",
+          "abstract": "ABSTRACT Streptococcus agalactiae strain GIFTS31 was isolated from a Nile tilapia infected with streptococcosis in Gazipur, Bangladesh. The draft genome of GIFTS31 comprises 2,039,674 bp with a GC content of 35% and encodes 1,957 predicted protein-coding sequences. The genome sequence provides valuable insights into the pathogenic potential of fish-associated S. agalactiae .",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.1038/s41597-026-08062-w",
@@ -921,6 +973,48 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1007/s10592-026-01833-3",
+          "title": "Human-mediated domestic translocation disrupts regional phylogeographic structure of the Genji firefly (Nipponoluciola cruciata) in urban Tokyo",
+          "authors": [
+            "Hirobumi Suzuki",
+            "Sakutaro Yamagishi",
+            "Takehiko Kamito",
+            "Dai‐ichiro Kato",
+            "Yukio Nagano",
+            "Aki Yanagawa"
+          ],
+          "journal": "Conservation Genetics",
+          "date": "2026-08-20",
+          "doi": "10.1007/s10592-026-01833-3",
+          "url": "https://openalex.org/W7161628492",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10747250/v1",
+          "title": "Molecular identification of protected Magnoliaceae species: a multi-marker evaluation based on extensive sampling and genome-skimming data",
+          "authors": [
+            "Kai Mu",
+            "Xiaoyi Cheng",
+            "Xiaoman Wang",
+            "Zhang Jin",
+            "Zhengge Zhu",
+            "Jie Zhang",
+            "Shiliang Zhou",
+            "Ruijian Wang",
+            "Chao Xu",
+            "Xueying Yang"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-20",
+          "doi": "10.21203/rs.3.rs-10747250/v1",
+          "url": "https://openalex.org/W7203768389",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1093/aob/mcaf309",
           "title": "Genome-wide association study reveals genomic regions impacting yield-related traits in allohexaploid Brassica with AABBCC genomes.",
           "authors": [
@@ -956,6 +1050,379 @@
           "abstract": "",
           "track": "B",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1007/s00606-026-02028-6",
+          "title": "Comparative cytogenetics and rDNA organization in Cactaceae: insights from Armatocereus mataranus subsp. ancashensis",
+          "authors": [
+            "Luis Rojas Vasquez",
+            "Marlon García-Paitán",
+            "Gean Carlo Ciprian-Salcedo",
+            "María Siles-Vallejos",
+            "Alberto López"
+          ],
+          "journal": "Plant Systematics and Evolution",
+          "date": "2026-08-19",
+          "doi": "10.1007/s00606-026-02028-6",
+          "url": "https://openalex.org/W7203741455",
+          "abstract": "Abstract Cytogenetic data remain limited for many lineages of Cactaceae, constraining our understanding of chromosome evolution in this diverse family. Here, we combine newly generated cytogenetic and genome size data for Armatocereus mataranus subsp. ancashensis with a comparative dataset of ribosomal DNA (rDNA) organization across Cactaceae to examine patterns of locus number and chromosomal distribution. rDNA loci were analysed using fluorescence in situ hybridization (FISH) with 5S and 45S probes, and nuclear DNA content was estimated by flow cytometry. Somatic cells exhibited 2n = 22 chromosomes, consistent with a diploid condition based on x = 11. Two 5S rDNA loci were located on different chromosome pairs, while a single terminal 45S rDNA locus was detected on another pair. The diploid genome size was estimated at 2C = 2.73 pg, and flow cytometric profiles indicated the presence of endopolyploidy. Comparative analyses across Cactaceae show that rDNA locus number and chromosomal distribution in A. mataranus subsp. ancashensis are broadly consistent with patterns reported in both Cactoideae and Opuntioideae. These findings place the cytogenetic characteristics of this taxon within a broader comparative context and highlight patterns of both conservation and variation in rDNA organization across Cactaceae. Finally, these data may be useful as a cytogenetic reference for future conservation studies on A. mataranus subsp. ancashensis .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1182/bloodadvances.2026020894",
+          "title": "Local ancestry-aware genome-wide meta-analysis uncovers novel genetic loci for sickle cell disease nephropathy",
+          "authors": [
+            "Melanie E. Garrett﻿",
+            "Mehdi Nouraie",
+            "Roberto F. Machado",
+            "Victor R Gordeuk",
+            "Mark T. Gladwin",
+            "Marilyn J. Telen",
+            "Allison E Ashley-Koch",
+            "NHLBI Trans-Omics for Precision Medicine (TOPMed)"
+          ],
+          "journal": "Blood Advances",
+          "date": "2026-08-19",
+          "doi": "10.1182/bloodadvances.2026020894",
+          "url": "https://openalex.org/W7162865381",
+          "abstract": "In the United States, sickle cell disease (SCD) is a rare inherited hemoglobinopathy affecting about 100,000 individuals, mostly with African ancestry. SCD causes damage to multiple organ systems and SCD nephropathy (SCDN) is a common complication associated with early mortality. We previously performed a genome-wide association study (GWAS) for SCDN and identified a modest number of genome-wide significant loci. Here, we leveraged the ancestral composition of participants from two well-characterized adult SCD cohorts to boost statistical power and perform a local ancestry-aware GWAS for estimated glomerular filtration rate (eGFR), resulting in the identification of novel genome-wide significant loci within the African (AFR) and European (EUR) ancestral components of participants. Meta-analysis identified 12 significant genomic regions in the AFR tract, including PPIL6, ARHGAP24, RAB11A, and STEAP3, and 38 regions in the EUR tract, including UBLCP1, ADAMTS6, JAZF1, MYO7B, MYO1C, PDGFA, GPC5, LRP1B, KANK1, and TRPV5. The identified regions encompass genes affecting inflammation, extracellular matrix (ECM) integrity, iron metabolism, magnesium ion homeostasis, B cell apoptosis, tumor necrosis factor (TNF) production, and estrogen signaling. Many of these genes and pathways are important not only for renal function, but also for SCD biology, providing additional support for the hypothesis that SCDN pathophysiology is unique from other forms of kidney disease. This study represents the largest local ancestry-aware analysis of SCDN to date, furthers our understanding of the genetic risk factors underlying SCDN, and proposes new targets that could be useful for the early identification and treatment of kidney dysfunction in SCD patients.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1868979",
+          "title": "Bioinformatics in crop research: using genomic data for crop improvement",
+          "authors": [
+            "Muhammad Shahid Iqbal",
+            "Zareen Sarfraz",
+            "Muhammad Mujahid",
+            "Yusra Zarlashat",
+            "Alia Ambreen",
+            "Yasmeen Siddiqui",
+            "Amjad Ali",
+            "Amjad Ali",
+            "Rashid Abbas Khan",
+            "Zeeshan Ahmad",
+            "Muhammad Sajid Iqbal",
+            "Abdul Waheed",
+            "Asgar Ali",
+            "Asgar Ali"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-19",
+          "doi": "10.3389/fpls.2026.1868979",
+          "url": "https://openalex.org/W7203770020",
+          "abstract": "Sustainable crop development aims to maintain or increase yields while reducing environmental impact and managing the challenges imposed by climate change. As the global population grows and arable land becomes scarcer, the integration of molecular breeding with bioinformatics has emerged as an effective strategy for long-term crop improvement. Bioinformatics enables researchers to analyze and interpret the vast quantities of genetic data generated by high-throughput sequencing, making it possible to identify molecular markers, candidate genes, and regulatory networks linked to specific agronomic traits, which breeders then translate into focused, ecologically sustainable breeding programs. This approach has enabled major progress across several fronts: the identification of genes conferring resistance to biotic stressors (pests, pathogens) and abiotic stressors (drought, salinity, heat); the development of nutrient-efficient, low-input crop varieties; the improvement of agronomic performance and nutritional quality through identification of yield- and quality-related genes; and the conservation and deployment of genetic diversity to safeguard long-term breeding sustainability. By combining genomic data with precision breeding techniques, researchers are developing crops that are better adapted to a growing population and a changing climate, positioning the integration of molecular breeding and bioinformatics as a central pillar of future global food security.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/g3journal/jkag225",
+          "title": "De novo genome assembly of Texas wintergrass ( Nassella leucotricha (Trin. & Rupr.) Pohl) supports diagnostic marker development and phylogenetic analysis of species within the family Poaceae",
+          "authors": [
+            "C. Stephens",
+            "Nathaniel Jacob Turner",
+            "Puneet Kaur Mangat",
+            "Avinash Shrestha",
+            "Md Monjurul Huda",
+            "Rosalyn B. Angeles‐Shim"
+          ],
+          "journal": "G3 Genes Genomes Genetics",
+          "date": "2026-08-19",
+          "doi": "10.1093/g3journal/jkag225",
+          "url": "https://openalex.org/W7203770815",
+          "abstract": "Texas wintergrass is a cool-season perennial bunchgrass native to North America with ecological and agronomic importance as a winter forage species, yet genomic resources for this species remain limited. Here, we present the first de novo genome assembly of N. leucotricha generated using PacBio HiFi sequencing. Assembly with hifiasm produced a 959.92 Mb genome with 8X coverage, comprising 2,394 contigs with an N50 of 530.6 kb. Assembly completeness was high, with 99.6% of Benchmarking Universal Single-Copy Orthologs (BUSCOs) identified, although a substantial proportion were duplicated. Genome size estimates based on flow cytometry and k-mer analysis, together with assembly metrics, indicate a repeat-rich and structurally complex genome. Repeat annotation revealed that 64.42% of the genome consists of repetitive elements, predominantly long terminal repeat (LTR) retrotransposons, including Ty1/Copia, and Gypsy/DIRS1. Gene prediction using the homology-based pipeline GeMoMa identified 54,132 high-confidence genes, of which 53,868 were functionally annotated and 26,346 were assigned to KEGG pathways. Mining for genome-wide simple sequence repeats (SSRs) identified over 38,000 markers, with a validated subset demonstrating use for genetic diversity analysis. Reference-guided alignment and scaffolding using Brachypodium distachyon and Oryza sativa provided comparative frameworks for evaluating conserved sequence relationships between Texas wintergrass and representative grass genomes. Our results establish a genomic resource for Texas wintergrass, supporting future studies in comparative genomics and molecular breeding.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/g3journal/jkag227",
+          "title": "Drosophila beanbag ( beba ) encodes an insect receptor tyrosine kinase associated with reproductive niche organisation",
+          "authors": [
+            "Sarah Mele",
+            "Sarah Bright",
+            "Emily Kerton",
+            "Travis K. Johnson"
+          ],
+          "journal": "G3 Genes Genomes Genetics",
+          "date": "2026-08-19",
+          "doi": "10.1093/g3journal/jkag227",
+          "url": "https://openalex.org/W7203765199",
+          "abstract": "Receptor tyrosine kinases (RTKs) are cell surface proteins that govern many critical cell fate decisions and their dysregulation is a major cause of diseases such as cancer. Much of what we know about how these proteins work in cells and tissues comes from model organisms such as the fruit fly Drosophila. Here, we identify and provide an initial characterisation of a previously unstudied Drosophila receptor tyrosine kinase encoded by CG3277, which we name beanbag (beba). Ectopic beba expression was associated with increased phosphor-Akt and diphospho-ERK signals and produced gain-of-function phenotypes resembling those caused by other Drosophila RTKs. Using a MiMIC-derived T2A-GAL4 allele, we show that Drosophila beba is expressed in digestive, nervous and reproductive systems, in locations suggestive of potential roles in endoreplication and/or stem cell niche support. Animals transheterozygous for beba loss-of-function alleles were viable, developed at a normal rate, and showed no detectable change in enterocyte DNA content under standard conditions. However, beba loss-of-function females had fewer ovarioles, consistent with a role in the ovarian terminal filament, and males had increased testis hub nuclei number and hub volume, suggesting beba may regulate somatic niche architecture in the Drosophila gonad. Phylogenetic analysis places Beba within a Ret/Tor-related RTK radiation and supports the existence of a distinct Beba family in insects. Together, these data support the classification of Beba as a lineage-restricted Drosophila RTK and implicate it in reproductive niche organisation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41598-026-63880-7",
+          "title": "Dose-response effects of EMS treatments on germination and early seedling traits in Moroccan paprika (Capsicum annuum L.)",
+          "authors": [
+            "Atman Adiba",
+            "Hamza Bouras",
+            "Kaoutar ElFazazi",
+            "Salah Laaraj",
+            "Mohamed Lamsiah",
+            "Jamal Charafi",
+            "Samir Fakhour",
+            "Oumaima Chetto",
+            "Anas Hamdani",
+            "Moha Ferrahi"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-08-19",
+          "doi": "10.1038/s41598-026-63880-7",
+          "url": "https://openalex.org/W7203782511",
+          "abstract": "Abstract Ethyl methanesulfonate (EMS) is one of the most widely used chemical mutagens in plant breeding for inducing point mutations; however, its success is strongly dependent on the genotype, concentration, and exposure time. The present study aimed to evaluate the effects of different EMS concentrations and exposure times on germination and early seedling traits in paprika ( Capsicum annuum L.) in order to identify suitable preliminary treatment ranges for EMS applications. In this sense, seeds from two local genotypes of paprika from Morocco, ‘Lukus’ and ‘Beldia’, were tested under seven EMS concentrations (T0:0; T1:0.01; T2:0.02; T3:0.04: T4:0.08; T5:0.10; T6:0.50% v/v) for five different exposure times (0.5, 1, 4, 24, and 48 h) in addition to a control. The measurements included the germination percentage, mean germination time, time to 50% germination, germination speed index, and radicle length. Results showed that the effects of EMS treatments on the germination traits of both genotypes tested depended on EMS concentration and exposure time. The germination percentage and germination speed were significantly affected by the higher EMS concentrations (T5 and T6), with a reduction exceeding 70% in both genotypes. This effect was accompanied by a longer average time to germination and a slower rate of reaching 50% germination. Regarding the genotype factor, the ‘Beldia’ genotype exhibited greater tolerance to EMS-induced stress compared with ‘Lukus’. Multivariate analysis revealed that the first two principal components explained more than 79% of the total variability. Hierarchical clustering grouped EMS treatments into three distinct clusters corresponding to low-, intermediate-, and high-stress EMS conditions. Overall, the integration of germination kinetics and multivariate analyses allowed the identification of EMS treatment ranges associated with moderate physiological stress and acceptable germination performance. These findings provide preliminary insights into EMS dose-response behavior in Moroccan paprika genotypes and may serve as a basis for future mutation-breeding studies that require validation in subsequent generations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s10343-026-01399-7",
+          "title": "Tiny Foes with Big Consequences: a Systematic Review of Potato Responses to Meloidogyne Spp.",
+          "authors": [
+            "Ndivhuwo Ramatsitsi",
+            "Alen Manyevere"
+          ],
+          "journal": "Journal of Plant Diseases and Protection",
+          "date": "2026-08-19",
+          "doi": "10.1007/s10343-026-01399-7",
+          "url": "https://openalex.org/W7203765473",
+          "abstract": "Abstract Root-knot nematodes ( Meloidogyne spp.) represent a major constraint to global potato ( Solanum tuberosum L.) production, yet species-specific impacts and host response patterns remain fragmented across studies. This systematic review synthesised primary experimental evidence (1967–2025) to evaluate (i) Meloidogyne species infecting potato, (ii) cultivar-specific susceptibility and resistance expression, (iii) inoculum density-damage relationships, and (iv) mechanistic determinants of host response. Following PRISMA guidelines, 42 peer-reviewed studies were included in the qualitative synthesis. Results demonstrate clear geographic and species-specific risk profiles. Meloidogyne incognita and M. javanica dominate in warmer production systems and are primarily associated with growth suppression and yield reduction. In contrast, temperate systems are increasingly impacted by M. chitwoodi, M. fallax, M. hapla , and emerging species such as M. luci and M. minor , which frequently compromise tuber quality through internal necrosis and deformation. Across studies, damage was strongly inoculum density-dependent, with relatively low initial population densities capable of reducing marketable yield. Importantly, root gall severity did not consistently predict tuber infestation, indicating tissue-specific resistance expression. Evidence further shows that cultivars may sustain canopy growth while permitting nematode reproduction, thereby facilitating population build-up despite delayed yield loss. The findings support a recalibration of economic threshold levels toward tuber marketability metrics rather than vegetative indicators alone. Resistance in potato is multidimensional, species-dependent, and often tissue-specific, highlighting the need for regionally stratified breeding strategies and density-aware integrated management frameworks.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/g3journal/jkag226",
+          "title": "Draft hybrid assembly and annotation of the Drosophila palustris and Drosophila subpalustris genomes",
+          "authors": [
+            "William Dion",
+            "Emily Washeleski",
+            "Tessa E. Steenwinkel",
+            "Emily Taylor",
+            "Prajakta Kokate",
+            "Aidan VanDrie",
+            "Thomas Werner",
+            "Paul D. Goetsch"
+          ],
+          "journal": "G3 Genes Genomes Genetics",
+          "date": "2026-08-19",
+          "doi": "10.1093/g3journal/jkag226",
+          "url": "https://openalex.org/W7203778123",
+          "abstract": "Species within the quinaria group of the genus Drosophila are models for ecological genetic studies on topics that include morphological diversity, color pattern development, and feeding behavior. Drosophila palustris and Drosophila subpalustris are closely related members within the quinaria species group that differ primarily in subtle morphological and behavioral traits. To support future evolutionary genomic studies in drosophilids, we completed new draft hybrid assemblies and annotations of the D. palustris and D. subpalustris genomes. We obtained a fragmented assembly for D. palustris (N50 = 874 Kb) and a near chromosome-scale D. subpalustris assembly (N50 = 27.5 Mbp). Assembly contiguity, repeat content, and gene annotation compared well to other published quinaria group genomes. To demonstrate the utility of our hybrid assemblies, we performed whole genome synteny and phylogenomic comparisons within the quinaria clade. When compared to the chromosome-level Drosophila innubila assembly, the median size of syntenic blocks among quinaria group genomes was approximately 1 Mbp, although this estimate was influenced by assembly contiguity. Phylogenomic analyses estimated that the two major branches of the quinaria group diverged ∼17.9 MYA, with D. palustris and D. subpalustris diverging ∼1-2 MYA. We expect that our D. palustris and D. subpalustris assemblies will provide important additions to studies of genome evolution within Drosophilidae.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s10681-026-03730-9",
+          "title": "Identification of both shared and isolate-specific QTL and underlying candidate genes for Vanilla planifolia resistance to Fusarium root and stem rot",
+          "authors": [
+            "Quentin da Silva",
+            "Lucy Marcadé",
+            "Elisa Hoareau",
+            "Déborah Turpin",
+            "Betty Casimir",
+            "Katia Jade",
+            "Félicien Favre",
+            "Pascale Besse",
+            "Carine Charron"
+          ],
+          "journal": "Euphytica",
+          "date": "2026-08-19",
+          "doi": "10.1007/s10681-026-03730-9",
+          "url": "https://openalex.org/W7203744921",
+          "abstract": "Abstract Vanilla planifolia suffers major losses from root and stem rot (RSR) caused by Fusarium oxysporum f. sp. radicis-vanillae (Forv), amplified by low genetic diversity. We dissected quantitative resistance by phenotyping a selfed population AF_CR0040 (n = 115) inoculated with three Forv isolates (Fo166, Fo254, Fo297). Five traits were scored: symptoms at 5, 10 and 15 days post-inoculation (dpi), the area under the disease progress curve (AUDPC) and the day of mycelium appearance (d.myc). Multiple quantitative trait locus (QTL) mapping (MQM) was realized on a high-density genotyping-by-sequencing (GBS) map. QTL were anchored to the CR0040 genome to identify candidates. We detected 121 QTL across isolates and traits, explaining 2.5 to 21.8% of phenotypic variance, including 39 major loci (≥ 10%). Stable hotspots were shared by several isolates and traits, isolate-specific loci were also identified. Standardizing effects showed 44% of QTL carried favorable alleles (51% among major loci), with frequent dominance, consistent with transgressive segregation. In total, 837 genes lay within QTL windows. Top multi-QTL candidates encoded a calcium-dependent ADP-ribosylation factor GTPase-activating protein (ARF-GAP), three ATP-binding cassette (ABC) transporters, a basic helix-loop-helix (bHLH) transcription factor, a uridine kinase, and a leucine-rich repeat receptor-like kinase (LRR-RLK). These findings reveal coexisting generalist and isolate-specific resistance modules and provide genome-anchored targets for functional validation, gene pyramiding, and marker-assisted selection in vanilla.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.17221/74/2026-cjgpb",
+          "title": "Deciphering the genetic basis of heterosis for yield and its component traits using Brassica carinata-derived B. juncea alien introgression lines",
+          "authors": [
+            "Prashant Vasisth",
+            "Mohit Sharma",
+            "Omkar Maharudra Limbalkar",
+            "Gokulan Dhanasekaran",
+            "Mohan Lal Meena",
+            "Priyanka Jain",
+            "Bhaskar Chandra Sahoo",
+            "Sourav Kumar Moharana",
+            "Mir Asif Iquebal",
+            "Kiran B. Gaikwad",
+            "Anshul Watts",
+            "Naveen Singh"
+          ],
+          "journal": "Czech Journal of Genetics and Plant Breeding",
+          "date": "2026-08-19",
+          "doi": "10.17221/74/2026-cjgpb",
+          "url": "https://openalex.org/W7203795684",
+          "abstract": "Prashant Vasisth, Mohit Sharma, Omkar Maharudra Limbalkar, Gokulan Dhanasekaran, Mohan Lal Meena, Priyanka Jain, Bhaskar Chandra Sahoo, Sourav Kumar Moharana, Mir Asif Iquebal, Kiran B. Gaikwad, Anshul Watts, Naveen Singh",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44274-026-00975-y",
+          "title": "Evolution of oil spill remediation technologies from conventional to emerging solutions",
+          "authors": [
+            "Christian Amoako",
+            "Yaw Kwakye Adofo",
+            "Emmanuel Nyankson",
+            "Benjamin Agyei‐Tuffour"
+          ],
+          "journal": "Discover Environment",
+          "date": "2026-08-19",
+          "doi": "10.1007/s44274-026-00975-y",
+          "url": "https://openalex.org/W7203707811",
+          "abstract": "Oil spills pose significant environmental and socioeconomic challenges in marine and terrestrial ecosystems, where petroleum hydrocarbons can adversely affect aquatic organisms, coastal habitats, and farmland food products. This review provides an evolutionary overview of oil spill remediation technologies, from conventional approaches, including mechanical, thermal, chemical, and biological methods, with emphasis on their operational principles, effectiveness, advantages, and environmental limitations, to emerging precision-based bioremediation, including omics-based biosurfactant remediation, biosurfactant-enhanced bioremediation, and engineered microbial consortia bioremediation. Particular attention is given to the role of hydrocarbonoclastic microorganisms in petroleum biodegradation, highlighting the mechanisms of microbial hydrocarbon utilization and degradation. Graphical Abstract",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.4038/cjs.v55i5.9506",
+          "title": "Diversity, abundance, and parasitoid-phytophagous insect interactions in a selected pesticide-free rice ecosystem in Homagama, Sri Lanka",
+          "authors": [
+            "Thilini C. Weeraratne",
+            "R. A. T. K. Rupasingha"
+          ],
+          "journal": "Ceylon Journal of Science",
+          "date": "2026-08-19",
+          "doi": "10.4038/cjs.v55i5.9506",
+          "url": "https://openalex.org/W7203779453",
+          "abstract": "Yield loss associated with pest attack is a major concern for Sri Lankan rice farmers, and developing a sustainable pest management approach is still in need. This study assessed phytophagous rice insects and parasitoid diversity, and their interactions across vegetative, reproductive, and ripening stages in a pesticide-free rice field, located in the wet zone of Sri Lanka. Biweekly sampling was conducted during April to September, 2024. Flying adults were observed for 10 minutes in five quadrats, and non-flying insects and other life stages were handpicked, reared, and identified upon emergence. A total of 32 phytophagous insect species were identified, with the highest diversity during the reproductive stage. Eighteen parasitoid species (10 Hymenopterans and 8 Dipterans) were documented, parasitizing nine rice insect species. Parasitoid diversity was initially low during the vegetative stage, peaked at 40 days after planting, declined sharply, increased moderately during the reproductive stage, and remained lower during the ripening stage. An egg parasitoid species, eight larval, two larval-pupal, four pupal, two adult parasitoid species, and one hyperparasitoid (Brachymeria lasus) were reported. This is the first study in Sri Lanka to report the association of parasitoids, Brachymeria albotibialis, B. excarinata, Carcelia sp., Ceracia sp., Cotesia baoris, Palexorista solensis, Spathidexia aurantiaca, and Thecocarcelia oculata with phytophagous rice insects. Telenomus triptus showed the highest parasitism level (85%) on Scotinophara coarctata, displaying a significant relationship with host abundance across the rice plant growth phases. Possible bodyguard manipulation was observed in Spathidexia aurantiaca and Cotesia baoris. Overall, the study highlights diverse phytophagous rice insect-parasitoid interactions and underscores the strong potential of parasitoids in the suppression of pest populations in rice ecosystems.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08039-9",
+          "title": "A chromosome-level genome of Eutrema heterophyllum, an edible and medicinal plant of Brassicaceae",
+          "authors": [
+            "Shuang Wang",
+            "Pïng Chen",
+            "Na Li",
+            "Pengfei Jiao",
+            "Xiu Wu",
+            "Shiqi Wang",
+            "Yidong Mao",
+            "Huanhuan Liu",
+            "Quanjun Hu"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-18",
+          "doi": "10.1038/s41597-026-08039-9",
+          "url": "https://openalex.org/W7203723613",
+          "abstract": "Eutrema heterophyllum is a perennial alpine species mainly distributed on the eastern Qinghai-Tibetan Plateau and represents a valuable resource for studies of high-altitude adaptation and germplasm utilization. However, genomic research on this species has been constrained by the absence of a chromosome-level high-quality reference genome. Here, we performed chromosome-level genome assembly and annotation of E. heterophyllum , the final genome size was 348.43 Mb with a scaffold N50 of 48.54 Mb, and the anchoring rate reached 99.81%. Quality evaluation of the genome assembly yielded a BUSCO gene completeness of 99.01%, a CEGMA completeness of 96.77%, an LAI score of 20.52, and a short-read alignment rate of 98.84% that covered 97.44% of the genomic regions. Subsequently, the repetitive content was estimated to be 57.08%, and a total of 33,498 protein-coding genes were annotated with 97.63% complete BUSCO genes. Then, a total of 32,930 genes (98.30%) were successfully functionally annotated. This genomic resource will facilitate comparative genomics, studies of high-altitude adaptation, germplasm conservation, and investigation of glucosinolate metabolism and isothiocyanate formation in Eutrema .",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.14719/pst.14425",
+          "title": "Mapping and characterisation of mandarin (Citrus reticulata Blanco) genotypes across Eastern India",
+          "authors": [
+            "N Chettri",
+            "U Singh",
+            "C.S. Maiti",
+            "Laxuman Sharma",
+            "Animesh Sarkar"
+          ],
+          "journal": "Plant Science Today",
+          "date": "2026-08-18",
+          "doi": "10.14719/pst.14425",
+          "url": "https://openalex.org/W7203698521",
+          "abstract": "Citrus is one of the most significant fruit crops in the Rutaceae family. The Northeastern Himalayan region of India and the foothills of the Central and Western Himalayan regions, often referred to as the “treasure house of citrus germplasm” are rich sources of citrus genetic diversity. The present study aimed to assess the morphological and biochemical variabilities among different mandarin (Citrus reticulata Blanco) germplasms cultivated/grown in Eastern India. Following ICAR-National Bureau of Plant Genetic Resources (NBPGR) descriptors, a comprehensive survey and exploratory collection were conducted from native populations across West Bengal, Sikkim and Nagaland during 2024–25, covering diverse altitudinal and agro-climatic conditions. Mandarins collected from Dzongu (North Sikkim) exhibited the highest fruit weight (112.98 g) and total soluble solids (TSS: 10.13 ± 1.08 °Brix), along with superior vitamin C content (33.48 ± 4.44 mg/100 mL) and TSS:Acid ratio (20.87 ± 3.97), suggesting superior sweetness and nutritional quality. In contrast, Tseminyü (Nagaland) recorded the lowest fruit weight (61.05 g) and highest titratable acidity (1.04 ± 0.08 %), while Rüsoma (Nagaland) showed the highest reducing sugar (4.67 ± 1.98 %) and large fruit size (fruit length 57.62 mm, width 63.38 mm). Overall, the study revealed considerable genetic variability among the collected accessions, identifying Dzongu and Rüsoma as promising sources for quality planting material and breeding programs aimed at fruit quality improvement in mandarin. High-quality planting material can be produced using the accession.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/biolre/ioag171",
+          "title": "Unexpected variability of gametogenic pathways and interspecific chromosomal leakage in Pelophylax esculentus hybrids",
+          "authors": [
+            "Martyna Frątczak",
+            "Veronika Labajová",
+            "Eleonora Pustovalova",
+            "Zuzana Majtánová",
+            "Krzysztof Kolenda",
+            "Petr Papežík",
+            "Marie Doležálková‐Kaštánková",
+            "Magdalena Chmielewska",
+            "Lukáš Choleva",
+            "Peter Mikulíček",
+            "Dmitrij Dedukh"
+          ],
+          "journal": "Biology of Reproduction",
+          "date": "2026-08-18",
+          "doi": "10.1093/biolre/ioag171",
+          "url": "https://openalex.org/W7203756942",
+          "abstract": "Hybridization is common among animals and plants, but often leads to sterility due to improper chromosome pairing. Some hybrids overcome sterility through modified gametogenesis, enabling clonal or hemiclonal reproduction. In water frog hybrids from the Pelophylax esculentus complex, hybridogenesis typically ensures hemiclonal reproduction. These hybrids inherit haploid chromosomal sets (n = 13) from both parental species, Pelophylax lessonae and Pelophylax ridibundus. During hybrid gametogenesis, one genome is eliminated while the other is clonally transmitted. We analyzed hybrid males and females from Central Europe, where hybrids coexist with P. lessonae and with both parental species, to assess gametogenic stability and whether the P. lessonae genome is consistently eliminated. Most hybrids followed canonical gametogenesis with premeiotic elimination of the P. lessonae genome and endoreplication of the P. ridibundus genome, yielding haploid P. ridibundus gametes. Nevertheless, gametogenesis was frequently altered in males but not in females. Some hybrid males had spermatocytes with 13 or 26 univalents, 26 bivalents, or tetravalents, indicating variability in genome elimination and endoreplication. Some males produced diploid or haploid spermatids with P. ridibundus and P. lessonae genomes. Comparative genome hybridization revealed that some males with altered gametogenesis carried unusual chromosomes with mixed R and L signals. Furthermore, rare triploid males showed substitutions of P. lessonae chromosomes to P. ridibundus chromosomes. Despite altered gametogenesis, they produced spermatocytes and haploid spermatids with P. lessonae chromosomes and two P. ridibundus chromosomes that escaped elimination. Overall, despite a generally consistent pattern of genome transmission, hybrid males exhibit frequent deviations from canonical hybridogenesis across populations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08080-8",
+          "title": "A near telomere-to-telomere genome assembly of coltsfoot (Tussilago farfara)",
+          "authors": [
+            "Ying Li",
+            "Guangsen Zhou",
+            "Chunlan Dong",
+            "Jinyuan Chen",
+            "Xingyi Zhang",
+            "Wenliang Liu",
+            "Wangshan Zheng",
+            "Yanli Zheng",
+            "Shiyu Wei",
+            "Yan Leng",
+            "Junhui Ma",
+            "Xufeng Dong",
+            "Longxiao Li",
+            "Yongqiang Tian"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-18",
+          "doi": "10.1038/s41597-026-08080-8",
+          "url": "https://openalex.org/W7203717449",
+          "abstract": "Abstract Tussilago farfara L., commonly known as coltsfoot, is a perennial medicinal member of the Asteraceae family. It has a long history of use in traditional medicine to relieve coughs and other upper respiratory ailments. We report a near telomere-to-telomere (T2T) reference genome assembly for Tussilago farfara , constructed by integrating PacBio HiFi long reads, Oxford Nanopore Technologies (ONT) ultra-long reads, MGI short reads, and high-throughput chromatin conformation capture (Hi-C) data. The resulting 1.60 Gb genome assembly with approximately 94.92% of the sequences anchored onto 30 pseudochromosomes. Notably, this assembly is exceptionally contiguous, featuring only two gaps and capturing 50 of the 60 telomeres. Its exceptional completeness and accuracy are further supported by a BUSCO score of 99.50% and a consensus Quality Value (QV) of 68.16. Genome annotation revealed 51,235 protein-coding genes, 98.67% of which were functionally annotated. This high-quality reference genome provides a robust genetic foundation for elucidating the biosynthetic pathways of key medicinal compounds and will profoundly advance future evolutionary and functional genomics studies of coltsfoot.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10624936/v1",
+          "title": "Ancient genomics reveals lost giant chaffinch ecomorphs in the Azores",
+          "authors": [
+            "Juan Carlos Illera",
+            "B. Karina Montero",
+            "Juan Carlos Rando",
+            "Josep Antoni Alcover",
+            "Carles Lalueza‐Fox",
+            "Martin Irestedt",
+            "Carmen N Hernández-Flores",
+            "Sandertun Erik",
+            "Bezawit Tesfa",
+            "Jens Hering",
+            "Mark Ravinet",
+            "Pere Bover"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-18",
+          "doi": "10.21203/rs.3.rs-10624936/v1",
+          "url": "https://openalex.org/W7201842944",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41437-026-00873-2",
+          "title": "Significant fine-scale population differentiation in two common bumblebee species (B. pascuorum and B. lapidarius) detected in Northern Europe",
+          "authors": [
+            "Lauren Cobb",
+            "Markus A. K. Sydenham",
+            "Anders Nielsen",
+            "Bastiaan Star"
+          ],
+          "journal": "Heredity",
+          "date": "2026-08-18",
+          "doi": "10.1038/s41437-026-00873-2",
+          "url": "https://openalex.org/W7203664823",
+          "abstract": "Bumblebees are keystone pollinators which facilitate the reproduction of a wide range of wild and agricultural plants. Their abundance and diversity have been severely reduced by anthropogenic stressors such as widespread land-use change and habitat fragmentation. However, we lack a comprehensive understanding of population structure and local adaptation in bumblebees inhabiting human-altered landscapes. Here, we discover significant fine-scale (e.g. ~300 km) population structure within two common bumblebee species, Bombus lapidarius and Bombus pascuorum, by analysing whole genome data of 106 specimens from 7 sites in northern Europe. While the observed population structure is largely associated with natural oceanic barriers, we also detect significant divergence between populations sampled from anthropogenic landscapes which are not separated by such barriers. Furthermore, whereas genetic divergence in B. lapidarius is spread relatively evenly across the genome, divergence in B. pascuorum is concentrated within several megabase-sized genomic regions-including a putative chromosomal inversion - which may underlie well-known colour polymorphisms across its range. Our observations reveal a distinct genomic architecture underlying population structure within these bumblebee species, and highlight the necessity of increasing our understanding of bumblebee connectivity to design optimal bumblebee conservation strategies.",
+          "track": "B",
+          "source": "OpenAlex"
         },
         {
           "id": "10.1093/evolut/qpag107",
@@ -5698,8 +6165,8 @@
     }
   },
   "stats": {
-    "total_count": 273,
-    "new_this_week": 47,
+    "total_count": 296,
+    "new_this_week": 58,
     "weekly_trend": [
       {
         "week": "2026-W28",
@@ -5711,19 +6178,19 @@
       },
       {
         "week": "2026-W30",
-        "count": 52
+        "count": 71
       },
       {
         "week": "2026-W31",
-        "count": 96
+        "count": 95
       },
       {
         "week": "2026-W32",
-        "count": 77
+        "count": 71
       },
       {
         "week": "2026-W33",
-        "count": 34
+        "count": 45
       }
     ]
   }
