@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:41:38Z",
+  "generated_at": "2026-08-23T06:42:07Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -147,6 +147,30 @@
           "date": "2026-09-01",
           "doi": "10.1016/j.cbpa.2026.112050",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42468776/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.jtherbio.2026.104552",
+          "title": "Integrated transcriptomic and metabolomic analyses reveal the differential response mechanisms of Gymnocypris eckloni gills to different intensities of acute heat stress.",
+          "authors": [
+            "Ban W",
+            "Liao R",
+            "Duan Y",
+            "Peng M",
+            "Chen C",
+            "Yang R",
+            "Zhou Y",
+            "Han Z",
+            "Liu H",
+            "Lei L",
+            "Zhou C"
+          ],
+          "journal": "Journal of thermal biology",
+          "date": "2026-08-20",
+          "doi": "10.1016/j.jtherbio.2026.104552",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42632149/",
           "abstract": "",
           "track": "A",
           "source": "PubMed"
@@ -924,6 +948,27 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1111/gtc.70145",
+          "title": "Transforming Life Science Through Chromosome-Level Genome Assemblies.",
+          "authors": [
+            "Kon T",
+            "Kataoka K",
+            "Luo YJ",
+            "Wibisana JN",
+            "Toga K",
+            "Uno N",
+            "Monden Y",
+            "Hamada M"
+          ],
+          "journal": "Genes to cells : devoted to molecular & cellular mechanisms",
+          "date": "2026-09-01",
+          "doi": "10.1111/gtc.70145",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42629966/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
           "id": "10.1073/pnas.2523784123",
           "title": "Regulatory divergence of homoeologs underlies network optimization for fiber improvement in domesticated cotton.",
           "authors": [
@@ -951,6 +996,70 @@
           "abstract": "",
           "track": "B",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1038/s41597-026-08170-7",
+          "title": "Chromosome-level genome assembly of Coreoperca whiteheadi",
+          "authors": [
+            "Yangyang Liang",
+            "Huijuan Liu",
+            "Huijuan Liu",
+            "Kai Cui",
+            "Jing Li",
+            "Ting Fang",
+            "Na Gao",
+            "Cheng Chen",
+            "Xiuxia Zhao",
+            "Kun Yang",
+            "Xiang Wang",
+            "Jian Zhao",
+            "Wenxuan Lu",
+            "Haiyang Liu",
+            "Haiyang Liu"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-21",
+          "doi": "10.1038/s41597-026-08170-7",
+          "url": "https://openalex.org/W7203887613",
+          "abstract": "Coreoperca whiteheadi is an economically important and ecologically significant freshwater fish distributed across southern China and northern Vietnam, yet genomic resources for this species remain limited. Here, we present a high-quality, chromosome-level genome assembly for C. whiteheadi generated using an integrated sequencing strategy combining PacBio HiFi long-read, MGI short-read, and Hi-C chromatin conformation data. The assembled genome spans 787.17 Mb, with 99.00% of sequences anchored to 24 pseudochromosomes, achieving a contig N50 of 24.26 Mb and a scaffold N50 of 33.57 Mb, with a 99.42% BUSCO completeness. A total of 22,288 protein-coding genes were predicted, of which 98.87% were supported by BUSCO analysis, and 99.45% were functionally annotated in at least one public database. Repetitive elements comprise 32.18% of the genome. This assembly represents the first high-quality chromosome-level genomic resource for the genus Coreoperca and will serve as a valuable reference for comparative genomics, population genetics, and evolutionary studies of Sinipercidae fishes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.25772/sm1x-6a70",
+          "title": "Comorbid Psychosis in the General Population",
+          "authors": [
+            "Mariam Sankoh"
+          ],
+          "journal": "VCU Scholars Compass (Virginia Commonwealth University)",
+          "date": "2026-08-21",
+          "doi": "10.25772/sm1x-6a70",
+          "url": "https://openalex.org/W7160729232",
+          "abstract": "Psychosis is a complex psychiatric phenotype characterized by substantial heterogeneity in symptom presentation, psychosis diagnosis, comorbidity patterns, and genetic architecture across diverse populations in the general population. Despite advances in psychiatric epidemiology and genomics, important gaps remain in understanding how psychosis symptoms and psychosis-related diagnoses manifest across racial and ethnic groups and how evolutionary genomic factors may contribute to disease risk and cross-ancestry genetic prediction. This dissertation, Characterizing Comorbidity in Psychosis in the General Population, integrates epidemiological, psychometric, and evolutionary genetic approaches to examine psychosis across diverse populations. Aim 1 examined racial and ethnic differences in psychosis comorbidity patterns using data from the Collaborative Psychiatric Epidemiology Surveys (CPES). Multinomial logistic regression analyses were conducted to evaluate associations between psychosis symptoms and co-occurring mood, anxiety, and substance use disorders across racial and ethnic groups. Results demonstrated significant heterogeneity in psychosis presentation, with Black and Hispanic participants more likely to report isolated a psychosis diagnosis, while White participants more frequently demonstrated psychosis diagnosis comorbid with mood and anxiety disorders. Aim 2 evaluated the latent structure and measurement invariance of psychosis symptoms across racial and ethnic groups using confirmatory factor analysis with categorical indicators. A two-factor model distinguishing hallucinations and delusions provided better fit than a single-factor model. Multi-group analyses supported configural and threshold-loading invariance across groups, suggesting that core psychosis symptom constructs were measured comparably despite observed differences in prevalence and symptom clustering. A review synthesized the use of comparative genomics, conservation metrics, and population genetic approaches in understanding disease-associated variation and highlighted methodological challenges in applying evolutionary frameworks to complex psychiatric traits. Aim 4 investigated the evolutionary and functional genetic architecture of psychosis-associated loci using summary statistics from Psychiatric Genomics Consortium (PGC) and Genomics Psychiatry Cohort datasets and population genetic data from the 1000 Genomes Project. Analyses incorporated conservation metrics including PhyloP, Tajima’s D, and sequence constraint measures to evaluate enrichment of psychosis-associated variation in evolutionarily conserved regions across ancestries. Results indicated that conserved genomic regions explained a disproportionate share of psychosis heritability, although enrichment patterns varied across populations and did not fully resolve limitations in cross-ancestry polygenic risk score portability. Collectively, these findings demonstrate that psychosis symptoms and psychosis-related diagnoses in the general population reflect both shared and population-specific patterns of symptom structure, comorbidity, and genetic architecture. This work contributes to psychiatric genetics and mental health disparities research by integrating epidemiological and evolutionary approaches to better characterize psychosis across diverse populations and by identifying important considerations for future cross-ancestry genomic studies and polygenic risk prediction efforts.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpsyt.2026.1893137",
+          "title": "Complexity and risk factor research in mental disorders: better think twice",
+          "authors": [
+            "Vladeta Ajdacic‐Gross",
+            "Lena Ajdacic",
+            "Mario Müller",
+            "Ana Buadze",
+            "Sebastian Olbrich",
+            "Erich Seifritz",
+            "Roland von Känel",
+            "Martin Preisig",
+            "Caroline L. Vandeleur"
+          ],
+          "journal": "Frontiers in Psychiatry",
+          "date": "2026-08-21",
+          "doi": "10.3389/fpsyt.2026.1893137",
+          "url": "https://openalex.org/W7203953792",
+          "abstract": "Complexity has become an increasingly prominent concept in research on mental disorders and pathological behaviors. This is more than due, as these conditions are not only complicated but genuinely complex. Complexity serves both as an analytic lens and as a force that pushes scientific progress forward. However, complexity science, as it currently stands, seems poised to deliver waves of new findings but no transformative breakthroughs. We propose rethinking complexity from a multisystem perspective which has been common in social sciences and naturally fits with the setting in mental and behavioral disorders, respectively. The key feature of multisystem complexity is heterogeneity of involved systems, heterogeneity of involved processes, their interactions and outcomes. Implementing a multisystem and heterogeneity perspective requires a thorough rethinking of methodology, while assessing failures, misunderstandings, requirements and prospects. The same is true for research directions such as risk factor research. Examples of implementations are drawn from research on suicide and neurodevelopmental disorders.",
+          "track": "B",
+          "source": "OpenAlex"
         },
         {
           "id": "10.1093/jhered/esag059",
@@ -1011,6 +1120,361 @@
           "doi": "10.21203/rs.3.rs-10747250/v1",
           "url": "https://openalex.org/W7203768389",
           "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-07416-8",
+          "title": "Chromosome-level genome assembly of blotched snakehead (Channa maculata) using PacBio HiFi and Hi-C sequencing",
+          "authors": [
+            "Haiyang Liu",
+            "Wu Xie",
+            "Jiafeng Liu",
+            "Tongxin Cui",
+            "Qing Luo",
+            "Shuzhan Fei",
+            "Xinping Zhu",
+            "Kunci Chen",
+            "Mi Ou",
+            "Jian Zhao"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-20",
+          "doi": "10.1038/s41597-026-07416-8",
+          "url": "https://openalex.org/W7203830994",
+          "abstract": "The blotched snakehead ( Channa maculata ) is a commercially important freshwater fish widely distributed across southern China and Southeast Asia. Although a female genome assembly has been previously reported, a high-quality male reference genome remains unavailable, limiting investigations into sex determination and comparative genomics. In this study, we present a chromosome-level genome assembly of a male C. maculata generated using PacBio HiFi long-read sequencing combined with Hi-C scaffolding. The final assembly spans 659.42 Mb, with 99.13% of the assembled sequences anchored to 21 chromosomes. The genome exhibits high contiguity, with a contig N50 of 26.26 Mb and a scaffold N50 of 29.95 Mb, and high completeness, as indicated by a BUSCO score of 99.5%. A total of 23,969 protein-coding genes were annotated, of which 97.42% were identified as complete BUSCOs, and 97.78% were functionally annotated. Repetitive elements comprise 25.31% of the genome. This male reference genome complements the previously published female genome and provides a valuable resource for studies of sex determination, genome evolution, and molecular breeding in C. maculata and related Channa species.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.16.745146",
+          "title": "Heritability of leaf stable carbon isotope signature in a diversity panel of the C4 plant Sorghum bicolor",
+          "authors": [
+            "Joseph D Crawford",
+            "Collin Luebbert",
+            "Ivan Baxter",
+            "Daniel P. Schachtman",
+            "Asaph B. Cousins"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-20",
+          "doi": "10.64898/2026.08.16.745146",
+          "url": "https://openalex.org/W7203831759",
+          "abstract": "A strategy to improve agricultural water productivity is to increase water use efficiency (WUE) at the level of plant transpiration through genetic selection. This requires detectable genetic variability in WUE and the ability to phenotype and select plants with higher WUE within a population. A proxy for phenotyping leaf level WUE by measuring carbon isotope signature (δ13Cleaf) has been supported by theory and data in C4 species. However, the functional relationship of δ13Cleaf and WUE in C4 species can be driven by genetics and environment. Therefore, a wide survey of existing natural variation is needed to quantify the heritability and identify various genetic factors that influence δ13Cleaf and WUE. In this study a genome-wide association panel was used to quantify the heritability of δ13Cleaf. We measured δ13Cleaf across a population of 360 genetically diverse lines of the C4 species Sorghum bicolor with single nucleotide polymorphic (SNP) markers determined from whole-genome resequencing. This analysis was conducted on two independent field environments where heritability of δ13Cleaf was evident and was driven by small genetic effects from loci that were consistently identified across environments. Candidate genes are presented that offer insights on future targets to manipulate and explore the functional relationship between δ13Cleaf and WUEi in C4 plants.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10671189/v1",
+          "title": "Genome to Phenotype Precision Breeding in Wheat through a Quantitative Systematic Review of 184 Studies on Molecular Technologies for Climate Resilience",
+          "authors": [
+            "Erick  F. Christopher"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-20",
+          "doi": "10.21203/rs.3.rs-10671189/v1",
+          "url": "https://openalex.org/W7203769606",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11240-026-03567-z",
+          "title": "A light-controlled propagation system for Undaria pinnatifida based on protoplast-derived aposporous filaments",
+          "authors": [
+            "José Ávila-Peltroche",
+            "Dong Jin Kim",
+            "Boo Yeon Won",
+            "Tae Oh Cho"
+          ],
+          "journal": "Plant Cell Tissue and Organ Culture (PCTOC)",
+          "date": "2026-08-20",
+          "doi": "10.1007/s11240-026-03567-z",
+          "url": "https://openalex.org/W7203780260",
+          "abstract": "Propagation systems based on somatic tissues or cells of elite material is a powerful approach in plant cultivation; however, comparable effective and controllable systems remain limited for kelps, an economically important group of marine macroalgae. In this study, we present a method for the controlled and sustained propagation of the commercial brown alga Undaria pinnatifida using protoplast-derived aposporous filaments (PDAFs). We found that green LED light promotes the formation and maintenance of PDAFs, while sporophyte regeneration is successfully triggered under dichromatic (red plus blue) light. PDAFs produced under green light yielded significantly more sporophytes than those from white or red-light conditions. Optimal and sustained sporophyte production was achieved using 500–750 filaments/mL, light intensities of 40–80 µmol photons m−² s− 1, and subcultures younger than four months with at least six weeks of regrowth. Comparative nuclear DNA content analysis using haploid and diploid reference materials indicated that both PDAFs and regenerated sporophytes exhibited relative DNA content consistent with diploid levels. Furthermore, cryopreservation using proline-based cryoprotectants resulted in high post-thaw viability (73–76%) without impairing sporophytic regeneration capacity. Our findings demonstrate the potential of PDAFs as a controllable, non-spore-based propagation stage for U. pinnatifida, providing an alternative method for sporophyte production and germplasm preservation in kelps. This study demonstrates the potential of protoplast-derived aposporous filaments for controllable propagation in Undaria pinnatifida via light quality, culture conditions, and cryopreservation, advancing brown seaweed in vitro methods.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10103476/v1",
+          "title": "Entropy-Driven Alignment-Free Phylogenetic Analysis via K-mer Encoding, DNA Physicochemical Properties, and Rough Set Feature Selection",
+          "authors": [
+            "Yong Liu",
+            "Tongliang Xia",
+            "Xu Yan",
+            "He Wang",
+            "Xinyang Jiang",
+            "Shujie Gao",
+            "Shusheng Li",
+            "Yang Yan"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-20",
+          "doi": "10.21203/rs.3.rs-10103476/v1",
+          "url": "https://openalex.org/W7203829172",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.16.745140",
+          "title": "Phyllosphere microbes decouple nutrient enrichment from plant productivity",
+          "authors": [
+            "Na Wei"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-20",
+          "doi": "10.64898/2026.08.16.745140",
+          "url": "https://openalex.org/W7172468286",
+          "abstract": "Resource limitation theory predicts that nutrient enrichment enhances plant productivity. Yet plant-associated microbes can modify this relationship by facilitating nutrient acquisition, competing for resources, or restructuring the plant-environment interface. These processes generate contrasting predictions for whether added nutrients are converted into plant population growth. Whether phyllosphere microbiomes mediate this resource-productivity relationship remains unclear. Here we show that phyllosphere microbiomes decoupled nutrient enrichment from productivity in a duckweed polyploid complex. In microbe-free microcosm ecosystems, nutrient enrichment increased productivity, whereas with microbes, enrichment failed to increase productivity despite abundant residual nutrients. This decoupling was not explained by direct microbial competition for nutrients or predicted microbial functions associated with pathogenicity, oxygen depletion, or acidification. Instead, nutrient enrichment stimulated biofilm formation, potentially restricting plant access to nutrients. Predicted microbial phosphorus immobilization and transformation also increased, but neither explained the decline in ecosystem phosphorus removal. This decline instead reflected lower plant productivity associated with biofilm formation, leaving much of the phosphorus unused. These patterns were consistent across ploidy levels, with the productivity advantage of polyploids associated with greater nutrient-use efficiency rather than greater tolerance of microbial effects. Our results reveal that phyllosphere microbiomes mediate how nutrient enrichment translates into ecosystem functioning.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s42003-026-10814-8",
+          "title": "Vacuolar H+-ATPase regulates cell size through Rim101 mediated mitochondrial function in Cryptococcus neoformans",
+          "authors": [
+            "Yujia Zhao",
+            "Xitong Zhang",
+            "Xiaoji Shu",
+            "Hui Chen",
+            "Fan Xiong",
+            "Chengjun Cao"
+          ],
+          "journal": "Communications Biology",
+          "date": "2026-08-20",
+          "doi": "10.1038/s42003-026-10814-8",
+          "url": "https://openalex.org/W7203835458",
+          "abstract": "Cell size control is a fundamental aspect of cell biology. The pathogenic fungus Cryptococcus neoformans increases in cell size by several orders of magnitude during infection, making it an excellent model system for studying cell size regulation. A single large vacuole occupies a substantial proportion of the cell volume in enlarged C. neoformans cells. Here, we demonstrate that vacuolar H+-ATPase (V-ATPase) is critical for cell enlargement. Disruption of genes encoding individual V-ATPase subunits impairs vacuolar enlargement and nearly abolishes titan cell formation. Titan cell production is associated with acidification of both the extracellular environment and the vacuole. Changes in cellular pH regulate the expression and localization of Rim101, which in turn upregulates the expression of V-ATPase subunits and the transcription factor Mig1. Nuclear accumulation of Mig1 may contribute to reactive oxygen species production and promote cell enlargement in both wild-type and rim101Δ mutant strains. Overall, our study provides insights into a vacuole-dependent mechanism of cell size regulation. Vacuolar H+-ATPase is critical for cell enlargement in Cryptococcus neoformans. The pH-Rim101 pathway and mitochondrial respiratory chain activity may be involved in vacuole-mediated cell size regulation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.18.745395",
+          "title": "A chromosome-scale genome assembly of the Swiss Lolium multiflorum ecotype Tremona reveals a scalable method to purge spurious duplications",
+          "authors": [
+            "Lucien Piat",
+            "Gerhard Herren",
+            "Christoph Grieder",
+            "Anne C. Roulin"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-20",
+          "doi": "10.64898/2026.08.18.745395",
+          "url": "https://openalex.org/W7203948416",
+          "abstract": "Italian ryegrass ( Lolium multiflorum ) is a key temperate forage species underpinning livestock production in Europe. Genomic resources remain limited by its large (2.2 Gb), repetitive, and highly heterozygous genome. Here, we present a high-quality chromosome-scale genome assembly of the Swiss L. multiflorum ecotype Tremona, collected in 2008 in Ticino, Switzerland, and subsequently incorporated into recurrent breeding cycles in the Swiss breeding program. To address systematic assembly artefacts caused by unresolved haplotypes in our initial PacBio HiFi assembly, we developed ParaLies, a post-assembly tool that identifies and removes artefactual duplications based on sequence divergence while preserving true paralogous gene copies. ParaLies reduced the duplicated BUSCO rate from 16.91% to 6.72% without loss of bona fide genomic content. The resulting assembly has a contig N50 of 15.69 Mb and captures 94% of the expected 2.2-Gb genome size. We further analyzed whole-genome resequencing data from Tremona, additional Swiss ecotypes, and publicly available North American germplasm. Tremona was genetically homogeneous, with no evidence of pronounced recent bottlenecks or substantial within-population structure, and was genetically distinct from the other Swiss ecotypes analyzed. Together, the Tremona genome and ParaLies provide valuable resources for L. multiflorum genomics and breeding and demonstrate a scalable approach for reducing haplotype-induced redundancy in highly heterozygous genomes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111444.1.sa1",
+          "title": "Reviewer #1 (Public review): Eco-genomic analysis uncovers precision-conservation targets for the western Pacific’s southernmost salmonid",
+          "authors": [
+            "Yi-Chien Lee",
+            "Zong-Yu Shen",
+            "Wei-Ren Lin",
+            "Tzi‐Yuan Wang",
+            "Mark Liu",
+            "Yu-Chen Yeh",
+            "Shih‐Fan Chan",
+            "Mei-Yeh Jade Lu",
+            "Hui-Yu Wang",
+            "Lin‐Yan Liao",
+            "Wen-Hsiung Li",
+            "Jen-Pan Huang",
+            "Isheng Jason Tsai",
+            "Sheng-Feng Shen"
+          ],
+          "journal": "",
+          "date": "2026-08-20",
+          "doi": "10.7554/elife.111444.1.sa1",
+          "url": "https://openalex.org/W7203838083",
+          "abstract": "Understanding how isolated small populations persist and adapt in adverse environments is instrumental to evolutionary and conservation biology. We combine a chromosome-level genome assembly, population resequencing and forward-time simulations to reconstruct the history and viability of the Formosan landlocked salmon (Oncorhynchus formosanus), now restricted to a handful of high-mountain headwaters in Taiwan. We estimate that this lineage has diverged from Japanese masu salmon over one million years ago and has no detectable gene flow for ∼50,000 years. It has accumulated extensive chromosome fusions and expansions of cold-adaptation gene families, qualifying it as a new species rather than a subspecies of Japanese masu salmon. Whole-stream sampling reveals an overlooked Hehuan-Creek population that retains high heterozygosity and has gained unique alleles. Life-table simulations show that the Hehuan population has a notably lower extinction risk and can persist or even grow under low-to-moderate typhoon frequency, whereas Qijiawan-Creek population would decline precipitously under the same or higher frequency . These findings contradict the notion that peripheral populations are likely genetically depleted and support stream-specific “precision conservation” in place of broad, untargeted translocations that could erode local adaptation potential. Thus, our genomic-ecological analysis has uncovered hidden strong resilience in a critically endangered, climate-threatened salmonid lineage.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1371/journal.pcbi.1014603",
+          "title": "A portable recalibration workflow for reference-based variant calling in non-human genomes",
+          "authors": [
+            "Hyeonjung Lee",
+            "Sunhee Kim",
+            "Michelle Audrelia Sunartha",
+            "Chang-Yong Lee",
+            "Young-Suk Lee"
+          ],
+          "journal": "PLoS Computational Biology",
+          "date": "2026-08-20",
+          "doi": "10.1371/journal.pcbi.1014603",
+          "url": "https://openalex.org/W7203838318",
+          "abstract": "A key computational step in reference-based variant calling is distinguishing true genetic variants from sequencing errors. Advanced tools and workflows have been developed to handle this by computational modelling of technical errors from the sequencing machines. However, these recalibration workflows have largely been evaluated for human data only and its exact applicability for non-human data remains unknown. Here, we conducted a systematic evaluation of variant calling on human, rice, sheep, and chickpea data, and found that existing workflows introduce unexpected statistical bias, thus leading to suboptimal variant calls for non-human data. To address this problem, we present simple guidelines for constructing a \"pseudo-\"database (pseudoDB) of genetic variants as a scalable and portable solution for recalibration and variant calling. With human data, our pseudoDB-based workflow performs comparably to existing dbSNP-based GATK3 workflows and those using DeepVariant, Strelka2, and FreeBayes. We extend this to other non-human genomes, namely cattle, brown bear, swan goose, African oil palm, Komodo dragon, and stevia, altogether resulting in the identification of up to 242.0% unique genetic variants. The majority of newly identified variants are within the non-coding regions, hinting at the rich diversity of genome regulation in the non-human population. Our pseudoDB-based workflow is agnostic to reference genomes and modular for easy integration with other computational workflows for human and non-human resequencing data.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10591919/v1",
+          "title": "River dams restrict the upstream spread of non-native freshwater shrimps and provide refugia for native shrimps",
+          "authors": [
+            "Yusuke Fuke",
+            "R. Ishii"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-20",
+          "doi": "10.21203/rs.3.rs-10591919/v1",
+          "url": "https://openalex.org/W7203836559",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.34188/bjaerv9n3-167",
+          "title": "From the neolithic revolution to the first human settlements: the origin of agricultural pests",
+          "authors": [
+            "Cláudio Augusto Gomes da Câmara"
+          ],
+          "journal": "Brazilian Journal of Animal and Environmental Research",
+          "date": "2026-08-20",
+          "doi": "10.34188/bjaerv9n3-167",
+          "url": "https://openalex.org/W7203826893",
+          "abstract": "The origin of agricultural pests is closely linked to the profound ecological, social, and economic transformations resulting from the Neolithic Revolution, which was the period in which human groups progressively shifted from predominantly hunter-gatherer societies to sedentary communities based on plant and livestock farming. Plant domestication significantly altered the relationships among plants, herbivores, and humans, creating new ecological conditions that favored the adaptation of specific insect populations to cultivated plants. Artificial plant selection combined with spatial concentration and the relatively predictable availability of food resources modified ecosystem structures and contributed to the formation of the first agroecosystems. The expansion of agriculture transformed the landscape through the replacement of natural vegetation, the simplification of plant diversity, irrigation, soil preparation, and crop concentration, thereby creating favorable conditions for herbivores. Natural selection favored individuals capable of efficiently exploiting cultivated plants, contributing to the establishment of populations subsequently recognized as agricultural pests. Human sedentarization played a decisive role by establishing agricultural villages, generating surpluses, and facilitating the storage of seeds and grains, thus creating resource-rich artificial environments. In this context, insects of the genera Sitophilus and Tribolium, as well as various moth species, found favorable conditions for exploiting stored food. Thus, the study of the origin of agricultural pests—from early domestication processes to the establishment of agricultural and storage systems—is crucial to understanding the ecological and evolutionary foundations of plant health issues. Beyond contributing to the history of agriculture and entomology, this approach provides a basis for understanding why certain species have become persistently associated with crops and food resources produced by human societies.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s12374-026-09525-8",
+          "title": "The History and Future of Plant Molecular Ecology",
+          "authors": [
+            "Daeun Kim",
+            "Sang‐Gyu Kim"
+          ],
+          "journal": "Journal of Plant Biology",
+          "date": "2026-08-20",
+          "doi": "10.1007/s12374-026-09525-8",
+          "url": "https://openalex.org/W7203819175",
+          "abstract": "Abstract Molecular ecology links the smallest units of genetic variation to the largest patterns of ecological organization, encompassing the phenotypes, interactions, and fitness outcomes on which natural selection acts. Here we review plant molecular ecology as a series of transitions. Molecular markers first made natural variation visible and reconstructed the histories shaping plant distributions. A genomic era followed, in which reference genomes and population-scale sequencing identified the genetic basis of adaptation, though association alone could not reveal gene function in nature. Attention then shifted from correlation to function, testing the ecological roles of genes in native habitats. Advances in single-cell analysis have made it possible to link genes to function with far greater precision. Other technological advances have simultaneously pushed the field’s questions outward, toward communities and ecosystems increasingly reshaped by climate change. We discuss emerging approaches that seek to bridge this widening gap, and argue that a discipline born from the molecule must ultimately account for the ecosystem.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.20.745903",
+          "title": "Hybrid speciation and ghost ancestry shape the Anopheles gambiae species complex",
+          "authors": [
+            "Yang Yang",
+            "Xiao‐Xu Pang",
+            "Wei‐Ning Bai",
+            "Bo-Wen Zhang",
+            "Da‐Yong Zhang"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-20",
+          "doi": "10.64898/2026.08.20.745903",
+          "url": "https://openalex.org/W7203856131",
+          "abstract": "Speciation within reticulate radiations can involve both lineage divergence and hybrid lineage formation, yet recurrent introgression obscures both histories. In the Anopheles gambiae complex, gene-family presence-absence data yielded a species tree favored over four sequence-derived alternatives by network-model comparison. D-BPP analyses recovered seven reticulation events, including multiple ghost-lineage contributions, and supported a ghost-mediated hybrid origin of A. merus. Simulations showed that sampled-parent hybrid origin generates temporal convergence between reticulation and lineage formation when analyzed under an ordinary introgression model; this signature supported hybrid speciation in A. gambiae. Loci with contrasting parental affinities contained olfactory and cuticular genes with potential roles in prezygotic isolation. Together, these results resolve species relationships and identify candidate genomic mechanisms through which hybridization may have contributed to reproductive isolation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111444.1.sa2",
+          "title": "eLife Assessment: Eco-genomic analysis uncovers precision-conservation targets for the western Pacific’s southernmost salmonid",
+          "authors": [
+            "Yingguang Frank Chan"
+          ],
+          "journal": "",
+          "date": "2026-08-20",
+          "doi": "10.7554/elife.111444.1.sa2",
+          "url": "https://openalex.org/W7203826665",
+          "abstract": "Understanding how isolated small populations persist and adapt in adverse environments is instrumental to evolutionary and conservation biology. We combine a chromosome-level genome assembly, population resequencing and forward-time simulations to reconstruct the history and viability of the Formosan landlocked salmon (Oncorhynchus formosanus), now restricted to a handful of high-mountain headwaters in Taiwan. We estimate that this lineage has diverged from Japanese masu salmon over one million years ago and has no detectable gene flow for ∼50,000 years. It has accumulated extensive chromosome fusions and expansions of cold-adaptation gene families, qualifying it as a new species rather than a subspecies of Japanese masu salmon. Whole-stream sampling reveals an overlooked Hehuan-Creek population that retains high heterozygosity and has gained unique alleles. Life-table simulations show that the Hehuan population has a notably lower extinction risk and can persist or even grow under low-to-moderate typhoon frequency, whereas Qijiawan-Creek population would decline precipitously under the same or higher frequency . These findings contradict the notion that peripheral populations are likely genetically depleted and support stream-specific “precision conservation” in place of broad, untargeted translocations that could erode local adaptation potential. Thus, our genomic-ecological analysis has uncovered hidden strong resilience in a critically endangered, climate-threatened salmonid lineage.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.7554/elife.111444.1.sa0",
+          "title": "Reviewer #2 (Public review): Eco-genomic analysis uncovers precision-conservation targets for the western Pacific’s southernmost salmonid",
+          "authors": [
+            "Yi-Chien Lee",
+            "Zong-Yu Shen",
+            "Wei-Ren Lin",
+            "Tzi‐Yuan Wang",
+            "Mark Liu",
+            "Yu-Chen Yeh",
+            "Shih‐Fan Chan",
+            "Mei-Yeh Jade Lu",
+            "Hui-Yu Wang",
+            "Lin‐Yan Liao",
+            "Wen-Hsiung Li",
+            "Jen-Pan Huang",
+            "Isheng Jason Tsai",
+            "Sheng-Feng Shen"
+          ],
+          "journal": "",
+          "date": "2026-08-20",
+          "doi": "10.7554/elife.111444.1.sa0",
+          "url": "https://openalex.org/W7203833296",
+          "abstract": "Understanding how isolated small populations persist and adapt in adverse environments is instrumental to evolutionary and conservation biology. We combine a chromosome-level genome assembly, population resequencing and forward-time simulations to reconstruct the history and viability of the Formosan landlocked salmon (Oncorhynchus formosanus), now restricted to a handful of high-mountain headwaters in Taiwan. We estimate that this lineage has diverged from Japanese masu salmon over one million years ago and has no detectable gene flow for ∼50,000 years. It has accumulated extensive chromosome fusions and expansions of cold-adaptation gene families, qualifying it as a new species rather than a subspecies of Japanese masu salmon. Whole-stream sampling reveals an overlooked Hehuan-Creek population that retains high heterozygosity and has gained unique alleles. Life-table simulations show that the Hehuan population has a notably lower extinction risk and can persist or even grow under low-to-moderate typhoon frequency, whereas Qijiawan-Creek population would decline precipitously under the same or higher frequency . These findings contradict the notion that peripheral populations are likely genetically depleted and support stream-specific “precision conservation” in place of broad, untargeted translocations that could erode local adaptation potential. Thus, our genomic-ecological analysis has uncovered hidden strong resilience in a critically endangered, climate-threatened salmonid lineage.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10528308/v1",
+          "title": "Extreme tolerance to chromosomal restructuring and male-linked B chromosome inheritance in Neotropical vertebrate model",
+          "authors": [
+            "Tomáš Pavlica",
+            "Ahmed Al-Rikabi",
+            "Tomáš Dvořák",
+            "Vendula Šlechtová",
+            "Niklas Padutsch",
+            "Thomas Liehr",
+            "Petr Ráb",
+            "Milena Ferreira",
+            "Eliana Feldberg",
+            "Marcelo de Bello Cioffi",
+            "Alexandr Sember"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-20",
+          "doi": "10.21203/rs.3.rs-10528308/v1",
+          "url": "https://openalex.org/W7203763048",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11540-026-10114-y",
+          "title": "Bridging Breeding Priorities and Market Realities: A Systems Analysis of Climate‑Resilient Potato (Solanum tuberosum L.) Varieties Adoption in Kenya",
+          "authors": [
+            "Robert John O Ogola",
+            "Nicholas Bardsley",
+            "Luke Bell"
+          ],
+          "journal": "Potato Research",
+          "date": "2026-08-20",
+          "doi": "10.1007/s11540-026-10114-y",
+          "url": "https://openalex.org/W7203825771",
+          "abstract": "Abstract The adoption of climate-resilient potato varieties (CRPVs) in Kenya remains limited despite sustained investments in breeding for tolerance to drought, heat, and emerging pests and diseases. Existing studies frequently explain this gap through isolated constraints such as low farmer awareness, limited seed access, or poor varietal performance. This review instead conceptualises low adoption as a consequence of systemic misalignment across breeding priorities, seed systems, market preferences, and governance structures within potato innovation system. Using a system-based perspective, the study synthesises interdisciplinary literature and policy evidence published between 2005 and 2025 through a critical narrative review framework to examine interaction, feedback mechanisms, and institutional dynamics influencing varietal uptake. The findings reveal that although breeding programmes are increasingly climate-responsive, they remain insufficiently aligned with farmers’ multi-stress production realities, livelihood priorities, and evolving market requirements. Adoption is further constrained by fragmented and under-resourced seed systems that limit access to CRPVs, while market structures frequently favour established cultivars possessing preferred processing, trading, and consumer traits. These constraints are reinforced by institutional fragmentation, weak coordination among value-chain actors, and limited integration of market intelligence into breeding processes, creating reinforcing feedback loops that perpetuate low sustained adoption. The review concludes that improving varietal uptake requires moving beyond linear technology dissemination models towards more integrated and adaptive innovation systems that strengthen alignment among breeding programmes, seed systems, markets, and governance processes. It highlights the importance of participatory and demand-led breeding, pluralistic seed system development, stronger market integration, and coordinated multi-level governance for enhancing adoption and impact of CRPVs.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.indcrop.2026.124228",
+          "title": "Integrative multi-omics identifies BnaBAHD3 as a regulator of arsenic and cadmium tolerance linked to phenylpropanoid metabolism in Brassica napus",
+          "authors": [
+            "Yuanyuan Wan",
+            "Yuhan Tang",
+            "Mingwei Guan",
+            "Yuexi Tu",
+            "Shulin Shen",
+            "Si Chen",
+            "Hai Du",
+            "Liezhao Liu",
+            "Huiyan Zhao",
+            "Cunmin Qu",
+            "Fujun Sun"
+          ],
+          "journal": "Industrial Crops and Products",
+          "date": "2026-08-20",
+          "doi": "10.1016/j.indcrop.2026.124228",
+          "url": "https://openalex.org/W7203825786",
+          "abstract": "Brassica napus L. is a major allotetraploid oilseed crop in China with potential for the phytoremediation of arsenic (As)- and cadmium (Cd)-contaminated agricultural soils. However, the genetic determinants underlying As and Cd tolerance in B. napus remain incompletely understood, limiting the development of heavy-metal-tolerant germplasm for the sustainable use of contaminated farmland. Here, we integrated genome-wide association analysis, transcriptomics and metabolomics in a panel of 140 B. napus accessions exposed to As and Cd stress. Genome-wide association study (GWAS) identified 27 significant single-nucleotide polymorphisms shared between the As and Cd stress analyses across seven chromosomes, including a major locus on chromosome C01 within which BnaBAHD3 , encoding a BAHD acyltransferase, was prioritized as the leading candidate. Transcriptome and metabolome analyses further linked BnaBAHD3 to phenylpropanoid-related responses under heavy metal stress. Heterologous functional assays in Arabidopsis thaliana supported a positive role for BnaBAHD3 in As/Cd tolerance: at 16 days post-treatment, root length in 35S:: BnaBAHD3 lines was 1.2–1.5-fold that of wild type (WT), whereas the Atbahd mutant showed 90% and 50% reductions in root length relative to WT under As and Cd stress, respectively. In contrasting B. napus accessions, higher BnaBAHD3 transcript abundance was associated with greater stress tolerance. Together, these results support a model in which BnaBAHD3 -associated tolerance is accompanied by phenylpropanoid-related transcriptional and metabolic changes that may contribute to cell-wall reinforcement and antioxidant protection. These findings identify BnaBAHD3 as a promising target for improving heavy-metal tolerance in rapeseed.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1421,6 +1885,22 @@
           "doi": "10.1038/s41437-026-00873-2",
           "url": "https://openalex.org/W7203664823",
           "abstract": "Bumblebees are keystone pollinators which facilitate the reproduction of a wide range of wild and agricultural plants. Their abundance and diversity have been severely reduced by anthropogenic stressors such as widespread land-use change and habitat fragmentation. However, we lack a comprehensive understanding of population structure and local adaptation in bumblebees inhabiting human-altered landscapes. Here, we discover significant fine-scale (e.g. ~300 km) population structure within two common bumblebee species, Bombus lapidarius and Bombus pascuorum, by analysing whole genome data of 106 specimens from 7 sites in northern Europe. While the observed population structure is largely associated with natural oceanic barriers, we also detect significant divergence between populations sampled from anthropogenic landscapes which are not separated by such barriers. Furthermore, whereas genetic divergence in B. lapidarius is spread relatively evenly across the genome, divergence in B. pascuorum is concentrated within several megabase-sized genomic regions-including a putative chromosomal inversion - which may underlie well-known colour polymorphisms across its range. Our observations reveal a distinct genomic architecture underlying population structure within these bumblebee species, and highlight the necessity of increasing our understanding of bumblebee connectivity to design optimal bumblebee conservation strategies.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.plaphy.2026.111666",
+          "title": "Waterlogging stress reshapes epigenetic regulation of gene expression in Brassica napus",
+          "authors": [
+            "Jiangfeng Li",
+            "Fanzhe Kong",
+            "Jianbo Wang"
+          ],
+          "journal": "Plant Physiology and Biochemistry",
+          "date": "2026-08-18",
+          "doi": "10.1016/j.plaphy.2026.111666",
+          "url": "https://openalex.org/W7203702076",
+          "abstract": "Waterlogging stress significantly impairs early development and yield in Brassica napus, yet the underlying epigenetic regulatory mechanisms remain poorly understood. We applied a multi-omics strategy integrating RNA-seq, WGBS, and ChIP-seq to dissect multi-layered regulatory dynamics during waterlogging stress and recovery. We found that waterlogging stress globally repressed gene expression and enhanced expression divergence between homoeologous genes of the two subgenomes. Transposable element (TE) activation, together with dynamic epigenetic changes, is associated with altered expression of neighboring genes under waterlogging stress. This study provides novel insights into the multilayered epigenetic regulation of waterlogging responses in a polyploid crop and highlights the regulatory potential of TEs in stress adaptation.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -6165,8 +6645,8 @@
     }
   },
   "stats": {
-    "total_count": 296,
-    "new_this_week": 58,
+    "total_count": 321,
+    "new_this_week": 76,
     "weekly_trend": [
       {
         "week": "2026-W28",
@@ -6178,19 +6658,19 @@
       },
       {
         "week": "2026-W30",
-        "count": 71
+        "count": 85
       },
       {
         "week": "2026-W31",
-        "count": 95
+        "count": 86
       },
       {
         "week": "2026-W32",
-        "count": 71
+        "count": 73
       },
       {
         "week": "2026-W33",
-        "count": 45
+        "count": 62
       }
     ]
   }
