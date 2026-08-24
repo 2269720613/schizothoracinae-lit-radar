@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:42:07Z",
+  "generated_at": "2026-08-24T07:00:55Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -152,6 +152,21 @@
           "source": "PubMed"
         },
         {
+          "id": "10.55549/ephels.176",
+          "title": "Impact of Natural Disaster and Essential Spawning Habitat (ESH) Characteristics on the Conservation of the Vulnerable Endemic Bilih Fish (Mystacoleucus padangensis) in Lake Singkarak, Indonesia",
+          "authors": [
+            "Adelfiani Adelfiani",
+            "Bambang Retnoaji"
+          ],
+          "journal": "The Eurasia Proceedings of Health Environment and Life Sciences",
+          "date": "2026-08-21",
+          "doi": "10.55549/ephels.176",
+          "url": "https://openalex.org/W7203943438",
+          "abstract": "The Bilih fish (Mystacoleucus padangensis) is a high value endemic species critical to regional aquaculture biosystems. Currently listed as Vulnerable (VU) on the IUCN Red List, its wild stocks are facing an acute ecological and economic crisis, evidenced by a dramatic 99% collapse in catch volume (from 1 ton/day in 2002 to only 10 kg/day in 2025). This study aimed to characterize the Essential Spawning Habitat (ESH) and governing reproductive strategies, and to develop conservation management principles. Environmental metrics and habitat characteristics (substrate, depth) were measured. Results confirmed that the ESH functions as a critical biosystem component, defined by extremely shallow waters (4–16 cm) and sandy and rocky substrates. Precise environmental cues, specifically consistently low nocturnal temperatures (22–24°C), act as triggering inputs for migration and spawning. This existing stock crisis was severely exacerbated by a catastrophic flood and landslide event that occurred on November 27, 2025, in the spawning locality of West Sumatra. The disaster resulted in the critical degradation of the ESH, primarily through infilling the original substrate with unsuitable mud and fine sand. This damage effectively eliminated the essential rocky spawning media required for behavioral triggering, consequently disrupting the remaining reproductive cycle and accelerating the failure of current resource management efforts. Given the evident high sensitivity of the reproductive process to specific biosystem inputs and the physical destruction of the ESH by the natural disaster, this study urgently recommends strict conservation zoning and ecology based management. Crucially, these must be immediately followed by habitat restoration efforts to reinstate the necessary rocky substrate. Such measures are vital inputs for the regional biosystem, not only to prevent the immediate loss of this Vulnerable endemic germplasm but also to secure the biological foundations required for future resource recovery and sustainable ex-situ aquaculture development.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1016/j.jtherbio.2026.104552",
           "title": "Integrated transcriptomic and metabolomic analyses reveal the differential response mechanisms of Gymnocypris eckloni gills to different intensities of acute heat stress.",
           "authors": [
@@ -174,6 +189,28 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1016/j.lwt.2026.119855",
+          "title": "Cur@β-CD-mediated photodynamic antibacterial composite films for use in active food packaging",
+          "authors": [
+            "Yuanchao Zhu",
+            "Yaqi Tang",
+            "Rumeng Wang",
+            "Dezhuang Gong",
+            "Fengzhao Wang",
+            "Danshi Zhu",
+            "Zhenzhen Zhang",
+            "Fangchao Cui",
+            "Jianrong Li"
+          ],
+          "journal": "LWT",
+          "date": "2026-08-20",
+          "doi": "10.1016/j.lwt.2026.119855",
+          "url": "https://openalex.org/W7203821583",
+          "abstract": "Declining and unstable antibacterial activity restricts the application of packaging films. In this study, a curcumin/β-cyclodextrin inclusion complex (Cur@β-CD, CβCD) with excellent photodynamic activity was synthesized and incorporated as a functional filler into chitosan/polyvinyl alcohol (CS/PVA)-based composite films. The structural characteristics of CβCD were analyzed using FTIR and XRD, and the film morphology was observed using SEM. The physicochemical properties and photoresponsive antibacterial activities of the CβCD-CS/PVA films were investigated. Incorporating 15% CβCD improved the overall performance of the composite films. The tensile strength reached 13.87 MPa, and the water vapor permeability decreased to 1.34×10 -11 g·m -1 ·s -1 ·Pa -1 . Under visible-light irradiation, the optimized photoresponsive film resulted in extremely low survival rates for Escherichia coli and Staphylococcus aureus . Furthermore, compared with the control, bananas packaged with the as-prepared active film exhibited a markedly longer shelf life. This study provides a feasible strategy for developing high-efficiency photoresponsive antibacterial packaging films.",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.17017/j.fish.1477",
@@ -998,6 +1035,85 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1186/s12864-026-13274-w",
+          "title": "Integrating deep learning and pangenomics to recover missing heritability from wild structural variations",
+          "authors": [
+            "Yiquan Wang",
+            "Minnuo Cai",
+            "Yahui Ma",
+            "Aurélien Tellier",
+            "Kai Wei"
+          ],
+          "journal": "BMC Genomics",
+          "date": "2026-08-22",
+          "doi": "10.1186/s12864-026-13274-w",
+          "url": "https://openalex.org/W7203903092",
+          "abstract": "Crop domestication has induced a severe genetic bottleneck that reduces the adaptive diversity present in modern cultivars. Standard intra-population genomic prediction models reliant on linear reference genomes and SNPs fail to capture the full spectrum of phenotypic variance hidden in wild relatives. Realizing this potential requires broadening the predictive paradigm from selection within narrow breeding populations toward evolutionary-scale inference across the entire wild-to-cultivated continuum. This missing heritability is largely sequestered within complex structural variations such as presence-absence and copy number variants. These variations drive environmental adaptations but remain obscured by reference bias. To recover these unmapped structural variations the field is evolving from linear coordinates to high-dimensional genomic data representations. We review this transition by contrasting explicit graph topologies that map reticulate evolution with implicit encodings like K-mers that capture sequence composition independent of alignment. Processing these complex and high-dimensional features necessitates advanced computational tools. We synthesize emerging deep learning frameworks and highlight how Graph Neural Networks resolve inheritance paths in topological data while Transformer-based foundation models extract functional syntax from sequence context. These architectures effectively integrate structural variations to resolve non-additive effects such as epistasis missed by traditional models. Computing these hidden structural variations facilitates the precise utilization of wild germplasm. We demonstrate how AI-driven strategies enable zero-shot prediction for uncharacterized wild alleles and optimize genotype-by-environment interactions. Ultimately these approaches pave the way for accelerated de novo domestication of climate-resilient crops.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s12010-026-05877-6",
+          "title": "Design and Evaluation of Pyrazole Herbicides: QSAR-Driven Synthesis for Effective Weed Control and Crop Safety in Rice",
+          "authors": [
+            "Kailashpati Tripathi",
+            "Rakesh Kumar",
+            "Parshant Kaushik",
+            "Virendra Singh Rana",
+            "Rajesh Kumar",
+            "T. K. Das",
+            "Najam Akhtar Shakil"
+          ],
+          "journal": "Applied Biochemistry and Biotechnology",
+          "date": "2026-08-22",
+          "doi": "10.1007/s12010-026-05877-6",
+          "url": "https://openalex.org/W7162555395",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44372-026-00818-3",
+          "title": "Integrative DNA barcoding and multimethod species delimitation reveal marker performance in the genus Ficus L. (Moraceae)",
+          "authors": [
+            "Mehebub Sarwar Hossain",
+            "Senthilkumar Umapathy",
+            "Sk Samim Ulla",
+            "Syed Rumman Alam",
+            "Amit Bera",
+            "Sk Md Abu Imam Saadi"
+          ],
+          "journal": "Discover Plants.",
+          "date": "2026-08-22",
+          "doi": "10.1007/s44372-026-00818-3",
+          "url": "https://openalex.org/W7203972511",
+          "abstract": "Accurate delimitation of species is fundamental for understanding biodiversity, evolutionary history, and conservation priorities, particularly in taxonomically challenging genera such as Ficus . This study systematically evaluates the performance of three single locus barcodes ( matK, rbcL, ITS) and four multilocus combinations ( matK + rbcL, matK + ITS , rbcL + ITS , matK + rbcL + ITS) for resolving species limits in Ficus . We apply four widely used analytical frameworks, Automatic Barcode Gap Discovery (ABGD), Assemble Species by Automatic Partitioning (ASAP), Bayesian Poisson Tree Processes (bPTP), and the Generalized Mixed Yule Coalescent (GMYC) model, to compare their discriminatory power. Across distance based analyses (ABGD, ASAP), ITS consistently emerges as the most informative marker, recovering the largest number of well-supported species partitions and the clearest barcode gaps, whereas plastid markers ( matK , rbcL ) show extensive species lumping and low resolution. Multilocus datasets, especially those including ITS, provide incremental gains in cluster recovery and stability. Coalescent approaches (bPTP, GMYC) generate biologically plausible groupings with ITS and multilocus data but tend to oversplit when applied to plastid loci, revealing persistent ambiguity in some lineages caused by both biological and methodological factors. Several species complexes (e.g. Ficus abelii/erecta, Ficus hirta/fulva, Ficus variegata/fistulosa, Ficus superba/hispida ) remain problematic, exhibiting either merging or splitting across methods and pointing to cryptic diversity, recent divergence, or hybridization. Overall, our comparative framework demonstrates that ITS, alone or in multilocus schemes, provides superior resolution for DNA-based species delimitation in Ficus and highlights the need for integrative taxonomic approaches to resolve complex clusters and obtain robust species boundaries.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08107-0",
+          "title": "Chromosome-level genome assembly of Decorus decorus, an endangered labeonine cyprinid from China",
+          "authors": [
+            "Yuanyuan Wang",
+            "Lu Yang",
+            "Yexin Yang",
+            "Yi Liu",
+            "Jianmeng Cao",
+            "Chao Liu",
+            "Zhiyong Jiang",
+            "Yuli Wu",
+            "Xidong Mu"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-22",
+          "doi": "10.1038/s41597-026-08107-0",
+          "url": "https://openalex.org/W7203974515",
+          "abstract": "Decorus decorus is an endemic cyprinid fish of southern China belonging to the subfamily Labeoninae and is currently listed as Critically Endangered due to severe population declines. However, genomic resources for this species and closely related labeonine lineages remain limited. Here, we report a high-quality chromosome-level genome assembly of D. decorus generated using PacBio HiFi long-read sequencing combined with Hi-C scaffolding. The final assembly spans 1.12 Gb, with a contig N50 of 41.11 Mb and a scaffold N50 of 42.95 Mb, and is anchored onto 25 chromosomes. Genome annotation identifies 25,454 protein-coding genes, of which 25,050 (98.41%) are functionally annotated. Repetitive elements comprise 66.12% (743.58 Mb) of the genome, predominantly represented by transposable elements. In addition, 28,797 non-coding RNAs are annotated, including 1,478 miRNAs, 10,329 tRNAs, 15,343 rRNAs, and 1,647 snRNAs. This genome assembly and annotation provide a genomic basis for future studies of genome structure, evolutionary dynamics, population genetic patterns, and adaptive potential in D. decorus and related labeonine fishes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1038/s41597-026-08170-7",
           "title": "Chromosome-level genome assembly of Coreoperca whiteheadi",
           "authors": [
@@ -1058,6 +1174,116 @@
           "doi": "10.3389/fpsyt.2026.1893137",
           "url": "https://openalex.org/W7203953792",
           "abstract": "Complexity has become an increasingly prominent concept in research on mental disorders and pathological behaviors. This is more than due, as these conditions are not only complicated but genuinely complex. Complexity serves both as an analytic lens and as a force that pushes scientific progress forward. However, complexity science, as it currently stands, seems poised to deliver waves of new findings but no transformative breakthroughs. We propose rethinking complexity from a multisystem perspective which has been common in social sciences and naturally fits with the setting in mental and behavioral disorders, respectively. The key feature of multisystem complexity is heterogeneity of involved systems, heterogeneity of involved processes, their interactions and outcomes. Implementing a multisystem and heterogeneity perspective requires a thorough rethinking of methodology, while assessing failures, misunderstandings, requirements and prospects. The same is true for research directions such as risk factor research. Examples of implementations are drawn from research on suicide and neurodevelopmental disorders.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1874469",
+          "title": "A comprehensive analysis of China’s plum industry: production dynamics, trade imbalances, technological innovation, and future directions",
+          "authors": [
+            "Yicen Xu",
+            "Zhixiang Zhang",
+            "Haijuan Zhao",
+            "Wang Bijun",
+            "Yi Hao",
+            "Shaoyi Sui",
+            "Yuping Zhang",
+            "Ming Xu",
+            "Yujun Zhang",
+            "Xiaoxue Ma",
+            "Jiacheng Liu",
+            "Jia Liu",
+            "Bo Fang",
+            "Hong Chen",
+            "Zhang Yanbo",
+            "Chaoyang Liu",
+            "juanjuan wu",
+            "Hailong Sun",
+            "Tanna Li",
+            "Weisheng Liu",
+            "Shuo Liu"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-21",
+          "doi": "10.3389/fpls.2026.1874469",
+          "url": "https://openalex.org/W7203872499",
+          "abstract": "One of the traditional “Five Fruits” (五果) of China with origins traceable to the Huangdi Neijing (〚黄帝内经〛, c. 300 BCE), the plum ( Prunus salicina Lindl.) constitutes both a cultural heritage crop and a strategically important horticultural commodity for rural revitalization and agricultural value-chain upgrading. This review systematically analyzes China’s plum industry across four analytical dimensions—production dynamics, trade asymmetries, technological innovation, and strategic future directions—covering the 2021–2023 period, for which FAOSTAT reports complete validated statistics. Key quantitative findings include: China’s 2023 cultivation area of 2,009 kha (>75% of global total), production of 6.89 Mt (55.3% of global output), a trade deficit expanding from USD 86 million (2018) to USD 267 million (2022), and import unit-prices averaging twice export unit-prices, with Chile alone supplying 84.45% of China’s fresh plum imports. The review identifies five structural determinants of this import-export asymmetry (varietal quality mismatch, consumer preference divergence, postharvest infrastructure deficit, market segmentation, and international competitiveness gaps) and proposes a Technology Deployment Index revealing a severe gap between available and deployed technologies, particularly for biological control (<10% adoption despite >70% availability). A three-tier strategic roadmap (short-term 1–5 years, medium-term 5–10 years, long-term 10+ years) integrates breeding, cultivation, plant protection, processing, marketing, and policy priorities. This work fills a critical gap in the literature: whereas prior reviews have focused on specific aspects (phytochemicals, breeding, or postharvest physiology in isolation), no comprehensive analytical synthesis of the entire industrial value chain with explicit quantitative benchmarking and a structured strategic framework has been available for China’s plum sector. The review provides actionable intelligence for policymakers, researchers, and industry stakeholders pursuing quality-driven industrial transformation under the Big Food Concept (大食物观) strategic framework.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.20.745956",
+          "title": "Workflow for multiplex microsatellite panel development and sample preparation for robust amplicon sequencing of low-template and degraded DNA: validation for non-invasive genotyping in three large carnivore species",
+          "authors": [
+            "Marta De Barba",
+            "Frédéric Boyer",
+            "Molly Baur",
+            "Marjeta Konec",
+            "Elena Pazhenkova",
+            "Nadège Remollino",
+            "Céline Stoffel",
+            "Barbara Boljte",
+            "Christian Miquel",
+            "Tomaž Skrbinšek",
+            "Pierre Taberlet",
+            "Luca Fumagalli"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-21",
+          "doi": "10.64898/2026.08.20.745956",
+          "url": "https://openalex.org/W7203885100",
+          "abstract": "High-throughput amplicon sequencing has transformed microsatellite (STR) genotyping by overcoming many of the limitations of fragment-length analysis, enabling more accurate, cost-effective, and standardized genotyping. Yet, protocols specifically designed for high-throughput sequencing (HTS)-based STR genotyping from low-template and degraded DNA remain scarce, despite the prevalence of these challenging sample types in ecological and conservation contexts. We present a methodology for the de novo development of robust STR multiplex panels together with a laboratory protocol for efficient and reliable STR genotyping by sequencing with low quantity and quality DNA samples. The protocol comprises (i) an automated bioinformatic pipeline to design large sets of short tetranucleotide markers optimized for multiplex amplicon sequencing of degraded and low-template DNA; (ii) guidelines for efficient in vitro optimization of multiplex amplification using directly low quantity/quality template DNA; and (iii) a library preparation procedure that improves detection of low-level allele signal while enabling quality assessment of STR amplicon sequencing under limiting DNA conditions. We demonstrate the approach by developing and validating STR panels for non-invasive genotyping of three large carnivore species: a 44-plex for the grey wolf (Canis lupus), a 41-plex for the Eurasian lynx (Lynx lynx), and a 30-plex for the brown bear (Ursus arctos). Multiplex performance was high, with ≥91% of samples successfully genotyped at ≥50% of loci (allele size range 28-110 bp across panels) and correctly assigned to known individuals, negligible levels of noise in the controls, and high discriminatory power (PIDsibs ≤2.4 x 1e-12), also owing to sequence variation among same-length alleles at 15-50% of loci. The approach is broadly applicable to animal and plant species, a wide range of sample types, and large-scale analysis such as genetic monitoring. Our study reinforces the value of STR amplicon sequencing for ecological and conservation applications while highlighting the importance of marker design and laboratory workflows tailored to HTS-based genotyping for accurate and efficient implementation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.32942/x2hd59",
+          "title": "The Defensive Repertoire of New World Coral Snakes: Evolution and Natural History",
+          "authors": [
+            "Felipe Paiva",
+            "Leandro Silva",
+            "Fabricius Domingos",
+            "Fabio Muniz",
+            "Ricardo Kawashita-Ribeiro"
+          ],
+          "journal": "",
+          "date": "2026-08-21",
+          "doi": "10.32942/x2hd59",
+          "url": "https://openalex.org/W7203913498",
+          "abstract": "The defensive repertoire of New World coral snakes is diverse, but its evolutionary history remains poorly understood. We compiled 280 records of 11 defensive behaviors across 85 species of Micrurus and one species of Micruroides from the literature and contributions by researchers, naturalists, and wildlife photographers. Fifty-seven records represented behaviors not previously documented for the respective species. Using mitochondrial ND4 sequences, we inferred a Bayesian phylogeny, reconstructed ancestral states, and evaluated phylogenetic signal of the defensive behaviors. Tail-raising and coiling, dorsoventral body flattening, erratic movements, and head-hiding were reconstructed in the common ancestor of Micruroides and Micrurus, indicating a broadly conserved ancestral defensive repertoire. Erratic movements and head-hiding showed significant individual phylogenetic signal, and the combined profile of the four widespread behaviors was also phylogenetically structured. Hemipenis eversion was reconstructed as a synapomorphy of the sampled Micrurus frontalis-M. spixii clade, with an independent origin in M. boicora. Ventral exposure, cloacal popping sounds, and other less frequent behaviors also showed independent origins. These findings reveal a defensive repertoire combining deep evolutionary conservation with repeated origins of more restricted behaviors, while highlighting major gaps in behavioral sampling.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1111/cla.70062",
+          "title": "Testing the morphology‐ and intuition‐based taxonomic hypotheses using integrative approach: unexpected discovery of triplet of sibling species within a widespread Eurasian butterfly, Hyponephele lycaon",
+          "authors": [
+            "Elena Pazhenkova",
+            "Vladimir A. Lukhtanov"
+          ],
+          "journal": "Cladistics",
+          "date": "2026-08-21",
+          "doi": "10.1111/cla.70062",
+          "url": "https://openalex.org/W7203867478",
+          "abstract": "In well-studied groups of organisms, the taxonomic landscape can be very complex, with several alternative classifications describing diversity within the same set of populations. For example, three hypotheses have previously been proposed to describe the taxonomy of the common and widespread Eurasian Dusky Meadow Brown butterfly, Hyponephele lycaon, and its close relatives. The morphology-based hypothesis (1) is explicitly based on genital differences between two putative species. The other two hypotheses, the hypothesis of multiple allopatric species (2) and the hypothesis of two sympatric species (3) within the H. lycaon complex, are based on scientific intuition rather than on rigorous data and analyses. Here, using an integrative taxonomic approach, we cannot confirm any of the previous classifications, although elements of each can be found in the suggested new system. As a result, we show that Dusky Meadow Brown butterfly is a triplet of sibling species. Two of them, H. collina (Turkey, Levant, Iran) and H. lycaon (Europe, temperate Asia), are allopatric. The third species, H. libanotica, is widely sympatric with H. collina in Turkey, Israel and Iran. We argue that past taxonomic hypotheses, including those based on implicit evidence, are useful priors for planning sampling strategies and more detailed modern taxonomic analyses.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.20.744945",
+          "title": "Cell-type-specific regulatory variation shapes maize heterosis",
+          "authors": [
+            "Lu‐Guang Jiang",
+            "Fabio Gómez-Cano",
+            "Juncheng Luo",
+            "Mark A.A. Minow",
+            "Alexandre P. Marand"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-21",
+          "doi": "10.64898/2026.08.20.744945",
+          "url": "https://openalex.org/W7203925302",
+          "abstract": "Heterosis, the superior performance of hybrids over their parents, has been widely exploited to enhance crop productivity, but its underlying regulatory mechanisms remain incompletely understood. In particular, how cis-regulatory elements (CREs) vary between parents and hybrids, and how this variation is organized across cell types, remains largely unresolved. Here we profiled chromatin accessibility in 131,890 nuclei derived from seedlings of three Zea mays (maize) inbred lines and their reciprocal hybrids, resolving 14 major cell types. Parental haplotype comparisons showed that most accessible chromatin regions (ACRs) were sequence-conserved and have similar binarized chromatin accessibility status. At cellular resolution, hybridization broadly attenuated chromatin accessibility cell-type specificity, weakening parental cell-type bias and yielding a more even chromatin accessibility profile across cellular contexts. Chromatin inheritance was strongly cell-type dependent, with non-additive inheritance preferentially concentrated at cell-type-specific ACRs. Although cis effects were most prevalent overall, ACRs with attenuated cell-type specificity in hybrids were enriched for non-additive inheritance and trans effects. Attenuated ACRs were more prone to transcription factor (TF) footprint gains than loci retaining high cell-type specificity, with DNA-BINDING WITH ONE FINGER (DOF) and VASCULAR PLANT ONE ZINC FINGER (VOZ) among the motif families most enriched in high-confidence footprint-gaining events. ACRs with footprint gains were preferentially linked to genes involved in development, hormone responses and growth, including DOF-family gains at GOLDEN2-like (GLK2), where both the motif family and the locus have been implicated in bundle-sheath development and C4 photosynthetic specialization. Together, our findings reveal that parental chromatin accessibility patterns are reconfigured across cell types in maize hybrids, with attenuation of cell-type specificity offering a potential cellular mechanism underlying heterosis.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1901,6 +2127,25 @@
           "doi": "10.1016/j.plaphy.2026.111666",
           "url": "https://openalex.org/W7203702076",
           "abstract": "Waterlogging stress significantly impairs early development and yield in Brassica napus, yet the underlying epigenetic regulatory mechanisms remain poorly understood. We applied a multi-omics strategy integrating RNA-seq, WGBS, and ChIP-seq to dissect multi-layered regulatory dynamics during waterlogging stress and recovery. We found that waterlogging stress globally repressed gene expression and enhanced expression divergence between homoeologous genes of the two subgenomes. Transposable element (TE) activation, together with dynamic epigenetic changes, is associated with altered expression of neighboring genes under waterlogging stress. This study provides novel insights into the multilayered epigenetic regulation of waterlogging responses in a polyploid crop and highlights the regulatory potential of TEs in stress adaptation.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.56810/jkjagri.006.03.0416",
+          "title": "Pod Shattering Tolerance in Brassica napus: Mechanisms, Genetic Regulation, Phenotyping and Breeding Strategies",
+          "authors": [
+            "Muhammad Nouman Khalid",
+            "Fitrat Ullah",
+            "Muhammad Zeeshan Mola Bakhsh",
+            "Amina Rashid",
+            "Sajida Habib",
+            "Bushra Safdar"
+          ],
+          "journal": "Jammu Kashmir Journal of Agriculture",
+          "date": "2026-08-18",
+          "doi": "10.56810/jkjagri.006.03.0416",
+          "url": "https://openalex.org/W7203908055",
+          "abstract": "Brassica napus (oilseed rape/canola) is one of the world's most important oilseed crops, contributing significantly to global vegetable oil production, livestock feed, and industrial applications. However, pod shattering remains a major constraint to its productivity, causing substantial pre-harvest seed losses, reduced harvest efficiency, and economic losses under adverse environmental conditions. The increasing occurrence of climate-related stresses, including high temperature, drought, and strong winds, further exacerbates pod shattering, highlighting the urgent need for the development of shatter-resistant cultivars. This review comprehensively summarizes the current understanding of pod shattering tolerance in B. napus, focusing on its anatomical, physiological, biochemical, genetic, and molecular mechanisms. The structural organization of the silique, differentiation of the dehiscence zone, cell wall remodeling, lignification, and hormonal regulation are discussed as key determinants governing pod dehiscence. Recent advances in identifying major regulatory genes, including SHATTERPROOF (SHP), INDEHISCENT (IND), ALCATRAZ (ALC), FRUITFULL (FUL), and REPLUMLESS (RPL), together with quantitative trait loci (QTLs), have greatly improved the understanding of the genetic architecture underlying pod shattering resistance. The review also highlights conventional and high-throughput phenotyping approaches used to evaluate pod strength and seed retention, emphasizing the importance of standardized evaluation protocols for accurate selection. Furthermore, recent breeding strategies integrating conventional breeding, marker-assisted selection, genomic selection, speed breeding, and CRISPR/Cas-mediated genome editing are discussed as promising tools for accelerating the development of pod shattering-tolerant cultivars. Emerging multi-omics technologies, artificial intelligence-assisted phenotyping, and climate-smart breeding approaches are expected to further enhance breeding efficiency and genetic gain. Overall, integrating advanced molecular technologies with conventional breeding and robust phenotyping will facilitate the development of high-yielding, climate-resilient B. napus cultivars with improved pod shattering tolerance, thereby contributing to sustainable oilseed production, enhanced harvest efficiency, and global food security.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -6645,32 +6890,32 @@
     }
   },
   "stats": {
-    "total_count": 321,
-    "new_this_week": 76,
+    "total_count": 333,
+    "new_this_week": 84,
     "weekly_trend": [
-      {
-        "week": "2026-W28",
-        "count": 0
-      },
       {
         "week": "2026-W29",
         "count": 0
       },
       {
         "week": "2026-W30",
-        "count": 85
+        "count": 0
       },
       {
         "week": "2026-W31",
-        "count": 86
+        "count": 87
       },
       {
         "week": "2026-W32",
-        "count": 73
+        "count": 89
       },
       {
         "week": "2026-W33",
-        "count": 62
+        "count": 72
+      },
+      {
+        "week": "2026-W34",
+        "count": 70
       }
     ]
   }
