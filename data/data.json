@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T07:00:55Z",
+  "generated_at": "2026-08-25T06:51:00Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -1110,6 +1110,171 @@
           "doi": "10.1038/s41597-026-08107-0",
           "url": "https://openalex.org/W7203974515",
           "abstract": "Decorus decorus is an endemic cyprinid fish of southern China belonging to the subfamily Labeoninae and is currently listed as Critically Endangered due to severe population declines. However, genomic resources for this species and closely related labeonine lineages remain limited. Here, we report a high-quality chromosome-level genome assembly of D. decorus generated using PacBio HiFi long-read sequencing combined with Hi-C scaffolding. The final assembly spans 1.12 Gb, with a contig N50 of 41.11 Mb and a scaffold N50 of 42.95 Mb, and is anchored onto 25 chromosomes. Genome annotation identifies 25,454 protein-coding genes, of which 25,050 (98.41%) are functionally annotated. Repetitive elements comprise 66.12% (743.58 Mb) of the genome, predominantly represented by transposable elements. In addition, 28,797 non-coding RNAs are annotated, including 1,478 miRNAs, 10,329 tRNAs, 15,343 rRNAs, and 1,647 snRNAs. This genome assembly and annotation provide a genomic basis for future studies of genome structure, evolutionary dynamics, population genetic patterns, and adaptive potential in D. decorus and related labeonine fishes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.19.745689",
+          "title": "High frequency of apomixis in subterranean islands challenges macro-climatic models of geographical parthenogenesis",
+          "authors": [
+            "Long‐Fei Fu",
+            "Chi Xiong",
+            "Hao Nie",
+            "Zi‐Bing Xin",
+            "Fang Wen",
+            "Yi‐Gang Wei",
+            "Alexandre K. Monro"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-22",
+          "doi": "10.64898/2026.08.19.745689",
+          "url": "https://openalex.org/W7203993323",
+          "abstract": "The Geographical Parthenogenesis (GP) hypothesis traditionally links apomixis to high-latitude and alpine regions, driven by a combination of thermal stress, UV radiation, and pollination barriers. At the core of the GP hypothesis is Bakers Law, which asserts the evolutionary advantage of autonomous reproduction during the colonization of isolated habitats, frequently linking this advantage to macro-climatic stress. By investigating reproductive modes in subtropical subterranean karst caves, we test the core assumption that macro-climatic stress is the primary driver of apomixis. Our results suggest that barriers to pollination drive a high frequency of apomixis independently of thermal stress or UV radiation. Furthermore, we find a complete phylogenetic turnover between high-elevation, open, apomict-rich habitats and mid-elevation cave environments. Taxonomic composition in these caves is dictated by pre-adaptations to deep shade combined with a lineage-specific predisposition for autonomous reproduction. We propose that the GP hypothesis may be overly influenced by habitat sampling bias. Broader, unbiased sampling could yield a more nuanced and predictive framework to explain variations in apomixis frequency, ultimately providing deeper insights into the role of asexual reproduction in evolution",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.18.744459",
+          "title": "Evolutionary history and polyploidization lead to rapid shifts in chemodiversity of Hypericum",
+          "authors": [
+            "Xue Xiao",
+            "Rabea Schweiger",
+            "Eric Ron Stein",
+            "Thomas Dussarrat",
+            "Мarcus A. Koch",
+            "Caroline Müller"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-22",
+          "doi": "10.64898/2026.08.18.744459",
+          "url": "https://openalex.org/W7203979617",
+          "abstract": "Polyploidization can profoundly affect plant metabolite biosynthesis, yet its influence on chemodiversity remains poorly understood, despite the central role of chemodiversity in mediating plant interactions with the environment. The coexistence of facultative apomictic and sexual reproductive systems across ploidy levels in Hypericum provides an excellent model for investigating the evolution of chemodiversity following polyploidization. We analyzed ploidy levels and leaf metabolic fingerprints across selected populations of three Hypericum taxa, H. maculatum , H. perforatum subsp. perforatum and H. perforatum subsp. veronense . Polyploidization was common across all three taxa. Leaf metabolic fingerprints were more pronouncedly differentiated by the ploidy level of the mother plant (F0) than that of the offspring (F1). Although unique metabolic features emerged in plants of most ploidy levels, diploid plants exhibited fewer metabolic features than polyploid plants. Higher Shannon diversity, functional Hill diversity, and intensities of features belonging to specific chemical families were associated with higher F0 ploidy levels in H. perforatum subsp. perforatum , but not in H. maculatum and H. perforatum subsp. veronense . Our findings demonstrate that polyploidization can lead to rapid shifts in chemodiversity across generations in Hypericum . The fast divergence in chemodiversity associated with polyploidization in H. perforatum may contribute to its remarkable invasive potential.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-76911-8",
+          "title": "HOMEODOMAIN-LIKE shapes chromatin architecture and rewires leaf epidermal patterns",
+          "authors": [
+            "Ansar Ali",
+            "Chi Kuan",
+            "Tsai-Chen Chen",
+            "Fu‐Yu Hung",
+            "Pei-Yu Lin",
+            "Ding Hua Lee",
+            "Guan-Jun Lin",
+            "Hui-Chun Lee",
+            "Shao‐Li Yang",
+            "Yun‐Ru Feng",
+            "Rachel Wang",
+            "Pao‐Yang Chen",
+            "Keqiang Wu",
+            "Chin‐Min Kimmy Ho"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-22",
+          "doi": "10.1038/s41467-026-76911-8",
+          "url": "https://openalex.org/W7203970254",
+          "abstract": "During development, cells balance proliferation and differentiation to generate diverse cell types, yet how these transitions are fine-tuned remains unclear. In the Arabidopsis leaf epidermis, stomata form through regulated cell division, whereas pavement cells and trichomes arise through differentiation, making this tissue a tractable system for identifying modulators of developmental decisions. Here, we identified a previously uncharacterized homeodomain-like protein HDL, that is required for chromocenter organization through interactions with the histone deacetylase HDA6 and the methyltransferase KRYPTONITE. hdl mutants exhibit disrupted chromocenters and reduced cell division, resulting in fewer stomata and increased trichome formation. Chromatin immunoprecipitation and ATAC-sequencing reveal increased chromatin accessibility at HDL-associated regions and reduced accessibility and expression of stomatal lineage–related genes. Chromatin-state and H3K9me2 analyses further suggest that HDL functions as a chromatin organizer that maintains epigenetic balance at the interface between active and repressive chromatin domains, thereby shaping genome-wide transcriptional programs. Together, these findings identify HDL as a chromatin-associated factor linked to coordinated changes in chromocenter architecture and developmental plasticity. How chromatin organization influences developmental decisions remains poorly understood. Here the authors report a chromatin organizer that maintains higher-order genome organization and coordinated gene expression to balance cell division and differentiation in plants.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.22.746409",
+          "title": "Multidimensional host-associated diversification in natural Festuca_Epichloe festucae symbioses across the Iberian Peninsula",
+          "authors": [
+            "Alba Sotomayor-Alge",
+            "Padmaja Nagabhyru",
+            "Beatriz R. Vázquez de Aldana",
+            "Luís A. Inda",
+            "Íñigo Zabalgogeazcoa",
+            "Christopher L. Schardl",
+            "Pilar Catalán"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-22",
+          "doi": "10.64898/2026.08.22.746409",
+          "url": "https://openalex.org/W7203976248",
+          "abstract": "Epichloe fungal endophytes form widespread symbioses with temperate grasses, yet the extent to which diversity within endophyte species is shaped by host association remains poorly understood. Here, we characterized naturally occurring Festuca_Epichloe symbioses across diverse Iberian ecosystems using an integrative framework combining ecological, cytogenetic, phenotypic, molecular and chemical analyses. Novel associations of Epichloe festucae with Festuca trichophylla, F. lambinonii and F. yvesii were documented, together with substantial variation in infection incidence and mating-type composition among host-associated populations. Morphological traits, vegetative growth and alkaloid profiles differentiated strains according to host identity. Furthermore, multilocus phylogenetic analyses assigned all fine-leaved Festuca host isolates to Epichloe festucae, but identified a recurrent host-associated genetic structure, along with a deeper evolutionary signal, that largely corresponds to the host phylogeny. By contrast, genome size estimates varied little among Epichloe festucae strains, with all isolates exhibiting haploid genomes. Alkaloid content across the four major classes of Epichloe compounds (pyrrolopyrazines, 1-aminopyrrolizidines, ergot alkaloids and indole-diterpenes) showed only partial concordance with the presence of biosynthetic genes, indicating that functional outcomes are influenced by regulatory and environmental factors beyond biosynthetic gene presence. Chemotypic profiles clearly differentiated Epichloe festucae from E. coenophiala while demonstrating considerable functional diversity among E. festucae strains. Collectively, these complementary datasets reveal two interconnected signatures of diversification: pervasive host-associated differentiation across multiple biological dimensions and a deeper historical signal retained in phylogenetic relationships. These findings provide a foundation for future genomic, evolutionary and systematic studies to determine whether these lineages represent ongoing fungal divergence and speciation",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.aqrep.2026.103793",
+          "title": "Population genetic structure and selection signature analysis reveal the genetic basis of rapid growth trait in Portunus trituberculatus “Huangxuan No. 1”",
+          "authors": [
+            "Hangfeng Pan",
+            "Dongfang Sun",
+            "Jiayi Pan",
+            "Haoyu Lin",
+            "Jianjian Lv",
+            "Xuezhong Wang",
+            "Baoquan Gao"
+          ],
+          "journal": "Aquaculture Reports",
+          "date": "2026-08-22",
+          "doi": "10.1016/j.aqrep.2026.103793",
+          "url": "https://openalex.org/W7204007750",
+          "abstract": "The swimming crab Portunus trituberculatus is widely distributed along the coast of China and represents an economically important marine aquaculture species. The breeding line “Huangxuan No. 1”(HX) has undergone 17 generations of selective breeding to enhance growth performance, yielding significant improvements. However, genomic markers associated with artificial selection in this species remain largely unexplored. In this study, four populations, including Haizhou Bay (HZ), Laizhou Bay (LZ), Dandong (D) and the domesticated population (HX), were genotyped using a liquid-phase SNP array, yielding 43,314 high-quality SNPs that were evenly distributed across the P. trituberculatus genome. Population genetic analyses indicated low levels of genetic diversity across the four populations, with moderate genetic differentiation between the selected HX population and the wild populations. Based on fixation index ( Fst ) and nucleotide diversity (π-ratio) analyses, 242 and 214 candidate genes were identified in the HX population. Enrichment analysis indicated that these genes were mainly involved in pathways related to energy metabolism, signal transduction, and immune response, which are closely associated with selected traits. Among them, TPI1 (triosephosphate isomerase 1) and QKI (RNA-binding proteins) were identified as key growth-related genes, playing important roles in energy supply and skeletal muscle development. RNA interference (RNAi) knockdown of these genes resulted in a significant reduction in expression levels, both peaking at 24 h with knockdown efficiencies of 75.5% and 71%, respectively. After RNAi treatment for 3, 6, and 11 days, the body weight gain rate was significantly lower than that of the control group at day 11. Overall, this study provides valuable insights into the genetic basis of key traits in P. trituberculatus and offers useful guidance for germplasm conservation and further genetic improvement.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.20.745995",
+          "title": "Heritable morphology-environment correlations among lake populations of threespine stickleback",
+          "authors": [
+            "Alex Yeung",
+            "Ben A. Flanagan",
+            "Heather Alexander",
+            "Emma Choi",
+            "John Berini",
+            "Abigail Albright",
+            "Caroline Szajda",
+            "Nataly Vargas",
+            "J.U. Flanagan",
+            "Edith Reyes Contreras",
+            "Peaches Cooper",
+            "Mehreen Shahid",
+            "Penelope R. Steffen",
+            "Fahad Gilani",
+            "Ana Santacruz",
+            "Viola Watts",
+            "Emma Polard",
+            "Kaligula Rochon",
+            "Emma Redfield",
+            "Jessica Hite",
+            "Amanda K. Hund",
+            "Daniel I Bolnick"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-22",
+          "doi": "10.64898/2026.08.20.745995",
+          "url": "https://openalex.org/W7203909782",
+          "abstract": "Phenotypic differences among populations can arise through heritable genetic divergence, phenotypic plasticity, or both, making it difficult to determine whether trait-environment correlations observed in nature reflect adaptive evolution. Within threespine stickleback (Gasterosteus aculeatus) studies, numerous document morphological differences among allopatric-, parapatric-, and even sympatric populations. These phenotypic differences among populations are often correlated with diet and lake habitat (e.g., lake size), suggesting an adaptive value to the population differences. However, many studies of ecomorphological divergence in stickleback use wild-caught stickleback, which may differ due to evolution or plasticity. Although common garden experiments have confirmed that population differences can be heritable, such experiments typically entail small numbers of populations. Consequently, we still do not know to what extent well-known trait-environment correlations in stickleback are a result of evolution. To address this gap, we reared stickleback embryos from 27 lake populations on Vancouver Island, in a laboratory environment. Morphological differences among populations persist in common-garden fish, confirming a large role for divergent evolution. These heritable differences were associated with environmental variation among lakes, implying an adaptive value. However, some well-known trait-environment relationships in stickleback did not persist in common-garden fish and may be primarily plastic.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/nsr/nwag520",
+          "title": "Wings with Stiffness and Stroke Variations Enabling Efficient Flight and Swimming for Flapping-Wing Robots",
+          "authors": [
+            "Yang Xiang",
+            "Zeyu Gong",
+            "Chenyi Yang",
+            "Licheng Hou",
+            "Zhenwei Zhang",
+            "Yuhang Hong",
+            "Zhenfeng Gu",
+            "Le Gu",
+            "Ying Shi",
+            "Bo Tao",
+            "Han Ding"
+          ],
+          "journal": "National Science Review",
+          "date": "2026-08-22",
+          "doi": "10.1093/nsr/nwag520",
+          "url": "https://openalex.org/W7203966177",
+          "abstract": "Abstract Flapping-wing propulsion demonstrates high efficiency and maneuverability, commonly observed in natural species for either aerial flight or aquatic swimming. To chase prey and evade predators, biological flapping wings are specialized for a single medium, posing significant challenges in achieving effective and efficient amphibious flapping. Existing aerial-aquatic robots are primarily driven by artificial propulsion and lack bionic flapping-wing mechanisms. Meanwhile, current flapping-wing robots are operated only in a single medium, without amphibious propulsion capabilities. Inspired by the flapping principles of two different species, birds and manta rays, we design a bimodal flapping wing for both aerial and aquatic propulsion. The wing can switch between aerial and aquatic modes to adapt to the distinct requirements of air and water environments. In the aerial mode, metal tubular spars replicate the high stiffness of bird’s hollow bones, while limited rotation strokes of joints emulate asymmetric feather deformation. In the aquatic mode, elastic plates mimic the flexible cartilages of manta rays, and free rotation strokes of joints reproduce the symmetric fin deformation. Simplified analysis, dynamics tests and robot motion tests have demonstrated that the wing’s aerial mode enhances lift generation during aerial flapping, while its aquatic mode decreases power consumption and improves thrust efficiency in aquatic flapping. Furthermore, by carrying auxiliary structures, the flapping-wing robot equipped with bimodal wings shows the potential to perform aerial-aquatic amphibious applications. Our work enhances the amphibious propulsion adaptability of large-scale flapping-wing robots and proposes a feasible engineering design.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -6890,8 +7055,8 @@
     }
   },
   "stats": {
-    "total_count": 333,
-    "new_this_week": 84,
+    "total_count": 340,
+    "new_this_week": 83,
     "weekly_trend": [
       {
         "week": "2026-W29",
@@ -6903,7 +7068,7 @@
       },
       {
         "week": "2026-W31",
-        "count": 87
+        "count": 101
       },
       {
         "week": "2026-W32",
@@ -6911,11 +7076,11 @@
       },
       {
         "week": "2026-W33",
-        "count": 72
+        "count": 66
       },
       {
         "week": "2026-W34",
-        "count": 70
+        "count": 69
       }
     ]
   }
