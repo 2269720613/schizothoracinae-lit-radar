@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:51:00Z",
+  "generated_at": "2026-08-26T06:51:55Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -150,6 +150,69 @@
           "abstract": "",
           "track": "A",
           "source": "PubMed"
+        },
+        {
+          "id": "10.1186/s40317-026-00488-8",
+          "title": "Seasonal migration and habitat shifts of the cyprinid fish Schizothorax eurycephalus in a Central Asian mountain river",
+          "authors": [
+            "Otabek Omonov",
+            "Pieterjan Verhelst",
+            "Johan Coeck",
+            "Robrecht Dockx",
+            "Peter Goethals",
+            "Bakhtiyor Karimov",
+            "Erkin Karimov",
+            "Damiano Oldoni",
+            "Martin Schletterer",
+            "Daniel S. Hayes"
+          ],
+          "journal": "Animal Biotelemetry",
+          "date": "2026-08-25",
+          "doi": "10.1186/s40317-026-00488-8",
+          "url": "https://openalex.org/W7204112963",
+          "abstract": "Abstract Freshwater biodiversity in Central Asia faces increasing pressure from anthropogenic impacts. A group of fish species of ecological and economical importance in the area are snow trout, cyprinids of the genus Schizothorax . However, fundamental knowledge to aid species conservation is limited, such as information about their seasonal movement patterns and habitat preferences. Consequently, in this study we tracked 27 snow trout ( Schizothorax eurycephalus ) equipped with radio transmitters for almost two years in the transboundary Shakhimardan River basin in the Alay mountain range, Uzbekistan and Kyrgyzstan. Movement distances and directions were analyzed using descriptive statistics and linear mixed models, and habitat use were assessed using ordinal logistic regression. Our results show that snow trout had a movement range up to 18 km and exhibited a seasonal migration pattern, moving downstream in spring and upstream in autumn. We observed that many fish migrated upstream into the groundwater-dominated Koksu River for wintering, potentially highlighting the role of thermal refugia. They mostly used habitats in medium-to-fast flowing sections with large substrates. This study is the first biotelemetry-based research of fish in Central Asia, revealing details on seasonal migration and habitat use of Schizothorax eurycephalus . Our findings underline the need to preserve aquatic connectivity and structurally diverse habitats in mountain rivers. Incorporating these insights into hydropower development, design and river restoration programs can help maintain ecological integrity while supporting sustainable development.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.5281/zenodo.22077321",
+          "title": "Dataset for: Feeding Ecology and Digestive Enzyme Activity of Schizothorax esocinus (Heckel, 1838) from the River Jhelum, Kashmir",
+          "authors": [
+            "Zaib Hafiz Khan",
+            "Syed Talia Mushtaq",
+            "Farooz Ahmad Bhat",
+            "TASSADUQ SHAH",
+            "Adnan Abubakr",
+            "Bilal Bhat",
+            "ASHWANI KUMAR"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "date": "2026-08-24",
+          "doi": "10.5281/zenodo.22077321",
+          "url": "https://openalex.org/W7204076160",
+          "abstract": "This dataset contains the gut-content, feeding-index, gut morphometric, and digestive enzyme activity data underlying the study of feeding ecology and digestive physiology of Schizothorax esocinus (Heckel, 1838) from the River Jhelum, Kashmir. The dataset includes monthly and seasonal observations, gut morphometric measurements, dietary occurrence data, feeding indices, and digestive enzyme activities measured across gut regions.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.5281/zenodo.22077322",
+          "title": "Dataset for: Feeding Ecology and Digestive Enzyme Activity of Schizothorax esocinus (Heckel, 1838) from the River Jhelum, Kashmir",
+          "authors": [
+            "Zaib Hafiz Khan",
+            "Syed Talia Mushtaq",
+            "Farooz Ahmad Bhat",
+            "TASSADUQ SHAH",
+            "Adnan Abubakr",
+            "Bilal Bhat",
+            "ASHWANI KUMAR"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "date": "2026-08-24",
+          "doi": "10.5281/zenodo.22077322",
+          "url": "https://openalex.org/W7204104857",
+          "abstract": "This dataset contains the gut-content, feeding-index, gut morphometric, and digestive enzyme activity data underlying the study of feeding ecology and digestive physiology of Schizothorax esocinus (Heckel, 1838) from the River Jhelum, Kashmir. The dataset includes monthly and seasonal observations, gut morphometric measurements, dietary occurrence data, feeding indices, and digestive enzyme activities measured across gut regions.",
+          "track": "A",
+          "source": "OpenAlex"
         },
         {
           "id": "10.55549/ephels.176",
@@ -1035,6 +1098,132 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1007/s00122-026-05340-4",
+          "title": "Standardized microhaplotype databases and frameworks for assessing and mining crop genetic diversity.",
+          "authors": [
+            "Zhao D",
+            "Lin M",
+            "Taniguti CH",
+            "Sandercock AM",
+            "Chen S",
+            "Babiker E",
+            "Bassil NV",
+            "Brummer EC",
+            "Camacho JR",
+            "Chatwin W",
+            "Chen SY",
+            "Clare SJ",
+            "da Silva Pereira G",
+            "David M",
+            "Fraher SP",
+            "Hardigan M",
+            "Hilton A",
+            "Hislop LM",
+            "Irish BM",
+            "Kante M",
+            "Kim TH",
+            "Lee CW",
+            "Lindqvist-Kreuze H",
+            "Loarca J",
+            "Lu PH",
+            "Medina Culma CA",
+            "Jiménez Morales JF",
+            "Polashock J",
+            "Price JH",
+            "Riday H",
+            "Samac DA",
+            "Sandhu D",
+            "Ssali R",
+            "Castro Vásquez RM",
+            "Wadl PA",
+            "Wang X",
+            "Webster SA",
+            "Xu Z",
+            "Yencho GC",
+            "Beil CT",
+            "Sheehan MJ"
+          ],
+          "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+          "date": "2026-08-25",
+          "doi": "10.1007/s00122-026-05340-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42640273/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10352176/v1",
+          "title": "Phenology and Reproductive Biology of Aconitum violaceum - A Threatened Endemic Medicinal Herb of the Northwestern Himalaya",
+          "authors": [
+            "Abdul Hadi",
+            "Sajjad Ali",
+            "Shah Rafiq",
+            "Mohammad Mehdi",
+            "Seema Singh",
+            "Irshad A. Nawchoo"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-24",
+          "doi": "10.21203/rs.3.rs-10352176/v1",
+          "url": "https://openalex.org/W7204116164",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.19.745619",
+          "title": "Whole genome sequences and annotations of Japanese and French strains of Heterosigma akashiwo",
+          "authors": [
+            "Tsubasa Kondo",
+            "Mika Sakamoto",
+            "Mayuko Tokumaru",
+            "Yasuhiro Tanizawa",
+            "Yasukazu Nakamura",
+            "Atsushi Toyoda",
+            "Shoko Ueki"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-23",
+          "doi": "10.64898/2026.08.19.745619",
+          "url": "https://openalex.org/W7204125368",
+          "abstract": "High-quality reference genomes provide an essential foundation for elucidating the molecular basis of organismal ecophysiology. Here, we sequenced and assembled chromosome-scale genomes of two Heterosigma akashiwo strains isolated from coastal waters of Japan and France. The assembly sizes were 1.18 Gb and 1.43 Gb for the Japanese and French strains, respectively. The scaffold N50 of the Japanese strain assembly was 66 Mb, whereas the one of the unscaffolded French strain assembly was 33 Mb. To our knowledge, these assemblies represent among the largest and most contiguous genome resources currently available for members of the Stramenopiles (Ochrophyta). Evidence-based gene prediction in the Japanese strain recovered approximately 90% of conserved stramenopile core genes, indicating a highly complete gene repertoire, and was complemented by extensive functional annotation. In the French strain, homology-based gene prediction recovered approximately 80% of conserved core genes. Comparative genome analysis revealed extensive synteny conservation between the two strains, although several putative duplication and translocation events were detected. These genomic resources provide a robust framework for investigating the molecular, cellular, and ecological mechanisms underlying the physiology, adaptation, and bloom-forming capacity of H. akashiwo.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.19.745865",
+          "title": "Evolution profile of 13415 SNVs in 33 language/cognition genes measured by five types of distance calculation",
+          "authors": [
+            "Zhizhou Zhang",
+            "Yongdong Xu"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-23",
+          "doi": "10.64898/2026.08.19.745865",
+          "url": "https://openalex.org/W7204121104",
+          "abstract": "This study aims to quantify the genetic similarity of different species (from fish to humans) to the human reference genome (pp6, Homo sapiens.GRCh38) based on the allele presence/absence patterns of 33 language/cognition related gene SNV loci, identify key breakpoints during evolution, and evaluate the enrichment of language and cognition genes at these breakpoints. We designed a similarity calculation method relying on binary features (four columns for A/T/C/G), adopted five difference/distance measures (Sorensen, Rogers, Nei, Reynolds, and Hellinger), and converted them into similarity values (1/(1+distance)). For each method, samples were independently ranked, the first derivative of similarity was computed, and the top 12 peaks were selected as candidate breakpoints. Results show that the similarity curves from the five methods are highly consistent (correlation coefficients >0.9), with major peaks concentrated at positions 355, 363, 381, 382, 390, 400, etc., where the corresponding samples are predominantly ancient hominins and primates. Furthermore, we defined 13 peak groups (starting positions 355-401). For each peak within a group, pairwise SNV differences between the peak apex sample and its immediate left neighbor were compared, and the intersection F_INTERSECTION (shared differential loci) was obtained. For each F_INTERSECTION, we calculated the proportions of language genes and cognition genes. In addition, we computed the differential sets between adjacent groups' F_INTERSECTION to trace the gradual emergence of new loci. In F_INTERSECTION, language genes accounted for an average of 59.5%, and cognition genes for an average of 62.9%. The proportion of language genes reached a peak at position 383 (61.2%), while cognition genes peaked at position 386 (64.9%). High frequency peak samples include c25, c27, and ja2, suggesting that language cognition genes may have undergone independent intensification during Eurasian evolution. Differential analysis between adjacent F_INTERSECTION revealed a stepwise acquisition of new loci from position 355 to 401, with three bursts of newly added loci along the entire evolutionary axis. This study provides a quantitative framework based on similarity curves, offers a novel molecular perspective for understanding the evolution of language and cognitive abilities, and highlights the potential importance of East Asian archaic hominins in the evolution of language cognition genes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1080/15538362.2026.2718186",
+          "title": "Overcoming Shoot Regeneration Recalcitrance of Solanum quitoense L. via Combined Application of Gibberellic Acid (GA 3 ), Thidiazuron (TDZ), and Naphthaleneacetic Acid (NAA)",
+          "authors": [
+            "Raúl Vargas",
+            "Carlos Millones",
+            "Carmen N. Vigo",
+            "Eyner Huaman",
+            "Manuel Oliva-Cruz"
+          ],
+          "journal": "International Journal of Fruit Science",
+          "date": "2026-08-23",
+          "doi": "10.1080/15538362.2026.2718186",
+          "url": "https://openalex.org/W7204055388",
+          "abstract": "Solanum quitoense L. an Andean fruit species of high nutritional and agro-industrial value, exhibits notable recalcitrance to in vitro shoot regeneration, which limits its biotechnological exploitation and the development of genetic improvement programs. This study evaluated the effects of different combinations of thidiazuron (TDZ) and naphthaleneacetic acid (NAA), in the presence or absence of gibberellic acid (GA3; 1.0 mg/L), on the morphogenic response of cotyledon and hypocotyl explants. The evaluation was conducted over 10 weeks, considering necrotic explants, callus induction, rhizogenesis, shoot regeneration, and number of shoots per explant. GA3 supplementation markedly improved the morphogenic response of S. quitoense, although the response was explant-dependent. The highest overall shoot regeneration rate was obtained in hypocotyl explants cultured with GA3 (1.0 mg/L) + TDZ 0.10 mg/L without NAA, reaching 57.8%. In cotyledon explants, the best response was achieved with GA3 (1.0 mg/L) + TDZ 0.50 mg/L + NAA 0.01 mg/L, reaching 42.2%. In contrast, treatments without GA3 predominantly led to necrosis and callogenic responses, with null or extremely limited shoot regeneration. This study represents a significant advance in the in vitro regeneration of a tissue culture–recalcitrant species by identifying GA3-containing hormonal combinations that improve shoot regeneration. These findings provide a useful framework for developing regeneration protocols applicable to micropropagation, breeding, and genetic transformation of S. quitoense.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1186/s12864-026-13274-w",
           "title": "Integrating deep learning and pangenomics to recover missing heritability from wild structural variations",
           "authors": [
@@ -1279,6 +1468,24 @@
           "source": "OpenAlex"
         },
         {
+          "id": "10.1016/j.fsir.2026.100512",
+          "title": "Advances in molecular wildlife forensics for species identification, geographic origin assignment, and individualization",
+          "authors": [
+            "Anocha Poommouang",
+            "Wannapimol Kriangwanich",
+            "Korakot Nganvongpanit",
+            "Siriwadee Chomdej",
+            "Kittisak Buddhachat"
+          ],
+          "journal": "Forensic Science International Reports",
+          "date": "2026-08-22",
+          "doi": "10.1016/j.fsir.2026.100512",
+          "url": "https://openalex.org/W7204003379",
+          "abstract": "Wildlife and veterinary forensic investigations increasingly rely on molecular genetics to address three core legal questions: species identification, geographic or population origin, and individual attribution. This review evaluates traditional and contemporary molecular approaches used in wildlife forensics. Recent advances in rapid DNA extraction, portable sequencing, isothermal amplification, CRISPR-based diagnostics, and high-throughput sequencing are synthesized with emphasis on forensic readiness rather than technological innovation. In all methods, evidentiary strength depends on species-specific validation, known error rates, inter-laboratory reproducibility, representative reference databases, and compliance with accredited forensic practice. Comparative analysis highlights that no single technique is sufficient for all forensic questions. In contrast, defensible casework relies on sequential workflows in which rapid screening narrows the investigative scope, while validated genetic markers are reserved for court-admissible determinations. Unresolved limitations include insufficient reference database reporting, sensitivity to DNA degradation and inhibitors, contamination risk, and variability in standardization and legal admissibility across jurisdictions. Future progress in wildlife forensic genetics will depend on coordinated validation frameworks, expanded population reference resources, and integration of complementary molecular tools to support effective, reproducible, and legally defensible enforcement outcomes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1038/s41597-026-08170-7",
           "title": "Chromosome-level genome assembly of Coreoperca whiteheadi",
           "authors": [
@@ -1449,6 +1656,20 @@
           "doi": "10.64898/2026.08.20.744945",
           "url": "https://openalex.org/W7203925302",
           "abstract": "Heterosis, the superior performance of hybrids over their parents, has been widely exploited to enhance crop productivity, but its underlying regulatory mechanisms remain incompletely understood. In particular, how cis-regulatory elements (CREs) vary between parents and hybrids, and how this variation is organized across cell types, remains largely unresolved. Here we profiled chromatin accessibility in 131,890 nuclei derived from seedlings of three Zea mays (maize) inbred lines and their reciprocal hybrids, resolving 14 major cell types. Parental haplotype comparisons showed that most accessible chromatin regions (ACRs) were sequence-conserved and have similar binarized chromatin accessibility status. At cellular resolution, hybridization broadly attenuated chromatin accessibility cell-type specificity, weakening parental cell-type bias and yielding a more even chromatin accessibility profile across cellular contexts. Chromatin inheritance was strongly cell-type dependent, with non-additive inheritance preferentially concentrated at cell-type-specific ACRs. Although cis effects were most prevalent overall, ACRs with attenuated cell-type specificity in hybrids were enriched for non-additive inheritance and trans effects. Attenuated ACRs were more prone to transcription factor (TF) footprint gains than loci retaining high cell-type specificity, with DNA-BINDING WITH ONE FINGER (DOF) and VASCULAR PLANT ONE ZINC FINGER (VOZ) among the motif families most enriched in high-confidence footprint-gaining events. ACRs with footprint gains were preferentially linked to genes involved in development, hormone responses and growth, including DOF-family gains at GOLDEN2-like (GLK2), where both the motif family and the locus have been implicated in bundle-sheath development and C4 photosynthetic specialization. Together, our findings reveal that parental chromatin accessibility patterns are reconfigured across cell types in maize hybrids, with attenuation of cell-type specificity offering a potential cellular mechanism underlying heterosis.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.20381/ruor-32171",
+          "title": "A Study of Aegilops Genomes: Towards Understanding Their Evolution and Potential for Wheat Improvement",
+          "authors": [
+            "Hamna Shazadee"
+          ],
+          "journal": "uO Research (University of Ottawa)",
+          "date": "2026-08-21",
+          "doi": "10.20381/ruor-32171",
+          "url": "https://openalex.org/W7204006788",
+          "abstract": "Crop improvement has historically relied on the continuous enhancement of yield, adaptability, and resilience, yet polyploidization, domestication and modern breeding have narrowed the genetic diversity of cultivated wheat. Wild relatives, particularly species within the genus Aegilops, represent a critical reservoir of untapped genetic variation with the potential to address emerging agricultural challenges. Despite their evolutionary and agronomic importance, genomic resources for many Aegilops species have remained limited, restricting comprehensive investigations of their genome evolution and utilization in wheat improvement. In this study, high-quality genome assemblies and gene annotations were generated for 18 diploid, tetraploid, and hexaploid Aegilops species, which, together with previously published genomes, complete a reference set for all 25 species within the genus. Assembly sizes ranged from 5.24 Gb in diploids to 12.65 Gb in polyploids, with high contiguity enabling detailed analyses of complex and repeat-rich genomic regions. Gene annotation provided a comprehensive overview of protein-coding gene content across all assembled Aegilops genomes. The annotated gene sets offer a consistent resource for comparative genomic analyses and functional exploration across the genus. Phylogenetic reconstruction based on near single-copy orthologs across Triticum and Aegilops genomes provided a well-resolved evolutionary framework and confirmed relationships between polyploid genomes and their diploid progenitors. Divergence time estimates further contextualized species evolution within the genus. Comparative analyses of structural variation revealed extensive genome restructuring following polyploidization, including insertions, deletions, duplications, and rearrangements, while maintaining overall syntenic conservation. These patterns highlight the dynamic nature of polyploid genomes and their divergence from ancestral states. Genome-wide characterization of transposable elements revealed that Aegilops genomes are dominated by long terminal repeat (LTR) retrotransposons, with evidence of both conserved and subgenome-specific patterns of expansion and contraction. Temporal analyses of LTR insertions indicated variation in insertion activity over time, reflecting differences in transposable element dynamics among species and subgenomes. Together, these results provide a comprehensive and integrative view of genome evolution in Aegilops, linking genome structure, transposable element dynamics, and evolutionary history across ploidy levels. The genomic resources and insights generated in this study not only advance our understanding of polyploid genome evolution but also provide a valuable foundation for harnessing Aegilops diversity to improve the resilience, adaptability, and productivity of cultivated wheat.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -7055,8 +7276,8 @@
     }
   },
   "stats": {
-    "total_count": 340,
-    "new_this_week": 83,
+    "total_count": 350,
+    "new_this_week": 84,
     "weekly_trend": [
       {
         "week": "2026-W29",
@@ -7064,23 +7285,23 @@
       },
       {
         "week": "2026-W30",
-        "count": 0
+        "count": 11
       },
       {
         "week": "2026-W31",
-        "count": 101
+        "count": 107
       },
       {
         "week": "2026-W32",
-        "count": 89
+        "count": 86
       },
       {
         "week": "2026-W33",
-        "count": 66
+        "count": 61
       },
       {
         "week": "2026-W34",
-        "count": 69
+        "count": 71
       }
     ]
   }
