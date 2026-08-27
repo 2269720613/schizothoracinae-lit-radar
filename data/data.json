@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:51:55Z",
+  "generated_at": "2026-08-27T17:25:11Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -171,6 +171,27 @@
           "doi": "10.1186/s40317-026-00488-8",
           "url": "https://openalex.org/W7204112963",
           "abstract": "Abstract Freshwater biodiversity in Central Asia faces increasing pressure from anthropogenic impacts. A group of fish species of ecological and economical importance in the area are snow trout, cyprinids of the genus Schizothorax . However, fundamental knowledge to aid species conservation is limited, such as information about their seasonal movement patterns and habitat preferences. Consequently, in this study we tracked 27 snow trout ( Schizothorax eurycephalus ) equipped with radio transmitters for almost two years in the transboundary Shakhimardan River basin in the Alay mountain range, Uzbekistan and Kyrgyzstan. Movement distances and directions were analyzed using descriptive statistics and linear mixed models, and habitat use were assessed using ordinal logistic regression. Our results show that snow trout had a movement range up to 18 km and exhibited a seasonal migration pattern, moving downstream in spring and upstream in autumn. We observed that many fish migrated upstream into the groundwater-dominated Koksu River for wintering, potentially highlighting the role of thermal refugia. They mostly used habitats in medium-to-fast flowing sections with large substrates. This study is the first biotelemetry-based research of fish in Central Asia, revealing details on seasonal migration and habitat use of Schizothorax eurycephalus . Our findings underline the need to preserve aquatic connectivity and structurally diverse habitats in mountain rivers. Incorporating these insights into hydropower development, design and river restoration programs can help maintain ecological integrity while supporting sustainable development.",
+          "track": "A",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1186/s13293-026-00975-w",
+          "title": "Mapping the sex-dimorphic hormonal ecosystem in osteoarthritis: non-linear interactions between androgen activity and estrogen",
+          "authors": [
+            "bin deng",
+            "Ting Chen",
+            "Qiao Chen",
+            "Liangzhi Huang",
+            "Shuai Zhong",
+            "Zhanlin Liao",
+            "Xiaobin Ji",
+            "Zugui Huang"
+          ],
+          "journal": "Biology of Sex Differences",
+          "date": "2026-08-25",
+          "doi": "10.1186/s13293-026-00975-w",
+          "url": "https://openalex.org/W7124712218",
+          "abstract": "Abstract Background The pronounced sex disparity in osteoarthritis (OA) risk implicates sex hormones, yet single-hormone studies have yielded inconsistent results. We hypothesized that androgen activity influences OA not in isolation but within a dynamic network defined by sex, menopausal status, and estradiol. Methods We analyzed 13,848 adults from NHANES (2013–2016, 2021–2023) using an integrated framework combining complex-survey regression, two-way restricted cubic splines, generalized additive models (GAMs), and SHAP-based machine learning to model non-linear interactions across the estradiol-FAI plane. Results Higher free androgen index (FAI) was significantly associated with lower OA risk only in post-menopausal females (OR = 0.85, 95% CI: 0.74–0.97, P = 0.021); associations in pre-menopausal females (OR = 0.75, P = 0.145) and males (OR = 0.94, P = 0.714) were not statistically significant. Non-linear models revealed distinct regional patterns: a “buffering” pattern in post-menopausal females, where the low-estradiol/low-FAI quadrant exhibited the highest risk (GAM P = 0.002; regional synergy mean = 0.077); a “cross-over” pattern in males (GAM P = 0.042); and a flat surface in pre-menopausal females, serving as a negative control. Candidate boundaries (e.g., estradiol ≈ 2.63, FAI ≈ − 0.54 in post-menopausal females) emerged from SHAP dependence plots as hypothesis-generating indicators requiring formal validation. Machine learning confirmed that standalone predictive contributions of sex hormones were minimal (mean |SHAP| ≤ 0.0135), supporting their role as contextual modulators rather than primary drivers. Conclusions Sex hormone effects on OA are context-dependent and non-linear, only discernible when examined in combination. The regional risk patterns—particularly the low-low quadrant in post-menopausal females—represent the robust core of our findings and provide a conceptual framework for understanding sex disparities through steroid interaction. Candidate boundaries are hypothesis-generating and await validation.",
           "track": "A",
           "source": "OpenAlex"
         },
@@ -1069,6 +1090,73 @@
           "source": "PubMed"
         },
         {
+          "id": "10.3389/fpls.2026.1926603",
+          "title": "Mitogenome assembly and phylogenetic relationships of Phalaris arundinacea",
+          "authors": [
+            "Ze Teng",
+            "Chunyu Tian",
+            "Yanting Yang",
+            "Wenlong Gong",
+            "Zhiyong Li",
+            "Xiaoming Bai",
+            "Zinian Wu"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-26",
+          "doi": "10.3389/fpls.2026.1926603",
+          "url": "https://openalex.org/W7204224269",
+          "abstract": "Introduction As a perennial herb of Poaceae, Phalaris arundinacea plays key roles in grazing, production, and soil and water conservation because of its well-developed rhizomes and seed dispersal. We assembled and annotated the first mitogenome of P. arundinacea to support evolutionary and taxonomic research. Methods We assembled and annotated the first complete mitochondrial genome of P. arundinacea by integrating Illumina short reads with Nanopore long reads via a hybrid assembly strategy. The genome architecture was comprehensively characterized, encompassing codon usage bias, repetitive sequence organization, and inter-organellar genetic exchange with the chloroplast genome. Results and discussion Assembly of the P. arundinacea mitogenome revealed two circular structures with a combined length of 526,717 bp. The genome comprised a set of 37 protein-coding genes (PCGs), 27 tRNAs, and 8 rRNAs, with the rRNA genes exhibiting full assembly (100% coverage). The mitochondrial genome contained 154 forward and 164 palindromic repeats, along with 25 tandem repeats and 124 simple sequence repeats (SSRs). Notably, 102 SSRs were distributed on contig1, predominantly in tetrameric form. Furthermore, 376 RNA editing sites were predicted. A total of 104 fragments were integrated into the mitochondrial genome from the chloroplast, amounting to 55,866 bp of transferred sequence. Finally, phylogenetic analysis of 28 plant mitogenomes placed P. arundinacea closest to species within the genus Poa ( P. chaixii and P. pratensis ). Comparative analysis of non-synonymous-to-synonymous substitution rate (Ka/Ks) ratios across divergent species revealed that the mitochondrial genome of P. arundinacea underwent stabilizing evolutionary dynamics, characterized by predominant purifying selection with several lineage-specific variations in selective pressure. Our findings support the close phylogenetic relationship between P. arundinacea and species of the genus Poa and provide a reference mitochondrial genome resource for future comparative studies within Phalaris that incorporate broader taxon sampling. These results support deeper phylogenetic investigations of P. arundinacea and facilitate future work on its germplasm characterization and applied use.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10501311/v1",
+          "title": "Prioritizing conservation areas for Trichoptera in the Pyrenees using climate change vulnerability information at the taxonomic and genetic levels",
+          "authors": [
+            "Nieves López‐Rodríguez",
+            "Julie Crabot",
+            "Raúl Acosta",
+            "Pello Isasi-Bea",
+            "Miguel Cañedo‐Argüelles",
+            "Mónica Lanzas",
+            "Steffen Pauls",
+            "David Cunillera‐Montcusí",
+            "Virgilio Hermoso",
+            "Oskar Schröder",
+            "R.G. Bina Perl",
+            "Julio Schneider",
+            "Romina Álvarez‐Troncoso",
+            "Núria Bonada‬‬‬‬‬‬‬‬‬‬‬"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-26",
+          "doi": "10.21203/rs.3.rs-10501311/v1",
+          "url": "https://openalex.org/W7204221685",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1916983",
+          "title": "Integrated physiological, transcriptomic and metabolomic analysis reveals differential cold response in wheat seedlings across varieties",
+          "authors": [
+            "Wenjie Zheng",
+            "Peng Li (69518)",
+            "Xin Sun",
+            "Ying Liu",
+            "Mingzhu Sun",
+            "Baiqiang Yan",
+            "Zhengyong Cui"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-26",
+          "doi": "10.3389/fpls.2026.1916983",
+          "url": "https://openalex.org/W7133314290",
+          "abstract": "Background Cold stress is a major environmental constraint limiting wheat productivity worldwide. Although numerous cold-responsive pathways have been identified, the molecular basis of differential cold tolerance among genetically related wheat lines remains poorly understood. In this study, two wheat sibling lines derived from a single progeny plant of the same parental cross, Luyan951 (cold-tolerant) and Luyan955 (cold-sensitive), were employed to investigate the regulatory mechanisms of cold adaptation through integrated physiological, transcriptomic, and metabolomic analyses. Results Physiological assays revealed that Luyan951 exhibited markedly enhanced cold tolerance, with a survival rate of 52.67% following cold treatment compared with 20.67% in Luyan955. This enhanced tolerance was accompanied by 1.90–2.41-fold greater increases in antioxidant enzyme activities (SOD, CAT, and POD) and 1.84–4.50-fold greater accumulation of proline and soluble sugars relative to Luyan955, along with substantially lower MDA accumulation. Transcriptomic and metabolomic analyses identified phenylpropanoid biosynthesis and jasmonic acid (JA) signaling as key pathways associated with cold adaptation. Compared with Luyan955, cultivar Luyan951 exhibited stronger activation of these pathways under cold stress. Key genes involved in phenylpropanoid biosynthesis ( CAD , and 4CL ) and JA signaling ( JAZ , MYC2 ) were significantly upregulated in Luyan951, as confirmed by qRT-PCR. Bioinformatic analyses further suggested that AP2/ERF transcription factors may act as upstream regulators of these pathways. Furthermore, subcellular localization and transcriptional activation experiments confirmed the nuclear localization and transactivation function of three AP2/ERF genes ( TraesCS5D02G318400 , TraesCS6A02G381000 , TraesCS6D02G366100 ). Conclusions Our findings indicate that the phenylpropanoid biosynthesis pathway plays a significant role in the cold tolerance of wheat, and together with the jasmonic acid signaling pathway, it forms a crucial regulatory network. This network promotes the scavenging of reactive oxygen species, maintains osmotic homeostasis, and stabilizes metabolism under low-temperature stress. Integrated analyses further suggest that this network may be coordinated by upstream ERF transcription factors. These findings provide comprehensive insights into the molecular mechanisms of wheat cold adaptation and offer valuable candidate genes and pathways for the genetic improvement of cold tolerance in wheat.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.1073/pnas.2523784123",
           "title": "Regulatory divergence of homoeologs underlies network optimization for fiber improvement in domesticated cotton.",
           "authors": [
@@ -1152,6 +1240,177 @@
           "source": "PubMed"
         },
         {
+          "id": "10.1007/s00122-026-05347-x",
+          "title": "Cross incompatibility restricting genome exchange and diversification of primary gene pool in plants: challenges and opportunities",
+          "authors": [
+            "Mahendar Thudi",
+            "Yogesh Dashrath Naik",
+            "Uday Chand Jha",
+            "M. S. Sai Reddy",
+            "Manish K. Pandey",
+            "Reyazul Rouf Mir",
+            "Muraleedhar S. Aski",
+            "Murukarthick Jayakodi",
+            "Venugopal Mendu",
+            "Naveen Puppala",
+            "P. V. Vara Prasad",
+            "Somashekhar Punnuri",
+            "Henry T. Nguyen"
+          ],
+          "journal": "Theoretical and Applied Genetics",
+          "date": "2026-08-25",
+          "doi": "10.1007/s00122-026-05347-x",
+          "url": "https://openalex.org/W7204159819",
+          "abstract": "KEY MESSAGE: Crop wild relatives provide essential genetic diversity for improving crop resilience; however, pre- and post-zygotic barriers often restrict interspecific hybridization. Recent approaches enable their effective use in crop improvement programs. Crop wild relatives (CWR), closely related wild taxa of cultivated crops, offer a wealth of genetic diversity essential for developing traits to help crops adapt to the challenges of biotic and abiotic stresses. This diversity is critical to meet the increasing global demand for food, especially under the looming threat of climate change. However, crossing between individuals from different species often results in maladapted or inviable offspring due to pre- and post-zygotic barriers. Pre-zygotic barriers prevent successful pollen-stigma interactions and pollen tube growth, while post-zygotic barriers include hybrid embryo or endosperm failure and chromosome pairing issues, contributing to cross incompatibility (CI). These barriers restrict genome exchange and hinder the diversification of the primary gene pool in plants. Overcoming these barriers is a significant challenge. This review explores the diverse pre- and post-zygotic barriers in interspecific hybridization, emphasizing genetic factors related to CI. Additionally, this review highlights biotechnological approaches such as somatic hybridization and embryo rescue techniques, which are used to overcome these barriers. Through continued research and innovation, these barriers can be overcome, unlocking the full potential of CWR to address the evolving demands of global agriculture. Recent advances in synthetic biology now offer the possibility to reprogram reproductive barriers, turning CI into a controllable trait for hybrid development.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1902159",
+          "title": "CRISPR–Cas technologies for precision genome editing in plants: advances, applications, and future perspectives",
+          "authors": [
+            "Syed Riaz Ahmed",
+            "Jahangir Khan",
+            "Iram Ijaz",
+            "Zeba Ali",
+            "Ijaz Rasul",
+            "Muhammad Aslam",
+            "Naeem Ud-Din",
+            "Yongming Liu",
+            "Muhammad Sayyam Tariq",
+            "Milan Skalický",
+            "Daniel K. Y. Tan"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-25",
+          "doi": "10.3389/fpls.2026.1902159",
+          "url": "https://openalex.org/W7204171913",
+          "abstract": "Developing climate-smart crops with enhanced crop productivity, nutritional quality, resistance to biological and environmental stressors is vital for global food security. While hybrid breeding forms the cornerstone of modern crop improvement, conventional breeding approaches are limited by genetic barriers and prolonged breeding cycles. CRISPR–Cas based genome editing has revolutionized plant biology by allowing precise, efficient, and multiplex genetic modifications. This review provides a comprehensive synthesis of a recent advances in CRISPR–Cas technologies and their strategic applications in crop genetics and hybrid breeding. We summarize major genome-editing strategies, including gene knock-out, base editing (BE), knock-in, gene replacement, epigenome editing, and transcriptional regulation. Furthermore, we contrast stable, transient, and DNA-free delivery systems, highlighting ribonucleoprotein (RNP)-mediated delivery for minimizing off-target effects and avoiding transgene integration. We showcase how these technologies accelerate hybrid breeding by engineering male sterility systems, fixing heterosis, and generating high-throughput mutant libraries for trait discovery. Finally, we synthesize major bottlenecks in tissue culture-independent transformation and delivery systems, while outlining how emerging paradigms like de novo domestication and synthetic biology will shape the future of climate-resilient agriculture.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1917461",
+          "title": "Genome-wide analysis of FATA associated with drought tolerance in tetraploid potato (Solanum tuberosum)",
+          "authors": [
+            "Florian Schilling",
+            "Annika Reimer",
+            "Renate Horn"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-25",
+          "doi": "10.3389/fpls.2026.1917461",
+          "url": "https://openalex.org/W7204183476",
+          "abstract": "The cuticle represents the outer most protective barrier against biotic and abiotic stresses. It is composed of cutin and waxes and protects plants from desiccation, UV, cold, mechanical stresses, and pathogens. GWAS/BSAseq combined with SeqSNP analyses in an association panel of 34 potato cultivars had revealed that the acyl-ACP thioesterase FATA (Soltu.DM.06G033680.1) is significantly associated with drought tolerance in potato. Apart from three FATB genes, only one FATA gene is present in potato that has the highest homology to FATA2 in Arabidopsis. FATA is responsible for the export of C18:1 fatty acid from chloroplast into cytosol, which is necessary for the biosynthesis of cutin. A knockout mutant of AtFATA2 was analyzed with regard to the cuticle permeability and to drought tolerance as well as recovery. Loss of FATA function leads to higher sensibility to water deficit in Arabidopsis, but to no change in recovery. The increased permeability of the cuticle in the fata2 knockout mutant as shown indirectly by higher chlorophyll leaching might play a role in this. Haplotypes for FATA were identified for the two potato cultivars Albatros and Désirée. All Désirée haplotypes and Albatros haplotypes 1, 3 and 4 were also revealed by former potato pan genome studies, while Albatros haplotype 2 is unique and has not been described before. Protein models were developed to investigate the influence of different SNPs in the haplotypes on the predicted protein structure and especially the substrate cavity. In potato, protein modeling suggests that only the hypothetical isoform B of FATA might be able to process oleoyl-ACP, but not hypothetical isoform A. However, this hypothesis needs to be verified by enzyme activity assays.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10505264/v1",
+          "title": "Population genomics of transcontinental grapevines reveals divergent evolutionary trajectories and cis-regulatory mechanisms underlying cold adaptation",
+          "authors": [
+            "Yue Song",
+            "Lujia Wang",
+            "Lipeng Zhang",
+            "Mingzheng Han",
+            "Yuanxu Teng",
+            "Junpeng Li",
+            "Zhen Zhang",
+            "Dongying Fan",
+            "Yuanyuan Xu",
+            "Chenlu Du",
+            "Xinrui Liu",
+            "Yuhuan Miao",
+            "Yicheng Lu",
+            "Juan He",
+            "Chao Ma"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-25",
+          "doi": "10.21203/rs.3.rs-10505264/v1",
+          "url": "https://openalex.org/W7204135544",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.21203/rs.3.rs-10573411/v1",
+          "title": "Insights into the genetic diversity of chilli pepper (Capsicum annuum L.) using morphological traits and microsatellite markers",
+          "authors": [
+            "Akhilesh Sharma",
+            "Nancy Banyal",
+            "Parveen Sharma",
+            "Nimit Kumar",
+            "SRISHTI",
+            "Anoushka Sharma",
+            "Arshia Prashar"
+          ],
+          "journal": "Research Square",
+          "date": "2026-08-25",
+          "doi": "10.21203/rs.3.rs-10573411/v1",
+          "url": "https://openalex.org/W7204166393",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41598-026-66654-3",
+          "title": "Genomic diversification between aposematic and cryptic phenotypes of Oophaga granulifera (Anura: Dendrobatidae)",
+          "authors": [
+            "Anaisa Cajigas Gandia",
+            "Heike Pröhl",
+            "Julia Metzger",
+            "Ariel Rodríguez"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-08-25",
+          "doi": "10.1038/s41598-026-66654-3",
+          "url": "https://openalex.org/W7204180546",
+          "abstract": "Abstract Aposematism and crypsis are contrasting antipredator strategies widespread across animal taxa, yet their genetic basis remains poorly understood in amphibians. Aposematic species advertise toxicity through conspicuous coloration, whereas cryptic species rely on concealment to avoid predators. The granular poison frog, Oophaga granulifera , with allopatric aposematic (red) and cryptic (green) morphs, provides an excellent system to explore the molecular mechanisms underlying transitions between these strategies. We used a comparative genomic approach, mapping RNA-seq reads to the Oophaga sylvatica reference genome and a de novo assembled O. granulifera superTranscriptome, to characterize its population genetics and detect genes with single nucleotide polymorphisms under positive selection. We identified two main genetic clusters with strong divergence between green and red populations. We found 283 SNPs showing signatures compatible with positive selection using the reference genome and 749 SNPs using the reference superTranscriptome, indicating greater sensitivity of the latter approach in capturing species-specific genetic variation. Some of these SNPs occur in coloration-related genes, including genes involved in melanin synthesis ( DVL2 , FZD7 , GNAI1 ), pteridine synthesis ( MYCBP2 ), iridophore development ( IMPDH1 , PSAT1 ), carotenoid metabolism ( BCO1 , RARG , RETSAT ), and pigmentation variation. Our findings highlight the complex genetic basis of color diversity in anurans and the value of generating species-specific genomic resources for non-model organism’s research.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1649/0010-065x-80.3.405",
+          "title": "It's Been a Hard Day's Night: Diel Beetle (Coleoptera) Activity in a Longleaf Pine (Pinus palustris Mill.; Pinaceae) Woodland",
+          "authors": [
+            "Thomas N. Sheehan",
+            "Mary M. McTeague",
+            "Christine M. Favorito",
+            "Anthony M. Deczynski",
+            "Kier D. Klepzig"
+          ],
+          "journal": "The Coleopterists Bulletin",
+          "date": "2026-08-25",
+          "doi": "10.1649/0010-065x-80.3.405",
+          "url": "https://openalex.org/W7204159016",
+          "abstract": "Understanding basic natural history of insects is crucial to their conservation, especially as they face significant declines in the Anthropocene. Numerous gaps in our knowledge exist, including what time of the day insects are active. Flight intercept traps were run for one month, August through September, to sample insects active during the day and night, respectively, in a longleaf pine (Pinus palustris Mill.; Pinaceae) forest at the Jones Center at Ichauway, Baker County, Georgia, USA. We collected 1,549 beetle (Coleoptera) specimens representing 135 species within 41 families. Beetle species richness, beetle family richness, and arthropod biomass were all significantly higher during the night compared to the day. In contrast, beetle abundance was significantly higher during the day compared to night, due to the influence of two species, Conotelus obscurus Erichson, 1843 (Nitidulidae) and Cryptorhopalum floridanum Casey, 1916 (Dermestidae), which represented 19.2% and 13.9% of all beetles collected, respectively. We identified seven species and six families as indicators of either diurnal or nocturnal activity. We also report four beetle families and 77 beetle species not previously reported in the longleaf pine ecosystem. These findings can help inform conservation and management decisions, especially in the context of climate change, light pollution, and habitat alteration.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.3389/fpls.2026.1893606",
+          "title": "Establishment of an efficient Agrobacterium-mediated genetic transformation protocol for Saccharum officinarum using Black Cheribon as a model genotype",
+          "authors": [
+            "Chunjia Li",
+            "Xujuan Li",
+            "Chunyan Tian",
+            "Xin Hu",
+            "Xin Lü",
+            "Gul Nawaz",
+            "Ting Yang",
+            "Xinlong Liu",
+            "Yuebin Zhang"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-25",
+          "doi": "10.3389/fpls.2026.1893606",
+          "url": "https://openalex.org/W7204203238",
+          "abstract": "Efficient Agrobacterium -mediated transformation (AMT) is vital for the biotechnological improvement of sugarcane ( Saccharum spp.). Saccharum officinarum is the main ancestor of all modern cultivars, yet little research has been conducted on its AMT system. In this work, an efficient AMT protocol for S. officinarum was developed, with Black Cheribon as the model genotype owing to its superior tissue culture performance and regeneration capacity. The optimized agro-infection protocol comprised the following main parameters: concentration of acetosyringone (AS) in Agrobacterium culture, concentration of AS for infection, Agrobacterium concentration at OD600 = 0.4, infection time of 30 minutes, vacuum infiltration time of 10 minutes and co-cultivation time of 3 days. To further improve transformation efficiency, 0.5 mg/L thidiazuron and 200 mg/L citric acid were added to the regeneration medium, which enhanced the regeneration of shoots. A modified stage-dependent selection strategy (FlexII) was established by using glufosinate-ammonium at concentrations of 2.0, 1.0, and 0.75 mg/L in the callus proliferation, shoot regeneration, and rooting stages, respectively. This strategy was more successful than the minimum inhibitory concentration-based strategy in S. officinarum transformation. The optimized protocol further boosted the transformation efficiency of Black Cheribon from 1.12% to 7.17%. The resulting transgenic lines were confirmed by PCR amplification of T-DNA regions and immunochromatographic detection of Bar protein expression in primary transformants, respectively. These results provide a sound technical foundation for the functional genomics and biotechnological optimization of S. officinarum germplasm, and may serve as a reference for future transformation studies in other sugarcane germplasm.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
           "id": "10.21203/rs.3.rs-10352176/v1",
           "title": "Phenology and Reproductive Biology of Aconitum violaceum - A Threatened Endemic Medicinal Herb of the Northwestern Himalaya",
           "authors": [
@@ -1167,6 +1426,346 @@
           "doi": "10.21203/rs.3.rs-10352176/v1",
           "url": "https://openalex.org/W7204116164",
           "abstract": "",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08137-8",
+          "title": "A chromosomal-level genome assembly of Ruditapes philippinarum",
+          "authors": [
+            "Yinquan Qu",
+            "Baojun Tang",
+            "Yaoran Fan",
+            "Anle Xu",
+            "Tianxiang Gao",
+            "Hanfeng Zheng"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-24",
+          "doi": "10.1038/s41597-026-08137-8",
+          "url": "https://openalex.org/W7204073534",
+          "abstract": "Ruditapes philippinarum is a commercially significant marine bivalve species that inhabits estuarine and intertidal mudflat areas. To investigate the molecular basis behind the germplasm degradation and mixed genetic backgrounds, we sequenced the R. philippinarum genome. Based on 89.11 Gb (~60x) long-reads of PacBio platform sequencing data, we assembled 1481.33 Mb (contig N50 = 23.44 Mb) for R. philippinarum genome. Furthermore, 1275.22 Mb were anchored to 19 pseudo-chromosomes using over 261.90 Gb (~177x) Hi-C sequencing data. Transcriptomic data were incorporated into the gene annotation pipeline alongside ab initio and homology-based predictions, resulting in 38,130 predicted protein-coding genes. The BUSCO assessment revealed a high level of genome assembly completeness of 91.90%, consisting of 90.39% single-copy and 1.51% duplicated BUSCOs. The genomic quality was further confirmed by the quality value (QV) of 65.58. The high-quality genome of R. philippinarum presented in this study provides an invaluable resource for research in population genetics, germplasm conservation and genetic breeding.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41597-026-08114-1",
+          "title": "Chromosome-scale, haplotype-resolved genome assemblies of two threatened Vriesea species",
+          "authors": [
+            "João Victor da Silva Rabelo-Araujo",
+            "Caroline Bertocco Garcia",
+            "Thiago Deomar Ludwig",
+            "Ana Paula da Silva Marques",
+            "Ana Cristina Silva Amoroso Anastacio",
+            "Cláudio Coelho de Paula",
+            "Ovidiu Paun",
+            "Maria Imaculada Zucchi"
+          ],
+          "journal": "Scientific Data",
+          "date": "2026-08-24",
+          "doi": "10.1038/s41597-026-08114-1",
+          "url": "https://openalex.org/W7204090319",
+          "abstract": "Vriesea longistaminea and Vriesea minarum are two threatened bromeliad species endemic to Brazil, both narrowly distributed and associated with rocky montane grasslands under increasing anthropogenic pressure. Here, we present chromosome-scale, haplotype-resolved genome assemblies generated by integrating PacBio HiFi long reads, Hi-C chromatin conformation data, and RNA-seq evidence. The selected reference haplotypes were resolved into 25 chromosome-scale pseudomolecules, representing 90.04% of the Vriesea longistaminea haplotype 2 assembly and 92.82% of the Vriesea minarum haplotype 1 assembly. The assemblies showed high contiguity, with scaffold N50 values exceeding 22 Mb. Assembly BUSCO completeness reached 98.6% in V. longistaminea and 96.7% in V. minarum . Repetitive elements accounted for a substantial fraction of the genomes, comprising 68.5% in V. longistaminea and 64.4% in V. minarum. Structural annotations predicted 19,297 and 21,489 protein-coding genes, with over 97% of them associated with functional annotations. These datasets provide high-quality genomic resources for bromeliads adapted to rocky environments and establish a foundation for studies of genome evolution, ecological adaptation, and conservation genomics.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s11676-026-02117-9",
+          "title": "Genetic and genomic improvement of Quercus alba productivity and resilience: a synthesis of breeding systems in white oaks (Quercus sect. Quercus)",
+          "authors": [
+            "Rajesh P. Dahal",
+            "Chen Ding",
+            "Sandeep Kumar C",
+            "Hammad U. Din",
+            "Laura E. DeWald",
+            "Austin M. Thomas",
+            "Yuhui Weng",
+            "C. Dana Nelson",
+            "Hao Chen"
+          ],
+          "journal": "Journal of Forestry Research",
+          "date": "2026-08-24",
+          "doi": "10.1007/s11676-026-02117-9",
+          "url": "https://openalex.org/W7204100853",
+          "abstract": "American white oak ( Quercus alba L.) is a keystone hardwood species with substantial ecological, economic, and cultural value across eastern North American forests. However, its long generation time, delayed reproductive maturity, recalcitrant acorns, regeneration limitations, and complex genotype-by-environment interactions have slowed genetic improvement and climate-resilient deployment. This review synthesizes current knowledge on Q. alba genetics, genomics, quantitative breeding, and conservation, integrating direct evidence from Q. alba with comparative insights from other white oaks ( Quercus sect. Quercus ) and broader tree improvement systems. Available evidence indicates that white oaks maintain substantial standing genetic variation and geographically structured adaptive diversity, while growth, phenology, and related traits often show moderate genetic control. Nevertheless, polygenic trait architectures, environmental heterogeneity, rapid linkage disequilibrium decay, and limited species-specific validation constrain the direct operational use of genomic signals for selection and seed deployment. We propose an implementation-focused framework that combines range-wide germplasm sampling, multi-environment provenance and progeny trials, spatially adjusted mixed models, genomic prediction, genotype-environment association analyses, and climate-informed seed transfer strategies. Emerging resources, including haplotype-resolved genomes, structural-variant analysis, pangenomics, metabolomics, microbiome-informed phenotyping, and genome editing, may further support white oak improvement but require rigorous validation in Q. alba populations and field trials. We argue that genomic and biotechnological tools should complement, rather than replace, conventional quantitative breeding and long-term field evaluation. A coordinated breeding and restoration strategy that balances genetic gain, adaptive diversity, and climate resilience will be essential for sustaining the productivity, ecological function, and long-term persistence of Q. alba forests under future environmental change.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1371/journal.pbio.3003964",
+          "title": "Metabolic and developmental rate divergence between serially homologous cells underlies an evolutionary innovation in Drosophila",
+          "authors": [
+            "Ben R. Hopkins",
+            "Olga Barmina",
+            "Xinying Wang",
+            "Mandy Situ",
+            "Haley A. Bolanos",
+            "Shizhan Nie",
+            "Artyom Kopp"
+          ],
+          "journal": "PLoS Biology",
+          "date": "2026-08-24",
+          "doi": "10.1371/journal.pbio.3003964",
+          "url": "https://openalex.org/W7204100932",
+          "abstract": "The individualization of serially repeated homologs is one route through which novel traits are thought to evolve. Under this model, a repeated character-like a limb, digit, or sensory bristle-is individualized from its homologs by changes in the regulatory apparatus ('character identity network', ChIN) that specifies its development. Individualization then enables downstream gene networks that build the repeated character to diverge from one another in different parts of the body, ultimately allowing new phenotypic endpoints to be reached. Despite this model's intuitive appeal, the genetic mechanisms through which new ChINs rewire trait-building gene networks remain largely uncharacterized. A promising system in which to study this process is the Drosophila sex comb. Found in a sublineage of Drosophila species, the sex comb is a recently evolved, male-specific innovation that evolved from a more evolutionarily ancient precursor-the mechanosensory (MS) bristle-following the gain of a novel ChIN centered on the sex determination gene dsx and HOX gene Scr. Here, we use time-series single-cell RNA-seq to show that rather than co-opting new genes, this new ChIN orchestrates quantitative and heterochronic changes in the ancestral MS bristle transcriptome. These changes affect gene modules that control energy metabolism, endoreplication, and actin dynamics. The net effect of these changes is an organ-specific shift in developmental rate, leading to accelerated growth in sex comb teeth. Collectively, our work suggests that morphological innovation can proceed without the co-option of new genes into downstream trait-building networks and instead through metabolically driven differences in developmental rate between serial homologs.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.21.746290",
+          "title": "Genomics and adaptive divergence of the allopolyploid grass Brachypodium hybridum in a pangenotypic framework",
+          "authors": [
+            "Miguel Rufo Campos",
+            "Guohong Wu",
+            "Lei Li",
+            "Rubén Sancho",
+            "Bruno Contreras‐Moreira",
+            "Ernesto Pérez‐Collazos",
+            "John P. Vogel",
+            "Pilar Catalán"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-24",
+          "doi": "10.64898/2026.08.21.746290",
+          "url": "https://openalex.org/W7204119233",
+          "abstract": "Natural allopolyploids with multiple origins are powerful systems for analyzing genome evolution; however, population-level whole-genome studies of wild-type recurrent polyploids remain scarce. We investigated the origins and evolutionary dynamics of the allotetraploid grass Brachypodium hybridum and its diploid progenitors (B. distachyon, B. stacei) by combining whole-genome sequencing of 307 accessions from across the circum-Mediterranean region with phylogenomics, population genomics, and comparative subgenomic analyses. Nuclear and plastome phylogenies reveal three independent allopolyploidization events: an ancient Iberian origin (~1.78 Ma) and two more recent origins in the western (~0.56 Ma) and eastern (~0.24 Ma) Mediterranean. Each subgenome (D and S) evolved independently with minimal recombination. All B. hybridum lineages carry higher deleterious loads than their diploid progenitors, and the Ancient lineage carries a disproportionately heavy burden, particularly in the S subgenome. Population structure identifies three genetic groups; while the Ancient lineage remained isolated, recent western and eastern lineages exchanged migrants in the eastern Mediterranean contact zone. Brachypodium hybridum exemplifies how recurrent allopolyploidization, minimal subgenomic recombination, and environmental filtering generate and maintain genetic diversity, establishing it as a model for polyploid evolution and ecological adaptation in grasses worldwide.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1038/s41467-026-76091-5",
+          "title": "A transmembrane protein confers the Yr26/Yr24/YrCH42/YrG22-mediated stripe rust resistance in wheat",
+          "authors": [
+            "Shengjie Liu",
+            "Keqing Mu",
+            "Shuqing Yang",
+            "Jianhui Wu",
+            "Mingjie Xiang",
+            "Xiangrui Cheng",
+            "Xiaoting Wang",
+            "Yibo Zhang",
+            "Ying Zhao",
+            "Jiangna Han",
+            "Shuo Huang",
+            "Haitao Dong",
+            "Jiwen Zhao",
+            "Fengping Yuan",
+            "R. K. Sharma",
+            "Michael Norman",
+            "Peidu Chen",
+            "Aizhong Cao",
+            "Weijun Zheng",
+            "Chunlian Li",
+            "Jaroslav Doležel",
+            "Kateřina HolušováJ",
+            "John P. Rathjen",
+            "Evans Lagudah",
+            "Xiaojie Wang",
+            "Zhensheng Kang",
+            "Sambasivam Periyannan",
+            "Dejun Han",
+            "Qingdong Zeng"
+          ],
+          "journal": "Nature Communications",
+          "date": "2026-08-24",
+          "doi": "10.1038/s41467-026-76091-5",
+          "url": "https://openalex.org/W7204149165",
+          "abstract": "Abstract Stripe or yellow rust (YR), caused by Puccinia striiformis Westend. f. sp. tritici ( Pst ), is a devastating fungal disease of wheat. Here, we report the map-based cloning of Yr26 (synonyms: Yr24 , YrCH42 , and YrG22 ), a major stripe rust resistance gene, and its validation by gene silencing, mutation analysis and transgenic complementation. Yr26 , which firstly arises in emmer wheat and recently has introgressed into bread wheat, is a newly evolved gene encoding a transmembrane protein. AlphaFold v3.0 predictes a C-terminal four-helical bundle domain that is critical for triggering Ca 2+ -dependent cell death, a hallmark of the hypersensitive response. The cloning of Yr26 offers not only a genetic resource for pyramiding stripe rust resistance genes in wheat breeding but also an opportunity to study host–pathogen co-evolution.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.20.746034",
+          "title": "A chromosome-level assembly of an aquatic passerine bird, the northern white-throated dipper, Cinclus cinclus cinclus (Linnaeus, 1758)",
+          "authors": [
+            "Marius A. Strand",
+            "Ole K. Tørresen",
+            "Morten Skage",
+            "Giada Ferrari",
+            "Ave Tooming‐Klunderud",
+            "Arild Johnsen",
+            "Kjetill S. Jakobsen"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-24",
+          "doi": "10.64898/2026.08.20.746034",
+          "url": "https://openalex.org/W7204169415",
+          "abstract": "We present a chromosome-level genome assembly of a female Norwegian white-throated dipper ( Cinclus cinclus cinclus ) generated using Oxford Nanopore Technologies (ONT) long reads and Hi-C scaffolding. The assembly comprises two pseudo-haplotypes, hap1 (1186 Mb) and hap2 (1115 Mb), with 96.7% and 94.4% of sequences assigned to chromosome-scale scaffolds, respectively. Both pseudo-haplotypes contain 40 autosomes, with the Z and W sex chromosomes assigned to hap1. Compared with the PacBio HiFi-based C. c. gularis reference assembly bCinCin1.1.pri, which contains 38 autosomes, sequence represented as a single dot-chromosome (chr 36) is resolved into three distinct dot-chromosomes (chr 36, 39, and 40), a configuration supported by Hi-C contact patterns. BUSCO completeness was high for hap1 (99.2%) and hap2 (95.0%), with 19,003 and 17,746 predicted protein-coding genes, respectively. Compared with the HiFi-based C. c. gularis reference and HiFi-based assemblies generated from the same individual, the ONT-derived assemblies were substantially less fragmented and recovered more sequence from the smallest chromosomes. Synteny was otherwise largely conserved between subspecies. HiFi depletion increased strongly from macrochromosomes to micro- and dot-chromosomes, and HiFi-depleted regions were enriched for repeats and predicted non-B-DNA-associated features, particularly G-quadruplexes and direct repeats, whereas ONT coverage remained comparatively stable. These results show that conventional genome-wide assembly metrics can obscure substantial differences in the recovery of repeat-rich avian dot-chromosomes and highlight the value of chromosome-aware evaluation and ONT sequencing for recovering these regions.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/hr/uhag363",
+          "title": "Dissecting seed oil content QTL and integrating their genetic effects for genomic prediction in Brassica napus",
+          "authors": [
+            "Hao Wang",
+            "Zhang Zunxu",
+            "Meng Wang",
+            "Yi Zhang",
+            "Tingting Jin",
+            "Zijian Liu",
+            "Yan Niu",
+            "Yong Jiang",
+            "Jochen C Reif",
+            "Jing Wang",
+            "Jun Zou"
+          ],
+          "journal": "Horticulture Research",
+          "date": "2026-08-24",
+          "doi": "10.1093/hr/uhag363",
+          "url": "https://openalex.org/W7204229912",
+          "abstract": "Abstract Seed oil content (SOC) is a key determinant of oil yield in rapeseed, but translating high-resolution QTL and functional gene information into effective breeding selection remains challenging. Here, we integrated high-quality genome assembly, QTL fine mapping, gene function validation, and QTL-informed genomic prediction to improve the SOC in rapeseed. The improved, chromosome-scale genome of the semi-winter cultivar NY7 served as a reliable reference for fine mapping via its bidirectional introgression populations. Seven major QTLs were rapidly fine-mapped into 117 kb ~ 358 kb intervals; each increased the SOC by 2% ~ 6%. Integrated transcriptomic and haplotype analyses revealed eight candidate genes, highlighting BnaDIR1.C2 as the hub gene underlying qOC.C2–1. Functional validation confirmed the positive regulation of BnaDIR1.C2 in SOC. Moreover, genomic prediction models incorporating QTL-weighted markers substantially improved the prediction performance by an average of 20.34% across different populations. This study bridges the gap between high-resolution genetic dissection and predictive breeding, providing a practical framework to accelerate oil yield improvement in rapeseed.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1007/s44372-026-00825-4",
+          "title": "Molecular physiology of aluminum toxicity and tolerance in rice",
+          "authors": [
+            "Amita Saini",
+            "Divya Gupta",
+            "Hiroyuki Koyama",
+            "Yuriko Kobayashi",
+            "Sanjib Kumar Panda"
+          ],
+          "journal": "Discover Plants.",
+          "date": "2026-08-24",
+          "doi": "10.1007/s44372-026-00825-4",
+          "url": "https://openalex.org/W7204074829",
+          "abstract": "Aluminum (Al 3+ ) toxicity in rice plants is a significant concern in acidic soils, particularly in Southeast Asia, where large areas of arable land are affected. This is an environmental and agricultural hazard that severely reduces rice yields, leading to food scarcity, as rice is the dietary food of half of the world’s population. The study highlights current knowledge of Al 3+ interactions with growth-restricting factors, adaptive mechanisms in rice, and progress in identifying Al 3+ tolerance genes. Al 3+ -induced organic acid exudation, such as citrate and malate mediated by OsFRDL4 , involves complex signaling cascade with phytohormones, yet transmembrane signaling remains poorly understood. We describe the regulation of novel genes such as ART1, Nrat1, STAR1 and STAR2 at transcriptional level to reveal their role in Al 3+ tolerance. Additionally, microbial interactions in acidic soils and the contribution of root border cells to Al 3+ tolerance are discussed. While many QTLs associated with Al 3+ tolerance have been mapped across rice populations, candidate gene identification and functional validation are still lacking. Integrating genomic, physiological, and microbial insights will be critical for advancing rice breeding programs aimed at enhancing Al 3+ tolerance and ensuring sustainable production in acidic soils.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.21.746245",
+          "title": "Genetically informed distribution models refine predictions for the overwintering range of Helicoverpa armigera in North America",
+          "authors": [
+            "Cian D. Williams",
+            "Chris D. Jiggins",
+            "Henry L. North"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-24",
+          "doi": "10.64898/2026.08.21.746245",
+          "url": "https://openalex.org/W7204128429",
+          "abstract": "The ecological and economic threat posed by invasive pests demands proactive mitigation. Species distribution models (SDMs) are widely used in efforts to predict where invasive species might spread after introduction, though such models face several limitations. Among these is the unrealistic assumption of niche uniformity throughout a species' range. This has led to interest in developing SDMs that explicitly account for local adaptation, though few methods have achieved this in a way that confidently separates local adaptation from population structure. Here we develop and implement a sequential SDM approach that incorporates experimentally verified associations between genotype, phenotype, and environment to forecast establishment risk in a major agricultural pest. We leverage genomic data from 738 individuals to characterize the geographic distribution of alleles at a major-effect locus for cold tolerance (tret1) in Helicoverpa armigera, an invasive crop pest of major economic concern in North America. We demonstrate that a recently detected North American population carries a cold-adapted tret1 allele, which has likely contributed to its persistence. We quantify the contribution of cold-adapted tret1 to the potential invasive range of H. armigera in North America under current and future climate scenarios. We find that cold-adapted tret1 may dramatically expand the potential range of H. armigera, and that potential future range expansion is likely to be driven primarily by cold-adapted individuals. Our results highlight the importance of accounting for intraspecific variation in invasive species risk assessments and management strategies.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.18.745563",
+          "title": "Genetic and Behavioral Variation Underlying an Integrated Temporal Phenotype in an Admixed South American Population",
+          "authors": [
+            "Mariana Marchesano",
+            "Lucía Spangenberg",
+            "Cecilia Casaravilla",
+            "Julieta Castillo",
+            "Ana Silva",
+            "Bettina Tassino"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-24",
+          "doi": "10.64898/2026.08.18.745563",
+          "url": "https://openalex.org/W7204161176",
+          "abstract": "Chronotype is a complex trait reflecting individual differences in the temporal organization of rest and activity, with important health implications. The Uruguayan population, characterized by a tri-hybrid origin (African, European, and Indigenous), exhibits a bias toward eveningness. The genetic variation in clock genes underlying chronotype in this population remains unexplored. To address this gap, we analyze healthy young adults from the extremes of the chronotype distribution (early, n = 37; late, n = 38; 63% female; 23.1 ± 3.4 years), integrating self-reported measures, actigraphy, and low-pass whole-genome sequencing. Global ancestry is predominantly European, with Indigenous and African components, and does not differ between chronotypes. Variant density is highest in PER2. T-allele carriers of a PER2 variant previously associated with late chronotypes (rs35333999) differ from non-carriers in activity acrophase. Multidimensional scaling of variants across 19 canonical clock genes reveal differential representation of early and late chronotypes across genetic clusters. When examined by functional groups, the signal is restricted to genes involved in degradation of the circadian clock's repressor arm, with BTRC, a mediator of PER2 degradation, showing the same pattern when assessed individually. We derive a joint behavioral component capturing the variation in food intake, moderate-to-vigorous physical activity, light exposure, and sleep timing, which correlates with dim-light melatonin onset (DLMO), the gold-standard marker of circadian phase, and show differences among genetic clusters. Our integrative multilevel approach suggests a complex interplay between behavioral and genetic factors shaping chronotype in this cohort, highlighting the PER2BTRC axis as a candidate mechanism for future investigations.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.32859/era.35.40.1-26",
+          "title": "Application of molecular markers in the study of genetic diversity of ethnomedicinal plants: A systematic mapping of genotype-to-culture intersections",
+          "authors": [
+            "Hongyu Che",
+            "Danning Pei",
+            "Yijin Liu",
+            "Lihao Guo",
+            "Yujie Liu",
+            "Shiying Chen",
+            "Haijun Li",
+            "Lin Guo",
+            "Yu Shi",
+            "Bo Liu"
+          ],
+          "journal": "Ethnobotany Research and Applications",
+          "date": "2026-08-24",
+          "doi": "10.32859/era.35.40.1-26",
+          "url": "https://openalex.org/W7204205577",
+          "abstract": "Background: Ethnomedicinal plants are biocultural resources whose identities, collection places, preparation practices, and therapeutic meanings are maintained within traditional knowledge systems. This review evaluates how molecular markers complement taxonomic, chemical, historical, and ethnographic evidence in authenticating materials, assessing genetic diversity, tracing place-based resources, and safeguarding medicinal knowledge. Methods: We conducted a systematic evidence-mapping review of literature published from January 1980 to May 2026. CNKI, Wanfang Data, and PubMed were used for reproducible quantitative retrieval; Web of Science Core Collection and Google Scholar supported citation tracing and cross-checking. The counted databases yielded 4527 records. After removing 718 duplicates, 3809 records were screened, 1892 were retained at title/abstract stage, 61 full texts were assessed, and 55 sources entered qualitative synthesis. Results: Molecular approaches progressed from fragment markers and standardized barcodes to genome-wide SNPs, organelle genomes, pangenomes, ancient DNA, and metabarcoding. Applications expanded from authentication to provenance, germplasm stewardship, functional variation, and market surveillance. Their ethnobotanical value was greatest when molecular data were linked to vouchers, vernacular names, preparation histories, chemical profiles, archaeological contexts, and knowledge holders. Conclusions: Molecular markers provide reproducible evidence for plant identity and diversity, but do not independently establish therapeutic efficacy, cultural meaning, or historical use. Culturally annotated reference libraries, community-engaged interpretation, functional markers, and integrated genomic-metabolomic frameworks are priorities for biocultural conservation and transparent herbal supply chains. Keywords: Molecular markers; Ethnomedicinal plants; Genetic diversity; DNA barcoding; DNA metabarcoding; Ancient DNA; Biocultural conservation",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1088/1748-3190/ae9dd0",
+          "title": "Stay grounded: hydrodynamic interactions between river stingrays and the ground",
+          "authors": [
+            "Scott G. Seamone",
+            "Omar Odeh",
+            "Joel H. Gayford",
+            "Douglas A. Syme",
+            "Marianne Porter",
+            "Oscar Curet"
+          ],
+          "journal": "Bioinspiration & Biomimetics",
+          "date": "2026-08-24",
+          "doi": "10.1088/1748-3190/ae9dd0",
+          "url": "https://openalex.org/W7204071936",
+          "abstract": "Potamotrygon motoro is a negatively buoyant and dorsoventrally flattened stingray that swims along the ground in South American river basins. Whether the form of this stingray generates lift to facilitate vertical equilibrium in swimming, and how anticipated lift and drag forces vary with height from the ground have not been explored. In this study, we measured lift and drag forces, and the posterior flow field using particle image velocimetry (PIV), to characterize the hydrodynamic performance of P. motoro as a function of flow speed and distance from the ground. The experiments were conducted in a recirculating flume where a deceased ray (14 cm disc width, DW, and 10.2 cm disc length, DL) was attached to load cell at an angle of attack of 0°, to measure forces and flow at different heights from the substrate (0.001-0.85DW) at a range of speeds (0-19 cm/s; 0-1.4 DL/s). The ray unexpectedly generated negative lift when positioned furthest away from the ground (≥ 9 cm). However, lift changed to positive and increased in value as the ray was positioned closer to the ground. Furthermore, as expected, drag decreased as the ray was positioned closer to the ground. From the lift-drag ratios (L/D) we observed three distinctive regions: weak ground interaction with negative L/D due to negative lift (> 0.5 DW), intermediate ground interaction with slightly positive and constant L/D (0.07-0.5 DW), and strong ground interaction with high L/D (< 0.07 DW). Hence, we hypothesize that P. motoro may benefit from hydrodynamic interactions with the substrate that provide inherent stability when swimming close to the ground, without the need to adjust the angle of attack of the body or fins. This vertical stabilization mechanism, if valid, has potential applications for benthic robotics by enabling robots to stay at a desired distance from the ground without increasing their weight or possessing a separate active control system.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.32859/era.35.36.1-28",
+          "title": "A comprehensive review of regional distribution and traditional uses of Rhododendron campanulatum in the Indian Himalayas: Implications for sustainable conservation",
+          "authors": [
+            "Jyotiraditya Das",
+            "Umesh Sharma",
+            "Shilpa Sharma",
+            "Rainer W Bussmann",
+            "Neeraj Sankhyan",
+            "N. Bhol",
+            "Subhasmita Parida",
+            "Prajnashree Mallick",
+            "Kriti Singh"
+          ],
+          "journal": "Ethnobotany Research and Applications",
+          "date": "2026-08-24",
+          "doi": "10.32859/era.35.36.1-28",
+          "url": "https://openalex.org/W7204187743",
+          "abstract": "Background: The Indian Himalayan Region (IHR), one of the world’s most prominent biodiversity hotspots, harbors rich alpine and sub-alpine flora that are vital for ecological stability and local livelihoods. Rhododendron campanulatum is a key species of significant ecological and cultural importance, widely distributed across temperate and sub-alpine zones at altitudes ranging from 2800 to 4800 m above sea level. Despite its critical role in slope stabilization, hydrological regulation, and habitat structuring, a comprehensive synthesis of its distribution, ecological functions, ethnobotanical relevance, and conservation challenges remains limited. Methods: A narrative review was performed with a thorough search of published literature on Rhododendron campanulatum. The peer-reviewed articles, review papers, book chapter, and reports were searched from main scientific databases such as Google Scholar, Scopus, Web of Science, ScienceDirect, SpringerLink, Wiley Online Library, and Taylor & Francis. The literature gathered was analyzed and synthesized in order to understand the distribution, ethnobotanical value, ecological roles, phytochemistry, conservation status and future research needs of the species. Results: R. campanulatum maintains high-altitude ecosystem integrity through slope stabilization, hydrological regulation, and biodiversity support. Ethnobotanical synthesis indicates differentiated use, with wood for fuel, flowers for food, medicinal, and ritual applications, and leaves for fumigation and related uses. The presence of diverse phenolic compounds like flavonoids and terpinoids in Rhododendron campanulatum suggests that the species possess significant antioxidant and stress protective mechanism, which may contribute to its adaptation to harsh high-altitude environments and support its traditional medicinal application. Concurrently, ecological studies demonstrating climate-sensitive growth, regeneration and population dynamics suggest that this species is highly responsive to changing temperature and moisture regimes, making it a useful indicator of climate-driven ecological change in Himalayan tree-line ecosystem. Despite its ecological importance, population assessment from the western Himalayan, revealed a substantial decline in adult density from 2845 stems/ha at 3100 m to 1210 stems/ha at 3550 m, representing a reduction of approximately 57.5%, highlighting the potential demographic shifts along elevational gradient. Conclusion: R. campanulatum represents a vital socio-ecological resource in the IHR. Climate change, overexploitation, grazing, and invasive species creating a major risk to it, notwithstanding its ecological and medicinal significance. Its natural regeneration and dispersal in the Himalayan region are being affected by these circumstances. Nevertheless, few research has thoroughly evaluated its long-term survival tactics, regeneration dynamics, and conservation status. So, the current study focuses on the Coordinated strategies involving in situ conservation, ex situ propagation, and community-based stewardship in the conservation and sustainable management of this species. Keywords: Climate change, Ethnobotany, Indian Himalayan region, Rhododendron campanulatum, Sustainable Conservation",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.64898/2026.08.21.746270",
+          "title": "Plant Bioengineering Atlas: A Knowledge Graph of Genes, DNA Constructs, and Plant Traits.",
+          "authors": [
+            "Khan Ali Yawar",
+            "Stanton Martin",
+            "David Weston",
+            "Lianhong Gu",
+            "Gerald A. Tuskan",
+            "Xiaohan Yang"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "date": "2026-08-24",
+          "doi": "10.64898/2026.08.21.746270",
+          "url": "https://openalex.org/W7204090658",
+          "abstract": "Plant bioengineering has generated tens of thousands of genotype-to-phenotype relationships, but this knowledge remains fragmented across narrative literature and difficult to use computationally. Inconsistent descriptions of DNA constructs, host species, and traits, including variable species names, omitted regulatory elements, and inconsistent gene symbols, impede data reuse, comparative analysis, and design-build-test-learn cycles. Here, we present the Plant Bioengineering Atlas, a literature-mined, ontology-grounded knowledge base assembled using an artificial intelligence (AI)-aided extraction pipeline. A large language model parsed open-access primary research articles to generate structured, provenance-anchored records of engineered genes, modification types, promoter-gene-terminator constructs, host species, target traits, and reported phenotypes, with every record traceable to its source. The current release contains 14,358 curated records encompassing 6,998 distinct genes across 436 plant species from 6,452 papers published between 2000 and 2026. Corpus analysis reveals that experiments are concentrated in a small group of model and crop species, disease and pathogen resistance is the most frequently engineered trait class, and constitutive regulatory parts (particularly the CaMV 35S promoter and NOS terminator) remain pervasive. Two in five records omit one or both flanking regulatory elements (i.e., promoter and terminator), while only 23.4% describe cassettes in which both elements resolve to named part classes, exposing a systematic reproducibility gap. We organize these data into a knowledge graph linking genes, constructs, species, and traits; provide access through an interactive web portal; and propose an AI-compatible documentation standard for AI-ready reporting. The Plant Bioengineering Atlas provides a foundation for data-driven hypothesis generation and AI-aided plant biodesign.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1101/gad.353754.126",
+          "title": "Maternal small RNAs as gatekeepers of hybrid compatibility in plants and animals",
+          "authors": [
+            "Katarzyna Dziasek",
+            "Claudia Köhler"
+          ],
+          "journal": "Genes & Development",
+          "date": "2026-08-24",
+          "doi": "10.1101/gad.353754.126",
+          "url": "https://openalex.org/W7204139981",
+          "abstract": "Hybridization between species can enable introgression of advantageous traits, yet hybrid offspring often show reduced fitness, sterility, or developmental arrest due to postzygotic hybrid incompatibility. Understanding the molecular bases of these barriers could help overcome reproductive limits and enable the creation of currently inaccessible hybrids. In this review, we compare two small RNA-associated routes through which parental genomes can become incompatible: maternally biased sirenRNAs in the endosperm of flowering plants and animal PIWI-interacting RNAs (piRNAs), with emphasis on Drosophila hybrid dysgenesis and mammalian pachytene piRNA biology. We highlight conceptual parallels, including sequence-specific recognition, dosage-sensitive regulation, transposon or repeat control, and parent-of-origin effects. We also emphasize important differences: sirenRNA-associated incompatibility in plants emerges postfertilization during endosperm development, whereas piRNA-mediated incompatibilities in animals primarily affect germline genome defense and reproductive fertility.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -1482,6 +2081,60 @@
           "doi": "10.1016/j.fsir.2026.100512",
           "url": "https://openalex.org/W7204003379",
           "abstract": "Wildlife and veterinary forensic investigations increasingly rely on molecular genetics to address three core legal questions: species identification, geographic or population origin, and individual attribution. This review evaluates traditional and contemporary molecular approaches used in wildlife forensics. Recent advances in rapid DNA extraction, portable sequencing, isothermal amplification, CRISPR-based diagnostics, and high-throughput sequencing are synthesized with emphasis on forensic readiness rather than technological innovation. In all methods, evidentiary strength depends on species-specific validation, known error rates, inter-laboratory reproducibility, representative reference databases, and compliance with accredited forensic practice. Comparative analysis highlights that no single technique is sufficient for all forensic questions. In contrast, defensible casework relies on sequential workflows in which rapid screening narrows the investigative scope, while validated genetic markers are reserved for court-admissible determinations. Unresolved limitations include insufficient reference database reporting, sensitivity to DNA degradation and inhibitors, contamination risk, and variability in standardization and legal admissibility across jurisdictions. Future progress in wildlife forensic genetics will depend on coordinated validation frameworks, expanded population reference resources, and integration of complementary molecular tools to support effective, reproducible, and legally defensible enforcement outcomes.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1093/gbe/evag213",
+          "title": "De novo assembly of the Trypanosoma congolense genome reveals an organisation influenced by antigenic variation but distinct from Trypanosoma brucei",
+          "authors": [
+            "Marija Krasiļņikova",
+            "Jane C. Munday",
+            "Dario Beraldi",
+            "Stephen D. Larcombe",
+            "Guy Ross Oldrieve",
+            "Craig Lapsley",
+            "Liam J Morrison",
+            "Keith R. Matthews",
+            "Richard McCulloch"
+          ],
+          "journal": "Genome Biology and Evolution",
+          "date": "2026-08-22",
+          "doi": "10.1093/gbe/evag213",
+          "url": "https://openalex.org/W7130562029",
+          "abstract": "Antigenic variation allows pathogens to evade mammalian adaptive immunity through the continuous change in exposed antigens. In African trypanosomes, antigenic variation involves changes in expressed Variant Surface Glycoproteins (VSGs). Understanding of VSG expression control and change amongst African trypanosomes is most advanced in Trypanosoma brucei. In the important animal trypanosome, Trypanosoma congolense, incomplete genome assembly has held back understanding of the mechanics of antigenic variation. Here, we have used long-read DNA sequencing and Hi-C DNA interaction analysis to provide a telomere-telomere assembly of the T. congolense genome. This assembly reveals a genome comprising 12 diploid chromosomes, one tetraploid chromosome, and more than 100 small chromosomes. With this assembly we reveal several features of VSG organisation and expression that differ from T. brucei. The majority of the T. congolense VSG archive, estimated at ∼1500 genes, localises to subtelomeres in 12 of the 13 large chromosomes, but these loci are notably smaller than are found in T. brucei. Furthermore, transcriptome analysis suggests expression of VSGs across the T. congolense subtelomeres, which are not separated within the nucleus from non-VSG chromosome regions, suggesting that there is no dedicated VSG expression site. Strikingly, one chromosome contains approximately 40% of the VSG archive and is largely transcriptionally silent, potentially acting as the major reservoir of new VSG variants. Finally, we show that VSG expression can be detected from multiple small chromosomes. In summary, the new genome assembly provides a platform for understanding a potentially unusual operation of VSG expression and switching in T. congolense.",
+          "track": "B",
+          "source": "OpenAlex"
+        },
+        {
+          "id": "10.1016/j.ympev.2026.108722",
+          "title": "Genome-wide SNP data support species boundaries in sympatric Polylepis Ruiz & Pav. (Rosaceae) species from Bolivia and Ecuador",
+          "authors": [
+            "Jay Edneil C. Olivar",
+            "Marcus Lehnert",
+            "Walter Durka",
+            "Stefan Michalski",
+            "Christian Ritz",
+            "Jana Ebersbach",
+            "Alexandra N. Muellner-Riehl",
+            "Claudia Segovia-Salcedo",
+            "Sofía Acosta-Villamarín",
+            "Katya Romoleroux",
+            "Erika Priscilla Muriel Mera",
+            "Emilio J. Trujillo",
+            "Edgar E. Gareca",
+            "Milton Fernández",
+            "Magaly Mercado",
+            "Adriana Rojas",
+            "Susana Arrazola",
+            "Isabell Hensen",
+            "Michael Kessler"
+          ],
+          "journal": "Molecular Phylogenetics and Evolution",
+          "date": "2026-08-22",
+          "doi": "10.1016/j.ympev.2026.108722",
+          "url": "https://openalex.org/W7203974713",
+          "abstract": "Species delimitation in the South American genus Polylepis is notoriously challenging due to high morphological similarity and phenotypic plasticity, likely driven by hybridization and gene flow. Previous phylogenetic studies suggested that genetic structure aligns more strongly with geography than with taxonomy, questioning existing species concepts and hampering conservation efforts. We used double-digest RAD sequencing (ddRADseq) to generate genome-wide SNP data for 11 Polylepis species sampled across multiple localities in Bolivia and Ecuador. Population genetic analyses, phylogenetic inference, and network approaches were combined to assess whether genetic structure aligns more closely with taxonomy or geography. Morphologically defined species formed largely cohesive genetic lineages across regions, with species identity explaining substantially more genetic variation than locality. While localized admixture and reticulation were detected among closely related taxa, widespread species showed strong genetic cohesion and clear separation from congeners. Our results indicate that the sampled Polylepis species from Bolivia and Ecuador maintain distinct genetic identities despite localized signals consistent with gene flow. This genome-wide support for current taxonomy highlights Polylepis as a valuable model for studying speciation under gene flow and indicates that multiple geographic sampling will be essential in reconstructing a robust phylogeny of the genus, with important implications for conservation planning in Andean montane forests.",
           "track": "B",
           "source": "OpenAlex"
         },
@@ -7276,8 +7929,8 @@
     }
   },
   "stats": {
-    "total_count": 350,
-    "new_this_week": 84,
+    "total_count": 380,
+    "new_this_week": 98,
     "weekly_trend": [
       {
         "week": "2026-W29",
@@ -7285,23 +7938,23 @@
       },
       {
         "week": "2026-W30",
-        "count": 11
+        "count": 28
       },
       {
         "week": "2026-W31",
-        "count": 107
+        "count": 100
       },
       {
         "week": "2026-W32",
-        "count": 86
+        "count": 88
       },
       {
         "week": "2026-W33",
-        "count": 61
+        "count": 65
       },
       {
         "week": "2026-W34",
-        "count": 71
+        "count": 85
       }
     ]
   }
