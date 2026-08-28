@@ -11,6 +11,8 @@ from scripts.fetch import (
     normalize_journal_name,
     assign_tier,
     enrich_source_metrics,
+    dedupe_papers,
+    tier_papers,
 )
 
 
@@ -234,3 +236,20 @@ def test_enrich_source_metrics_batches_by_50(mock_get):
     assert metrics["S59"]["h_index"] == 150
     # 60 unique ids => 2 batches => 2 http calls
     assert mock_get.call_count == 2
+
+
+def test_dedupe_papers_keeps_first_occurrence_per_id():
+    copy_a = {"id": "10.1/x", "title": "X", "track": "A"}
+    copy_b = {"id": "10.1/x", "title": "X", "track": "B"}
+    assert dedupe_papers([copy_a, copy_b]) == [copy_a]
+
+
+@patch("scripts.fetch.enrich_source_metrics", return_value={})
+def test_tier_papers_stamps_every_duplicate_copy(mock_enrich):
+    cfg = _tier_cfg()
+    copy_a = {"id": "10.1/y", "title": "Y", "journal": "Bioinformatics",
+              "source": "OpenAlex", "openalex_source_id": ""}
+    copy_b = dict(copy_a, track="B")
+    tier_papers([copy_a, copy_b], cfg)
+    assert copy_a["tier"] == 1
+    assert copy_b["tier"] == 1

@@ -301,6 +301,13 @@ def assign_tier(paper, metrics, cfg):
         paper["tier"] = 0
 
 
+def tier_papers(papers, cfg):
+    """Enrich journal metrics and stamp a tier on every paper object passed in."""
+    metrics = enrich_source_metrics(papers)
+    for p in papers:
+        assign_tier(p, metrics, cfg)
+
+
 def merge_papers(existing_papers, new_papers):
     by_id = {(p.get("id") or p.get("title", "").lower()): p for p in existing_papers}
     added = 0
@@ -311,6 +318,19 @@ def merge_papers(existing_papers, new_papers):
             added += 1
     merged = sorted(by_id.values(), key=lambda p: p.get("date", ""), reverse=True)
     return merged, added
+
+
+def dedupe_papers(papers):
+    """Unique by id/title, keeping first occurrence. Duplicates are distinct dict
+    objects when the same paper is collected into more than one track."""
+    seen_ids = set()
+    out = []
+    for p in papers:
+        key = p.get("id") or p.get("title", "").lower()
+        if key not in seen_ids:
+            seen_ids.add(key)
+            out.append(p)
+    return out
 
 
 def compute_stats(all_papers, now):
@@ -379,19 +399,13 @@ def main():
         track_state["papers"] = merged
         total_added += added
 
-    seen_ids = set()
-    all_papers = []
-    for p in existing["tracks"]["A"]["papers"] + existing["tracks"]["B"]["papers"]:
-        key = p.get("id") or p.get("title", "").lower()
-        if key not in seen_ids:
-            seen_ids.add(key)
-            all_papers.append(p)
+    tracked_papers = existing["tracks"]["A"]["papers"] + existing["tracks"]["B"]["papers"]
+    all_papers = dedupe_papers(tracked_papers)
 
     # Re-stamp tier for every paper each run so whitelist/threshold edits apply
-    # retroactively to already-collected papers.
-    metrics = enrich_source_metrics(all_papers)
-    for p in all_papers:
-        assign_tier(p, metrics, tiers_cfg)
+    # retroactively to already-collected papers. Runs over tracked_papers, not the
+    # deduped subset: a paper collected into two tracks is two separate dicts.
+    tier_papers(tracked_papers, tiers_cfg)
 
     existing["stats"] = compute_stats(all_papers, now)
     existing["generated_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
