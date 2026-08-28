@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 import sys
 import time
 import urllib.request
@@ -12,9 +13,22 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "data.json"
 KEYWORDS_PATH = ROOT / "config" / "keywords.yaml"
+TIERS_PATH = ROOT / "config" / "journal_tiers.yaml"
 
 LOOKBACK_DAYS = 7
 CONTACT_EMAIL = "ccj13169@gmail.com"
+SOURCES_BATCH = 50
+
+# The local dev proxy (HTTPS_PROXY=127.0.0.1:10808) fails the TLS handshake
+# for *.ncbi.nlm.nih.gov (PubMed/esearch returns "SSL UNEXPECTED_EOF"), while
+# NCBI is reachable directly. Force direct connections for NCBI hosts; other
+# sources (OpenAlex/Elsevier/bioRxiv) still go through the proxy. GitHub
+# Actions runners have no such proxy, so this is a no-op there.
+_NCBI_NO_PROXY = "ncbi.nlm.nih.gov"
+for _var in ("no_proxy", "NO_PROXY"):
+    _cur = os.environ.get(_var, "")
+    if _NCBI_NO_PROXY not in _cur:
+        os.environ[_var] = (_cur + "," + _NCBI_NO_PROXY).strip(",")
 
 
 def http_get_json(url, retries=3, backoff=2.0):
@@ -46,8 +60,9 @@ def fetch_openalex(keyword, since_date, track):
     query = urllib.parse.quote(keyword)
     url = (
         "https://api.openalex.org/works"
-        f"?search={query}"
-        f"&filter=from_publication_date:{since_date}"
+        f"?filter=from_publication_date:{since_date},"
+        f"type:article,"
+        f"title_and_abstract.search:{query}"
         f"&sort=publication_date:desc&per_page=50&mailto={CONTACT_EMAIL}"
     )
     data = http_get_json(url)
@@ -59,25 +74,30 @@ def fetch_openalex(keyword, since_date, track):
         if not title:
             continue
         doi = (work.get("doi") or "").replace("https://doi.org/", "").strip().lower()
+        # FORMAT_SOURCE: OpenAlex /works response can have
+        # primary_location present but primary_location.source == null
+        # (e.g. records without an indexed host venue). Verified live via
+        # https://api.openalex.org/works?search=Schizothorax&per_page=5&mailto=...
+        # on 2026-08-04: several real results returned primary_location
+        # as a dict but with source explicitly null in some cases, so
+        # `.get("source", {})` is not enough — "source" key can exist
+        # with value None, which .get()'s default never catches.
+        source = ((work.get("primary_location") or {}).get("source")) or {}
+        source_id = (source.get("id") or "").replace("https://openalex.org/", "").strip()
         papers.append({
             "id": doi or work.get("id", ""),
             "title": title,
             "authors": [a["author"]["display_name"] for a in work.get("authorships", [])],
-            # FORMAT_SOURCE: OpenAlex /works response can have
-            # primary_location present but primary_location.source == null
-            # (e.g. records without an indexed host venue). Verified live via
-            # https://api.openalex.org/works?search=Schizothorax&per_page=5&mailto=...
-            # on 2026-08-04: several real results returned primary_location
-            # as a dict but with source explicitly null in some cases, so
-            # `.get("source", {})` is not enough — "source" key can exist
-            # with value None, which .get()'s default never catches.
-            "journal": (((work.get("primary_location") or {}).get("source")) or {}).get("display_name", "") or "",
+            "journal": source.get("display_name", "") or "",
             "date": work.get("publication_date", ""),
             "doi": doi,
             "url": work.get("id", ""),
             "abstract": reconstruct_openalex_abstract(work.get("abstract_inverted_index")),
             "track": track,
             "source": "OpenAlex",
+            "openalex_source_id": source_id,
+            "source_type": source.get("type", "") or "",
+            "source_is_core": bool(source.get("is_core", False)),
         })
     return papers
 
@@ -184,6 +204,103 @@ def fetch_biorxiv_recent(keywords, track):
     return papers
 
 
+def load_tiers_config(path=TIERS_PATH):
+    cfg = yaml.safe_load(path.read_text(encoding="utf-8"))
+    whitelist = set()
+    for names in (cfg.get("whitelist") or {}).values():
+        for n in names or []:
+            whitelist.add(normalize_journal_name(n))
+    thresholds = cfg.get("thresholds") or {}
+    noise = [p.lower() for p in (cfg.get("noise_title_patterns") or [])]
+    return {
+        "whitelist": whitelist,
+        "min_h_index": thresholds.get("min_h_index", 0),
+        "min_2yr_mean_citedness": thresholds.get("min_2yr_mean_citedness", 0),
+        "noise_title_patterns": noise,
+    }
+
+
+def normalize_journal_name(name):
+    if not name:
+        return ""
+    out = []
+    for ch in name.lower():
+        out.append(ch if ch.isalnum() or ch in " &" else " ")
+    return " ".join("".join(out).split())
+
+
+def fetch_source_metrics_batch(source_ids):
+    """Query OpenAlex Sources API for a batch of S-ids (max 50). Returns {sid: metrics}."""
+    if not source_ids:
+        return {}
+    id_filter = "|".join(source_ids)
+    url = (
+        "https://api.openalex.org/sources"
+        f"?filter=ids.openalex:{urllib.parse.quote(id_filter, safe='|')}"
+        f"&select=id,summary_stats,is_core,type&per_page=50&mailto={CONTACT_EMAIL}"
+    )
+    data = http_get_json(url)
+    out = {}
+    if not data:
+        return out
+    for src in data.get("results", []):
+        sid = (src.get("id") or "").replace("https://openalex.org/", "").strip()
+        if not sid:
+            continue
+        stats = src.get("summary_stats") or {}
+        out[sid] = {
+            "h_index": stats.get("h_index"),
+            "citedness": stats.get("2yr_mean_citedness"),
+            "is_core": bool(src.get("is_core", False)),
+            "type": src.get("type", "") or "",
+        }
+    return out
+
+
+def enrich_source_metrics(papers):
+    """Collect unique OpenAlex source ids across papers and batch-resolve their metrics."""
+    sids = sorted({p.get("openalex_source_id") for p in papers if p.get("openalex_source_id")})
+    metrics = {}
+    for i in range(0, len(sids), SOURCES_BATCH):
+        metrics.update(fetch_source_metrics_batch(sids[i:i + SOURCES_BATCH]))
+        time.sleep(0.3)
+    return metrics
+
+
+def assign_tier(paper, metrics, cfg):
+    title_l = (paper.get("title") or "").lower()
+    jname = normalize_journal_name(paper.get("journal") or "")
+
+    sid = paper.get("openalex_source_id")
+    m = metrics.get(sid) if sid else None
+    h_index = (m or {}).get("h_index")
+    citedness = (m or {}).get("citedness")
+    paper["journal_h_index"] = h_index
+    paper["journal_citedness"] = citedness
+
+    # bioRxiv preprints: valuable for methodology frontier (Track B), else general.
+    if paper.get("source") == "bioRxiv":
+        paper["tier"] = 2 if paper.get("track") == "B" else 3
+        return
+
+    if jname in cfg["whitelist"]:
+        paper["tier"] = 1
+    elif any(pat in title_l for pat in cfg["noise_title_patterns"]):
+        paper["tier"] = 0
+    elif (
+        m
+        and m.get("type") == "journal"
+        and m.get("is_core")
+        and ((h_index is not None and h_index >= cfg["min_h_index"])
+             or (citedness is not None and citedness >= cfg["min_2yr_mean_citedness"]))
+    ):
+        paper["tier"] = 2
+    elif jname:
+        paper["tier"] = 3
+    else:
+        paper["tier"] = 0
+
+
 def merge_papers(existing_papers, new_papers):
     by_id = {(p.get("id") or p.get("title", "").lower()): p for p in existing_papers}
     added = 0
@@ -209,7 +326,16 @@ def compute_stats(all_papers, now):
             if week_start.isoformat() <= p.get("date", "") < week_end.isoformat()
         )
         trend.append({"week": week_start.strftime("%G-W%V"), "count": count})
-    return {"total_count": total, "new_this_week": new_this_week, "weekly_trend": trend}
+    tier_counts = {"1": 0, "2": 0, "3": 0, "0": 0}
+    for p in all_papers:
+        t = str(p.get("tier", 3))
+        tier_counts[t] = tier_counts.get(t, 0) + 1
+    return {
+        "total_count": total,
+        "new_this_week": new_this_week,
+        "weekly_trend": trend,
+        "tier_counts": tier_counts,
+    }
 
 
 def load_existing():
@@ -221,7 +347,7 @@ def load_existing():
             "A": {"label": "", "keywords": [], "papers": []},
             "B": {"label": "", "keywords": [], "papers": []},
         },
-        "stats": {"total_count": 0, "new_this_week": 0, "weekly_trend": []},
+        "stats": {"total_count": 0, "new_this_week": 0, "weekly_trend": [], "tier_counts": {}},
     }
 
 
@@ -229,6 +355,7 @@ def main():
     now = datetime.now(timezone.utc)
     since_date = (now - timedelta(days=LOOKBACK_DAYS)).date().isoformat()
     config = yaml.safe_load(KEYWORDS_PATH.read_text(encoding="utf-8"))
+    tiers_cfg = load_tiers_config()
     existing = load_existing()
     total_added = 0
 
@@ -259,12 +386,23 @@ def main():
         if key not in seen_ids:
             seen_ids.add(key)
             all_papers.append(p)
+
+    # Re-stamp tier for every paper each run so whitelist/threshold edits apply
+    # retroactively to already-collected papers.
+    metrics = enrich_source_metrics(all_papers)
+    for p in all_papers:
+        assign_tier(p, metrics, tiers_cfg)
+
     existing["stats"] = compute_stats(all_papers, now)
     existing["generated_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"fetch.py done: +{total_added} new papers, total={len(all_papers)}")
+    tc = existing["stats"]["tier_counts"]
+    print(
+        f"fetch.py done: +{total_added} new papers, total={len(all_papers)}, "
+        f"tiers(1/2/3/noise)={tc.get('1')}/{tc.get('2')}/{tc.get('3')}/{tc.get('0')}"
+    )
 
 
 if __name__ == "__main__":

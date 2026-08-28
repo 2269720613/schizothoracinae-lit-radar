@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Schizothoracinae Lit Radar - 科研文献看板</title>
 <style>
   :root {
@@ -28,6 +33,15 @@
     --source-cnki-text: #6b21a8;
     --source-default-bg: #e2e8f0;
     --source-default-text: #334155;
+
+    --tier1-bg: #fef3c7;
+    --tier1-text: #92400e;
+    --tier2-bg: #dcfce7;
+    --tier2-text: #166534;
+    --tier3-bg: #e2e8f0;
+    --tier3-text: #475569;
+    --tier0-bg: #fee2e2;
+    --tier0-text: #991b1b;
 
     --chart-bar-bg: #3b82f6;
     --chart-bar-hover: #2563eb;
@@ -64,6 +78,15 @@
       --source-default-bg: rgba(51, 65, 85, 0.5);
       --source-default-text: #cbd5e1;
 
+      --tier1-bg: rgba(146, 64, 14, 0.35);
+      --tier1-text: #fcd34d;
+      --tier2-bg: rgba(22, 101, 52, 0.35);
+      --tier2-text: #86efac;
+      --tier3-bg: rgba(51, 65, 85, 0.5);
+      --tier3-text: #cbd5e1;
+      --tier0-bg: rgba(153, 27, 27, 0.3);
+      --tier0-text: #fca5a5;
+
       --chart-bar-bg: #60a5fa;
       --chart-bar-hover: #93c5fd;
       --chart-text: #94a3b8;
@@ -98,6 +121,15 @@
     --source-cnki-text: #d8b4fe;
     --source-default-bg: rgba(51, 65, 85, 0.5);
     --source-default-text: #cbd5e1;
+
+    --tier1-bg: rgba(146, 64, 14, 0.35);
+    --tier1-text: #fcd34d;
+    --tier2-bg: rgba(22, 101, 52, 0.35);
+    --tier2-text: #86efac;
+    --tier3-bg: rgba(51, 65, 85, 0.5);
+    --tier3-text: #cbd5e1;
+    --tier0-bg: rgba(153, 27, 27, 0.3);
+    --tier0-text: #fca5a5;
 
     --chart-bar-bg: #60a5fa;
     --chart-bar-hover: #93c5fd;
@@ -575,6 +607,53 @@
     color: var(--source-cnki-text);
   }
 
+  .badge-tier {
+    background: var(--tier3-bg);
+    color: var(--tier3-text);
+  }
+
+  .badge-tier-1 { background: var(--tier1-bg); color: var(--tier1-text); }
+  .badge-tier-2 { background: var(--tier2-bg); color: var(--tier2-text); }
+  .badge-tier-3 { background: var(--tier3-bg); color: var(--tier3-text); }
+  .badge-tier-0 { background: var(--tier0-bg); color: var(--tier0-text); }
+
+  .tier-pill.tier-pill-1.active { background: var(--tier1-bg); border-color: var(--tier1-text); color: var(--tier1-text); }
+  .tier-pill.tier-pill-2.active { background: var(--tier2-bg); border-color: var(--tier2-text); color: var(--tier2-text); }
+  .tier-pill.tier-pill-3.active { background: var(--tier3-bg); border-color: var(--tier3-text); color: var(--tier3-text); }
+  .tier-pill.tier-pill-0.active { background: var(--tier0-bg); border-color: var(--tier0-text); color: var(--tier0-text); }
+
+  .paper-hindex { color: var(--text-muted); font-style: normal; }
+
+  .filter-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .sort-toggle {
+    display: inline-flex;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .sort-btn {
+    background: var(--bg-tertiary);
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .sort-btn.active {
+    background: var(--primary);
+    color: #ffffff;
+    font-weight: 600;
+  }
+
   .badge-track {
     background: var(--bg-tertiary);
     color: var(--text-secondary);
@@ -641,6 +720,7 @@
     display: block;
   }
 
+
   .empty-state {
     text-align: center;
     padding: 40px 20px;
@@ -701,6 +781,13 @@
         </div>
         <button type="button" class="btn-toggle-all" id="toggle-sources-btn">全选/清空</button>
       </div>
+
+      <div class="source-filter-wrapper">
+        <span class="filter-label">质量分层：</span>
+        <div class="source-pills" id="tier-pills-container">
+          <!-- Tier pills rendered here -->
+        </div>
+      </div>
     </div>
 
     <div class="tabs-container" id="track-tabs-container">
@@ -709,6 +796,10 @@
 
     <div class="filtered-meta-row">
       <span id="filtered-count">显示 0 篇文献</span>
+      <div class="sort-toggle" id="sort-toggle">
+        <button type="button" class="sort-btn active" data-sort="quality">按质量</button>
+        <button type="button" class="sort-btn" data-sort="date">按时间</button>
+      </div>
     </div>
 
     <div class="paper-list" id="paper-list">
@@ -788,7 +879,8 @@
               "url": "https://doi.org/10.1111/mec.17890",
               "abstract": "We present a chromosome-level genome assembly of Schizothorax prenanti and identify expanded gene families involved in hypoxia tolerance and low temperature adaptation in Qinghai-Tibet Plateau aquatic environments.",
               "track": "A",
-              "source": "OpenAlex"
+              "source": "OpenAlex",
+              "tier": 1
             },
             {
               "id": "demo-2",
@@ -800,7 +892,8 @@
               "url": "https://doi.org/10.1093/sysbio/syz045",
               "abstract": "Analysis of 12 complete mitochondrial genomes demonstrates complex reticulate evolution and historical gene flow between Gymnocypris przewalskii and neighboring schizothoracine fishes.",
               "track": "A",
-              "source": "PubMed"
+              "source": "PubMed",
+              "tier": 1
             }
           ]
         },
@@ -818,7 +911,8 @@
               "url": "https://biorxiv.org/content/10.1101/2026.08.01.605432",
               "abstract": "We introduce a novel allele dosage-aware D-statistic framework for polyploid populations that avoids pseudo-diploidization artifacts and increases power for detecting locus-specific introgression.",
               "track": "B",
-              "source": "bioRxiv"
+              "source": "bioRxiv",
+              "tier": 2
             }
           ]
         }
@@ -881,6 +975,10 @@
   let availableSources = new Set();
   let searchQuery = '';
   let expandedPaperIndexes = new Set();
+
+  let selectedTiers = new Set([1, 2, 3]);
+  let availableTiers = new Set([1, 2, 3, 0]);
+  let sortMode = 'quality';
 
   allPapers.forEach(p => {
     if (p.source && typeof p.source === 'string') {
@@ -1034,6 +1132,59 @@
     }
   }
 
+  function initTierFilters() {
+    const container = document.getElementById('tier-pills-container');
+    if (!container) return;
+
+    const meta = [
+      { tier: 1, label: 'T1 经典' },
+      { tier: 2, label: 'T2 优质' },
+      { tier: 3, label: 'T3 一般' },
+      { tier: 0, label: '噪声（默认隐藏）' },
+    ];
+    availableTiers = new Set(allPapers.map(p => Number.isFinite(p.tier) ? p.tier : 3));
+
+    let html = '';
+    meta.forEach(m => {
+      if (!availableTiers.has(m.tier)) return;
+      const active = selectedTiers.has(m.tier) ? 'active' : '';
+      html += `
+        <button type="button" class="source-pill tier-pill tier-pill-${m.tier} ${active}" data-tier="${m.tier}">
+          <span class="pill-checkbox"></span>
+          <span>${m.label}</span>
+        </button>
+      `;
+    });
+    container.innerHTML = html;
+
+    container.addEventListener('click', e => {
+      const pill = e.target.closest('.tier-pill');
+      if (!pill) return;
+      const tier = Number(pill.dataset.tier);
+      if (selectedTiers.has(tier)) {
+        selectedTiers.delete(tier);
+        pill.classList.remove('active');
+      } else {
+        selectedTiers.add(tier);
+        pill.classList.add('active');
+      }
+      renderPaperList();
+    });
+  }
+
+  function initSortToggle() {
+    const container = document.getElementById('sort-toggle');
+    if (!container) return;
+    container.addEventListener('click', e => {
+      const btn = e.target.closest('.sort-btn');
+      if (!btn) return;
+      sortMode = btn.dataset.sort;
+      container.querySelectorAll('.sort-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.sort === sortMode));
+      renderPaperList();
+    });
+  }
+
   function initSearch() {
     const input = document.getElementById('search-input');
     if (!input) return;
@@ -1090,6 +1241,10 @@
       if (paper.source && !selectedSources.has(paper.source)) {
         return false;
       }
+      const paperTier = Number.isFinite(paper.tier) ? paper.tier : 3;
+      if (!selectedTiers.has(paperTier)) {
+        return false;
+      }
       if (searchQuery) {
         const titleMatch = (paper.title || '').toLowerCase().includes(searchQuery);
         const abstractMatch = (paper.abstract || '').toLowerCase().includes(searchQuery);
@@ -1101,11 +1256,25 @@
       return true;
     });
 
-    filtered.sort((a, b) => {
+    const dateDesc = (a, b) => {
       const dA = a.date ? new Date(a.date).getTime() : 0;
       const dB = b.date ? new Date(b.date).getTime() : 0;
       return dB - dA;
-    });
+    };
+
+    if (sortMode === 'quality') {
+      filtered.sort((a, b) => {
+        const ta = Number.isFinite(a.tier) ? a.tier : 3;
+        const tb = Number.isFinite(b.tier) ? b.tier : 3;
+        if (ta !== tb) return ta - tb;
+        const ha = Number.isFinite(a.journal_h_index) ? a.journal_h_index : -1;
+        const hb = Number.isFinite(b.journal_h_index) ? b.journal_h_index : -1;
+        if (ha !== hb) return hb - ha;
+        return dateDesc(a, b);
+      });
+    } else {
+      filtered.sort(dateDesc);
+    }
 
     if (countElem) {
       countElem.textContent = `显示 ${filtered.length} / 共 ${allPapers.length} 篇文献`;
@@ -1139,6 +1308,12 @@
 
       const sourceClass = 'badge-source-' + safeSource.toLowerCase();
 
+      const paperTier = Number.isFinite(paper.tier) ? paper.tier : 3;
+      const tierLabels = { 1: 'T1 经典', 2: 'T2 优质', 3: 'T3 一般', 0: '噪声' };
+      const tierLabel = tierLabels[paperTier] || 'T3';
+      const hIdx = Number.isFinite(paper.journal_h_index) ? paper.journal_h_index : null;
+      const hIdxStr = hIdx !== null ? ` <span class="paper-hindex">(h-index ${hIdx})</span>` : '';
+
       html += `
         <div class="paper-card" data-index="${paper._index}">
           <div class="paper-header js-paper-header">
@@ -1152,6 +1327,7 @@
           </div>
 
           <div class="paper-badges">
+            <span class="badge badge-tier badge-tier-${paperTier}">${tierLabel}</span>
             ${isNew ? `<span class="badge badge-new">NEW</span>` : ''}
             <span class="badge badge-source ${sourceClass}">${safeSource}</span>
             ${safeTrackLabel ? `<span class="badge badge-track">${safeTrackLabel}</span>` : ''}
@@ -1159,7 +1335,7 @@
 
           <div class="paper-meta">
             ${authorsStr ? `<span class="paper-authors">作者：${authorsStr}</span>` : ''}
-            ${safeJournal ? `<span class="paper-journal">期刊：${safeJournal}</span>` : ''}
+            ${safeJournal ? `<span class="paper-journal">期刊：${safeJournal}${hIdxStr}</span>` : ''}
             <span class="paper-date">日期：${safeDate}</span>
           </div>
 
@@ -1206,6 +1382,8 @@
     renderHeaderAndStats();
     initTabs();
     initSourceFilters();
+    initTierFilters();
+    initSortToggle();
     initSearch();
     initThemeToggle();
     renderPaperList();

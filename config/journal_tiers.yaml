@@ -1,0 +1,101 @@
+# 期刊分级配置
+# Tier 1：命中下方白名单（display_name 小写归一化匹配，含常见变体）
+# Tier 2：未命中白名单，但 OpenAlex Sources 指标达标（type=journal + is_core + 阈值）
+# Tier 3：有正规期刊名但未达 Tier 2
+# Tier 0：命中噪声词 / 无期刊来源 / 非论文类型（看板默认隐藏）
+#
+# 想加经典期刊：直接往对应 track 列表追加一行小写刊名即可，无需改代码。
+
+whitelist:
+  track_a:
+    - "molecular ecology"
+    - "molecular ecology resources"
+    - "molecular phylogenetics and evolution"
+    - "systematic biology"
+    - "systematic biology and biodiversity"
+    - "evolution"
+    - "evolution letters"
+    - "journal of evolutionary biology"
+    - "molecular biology and evolution"
+    - "genome biology and evolution"
+    - "journal of biogeography"
+    - "diversity and distributions"
+    - "conservation genetics"
+    - "conservation genetics. reports"
+    - "fish and fisheries"
+    - "reviews in fish biology and fisheries"
+    - "journal of fish biology"
+    - "aquaculture"
+    - "aquaculture environment interactions"
+    - "frontiers in genetics"
+    - "frontiers in ecology and evolution"
+    - "genome biology"
+    - "nature communications"
+    - "nature ecology & evolution"
+    - "science advances"
+    - "proceedings of the national academy of sciences"
+    - "proceedings. biological sciences"
+    - "current biology"
+    - "ecology and evolution"
+    - "heredity"
+    - "biological journal of the linnean society"
+    - "zoological research"
+    - "bmc biology"
+    - "bmc evolutionary biology"
+  track_b:
+    - "nature genetics"
+    - "nature methods"
+    - "nature biotechnology"
+    - "nature ecology & evolution"
+    - "genome research"
+    - "genome biology"
+    - "bioinformatics"
+    - "briefings in bioinformatics"
+    - "methods in ecology and evolution"
+    - "ecology and evolution"
+    - "trends in ecology & evolution"
+    - "trends in genetics"
+    - "trees"
+    - "genetics"
+    - "genetics research"
+    - "g3"
+    - "elife"
+    - "plos genetics"
+    - "plos biology"
+    - "plos computational biology"
+    - "plos one"
+    - "nucleic acids research"
+    - "gigascience"
+    - "gigaScience"
+    - "molecular biology and evolution"
+    - "systematic biology"
+    - "current biology"
+    - "science"
+    - "nature"
+    - "cell"
+    - "molecular ecology"
+    - "molecular ecology resources"
+
+# Tier 2 自动判据（来自 OpenAlex Sources API summary_stats，二者满足其一即可）
+thresholds:
+  min_h_index: 120
+  min_2yr_mean_citedness: 4.0
+
+# 标题命中以下片段（小写包含匹配）→ 直接降级为噪声（tier 0）
+noise_title_patterns:
+  - "occurrence download"
+  - "occurrence dataset"
+  - "gbif"
+  - "data descriptor"
+  - "dataset protocol"
+  - "checklist of the"
+  - "red list of"
+  - "fauna of"
+  - "flora of"
+  - "new record of"
+  - "first record of"
+  - "catalogue of life"
+  - "biodiversity data"
+  - "kernel density dataset"
+  - "version 1.0"
+  - "a new species described"

@@ -1,35 +1,52 @@
 # 裂腹鱼 / 群体遗传文献雷达
 
-每日自动汇总裂腹鱼亚科(Schizothoracinae)物种文献与群体遗传方法学前沿文献,以 Claude Artifact 看板形式展示。
+每日自动汇总裂腹鱼亚科(Schizothoracinae)物种文献与群体遗传方法学前沿文献,按期刊质量分层后以静态网站(GitHub Pages)展示。
 
-## 目录结构
-
-见 `docs/superpowers/plans/2026-08-03-lit-radar-plan.md` 的"文件结构"章节。
+**在线地址:** https://2269720613.github.io/schizothoracinae-lit-radar/
 
 ## 本地运行
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python3 scripts/fetch.py      # 抓取最新文献,更新 data/data.json
+python3 scripts/fetch.py      # 抓取最新文献 + 分级,更新 data/data.json
 python3 scripts/inject.py     # 把 data.json 嵌入模板,生成 dist/dashboard.html
-pytest tests/ -v               # 跑单元测试
+pytest tests/ -v              # 跑单元测试
 ```
 
-## 更新链路
+本地直接用浏览器打开 `dist/dashboard.html` 即可预览。
 
-1. GitHub Actions(`.github/workflows/fetch.yml`)每日 06:00 UTC 跑 `fetch.py` 并 commit `data/data.json`。
-2. 本机 `/loop`(每小时轮询)拉取仓库最新 `data.json` → 跑 `inject.py` 重新渲染 → 比较 `generated_at` 判断数据是否有更新 → 有更新才调用 Artifact 工具,以 `config/artifact_url.txt` 记录的 URL 重新发布看板。
+## 更新链路(全自动云端)
 
-原计划里"claude.ai schedule routine 每日拉取数据并自动渲染发布"这一环,经过两轮真实测试(`docs/decisions/0001-artifact-in-routine-feasibility.md` 确认云端 routine 无法调用 Artifact 工具;`docs/decisions/0002-cloud-routine-cannot-push.md` 进一步确认云端 routine 连 push 代码到仓库都做不到)后已放弃,改为上面的本机 `/loop` 方案。代价是"渲染+发布"这一步需要本机保留一个运行着 `/loop` 的 Claude Code 会话,不是纯云端全自动。
+1. GitHub Actions(`.github/workflows/fetch.yml`)每日 06:00 UTC 触发。
+2. **fetch job:** 跑 `fetch.py`(抓取 + 分级)→ `inject.py`(渲染 `dist/dashboard.html`)→ 提交 `data/data.json` 与 `dist/dashboard.html`。
+3. **deploy job:** 重新 `inject.py` → 把 `dist/dashboard.html` 复制为 `_site/index.html` → 通过 `actions/deploy-pages` 发布到 GitHub Pages。
 
-## 关键词配置
+> 首次部署前需在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**,否则 deploy job 会失败。此后无需本机常驻会话(已取代早先依赖 Claude `/loop` + Artifact 的方案,相关决策记录见 `docs/decisions/`)。
 
-编辑 `config/keywords.yaml` 即可调整检索范围,不需要改代码。
+## 质量分级(高质量文献筛选)
+
+看板按期刊质量分为四层,默认隐藏噪声层:
+
+| 层级 | 判定 | 前端 |
+|---|---|---|
+| **T1 经典** | 命中 `config/journal_tiers.yaml` 白名单(手工维护的核心刊) | 金色徽章 |
+| **T2 优质** | 未入白名单,但 OpenAlex Sources 指标达标(`type=journal` + `is_core` + h-index 或 2yr-citedness 超阈值) | 绿色徽章 |
+| **T3 一般** | 有正规期刊名但未达 T2 | 灰色徽章 |
+| **噪声** | 标题命中噪声词 / 无期刊来源 / 非论文类型 | 默认隐藏,可勾选展开 |
+
+- **指标来源:** OpenAlex Works API 内嵌的 source 不含 `summary_stats`(实测为 null),故 `fetch.py` 收集唯一 source ID 后批量(每请求 50 个)调用 OpenAlex **Sources API** 补全 h-index / 2yr-citedness。
+- **检索收窄:** OpenAlex 改用 `filter=title_and_abstract.search` + `type:article`,只匹配标题/摘要并排除数据集等非论文类型,显著降低误匹配噪声(如 GBIF "Occurrence Download" 数据集)。
+- **bioRxiv 预印本:** 方法学前沿(Track B)计为 T2,物种轨(Track A)计为 T3。
+
+## 配置
+
+- `config/keywords.yaml`:调整检索关键词/主题轨,不需改代码。
+- `config/journal_tiers.yaml`:维护经典期刊白名单、T2 阈值、噪声词。想加刊直接往对应 track 追加一行小写刊名即可,下次抓取生效(且会对已收录文献重新分级)。
 
 ## 已知限制
 
-- 数据来源:OpenAlex、PubMed(NCBI E-utilities)、bioRxiv(仅最近 10 天 + 关键词客户端过滤,因 bioRxiv API 本身不支持关键词搜索)。未接入 Semantic Scholar/Crossref/CORE/Unpaywall/database-lookup(MVP 阶段范围外)。
-- 不做 AI 精读摘要/相关性打分。
-- PubMed 数据来自 eSummary,不含摘要正文(MVP 阶段不额外调用 eFetch)。
-- Track A(裂腹鱼亚科物种精确检索)在 OpenAlex 上使用的是全文检索(`search=` 参数,匹配标题+摘要+全文索引),而非仅限标题/摘要的定向字段搜索。首次真实抓取(2026-08-04)观察到约半数结果是被属名字符串误匹配的弱相关噪声,例如 GBIF 物种分布下载数据集(标题含 "Occurrence Download")、无关虾类/其他鱼类研究、古生物学论文等,这些结果并非真正围绕裂腹鱼亚科展开。后续可考虑:改用 OpenAlex 的 `title_and_abstract.search` 等定向字段过滤,或增加 `filter=type:article` 排除 dataset/其他非论文类型,以提升精确率。
+- 数据来源:OpenAlex、PubMed(NCBI E-utilities,仅 eSummary 无摘要正文)、bioRxiv(最近 10 天 + 客户端关键词过滤)。
+- 期刊指标用 OpenAlex 的 h-index / 2yr-citedness,无官方 Impact Factor;PubMed 记录无 OpenAlex source ID,只能靠白名单判 T1,否则落 T3。
+- 历史 `data.json` 记录缺少新增的 source ID 字段,首次运行时按期刊名判级(多为 T3),随后续抓取中重新命中的记录逐步补全指标并可能升入 T2。
+- 不做 AI 精读摘要/语义相关性打分。

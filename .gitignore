@@ -3,3 +3,5 @@ __pycache__/
 .pytest_cache/
 .last_published_generated_at.txt
 .venv/
+.env
+_site/

@@ -8,6 +8,9 @@ from scripts.fetch import (
     fetch_openalex,
     fetch_biorxiv_recent,
     normalize_pubmed_date,
+    normalize_journal_name,
+    assign_tier,
+    enrich_source_metrics,
 )
 
 
@@ -66,7 +69,12 @@ def test_fetch_openalex_parses_results(mock_get):
             "doi": "https://doi.org/10.1/xyz",
             "title": "Test paper",
             "authorships": [{"author": {"display_name": "Jane Doe"}}],
-            "primary_location": {"source": {"display_name": "Journal X"}},
+            "primary_location": {"source": {
+                "id": "https://openalex.org/S123",
+                "display_name": "Journal X",
+                "type": "journal",
+                "is_core": True,
+            }},
             "publication_date": "2026-08-01",
             "id": "https://openalex.org/W1",
             "abstract_inverted_index": {"Hello": [0], "world": [1]},
@@ -82,6 +90,9 @@ def test_fetch_openalex_parses_results(mock_get):
     assert p["abstract"] == "Hello world"
     assert p["track"] == "A"
     assert p["source"] == "OpenAlex"
+    assert p["openalex_source_id"] == "S123"
+    assert p["source_type"] == "journal"
+    assert p["source_is_core"] is True
 
 
 @patch("scripts.fetch.http_get_json")
@@ -134,3 +145,92 @@ def test_fetch_biorxiv_recent_filters_by_keyword(mock_get):
     assert len(papers) == 1
     assert papers[0]["title"] == "Schizothorax genome"
     assert papers[0]["authors"] == ["Li, X.", "Wang, Y."]
+
+
+def _tier_cfg():
+    return {
+        "whitelist": {"molecular ecology", "bioinformatics"},
+        "min_h_index": 120,
+        "min_2yr_mean_citedness": 4.0,
+        "noise_title_patterns": ["occurrence download"],
+    }
+
+
+def test_normalize_journal_name_lowercases_and_collapses_spaces():
+    assert normalize_journal_name("  Molecular   Ecology ") == "molecular ecology"
+    assert normalize_journal_name("Trends in Ecology & Evolution") == "trends in ecology & evolution"
+    assert normalize_journal_name(None) == ""
+
+
+def test_assign_tier_whitelist_is_tier1():
+    cfg = _tier_cfg()
+    paper = {"title": "T", "journal": "Molecular Ecology", "source": "OpenAlex",
+             "openalex_source_id": "S1"}
+    assign_tier(paper, {"S1": {"type": "journal", "is_core": True, "h_index": 10, "citedness": 1}}, cfg)
+    assert paper["tier"] == 1
+
+
+def test_assign_tier_metrics_are_tier2():
+    cfg = _tier_cfg()
+    paper = {"title": "T", "journal": "Some Core Journal", "source": "OpenAlex",
+             "openalex_source_id": "S2"}
+    assign_tier(paper, {"S2": {"type": "journal", "is_core": True, "h_index": 200, "citedness": 5}}, cfg)
+    assert paper["tier"] == 2
+    assert paper["journal_h_index"] == 200
+
+
+def test_assign_tier_has_journal_below_threshold_is_tier3():
+    cfg = _tier_cfg()
+    paper = {"title": "T", "journal": "Obscure Journal", "source": "OpenAlex",
+             "openalex_source_id": "S3"}
+    assign_tier(paper, {"S3": {"type": "journal", "is_core": True, "h_index": 5, "citedness": 0.5}}, cfg)
+    assert paper["tier"] == 3
+
+
+def test_assign_tier_whitelist_wins_over_noise_pattern():
+    cfg = _tier_cfg()
+    paper = {"title": "GBIF Occurrence Download for X", "journal": "Molecular Ecology",
+             "source": "OpenAlex", "openalex_source_id": "S4"}
+    # whitelist wins over noise by design (explicit curated venue)
+    assign_tier(paper, {}, cfg)
+    assert paper["tier"] == 1
+
+
+def test_assign_tier_noise_pattern_without_whitelist_is_tier0():
+    cfg = _tier_cfg()
+    paper = {"title": "An Occurrence Download dataset", "journal": "Data in Brief",
+             "source": "OpenAlex", "openalex_source_id": ""}
+    assign_tier(paper, {}, cfg)
+    assert paper["tier"] == 0
+
+
+def test_assign_tier_no_journal_is_tier0():
+    cfg = _tier_cfg()
+    paper = {"title": "T", "journal": "", "source": "OpenAlex", "openalex_source_id": ""}
+    assign_tier(paper, {}, cfg)
+    assert paper["tier"] == 0
+
+
+def test_assign_tier_biorxiv_track_b_is_tier2():
+    cfg = _tier_cfg()
+    paper = {"title": "T", "journal": "bioRxiv (preprint)", "source": "bioRxiv", "track": "B"}
+    assign_tier(paper, {}, cfg)
+    assert paper["tier"] == 2
+
+
+@patch("scripts.fetch.http_get_json")
+def test_enrich_source_metrics_batches_by_50(mock_get):
+    def fake(url, *a, **k):
+        # echo back one source per requested S-id
+        sids = url.split("ids.openalex:")[1].split("&")[0].split("|")
+        return {"results": [
+            {"id": f"https://openalex.org/{s}", "summary_stats": {"h_index": 150, "2yr_mean_citedness": 6},
+             "is_core": True, "type": "journal"} for s in sids
+        ]}
+    mock_get.side_effect = fake
+    papers = [{"openalex_source_id": f"S{i}"} for i in range(60)]
+    metrics = enrich_source_metrics(papers)
+    assert len(metrics) == 60
+    assert metrics["S59"]["h_index"] == 150
+    # 60 unique ids => 2 batches => 2 http calls
+    assert mock_get.call_count == 2
