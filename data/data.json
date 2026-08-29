@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T18:18:32Z",
+  "generated_at": "2026-08-29T12:26:55Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9109,7 +9109,7 @@
   },
   "stats": {
     "total_count": 381,
-    "new_this_week": 75,
+    "new_this_week": 65,
     "weekly_trend": [
       {
         "week": "2026-W29",
@@ -9117,23 +9117,23 @@
       },
       {
         "week": "2026-W30",
-        "count": 52
+        "count": 71
       },
       {
         "week": "2026-W31",
-        "count": 96
+        "count": 95
       },
       {
         "week": "2026-W32",
-        "count": 77
+        "count": 71
       },
       {
         "week": "2026-W33",
-        "count": 80
+        "count": 78
       },
       {
         "week": "2026-W34",
-        "count": 61
+        "count": 51
       }
     ],
     "tier_counts": {
