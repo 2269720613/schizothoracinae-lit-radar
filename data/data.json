@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:26:55Z",
+  "generated_at": "2026-08-30T11:27:47Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -168,6 +168,34 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "tier": 3
+        },
+        {
+          "id": "10.1186/s12864-026-13296-4",
+          "title": "Dynamic immune regulation of Gymnocypris eckloni in response to severe short-term hypoxia and moderate prolonged hypoxia",
+          "authors": [
+            "Shenji Wu",
+            "Ziyi Wang",
+            "Mingzhe Xia",
+            "Dan Liu",
+            "Wei Wang",
+            "Cunfang Zhang",
+            "Junmei Jia",
+            "Fei Tian",
+            "Delin Qi"
+          ],
+          "journal": "BMC Genomics",
+          "date": "2026-08-29",
+          "doi": "10.1186/s12864-026-13296-4",
+          "url": "https://openalex.org/W7204587898",
+          "abstract": "Abstract Background Aquatic hypoxia frequently occurs as a recurring environmental stressor, exerting detrimental effects on the growth and survival of fish. As a typical endemic fish species inhabiting the Qinghai-Tibetan Plateau, Gymnocypris eckloni displays outstanding resilience to hypoxia, however, limited knowledge exists regarding the dynamic changes of immune system in G. eckloni to hypoxic environments with varying DO levels. Results G. eckloni liver and blood biochemical parameters and transcriptomes were investigated in response to severe hypoxia for 12 h and moderate hypoxia for different durations (24, 96 and 168 h) to highlight the differences in immune responses, and the expression patterns of key immune-related genes in the gills and spleen following hypoxia stress were also analyzed. Integrating biochemical parameters and mRNA expression profiles, we found that severe short-term hypoxia exacerbated oxidative damage and significantly altered the expression of genes related to apoptosis and autophagy compared with moderate prolonged hypoxia. Phagosome, lysosome, TLR and NLR signaling pathways were significantly enriched under severe short-term hypoxia, whereas no comparable enrichment was observed under moderate prolonged hypoxia. Through STEM and WGCNA, several key immune-related genes were identified, including nod1 , irf3 , ifnα , pi3k , akt , p38 , il-12 , jak1 , stat1 , nlrp3 , bax , bcl2 , bcl-xl , atg5 and lc3 , and most of them showed a similar expression trend in the hypoxia-challenged gills. Besides, the expression of nod1 , irf3 , akt , pi3k , jnk and cyld in the spleen was remarkably induced by severe short-term hypoxia. Conclusion The results elucidated the immunoregulatory strategies of G. eckloni in response to hypoxia stress, and provided valuable information for breeding hypoxia-tolerant fish.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S28614077",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": 265,
+          "journal_citedness": 4.3135743924125665,
+          "tier": 2
         },
         {
           "id": "10.1186/s40317-026-00488-8",
@@ -9108,8 +9136,8 @@
     }
   },
   "stats": {
-    "total_count": 381,
-    "new_this_week": 65,
+    "total_count": 382,
+    "new_this_week": 52,
     "weekly_trend": [
       {
         "week": "2026-W29",
@@ -9117,28 +9145,28 @@
       },
       {
         "week": "2026-W30",
-        "count": 71
+        "count": 85
       },
       {
         "week": "2026-W31",
-        "count": 95
+        "count": 86
       },
       {
         "week": "2026-W32",
-        "count": 71
+        "count": 73
       },
       {
         "week": "2026-W33",
-        "count": 78
+        "count": 85
       },
       {
         "week": "2026-W34",
-        "count": 51
+        "count": 38
       }
     ],
     "tier_counts": {
       "1": 35,
-      "2": 0,
+      "2": 1,
       "3": 326,
       "0": 20
     }
