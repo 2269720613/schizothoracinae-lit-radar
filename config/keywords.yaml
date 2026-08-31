@@ -6,10 +6,26 @@ track_a:
     - "Gymnocypris"
     - "Schizopygopsis"
 track_b:
-  label: "群体遗传方法学前沿"
+  label: "生物生信演化分析"
   keywords:
     - "polyploid population genetics"
     - "introgression gene flow detection"
     - "high-altitude adaptation fish evolution"
     - "allopolyploid genome phasing"
     - "ABBA-BABA D-statistics introgression"
+track_c:
+  label: "着丝粒研究"
+  keywords:
+    - "centromere evolution"
+    - "centromere genome assembly"
+    - "centromeric satellite DNA"
+    - "holocentromere"
+    - "CENP-A centromere"
+track_d:
+  label: "古地理古气候与基因组演化"
+  keywords:
+    - "paleodrainage evolution"
+    - "paleoclimate genomics"
+    - "Quaternary climate phylogeography"
+    - "tectonic uplift diversification"
+    - "paleoclimate range dynamics genomics"

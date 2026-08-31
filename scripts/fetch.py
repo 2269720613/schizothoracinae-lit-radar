@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
@@ -12,19 +14,24 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "data.json"
+SOURCE_CACHE_PATH = ROOT / "data" / "openalex_source_cache.json"
 KEYWORDS_PATH = ROOT / "config" / "keywords.yaml"
 TIERS_PATH = ROOT / "config" / "journal_tiers.yaml"
 
 LOOKBACK_DAYS = 7
+BACKFILL_YEARS = 5
+BACKFILL_MAX_PER_KEYWORD = 1000
 CONTACT_EMAIL = "ccj13169@gmail.com"
 SOURCES_BATCH = 50
+TRACKS = (("A", "track_a"), ("B", "track_b"), ("C", "track_c"), ("D", "track_d"))
 
 # The local dev proxy (HTTPS_PROXY=127.0.0.1:10808) fails the TLS handshake
-# for *.ncbi.nlm.nih.gov (PubMed/esearch returns "SSL UNEXPECTED_EOF"), while
-# NCBI is reachable directly. Force direct connections for NCBI hosts; other
-# sources (OpenAlex/Elsevier/bioRxiv) still go through the proxy. GitHub
-# Actions runners have no such proxy, so this is a no-op there.
-_NCBI_NO_PROXY = "ncbi.nlm.nih.gov"
+# for *.ncbi.nlm.nih.gov (PubMed/esearch returns "SSL UNEXPECTED_EOF"), and its
+# shared exit IP collects OpenAlex 429 rate limits faster than the direct
+# connection. Force direct connections for NCBI and OpenAlex hosts; other
+# sources (Elsevier/bioRxiv) still go through the proxy. GitHub Actions
+# runners have no such proxy, so this is a no-op there.
+_NCBI_NO_PROXY = "ncbi.nlm.nih.gov,api.openalex.org"
 for _var in ("no_proxy", "NO_PROXY"):
     _cur = os.environ.get(_var, "")
     if _NCBI_NO_PROXY not in _cur:
@@ -38,6 +45,23 @@ def http_get_json(url, retries=3, backoff=2.0):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            if attempt == retries - 1:
+                print(f"WARN: giving up on {url}: HTTP {exc.code}", file=sys.stderr)
+                return None
+            wait = backoff * (attempt + 1)
+            if exc.code == 429:
+                retry_after = (exc.headers or {}).get("Retry-After") if exc.headers else None
+                # Daily-quota exhaustion (Retry-After of hours) is not worth
+                # waiting out inside a fetch run — fail fast and let the next
+                # scheduled run pick it up after the reset.
+                if retry_after and retry_after.replace(".", "", 1).isdigit() and float(retry_after) > 600:
+                    print(f"WARN: daily quota exhausted (Retry-After {retry_after}s), skipping {url}", file=sys.stderr)
+                    return None
+                # Rate limited: back off hard, honoring Retry-After when sent,
+                # so bursts of source-id lookups don't poison the whole run.
+                wait = float(retry_after) if retry_after and retry_after.replace(".", "", 1).isdigit() else max(wait, 20.0)
+            time.sleep(wait)
         except Exception as exc:
             if attempt == retries - 1:
                 print(f"WARN: giving up on {url}: {exc}", file=sys.stderr)
@@ -56,50 +80,66 @@ def reconstruct_openalex_abstract(inverted_index):
     return " ".join(positions[i] for i in sorted(positions.keys()))
 
 
-def fetch_openalex(keyword, since_date, track):
+def _openalex_work_to_paper(work, track):
+    title = work.get("title") or ""
+    if not title:
+        return None
+    doi = (work.get("doi") or "").replace("https://doi.org/", "").strip().lower()
+    # FORMAT_SOURCE: OpenAlex /works response can have
+    # primary_location present but primary_location.source == null
+    # (e.g. records without an indexed host venue). Verified live via
+    # https://api.openalex.org/works?search=Schizothorax&per_page=5&mailto=...
+    # on 2026-08-04: several real results returned primary_location
+    # as a dict but with source explicitly null in some cases, so
+    # `.get("source", {})` is not enough — "source" key can exist
+    # with value None, which .get()'s default never catches.
+    source = ((work.get("primary_location") or {}).get("source")) or {}
+    source_id = (source.get("id") or "").replace("https://openalex.org/", "").strip()
+    return {
+        "id": doi or work.get("id", ""),
+        "title": title,
+        "authors": [a["author"]["display_name"] for a in work.get("authorships", [])],
+        "journal": source.get("display_name", "") or "",
+        "date": work.get("publication_date", ""),
+        "doi": doi,
+        "url": work.get("id", ""),
+        "abstract": reconstruct_openalex_abstract(work.get("abstract_inverted_index")),
+        "track": track,
+        "source": "OpenAlex",
+        "openalex_source_id": source_id,
+        "source_type": source.get("type", "") or "",
+        "source_is_core": bool(source.get("is_core", False)),
+    }
+
+
+def fetch_openalex(keyword, since_date, track, max_results=50):
+    """Cursor-paginated OpenAlex works search. Weekly runs keep the default
+    single-page (50) behaviour; backfill passes a larger cap."""
     query = urllib.parse.quote(keyword)
-    url = (
-        "https://api.openalex.org/works"
-        f"?filter=from_publication_date:{since_date},"
-        f"type:article,"
-        f"title_and_abstract.search:{query}"
-        f"&sort=publication_date:desc&per_page=50&mailto={CONTACT_EMAIL}"
-    )
-    data = http_get_json(url)
-    if not data:
-        return []
+    per_page = 200 if max_results > 50 else 50
     papers = []
-    for work in data.get("results", []):
-        title = work.get("title") or ""
-        if not title:
-            continue
-        doi = (work.get("doi") or "").replace("https://doi.org/", "").strip().lower()
-        # FORMAT_SOURCE: OpenAlex /works response can have
-        # primary_location present but primary_location.source == null
-        # (e.g. records without an indexed host venue). Verified live via
-        # https://api.openalex.org/works?search=Schizothorax&per_page=5&mailto=...
-        # on 2026-08-04: several real results returned primary_location
-        # as a dict but with source explicitly null in some cases, so
-        # `.get("source", {})` is not enough — "source" key can exist
-        # with value None, which .get()'s default never catches.
-        source = ((work.get("primary_location") or {}).get("source")) or {}
-        source_id = (source.get("id") or "").replace("https://openalex.org/", "").strip()
-        papers.append({
-            "id": doi or work.get("id", ""),
-            "title": title,
-            "authors": [a["author"]["display_name"] for a in work.get("authorships", [])],
-            "journal": source.get("display_name", "") or "",
-            "date": work.get("publication_date", ""),
-            "doi": doi,
-            "url": work.get("id", ""),
-            "abstract": reconstruct_openalex_abstract(work.get("abstract_inverted_index")),
-            "track": track,
-            "source": "OpenAlex",
-            "openalex_source_id": source_id,
-            "source_type": source.get("type", "") or "",
-            "source_is_core": bool(source.get("is_core", False)),
-        })
-    return papers
+    cursor = "*"
+    while len(papers) < max_results:
+        url = (
+            "https://api.openalex.org/works"
+            f"?filter=from_publication_date:{since_date},"
+            f"type:article,"
+            f"title_and_abstract.search:{query}"
+            f"&sort=publication_date:desc&per_page={per_page}"
+            f"&cursor={urllib.parse.quote(cursor)}&mailto={CONTACT_EMAIL}"
+        )
+        data = http_get_json(url)
+        if not data:
+            break
+        for work in data.get("results", []):
+            paper = _openalex_work_to_paper(work, track)
+            if paper:
+                papers.append(paper)
+        cursor = (data.get("meta") or {}).get("next_cursor") or ""
+        if not cursor:
+            break
+        time.sleep(0.3)
+    return papers[:max_results]
 
 
 def normalize_pubmed_date(pubdate):
@@ -128,50 +168,79 @@ def normalize_pubmed_date(pubdate):
     return pubdate
 
 
-def fetch_pubmed(keyword, since_date, track):
+def _pubmed_papers_for_pmids(pmids, track):
+    """Resolve PMIDs into paper records via esummary, in chunks of 200."""
+    papers = []
+    for i in range(0, len(pmids), 200):
+        chunk = pmids[i:i + 200]
+        summary_url = (
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+            f"?db=pubmed&id={','.join(chunk)}&retmode=json"
+            f"&tool=schizothoracinae-lit-radar&email={CONTACT_EMAIL}"
+        )
+        summary_data = http_get_json(summary_url)
+        time.sleep(0.4)
+        if not summary_data:
+            continue
+        result = summary_data.get("result", {})
+        for uid in result.get("uids", []):
+            item = result.get(uid, {})
+            doi = ""
+            for aid in item.get("articleids", []):
+                if aid.get("idtype") == "doi":
+                    doi = aid.get("value", "").strip().lower()
+                    break
+            papers.append({
+                "id": doi or uid,
+                "title": item.get("title", ""),
+                "authors": [a.get("name", "") for a in item.get("authors", [])],
+                "journal": item.get("fulljournalname", ""),
+                "date": normalize_pubmed_date(item.get("pubdate", "")),
+                "doi": doi,
+                "url": f"https://pubmed.ncbi.nlm.nih.gov/{uid}/",
+                "abstract": "",
+                "track": track,
+                "source": "PubMed",
+            })
+    return papers
+
+
+def fetch_pubmed(keyword, since_date, track, max_results=50):
+    """esearch + esummary harvest. Weekly runs keep the single 50-item page;
+    backfill pages via retstart up to max_results."""
     term = urllib.parse.quote(f'{keyword} AND ("{since_date}"[PDAT] : "3000"[PDAT])')
-    search_url = (
-        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-        f"?db=pubmed&term={term}&retmode=json&retmax=50&sort=pub_date"
-        f"&tool=schizothoracinae-lit-radar&email={CONTACT_EMAIL}"
-    )
-    search_data = http_get_json(search_url)
+    page_size = 200 if max_results > 50 else 50
+
+    def search_url(retstart):
+        return (
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+            f"?db=pubmed&term={term}&retmode=json&retmax={page_size}"
+            f"&retstart={retstart}&sort=pub_date"
+            f"&tool=schizothoracinae-lit-radar&email={CONTACT_EMAIL}"
+        )
+
+    search_data = http_get_json(search_url(0))
     if not search_data:
         return []
-    pmids = search_data.get("esearchresult", {}).get("idlist", [])
+    es = search_data.get("esearchresult", {})
+    pmids = list(es.get("idlist") or [])
+    try:
+        count = int(es.get("count") or 0)
+    except ValueError:
+        count = 0
+    start = page_size
+    while pmids and len(pmids) < min(count, max_results):
+        page_data = http_get_json(search_url(start))
+        ids = list((page_data or {}).get("esearchresult", {}).get("idlist") or [])
+        if not ids:
+            break
+        pmids.extend(ids)
+        start += page_size
+        time.sleep(0.4)
+    pmids = pmids[:max_results]
     if not pmids:
         return []
-    time.sleep(0.4)
-    summary_url = (
-        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
-        f"?db=pubmed&id={','.join(pmids)}&retmode=json"
-        f"&tool=schizothoracinae-lit-radar&email={CONTACT_EMAIL}"
-    )
-    summary_data = http_get_json(summary_url)
-    if not summary_data:
-        return []
-    papers = []
-    result = summary_data.get("result", {})
-    for uid in result.get("uids", []):
-        item = result.get(uid, {})
-        doi = ""
-        for aid in item.get("articleids", []):
-            if aid.get("idtype") == "doi":
-                doi = aid.get("value", "").strip().lower()
-                break
-        papers.append({
-            "id": doi or uid,
-            "title": item.get("title", ""),
-            "authors": [a.get("name", "") for a in item.get("authors", [])],
-            "journal": item.get("fulljournalname", ""),
-            "date": normalize_pubmed_date(item.get("pubdate", "")),
-            "doi": doi,
-            "url": f"https://pubmed.ncbi.nlm.nih.gov/{uid}/",
-            "abstract": "",
-            "track": track,
-            "source": "PubMed",
-        })
-    return papers
+    return _pubmed_papers_for_pmids(pmids, track)
 
 
 def fetch_biorxiv_recent(keywords, track):
@@ -206,17 +275,21 @@ def fetch_biorxiv_recent(keywords, track):
 
 def load_tiers_config(path=TIERS_PATH):
     cfg = yaml.safe_load(path.read_text(encoding="utf-8"))
-    whitelist = set()
-    for names in (cfg.get("whitelist") or {}).values():
-        for n in names or []:
-            whitelist.add(normalize_journal_name(n))
+    top = {normalize_journal_name(n) for n in (cfg.get("whitelist_top") or []) if n}
+    fish = {normalize_journal_name(n) for n in (cfg.get("whitelist_fish") or []) if n}
     thresholds = cfg.get("thresholds") or {}
     noise = [p.lower() for p in (cfg.get("noise_title_patterns") or [])]
+    exclude = [p.lower() for p in (cfg.get("exclude_title_patterns") or [])]
+    fish_patterns = [p.lower() for p in (cfg.get("fish_title_patterns") or [])]
     return {
-        "whitelist": whitelist,
+        "whitelist_top": top,
+        "whitelist_fish": fish,
+        "fish_title_patterns": fish_patterns,
         "min_h_index": thresholds.get("min_h_index", 0),
         "min_2yr_mean_citedness": thresholds.get("min_2yr_mean_citedness", 0),
         "noise_title_patterns": noise,
+        "exclude_title_patterns": exclude,
+        "min_tier": int(cfg.get("min_tier", 3)),
     }
 
 
@@ -267,6 +340,17 @@ def enrich_source_metrics(papers):
     return metrics
 
 
+def is_fish_paper(paper, cfg):
+    """Track A is fish by definition; other tracks match word-start anchored
+    title patterns (\bfish matches fish/fishes/fishery). Word-start anchoring
+    can over-match rare stems (e.g. \bcarp in Carpathian) — accepted, since a
+    false positive only relaxes the venue bar, never hides a paper."""
+    if paper.get("track") == "A":
+        return True
+    title_l = (paper.get("title") or "").lower()
+    return any(re.search(rf"\b{re.escape(pat)}", title_l) for pat in cfg["fish_title_patterns"])
+
+
 def assign_tier(paper, metrics, cfg):
     title_l = (paper.get("title") or "").lower()
     jname = normalize_journal_name(paper.get("journal") or "")
@@ -278,26 +362,41 @@ def assign_tier(paper, metrics, cfg):
     paper["journal_h_index"] = h_index
     paper["journal_citedness"] = citedness
 
-    # bioRxiv preprints: valuable for methodology frontier (Track B), else general.
-    if paper.get("source") == "bioRxiv":
-        paper["tier"] = 2 if paper.get("track") == "B" else 3
+    # Topic exclusions (e.g. stress experiments) win over everything,
+    # including whitelist venues and bioRxiv preprints.
+    if any(pat in title_l for pat in cfg["exclude_title_patterns"]):
+        paper["tier"] = 0
         return
 
-    if jname in cfg["whitelist"]:
-        paper["tier"] = 1
+    fish = is_fish_paper(paper, cfg)
+    paper["is_fish"] = fish
+
+    # Dual standard: fish papers may pass via the relaxed one/two-tier route
+    # (fish whitelist or OpenAlex metrics); non-fish papers need a top journal.
+    if paper.get("source") == "bioRxiv":
+        tier = 2 if fish else 3
+    elif jname in cfg["whitelist_top"]:
+        tier = 1
+    elif fish and jname in cfg["whitelist_fish"]:
+        tier = 1
     elif any(pat in title_l for pat in cfg["noise_title_patterns"]):
-        paper["tier"] = 0
+        tier = 0
     elif (
-        m
+        fish
+        and m
         and m.get("type") == "journal"
         and m.get("is_core")
         and ((h_index is not None and h_index >= cfg["min_h_index"])
              or (citedness is not None and citedness >= cfg["min_2yr_mean_citedness"]))
     ):
-        paper["tier"] = 2
+        tier = 2
     elif jname:
-        paper["tier"] = 3
+        tier = 3
     else:
+        tier = 0
+
+    paper["tier"] = tier
+    if tier > cfg["min_tier"]:
         paper["tier"] = 0
 
 
@@ -306,6 +405,84 @@ def tier_papers(papers, cfg):
     metrics = enrich_source_metrics(papers)
     for p in papers:
         assign_tier(p, metrics, cfg)
+
+
+def load_source_cache():
+    if SOURCE_CACHE_PATH.exists():
+        try:
+            return json.loads(SOURCE_CACHE_PATH.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {}
+
+
+def save_source_cache(cache):
+    SOURCE_CACHE_PATH.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
+    )
+
+
+def lookup_openalex_source_id(journal, cache):
+    # PubMed-style names carry NLM qualifiers ("Aquaculture (Amsterdam,
+    # Netherlands)") that OpenAlex display names don't have; strip any
+    # trailing parenthetical before searching.
+    base = re.sub(r"\s*\([^)]*\)\s*$", "", journal.strip()).strip()
+    while "(" in base and base.endswith(")"):
+        base = re.sub(r"\s*\([^)]*\)\s*$", "", base).strip()
+    jn = normalize_journal_name(base)
+    if not jn or jn == "biorxiv preprint":
+        return None
+    if jn in cache:
+        return cache[jn]
+    query = urllib.parse.quote(f'"{base}"')
+    url = (
+        "https://api.openalex.org/sources"
+        f"?filter=display_name.search:{query}"
+        f"&select=id,display_name,type&per_page=10&mailto={CONTACT_EMAIL}"
+    )
+    data = http_get_json(url)
+    if data is None:
+        # Network failure / rate limit: do NOT negative-cache, or the journal
+        # would be skipped forever instead of retried on the next run.
+        return None
+    sid = None
+    for src in data.get("results", []):
+        if (src.get("type") or "") != "journal":
+            continue
+        rname = normalize_journal_name(src.get("display_name") or "")
+        # Exact normalized match first; fall back to prefix match for
+        # indexed names carrying extra qualifiers.
+        if rname == jn or (len(jn) >= 8 and rname.startswith(jn)):
+            sid = (src.get("id") or "").replace("https://openalex.org/", "").strip() or None
+            break
+    # Cache misses too (null): repositories/preprint servers stay unresolved,
+    # so later runs skip re-querying them and stop wasting rate limit.
+    cache[jn] = sid
+    time.sleep(1.0)
+    return sid
+
+
+def resolve_missing_source_ids(papers, cache=None, checkpoint=False):
+    """Fill openalex_source_id for papers missing one by matching their journal
+    display_name against the OpenAlex Sources API. Only legacy records and
+    PubMed hits miss the id; resolving them lets metric-based T2 tiering apply."""
+    cache = cache if cache is not None else {}
+    resolved = 0
+    lookups = 0
+    for p in papers:
+        if p.get("openalex_source_id") or not (p.get("journal") or "").strip():
+            continue
+        sid = lookup_openalex_source_id(p["journal"], cache)
+        lookups += 1
+        if sid:
+            p["openalex_source_id"] = sid
+            resolved += 1
+        if checkpoint and lookups % 25 == 0:
+            # Persist progress so an interrupted run resumes where it stopped.
+            print(f"source-id backfill: {lookups} journals queried, {resolved} ids filled",
+                  flush=True)
+            save_source_cache(cache)
+    return resolved
 
 
 def merge_papers(existing_papers, new_papers):
@@ -364,22 +541,29 @@ def load_existing():
     return {
         "generated_at": "",
         "tracks": {
-            "A": {"label": "", "keywords": [], "papers": []},
-            "B": {"label": "", "keywords": [], "papers": []},
+            track_id: {"label": "", "keywords": [], "papers": []}
+            for track_id, _ in TRACKS
         },
         "stats": {"total_count": 0, "new_this_week": 0, "weekly_trend": [], "tier_counts": {}},
     }
 
 
 def main():
+    backfill = "--backfill" in sys.argv
     now = datetime.now(timezone.utc)
-    since_date = (now - timedelta(days=LOOKBACK_DAYS)).date().isoformat()
+    if backfill:
+        since_date = (now - timedelta(days=365 * BACKFILL_YEARS)).date().isoformat()
+        max_results = BACKFILL_MAX_PER_KEYWORD
+        print(f"backfill mode: since {since_date}, cap {max_results} per keyword", flush=True)
+    else:
+        since_date = (now - timedelta(days=LOOKBACK_DAYS)).date().isoformat()
+        max_results = 50
     config = yaml.safe_load(KEYWORDS_PATH.read_text(encoding="utf-8"))
     tiers_cfg = load_tiers_config()
     existing = load_existing()
     total_added = 0
 
-    for track_id, cfg_key in (("A", "track_a"), ("B", "track_b")):
+    for track_id, cfg_key in TRACKS:
         track_cfg = config[cfg_key]
         track_state = existing["tracks"].setdefault(
             track_id, {"label": "", "keywords": [], "papers": []}
@@ -389,18 +573,29 @@ def main():
 
         new_papers = []
         for kw in track_cfg["keywords"]:
-            new_papers.extend(fetch_openalex(kw, since_date, track_id))
+            oa = fetch_openalex(kw, since_date, track_id, max_results=max_results)
             time.sleep(0.2)
-            new_papers.extend(fetch_pubmed(kw, since_date, track_id))
+            pm = fetch_pubmed(kw, since_date, track_id, max_results=max_results)
             time.sleep(0.4)
+            new_papers.extend(oa)
+            new_papers.extend(pm)
+            if backfill:
+                print(f"  {track_id} {kw}: openalex={len(oa)} pubmed={len(pm)}", flush=True)
+
         new_papers.extend(fetch_biorxiv_recent(track_cfg["keywords"], track_id))
 
         merged, added = merge_papers(track_state["papers"], new_papers)
         track_state["papers"] = merged
         total_added += added
 
-    tracked_papers = existing["tracks"]["A"]["papers"] + existing["tracks"]["B"]["papers"]
+    tracked_papers = [p for tid, _ in TRACKS for p in existing["tracks"][tid]["papers"]]
     all_papers = dedupe_papers(tracked_papers)
+
+    source_cache = load_source_cache()
+    resolved = resolve_missing_source_ids(tracked_papers, source_cache, checkpoint=True)
+    if resolved:
+        print(f"resolved {resolved} missing OpenAlex source ids via journal-name lookup")
+    save_source_cache(source_cache)
 
     # Re-stamp tier for every paper each run so whitelist/threshold edits apply
     # retroactively to already-collected papers. Runs over tracked_papers, not the

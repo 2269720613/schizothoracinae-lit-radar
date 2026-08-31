@@ -1,82 +1,99 @@
-# 期刊分级配置
-# Tier 1：命中下方白名单（display_name 小写归一化匹配，含常见变体）
-# Tier 2：未命中白名单，但 OpenAlex Sources 指标达标（type=journal + is_core + 阈值）
-# Tier 3：有正规期刊名但未达 Tier 2
-# Tier 0：命中噪声词 / 无期刊来源 / 非论文类型（看板默认隐藏）
+# 期刊分级配置（双层标准）
+# 鱼类相关论文：T1（顶刊/子刊 或 鱼类一二区白名单）或 T2（OpenAlex 指标达标）
+# 非鱼类论文：仅 T1（顶刊/子刊白名单）；T2/T3 一律视为不达标
+# Tier 0（看板隐藏）：主题排除词 / 噪声词 / 无期刊来源 / 低于 min_tier
 #
-# 想加经典期刊：直接往对应 track 列表追加一行小写刊名即可，无需改代码。
+# min_tier：保留的最低层级。设为 2 表示鱼类论文里一/二区档位（T1/T2）以下也隐藏。
+#
+# 期刊分区为近似整理，中科院分区每年微调；想增删刊直接改列表，下次抓取生效
+# 且会对已收录文献重新分级。
 
-whitelist:
-  track_a:
-    - "molecular ecology"
-    - "molecular ecology resources"
-    - "molecular phylogenetics and evolution"
-    - "systematic biology"
-    - "systematic biology and biodiversity"
-    - "evolution"
-    - "evolution letters"
-    - "journal of evolutionary biology"
-    - "molecular biology and evolution"
-    - "genome biology and evolution"
-    - "journal of biogeography"
-    - "diversity and distributions"
-    - "conservation genetics"
-    - "conservation genetics. reports"
-    - "fish and fisheries"
-    - "reviews in fish biology and fisheries"
-    - "journal of fish biology"
-    - "aquaculture"
-    - "aquaculture environment interactions"
-    - "frontiers in genetics"
-    - "frontiers in ecology and evolution"
-    - "genome biology"
-    - "nature communications"
-    - "nature ecology & evolution"
-    - "science advances"
-    - "proceedings of the national academy of sciences"
-    - "proceedings. biological sciences"
-    - "current biology"
-    - "ecology and evolution"
-    - "heredity"
-    - "biological journal of the linnean society"
-    - "zoological research"
-    - "bmc biology"
-    - "bmc evolutionary biology"
-  track_b:
-    - "nature genetics"
-    - "nature methods"
-    - "nature biotechnology"
-    - "nature ecology & evolution"
-    - "genome research"
-    - "genome biology"
-    - "bioinformatics"
-    - "briefings in bioinformatics"
-    - "methods in ecology and evolution"
-    - "ecology and evolution"
-    - "trends in ecology & evolution"
-    - "trends in genetics"
-    - "trees"
-    - "genetics"
-    - "genetics research"
-    - "g3"
-    - "elife"
-    - "plos genetics"
-    - "plos biology"
-    - "plos computational biology"
-    - "plos one"
-    - "nucleic acids research"
-    - "gigascience"
-    - "gigaScience"
-    - "molecular biology and evolution"
-    - "systematic biology"
-    - "current biology"
-    - "science"
-    - "nature"
-    - "cell"
-    - "molecular ecology"
-    - "molecular ecology resources"
+# 保留层级下限：2 = 鱼类论文保留 T1/T2，非鱼类论文只保留 T1
+min_tier: 2
 
-# Tier 2 自动判据（来自 OpenAlex Sources API summary_stats，二者满足其一即可）
+# 鱼类判定：track A 的论文天然算鱼类；其他轨标题（小写、词首边界匹配）命中以下片段也算
+fish_title_patterns:
+  - "fish"             # fish/fishes/fishery/fishing
+  - "teleost"
+  - "cyprinid"
+  - "carp"
+  - "zebrafish"
+  - "cichlid"
+  - "salmon"
+  - "trout"
+  - "loach"
+  - "schizothor"      # Schizothorax/Schizothoracinae（前缀同时覆盖两者）
+  - "gymnocypris"
+  - "schizopygopsis"
+  - "ptychobarbus"
+  - "platypharodon"
+  - "diptychus"
+
+# 顶刊/子刊白名单：任何论文（含非鱼类）命中 → T1
+whitelist_top:
+  - "nature"
+  - "science"
+  - "cell"
+  - "nature communications"
+  - "nature genetics"
+  - "nature methods"
+  - "nature biotechnology"
+  - "nature ecology & evolution"
+  - "nature plants"
+  - "nature geoscience"
+  - "science advances"
+  - "proceedings of the national academy of sciences"
+  - "current biology"
+  - "cell reports"
+  - "molecular biology and evolution"
+  - "systematic biology"
+  - "molecular phylogenetics and evolution"
+  - "genome research"
+  - "genome biology"
+  - "bioinformatics"
+  - "briefings in bioinformatics"
+  - "nucleic acids research"
+  - "trends in ecology & evolution"
+  - "trends in genetics"
+  - "elife"
+  - "plos biology"
+  - "plos genetics"
+  - "plos computational biology"
+  - "molecular plant"
+  - "the plant cell"
+
+# 鱼类放宽白名单（约一/二区）：仅鱼类论文命中 → T1
+whitelist_fish:
+  - "molecular ecology"
+  - "molecular ecology resources"
+  - "evolution"
+  - "evolution letters"
+  - "journal of evolutionary biology"
+  - "heredity"
+  - "methods in ecology and evolution"
+  - "journal of biogeography"
+  - "diversity and distributions"
+  - "global ecology and biogeography"
+  - "fish and fisheries"
+  - "reviews in fish biology and fisheries"
+  - "aquaculture"
+  - "zoological research"
+  - "genome biology and evolution"
+  - "bmc biology"
+
+# 主题排除：标题命中（小写包含匹配）→ 一律 Tier 0，优先级高于一切白名单。
+# 用于剔除应激/胁迫控制实验类文献；想放行某类主题时删掉对应行即可。
+exclude_title_patterns:
+  - "stress"            # 覆盖 heat/cold/hypoxic/oxidative stress、stressor、stress-induced
+  - "tolerance"         # thermal/hypoxia/salt tolerance 类生理实验
+  - "acclimat"          # acclimation / acclimatization
+  - "heat shock"
+  - "hsp70"
+  - "hsp90"
+  - "cortisol"
+  - "antioxidant"
+
+# Tier 2 自动判据（仅对鱼类论文生效；来自 OpenAlex Sources API summary_stats，二者满足其一即可）
 thresholds:
   min_h_index: 120
   min_2yr_mean_citedness: 4.0

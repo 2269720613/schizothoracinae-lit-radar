@@ -13,6 +13,7 @@ from scripts.fetch import (
     enrich_source_metrics,
     dedupe_papers,
     tier_papers,
+    resolve_missing_source_ids,
 )
 
 
@@ -151,10 +152,14 @@ def test_fetch_biorxiv_recent_filters_by_keyword(mock_get):
 
 def _tier_cfg():
     return {
-        "whitelist": {"molecular ecology", "bioinformatics"},
+        "whitelist_top": {"molecular biology and evolution", "bioinformatics"},
+        "whitelist_fish": {"molecular ecology", "aquaculture"},
+        "fish_title_patterns": ["fish", "schizothor"],
         "min_h_index": 120,
         "min_2yr_mean_citedness": 4.0,
         "noise_title_patterns": ["occurrence download"],
+        "exclude_title_patterns": [],
+        "min_tier": 3,
     }
 
 
@@ -164,21 +169,60 @@ def test_normalize_journal_name_lowercases_and_collapses_spaces():
     assert normalize_journal_name(None) == ""
 
 
-def test_assign_tier_whitelist_is_tier1():
+def test_assign_tier_top_whitelist_non_fish_is_tier1():
     cfg = _tier_cfg()
-    paper = {"title": "T", "journal": "Molecular Ecology", "source": "OpenAlex",
-             "openalex_source_id": "S1"}
-    assign_tier(paper, {"S1": {"type": "journal", "is_core": True, "h_index": 10, "citedness": 1}}, cfg)
+    paper = {"title": "Centromere Evolution Across Eukaryotes", "journal": "Bioinformatics",
+             "source": "OpenAlex", "openalex_source_id": "S1"}
+    assign_tier(paper, {}, cfg)
+    assert paper["tier"] == 1
+    assert paper["is_fish"] is False
+
+
+def test_assign_tier_fish_whitelist_requires_fish_paper():
+    cfg = _tier_cfg()
+    fish_paper = {"title": "Population Genomics of Tibetan Fish", "journal": "Molecular Ecology",
+                  "source": "OpenAlex", "openalex_source_id": "S1"}
+    assign_tier(fish_paper, {}, cfg)
+    assert fish_paper["tier"] == 1
+    assert fish_paper["is_fish"] is True
+    non_fish = {"title": "Centromere Assembly in Maize", "journal": "Molecular Ecology",
+                "source": "OpenAlex", "openalex_source_id": "S2"}
+    assign_tier(non_fish, {}, cfg)
+    assert non_fish["tier"] == 3
+
+
+def test_assign_tier_track_a_is_fish_by_definition():
+    cfg = _tier_cfg()
+    paper = {"title": "T", "journal": "Molecular Ecology", "track": "A", "source": "OpenAlex"}
+    assign_tier(paper, {}, cfg)
+    assert paper["is_fish"] is True
     assert paper["tier"] == 1
 
 
-def test_assign_tier_metrics_are_tier2():
+def test_assign_tier_fish_title_pattern_is_word_start_anchored():
     cfg = _tier_cfg()
-    paper = {"title": "T", "journal": "Some Core Journal", "source": "OpenAlex",
-             "openalex_source_id": "S2"}
-    assign_tier(paper, {"S2": {"type": "journal", "is_core": True, "h_index": 200, "citedness": 5}}, cfg)
-    assert paper["tier"] == 2
-    assert paper["journal_h_index"] == 200
+    fishery = {"title": "A New Framework for Fishery Stock Assessment", "journal": "Aquaculture",
+               "source": "OpenAlex"}
+    assign_tier(fishery, {}, cfg)
+    assert fishery["is_fish"] is True
+    assert fishery["tier"] == 1
+    catfish = {"title": "Catfish Genome Assembly", "journal": "Aquaculture", "source": "OpenAlex"}
+    assign_tier(catfish, {}, cfg)
+    assert catfish["is_fish"] is False
+
+
+def test_assign_tier_metrics_path_requires_fish():
+    cfg = _tier_cfg()
+    metrics = {"S2": {"type": "journal", "is_core": True, "h_index": 200, "citedness": 5}}
+    fish_paper = {"title": "Schizothorax Population Structure", "journal": "Some Core Journal",
+                  "source": "OpenAlex", "openalex_source_id": "S2"}
+    assign_tier(fish_paper, metrics, cfg)
+    assert fish_paper["tier"] == 2
+    assert fish_paper["journal_h_index"] == 200
+    non_fish = {"title": "Centromere Drive in Plants", "journal": "Some Core Journal",
+                "source": "OpenAlex", "openalex_source_id": "S2"}
+    assign_tier(non_fish, metrics, cfg)
+    assert non_fish["tier"] == 3
 
 
 def test_assign_tier_has_journal_below_threshold_is_tier3():
@@ -191,9 +235,9 @@ def test_assign_tier_has_journal_below_threshold_is_tier3():
 
 def test_assign_tier_whitelist_wins_over_noise_pattern():
     cfg = _tier_cfg()
-    paper = {"title": "GBIF Occurrence Download for X", "journal": "Molecular Ecology",
+    paper = {"title": "GBIF Occurrence Download for Tibetan Fish", "journal": "Molecular Ecology",
              "source": "OpenAlex", "openalex_source_id": "S4"}
-    # whitelist wins over noise by design (explicit curated venue)
+    # fish whitelist wins over noise by design (explicit curated venue)
     assign_tier(paper, {}, cfg)
     assert paper["tier"] == 1
 
@@ -213,11 +257,91 @@ def test_assign_tier_no_journal_is_tier0():
     assert paper["tier"] == 0
 
 
-def test_assign_tier_biorxiv_track_b_is_tier2():
+def test_assign_tier_biorxiv_fish_tier2_non_fish_tier3():
     cfg = _tier_cfg()
-    paper = {"title": "T", "journal": "bioRxiv (preprint)", "source": "bioRxiv", "track": "B"}
-    assign_tier(paper, {}, cfg)
-    assert paper["tier"] == 2
+    fish_preprint = {"title": "Schizothorax Reference Genome", "journal": "bioRxiv (preprint)",
+                     "source": "bioRxiv", "track": "B"}
+    assign_tier(fish_preprint, {}, cfg)
+    assert fish_preprint["tier"] == 2
+    non_fish = {"title": "Centromere Assembly Pipeline", "journal": "bioRxiv (preprint)",
+                "source": "bioRxiv", "track": "B"}
+    assign_tier(non_fish, {}, cfg)
+    assert non_fish["tier"] == 3
+
+
+def test_assign_tier_exclude_pattern_beats_whitelist_and_biorxiv():
+    cfg = _tier_cfg()
+    cfg["exclude_title_patterns"] = ["stress"]
+    venue_paper = {"title": "Acute Heat Stress Response in Carp", "journal": "Molecular Ecology",
+                   "source": "OpenAlex", "openalex_source_id": "S1"}
+    assign_tier(venue_paper, {}, cfg)
+    assert venue_paper["tier"] == 0
+    preprint = {"title": "Thermal Stress Tolerance Experiment", "journal": "bioRxiv (preprint)",
+                "source": "bioRxiv", "track": "B"}
+    assign_tier(preprint, {}, cfg)
+    assert preprint["tier"] == 0
+
+
+def test_assign_tier_min_tier_downgrades_below_threshold_to_tier0():
+    cfg = _tier_cfg()
+    cfg["min_tier"] = 2
+    paper = {"title": "T", "journal": "Obscure Journal", "source": "OpenAlex",
+             "openalex_source_id": "S3"}
+    assign_tier(paper, {"S3": {"type": "journal", "is_core": True, "h_index": 5, "citedness": 0.5}}, cfg)
+    assert paper["tier"] == 0
+
+
+def test_assign_tier_min_tier_keeps_whitelist_and_tier2():
+    cfg = _tier_cfg()
+    cfg["min_tier"] = 2
+    top_paper = {"title": "T", "journal": "Bioinformatics", "source": "OpenAlex"}
+    assign_tier(top_paper, {}, cfg)
+    assert top_paper["tier"] == 1
+    fish_whitelist_paper = {"title": "T", "journal": "Molecular Ecology", "source": "OpenAlex",
+                            "track": "A"}
+    assign_tier(fish_whitelist_paper, {}, cfg)
+    assert fish_whitelist_paper["tier"] == 1
+    fish_metrics_paper = {"title": "T", "journal": "Some Core Journal", "source": "OpenAlex",
+                          "openalex_source_id": "S2", "track": "A"}
+    assign_tier(fish_metrics_paper, {"S2": {"type": "journal", "is_core": True, "h_index": 200, "citedness": 5}}, cfg)
+    assert fish_metrics_paper["tier"] == 2
+
+
+@patch("scripts.fetch.http_get_json")
+def test_resolve_missing_source_ids_matches_exact_and_prefix(mock_get):
+    def fake(url, *a, **k):
+        if "Molecular%20Ecology" in url or "Molecular+Ecology" in url or "Molecular Ecology" in url:
+            return {"results": [
+                {"id": "https://openalex.org/S1", "display_name": "Molecular Ecology", "type": "journal"},
+            ]}
+        if "Aquaculture" in url:
+            return {"results": [
+                {"id": "https://openalex.org/S2",
+                 "display_name": "Aquaculture (Amsterdam, Netherlands)", "type": "journal"},
+            ]}
+        if "Weird" in url:
+            return {"results": [
+                {"id": "https://openalex.org/S9", "display_name": "Weird Repository", "type": "repository"},
+            ]}
+        return {"results": []}
+
+    mock_get.side_effect = fake
+    papers = [
+        {"journal": "Molecular Ecology"},
+        {"journal": "Aquaculture (Amsterdam, Netherlands)"},
+        {"journal": "Weird Journal"},            # repository hit only -> unresolved
+        {"journal": "bioRxiv (preprint)"},       # skipped
+        {"journal": ""},                          # skipped
+        {"openalex_source_id": "S8", "journal": "Already Resolved"},  # skipped
+    ]
+    resolved = resolve_missing_source_ids(papers)
+    assert resolved == 2
+    assert papers[0]["openalex_source_id"] == "S1"
+    assert papers[1]["openalex_source_id"] == "S2"
+    assert "openalex_source_id" not in papers[2]
+    assert "openalex_source_id" not in papers[3]
+    assert "openalex_source_id" not in papers[4]
+    assert papers[5]["openalex_source_id"] == "S8"
 
 
 @patch("scripts.fetch.http_get_json")
