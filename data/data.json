@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:50:36Z",
+  "generated_at": "2026-09-03T10:50:24Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -175,6 +175,33 @@
           "tier": 0,
           "openalex_source_id": "S193677276",
           "is_fish": true
+        },
+        {
+          "id": "10.3390/cimb48090888",
+          "title": "Complete Mitochondrial Genome and Phylogenetic Analysis of the Chungtien Schizothoracin (Ptychobarbus chungtienensis)",
+          "authors": [
+            "Yuwei Qian",
+            "Ruoshan Ma",
+            "Shiguang Ma",
+            "Zhen Wang",
+            "Weidong Deng",
+            "Zhendong Gao",
+            "Bo Wang"
+          ],
+          "journal": "Current Issues in Molecular Biology",
+          "date": "2026-08-31",
+          "doi": "10.3390/cimb48090888",
+          "url": "https://openalex.org/W7204867702",
+          "abstract": "Background: The Chungtien schizothoracin (Ptychobarbus chungtienensis) is a threatened freshwater fish endemic to the Qinghai–Tibet Plateau and adjacent high-altitude regions of northwestern Yunnan, China. Although a complete mitochondrial genome of P. chungtienensis has been previously reported, direct comparison with a mitogenome generated using high-accuracy long-read sequencing can provide additional information on mitochondrial genome structure and sequence variation. This study aimed to assemble and annotate a complete mitogenome of P. chungtienensis using PacBio HiFi sequencing and to compare its mitogenomic characteristics with previously published Ptychobarbus mitogenomes. Methods: High-molecular-weight genomic DNA from a single specimen was sequenced using PacBio HiFi long-read technology. The mitochondrial genome was assembled using MitoHiFi, annotated using MitoFinder followed by manual curation, and compared with previously published Ptychobarbus mitogenomes. Phylogenetic relationships were evaluated using maximum-likelihood analysis with expanded taxon sampling, and selection pressure on the 13 mitochondrial protein-coding genes was assessed using dN/dS-based branch and branch-site models. Results: The assembled mitogenome is 16,583 bp in length and contains the typical 37 mitochondrial genes, including 13 protein-coding genes, 22 tRNA genes, and 2 rRNA genes, together with a control region and the origin of light-strand replication (OL). The overall A + T content was 54.97%. Direct comparison with the previously reported 16,970 bp mitogenome showed that the 387 bp length difference was concentrated in non-coding regions, particularly the control region and the tRNA-Thr–tRNA-Pro intergenic region. Phylogenetic analysis based on 22 complete mitogenomes placed the newly assembled P. chungtienensis sequence in a strongly supported mitochondrial clade with Schizothorax macropogon (bootstrap = 100%), whereas the previously reported P. chungtienensis sequence clustered with P. kaznakovi (bootstrap = 100%), indicating that the two P. chungtienensis records represent distinct mitochondrial lineages. The dN/dS values of all 13 mitochondrial protein-coding genes were below 1, and neither branch nor branch–site analyses detected significant evidence of lineage-specific positive selection. Conclusions: This long-read-based mitogenome provides a high-quality genomic resource for P. chungtienensis and reveals substantial mitochondrial sequence and lineage variation among available records. These results provide a basis for comparative mitogenomic and conservation genetic studies while also indicating that species-level phylogenetic relationships and high-altitude adaptation should not be inferred from mitochondrial data alone.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S62841813",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1186/s12864-026-13296-4",
@@ -16666,6 +16693,27 @@
           "track": "B",
           "source": "PubMed",
           "openalex_source_id": "S48437117",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1186/s12870-026-09872-1",
+          "title": "Nonadditive gene expression and reduced homoeolog expression bias in an intraspecific hexaploid wheat hybrid.",
+          "authors": [
+            "Ardaman A",
+            "Forgiarini C",
+            "Arunkumar R"
+          ],
+          "journal": "BMC plant biology",
+          "date": "2026-09-02",
+          "doi": "10.1186/s12870-026-09872-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42687152/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "openalex_source_id": "S6444338",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -38011,7 +38059,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1002/pros.24459",
@@ -38033,7 +38082,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S197000376"
         },
         {
           "id": "10.1111/pbi.13958",
@@ -38093,7 +38143,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S140378306"
         },
         {
           "id": "10.1002/ajb2.16121",
@@ -38251,7 +38302,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0289766",
@@ -38302,7 +38354,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.7717/peerj.14756",
@@ -38322,7 +38375,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S1983995261"
         },
         {
           "id": "10.1016/bs.acr.2022.11.001",
@@ -38349,7 +38403,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210240594"
         },
         {
           "id": "10.1111/ppl.13870",
@@ -38377,7 +38432,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S185046733"
         },
         {
           "id": "10.1007/978-1-0716-2561-3_21",
@@ -38496,7 +38552,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S198828251"
         },
         {
           "id": "10.1007/978-1-0716-2561-3_6",
@@ -38640,7 +38697,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2755483584"
         },
         {
           "id": "10.1128/mbio.02858-22",
@@ -38665,7 +38723,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210201176"
         },
         {
           "id": "10.1016/j.jare.2022.04.003",
@@ -38869,7 +38928,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S55776271"
         },
         {
           "id": "10.1093/molbev/msac214",
@@ -38936,7 +38996,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S175946340"
         },
         {
           "id": "10.1002/ps.7093",
@@ -39146,7 +39207,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S201780205"
         },
         {
           "id": "10.1002/jsfa.11950",
@@ -39179,7 +39241,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S206298197"
         },
         {
           "id": "10.1093/jas/skac274",
@@ -39325,7 +39388,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.1111/nph.18284",
@@ -39852,7 +39916,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210212477"
         },
         {
           "id": "10.1073/pnas.2200016119",
@@ -39908,7 +39973,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S192926780"
         },
         {
           "id": "10.1016/j.molp.2022.05.001",
@@ -39962,7 +40028,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S200071133"
         },
         {
           "id": "10.4103/1673-5374.346482",
@@ -40265,7 +40332,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S55776271"
         },
         {
           "id": "10.1093/molbev/msac056",
@@ -41129,7 +41197,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0276390",
@@ -41203,7 +41272,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S1983995261"
         },
         {
           "id": "35652206",
@@ -41415,7 +41485,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fpls.2022.999964",
@@ -41439,7 +41510,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0276556",
@@ -42910,6 +42982,32 @@
           "tier": 0
         },
         {
+          "id": "10.1159/cgr/achag005",
+          "title": "Comparative cytogenetics of Crocidura species: C. kegoensis, C. dracula and C.sibirica (Soricidae, Eulipotyphla).",
+          "authors": [
+            "Biltueva LS",
+            "Lemskaya NA",
+            "Abramov A",
+            "Dung DT",
+            "Serdyukova NA",
+            "Proskuryakova AA",
+            "Trifonov V",
+            "Pereira J",
+            "Romanenko S"
+          ],
+          "journal": "Cytogenetic and genome research",
+          "date": "2026-09-02",
+          "doi": "10.1159/cgr/achag005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42684962/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1016/j.abiote.2026.100049",
           "title": "Unveiling rapid plant diversification: Exploring the \"Fast-Subspeciation Kingdom\" of Brassica rapa.",
           "authors": [
@@ -42924,6 +43022,31 @@
           "abstract": "",
           "track": "C",
           "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.3390/jof12090651",
+          "title": "Saccharomycopsis schoenii: A Model Predatory Yeast Provides Insights into Evolution, Genomics and Biocontrol",
+          "authors": [
+            "Divya Kriti",
+            "Marjan Barazandeh",
+            "Joseph Uche Ogbede",
+            "Guri Giaever",
+            "Corey Nislow"
+          ],
+          "journal": "Journal of Fungi",
+          "date": "2026-09-01",
+          "doi": "10.3390/jof12090651",
+          "url": "https://openalex.org/W7204960515",
+          "abstract": "Fungal mycoparasitism, where one fungus preys on another, offers a sustainable, eco-friendly alternative to synthetic chemical fungicides in agriculture and conventional antifungal therapies to manage clinical pathogens. The budding yeast Saccharomycopsis schoenii has emerged as a compelling model for contact-dependent, necrotrophic predation. Belonging to the CUG-Ser2 clade, its obligate predatory lifestyle is characterized by extensive genomic restructuring, including the loss of the sulfate assimilation pathway, which couples methionine starvation to a predatory behavioral switch. In this review, we highlight recent comparative genomics and functional studies as they relate to S. schoenii predation. For example, S. schoenii uses rewired mitogen-activated protein kinase (MAPK) signaling, actin-based penetration pegs and a large tandem expansion of secreted aspartic proteases (SAPs) to breach prey cell walls. Analysis of its genome reveals structural adaptations, including AT-rich regional centromeres and dispersed mating-type (MAT) loci. The more we learn about S. schoenii’s contact-dependent attack, the greater the opportunities to deploy S. schoenii as a safe, mycotoxin-free biocontrol agent against both multi-drug-resistant Candida auris and post-harvest Penicillium molds.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2737643958",
+          "source_type": "journal",
+          "source_is_core": true,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -50107,7 +50230,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3897/compcytogen.20.170539",
@@ -50270,7 +50394,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1016/bs.apcsb.2026.01.002",
@@ -51884,7 +52009,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S192926780"
         },
         {
           "id": "40964079",
@@ -52523,7 +52649,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1101/2025.09.30.679541",
@@ -53013,7 +53140,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210201176"
         },
         {
           "id": "10.1101/2025.10.03.680364",
@@ -55299,7 +55427,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.1038/s41586-025-09171-z",
@@ -57624,7 +57753,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.26508/lsa.202402819",
@@ -59813,7 +59943,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3897/compcytogen.19.157310",
@@ -60520,7 +60651,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1080/10985549.2025.2487010",
@@ -61067,7 +61199,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210201176"
         },
         {
           "id": "10.1007/s00412-024-00827-9",
@@ -62007,7 +62140,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.1146/annurev-genet-111523-102603",
@@ -62875,7 +63009,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210212477"
         },
         {
           "id": "10.1111/pbi.14479",
@@ -65028,7 +65163,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.3390/genes15060722",
@@ -65277,7 +65413,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S175946340"
         },
         {
           "id": "10.1093/clinchem/hvae009",
@@ -66420,7 +66557,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1007/s13237-024-00474-6",
@@ -66652,7 +66790,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210201176"
         },
         {
           "id": "10.1093/genetics/iyad216",
@@ -68077,7 +68216,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S1983995261"
         },
         {
           "id": "10.3389/fpls.2024.1330927",
@@ -68104,7 +68244,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1159/000542295",
@@ -68344,7 +68485,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.48130/forres-0024-0016",
@@ -68558,7 +68700,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1080/10985549.2024.2382445",
@@ -70839,7 +70982,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1128/mbio.00645-23",
@@ -70861,7 +71005,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210201176"
         },
         {
           "id": "10.5281/zenodo.6081366",
@@ -72188,7 +72333,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.1038/s41467-023-38920-9",
@@ -72547,7 +72693,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1093/aob/mcad036",
@@ -73044,7 +73191,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1091/mbc.e22-10-0466",
@@ -73064,7 +73212,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.31857/s0041377123030094",
@@ -74916,7 +75065,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fpls.2023.1232588",
@@ -74937,7 +75087,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fgene.2023.1101397",
@@ -75211,7 +75362,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.7150/ijbs.85656",
@@ -75456,7 +75608,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210201176"
         },
         {
           "id": "10.1093/plcell/koac361",
@@ -77018,7 +77171,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1007/s11427-021-2077-1",
@@ -77964,7 +78118,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.3390/genes13071185",
@@ -80645,7 +80800,8 @@
           "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fpls.2022.1026364",
@@ -80665,7 +80821,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fcell.2022.862637",
@@ -80705,7 +80862,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fpls.2022.875202",
@@ -80724,7 +80882,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fcell.2022.826461",
@@ -80791,7 +80950,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fgene.2022.838462",
@@ -81174,7 +81334,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1007/978-3-031-00793-4_7",
@@ -81369,7 +81530,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fpls.2022.854911",
@@ -81389,7 +81551,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1016/j.bbrc.2021.11.077",
@@ -82466,7 +82629,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1016/j.imlet.2021.08.002",
@@ -83476,7 +83640,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fimmu.2021.716289",
@@ -83568,7 +83733,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0258028",
@@ -86450,7 +86616,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1139/gen-2025-0028",
@@ -87525,7 +87692,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S1983995261"
         },
         {
           "id": "10.14241/asgp.2024.02",
@@ -89379,7 +89547,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.7717/peerj.13186",
@@ -89400,7 +89569,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S1983995261"
         },
         {
           "id": "10.3389/fpls.2022.915526",
@@ -89424,7 +89594,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.7717/peerj.13345",
@@ -89447,7 +89618,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S1983995261"
         },
         {
           "id": "10.1002/ece3.8493",
@@ -89561,7 +89733,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1111/mec.16223",
@@ -90104,39 +90277,39 @@
     }
   },
   "stats": {
-    "total_count": 3399,
+    "total_count": 3403,
     "new_this_week": 26,
     "weekly_trend": [
       {
         "week": "2026-W30",
-        "count": 21
+        "count": 37
       },
       {
         "week": "2026-W31",
-        "count": 131
+        "count": 127
       },
       {
         "week": "2026-W32",
-        "count": 96
+        "count": 97
       },
       {
         "week": "2026-W33",
-        "count": 70
+        "count": 71
       },
       {
         "week": "2026-W34",
-        "count": 102
+        "count": 90
       },
       {
         "week": "2026-W35",
-        "count": 16
+        "count": 17
       }
     ],
     "tier_counts": {
       "1": 463,
       "2": 0,
       "3": 0,
-      "0": 2936
+      "0": 2940
     }
   }
 }
