@@ -59,6 +59,18 @@ python3 scripts/fetch.py --backfill   # 窗口 = 5×365 天,每关键词上限 1
 
 回填与常规抓取共用同一套分级/去重/回填 source ID 逻辑,产出直接覆盖 `data/data.json`。
 
+## Obsidian 每日精选同步(本机 Windows 计划任务)
+
+GitHub Actions 负责"抓取→分级→发布",**每日精选到 Obsidian**由本机 Windows 计划任务完成:
+
+1. **脚本** `scripts/obsidian_digest.py`:从 jsdelivr CDN / GitHub raw 拉取最新 `data/data.json`,按"期刊层级(T1→T2→T3)+时效+与项目主线相关性"四轨各精选 Top 5,生成日报写入 Obsidian。
+2. **输出** `D:\笔记本\文献阅读\文献阅读\文献精读\文献雷达\YYYY-MM-DD.md`(Obsidian 库 `文献精读` 下)。
+3. **去重** `文献雷达\.state.json`:按日期记录已推送论文,同日多次运行取并集,跨日不重复。
+4. **调度** Windows 计划任务 `LitRadar_ObsidianDigest`,每日 15:30(北京时间,在云端 14:00 抓取之后)运行 `D:\lit-radar\scripts\run_digest.ps1` → `C:\Python314\python.exe obsidian_digest.py`,日志见 `D:\lit-radar\logs\digest_log.txt`。
+5. **容错** 对 4 个 CDN 数据源各重试 2 次,总预算 70s 硬超时,包装器 200s 进程级强杀,不会挂死;网络全挂时快速失败并记日志,不产生脏数据。
+
+> 精选口径反映本项目研究主线(裂腹鱼/多倍化·再二倍化/着丝粒/第四纪古气候)。想调整每轨篇数或关注词,改脚本顶部 `RELEVANCE` 与 `--top` 参数即可。
+
 ## 配置
 
 - `config/keywords.yaml`:调整四条主题轨的检索关键词,不需改代码。
