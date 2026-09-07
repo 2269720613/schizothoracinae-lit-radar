@@ -76,21 +76,24 @@ def http_get(url, timeout=10):
 
 
 def _load_data_impl():
-    """实际拉取逻辑(在守护线程中执行, 由硬超时兜底)。"""
+    """实际拉取逻辑(在守护线程中执行, 由硬超时兜底)。
+    本地 data.json 优先(本地 fetch.py 每日 15:30 前已更新, 最新), 网络源兜底。"""
+    # 本地优先: 今天 fetch.py 刚跑完, 本地数据比 GitHub 新鲜且网络不可达时也能出日报
+    try:
+        if LOCAL_DATA.exists():
+            d = json.loads(LOCAL_DATA.read_text(encoding="utf-8"))
+            if d:
+                return d, "local"
+    except Exception as exc:
+        print(f"WARN: read local data failed: {exc}", file=sys.stderr)
     for name, url in DATA_SOURCES:
         for attempt in range(2):
             try:
-                d = json.loads(http_get(url))
+                d = json.loads(http_get(url, timeout=6))
                 if d:
                     return d, name
             except Exception as exc:
                 print(f"WARN: {name} 第{attempt+1}次失败: {exc}", file=sys.stderr)
-    # 有界本地回退: 读仓库本地 data.json (可能略旧, 但去重逻辑保证不会重复推送)。
-    try:
-        if LOCAL_DATA.exists():
-            return json.loads(LOCAL_DATA.read_text(encoding="utf-8")), "local"
-    except Exception as exc:
-        print(f"WARN: read local data failed: {exc}", file=sys.stderr)
     return None, None
 
 
