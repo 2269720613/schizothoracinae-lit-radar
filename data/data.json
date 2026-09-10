@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:54:35Z",
+  "generated_at": "2026-09-10T10:50:56Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -16781,6 +16781,32 @@
           "tier": 0,
           "openalex_source_id": "S201530359",
           "is_fish": false
+        },
+        {
+          "id": "10.1007/s10142-026-02036-2",
+          "title": "Integrated transcriptomic and metabolomic analysis reveals candidate regulatory networks associated with starch accumulation in tetraploid potato.",
+          "authors": [
+            "Lian H",
+            "Zhang C",
+            "Ma Y",
+            "Ye G",
+            "Yang S",
+            "Zhou Y",
+            "Su W",
+            "Wang J"
+          ],
+          "journal": "Functional & integrative genomics",
+          "date": "2026-09-09",
+          "doi": "10.1007/s10142-026-02036-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42711463/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "openalex_source_id": "S205083708",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.1093/jhered/esag074",
@@ -43234,6 +43260,93 @@
           "tier": 0
         },
         {
+          "id": "10.1038/s41598-026-66448-7",
+          "title": "Molecular divergence and genomic composition of B chromosomes in the fish Cyphocharax modestus (Characiformes, Curimatidae).",
+          "authors": [
+            "Dos Santos N",
+            "Sassi FMC",
+            "Dos Santos RZ",
+            "Goes CAG",
+            "de Moraes RLR",
+            "Porto-Foresti F",
+            "Liehr T",
+            "Cioffi MB",
+            "Utsunomia R"
+          ],
+          "journal": "Scientific reports",
+          "date": "2026-09-09",
+          "doi": "10.1038/s41598-026-66448-7",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42717220/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S196734849",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "id": "10.1038/s41556-026-02040-5",
+          "title": "The periphery of nuclear speckles defines a spatially and temporally regulated compartment of long-lived intron-retained RNAs that resolves during mitosis",
+          "authors": [
+            "Josep Biayna",
+            "Artem Baranovskii",
+            "Anusha Chaudhuri",
+            "Marta Paladin",
+            "Berkay Erdem",
+            "Luise-Elektra Keller",
+            "A. Rasim Barutcu",
+            "Stefanie Dimmeler",
+            "Annalisa Marsico",
+            "Gabrijela Dumbović"
+          ],
+          "journal": "Nature Cell Biology",
+          "date": "2026-09-09",
+          "doi": "10.1038/s41556-026-02040-5",
+          "url": "https://openalex.org/W7212014118",
+          "abstract": "Abstract RNA localization adds a fundamental layer to gene expression by determining when and where translation-ready mRNAs become available, yet how this timing is coordinated with nuclear architecture and cell-cycle progression remains unclear. Here we identify a subnuclear RNA niche at the nuclear speckle periphery that couples intron retention to cell-cycle-timed RNA release. Using compartment-resolved transcriptional inhibition, sequence-based deep learning and single-molecule and super-resolution RNA imaging in human pluripotent stem cells, we define a class of nuclear RNAs with long-lived retained introns that persist for hours and are enriched in transcripts encoding regulators of genome maintenance and mitosis, including centromere and kinetochore assembly, DNA repair and telomere maintenance. Long-lived retained introns exhibit elevated GC content, predicted structural stability and enrichment for nuclear speckle-associated RNA-binding proteins. In interphase, these RNAs localize to a distinct nuclear speckle-peripheral RNA niche in a spatial arrangement conserved across cell types. During mitotic remodelling, they undergo coordinated, kinase-dependent splicing and are released into the cytoplasm of early G1 daughter cells. Together, these findings link cis -encoded intronic features, subnuclear organization and mitotic remodelling to temporal control of RNA fate.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S151741590",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1126/sciadv.aef1579",
+          "title": "The CENP-A chaperone complex spatially organizes centromeres",
+          "authors": [
+            "Hindol Gupta",
+            "Julian Haase",
+            "Yicong Wu",
+            "Jiji Chen",
+            "Warif El Yakoubi",
+            "George I Karadimov",
+            "Ana Losada",
+            "Takashi Akera",
+            "Hari Shroff",
+            "Alexander E. Kelly"
+          ],
+          "journal": "Science Advances",
+          "date": "2026-09-09",
+          "doi": "10.1126/sciadv.aef1579",
+          "url": "https://openalex.org/W7212063107",
+          "abstract": "Centromeres, defined by CENP-A–containing nucleosomes, direct kinetochore assembly for spindle attachment. In mitosis, CENP-A and the constitutive centromere-associated network (CCAN) of the inner kinetochore are arranged into bipartite subdomains within clearings of chromatin. However, less is known about their architecture during interphase. We report here an unrecognized structural role for the CENP-A chaperone machinery in establishing interphase centromere architecture. In interphase, CENP-A and the CCAN assemble conserved shell-like structures that enclose a chromatin-poor central cavity. This cavity is occupied by the interphase-specific CENP-A chaperone complex, which promotes CENP-A assembly once per cell cycle. The presence of the chaperone complex, but not its CENP-A–incorporating activity, is required to generate both the shell architecture and chromatin clearing. The CCAN scaffold CENP-C exhibits radial organization throughout the structure and is essential for its formation, primarily by recruiting the HJURP chaperone. Our findings broaden the role of the CENP-A chaperone machinery to include the structural organization of interphase vertebrate centromeres, independent of CENP-A deposition.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2737427234",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
           "id": "10.1007/s10577-026-09814-5",
           "title": "Satellite DNAs in Drosophila koepferae (repleta group) reveal patterns of origin, chromosomal organization, transcription, and turnover in the buzzatii cluster.",
           "authors": [
@@ -53239,7 +53352,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S14303005"
         },
         {
           "id": "10.1186/s12864-025-12118-3",
@@ -53718,7 +53832,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S44278595"
         },
         {
           "id": "10.1016/j.gde.2025.102379",
@@ -53738,7 +53853,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S116174365"
         },
         {
           "id": "10.1111/1755-0998.70008",
@@ -53938,7 +54054,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S155115555"
         },
         {
           "id": "10.1016/j.isci.2025.113251",
@@ -54536,7 +54653,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S50823678"
         },
         {
           "id": "10.1038/s41597-025-05735-w",
@@ -54578,7 +54696,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210179406"
         },
         {
           "id": "10.1016/j.cub.2025.07.011",
@@ -54961,7 +55080,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S116174365"
         },
         {
           "id": "10.1038/s41586-025-09140-6",
@@ -65608,7 +65728,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S155115555"
         },
         {
           "id": "10.1371/journal.pbio.3002682",
@@ -70672,7 +70793,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S116174365"
         },
         {
           "id": "10.1111/nph.19176",
@@ -76241,7 +76363,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S116174365"
         },
         {
           "id": "10.1007/s10577-022-09707-3",
@@ -83294,7 +83417,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S155115555"
         },
         {
           "id": "10.1093/dnares/dsab021",
@@ -84384,6 +84508,30 @@
           "is_fish": false,
           "tier": 1,
           "openalex_source_id": "S96989847"
+        },
+        {
+          "id": "10.1111/jse.70115",
+          "title": "Quaternary megafauna in China: Insights from paleogenomics",
+          "authors": [
+            "Guilian Sheng",
+            "Mingmin Zheng",
+            "Junxia Yuan",
+            "Xulong Lai"
+          ],
+          "journal": "Journal of Systematics and Evolution",
+          "date": "2026-09-08",
+          "doi": "10.1111/jse.70115",
+          "url": "https://openalex.org/W7211927505",
+          "abstract": "Abstract Over the past two decades, advances in high‐throughput‐sequencing technology platforms and in the recovery of highly degraded DNA have ushered ancient DNA research into the era of deep‐time paleogenomics, expanding sample ages from no more than 100 ka to the Early Pleistocene (~2 Ma). These developments have resolved long‐standing phylogenetic controversies, refined reconstructions of the dispersal and population history across diverse taxa (including humans), and enabled direct investigation of molecular response to Quaternary climate change. Paleogenomics in China developed later than in Europe and North America, with early landmark breakthroughs largely focused on ancient human remains. However, China preserves one of the richest and most distinctive records of Quaternary megafauna, many lineages of which are morphologically and genetically differentiated from their western Eurasian counterparts. Here, we synthesize recent paleogenomic advances across major megafauna clades, including Proboscidea, Perissodactyla, Artiodactyla, and large Carnivora, to evaluate how time‐resolved genomic data are reshaping systematics, phylogeography, and evolutionary interpretation of the Chinese Quaternary fauna. Current megafauna paleogenomic coverage remains taxonomically and geographically biased toward northern assemblages and mitochondrial datasets. We therefore outline key methodological and sampling priorities, including coordinated recovery of nuclear genomes and improved approaches for southern contexts with poor preservation, to position Chinese megafaunal paleogenomics as a platform for testing general models of megafauna responses to Quaternary climatic oscillations. These efforts refine the systematics and evolutionary history of Chinese Quaternary megafauna and provide a conceptual model for understanding how megafauna respond to Quaternary climate oscillations worldwide.",
+          "track": "D",
+          "source": "OpenAlex",
+          "openalex_source_id": "S56397279",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.3390/biology15151299",
@@ -90871,39 +91019,39 @@
     }
   },
   "stats": {
-    "total_count": 3414,
-    "new_this_week": 20,
+    "total_count": 3419,
+    "new_this_week": 22,
     "weekly_trend": [
       {
         "week": "2026-W31",
-        "count": 131
+        "count": 127
       },
       {
         "week": "2026-W32",
-        "count": 96
+        "count": 97
       },
       {
         "week": "2026-W33",
-        "count": 70
+        "count": 71
       },
       {
         "week": "2026-W34",
-        "count": 102
+        "count": 90
       },
       {
         "week": "2026-W35",
-        "count": 21
+        "count": 20
       },
       {
         "week": "2026-W36",
-        "count": 9
+        "count": 11
       }
     ],
     "tier_counts": {
-      "1": 465,
+      "1": 466,
       "2": 0,
       "3": 0,
-      "0": 2949
+      "0": 2953
     }
   }
 }
