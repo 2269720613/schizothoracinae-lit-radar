@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:50:56Z",
+  "generated_at": "2026-09-11T10:47:06Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -43258,6 +43258,26 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "id": "10.7554/elife.108238",
+          "title": "The genetic control of rapid genome content divergence in Arabidopsis thaliana.",
+          "authors": [
+            "Fiscus CJ",
+            "Koenig D"
+          ],
+          "journal": "eLife",
+          "date": "2026-09-10",
+          "doi": "10.7554/elife.108238",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720113/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S1336409049",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "id": "10.1038/s41598-026-66448-7",
@@ -91019,24 +91039,24 @@
     }
   },
   "stats": {
-    "total_count": 3419,
-    "new_this_week": 22,
+    "total_count": 3420,
+    "new_this_week": 23,
     "weekly_trend": [
       {
         "week": "2026-W31",
-        "count": 127
+        "count": 123
       },
       {
         "week": "2026-W32",
-        "count": 97
+        "count": 84
       },
       {
         "week": "2026-W33",
-        "count": 71
+        "count": 85
       },
       {
         "week": "2026-W34",
-        "count": 90
+        "count": 65
       },
       {
         "week": "2026-W35",
@@ -91044,11 +91064,11 @@
       },
       {
         "week": "2026-W36",
-        "count": 11
+        "count": 12
       }
     ],
     "tier_counts": {
-      "1": 466,
+      "1": 467,
       "2": 0,
       "3": 0,
       "0": 2953
