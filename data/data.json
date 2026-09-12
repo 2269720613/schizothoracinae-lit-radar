@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:47:06Z",
+  "generated_at": "2026-09-12T10:16:10Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -43260,6 +43260,29 @@
           "tier": 0
         },
         {
+          "id": "10.1038/s41437-026-00882-1",
+          "title": "Retention of a single Cenp-C gene in different syntenic locations in the montium group of Drosophila species.",
+          "authors": [
+            "Soares RF",
+            "Chang CH",
+            "Koerich LB",
+            "Malik HS",
+            "Kuhn GCS"
+          ],
+          "journal": "Heredity",
+          "date": "2026-09-11",
+          "doi": "10.1038/s41437-026-00882-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42728335/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S99462834",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.7554/elife.108238",
           "title": "The genetic control of rapid genome content divergence in Arabidopsis thaliana.",
           "authors": [
@@ -56380,7 +56403,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210213696"
         },
         {
           "id": "10.1111/pbi.70117",
@@ -56659,7 +56683,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1007/s12185-025-03938-w",
@@ -56688,7 +56713,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S45192162"
         },
         {
           "id": "10.1016/j.jgg.2025.03.015",
@@ -56813,7 +56839,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S124948411"
         },
         {
           "id": "10.1111/pbi.70070",
@@ -56864,7 +56891,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S104038378"
         },
         {
           "id": "10.1101/2025.05.15.654293",
@@ -57420,7 +57448,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S176558078"
         },
         {
           "id": "10.1093/hr/uhaf030",
@@ -57466,7 +57495,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S136233269"
         },
         {
           "id": "10.1016/j.bbagen.2025.130790",
@@ -60194,7 +60224,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210213696"
         },
         {
           "id": "10.3390/genes16010086",
@@ -61723,7 +61754,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1101/2024.12.10.627825",
@@ -63715,7 +63747,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1101/2023.12.30.573721",
@@ -66949,7 +66982,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1007/s00412-024-00818-w",
@@ -68094,7 +68128,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1038/s41477-023-01614-7",
@@ -70980,7 +71015,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S136233269"
         },
         {
           "id": "10.1016/j.sbi.2023.102694",
@@ -73404,7 +73440,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.15252/embj.2022111587",
@@ -77669,7 +77706,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1038/s41467-022-32924-7",
@@ -80520,7 +80558,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S136233269"
         },
         {
           "id": "10.26508/lsa.202101134",
@@ -82677,7 +82716,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S5677253"
         },
         {
           "id": "10.1016/j.ajpath.2021.08.010",
@@ -91039,39 +91079,39 @@
     }
   },
   "stats": {
-    "total_count": 3420,
-    "new_this_week": 23,
+    "total_count": 3421,
+    "new_this_week": 22,
     "weekly_trend": [
       {
         "week": "2026-W31",
-        "count": 123
+        "count": 122
       },
       {
         "week": "2026-W32",
-        "count": 84
+        "count": 81
       },
       {
         "week": "2026-W33",
-        "count": 85
+        "count": 81
       },
       {
         "week": "2026-W34",
-        "count": 65
+        "count": 55
       },
       {
         "week": "2026-W35",
-        "count": 20
+        "count": 21
       },
       {
         "week": "2026-W36",
-        "count": 12
+        "count": 11
       }
     ],
     "tier_counts": {
       "1": 467,
       "2": 0,
       "3": 0,
-      "0": 2953
+      "0": 2954
     }
   }
 }
