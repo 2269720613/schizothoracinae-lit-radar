@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:16:10Z",
+  "generated_at": "2026-09-13T11:16:15Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -16781,6 +16781,28 @@
           "tier": 0,
           "openalex_source_id": "S201530359",
           "is_fish": false
+        },
+        {
+          "id": "10.1007/s00122-026-05373-9",
+          "title": "From family trials to genomic mate allocation: statistical and genomic strategies to accelerate sugarcane genetic improvement.",
+          "authors": [
+            "Rigby A",
+            "Atkin F",
+            "Hayes B",
+            "Hickey L",
+            "Yadav S"
+          ],
+          "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+          "date": "2026-09-12",
+          "doi": "10.1007/s00122-026-05373-9",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42732031/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.1007/s10142-026-02036-2",
@@ -57990,7 +58012,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S136610595"
         },
         {
           "id": "10.1111/tpj.70153",
@@ -58944,7 +58967,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210239318"
         },
         {
           "id": "10.1038/s41467-025-57438-w",
@@ -59281,7 +59305,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764965054"
         },
         {
           "id": "10.1007/s00432-025-06144-7",
@@ -59302,7 +59327,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10075937"
         },
         {
           "id": "10.1093/hr/uhaf007",
@@ -59412,7 +59438,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S96615428"
         },
         {
           "id": "10.1016/j.celrep.2025.115259",
@@ -59976,7 +60003,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S133439003"
         },
         {
           "id": "10.1093/jeb/voae142",
@@ -71084,7 +71112,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S136610595"
         },
         {
           "id": "10.7554/elife.86721",
@@ -91079,12 +91108,12 @@
     }
   },
   "stats": {
-    "total_count": 3421,
+    "total_count": 3422,
     "new_this_week": 22,
     "weekly_trend": [
       {
         "week": "2026-W31",
-        "count": 122
+        "count": 99
       },
       {
         "week": "2026-W32",
@@ -91092,15 +91121,15 @@
       },
       {
         "week": "2026-W33",
-        "count": 81
+        "count": 88
       },
       {
         "week": "2026-W34",
-        "count": 55
+        "count": 43
       },
       {
         "week": "2026-W35",
-        "count": 21
+        "count": 20
       },
       {
         "week": "2026-W36",
@@ -91111,7 +91140,7 @@
       "1": 467,
       "2": 0,
       "3": 0,
-      "0": 2954
+      "0": 2955
     }
   }
 }
