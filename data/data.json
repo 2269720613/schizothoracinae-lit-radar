@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:16:15Z",
+  "generated_at": "2026-09-14T12:05:59Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -64,6 +64,32 @@
           "tier": 0,
           "openalex_source_id": "S185787987",
           "is_fish": true
+        },
+        {
+          "id": "10.3389/faquc.2026.1846130",
+          "title": "First report of Ichthyobodo necator, a flagellate protozoan parasite, in Schizothorax niger from the River Jhelum in the Kashmir Himalayas, India",
+          "authors": [
+            "Ishrat Shafi",
+            "Asifa Wali",
+            "Feroz A. Shah",
+            "Gowhar Iqbal",
+            "Shabir Ahmad Dar",
+            "Nazir Ah Sofi"
+          ],
+          "journal": "Frontiers in Aquaculture",
+          "date": "2026-09-11",
+          "doi": "10.3389/faquc.2026.1846130",
+          "url": "https://openalex.org/W7212291561",
+          "abstract": "Ichthyobodo necator was obtained from skin during a parasitological survey conducted for the detection of ectoparasites in Schizothorax fish species from the River Jhelum, Kashmir, India, over a period of six months. Out of 290 collected fish samples, only one fish was found to be infected with I. necator (flagellate protozoan parasite). The primary pathological changes observed in the skin tissue during this study were the destruction of the epidermis, formation of vacuoles in the epidermal cells, and significant hyperplasia of the goblet cells. Epidermal cells were observed to have lost their interlinking cell membranes, and the outer surface layers of the epidermis occasionally seemed to slough. In addition, scanning electron microscopy (SEM) was used to provide a detailed morphological examination and deeper exploration of the intricate relationship between parasite and host. The SEM images clearly reveal comma-shaped I. necator organisms attached to the host cell through an attachment disc. These observations are based on histopathological observations of a single individual. The findings presented here contribute not only to the knowledge of parasite diversity in the Kashmir Himalayas but also serve as a foundation for future research on the ecology, biology, and management of freshwater ecosystems. This is the first record of the flagellate protozoan fauna of the Schizothoracines from the Kashmir Valley, India.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4387285940",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1007/s40009-026-02449-4",
@@ -43282,6 +43308,31 @@
           "tier": 0
         },
         {
+          "id": "10.1093/bioadv/vbag270",
+          "title": "CentroFinder: a multi-feature framework for de novo prediction of fungal regional centromeres",
+          "authors": [
+            "Sahar Salimi",
+            "Sharon Colson",
+            "Michael Renfro",
+            "Li-Jun Ma",
+            "Mostafa Rahnama"
+          ],
+          "journal": "Bioinformatics Advances",
+          "date": "2026-09-12",
+          "doi": "10.1093/bioadv/vbag270",
+          "url": "https://openalex.org/W7212373019",
+          "abstract": "Abstract Motivation Centromeres are essential chromosomal loci, yet their computational identification remains challenging due to rapid sequence evolution, high repeat content, and the absence of conserved defining motifs. This challenge is particularly pronounced in fungi, where centromere architectures vary widely in size, sequence composition, and chromatin organization, limiting the effectiveness of single-feature or motif-based prediction approaches. Results We present CentroFinder, a fungal-specific computational framework for de novo centromere prediction from long-read sequencing–based genome assemblies. CentroFinder integrates multiple genomic and long-read–derived features into a weighted scoring model to identify loci where centromere-associated signals converge. Benchmarking against experimentally mapped centromeres in Cryptococcus deuterogattii, Magnaporthe oryzae, and Neurospora crassa showed that 27 of 28 predicted intervals overlapped the corresponding experimental domains, yielding 96.4% chromosome-level detection sensitivity. Application to 11 additional fungal genomes produced one contiguous predicted centromeric region per chromosome, supporting the transferability of the workflow for chromosome-level centromere prediction. Availability and implementation CentroFinder is freely available as open-source software at https://github.com/RahnamaLab/CentroFinder. The pipeline is designed for high-performance computing environments and leverages features derived from long-read sequencing data.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210234069",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1038/s41437-026-00882-1",
           "title": "Retention of a single Cenp-C gene in different syntenic locations in the montium group of Drosophila species.",
           "authors": [
@@ -60090,7 +60141,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S166515463"
         },
         {
           "id": "10.1101/2025.01.24.634737",
@@ -61120,7 +61172,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S136710263"
         },
         {
           "id": "10.1038/s41588-024-02037-6",
@@ -61229,7 +61282,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S86484535"
         },
         {
           "id": "10.1590/1678-4685-gmb-2025-0133",
@@ -61251,7 +61305,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S151355818"
         },
         {
           "id": "10.3389/fimmu.2025.1678603",
@@ -61334,7 +61389,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S81455967"
         },
         {
           "id": "10.1101/2024.12.31.630874",
@@ -68881,7 +68937,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S151355818"
         },
         {
           "id": "10.7717/peerj.16924",
@@ -69428,7 +69485,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S81455967"
         },
         {
           "id": "10.1080/10985549.2024.2350543",
@@ -69448,7 +69506,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S81455967"
         },
         {
           "id": "10.1038/s41556-023-01313-7",
@@ -74485,7 +74544,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S86484535"
         },
         {
           "id": "10.1002/iub.2697",
@@ -84599,6 +84659,38 @@
           "openalex_source_id": "S96989847"
         },
         {
+          "id": "10.1038/s41598-026-69712-y",
+          "title": "First genomic evidence of inbreeding in South American pumas and the role of Andean climate history in shaping genetic diversity",
+          "authors": [
+            "Daniel Chávez",
+            "Chiara Correa-Zanotti",
+            "Nicole Ormaza",
+            "David Mora",
+            "María B. Cabezas",
+            "Carolina Sáenz",
+            "Ernesto Arbeláez",
+            "Lauren Ong",
+            "Alexander Medina",
+            "Robert K. Wayne",
+            "Tuyen Ong",
+            "Rebecca Zug"
+          ],
+          "journal": "Scientific Reports",
+          "date": "2026-09-13",
+          "doi": "10.1038/s41598-026-69712-y",
+          "url": "https://openalex.org/W7212426718",
+          "abstract": "Abstract Climatic oscillations in the Andes have repeatedly reshaped habitats over millions of years, yet their long-term genomic consequences for carnivores with broad geographic distributions remain unclear. Given the long evolutionary history of pumas ( Puma concolor ) in South America, the continent has long been considered a reservoir of genetic diversity. Here, we generated whole-genome sequences from pumas across ecologically distinct regions of Ecuador to test how paleoclimate shaped population structure and demography, and to assess patterns of contemporary genetic diversity across populations. Our results suggest that northwestern forest pumas persisted within environmentally stable habitats over the last 100 kyr, while periods of greater climatic similarity around 17 kya may have reduced environmental barriers and provided conditions more favorable for habitat connectivity and puma dispersal along the western Andean and Pacific coastal regions. On a more recent timescale, our results suggest that the collapse of Indigenous human populations around 400 years ago may have promoted a marked increase in puma population size. Despite this, we provide the first evidence of inbreeding in South American pumas, indicating that recent fragmentation over the last 70 years is disrupting historically connected populations. Together, our findings suggest that Ecuadorian pumas have experienced contrasting historical demographic and evolutionary trajectories and, consequently, may face different contemporary conservation risks. Northwestern populations require corridor restoration to preserve gene flow, whereas isolated southern populations may need more targeted interventions to prevent further genomic erosion.",
+          "track": "D",
+          "source": "OpenAlex",
+          "openalex_source_id": "S196734849",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1111/jse.70115",
           "title": "Quaternary megafauna in China: Insights from paleogenomics",
           "authors": [
@@ -91108,39 +91200,39 @@
     }
   },
   "stats": {
-    "total_count": 3422,
-    "new_this_week": 22,
+    "total_count": 3425,
+    "new_this_week": 24,
     "weekly_trend": [
       {
-        "week": "2026-W31",
-        "count": 99
-      },
-      {
         "week": "2026-W32",
-        "count": 81
+        "count": 102
       },
       {
         "week": "2026-W33",
-        "count": 88
+        "count": 80
       },
       {
         "week": "2026-W34",
-        "count": 43
+        "count": 88
       },
       {
         "week": "2026-W35",
-        "count": 20
+        "count": 39
       },
       {
         "week": "2026-W36",
-        "count": 11
+        "count": 21
+      },
+      {
+        "week": "2026-W37",
+        "count": 13
       }
     ],
     "tier_counts": {
       "1": 467,
       "2": 0,
       "3": 0,
-      "0": 2955
+      "0": 2958
     }
   }
 }
