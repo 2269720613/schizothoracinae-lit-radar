@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:18:08Z",
+  "generated_at": "2026-09-16T11:00:24Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -64,6 +64,28 @@
           "tier": 0,
           "openalex_source_id": "S185787987",
           "is_fish": true
+        },
+        {
+          "id": "10.1007/s00128-026-04324-w",
+          "title": "Environmental Distribution and Human Health Risks of Heavy Metals in the River Jhelum, Kashmir Himalaya.",
+          "authors": [
+            "Mehmood MA",
+            "Shafiq-Ur-Rehman",
+            "Bhat RA",
+            "Dar GH"
+          ],
+          "journal": "Bulletin of environmental contamination and toxicology",
+          "date": "2026-09-15",
+          "doi": "10.1007/s00128-026-04324-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42742693/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed",
+          "openalex_source_id": "S106502101",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1186/s44365-026-00044-8",
@@ -63582,7 +63604,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S204953464"
         },
         {
           "id": "10.1002/aro2.86",
@@ -64252,7 +64275,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S151741590"
         },
         {
           "id": "10.1007/s11427-023-2524-0",
@@ -64389,7 +64413,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S143887118"
         },
         {
           "id": "10.1101/2024.08.29.610280",
@@ -64682,7 +64707,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S11629336"
         },
         {
           "id": "10.1093/jxb/erae349",
@@ -69607,7 +69633,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S151741590"
         },
         {
           "id": "10.1111/nph.19359",
@@ -80264,7 +80291,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S151741590"
         },
         {
           "id": "10.1007/s00122-022-04066-3",
@@ -84788,6 +84816,30 @@
           "openalex_source_id": "S56397279",
           "source_type": "journal",
           "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1002/ece3.74238",
+          "title": "Tracing Ancient Migration Routes: Did Gloydius Pitvipers Disperse Across Paleo-Tibet Through Temperate and Subtropical Corridors?",
+          "authors": [
+            "Hofmann S",
+            "García EP",
+            "Flecks M",
+            "Jablonski D",
+            "Baniya CB",
+            "Rödder D",
+            "Schmidt J"
+          ],
+          "journal": "Ecology and evolution",
+          "date": "2026-09-01",
+          "doi": "10.1002/ece3.74238",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741585/",
+          "abstract": "",
+          "track": "D",
+          "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -91279,39 +91331,39 @@
     }
   },
   "stats": {
-    "total_count": 3428,
-    "new_this_week": 26,
+    "total_count": 3430,
+    "new_this_week": 25,
     "weekly_trend": [
       {
         "week": "2026-W32",
-        "count": 99
+        "count": 96
       },
       {
         "week": "2026-W33",
-        "count": 75
+        "count": 70
       },
       {
         "week": "2026-W34",
-        "count": 98
+        "count": 102
       },
       {
         "week": "2026-W35",
-        "count": 21
+        "count": 22
       },
       {
         "week": "2026-W36",
-        "count": 21
+        "count": 10
       },
       {
         "week": "2026-W37",
-        "count": 15
+        "count": 17
       }
     ],
     "tier_counts": {
       "1": 467,
       "2": 0,
       "3": 0,
-      "0": 2961
+      "0": 2963
     }
   }
 }
