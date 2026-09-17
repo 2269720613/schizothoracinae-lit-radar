@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:00:24Z",
+  "generated_at": "2026-09-17T11:11:37Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -16860,6 +16860,89 @@
           "tier": 1,
           "openalex_source_id": "S96989847",
           "is_fish": false
+        },
+        {
+          "id": "10.1002/advs.77790",
+          "title": "Transposable Element Dynamics Drive the Genomic Evolution and Phenotypic Diversification of Allotetraploid Common Carp.",
+          "authors": [
+            "Hu S",
+            "Jiang Z",
+            "Chen L",
+            "Goh GLY",
+            "Li W",
+            "He Q",
+            "Chen X",
+            "Li R",
+            "Liu Y",
+            "Li N",
+            "Zhou T",
+            "Xu P"
+          ],
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "date": "2026-09-16",
+          "doi": "10.1002/advs.77790",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42750241/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "openalex_source_id": "S2737737698",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "id": "10.1016/j.cell.2026.08.038",
+          "title": "3D chromatin remodeling during domestication defines novel targets for crop improvement.",
+          "authors": [
+            "Huang X",
+            "Peng Y",
+            "Hu X",
+            "Wang Y",
+            "Zhang Z",
+            "Huang X",
+            "Luo X",
+            "Zhang S",
+            "Zhao Z",
+            "Farmer E",
+            "Hsu SK",
+            "Grover CE",
+            "Qi Z",
+            "Li L",
+            "Yang J",
+            "He Y",
+            "Chen Z",
+            "Zhang Y",
+            "Mei Y",
+            "Deng P",
+            "Meng Y",
+            "Wang Y",
+            "Ji M",
+            "Lv J",
+            "Pei L",
+            "Liu F",
+            "Nie X",
+            "Tu L",
+            "Lindsey K",
+            "Boualem A",
+            "Bendahmane A",
+            "Wendel JF",
+            "Gore MA",
+            "Zhang X",
+            "Wang M"
+          ],
+          "journal": "Cell",
+          "date": "2026-09-16",
+          "doi": "10.1016/j.cell.2026.08.038",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42748920/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "openalex_source_id": "S110447773",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "id": "10.1016/j.envpol.2026.128502",
@@ -43330,6 +43413,55 @@
           "openalex_source_id": "S96410829"
         },
         {
+          "id": "10.1007/s10577-026-09817-2",
+          "title": "Satellite DNA evolution in Tytonidae (Aves: Strigiformes): dynamic repeat landscapes despite conserved karyotypes.",
+          "authors": [
+            "Bitencourt FL",
+            "Toma GA",
+            "Pozzobon LC",
+            "Cuervo VC",
+            "Utsunomia R",
+            "Gisloti-Ribeiro ME",
+            "Capana MOF",
+            "França RT",
+            "de Bello Cioffi M",
+            "de Freitas TRO",
+            "Kretschmer R"
+          ],
+          "journal": "Chromosome research : an international journal on the molecular, supramolecular and evolutionary aspects of chromosome biology",
+          "date": "2026-09-17",
+          "doi": "10.1007/s10577-026-09817-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42749948/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1038/s42003-026-10880-y",
+          "title": "The TUBG meshwork is associated with centromere dynamics and micronuclear organization.",
+          "authors": [
+            "Muteb A",
+            "Johansson M",
+            "Alvarado-Kristensson M"
+          ],
+          "journal": "Communications biology",
+          "date": "2026-09-16",
+          "doi": "10.1038/s42003-026-10880-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42749793/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S4210225776",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1073/pnas.2612002123",
           "title": "Integrative modeling of the genome structure and dynamics in fission yeast.",
           "authors": [
@@ -64935,7 +65067,8 @@
           "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S7325069"
         },
         {
           "id": "10.1146/annurev-genom-021623-081639",
@@ -64963,7 +65096,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S8095556"
         },
         {
           "id": "10.1016/j.ceb.2024.102396",
@@ -72007,7 +72141,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S8095556"
         },
         {
           "id": "10.1146/annurev-genom-101122-081642",
@@ -72025,7 +72160,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S8095556"
         },
         {
           "id": "10.1007/s44281-023-00010-7",
@@ -91331,39 +91467,39 @@
     }
   },
   "stats": {
-    "total_count": 3430,
+    "total_count": 3434,
     "new_this_week": 25,
     "weekly_trend": [
       {
         "week": "2026-W32",
-        "count": 96
+        "count": 97
       },
       {
         "week": "2026-W33",
-        "count": 70
+        "count": 71
       },
       {
         "week": "2026-W34",
-        "count": 102
+        "count": 90
       },
       {
         "week": "2026-W35",
-        "count": 22
+        "count": 21
       },
       {
         "week": "2026-W36",
-        "count": 10
+        "count": 11
       },
       {
         "week": "2026-W37",
-        "count": 17
+        "count": 16
       }
     ],
     "tier_counts": {
-      "1": 467,
+      "1": 468,
       "2": 0,
       "3": 0,
-      "0": 2963
+      "0": 2966
     }
   }
 }
