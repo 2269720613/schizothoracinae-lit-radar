@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:11:37Z",
+  "generated_at": "2026-09-18T10:44:39Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -16983,6 +16983,32 @@
           "abstract": "",
           "track": "B",
           "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1016/j.egg.2026.100530",
+          "title": "AI-assisted genomic selection in sweetpotato: A staged roadmap for polyploid, clonal-propagated breeding",
+          "authors": [
+            "Nguyễn Trung Đức",
+            "Pham Quang Tuan",
+            "Nguyen Thi Thu",
+            "Doan Thu Thuy",
+            "Vu Thi Xuan Binh",
+            "Nguyen Van Loc"
+          ],
+          "journal": "Ecological Genetics and Genomics",
+          "date": "2026-09-11",
+          "doi": "10.1016/j.egg.2026.100530",
+          "url": "https://openalex.org/W7212272249",
+          "abstract": "",
+          "track": "B",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2898331840",
+          "source_type": "journal",
+          "source_is_core": true,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -65116,7 +65142,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S103771297"
         },
         {
           "id": "10.1038/s44319-024-00183-w",
@@ -65208,7 +65235,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S165438840"
         },
         {
           "id": "10.1093/plphys/kiae214",
@@ -65725,7 +65753,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S199832308"
         },
         {
           "id": "10.18699/vjgb-24-42",
@@ -65906,7 +65935,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S185621672"
         },
         {
           "id": "10.1111/pbi.14411",
@@ -81687,7 +81717,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S103771297"
         },
         {
           "id": "10.3390/plants11030387",
@@ -91467,20 +91498,20 @@
     }
   },
   "stats": {
-    "total_count": 3434,
+    "total_count": 3435,
     "new_this_week": 25,
     "weekly_trend": [
       {
         "week": "2026-W32",
-        "count": 97
+        "count": 84
       },
       {
         "week": "2026-W33",
-        "count": 71
+        "count": 85
       },
       {
         "week": "2026-W34",
-        "count": 90
+        "count": 65
       },
       {
         "week": "2026-W35",
@@ -91488,18 +91519,18 @@
       },
       {
         "week": "2026-W36",
-        "count": 11
+        "count": 12
       },
       {
         "week": "2026-W37",
-        "count": 16
+        "count": 17
       }
     ],
     "tier_counts": {
       "1": 468,
       "2": 0,
       "3": 0,
-      "0": 2966
+      "0": 2967
     }
   }
 }
