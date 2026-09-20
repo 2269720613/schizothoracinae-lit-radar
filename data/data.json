@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:28:52Z",
+  "generated_at": "2026-09-20T10:50:29Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -66938,7 +66938,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S113768434"
         },
         {
           "id": "10.1093/bjs/znae118.024",
@@ -67099,7 +67100,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2738063279"
         },
         {
           "id": "10.1093/jeb/voae015",
@@ -67511,7 +67513,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S73101346"
         },
         {
           "id": "10.1038/s41477-024-01630-1",
@@ -82963,7 +82966,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S73101346"
         },
         {
           "id": "10.1111/gtc.12898",
@@ -84939,6 +84943,27 @@
           "is_fish": false,
           "tier": 1,
           "openalex_source_id": "S96989847"
+        },
+        {
+          "id": "10.1016/j.marenvres.2026.108417",
+          "title": "Historical isolation and paleoclimatic events underpin phylogeographic patterns of marine macroalgae in the Northwest Pacific.",
+          "authors": [
+            "Zhong KL",
+            "Jiang K",
+            "Russell BD",
+            "Gaitan-Espitia JD"
+          ],
+          "journal": "Marine environmental research",
+          "date": "2026-09-17",
+          "doi": "10.1016/j.marenvres.2026.108417",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42762812/",
+          "abstract": "",
+          "track": "D",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.1038/s41598-026-69712-y",
@@ -91506,8 +91531,8 @@
     }
   },
   "stats": {
-    "total_count": 3435,
-    "new_this_week": 22,
+    "total_count": 3436,
+    "new_this_week": 21,
     "weekly_trend": [
       {
         "week": "2026-W32",
@@ -91515,30 +91540,30 @@
       },
       {
         "week": "2026-W33",
-        "count": 81
+        "count": 88
       },
       {
         "week": "2026-W34",
-        "count": 55
+        "count": 43
       },
       {
         "week": "2026-W35",
-        "count": 22
+        "count": 21
       },
       {
         "week": "2026-W36",
-        "count": 13
+        "count": 14
       },
       {
         "week": "2026-W37",
-        "count": 14
+        "count": 13
       }
     ],
     "tier_counts": {
       "1": 468,
       "2": 0,
       "3": 0,
-      "0": 2967
+      "0": 2968
     }
   }
 }
