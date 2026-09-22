@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:14:57Z",
+  "generated_at": "2026-09-22T11:08:22Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -64,6 +64,60 @@
           "tier": 0,
           "openalex_source_id": "S185787987",
           "is_fish": true
+        },
+        {
+          "id": "10.1016/j.aqrep.2026.103834",
+          "title": "Investigating the role of fructose-1,6-bisphosphate aldolase in the saline-alkaline tolerance of Gymnocypris przewalskii",
+          "authors": [
+            "Zihan Gao",
+            "Shujing Wei",
+            "崔广荣",
+            "Miao Yue",
+            "Yujing Zhang",
+            "Tonggang Wang",
+            "Luodan Zhang",
+            "Yan Guo",
+            "Yueqi Liu",
+            "Youwei Zhao",
+            "Fulei Wei",
+            "Jian Liang"
+          ],
+          "journal": "Aquaculture Reports",
+          "date": "2026-09-21",
+          "doi": "10.1016/j.aqrep.2026.103834",
+          "url": "https://openalex.org/W7213875224",
+          "abstract": "",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2764883586",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "id": "10.31018/jans.v18i3.7699",
+          "title": "Assessing length-weight relationship and condition factor of Opsarius bendelisis (Hamilton, 1807), Schizothorax richardsonii (Gray, 1832) and Naziritor chelynoides (McClelland, 1839) from Baldi river, Dehradun (Uttarakhand), India",
+          "authors": [
+            "Nisha Chauhan",
+            "Shefalee Singh",
+            "Dhyal Singh"
+          ],
+          "journal": "Journal of Applied and Natural Science",
+          "date": "2026-09-20",
+          "doi": "10.31018/jans.v18i3.7699",
+          "url": "https://openalex.org/W7213894960",
+          "abstract": "The Length Weight Relationship (LWR) and Fulton’s condition factor (K) are important tools for evaluating growth patterns and the overall well-being of fish populations. This study aimed to assess the length-weight relationship and condition factor for three fish species – Opsarius bendelisis, Schizothorax richardsonii and Naziritor chelynoides, from Baldi River, a perennial tributary of Song River in Dehradun district, Uttarakhand, to evaluate their growth patterns and well-being, and to provide baseline information for fisheries management and conservation. The length–weight relationship was calculated using the equation ‘W = aLᵇ’ and regression analysis was performed. Fulton’s condition factor (K = 100 × W/L3) was analyzed to assess the well-being and health condition of the fish population and growth patterns were assessed based on estimated ‘b’ values. The study was conducted on 221 fish samples. The growth coefficient (b) values showed negative allometric growth (b < 3) for all three species, with b values of 2.444, 2.148, and 1.599 for O. bendelisis, S. richardsonii, and N. chelynoides, respectively. The condition factor (K) ranged from 1.06-1.67 for the studied species. The river has been previously studied for its water quality, fish diversity and geomorphic impacts; however, this study documents the first recorded assessment of length–weight relationships and condition factors for its three fish species, thereby filling a significant gap in regional fishery data. The results of this investigation will help to contribute to further fishery studies in the Baldi River.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2914465987",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1007/s00128-026-04324-w",
@@ -43439,6 +43493,33 @@
           "openalex_source_id": "S96410829"
         },
         {
+          "id": "10.3390/plants15182855",
+          "title": "Fusion-Derived Centromeres Reveal Satellite Repeat Remodeling in Miscanthus sinensis",
+          "authors": [
+            "Qi Yang",
+            "Yu Zhang",
+            "Zhuo Wang",
+            "Zifeng Cui",
+            "Liangchang Zhang",
+            "Fengzhen Li",
+            "Zehuai Yu"
+          ],
+          "journal": "Plants",
+          "date": "2026-09-18",
+          "doi": "10.3390/plants15182855",
+          "url": "https://openalex.org/W7213870584",
+          "abstract": "Centromeres are essential for chromosome segregation, yet their repetitive nature makes them among the most difficult genomic regions to assemble and interpret. In polyploid plants, centromeres provide a unique record of chromosome evolution because centromeric repeats can be reshaped by polyploidization, subgenome differentiation and chromosomal rearrangement. Here, we combined low-coverage repeatome profiling, genome-wide mapping, fluorescence in situ hybridization (FISH), fiber-FISH and higher-order repeats (HORs) analysis to investigate centromere-associated repeats in Miscanthus sinensis (2n = 2x = 38). We identified MsSat1, a 137 bp satellite repeat representing approximately 2.1% of the genome, as a major centromere-associated satellite repeat. MsSat1 signals overlapped with the Saccharum officinarum centromeric retrotransposon probe and formed continuous tandem arrays on DNA fibers, supporting its association with centromeric domains. MsSat1-based clustering further recovered 13 related satellite variants, many of which showed strongly biased distribution between the A and B subgenomes. Among them, MsSat1-G displayed the most striking pattern, with strong B-subgenome enrichment and chromosome 7-specific localization. Detailed analysis revealed that MsSat1-G was embedded within an expanded MsSat1-rich domain on the fusion-derived chromosome 7, where it showed a more heterogeneous HORs architecture than the major MsSat1 array. These findings suggest that chromosome fusion was accompanied by local centromeric satellite amplification and repeat-architecture remodeling. Together, our study reveals that fusion-derived centromeres can preserve distinct satellite signatures and provides cytogenetic and genomic evidence that centromeric repeats record both subgenome differentiation and chromosome restructuring in M. sinensis.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210230202",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1007/s10577-026-09817-2",
           "title": "Satellite DNA evolution in Tytonidae (Aves: Strigiformes): dynamic repeat landscapes despite conserved karyotypes.",
           "authors": [
@@ -68598,7 +68679,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S50823678"
         },
         {
           "id": "10.1089/aid.2022.0161",
@@ -68625,7 +68707,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S161282271"
         },
         {
           "id": "10.1016/j.bpj.2023.11.1445",
@@ -68665,7 +68748,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210200765"
         },
         {
           "id": "10.1186/s12870-024-04739-9",
@@ -68930,7 +69014,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210239906"
         },
         {
           "id": "10.1007/s00018-023-05063-5",
@@ -68980,7 +69065,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210172076"
         },
         {
           "id": "10.1073/pnas.2316583121",
@@ -84037,7 +84123,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S50823678"
         },
         {
           "id": "10.1111/tpj.15459",
@@ -91533,20 +91620,20 @@
     }
   },
   "stats": {
-    "total_count": 3436,
-    "new_this_week": 19,
+    "total_count": 3439,
+    "new_this_week": 20,
     "weekly_trend": [
       {
         "week": "2026-W33",
-        "count": 80
+        "count": 75
       },
       {
         "week": "2026-W34",
-        "count": 88
+        "count": 98
       },
       {
         "week": "2026-W35",
-        "count": 39
+        "count": 21
       },
       {
         "week": "2026-W36",
@@ -91554,18 +91641,18 @@
       },
       {
         "week": "2026-W37",
-        "count": 15
+        "count": 16
       },
       {
         "week": "2026-W38",
-        "count": 11
+        "count": 12
       }
     ],
     "tier_counts": {
       "1": 468,
       "2": 0,
       "3": 0,
-      "0": 2968
+      "0": 2971
     }
   }
 }
