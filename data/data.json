@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:08:22Z",
+  "generated_at": "2026-09-23T10:58:15Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -69632,7 +69632,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210238882"
         },
         {
           "id": "10.1159/000540588",
@@ -69796,7 +69797,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S113186628"
         },
         {
           "id": "10.3389/fpls.2024.1324817",
@@ -69989,7 +69991,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S29775604"
         },
         {
           "id": "10.1016/j.semcdb.2024.01.009",
@@ -70028,7 +70031,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S122939334"
         },
         {
           "id": "10.3390/genes15010062",
@@ -70120,7 +70124,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2737643958"
         },
         {
           "id": "10.1101/2023.12.27.573453",
@@ -70233,7 +70238,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S171368329"
         },
         {
           "id": "10.1101/2023.12.15.571946",
@@ -71385,7 +71391,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S128296271"
         },
         {
           "id": "10.1093/hr/uhad189",
@@ -89919,7 +89926,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210238882"
         },
         {
           "id": "10.1371/journal.pone.0289736",
@@ -91621,31 +91629,31 @@
   },
   "stats": {
     "total_count": 3439,
-    "new_this_week": 20,
+    "new_this_week": 16,
     "weekly_trend": [
       {
         "week": "2026-W33",
-        "count": 75
+        "count": 70
       },
       {
         "week": "2026-W34",
-        "count": 98
+        "count": 102
       },
       {
         "week": "2026-W35",
-        "count": 21
-      },
-      {
-        "week": "2026-W36",
         "count": 22
       },
       {
+        "week": "2026-W36",
+        "count": 10
+      },
+      {
         "week": "2026-W37",
-        "count": 16
+        "count": 18
       },
       {
         "week": "2026-W38",
-        "count": 12
+        "count": 8
       }
     ],
     "tier_counts": {
