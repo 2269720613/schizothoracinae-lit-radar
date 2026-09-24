@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:58:15Z",
+  "generated_at": "2026-09-24T11:17:39Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -43493,6 +43493,91 @@
           "openalex_source_id": "S96410829"
         },
         {
+          "id": "10.1111/jipb.70405",
+          "title": "A telomere-to-telomere genome assembly of the Arachis batizocoi.",
+          "authors": [
+            "Chen G",
+            "Wang Q",
+            "Zhang B",
+            "Xu L",
+            "Miao L",
+            "Han S",
+            "Wang X",
+            "Du P",
+            "Fu L",
+            "Zhang X"
+          ],
+          "journal": "Journal of integrative plant biology",
+          "date": "2026-09-24",
+          "doi": "10.1111/jipb.70405",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42779480/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S58990993",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1038/s41586-026-11046-w",
+          "title": "The mutational dynamics of the Arabidopsis centromeres.",
+          "authors": [
+            "Dong X",
+            "Jiao WB",
+            "Goldkuhle L",
+            "Rabanal F",
+            "Amar S",
+            "Parker MT",
+            "Campoy JA",
+            "Tao Y",
+            "Huettel B",
+            "Ton J",
+            "Smith LM",
+            "Puchta H",
+            "Weigel D",
+            "Schneeberger K"
+          ],
+          "journal": "Nature",
+          "date": "2026-09-23",
+          "doi": "10.1038/s41586-026-11046-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778594/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S137773608",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
+          "id": "10.1007/s00122-026-05392-6",
+          "title": "An integrated molecular cytogenetic platform enables precise characterization of Thinopyrum ponticum chromatin and its structural modifications in wheat background.",
+          "authors": [
+            "Jiang C",
+            "Wan M",
+            "Wang J",
+            "Ren Y",
+            "Yang E",
+            "Li G",
+            "Zhang P",
+            "Yang Z"
+          ],
+          "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+          "date": "2026-09-23",
+          "doi": "10.1007/s00122-026-05392-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776250/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.3390/plants15182855",
           "title": "Fusion-Derived Centromeres Reveal Satellite Repeat Remodeling in Miscanthus sinensis",
           "authors": [
@@ -71494,7 +71579,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S175155502"
         },
         {
           "id": "10.1049/syb2.12073",
@@ -71525,7 +71611,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S30934864"
         },
         {
           "id": "10.1266/ggs.23-00049",
@@ -71997,7 +72084,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S35412551"
         },
         {
           "id": "10.1016/j.virol.2023.07.005",
@@ -72023,7 +72111,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S6147291"
         },
         {
           "id": "10.1111/tpj.16334",
@@ -72621,7 +72710,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S175155502"
         },
         {
           "id": "10.1126/sciadv.adg7480",
@@ -73566,7 +73656,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S107365432"
         },
         {
           "id": "10.1007/s00497-023-00457-8",
@@ -73779,7 +73870,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S7317325"
         },
         {
           "id": "10.1101/2023.05.18.541332",
@@ -74857,7 +74949,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S164728804"
         },
         {
           "id": "10.1101/gr.276992.122",
@@ -74937,7 +75030,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S203723150"
         },
         {
           "id": "10.3390/genes14040816",
@@ -75930,7 +76024,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2755174949"
         },
         {
           "id": "10.1007/s10577-023-09710-2",
@@ -76026,7 +76121,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764739556"
         },
         {
           "id": "10.3390/ani13030334",
@@ -76476,7 +76572,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S86558740"
         },
         {
           "id": "10.5339/qmj.2023.sqac.28",
@@ -76495,7 +76592,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764374268"
         },
         {
           "id": "10.3389/fgene.2023.1290903",
@@ -76566,7 +76664,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S26312460"
         },
         {
           "id": "10.3389/fcell.2023.1193192",
@@ -91628,39 +91727,39 @@
     }
   },
   "stats": {
-    "total_count": 3439,
+    "total_count": 3442,
     "new_this_week": 16,
     "weekly_trend": [
       {
         "week": "2026-W33",
-        "count": 70
+        "count": 71
       },
       {
         "week": "2026-W34",
-        "count": 102
+        "count": 90
       },
       {
         "week": "2026-W35",
-        "count": 22
+        "count": 21
       },
       {
         "week": "2026-W36",
-        "count": 10
+        "count": 11
       },
       {
         "week": "2026-W37",
-        "count": 18
+        "count": 17
       },
       {
         "week": "2026-W38",
-        "count": 8
+        "count": 7
       }
     ],
     "tier_counts": {
-      "1": 468,
+      "1": 469,
       "2": 0,
       "3": 0,
-      "0": 2971
+      "0": 2973
     }
   }
 }
