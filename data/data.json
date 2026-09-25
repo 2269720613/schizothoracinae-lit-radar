@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:17:39Z",
+  "generated_at": "2026-09-25T11:23:04Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -64,6 +64,41 @@
           "tier": 0,
           "openalex_source_id": "S185787987",
           "is_fish": true
+        },
+        {
+          "id": "10.1111/1749-4877.70199",
+          "title": "Inhibin βB Mediates Oligotrophic Adaptation via Regulating Muscle Satellite Cell Proliferation and Differentiation in Schizopygopsis younghusbandi.",
+          "authors": [
+            "Li W",
+            "Gao H",
+            "Zhou C",
+            "Lei L",
+            "Li J",
+            "Ma C",
+            "Ma Z",
+            "Yao M",
+            "Ma K",
+            "Xiang Y",
+            "Zhou Y",
+            "Lu Y",
+            "Ji D",
+            "Wei M",
+            "Xu L",
+            "Han Z",
+            "Liu H"
+          ],
+          "journal": "Integrative zoology",
+          "date": "2026-09-25",
+          "doi": "10.1111/1749-4877.70199",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786917/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed",
+          "openalex_source_id": "S90680744",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1016/j.aqrep.2026.103834",
@@ -16914,6 +16949,41 @@
           "tier": 1,
           "openalex_source_id": "S96989847",
           "is_fish": false
+        },
+        {
+          "id": "10.1111/1749-4877.70199",
+          "title": "Inhibin βB Mediates Oligotrophic Adaptation via Regulating Muscle Satellite Cell Proliferation and Differentiation in Schizopygopsis younghusbandi.",
+          "authors": [
+            "Li W",
+            "Gao H",
+            "Zhou C",
+            "Lei L",
+            "Li J",
+            "Ma C",
+            "Ma Z",
+            "Yao M",
+            "Ma K",
+            "Xiang Y",
+            "Zhou Y",
+            "Lu Y",
+            "Ji D",
+            "Wei M",
+            "Xu L",
+            "Han Z",
+            "Liu H"
+          ],
+          "journal": "Integrative zoology",
+          "date": "2026-09-25",
+          "doi": "10.1111/1749-4877.70199",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786917/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "openalex_source_id": "S90680744",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1002/advs.77790",
@@ -43578,6 +43648,32 @@
           "tier": 0
         },
         {
+          "id": "10.3389/fpls.2026.1918439",
+          "title": "Methylcytosine oxidation derivatives are preferentially associated with repetitive chromatin and mark active rDNA in Silene latifolia",
+          "authors": [
+            "Marcel Hubinský",
+            "Václav Bačovský",
+            "P. Novotná",
+            "Radim Čegan",
+            "Roman Hobza",
+            "Jose Luis Rodriguez Lorenzo"
+          ],
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-09-22",
+          "doi": "10.3389/fpls.2026.1918439",
+          "url": "https://openalex.org/W7213978790",
+          "abstract": "Introduction DNA methylation and its oxidative derivatives are key components of epigenetic regulation, yet their roles in plant repetitive DNA remain poorly understood. Here, we investigate the genomic distribution of oxidized cytosine modifications: 5-hydroxymethylcytosine (5hmC), 5-formylcytosine (5fC) and 5-carboxycytosine (5caC) within the repeat-rich genome of Silene latifolia , a dioecious plant with heteromorphic sex chromosomes. Materials and methods Using low-coverage oxi-mC sequencing combined with RepeatExplorer2 clustering, ChIP-seq Mapper analysis, genome mapping, and immunoFISH validation, we identify widespread association of oxi-mCs across major repeat classes, including LTR retrotransposons, DNA transposons, satellite repeats, and ribosomal DNA (rDNA). Results While transposable elements largely reflect genomic abundance, satellite DNA shows selective and context-dependent overrepresentation, particularly within the major centromeric repeat clusters (STAR-C), which exhibits association with 5caC in specific chromosome-biased clusters rather than across centromeres globally. In contrast, 45S rDNA arrays display strong and consistent accumulation of oxi-mCs, especially 5fC and 5caC, in transcriptionally active nucleolar organizing regions, supported by both sequencing and cytological evidence. Discussion These findings suggest that oxidative cytosine modifications are not randomly distributed but are linked to chromatin state and transcriptional activity, particularly in rDNA loci. Overall, our results reveal cytosine oxidation as a potential additional layer of epigenetic regulation in plant repetitive DNA.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2493613807",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.3390/plants15182855",
           "title": "Fusion-Derived Centromeres Reveal Satellite Repeat Remodeling in Miscanthus sinensis",
           "authors": [
@@ -43599,6 +43695,27 @@
           "openalex_source_id": "S4210230202",
           "source_type": "journal",
           "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.64898/2026.09.16.752195",
+          "title": "TOPBP1-Dependent DNA Damage Processing Promotes Centromere Loss in an Inviable Xenopus Hybrid.",
+          "authors": [
+            "Clark C",
+            "Terui R",
+            "Chistol G",
+            "Heald R"
+          ],
+          "journal": "bioRxiv : the preprint server for biology",
+          "date": "2026-09-18",
+          "doi": "10.64898/2026.09.16.752195",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42780076/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -91727,16 +91844,16 @@
     }
   },
   "stats": {
-    "total_count": 3442,
-    "new_this_week": 16,
+    "total_count": 3445,
+    "new_this_week": 17,
     "weekly_trend": [
       {
         "week": "2026-W33",
-        "count": 71
+        "count": 85
       },
       {
         "week": "2026-W34",
-        "count": 90
+        "count": 65
       },
       {
         "week": "2026-W35",
@@ -91744,22 +91861,22 @@
       },
       {
         "week": "2026-W36",
-        "count": 11
+        "count": 12
       },
       {
         "week": "2026-W37",
-        "count": 17
+        "count": 18
       },
       {
         "week": "2026-W38",
-        "count": 7
+        "count": 8
       }
     ],
     "tier_counts": {
       "1": 469,
       "2": 0,
       "3": 0,
-      "0": 2973
+      "0": 2976
     }
   }
 }
