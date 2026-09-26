@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:23:04Z",
+  "generated_at": "2026-09-26T10:58:40Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -16983,6 +16983,33 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
+          "tier": 0
+        },
+        {
+          "id": "10.3390/biology15181667",
+          "title": "Molecular Systematics and Distribution Pattern Evolution of Triplophysa Species in China: A Comparison of Widespread and Narrow-Range Taxa.",
+          "authors": [
+            "Chen Y",
+            "Wang M",
+            "Wang Z",
+            "Chen X",
+            "Li S",
+            "Yang C",
+            "Wang D",
+            "Duan X",
+            "Tian H",
+            "Gu Q"
+          ],
+          "journal": "Biology",
+          "date": "2026-09-20",
+          "doi": "10.3390/biology15181667",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42792612/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
           "tier": 0
         },
         {
@@ -43585,6 +43612,30 @@
           "track": "C",
           "source": "PubMed",
           "openalex_source_id": "S58990993",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1508/cytologia.91.179",
+          "title": "Karyotypes of some endemic species of Dicliptera (Acanthaceae) from India reveal variation in chromosome number",
+          "authors": [
+            "Sonali S. Gosavi",
+            "Akanksha S. Jeswani",
+            "Rupali N. Chougule",
+            "Nilesh V. Malpure"
+          ],
+          "journal": "CYTOLOGIA",
+          "date": "2026-09-24",
+          "doi": "10.1508/cytologia.91.179",
+          "url": "https://openalex.org/W7214211420",
+          "abstract": "Dicliptera (Acanthaceae) is a pantropical genus that comprises more than 200 species. Karyotypes of eight species that are endemic to Peninsular India were studied. Mitotic metaphases revealed four chromosome counts, 2n=26, 52, 56, and 58. Chromosome counts of 2n=26 for D. beddomei, D. nasikensis, and D. srisailamica, 2n=56 for D. foetida and D. ghatica and 2n=58 for D. baphica were observed for the first time. The total haploid chromosome length (THL) ranged from 45.77 µm (D. cuneata) to 108.6 µm (D. foetida). Karyotypes were symmetric as all chromosomes had median (m) region centromeres. Considerable variation in chromosome number indicates the existence of more than one base number and the role of polyploidy in the evolution of the genus. Dispersion index (DI) showed a direct correlation with the coefficient of variation of chromosome length (CVCL) and differentiated Dicliptera karyotypes. Species with higher CVCL values (D. baphica, D. beddomei, D. cuneata, and D. foetida) had higher DI values (ranging from 3.22–4.86) whereas D. ghatica, D. leonotis, D. nasikensis, and D. srisailamica had lower DI values (ranging from 2.58–3.14). Principal component analysis based on eight parameters, namely somatic count (2n), THL, CVCL, CVCI, DI, mean centromeric asymmetry (MCA), mean chromosome length (MCL), and ratio of longest to shortest chromosome of a complement (R) grouped the species in three clusters. Cluster I comprised D. srisailamica, D. nasikensis, and D. beddomei. D. cuneata, D. ghatica, and D. leonotis formed Cluster II whereas Cluster III had D. baphica and D. foetida. Our studies suggest that an in-depth cytogenetic investigation including meiotic studies can shed light on the chromosomal evolution and speciation in this genus.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S166412053",
+          "source_type": "journal",
+          "source_is_core": true,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -85257,6 +85308,33 @@
           "openalex_source_id": "S96989847"
         },
         {
+          "id": "10.1111/jpg.70144",
+          "title": "Stratigraphic Intelligence for Hydrocarbon Discovery: Integrating Basin Architecture, Correlation Uncertainty and Predictive Petroleum Systems in Frontier Basins",
+          "authors": [
+            "Salima Cherkeshova",
+            "Nurlygul Kylyshbayeva",
+            "Gulimshat Shakirova",
+            "Kossarbay Kozhakhmet",
+            "Samal Janabilova",
+            "P. S. Sundetova",
+            "Timoth Mkilima"
+          ],
+          "journal": "Journal of Petroleum Geology",
+          "date": "2026-09-23",
+          "doi": "10.1111/jpg.70144",
+          "url": "https://openalex.org/W7214192594",
+          "abstract": "ABSTRACT Frontier hydrocarbon exploration combines sparse subsurface control with uncertainty in stratigraphic correlation, facies continuity, petroleum‐system timing and prospect economics. This structured critical review synthesizes 125 unique publications across platform, rift, intracratonic and other underexplored basin settings spanning Paleozoic to Cenozoic successions. Stratigraphic Intelligence Systems (SIS) is developed here as an integration architecture rather than as a claim that its individual components are new. The framework connects six established or emerging analytical layers: stratigraphic architecture, facies and reservoir‐property prediction, petroleum‐systems modelling, correlation‐uncertainty quantification, near‐surface historical‐geospatial constraints and AI‐assisted data integration. The proposed operationalization represents the subsurface as an ensemble of weighted geological realizations, updates realization weights as new evidence becomes available and propagates the resulting uncertainty into prospect‐level geological chance of discovery and expected‐value calculations. Historical‐geospatial records are restricted to complementary constraints on recent landscape, paleodrainage, uplift or subsidence and source‐to‐sink evolution; they are not treated as direct evidence of Mesozoic basin architecture. AI performance is evaluated within the context of each dataset, label structure and validation design rather than by direct comparison of unrelated accuracy or F 1 values. SIS is therefore positioned as a testable petroleum‐exploration workflow whose value depends on calibrated probabilities, explicit interfaces among model layers and prospective validation against blind drilling outcomes.",
+          "track": "D",
+          "source": "OpenAlex",
+          "openalex_source_id": "S198628674",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1016/j.marenvres.2026.108417",
           "title": "Historical isolation and paleoclimatic events underpin phylogeographic patterns of marine macroalgae in the Northwest Pacific.",
           "authors": [
@@ -91844,39 +91922,39 @@
     }
   },
   "stats": {
-    "total_count": 3445,
-    "new_this_week": 17,
+    "total_count": 3448,
+    "new_this_week": 18,
     "weekly_trend": [
       {
         "week": "2026-W33",
-        "count": 85
+        "count": 81
       },
       {
         "week": "2026-W34",
-        "count": 65
+        "count": 55
       },
       {
         "week": "2026-W35",
-        "count": 21
+        "count": 22
       },
       {
         "week": "2026-W36",
-        "count": 12
+        "count": 13
       },
       {
         "week": "2026-W37",
-        "count": 18
+        "count": 17
       },
       {
         "week": "2026-W38",
-        "count": 8
+        "count": 10
       }
     ],
     "tier_counts": {
       "1": 469,
       "2": 0,
       "3": 0,
-      "0": 2976
+      "0": 2979
     }
   }
 }
