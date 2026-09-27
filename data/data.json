@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:58:40Z",
+  "generated_at": "2026-09-27T11:36:22Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -64,6 +64,31 @@
           "tier": 0,
           "openalex_source_id": "S185787987",
           "is_fish": true
+        },
+        {
+          "id": "10.9734/cjast/2026/v45i104777",
+          "title": "Morphological Differences between Distinct Populations of Snow Trout, Schizopyge curvifrons (Heckel, 1838) in Uzbekistan",
+          "authors": [
+            "D. Norova",
+            "J. Sobirov",
+            "B. Kamilov",
+            "M. Yuldashov",
+            "U. Kholova"
+          ],
+          "journal": "Current Journal of Applied Science and Technology",
+          "date": "2026-09-26",
+          "doi": "10.9734/cjast/2026/v45i104777",
+          "url": "https://openalex.org/W7214501203",
+          "abstract": "Snow trout, Schizopyge curvifrons (Heckel, 1838) (= Schizothorax intermedius MacClelland, 1842), occurs in mountain and foothill waters of the Syrdarya River basin. This study compared morphological variation among four populations from the Karasu Canal, Nurota–Shomurod Spring, Shahimardan River, and Maydansay River in Uzbekistan. Samples collected from 2023 to 2026 were assessed using meristic characters, conventional length–weight measurements, and a 10-landmark truss protocol. The populations showed broadly similar meristic characteristics, whereas lateral-line scale counts varied among localities, with wider ranges in the Nurota Mountain populations. Morphometric indices expressed as percentages of standard length were analysed using analysis of variance, factor analysis, and discriminant analysis. Seven latent factors together explained 83.33% of the total variance in the geometric morphometric indices. Analysis of variance indicated significant differences in most body-shape traits among water bodies. Discriminant analysis identified three functions accounting for 100% of the total discriminant variance and showed clear separation among the sampled populations. The Karasu Canal and Shahimardan River populations were particularly distinct from those in the vicinity of the Nurota Mountains, whereas the Nurota–Shomurod and Maydansay populations were comparatively closer but remained distinguishable. These findings document substantial morphological differentiation among snow trout populations occupying contrasting water bodies in the Syrdarya River basin and provide baseline information for further investigation of population structure in Uzbekistan.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S3023480720",
+          "source_type": "journal",
+          "source_is_core": true,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1111/1749-4877.70199",
@@ -91922,39 +91947,39 @@
     }
   },
   "stats": {
-    "total_count": 3448,
-    "new_this_week": 18,
+    "total_count": 3449,
+    "new_this_week": 19,
     "weekly_trend": [
       {
         "week": "2026-W33",
-        "count": 81
+        "count": 88
       },
       {
         "week": "2026-W34",
-        "count": 55
+        "count": 43
       },
       {
         "week": "2026-W35",
-        "count": 22
+        "count": 21
       },
       {
         "week": "2026-W36",
-        "count": 13
+        "count": 14
       },
       {
         "week": "2026-W37",
-        "count": 17
+        "count": 15
       },
       {
         "week": "2026-W38",
-        "count": 10
+        "count": 11
       }
     ],
     "tier_counts": {
       "1": 469,
       "2": 0,
       "3": 0,
-      "0": 2979
+      "0": 2980
     }
   }
 }
