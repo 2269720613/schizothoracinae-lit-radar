@@ -29,3 +29,12 @@ track_d:
     - "Quaternary climate phylogeography"
     - "tectonic uplift diversification"
     - "paleoclimate range dynamics genomics"
+
+track_e:
+  label: "鲟鱼基因组"
+  keywords:
+    - "Acipenser genome assembly"
+    - "sturgeon genome"
+    - "Huso genome"
+    - "Acipenseridae genomics"
+    - "chromosome-level sturgeon"

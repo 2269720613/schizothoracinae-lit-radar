@@ -13,6 +13,7 @@
 | B | 演化生物学 / 生信演化分析（多倍体、渐渗、高海拔适应） | 演化生物学 |
 | C | 着丝粒生物学（着丝粒演化、卫星 DNA、CENP-A、holocentromere） | 着丝粒生物学 |
 | D | 古气候基因组学（古水系、第四纪系统地理、构造抬升与分化） | 古气候基因组学 |
+| E | 鲟鱼基因组（Acipenser / Huso / Acipenseridae 基因组组装与比较基因组学） | 鲟鱼基因组 |
 
 数据流：**8 来源检索 → 质量分级看板（GitHub Pages）→ 每日精选 → 全文自动获取 → DeepPaperNote 精读 → Obsidian 笔记 → PDF 同步豆包云盘**
 

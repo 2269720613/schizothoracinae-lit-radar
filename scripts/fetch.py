@@ -35,7 +35,7 @@ BACKFILL_YEARS = 5
 BACKFILL_MAX_PER_KEYWORD = 1000
 CONTACT_EMAIL = "ccj13169@gmail.com"
 SOURCES_BATCH = 50
-TRACKS = (("A", "track_a"), ("B", "track_b"), ("C", "track_c"), ("D", "track_d"))
+TRACKS = (("A", "track_a"), ("B", "track_b"), ("C", "track_c"), ("D", "track_d"), ("E", "track_e"))
 
 # The local dev proxy (HTTPS_PROXY=127.0.0.1:10808) fails the TLS handshake
 # for *.ncbi.nlm.nih.gov (PubMed/esearch returns "SSL UNEXPECTED_EOF"), and its

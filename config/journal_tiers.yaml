@@ -29,6 +29,10 @@ fish_title_patterns:
   - "platypharodon"
   - "diptychus"
 
+  - "sturgeon"
+  - "acipenser"
+  - "huso"
+  - "beluga"
 # 顶刊/子刊白名单：任何论文（含非鱼类）命中 → T1
 whitelist_top:
   - "nature"
