@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:19:39Z",
+  "generated_at": "2026-09-30T12:05:10Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -104,6 +104,33 @@
           "source": "europepmc",
           "track": "A",
           "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "id": "10.9734/cjast/2026/v45i104777",
+          "title": "Morphological Differences between Distinct Populations of Snow Trout, Schizopyge curvifrons (Heckel, 1838) in Uzbekistan",
+          "authors": [
+            "D. Norova",
+            "J. Sobirov",
+            "B. Kamilov",
+            "M. Yuldashov",
+            "U. Kholova"
+          ],
+          "journal": "Current Journal of Applied Science and Technology",
+          "date": "2026-09-26",
+          "doi": "10.9734/cjast/2026/v45i104777",
+          "url": "https://openalex.org/W7214501203",
+          "abstract": "Snow trout, Schizopyge curvifrons (Heckel, 1838) (= Schizothorax intermedius MacClelland, 1842), occurs in mountain and foothill waters of the Syrdarya River basin. This study compared morphological variation among four populations from the Karasu Canal, Nurota–Shomurod Spring, Shahimardan River, and Maydansay River in Uzbekistan. Samples collected from 2023 to 2026 were assessed using meristic characters, conventional length–weight measurements, and a 10-landmark truss protocol. The populations showed broadly similar meristic characteristics, whereas lateral-line scale counts varied among localities, with wider ranges in the Nurota Mountain populations. Morphometric indices expressed as percentages of standard length were analysed using analysis of variance, factor analysis, and discriminant analysis. Seven latent factors together explained 83.33% of the total variance in the geometric morphometric indices. Analysis of variance indicated significant differences in most body-shape traits among water bodies. Discriminant analysis identified three functions accounting for 100% of the total discriminant variance and showed clear separation among the sampled populations. The Karasu Canal and Shahimardan River populations were particularly distinct from those in the vicinity of the Nurota Mountains, whereas the Nurota–Shomurod and Maydansay populations were comparatively closer but remained distinguishable. These findings document substantial morphological differentiation among snow trout populations occupying contrasting water bodies in the Syrdarya River basin and provide baseline information for further investigation of population structure in Uzbekistan.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S3023480720",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
@@ -21369,7 +21396,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764964142"
         },
         {
           "id": "10.1186/s12870-025-06676-7",
@@ -21423,7 +21451,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2898358376"
         },
         {
           "id": "10.1016/j.pld.2024.12.006",
@@ -21904,7 +21933,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S74970393"
         },
         {
           "id": "10.1038/s41586-025-08689-6",
@@ -21975,7 +22005,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S35917800"
         },
         {
           "id": "10.1111/nph.20338",
@@ -22090,7 +22121,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210230202"
         },
         {
           "id": "10.1093/genetics/iyae193",
@@ -22174,7 +22206,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S122176235"
         },
         {
           "id": "10.1002/ajb2.16467",
@@ -22238,7 +22271,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1038/s41597-025-04434-w",
@@ -22395,7 +22429,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S134644764"
         },
         {
           "id": "10.1590/1519-6984.298182",
@@ -22440,7 +22475,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2597340651"
         },
         {
           "id": "10.1038/s41588-024-02033-w",
@@ -22623,7 +22659,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S103356783"
         },
         {
           "id": "10.1186/s12870-024-05968-8",
@@ -22740,7 +22777,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S164789166"
         },
         {
           "id": "10.1016/j.ympev.2024.108213",
@@ -22871,7 +22909,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S91767247"
         },
         {
           "id": "10.1007/s00122-024-04767-x",
@@ -23097,7 +23136,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4387284748"
         },
         {
           "id": "10.1111/mec.17515",
@@ -23287,7 +23327,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1093/plcell/koae202",
@@ -24568,7 +24609,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1093/aob/mcad180",
@@ -25184,7 +25226,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S91767247"
         },
         {
           "id": "10.1007/s00122-023-04540-6",
@@ -25605,7 +25648,8 @@
           "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1016/j.molp.2023.10.015",
@@ -25768,7 +25812,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210230202"
         },
         {
           "id": "10.1093/bib/bbad513",
@@ -25789,7 +25834,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S91767247"
         },
         {
           "id": "10.1093/jhered/esad050",
@@ -26125,7 +26171,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1016/j.xplc.2023.100599",
@@ -26539,7 +26586,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210230202"
         },
         {
           "id": "10.1093/g3journal/jkad115",
@@ -27958,7 +28006,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2597340651"
         },
         {
           "id": "10.1007/s11692-023-09612-5",
@@ -31923,6 +31972,62 @@
           "tier": 0
         },
         {
+          "id": "10.1038/s42003-026-10946-x",
+          "title": "Cryo-EM structures of CENP-A nucleosomes isolated from human cells",
+          "authors": [
+            "Eisho Tanida",
+            "Suguru Hatazawa",
+            "Takumi Oishi",
+            "Yuki Kobayashi",
+            "Mitsuo Ogasawara",
+            "Marta A. Jaskiewicz",
+            "Akihito Harada",
+            "Takeru Fujii",
+            "Yasuyuki Ohkawa",
+            "Yoshimasa Takizawa",
+            "Hitoshi Kurumizaka"
+          ],
+          "journal": "Communications Biology",
+          "date": "2026-09-29",
+          "doi": "10.1038/s42003-026-10946-x",
+          "url": "https://openalex.org/W7214740683",
+          "abstract": "Abstract Centromeres ensure accurate chromosome segregation, and their identity is specified epigenetically by the histone H3 variant CENP-A. Although the structures of reconstituted CENP-A nucleosomes have provided important insights, how this epigenetic mark is structurally organized within native chromatin remains incompletely understood. Here, we combine cryogenic electron microscopy with chromatin immunoprecipitation (ChIP-CryoEM) to determine the structures of human CENP-A nucleosomes isolated directly from cells without crosslinking or stabilizing agents. We resolved two distinct cellular CENP-A nucleosome structures: a homotypic CENP-A nucleosome and a heterotypic CENP-A/H3 nucleosome, which have been proposed to represent centromeric and ectopic nucleosomes, respectively. Both cellular CENP-A nucleosomes assemble as histone octamers and wrap DNA in a left-handed superhelix, supporting an octameric model proposed for native CENP-A chromatin. In addition, the hallmark CENP-A-specific structural features previously characterized in vitro, including the shortened CENP-A N-terminal α-helix and the distinctive RG loop, are preserved in cellular CENP-A nucleosomes. These findings define the structural organization of CENP-A nucleosomes in cellular chromatin.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210225776",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Cryo-EM structures of CENP-A nucleosomes isolated from human cells.",
+          "authors": "Tanida E, Hatazawa S, Oishi T, Kobayashi Y, Ogasawara M, Jaskiewicz MA, Harada A, Fujii T, Ohkawa Y, Takizawa Y, Kurumizaka H.",
+          "journal": "",
+          "date": "2026-09-29",
+          "abstract": "Centromeres ensure accurate chromosome segregation, and their identity is specified epigenetically by the histone H3 variant CENP-A. Although the structures of reconstituted CENP-A nucleosomes have provided important insights, how this epigenetic mark is structurally organized within native chromatin remains incompletely understood. Here, we combine cryogenic electron microscopy with chromatin immunoprecipitation (ChIP-CryoEM) to determine the structures of human CENP-A nucleosomes isolated directly from cells without crosslinking or stabilizing agents. We resolved two distinct cellular CENP-A nucleosome structures: a homotypic CENP-A nucleosome and a heterotypic CENP-A/H3 nucleosome, which have been proposed to represent centromeric and ectopic nucleosomes, respectively. Both cellular CENP-A nucleosomes assemble as histone octamers and wrap DNA in a left-handed superhelix, supporting an octameric model proposed for native CENP-A chromatin. In addition, the hallmark CENP-A-specific structural features previously characterized in vitro, including the shortened CENP-A N-terminal α-helix and the distinctive RG loop, are preserved in cellular CENP-A nucleosomes. These findings define the structural organization of CENP-A nucleosomes in cellular chromatin.",
+          "url": "https://europepmc.org/article/MED/42811066",
+          "doi": "10.1038/s42003-026-10946-x",
+          "pmid": "42811066",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1038/s42003-026-10946-x",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1093/biolre/ioag216",
           "title": "Biological significance of centromeric satellite asymmetry in female meiosis.",
           "authors": [
@@ -31964,6 +32069,68 @@
           "tier": 0
         },
         {
+          "id": "10.1016/j.heliyon.2026.e45512",
+          "title": "Characterization and comparative genomic analysis of satellite DNAs in the Characidium genus (Teleostei, Characiformes)",
+          "authors": [
+            "HG Silva-Filho",
+            "Rodrigo Zeni dos Santos",
+            "Caio Augusto Gomes Goes",
+            "Gustavo Akira Toma",
+            "MB Cioffi",
+            "F Foresti",
+            "Fabio Porto Foresti",
+            "Ricardo Utsunomia"
+          ],
+          "journal": "Heliyon",
+          "date": "2026-09-28",
+          "doi": "10.1016/j.heliyon.2026.e45512",
+          "url": "https://openalex.org/W7214667786",
+          "abstract": "Repetitive DNAs, particularly satellite DNA (satDNA), constitute some of the most dynamic elements of eukaryotic genomes; however, their role in evolutionary diversification remains insufficiently understood. They are commonly associated with the organization of centromeres and telomeres, as well as with chromatin modulation. This study presents the first comprehensive satellitome characterization of Characidium zebra , a Neotropical fish exhibiting notable chromosomal stability, exploiting populations from the Paranapanema and Tietê river basins. We delineate and analyze the arrays of satDNA families, characterize their chromosomal distribution, and evaluate population-level variation in satellitome composition. Furthermore, we assess the evolutionary conservation of these repetitive sequences via comparative analyses with the closely related species Characidium gomesi. This comparison revealed that both species share 25.4% of the satDNAs, with C. zebra possessing 39 and C. gomesi 59 satDNAs. Moreover, 10 of these sequences of C. zebra exhibited similarity rates higher than 80% with 11 of C. gomesi and were therefore considered either sequence variants or the same family. Our findings indicate the presence of both shared and population-specific satDNA families, providing support for the library hypothesis, which posits that related taxa preserve a common repertoire of satDNAs that differ in relative abundance. This study also clarifies the ambiguous taxonomic classification of C. zebra and uncovers the interactions among repetitive DNA dynamics, genome architecture, and population divergence. Our findings establish C. zebra as a model for studying satellitome evolution.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2898612692",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "id": "10.1093/hr/uhag402",
+          "title": "quarTeT after three years: toolkit updates and community insights for telomere-to-telomere genome assembly",
+          "authors": [
+            "Jiarui Sun",
+            "Yunzhi Lin",
+            "Guocheng Sun",
+            "Xueying Hong",
+            "Azamat Totikov",
+            "Xiaoming Song",
+            "Weihua Pan",
+            "Yongsheng Liu",
+            "Yi Yue",
+            "Junyang Yue"
+          ],
+          "journal": "Horticulture Research",
+          "date": "2026-09-28",
+          "doi": "10.1093/hr/uhag402",
+          "url": "https://openalex.org/W7214708963",
+          "abstract": "Abstract Since its initial release in 2023, quarTeT has become a widely used toolkit for telomere-to-telomere (T2T) genome assembly and characterization. Here, we present a major update that improves all four quarTeT modules, including optional contig filtering in AssemblyMapper, refactored join algorithm in GapFiller, enhanced telomere detection in TeloExplorer, and support for holocentric chromosomes in CentroMiner. The main program has also been upgraded with user-configurable multithreading, broader version compatibility, and simplified deployment via Bioconda, Docker, and Singularity. Over the past three years, quarTeT has been adopted by 150 research groups in 22 countries and applied to 185 species, including plants, animals, fungi, and one bacterium. These efforts have helped to produce and characterize T2T or near-T2T assemblies across diverse evolutionary lineages. Community-use analysis indicates that TeloExplorer and CentroMiner are the most frequently used modules, whether together or alone, reflecting the central focus on telomeres and centromeres. Benchmarking shows a 13.8% runtime reduction over the original release and superior efficiency over specialized tools (CentIER and CentriVision) across six plant genomes, with competitive or better accuracy. Independent validation using CENH3 ChIP-seq covering diverse centromere types further confirms that quarTeT performs robustly and outperforms existing tools. Finally, we discuss remaining challenges and outline future directions, including machine learning-based centromere prediction, extended support for non-canonical centromere architectures, and the development of new completeness metrics beyond N50. The updated quarTeT toolkit is freely available at https://www.atcgn.com/quartet and https://github.com/aaranyue/quarTeT.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2764753230",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Cross-species incompatibilities offer new insights into the functional consequences of satellite DNA evolution.",
           "authors": "Ridgway AM, Lamelza P, Lampson MA, Levine MT.",
           "journal": "",
@@ -31999,6 +32166,28 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13600982/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Elevated miR-103b in exosomes derived from brain-metastatic triple-negative breast cancer cells remodels the brain pre-metastatic niche (PMN).",
+          "authors": "Zhou L, Ke J, Zhang S, Xiao S, Zhang H, Liu S, Liu L, Liu M, Lu Z, Zheng S.",
+          "journal": "",
+          "date": "2026-09-25",
+          "abstract": "<h4>Background</h4>Triple-negative breast cancer (TNBC) is a highly aggressive breast cancer with high brain metastatic (BM) potential. Tumor-derived exosomes are implicated as key modulators during the formation of the pre-metastatic niche (PMN). However, the regulation of TNBC-BM-derived exosomes on brain PMN remains enigmatic.<h4>Methods</h4>The morphology and uptake of exosomes were identified using transmission electron microscopy and live-cell imaging, respectively. Differentially secreted miRNAs and mRNA were identified using high-throughput sequencing. The permeability of the blood‒brain barrier (BBB) and tight junction integrity were examined using immunofluorescence staining. Cell viability was examined using the CCK-8 assay. The apoptosis and intracellular ROS were investigated using fluorescence staining. The expression of mRNAs was examined using qPCR.<h4>Results</h4>miR-103b was significantly increased in exosomes derived from TNBC-BM cells. miR-103b compromised the tight junctions of HUVECs and increased BBB permeability in mice. Additionally, miR-103b promoted apoptosis and increased intracellular ROS in HUVECs and U251 cells, two cell lines commonly used as surrogates for brain microvascular endothelial cells and astrocytes, respectively. miR-103b-regulated differentially expressed genes modulated tight junction, apoptosis, oxidative stress, inflammation, and metabolism. Target analysis identified 216 targets of miR-103b, among which hub targets were associated with biological processes involved in maintaining the BBB and the glucose metabolism signaling pathway.<h4>Conclusion</h4>Collectively, our findings for the first time reveal that exosomal miR-103b from TNBC-BM cells potentially regulates the two major cellular constituents of the brain PMN, highlighting its role in the formation of the brain PMN during TNBC-BM and its potential as a promising therapeutic target.",
+          "url": "https://europepmc.org/article/MED/42788345",
+          "doi": "10.1080/15384047.2026.2725357",
+          "pmid": "42788345",
+          "pmcid": "PMC13618856",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13618856?pdf=render",
+          "full_text_url": "https://doi.org/10.1080/15384047.2026.2725357",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -32103,6 +32292,34 @@
           "track": "C",
           "cited_by_count": 0,
           "oa_status": "bronze",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1508/cytologia.91.179",
+          "title": "Karyotypes of some endemic species of Dicliptera (Acanthaceae) from India reveal variation in chromosome number",
+          "authors": [
+            "Sonali S. Gosavi",
+            "Akanksha S. Jeswani",
+            "Rupali N. Chougule",
+            "Nilesh V. Malpure"
+          ],
+          "journal": "CYTOLOGIA",
+          "date": "2026-09-24",
+          "doi": "10.1508/cytologia.91.179",
+          "url": "https://openalex.org/W7214211420",
+          "abstract": "Dicliptera (Acanthaceae) is a pantropical genus that comprises more than 200 species. Karyotypes of eight species that are endemic to Peninsular India were studied. Mitotic metaphases revealed four chromosome counts, 2n=26, 52, 56, and 58. Chromosome counts of 2n=26 for D. beddomei, D. nasikensis, and D. srisailamica, 2n=56 for D. foetida and D. ghatica and 2n=58 for D. baphica were observed for the first time. The total haploid chromosome length (THL) ranged from 45.77 µm (D. cuneata) to 108.6 µm (D. foetida). Karyotypes were symmetric as all chromosomes had median (m) region centromeres. Considerable variation in chromosome number indicates the existence of more than one base number and the role of polyploidy in the evolution of the genus. Dispersion index (DI) showed a direct correlation with the coefficient of variation of chromosome length (CVCL) and differentiated Dicliptera karyotypes. Species with higher CVCL values (D. baphica, D. beddomei, D. cuneata, and D. foetida) had higher DI values (ranging from 3.22–4.86) whereas D. ghatica, D. leonotis, D. nasikensis, and D. srisailamica had lower DI values (ranging from 2.58–3.14). Principal component analysis based on eight parameters, namely somatic count (2n), THL, CVCL, CVCI, DI, mean centromeric asymmetry (MCA), mean chromosome length (MCL), and ratio of longest to shortest chromosome of a complement (R) grouped the species in three clusters. Cluster I comprised D. srisailamica, D. nasikensis, and D. beddomei. D. cuneata, D. ghatica, and D. leonotis formed Cluster II whereas Cluster III had D. baphica and D. foetida. Our studies suggest that an in-depth cytogenetic investigation including meiotic studies can shed light on the chromosomal evolution and speciation in this genus.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S166412053",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "pdf_url": "https://www.jstage.jst.go.jp/article/cytologia/91/3/91_D-26-00012/_pdf",
           "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
@@ -70118,6 +70335,35 @@
           "tier": 1
         },
         {
+          "id": "10.1111/jpg.70144",
+          "title": "Stratigraphic Intelligence for Hydrocarbon Discovery: Integrating Basin Architecture, Correlation Uncertainty and Predictive Petroleum Systems in Frontier Basins",
+          "authors": [
+            "Salima Cherkeshova",
+            "Nurlygul Kylyshbayeva",
+            "Gulimshat Shakirova",
+            "Kossarbay Kozhakhmet",
+            "Samal Janabilova",
+            "P. S. Sundetova",
+            "Timoth Mkilima"
+          ],
+          "journal": "Journal of Petroleum Geology",
+          "date": "2026-09-23",
+          "doi": "10.1111/jpg.70144",
+          "url": "https://openalex.org/W7214192594",
+          "abstract": "ABSTRACT Frontier hydrocarbon exploration combines sparse subsurface control with uncertainty in stratigraphic correlation, facies continuity, petroleum‐system timing and prospect economics. This structured critical review synthesizes 125 unique publications across platform, rift, intracratonic and other underexplored basin settings spanning Paleozoic to Cenozoic successions. Stratigraphic Intelligence Systems (SIS) is developed here as an integration architecture rather than as a claim that its individual components are new. The framework connects six established or emerging analytical layers: stratigraphic architecture, facies and reservoir‐property prediction, petroleum‐systems modelling, correlation‐uncertainty quantification, near‐surface historical‐geospatial constraints and AI‐assisted data integration. The proposed operationalization represents the subsurface as an ensemble of weighted geological realizations, updates realization weights as new evidence becomes available and propagates the resulting uncertainty into prospect‐level geological chance of discovery and expected‐value calculations. Historical‐geospatial records are restricted to complementary constraints on recent landscape, paleodrainage, uplift or subsidence and source‐to‐sink evolution; they are not treated as direct evidence of Mesozoic basin architecture. AI performance is evaluated within the context of each dataset, label structure and validation design rather than by direct comparison of unrelated accuracy or F 1 values. SIS is therefore positioned as a testable petroleum‐exploration workflow whose value depends on calibrated probabilities, explicit interfaces among model layers and prospective validation against blind drilling outcomes.",
+          "track": "D",
+          "source": "OpenAlex",
+          "openalex_source_id": "S198628674",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": false,
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.3390/biology15151299",
           "title": "Miocene Evolutionary History Shaped the Phylogeography of Willow Species (Salix L.) in the European Alps.",
           "authors": [
@@ -74201,6 +74447,33 @@
           "tier": 0
         },
         {
+          "id": "10.1007/s12686-026-01444-7",
+          "title": "Genome assembly and diagnostic DNA markers for sex of the largest freshwater fish in North America, the white sturgeon (Acipenser transmontanus)",
+          "authors": [
+            "Stuart C. Willis",
+            "Jeremiah Smith",
+            "Shawn R. Narum"
+          ],
+          "journal": "Conservation Genetics Resources",
+          "date": "2026-09-23",
+          "doi": "10.1007/s12686-026-01444-7",
+          "url": "https://openalex.org/W7214086088",
+          "abstract": "The lineage leading to the white sturgeon ( Acipenser transmontanus ), the largest freshwater fish in North America, experienced at least two rounds of whole genome duplication, and may exhibit both di- and multi-valent meiotic segregation. This species also exhibits contemporary ploidy variants due to spontaneous autopolyploidy. Nonetheless, as a species with several population segments that exhibit chronic recruitment failure, conservation aquaculture is an important part of their management. To facilitate the development of genetic tools to aid white sturgeon conservation, we present a genome assembly for a white sturgeon from the Snake River, Idaho, USA. Analysis of sequence data used for assembly indicated a haploid genome size of approximately 1.5Gbp, implying octoploidy (8 N) relative to a hypothetical acipenserimorph ancestor, while analysis of heterozygous k-mers from 21 to 41 bp suggest the genome reflects both 4 N and 8 N variants. The final genome assembly, scaffolded using two linkage maps constructed from F1 families, contained 6.26Gbp in 832,145 scaffolds, consistent with published genome size estimates. Conserved ortholog completeness for this genome was high (90.5%; 22.8% single-copy and 67.7% duplicated) and the largest linkage map-based scaffold was 55.2Mbp, though the N50 for this assembly was only 416Kbp, indicating the assembly remains fragmented. We demonstrate the utility of this assembly by identifying genomic regions significantly associated with sex. Genetic markers, designed for inclusion in an amplicon genotyping panel, predicted sex 96.6% and 81.5% correctly in females and males, respectively, providing a strong overall association ( P = 0.0054) with some variation by geographic region.",
+          "track": "E",
+          "source": "OpenAlex",
+          "openalex_source_id": "S147353869",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12686-026-01444-7.pdf",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "NCBI|GCA_061346355.1",
           "title": "白鲟 A. transmontanus 基因组组装（Contig级）",
           "authors": [
@@ -74561,39 +74834,39 @@
     }
   },
   "stats": {
-    "total_count": 2843,
-    "new_this_week": 39,
+    "total_count": 2852,
+    "new_this_week": 46,
     "weekly_trend": [
       {
         "week": "2026-W34",
-        "count": 101
+        "count": 103
       },
       {
         "week": "2026-W35",
-        "count": 21
+        "count": 29
       },
       {
         "week": "2026-W36",
-        "count": 39
+        "count": 19
       },
       {
         "week": "2026-W37",
-        "count": 2
-      },
-      {
-        "week": "2026-W38",
         "count": 4
       },
       {
+        "week": "2026-W38",
+        "count": 3
+      },
+      {
         "week": "2026-W39",
-        "count": 25
+        "count": 32
       }
     ],
     "tier_counts": {
       "1": 437,
       "2": 0,
       "3": 0,
-      "0": 2406
+      "0": 2415
     }
   }
 }
