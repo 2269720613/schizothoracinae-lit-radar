@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:15:18Z",
+  "generated_at": "2026-10-04T11:55:06Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -7307,6 +7307,28 @@
           "tier": 0
         },
         {
+          "title": "Development and deployment of a public mid-density genotyping panel for crimson clover (Trifolium incarnatum L.) based on whole-genome re-sequencing of diverse germplasm.",
+          "authors": "Castillo MP, Oyebode OG, Talag J, Bunting V, Kaur N, Doran P, Barry K, Competti D, Schmutz J, Schlautman B, Humphries A, Ghamkhar K, Moore V, Rios E, Harkess A, Wolfe M.",
+          "journal": "",
+          "date": "2026-12-01",
+          "abstract": "Crimson clover (Trifolium incarnatum L.) is an obligately outcrossing, cool-season annual legume valued for forage and cover cropping, yet genomic resources to support systematic improvement are limited. We performed the first whole-genome re-sequencing of global crimson clover germplasm to (i) develop a public mid-density enrichment capture panel for breeding applications and (ii) characterized genetic diversity among the sampled genotypes to validate the representativeness of the germplasm for panel design. From 45 crimson clover accessions, we sequenced 194 genotypes: 45 at ∼50X, generating 5.84 million variants and 149 at ∼2.54X, yielding 17.05 million variants. After filtering, we retained 542,790 high-confidence single-nucleotide polymorphisms (SNPs) from the high-coverage dataset and ∼2.4 million from the low-pass cohort, respectively. From these resources, we designed a 28,867-SNP Twist hybrid-capture panel enriched for genic regions and evenly distributed across seven chromosomes. This panel is being deployed within Auburn University's crimson clover breeding program to support population improvement and cultivar development. Genetic diversity analyses (principal component analysis, ADMIXTURE) revealed compact clustering of cultivars, broader dispersion of wild and uncertain-status accessions, and low overall differentiation (fixation index [FST] = 0.0105) with excess heterozygosity (inbreeding coefficient [FIS] = -0.0592), consistent with a high level of outcrossing. The resulting genomic resources provide a reproducible, mid-density genotyping platform for trait discovery, predictive breeding, and diversity monitoring. Together, these advances bring crimson clover genomic resources on par with other legumes such as soybean (Glycine max L. Merr.) and alfalfa (Medicago sativa L.), establishing a robust foundation for genomics-assisted improvement of this key cover and forage crop in US sustainable agriculture.",
+          "url": "https://europepmc.org/article/MED/42811592",
+          "doi": "10.1002/tpg2.70297",
+          "pmid": "42811592",
+          "pmcid": "PMC13624372",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13624372?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/tpg2.70297",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Authentication of the Botanical Origins of Curcumae Radix Based on DNA Barcoding and HS-GC-IMS.",
           "authors": "Jiang Q, Yin J, Han X, Yong J, Sun R, Liu M, Wang W, Wang Y, Song M, Xiang B, Yu H.",
           "journal": "",
@@ -7508,6 +7530,28 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13623496/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "First Observation of Wild Double-Flowered &lt;i&gt;Rhododendron nivale&lt;/i&gt; With Stamen Petaloidy and Possible Parallel Evolution.",
+          "authors": "Chen X, Deng S, Wang Z.",
+          "journal": "",
+          "date": "2026-09-29",
+          "abstract": "Parallel evolution of similar phenotypes under similar selective pressures is often viewed as evidence for natural selection. However, how often such parallel variation occurs in floral traits, and its underlying mechanisms, remain poorly understood-especially in alpine plants. Here we report the first discovery of wild double-flowered plants in <i>Rhododendron nivale</i>, a dwarf shrub of the eastern Qinghai-Tibet Plateau, and the first record of double flowers in subsection <i>Lapponica</i> (small-leaved, high-altitude sky-island shrubs). Naturally occurring stamen petaloidy was found in two geographically isolated populations at high passes in Chagyab County, Tibet (4825 m) and Yajiang County, Sichuan (4650 m), China. Individuals from both populations show nearly identical floral modifications: complete stamen petalody, thickened corolla lobes, abnormal style morphology, and denser capsule scales. The two populations are separated by > 800 km with no possible gene flow, yet they occupy remarkably similar habitats (strong winds, low temperatures, short growing seasons). This parallel variation may suggest independent origins under similar selective pressures. Based on the ABC model of floral development, we hypothesize that the double-flower phenotype results from altered expression of C-class genes such as <i>AGAMOUS</i>. A plastid (rbcL-matK) phylogeny further shows that the two double-flowered populations are not each other's closest relatives but instead nest within their respective geographic clades, consistent with independent (parallel) origins. Our findings provide unique material for understanding the molecular mechanisms and environmental drivers of floral homeotic variation. A more systematic investigation of floral development genes across <i>Rhododendron</i> is warranted, as such rare mutations may reveal the genetic basis of flower evolution and the role of parallel evolution in generating phenotypic diversity in alpine sky-island ecosystems.",
+          "url": "https://europepmc.org/article/MED/42812978",
+          "doi": "10.1002/ece3.74443",
+          "pmid": "42812978",
+          "pmcid": "PMC13623496",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13623496?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/ece3.74443",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -27122,7 +27166,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210190239"
         },
         {
           "id": "10.1111/mec.16663",
@@ -27250,7 +27295,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S28614077"
         },
         {
           "id": "10.1186/s12870-023-04578-0",
@@ -27416,7 +27462,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S62704344"
         },
         {
           "id": "10.1002/path.6167",
@@ -27444,7 +27491,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4394736614"
         },
         {
           "id": "10.1093/dnares/dsad015",
@@ -27516,7 +27564,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S86852077"
         },
         {
           "id": "10.3390/ijms241814037",
@@ -27664,7 +27713,8 @@
           "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S84695101"
         },
         {
           "id": "10.1038/s42003-023-05189-z",
@@ -27824,7 +27874,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S6191820"
         },
         {
           "id": "10.1016/j.neo.2023.100906",
@@ -27924,7 +27975,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S193523036"
         },
         {
           "id": "10.1016/j.xplc.2023.100574",
@@ -28012,7 +28064,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2061155"
         },
         {
           "id": "10.1002/ece3.10227",
@@ -28227,7 +28280,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S171405753"
         },
         {
           "id": "10.1093/g3journal/jkad073",
@@ -28278,7 +28332,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S104451582"
         },
         {
           "id": "10.1016/j.jare.2022.08.020",
@@ -28304,7 +28359,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S57607125"
         },
         {
           "id": "10.1002/ps.7406",
@@ -28425,7 +28481,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S206700086"
         },
         {
           "id": "10.1016/j.exppara.2023.108502",
@@ -28444,7 +28501,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S102868315"
         },
         {
           "id": "10.1111/mec.16439",
@@ -29077,7 +29135,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S28614077"
         },
         {
           "id": "10.1186/s12870-022-03974-2",
@@ -29492,7 +29551,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S193523036"
         },
         {
           "id": "36584404",
@@ -29571,7 +29631,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S57607125"
         },
         {
           "id": "10.1016/j.zool.2022.126053",
@@ -29624,7 +29685,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S84695101"
         },
         {
           "id": "10.1007/s10528-022-10222-7",
@@ -30131,7 +30193,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S104451582"
         },
         {
           "id": "10.1371/journal.pbio.3001776",
@@ -31158,7 +31221,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S28614077"
         },
         {
           "id": "10.1016/j.cub.2022.01.068",
@@ -33444,6 +33508,72 @@
           "track": "C",
           "cited_by_count": 0,
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Nuclear mitochondrial sequences in great ape telomere-to-telomere genomes.",
+          "authors": "Torres-González E, Cremona MA, Storer JM, Ventura M, O'Neill RJ, Makova KD.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "Mitochondrial sequences have integrated into the nuclear genome since the origin of eukaryotes. Recent insertions that retain homology with extant mitochondrial DNA (mtDNA), termed NUMTs, confound mtDNA sequence analysis. Here, we use great ape telomere-to-telomere (T2T) genomes to study NUMTs in bonobo, chimpanzee, human, gorilla, and Bornean and Sumatran orangutans. A phylogeny based on shared and lineage-specific NUMTs accurately recapitulates the great ape species tree topology. NUMTs are enriched at nonfunctional nonrepetitive regions of the nuclear genome and depleted within enhancers and coding sequences, suggesting negative selection. We validate the presence of a 76-kb-long heterozygous NUMT in chimpanzee, which is larger than any other NUMT observed in great apes, and find that dozens of NUMTs on the <i>Pan</i> Y Chromosome expanded together with palindromes. Finally, by analyzing intra-specific variation, we confirm that the vast majority of species-specific NUMTs identified in T2T assemblies are fixed or present at high frequencies in each species. Our study highlights NUMTs as a dynamic evolutionary force contributing to shaping ape genomes and is valuable for characterizing mtDNA in great apes.",
+          "url": "https://europepmc.org/article/MED/42613155",
+          "doi": "10.1101/gr.280875.125",
+          "pmid": "42613155",
+          "pmcid": "PMC13629686",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13629686?pdf=render",
+          "full_text_url": "https://doi.org/10.1101/gr.280875.125",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Chimeric antigen receptor T (CAR-T) cell therapy in non-oncological diseases.",
+          "authors": "Fan Z, Zheng X, Jin C, Zhang J, Gong N, Li X.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "The application of chimeric antigen receptor T (CAR-T) cells in hematologic malignancies has driven significant advancements in this form of immunotherapy. The therapeutic strategy of CAR-T cells targeting specific cell populations has opened new avenues for treating non-oncological diseases, such as autoimmune diseases, aging-related conditions, and infections. For instance, in non-oncological diseases like systemic lupus erythematosus (SLE), abnormal B cell development or dysfunction leads to the production of autoantibodies, triggering localized deposition of immune complexes and resulting in tissue or organ damage and dysfunction. Relevant studies have identified disease-specific surface antigens or pathogenic cell subsets, making CAR-T cell therapy a feasible treatment approach. Moreover, in non-oncological diseases, CAR-T cells can mediate immune remodeling for certain conditions, thereby achieving long-term therapeutic remission. Although no CAR-T therapies have yet been approved for non-oncological diseases, multiple clinical trials have been initiated, with some achieving interim successes (e.g., allogeneic CAR-T cells have demonstrated efficacy in treating rheumatic diseases). Meanwhile, ongoing research into the pathogenesis of non-neoplastic diseases further supports the potential application of CAR-T cells. With this background, this article aims to introduce the latest research, mechanisms, and applications of CAR-T cell therapy in non-oncological diseases, summarize the pathogenesis of related disorders, and discuss the advantages, challenges, and future prospects of CAR-T cell therapy.",
+          "url": "https://europepmc.org/article/MED/42816506",
+          "doi": "10.1038/s41392-026-02783-5",
+          "pmid": "42816506",
+          "pmcid": "PMC13627087",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13627087?pdf=render",
+          "full_text_url": "https://doi.org/10.1038/s41392-026-02783-5",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Novel Strategy for Structural Variant Genotyping by Short-Read Genomic Sequencing From Restriction-Circles: Experimental and Bioinformatics Proof-of-Concept.",
+          "authors": "Abelleyro MM, Yankilevich P, Ziegler BM, Luce L, Cifuentes HM, Radic CP, Rossetti LC, Giliberto F, De Brasi CD.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "Structural variants (SVs) comprise copy-number variants (e.g., deletions and duplications) and copy-neutral SV (e.g., perfect inversions). Short-read high-throughput DNA-sequencing is the established technology for small-variant calling in clinical genomics, whereas Oxford nanopore or PacBio long-read NGS technologies improve SV identification but remain challenging to implement in clinical settings. We developed and validated a novel experimental protocol and bioinformatics pipeline for SV genotyping from short-read whole-genome sequencing (WGS) of restriction-circles of DNA. The experimental protocol includes <i>Bcl</i>I-restriction digestion of genomic DNA, fragment-ends ligation and short-read WGS. The bioinformatics pipeline takes advantage of linking pair-end reads (LPERs), a key operator associating terminal sequences from each restriction fragment. LPERs contain long-distance haplotype information, essential for SV-genotyping. Each SV associates with a specific LPER pattern. The approach was applied to a patient with Duchenne muscular dystrophy (DMD) generating proper LPER vertical (8.6x) and horizontal (83%) coverages with good quality standards. SV-specific LPER quality filters were designed to improve the consistency of SV detection. The approach was validated by verifying a previously characterised <i>DMD</i>-genotype in the proband (<i>DMD</i>_exons_45-54 deletion and <i>DMD</i>_exons_38-43 duplication) with our output. Conventional SV genotyping using other SV detection algorithms can still be successfully applied to complete an accurate definition of the rearrangement. Our SV-genotyping algorithm detected two novel SVs in Xq28, which were verified by direct molecular investigation, and resulted polymorphic in the general population: a 1.4 kb deletion, allelic frequency AF (CI95%) of 0.83 (0.71-0.91) and a perfect inversion with 0.31 (0.08-0.54) originated by recombination of 99% homologous 8.4 kb inverted repeats (IRs). Although IR-mediated inversions represent a major challenge for WGS-based genotyping, our approach correctly indicated the absence of haemophilia recurrent inversions. Additionally, our protocol allows application of regular small-variant calling. A likely benign SNV in <i>F8</i>-intron-3 was also identified and verified. The potential clinical utility of this approach is supported by its consistency and ability to improve SV genotyping whilst allowing the application of conventional variant calling algorithms.",
+          "url": "https://europepmc.org/article/MED/42824964",
+          "doi": "10.1155/humu/2169350",
+          "pmid": "42824964",
+          "pmcid": "PMC13628565",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13628565?pdf=render",
+          "full_text_url": "https://doi.org/10.1155/humu/2169350",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -73046,6 +73176,29 @@
       ],
       "papers": [
         {
+          "title": "The uplift of the Qinghai-Tibetan Plateau reshaped genome architecture and diversification of Asian torrent catfishes",
+          "authors": "Yang L, Qian Y, Meng M, Mao T, chen w, Ding Z, Liu Y, Zheng L, Wang C, Gan X, Chen Y, He S.",
+          "journal": "",
+          "date": "2026-10-02",
+          "abstract": "Tectonic uplift and mountain building are major drivers of species diversification and adaptation, yet how they reshape genome architecture and promote evolutionary innovation remains poorly understood. Here, we generated multiple chromosome-level genomes for Asian torrent catfishes (Sisoridae) and performed phylogenomic and comparative genomic analyses. Our results support an Asian origin of Sisoridae and provide a refined phylogenetic topology for catfishes. Comparative analyses revealed extensive chromosomal rearrangements during sisorid evolution, indicating highly dynamic genome architectures. The timing of sisorid diversification overlaps with major phases of regional tectonic change, and analyses of phylogenetic discordance indicate heterogeneous contributions from incomplete lineage sorting and introgression. Elevational distribution was associated with variation in estimated molecular evolutionary rates, while exploratory scans identified lineage-specific candidates for selection and convergent evolution. Candidate coding and non-coding changes occur near genes with known roles in fin development, body patterning, and liver biology, but their effects on sisorid traits remain to be tested. Together, our results demonstrate how tectonic uplift reshaped genome architecture and diversification in Asian torrent catfishes and provide new insights into the genomic basis of adaptation in mountainous freshwater ecosystems.",
+          "url": "https://doi.org/10.64898/2026.09.30.755532",
+          "doi": "10.64898/2026.09.30.755532",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.64898/2026.09.30.755532",
+          "source": "europepmc",
+          "track": "D",
+          "cited_by_count": 0,
+          "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1016/j.ympev.2026.108665",
           "title": "Comparative phylogeography of three Cletus species pairs reveals shared responses to quaternary environmental change.",
           "authors": [
@@ -73243,6 +73396,50 @@
           "cited_by_count": 1,
           "tldr": "",
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genetic divergence and signatures of historical isolation of the traditionally harvested Amolops marmoratus from the Darjeeling Hill Region in the Himalaya Biodiversity Hotspot.",
+          "authors": "Mandal K, Tamang S, Subba S, Rai D, De S, Desai S, Subba S, Mahapatra AS, Nargis NA, Deuti K, Chaubey G, Tamang R.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "<h4>Background</h4>The Darjeeling Hill Region (DHR) has numerous freshwater bodies, such as hill streams, springs, and temporary water pools. It receives abundant rainfall and has extensive forest cover, which together play vital roles in sustaining frog diversity. Amolops marmoratus is among the notable hillstream frogs, known for its wide geographic distribution and status as a local delicacy. Thus, A. marmoratus is an important subject for studying genetic divergence and population structure along with anthropogenic pressure. This research investigates the standard morphological characteristics and genetic relationships of A. marmoratus globally using 16S rRNA and COI gene sequences.<h4>Results</h4>Our results revealed low estimates of nucleotide and gene diversity in A. marmoratus from the DHR, whereas comparatively higher values were observed in Southeast Asia, China, and Myanmar. Higher F<sub>ST</sub> values were noted between the DHR populations and those from other Asian regions, whereas lower F<sub>ST</sub> values were found among populations from Myanmar and Southeast Asia. However, these comparisons warrant caution given unequal sample sizes and the potential for cryptic lineage diversity within this taxonomically complex group. Phylogenetic analysis indicated distinct clades corresponding to different regions, with comparatively shorter branches and limited founders in the DHR group. The significantly negative Fu's Fs value, along with a unimodal mismatch distribution, indicated a deviation from demographic equilibrium reflecting a historical post-founder demographic expansion.<h4>Conclusion</h4>These findings indicate strong regional differentiation for A. marmoratus. The inherently reduced genetic diversity of A. marmoratus in the DHR is consistent with historical demographic processes and geographic isolation. Furthermore, local frog-eating practices may act as a severe contemporary stressor on this already genetically depauperate population. We recommend framing conservation guidelines and increasing awareness among locals to promote a balanced ecosystem and ensure the long-term survival of A. marmoratus in the DHR.",
+          "url": "https://europepmc.org/article/MED/42816811",
+          "doi": "10.1186/s12864-026-13367-6",
+          "pmid": "42816811",
+          "pmcid": "PMC13628901",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13628901?pdf=render",
+          "full_text_url": "https://doi.org/10.1186/s12864-026-13367-6",
+          "source": "europepmc",
+          "track": "D",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Macroevolutionary dynamics and predictors of tropical rain forest plant diversity.",
+          "authors": "Holzmeyer L, Nge FJ, Guerrero SA, Armstrong KE, Bazante ML, Bijmoer R, Borosova R, Bruy DD, Bunchalee P, Chaowasku T, Chatrou LW, Chen J, Dagallier LMJ, Damthongdee A, Erkens RHJ, Fabriani F, Fonseca LHM, Gaudeul M, Hoekstra PH, Johnson DM, Lautenschläger T, Leeratiwong C, Liu MF, Lobão AAQ, Lopes JC, Mariac C, Martínez-Velarde MF, Mercier KP, Michelangeli FA, Montúfar R, Munzinger JJ, Murray NA, Ortiz-Rodriguez AE, Pérez ÁJ, Pirie MD, Rainer H, Rakotoarinivo M, Rodrigues-Vaz C, Rouhan G, Sauquet H, Sonké B, Soulé VRC, Stévart T, Streiff SJR, Strijk JS, Tardif D, Thomas DC, Patipe AT, Wieringa JJ, Zapata JN, Sepulchre P, Condamine FL, Couvreur TLP.",
+          "journal": "",
+          "date": "2026-09-30",
+          "abstract": "Tropical rain forest is the most diverse terrestrial biome, yet the drivers of its diversification across space and time remain poorly understood. Although heterogeneous diversification rates, including both ancient and recent radiations, have been reported, these dynamics have rarely been examined within a single lineage across deep evolutionary timescales. Here, we reconstruct a dated phylogenomic tree of the pantropical plant family Annonaceae, sampling 2045 species (∼82% of its diversity) and spanning ∼100 million years of evolutionary history. Diversification dynamics vary markedly across tropical regions, correlated with distinct environmental factors rather than uniform processes. Sea level fluctuations dominate in the Asia-Pacific, whereas paleotemperature shapes diversification in the Afrotropics and Neotropics. We also detect a Late Cretaceous increase in diversification, indicating that a substantial portion of Annonaceae diversity originated before the Cretaceous-Paleogene boundary. Together, these results highlight how regional environmental trajectories have shaped the assembly of a diverse tropical plant family over deep evolutionary time.",
+          "url": "https://europepmc.org/article/MED/42814854",
+          "doi": "10.1126/sciadv.aee4197",
+          "pmid": "42814854",
+          "pmcid": "PMC13626091",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13626091?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aee4197",
+          "source": "europepmc",
+          "track": "D",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -80194,12 +80391,12 @@
     }
   },
   "stats": {
-    "total_count": 3020,
-    "new_this_week": 44,
+    "total_count": 3028,
+    "new_this_week": 48,
     "weekly_trend": [
       {
         "week": "2026-W34",
-        "count": 56
+        "count": 43
       },
       {
         "week": "2026-W35",
@@ -80207,7 +80404,7 @@
       },
       {
         "week": "2026-W36",
-        "count": 11
+        "count": 9
       },
       {
         "week": "2026-W37",
@@ -80215,18 +80412,18 @@
       },
       {
         "week": "2026-W38",
-        "count": 24
+        "count": 28
       },
       {
         "week": "2026-W39",
-        "count": 37
+        "count": 40
       }
     ],
     "tier_counts": {
       "1": 455,
       "2": 0,
       "3": 0,
-      "0": 2565
+      "0": 2573
     }
   }
 }
