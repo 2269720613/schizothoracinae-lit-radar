@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:55:06Z",
+  "generated_at": "2026-10-05T13:53:42Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -7552,6 +7552,28 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13623496?pdf=render",
           "full_text_url": "https://doi.org/10.1002/ece3.74443",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "ChoCallate: a computational pipeline for consensus germline variant calling in genomic sequencing data.",
+          "authors": "Ermolaev A, Divashuk M.",
+          "journal": "",
+          "date": "2026-09-29",
+          "abstract": "Accurate germline variant calling in non-model and polyploid organisms remains challenging due to sequencing errors, genomic complexity, and caller-specific biases. Existing ensemble methods of variant calling are constrained by species-specific training, limited portability, or an inability to process multiple samples concurrently. To address these limitations we developed ChoCallate, a Nextflow-based pipeline for consensus germline variant calling. The pipeline integrates three species-independent callers, bcftools, FreeBayes, and Genome Analysis Toolkit (GATK) HaplotypeCaller, within a flexible voting mechanism. A distinctive feature of ChoCallate is its incorporation of coverage-aware consensus generation <i>via</i> Browser Extensible Data (BED) file, enabling reliable variant identification even in reduced-representation sequencing data such as Restriction site Associated DNA sequencing (RAD-seq) or RNA-seq. In a simulated dataset containing 10,000 single-nucleotide polymorphisms (SNPs) and 1,000 InDels of <i>Arabidopsis thaliana</i> across coverage depths ranging from 3× to 50×, the two-vote consensus strategy provided a favourable precision-recall balance, particularly at lower coverage (3×-10×), where SNP precision was enhanced without substantial loss of sensitivity. False-negative variants were found to concentrate in centromeric and nucleolus organizer regions (NORs) across all strategies, indicating that repetitive genomic structure, rather than consensus logic, constitutes the primary limitation. In a case study of 200 bread wheat (<i>Triticum aestivum</i>) samples, ChoCallate identified 11,178 high-confidence variants, and a genome-wide association study (GWAS) for awnedness successfully recovered the known B1/ALI-1 locus on chromosome 5A, replicating prior findings with reduced genomic inflation (<i>λ</i> (gc) = 1.06) by decreasing the number of false-positive variants through a consensus-based approach. ChoCallate is portable, species-agnostic, and freely available.",
+          "url": "https://europepmc.org/article/MED/42828029",
+          "doi": "10.7717/peerj.21758",
+          "pmid": "42828029",
+          "pmcid": "PMC13632679",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13632679?pdf=render",
+          "full_text_url": "https://doi.org/10.7717/peerj.21758",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -28684,7 +28706,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S58136343"
         },
         {
           "id": "10.1111/plb.13508",
@@ -28707,7 +28730,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S104414929"
         },
         {
           "id": "10.1111/mec.16864",
@@ -28864,7 +28888,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210170475"
         },
         {
           "id": "10.1093/g3journal/jkac325",
@@ -28908,7 +28933,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "id": "10.1093/aob/mcac071",
@@ -29005,7 +29031,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188085164"
         },
         {
           "id": "10.1002/pros.24459",
@@ -29027,7 +29054,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S197000376"
         },
         {
           "id": "10.1111/pbi.13958",
@@ -29087,7 +29115,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S140378306"
         },
         {
           "id": "10.1002/ajb2.16121",
@@ -29245,7 +29274,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0289766",
@@ -29296,7 +29326,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.7717/peerj.14756",
@@ -30035,7 +30066,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S104414929"
         },
         {
           "id": "10.1016/j.tplants.2022.04.008",
@@ -30136,7 +30168,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "id": "10.1016/j.xplc.2022.100345",
@@ -31774,7 +31807,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0276390",
@@ -32057,7 +32091,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.3389/fpls.2022.999964",
@@ -32081,7 +32116,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2493613807"
         },
         {
           "id": "10.1371/journal.pone.0276556",
@@ -32532,7 +32568,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "id": "10.1186/s12870-021-03265-2",
@@ -32903,7 +32940,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "id": "10.1007/s11033-021-06668-4",
@@ -33280,7 +33318,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S104414929"
         },
         {
           "id": "10.1016/j.plantsci.2021.110985",
@@ -33580,6 +33619,50 @@
           "tier": 0
         },
         {
+          "title": "The Chromosomal Organization of Isleria hauxwelli and Its Meaning for the Karyotypic Evolution in Thamnophilidae (Passeriformes).",
+          "authors": "Ferreira PVM, Ribas TFA, Monteiro AN, de Silva Tembra LG, de Andrade Machado M, O'Brien PCM, Ferguson-Smith MA, Yang F, Nagamachi CY, Pieczarka JC.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "The order Passeriformes, the most speciose avian order, includes over 6000 species (~60% of all birds). The Amazon Basin alone hosts > 900 bird species, with Passeriformes representing > 500 of them. The family Thamnophilidae comprises ~200 insectivorous species, accounting for 15% of Neotropical passerine richness. Within Thamnophilinae, Isleria is the least speciose genus, containing only two species. It was erected after phylogenetic analyses revealed Myrmotherula as non-monophyletic. To advance knowledge of chromosomal evolution in Passeriformes, we analyzed the karyotype of Isleria hauxwelli using molecular cytogenetics. We found a diploid number of 2n = 84 and a fundamental number (FN) of 92. The BOE-7 probe, corresponding to the ancestral fusion of GGA-9 with two microchromosomes, maintained that configuration without undergoing fission to produce IHA-5. The BOE-14 probe, typically fragmented in all cytogenomically characterized Passeriformes, corresponded to two distinct GGA segments: the R3 portion and a region of unknown homology. This is the first documentation of such chromosomal organization in passerines. The absence of these fissions suggests a possible autapomorphic chromosomal condition within Thamnophilidae. Additionally, a potential fission involving microchromosomes homeologous to probes BOE-15 and BOE-16 is suggested: while these probes mark three microchromosome pairs in GGA, they mark four pairs in I. hauxwelli-a feature not yet observed in other passerines. As most Thamnophilidae remain cytogenetically uncharacterized, systematic study of this family is essential to determine whether these rearrangements represent synapomorphies, autapomorphies, or convergent events.",
+          "url": "https://europepmc.org/article/MED/42823890",
+          "doi": "10.1002/age.70210",
+          "pmid": "42823890",
+          "pmcid": "PMC13631690",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13631690?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/age.70210",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Chromosome-scale assembly of yeast genomes using enzyme-free, dense optical genome mapping.",
+          "authors": "Leal-Garza LM, Zachrisson H, Dvirnas A, Goyal G, Obi I, Kk S, Sabouri N, Ambjörnsson T, Westerlund F.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "Large repetitive elements and complex chromosomal organization continue to challenge accurate assembly of eukaryotic genomes. Optical genome mapping (OGM) provides long-range genomic information by imaging individual DNA molecules. While most OGM protocols rely on sparse enzymatic labeling that restricts resolution in poorly labeled or structurally complex regions, dense labeling strategies generate continuous fluorescence intensity profiles that offer a complementary representation of genome structure. Here we extend our Dense Optical Genome Mapping Assembly (DOGMA) pipeline, previously used for bacterial genomes, to eukaryotic genomes, exemplified by the yeasts Saccharomyces cerevisiae and Schizosaccharomyces pombe, with compact, yet structurally rich genomes. We use a competitive binding (CB)-based dense OGM protocol that produces continuous intensity profiles, reflecting local AT/GC-content, along individual DNA molecules. By explicitly accounting for structural features inherent to eukaryotic genomes that complicate assembly, DOGMA reconstructs genome-wide optical maps while avoiding collapse of non-adjacent repetitive loci. The resulting chromosome-scale assemblies span the genomes of both yeasts and show local differences relative to the corresponding reference genomes, including expanded repetitive arrays ( > 500 kbp). These results establish a comprehensive framework for scalable dense OGM to increasingly complex genomes, including the human genome, where we foresee that it can be efficiently used for disease diagnosis.",
+          "url": "https://europepmc.org/article/MED/42823428",
+          "doi": "10.1038/s41467-026-78211-7",
+          "pmid": "42823428",
+          "pmcid": "PMC13631253",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13631253?pdf=render",
+          "full_text_url": "https://doi.org/10.1038/s41467-026-78211-7",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.5445/ir/1000197430",
           "title": "The mutational dynamics of the Arabidopsis centromeres",
           "authors": [
@@ -33758,7 +33841,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S130598054"
         },
         {
           "title": "Biological significance of centromeric satellite asymmetry in female meiosis.",
@@ -80391,39 +80475,39 @@
     }
   },
   "stats": {
-    "total_count": 3028,
-    "new_this_week": 48,
+    "total_count": 3031,
+    "new_this_week": 49,
     "weekly_trend": [
       {
-        "week": "2026-W34",
-        "count": 43
-      },
-      {
         "week": "2026-W35",
-        "count": 44
+        "count": 40
       },
       {
         "week": "2026-W36",
-        "count": 9
+        "count": 45
       },
       {
         "week": "2026-W37",
-        "count": 6
+        "count": 8
       },
       {
         "week": "2026-W38",
-        "count": 28
+        "count": 6
       },
       {
         "week": "2026-W39",
-        "count": 40
+        "count": 30
+      },
+      {
+        "week": "2026-W40",
+        "count": 41
       }
     ],
     "tier_counts": {
       "1": 455,
       "2": 0,
       "3": 0,
-      "0": 2573
+      "0": 2576
     }
   }
 }
