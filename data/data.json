@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:56:20Z",
+  "generated_at": "2026-10-07T12:50:28Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -7352,6 +7352,94 @@
           "tier": 0
         },
         {
+          "title": "Revealing the genetic diversity in the global ex situ sweetpotato collection with next generation sequencing technologies",
+          "authors": "Anglin N, Robles R, Rossel G, Waqainabete L, Cakaunitavuki S, Sukal A, Manrique-Carpintero N, Panta A, Vollmer R, Mello A, Renno V, Ellis D.",
+          "journal": "",
+          "date": "2026-10-06",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13635344",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13635344/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Mapping the characterization landscape of Colocasia esculenta (L.) in Africa: gaps, trends, and priorities - a systematic review with meta-analysis",
+          "authors": "Kouke R, Bonny B, Nkwuda N, Kelechi N, Ahanhanzo C, Koffi K.",
+          "journal": "",
+          "date": "2026-10-06",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13635379",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13635379/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Next-generation CRISPR systems and advanced delivery paradigms for precision crop improvement: a comparative case study in sugar beet (Beta vulgaris L.)",
+          "authors": "Kachiyeva Z, Nazik N, Shahid M, Ashraf R, Ul Hassan J, Khan A, Khan M, Mushtaq H, Saeed F, Arif U, Karimov N, Karimov A, Gritsenko D, Bakhsh A.",
+          "journal": "",
+          "date": "2026-10-06",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13637572",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13637572/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genetic and physiological mechanisms of grapevine resistance to Xylella fastidiosa infection: a progressive acquisition of knowledge",
+          "authors": "Amoia S, Saldarelli P.",
+          "journal": "",
+          "date": "2026-10-06",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13637469",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13637469/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "https://openalex.org/W7162962396",
           "title": "Probing metabolic integration in obligate, intracellular symbioses",
           "authors": [
@@ -7530,6 +7618,28 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13633423?pdf=render",
           "full_text_url": "https://doi.org/10.1111/mec.70554",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Introgression Shapes Genetic Variation Associated With Humid Environments in Aedes aegypti Mosquitoes From Saudi Arabia.",
+          "authors": "Mashlawi AM, Balcazar D, Abuelmaali SA, Albeshr MF, Sallam MF, Al-Mekhlafi HM, Walton C, Gloria-Soria A.",
+          "journal": "",
+          "date": "2026-10-01",
+          "abstract": "Introgression between genetically distinct populations generates variation that may promote adaptation to diverse environmental conditions. In the mosquito Aedes aegypti, the forest-associated subspecies Aedes aegypti formosus (Aaf) underwent a domestication process approximately 5000 years ago, giving rise to the globally invasive, human-associated arbovirus vector Aedes aegypti aegypti (Aaa). Despite extensive human-mediated transport, the two subspecies remain largely distinct, with admixture documented mainly in coastal Africa and Saudi Arabia. We examined Saudi Arabian Ae. aegypti across climatically contrasting regions - the humid south and arid west- using a Saudi Arabian dataset (11,939 SNPs) to examine within-country genetic and environmental variation and a global dataset (13,455 SNPs) to assess ancestry and admixture in a worldwide context. Genomic analyses revealed strong west-south differentiation, with Jazan Highland showing admixture between subspecies and the highest proportion of Aaf ancestry. Multiple pulses of gene flow into and within southern Saudi Arabia suggest Aaf populations act as a reservoir of genetic variation. Genome-wide scans identified a candidate region associated with the humidity gradient, harbouring an elongase of very long-chain fatty acids (AAEL024147), essential for cuticle production and minimizing water loss. Because the Saudi Arabian genetic background is predominantly the arid-adapted subspecies Aaa, the presence of Aaf ancestry at this locus may reflect localized introgression with adaptive relevance under an increasingly humid environment. Our findings highlight how secondary contact between divergent lineages may contribute to local adaptation in Ae. aegypti, with implications for predicting responses to environmental change.",
+          "url": "https://europepmc.org/article/MED/42830562",
+          "doi": "10.1111/mec.70575",
+          "pmid": "42830562",
+          "pmcid": "PMC13635610",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13635610?pdf=render",
+          "full_text_url": "https://doi.org/10.1111/mec.70575",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -29913,7 +30023,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S175946340"
         },
         {
           "id": "10.1002/ps.7093",
@@ -30123,7 +30234,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S201780205"
         },
         {
           "id": "10.1002/jsfa.11950",
@@ -30156,7 +30268,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S206298197"
         },
         {
           "id": "10.1093/jas/skac274",
@@ -30179,7 +30292,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S72684844"
         },
         {
           "id": "10.1093/genetics/iyac121",
@@ -30279,7 +30393,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S154343897"
         },
         {
           "id": "10.1111/nph.18284",
@@ -30328,7 +30443,8 @@
           "source": "PubMed",
           "journal_h_index": null,
           "journal_citedness": null,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1093/sysbio/syac011",
@@ -30393,7 +30509,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1002/ajb2.16029",
@@ -30434,7 +30551,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210186268"
         },
         {
           "id": "10.1111/mec.16579",
@@ -30520,7 +30638,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S22454499"
         },
         {
           "id": "10.3390/ijms23158432",
@@ -30556,7 +30675,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.3390/plants11151919",
@@ -31499,7 +31619,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S22454499"
         },
         {
           "id": "10.1073/pnas.2122293119",
@@ -31545,7 +31666,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1038/s41467-022-28453-y",
@@ -32456,7 +32578,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S22454499"
         },
         {
           "id": "10.1016/j.ympev.2021.107313",
@@ -32680,7 +32803,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S22454499"
         },
         {
           "id": "10.1007/s11427-020-1900-7",
@@ -32804,7 +32928,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S22454499"
         },
         {
           "id": "10.1093/molbev/msab230",
@@ -33017,7 +33142,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S22454499"
         },
         {
           "id": "10.1111/pce.14144",
@@ -33193,7 +33319,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1093/molbev/msab188",
@@ -33460,6 +33587,36 @@
         "CENP-A centromere"
       ],
       "papers": [
+        {
+          "id": "10.1016/j.celrep.2026.118099",
+          "title": "A near-complete quail genome identifies heterochromatin expansion and chromosome architecture remodeling.",
+          "authors": [
+            "Liu J",
+            "Guo Q",
+            "Fan S",
+            "Wu J",
+            "Wang T",
+            "Luo H",
+            "Kang N",
+            "Li X",
+            "Zhuang Z",
+            "Fukagawa T",
+            "Bai H",
+            "Xu L",
+            "Chang G"
+          ],
+          "journal": "Cell reports",
+          "date": "2026-10-06",
+          "doi": "10.1016/j.celrep.2026.118099",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42837258/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
         {
           "id": "10.1083/jcb.202512154",
           "title": "Mammalian metaphase kinetochores are elastic and require condensin for robust structure and function.",
@@ -79569,6 +79726,28 @@
           "tier": 0
         },
         {
+          "title": "Lipoprotein biology during induced oogenesis in the short-finned eel, Anguilla australis-hepatic target gene expression and accumulation of nutrient sources into developing oocytes.",
+          "authors": "Damsteegt EL, Mercuriali B, Thomson-Laing G, Miner M, Nguyen AT, Lokman PM.",
+          "journal": "",
+          "date": "2026-10-03",
+          "abstract": "Production of good quality eggs still plagues mass propagation efforts of anguillid eels. Understanding the lipid dynamics of artificially maturing eels will inevitably benefit captive rearing practices due to the importance of lipids for egg quality. Fortnightly sampling of shortfinned eels (Anguilla australis) subjected to hypophysation for 10 weeks allowed us to gather important information relating to multiple aspects of lipid physiology. Accordingly, expected increases in gonadosomatic (from 2.20 ± 0.14 to 23.20 ± 6.01%) and hepatic somatic indices (from 0.89 ± 0.04 to 1.93 ± 0.01%), as well as oocyte diameter (from ~ 220 to ~ 700 µm) were complemented with notable increases in hepatic and ovarian vitellogenin levels at both the gene and protein levels in treated eels compared to Ringer-injected controls. A fivefold increase in hepatic expression of oestrogen receptor-alpha, but not the -beta isoform, corroborates the role for estradiol in promoting vitellogenesis. Conversely, decreases in expression of apolipoprotein b and the peroxisome proliferator-activated receptors in the liver point to a change in the role of the liver away from the neutral lipid packaging associated with previtellogenesis towards vitellogenin loading, ultimately culminating in yolk protein sequestration by the oocytes.",
+          "url": "https://europepmc.org/article/MED/42828554",
+          "doi": "10.1007/s10695-026-01806-w",
+          "pmid": "42828554",
+          "pmcid": "PMC13634022",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13634022?pdf=render",
+          "full_text_url": "https://doi.org/10.1007/s10695-026-01806-w",
+          "source": "europepmc",
+          "track": "E",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Beyond Probiotics: Postbiotics for Healthy Aquaculture.",
           "authors": "Chikindas ML, Xu D, Popov IV, Carneiro KO, Elova NA, Bekmurodova GA, Amirsaidova DA, Pepoyan A, Miralimova SM, Mitrokhin OV, Sichel LS, Tagg J, Todorov SD.",
           "journal": "",
@@ -81240,20 +81419,20 @@
     }
   },
   "stats": {
-    "total_count": 3062,
-    "new_this_week": 42,
+    "total_count": 3069,
+    "new_this_week": 44,
     "weekly_trend": [
       {
         "week": "2026-W35",
-        "count": 22
+        "count": 34
       },
       {
         "week": "2026-W36",
-        "count": 48
+        "count": 24
       },
       {
         "week": "2026-W37",
-        "count": 5
+        "count": 7
       },
       {
         "week": "2026-W38",
@@ -81261,18 +81440,18 @@
       },
       {
         "week": "2026-W39",
-        "count": 39
+        "count": 41
       },
       {
         "week": "2026-W40",
-        "count": 35
+        "count": 37
       }
     ],
     "tier_counts": {
-      "1": 462,
+      "1": 463,
       "2": 0,
       "3": 0,
-      "0": 2600
+      "0": 2606
     }
   }
 }
