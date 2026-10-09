@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:59:02Z",
+  "generated_at": "2026-10-09T12:45:28Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -34,6 +34,27 @@
           "track": "A",
           "source": "PubMed",
           "openalex_source_id": "S2737427234",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "title": "Cis-regulatory inactivation of vitamin D signaling confers extreme calcium tolerance in Jialing fish",
+          "authors": "Zhang N, Zhou Y, Feng J, Yang T, Liu H, Zhang Y, Chen L, Xiao W, Wang T, Hsueh A, Li J.",
+          "journal": "",
+          "date": "2026-10-09",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13644761",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13644761/?tool=EBI",
+          "source": "europepmc",
+          "track": "A",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "tier": 0
@@ -31127,7 +31148,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S17807283"
         },
         {
           "id": "10.1007/s11033-021-06650-0",
@@ -31173,7 +31195,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S154149207"
         },
         {
           "id": "10.1007/s10695-022-01080-6",
@@ -31194,7 +31217,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S188633547"
         },
         {
           "id": "10.1111/1755-0998.13558",
@@ -31243,7 +31267,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S203437305"
         },
         {
           "id": "10.1111/evo.14481",
@@ -31378,7 +31403,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S32610980"
         },
         {
           "id": "10.1007/s00122-022-04030-1",
@@ -31524,7 +31550,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S138169916"
         },
         {
           "id": "10.1186/s12864-022-08468-x",
@@ -31595,7 +31622,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S194631498"
         },
         {
           "id": "10.1038/s41598-022-07619-0",
@@ -31641,7 +31669,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210183972"
         },
         {
           "id": "10.1007/s10265-022-01373-0",
@@ -31665,7 +31694,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S6139184"
         },
         {
           "id": "10.1016/j.ygeno.2022.110283",
@@ -31687,7 +31717,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S146035217"
         },
         {
           "id": "10.1007/s00122-021-03912-0",
@@ -31739,7 +31770,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S85201822"
         },
         {
           "id": "10.1111/mec.16045",
@@ -32044,7 +32076,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S134668137"
         },
         {
           "id": "10.1093/g3journal/jkab362",
@@ -32260,7 +32293,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S138169916"
         },
         {
           "id": "10.1002/eap.2473",
@@ -32564,7 +32598,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S146035217"
         },
         {
           "id": "10.3390/genes13010050",
@@ -32583,7 +32618,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S194631498"
         },
         {
           "id": "10.1093/sysbio/syab043",
@@ -33582,7 +33618,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S138169916"
         },
         {
           "id": "10.1111/pbi.13636",
@@ -33755,6 +33792,52 @@
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Targeted integration of extrachromosomal arrays in C. elegans using PhiC31 integrase",
+          "authors": "Rich M, Pellow R, Zhang Y, Hefel A, Rog O, Jorgensen E.",
+          "journal": "",
+          "date": "2026-10-09",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13644748",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13644748/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1128/mra.00630-26",
+          "title": "Telomere-to-telomere genome assembly of Aspergillus nidulans CS2498 with resolved centromeric regions.",
+          "authors": [
+            "Svoboda T",
+            "Berger H",
+            "Strauss J"
+          ],
+          "journal": "Microbiology resource announcements",
+          "date": "2026-10-08",
+          "doi": "10.1128/mra.00630-26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42734348/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "pdf_url": "https://journals.asm.org/doi/pdf/10.1128/mra.00630-26?download=true",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -35530,7 +35613,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S138169916"
         },
         {
           "id": "10.1146/annurev-genet-011626-020247",
@@ -38325,6 +38409,31 @@
           "abstract": "",
           "track": "C",
           "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Holocentromere diversity in Cyperaceae: contrasting repeat organisation in Mapanioideae and Cyperoideae",
+          "authors": "M. Sader, Yennifer Mata-Sucre, Yi-Tzu Kuo, V. Schubert, T. Nascimento et al.",
+          "journal": "bioRxiv",
+          "date": "2026-06-17",
+          "abstract": "",
+          "url": "https://www.semanticscholar.org/paper/c9cc2785acf8c81d303ef887abb5a2746e5341bf",
+          "doi": "10.64898/2026.06.15.732478",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/06/17/2026.06.15.732478.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "C",
+          "cited_by_count": 1,
+          "tldr": "Different genomic architectures underlying holocentric organisation in phylogenetically distinct Cyperaceae lineages are revealed, suggesting that holocentromeres in this family have diversified with variation in centromere organisation in regard to its association with repetitive DNA.",
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -43295,6 +43404,30 @@
           "track": "C",
           "cited_by_count": 0,
           "tldr": "",
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Root-knot nematode genomics: what is coming soon?",
+          "authors": "Étienne G. J. Danchin",
+          "journal": "Trends in parasitology",
+          "date": "2026-02-01",
+          "abstract": "Root-knot nematodes are among the most destructive plant parasites on Earth. Many aspects of their biology are fascinating, including their diverse reproductive modes, their extreme polyphagy, their unknown origin, and their sophisticated plant manipulation systems. Although genome analyses have illuminated certain points of their biology, recent advances in sequencing technologies have revealed some chromosomal idiosyncrasies. This includes unique telomere systems unparalleled in any other organism and complex holocentromere organisations. Evidence of polyploid hybrid genome structures in some of these species, with shared yet unknown parents, has redefined the way we need to interpret genome and expression data. It is timely to foresee new knowledge that can be gained by the adoption of the latest omics technologies by plant nematologists.",
+          "url": "https://www.semanticscholar.org/paper/e2e0c77936db3ec866e873b55ccad8a69dc584ac",
+          "doi": "10.1016/j.pt.2026.01.007",
+          "pmid": "41741250",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "C",
+          "cited_by_count": 2,
+          "tldr": "It is timely to foresee new knowledge that can be gained by the adoption of the latest omics technologies by plant nematologists by foreseeing new knowledge that can be gained by the adoption of the latest omics technologies by plant nematologists.",
           "oa_status": "closed",
           "journal_h_index": null,
           "journal_citedness": null,
@@ -74449,6 +74582,33 @@
       ],
       "papers": [
         {
+          "id": "10.1130/ges02902.1",
+          "title": "Stratigraphy, geochronology, geometry, and evolution of the Cenozoic paleovalleys (“auriferous gravel” river valleys), northern Sierra Nevada, western United States",
+          "authors": [
+            "Christopher D. Henry",
+            "Matt D. O’Neal",
+            "Matthew T. Heizler",
+            "Jim Wood",
+            "J. Reed Glasmann"
+          ],
+          "journal": "Geosphere",
+          "date": "2026-10-08",
+          "doi": "10.1130/ges02902.1",
+          "url": "https://openalex.org/W7220983270",
+          "abstract": "The paleovalleys of the northern Sierra Nevada, which contain the ancestral river channels, their sedimentary and volcanic deposits, and hosted flora, are critical to understanding the controversial uplift and climatic history of this mountain range. The paleovalleys and their deposits have been used as tilt indicators and as records of climate. However, the paleovalleys evolved over many tens of millions of years during which tectonics, climate, sediment supply, discharge, topography, and sea level varied tremendously. The stratigraphy of Cenozoic prevolcanic (“auriferous”) gravels, Oligocene−Miocene ignimbrites (Valley Springs Formation), and middle Miocene−Pliocene intermediate lavas and volcaniclastic rocks (Mehrten Formation) has long been recognized but poorly and partly incorrectly dated. New geologic mapping, stratigraphic and mineralogic analyses, new and published detrital zircon U-Pb and K-feldspar 40Ar/39Ar dates from gravels, and abundant, high-precision sanidine 40Ar/39Ar dates of ignimbrites significantly change the interpreted ages of gravel and contained flora, resolve many aspects of paleodrainage evolution and geometry, and provide some constraints but do not resolve the long-standing questions about uplift history. The ancestral rivers and valleys probably formed by 80 Ma during erosion of a Late Cretaceous batholith highland. The rivers and valleys initially were eroding, and deposition only occurred at the western marine boundary at the edge of today’s Great Valley. Erosion changed to major deposition in the paleovalleys, although precisely when and why are not resolved. Prevolcanic deposits consist of lower, thin, kaolinite-rich, coarse gravel and sand and upper, thick sand, fine gravel, and mudstone in which the proportion of smectite increases up section. Detrital zircons in Eocene−Oligocene upper gravel (no lower gravel is dated) throughout the northern Sierra Nevada are mostly Cretaceous and lesser Jurassic grains derived from the batholith. Sparse Cenozoic (43−25 Ma) zircons are present in most samples of the upper gravels. The scarcity of Cenozoic grains reflects great distances to Cenozoic igneous sources, which, at 43−40 Ma, were no closer than northeastern Nevada and east of all proposed paleodivides relative to rivers that drained across the Sierra Nevada. The few Cenozoic grains demonstrate that most upper gravel is younger than or ca. 43 Ma, and some gravel mapped as prevolcanic is the temporally intervolcanic Valley Springs Formation. The famed Chalk Bluff flora, long considered to be ca. 50 Ma and used to assign an age to the prevolcanic gravels and interpret paleoelevation and climate, is restricted to the upper, more smectitic gravels and is mostly, maybe entirely, younger than or ca. 40 Ma. Precise sanidine dating reveals that 18 major ignimbrites erupted from calderas in central Nevada between 31.5 Ma and 23.0 Ma and were channelized into paleovalleys that traversed the northern Sierra Nevada. By 31.5 Ma, rivers drained from the Nevadaplano in the Great Basin across the northern Sierra Nevada; the Sierra Nevada−Basin and Range structural and topographic boundary did not exist until after 23.0 Ma. With some overlap, ignimbrites become younger southward through the Sierra Nevada because magmatism in source areas migrated southwestward. Despite repeated incision between ignimbrites, thick tuffaceous deposits largely filled the paleovalleys and induced two major course changes to intervolcanic channels. Middle Miocene and younger lavas and volcaniclastic rocks filled shallow paleovalley remnants and spread extensively over low-relief interfluves until ca. 4−3 Ma. Sierra Nevada and Great Basin paleovalleys were much wider than deep, ∼6−8 × ≤1 km, which suggests similar evolution. Modern, deep, V-shaped canyons of the northern Sierra Nevada generally postdate the 4 Ma rocks, cut across paleovalleys, and did not reexcavate them. Ignimbrite distributions and detrital dates confirm many of the previously described paleovalleys but also reveal significant inconsistencies. Gravel in a major paleovalley that can be tracked from western Nevada based on correlative ignimbrite sections has the common Cretaceous > Jurassic detrital pattern, but dated sediments in the two closest possible downstream continuations lack Cretaceous zircons. The most likely explanation for these discrepancies is that some generally accepted ancestral river courses are wrong, and we suggest several alternative courses. The distributions of ignimbrites younger than or ca. 31.5 Ma in the northern Sierra Nevada and Great Basin document a north-south paleodivide to east-draining rivers through central Nevada. Ignimbrite distributions and published stable isotope data suggest this divide existed by ca. 45 Ma. In contrast, several studies interpret a Late Cretaceous paleodivide that followed the Late Cretaceous batholith north-northwest through the Sierra Nevada and then northeast through northwestern Nevada. Abundant 100−85 Ma detrital zircons in all samples north of ∼39°N, where batholithic rocks with U-Pb zircon ages younger than 100 Ma are within 10 km of the Nevada border or farther east, require a paleodivide at least as far east as northwestern Nevada during all upper gravel deposition. Although not resolving the relative contributions of Eocene or older and latest Cenozoic uplift, our data indicate uplift of the northern Sierra Nevada between ca. 43−40 Ma and 4 Ma is unlikely. Proposed late, younger than or ca. 5 Ma, uplift of the northern Sierra Nevada would have been coeval with both the latest down-to-the-east faulting/extension that generated the eastern structural/topographic margin of the range and the interpreted ca. 3.5 Ma, delamination-induced uplift in the southern Sierra Nevada. However, the magnitude of extension younger than or ca. 5 Ma probably was insufficient to generate the proposed 1−1.5 km of footwall uplift, and the northern Sierra Nevada lacks the distinctive potassic, basaltic magmatism that accompanied delamination. The enigma of apparent high elevation in the Eocene and late uplift remains.",
+          "track": "D",
+          "source": "OpenAlex",
+          "openalex_source_id": "S8074494",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "The uplift of the Qinghai-Tibetan Plateau reshaped genome architecture and diversification of Asian torrent catfishes",
           "authors": "Yang L, Qian Y, Meng M, Mao T, chen w, Ding Z, Liu Y, Zheng L, Wang C, Gan X, Chen Y, He S.",
           "journal": "",
@@ -81178,6 +81338,30 @@
           "tier": 0
         },
         {
+          "title": "Human genomics in Europe: from national and pan-European initiatives to genomic medicine",
+          "authors": "Špela Gruden, Lucija Raspor dall'Olio, J. Hancock, Alja Zottel, Cene Skubic et al.",
+          "journal": "Human Genomics",
+          "date": "2026-10-04",
+          "abstract": "Advances in high-throughput sequencing technologies have transformed human genomics, enabling large-scale initiatives to characterise genome structure, function, and population diversity. Following foundational international projects such as the Human Genome Project, HapMap, and the 1000 Genomes Project, many countries have developed national sequencing initiatives to generate population-specific genomic resources and support precision medicine. In this review, we examine the development of human genomic sequencing initiatives with a particular focus on Europe, where national projects differ substantially in their objectives, infrastructure, governance, funding models, cohort design, and degree of integration with healthcare systems. We further consider how pan-European programmes are increasingly linking these heterogeneous national efforts through shared standards, federated data infrastructures, and coordinated population-reference initiatives. Comparisons with selected initiatives from other world regions highlight common challenges, including unequal population representation, long-term sustainability, data governance, interoperability, and translation into clinical practice. We also discuss the growing impact of long-read sequencing and artificial intelligence on population genomics and genomic medicine. Overall, the European landscape illustrates that successful genomic initiatives depend not simply on sequencing scale, but on the alignment of scientific objectives with representative recruitment, sustainable infrastructure and financing, interoperable data systems, and pathways for clinical implementation.",
+          "url": "https://www.semanticscholar.org/paper/edca0d5abc7fe6d4e2231dac93de4b476106cce2",
+          "doi": "10.1186/s40246-026-01051-5",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "The European landscape illustrates that successful genomic initiatives depend not simply on sequencing scale, but on the alignment of scientific objectives with representative recruitment, sustainable infrastructure and financing, interoperable data systems, and pathways for clinical implementation.",
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Lipoprotein biology during induced oogenesis in the short-finned eel, Anguilla australis-hepatic target gene expression and accumulation of nutrient sources into developing oocytes.",
           "authors": "Damsteegt EL, Mercuriali B, Thomson-Laing G, Miner M, Nguyen AT, Lokman PM.",
           "journal": "",
@@ -81766,6 +81950,30 @@
           "tier": 0
         },
         {
+          "title": "A consensus model for implementation of genomics in Queensland Health – a Delphi study",
+          "authors": "M. Bui, Zoe Fehlberg, Mathilde R. Desselle, Saras Menon, S. Idrisoglu et al.",
+          "journal": "Human Genomics",
+          "date": "2026-04-27",
+          "abstract": "As genomic technologies in healthcare expand, health systems face integration challenges. This study aimed to consolidate collective expertise, experiences, and existing knowledge from local, statewide, and national genomics projects to inform a model of care for integrating and delivering genomic services in the Queensland public health system. We used a modified Delphi methodology with three survey rounds to achieve expert consensus on the model of care. We analysed quantitative data using descriptive statistics and qualitative data using content analysis. From 112 invited experts, 43 participants took part. The model of care comprised 30 actions across three phases: pre-test, testing, and post-test. Consensus (≥ 75% agreement) was achieved on 25 of the actions, with 5 included with specific considerations. Ten recommendations were developed, including building sustainability, improving access to specialists through a distributed model, and investing in clinical-pathology partnerships and infrastructures. These findings may inform a comprehensive, stakeholder-informed, system-level implementation effort for mainstreaming genomic medicine that is practical, feasible, and acceptable to key stakeholders across the system. The three-phase model of care provides a structured approach to genomic service delivery and has the potential to significantly improve patient access and healthcare delivery.",
+          "url": "https://www.semanticscholar.org/paper/48a276a428a79ffd14450b5a2d269d361a8a16c6",
+          "doi": "10.1186/s40246-026-00941-y",
+          "pmid": "42046118",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "The three-phase model of care provides a structured approach to genomic service delivery and has the potential to significantly improve patient access and healthcare delivery.",
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "GeneBench: Assessing AI Agents for Multi-Stage Inference Problems in Genomics and Quantitative Biology",
           "authors": "Jeremiah H. Li, Andrew Ho",
           "journal": "bioRxiv",
@@ -81784,6 +81992,30 @@
           "cited_by_count": 9,
           "tldr": "GeneBench is introduced, a benchmark for AI agents on realistic multi-stage scientific data analysis in genetics and quantitative biology, with 103 evaluations targeting quantities of direct practical relevance across 10 domains, with a genomics-centered core and adjacent coverage in other ‘omics and quantitative biology settings.",
           "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Population-scale long-read DNA sequencing: peering under the hood of the new evolutionary genomics.",
+          "authors": "S. Edwards, Heng Li",
+          "journal": "Proceedings. Biological sciences",
+          "date": "2026-04-22",
+          "abstract": "Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our understanding of genomic variation in humans and non-model species. In this Darwin Review, we first recount the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, emphasizing recent results from non-human vertebrates. Using recent PLRS studies in birds as test cases, we probe three aspects of PLRS studies-diploid genome assembly, characterization and annotation of the repeatome, and detection of gene copy number variants-that are being re-shaped by new data types and computational tools. We argue that, in the absence of data from family trios, partially phased haplotypes provide a natural substrate for pangenome analysis, especially when quantifying structural variants directly from pangenome graphs. We identify gaps and discrepancies in the annotation of the repeatome of long-read assemblies, especially for satellite and low-complexity DNA, that are being ameliorated by new computational tools. Finally, we discuss and evaluate the surprising extent of gene copy number variation exposed in recent PLRS studies. The current methodological heterogeneity of pangenome studies may soon coalesce around a few core protocols to the extent allowed by rapidly changing sequencing technologies, allowing greater consistency among studies.",
+          "url": "https://www.semanticscholar.org/paper/069143cbfe7fb434543b3222f7f4cb3264b34095",
+          "doi": "10.1098/rspb.2025.2899",
+          "pmid": "42014088",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 5,
+          "tldr": "This Darwin Review recounts the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, and identifies gaps and discrepancies in the annotation of the repeatome of long-read assemblies that are being ameliorated by new computational tools.",
+          "oa_status": "hybrid",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -82090,6 +82322,30 @@
           "bioproject": ""
         },
         {
+          "title": "The Genomics and Genetics of Rare Disease Illuminate Human Biology.",
+          "authors": "J. Lupski, R. Gibbs",
+          "journal": "Annual review of genomics and human genetics",
+          "date": "2026-03-04",
+          "abstract": "Richard Gibbs interviews James (Jim) Lupski about his training in New York and work in Houston to elucidate the role of complex genomic rearrangements in human genetic diseases. The challenges and excitement of developing human personalized genomics and the advantages of clinical translation of genome methods for both patients and researchers are discussed.",
+          "url": "https://www.semanticscholar.org/paper/dc47c7cc94031b703e71e837940775fa2b056f30",
+          "doi": "10.1146/annurev-genom-020525-014546",
+          "pmid": "41780058",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "James (Jim) Lupski is interviewed about his training in New York and work in Houston to elucidate the role of complex genomic rearrangements in human genetic diseases.",
+          "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Genomics in wheat improvement: Progress and perspectives",
           "authors": "Shao-Shuai Liu, Shuai-Feng Geng, Susanna Dreisigacker",
           "journal": "The Plant Genome",
@@ -82302,6 +82558,31 @@
           "track": "E",
           "cited_by_count": 2,
           "tldr": "While core metabolic and competitive traits are conserved across P. allii, virulence-associated loci display lineage-specific distribution, reflecting ecological differentiation and evolutionary plasticity within the species.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Alzheimer’s 2030: From Precision Genomics to Artificial Intelligence",
+          "authors": "V. D'Argenio, Rossella Tomaiuolo, S. Bargeri, Giulia Sancesario",
+          "journal": "Genes",
+          "date": "2026-02-01",
+          "abstract": "Alzheimer’s disease (AD) represents a critical global health challenge, with its prevalence and associated costs expected to double significantly by 2030 and 2050. While lifestyle interventions are crucial, sporadic late-onset AD has a substantial genetic component (40–80% heritability), though known variants limit the scope of traditional precision medicine. Crucially, sex and gender are significant risk determinants, with women accounting for two-thirds of cases due to a complex interplay of biological and sociocultural factors. This review focuses on the influence of genetic and gender-related factors, examining large-scale genome-wide association studies (GWASs) and their role in developing advanced genetic risk scores (GRS) for precision genomics. We also explore the potential of Artificial Intelligence (AI) for multimodal big data analysis and digital health tools to promote personalized prevention and emerging concerns about ethics, privacy and data treatment. The convergence of these findings underscores the urgent need for a genetic-, sex- and gender-informed precision-medicine approach to AD.",
+          "url": "https://www.semanticscholar.org/paper/b3aa4248f7db475471cc53807b0321bd521248fc",
+          "doi": "10.3390/genes17020233",
+          "pmid": "41751617",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.mdpi.com/2073-4425/17/2/233/pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 3,
+          "tldr": "Examining large-scale genome-wide association studies (GWASs) and their role in developing advanced genetic risk scores (GRS) for precision genomics underscores the urgent need for a genetic-, sex- and gender-informed precision-medicine approach to AD.",
           "oa_status": "gold",
           "oa_pdf_source": "publisher",
           "journal_h_index": null,
@@ -82871,39 +83152,39 @@
     }
   },
   "stats": {
-    "total_count": 3129,
-    "new_this_week": 51,
+    "total_count": 3140,
+    "new_this_week": 27,
     "weekly_trend": [
       {
         "week": "2026-W35",
-        "count": 34
+        "count": 37
       },
       {
         "week": "2026-W36",
-        "count": 24
+        "count": 21
       },
       {
         "week": "2026-W37",
-        "count": 6
+        "count": 7
       },
       {
         "week": "2026-W38",
-        "count": 11
+        "count": 16
       },
       {
         "week": "2026-W39",
-        "count": 39
+        "count": 62
       },
       {
         "week": "2026-W40",
-        "count": 42
+        "count": 16
       }
     ],
     "tier_counts": {
       "1": 467,
       "2": 0,
       "3": 0,
-      "0": 2662
+      "0": 2673
     }
   }
 }
