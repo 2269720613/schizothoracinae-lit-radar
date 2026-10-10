@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:45:28Z",
+  "generated_at": "2026-10-10T12:04:01Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -515,6 +515,30 @@
           "tier": 0,
           "openalex_source_id": "S193677276",
           "is_fish": true
+        },
+        {
+          "title": "Otolith Morphological Characteristics of Major Schizothoracinae Fish Species in Tibet and Genus-Level Morphological Discrimination",
+          "authors": "Yun-Fei Wang, Yang Zhou, Liu-Xuan Qiao, Hao-Ran Zhang, Li-Jing Long et al.",
+          "journal": "Animals : an Open Access Journal from MDPI",
+          "date": "2026-09-01",
+          "abstract": "Simple Summary Identifying native fish species on the Qinghai–Xizang Plateau is challenging because many closely related species look remarkably similar. This study evaluated the efficacy of two-dimensional otolith shape analysis for distinguishing twelve native high-altitude fish species across four genera in Tibet. Advanced mathematical contour analysis (Elliptic Fourier Analysis combined with LDA) successfully improved the overall morphological discrimination accuracy from 35% to 68%. Notably, river-dwelling fishes of Schizothorax possessed elongated otoliths with pointed ends, achieving discrimination rates up to 93%. In contrast, lake-dwelling fishes of Gymnocypris and Schizopygopsis exhibited rounded otoliths with extensive shape overlap. This morphological similarity reflects their low genetic divergence and shared adaptation to calm lake habitats. Ultimately, this research provides a valuable morphometric baseline to complement existing molecular tools for monitoring fish populations and conserving vulnerable freshwater ecosystems.",
+          "url": "https://www.semanticscholar.org/paper/ec5f49f4d78853d86f8833dd2d1e41554ea04e25",
+          "doi": "10.3390/ani16182883",
+          "pmid": "42791740",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 0,
+          "tldr": "This study evaluated the efficacy of two-dimensional otolith shape analysis for distinguishing twelve native high-altitude fish species across four genera in Tibet to provide a valuable morphometric baseline to complement existing molecular tools for monitoring fish populations and conserving vulnerable freshwater ecosystems.",
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.3390/cimb48090888",
@@ -1927,6 +1951,31 @@
           "openalex_source_id": "S9351502"
         },
         {
+          "title": "Climate Change and Hydropower Impacts on Habitat Suitability of Endangered Schizothoracinae Fishes in the Qinghai‐Xizang Plateau",
+          "authors": "Yan Zhou, Qize Zheng, Fei Liu, Zhao-Fang Han, Hong-X. Liu et al.",
+          "journal": "Ecology and Evolution",
+          "date": "2026-06-01",
+          "abstract": "ABSTRACT Climate change and human disturbance threaten freshwater biodiversity, particularly endangered species on the Qinghai‐Xizang Plateau. Oxygymnocypris stewartii , Schizothorax macropogon , and Schizothorax waltoni (Schizothorax spp. hereafter) are Class II Protected Species in China, indigenous to the Qinghai‐Xizang Plateau, and primarily distributed in the middle and upper Yarlung Zangbo River (MUR). Based on species distribution points, the Maximum Entropy (MaxEnt) model was used to simulate potentially suitable habitats and identify key environmental factors for Schizothorax spp. Ecologically suitable areas were reconstructed using a kernel density estimation (KDE) algorithm that incorporates hydropower plants, and future distribution dynamics were predicted under various climate scenarios. Results indicated that the flow accumulation and the mean temperature of the coldest quarter were the primary environmental factors affecting Schizothorax spp. For Schizothorax spp., the suitable habitat exhibited a non‐monotonic trend: it increased before the 2050s (up to 108.28% at 2050s‐SSP7.0), then turned downward by the 2070s (18.1% at 2070s‐SSP2.6). Moreover, habitat suitability sustained expansion at the upper reaches, with the rate of expansion increasing with the intensification of radiative forcing, and projected an increase in elevation at SSP7.0 and SSP8.5. At the local scale, however, hydropower plants pose a deterministic threat, causing permanent habitat loss of Schizothorax spp. in the middle and lower reaches. Overall, the model predicts that future climate‐driven events may lead to a spatial expansion of potentially suitable habitats for Schizothorax spp. However, due to limitations in hydrological connectivity and the unique characteristics of fish, these high‐altitude habitats face significant constraints. Enhanced conservation efforts in the Saga, Angren, and Miling basins of the MUR are recommended, along with continuous monitoring and early warning of changes in habitat suitability to protect the Schizothoracinae conservation areas.",
+          "url": "https://www.semanticscholar.org/paper/041528744925113290e54f5479a2be5ee4fd2e7a",
+          "doi": "10.1002/ece3.73786",
+          "pmid": "42328477",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 0,
+          "tldr": "",
+          "oa_status": "gold",
+          "openalex_source_id": "S2482021738",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "10.24272/j.issn.2095-8137.2025.354",
           "title": "Haplotype-resolved genome of Schizothorax nukiangensis sheds light on polyploidy and altitudinal adaptation in freshwater fishes.",
           "authors": [
@@ -2170,6 +2219,57 @@
           "tier": 0
         },
         {
+          "title": "Schizothoracinae in Plateau River Networks: Drainage History, Polyploid Genome Evolution, Multi-Omics Evidence Chains, and Conservation Units",
+          "authors": "Yong-Qing Cao, Ning Wang, Qiao-Mu Hu, Xiang-Yun Zhu",
+          "journal": "Animals : an Open Access Journal from MDPI",
+          "date": "2026-03-28",
+          "abstract": "Simple Summary Schizothoracinae are one of the most representative fish groups in plateau river networks and provide a useful model for studying how river history, environmental stress, and genome evolution interact. In this review, we connect evidence from drainage history, genomics, phenotype, and population structure within a single framework. We further show how these data can support conservation-unit delimitation and management priorities across basins.",
+          "url": "https://www.semanticscholar.org/paper/84169c9aa245437641eb839e925c4ff43c8866d1",
+          "doi": "10.3390/ani16071036",
+          "pmid": "41976015",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.mdpi.com/2076-2615/16/7/1036/pdf?version=1774687150",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 0,
+          "tldr": "Evidence from drainage history, genomics, phenotype, and population structure within a single framework is connected and it is shown how these data can support conservation-unit delimitation and management priorities across basins.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Conservation status of Chinese freshwater fishes and quantitative evaluation of extinction risk in the Schizothoracinae (Cyprinidae)",
+          "authors": "Dan Song, Qiqun Cheng, Sumaiye Mieradili, Di Peng, Bi-Yuan Liu",
+          "journal": "Israeli Journal of Aquaculture - Bamidgeh",
+          "date": "2026-03-19",
+          "abstract": "Freshwater fishes are a crucial component of freshwater ecosystems and play a vital role in maintaining aquatic ecological balance. China possesses a rich diversity of freshwater fish resources. Although there has been some research on ecology of Chinese freshwater fishes, specific mechanisms and quantitative analysis of their conservation status, particularly the extinction risk of Schizothoracinae, have not been sufficiently explored. Here, we utilized public datasets to conduct related analysis. The results show 1) Phylogenetic Isolation Index (PII): among 1591 Chinese freshwater fish species, ten species exhibiting the highest PII all belong to Nemacheilidae, 2) Threatened Status. Cyprinidae, which includes 199 threatened species, is the most severely threatened family, with approximately 28% of its species being at risk. In Schizothoracinae of Cyprinidae, 54.9% of species are at risk of extinction. Following Cyprinidae, Cobitidae, and Sisoridae have 53 and 19 threatened species, respectively. Extinction risk of Chinese freshwater fish is not randomly distributed among families; rather, the numbers of threatened species observed in these families align closely with expected levels. 3) Extinction Risk Mechanisms in Schizothoracinae: using Generalized Linear Models (GLM), we explored the association between multiple characteristics of Schizothoracinae and their extinction risk. This study represents the first comprehensive integration of the phylogenetic isolation index (PII), extinction risk non-randomness, and human disturbance to assess conservation priorities for Chinese freshwater fish. Results show that areas experiencing intensive human activity tend to have a higher presence of Near Threatened species, while Endangered species are mainly confined to less disturbed habitats. Our findings are of significant scientific importance and practical value for formulating effective conservation strategies for freshwater fishes, as well as for a deeper understanding of complex interactions within ecosystems.",
+          "url": "https://www.semanticscholar.org/paper/0d81a32e756887a12b212c5e6200ddb2369efc1d",
+          "doi": "10.46989/001c.158882",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://ija.scholasticahq.com/article/158882.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 0,
+          "tldr": "This study represents the first comprehensive integration of the phylogenetic isolation index (PII), extinction risk non-randomness, and human disturbance to assess conservation priorities for Chinese freshwater fish.",
+          "oa_status": "hybrid",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S5407048835",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "10.1016/j.envres.2026.123734",
           "title": "Deriving predicted no-effect concentrations for PFASs to protect threatened and endangered fish: A comparison of water- andtissue-residue-based toxicity data.",
           "authors": [
@@ -2294,6 +2394,32 @@
           "openalex_source_id": "S188633547"
         },
         {
+          "title": "Chromosome-level genome assembly and annotation of the schizothoracine fish Gymnodiptychus pachycheilus",
+          "authors": "Kuo Gao, Cheng Lei, Xing-Lian Lin, R. Zeng, Chuang Zhou et al.",
+          "journal": "Scientific Data",
+          "date": "2026-03-12",
+          "abstract": "Gymnodiptychus pachycheilus, a specialized schizothoracinae fish, exhibits remarkable morphological regression, such as near-complete scale loss, making it an important model for understanding the genomic basis of adaptation and phylogeny in this lineage. Here, we assembled a high-quality chromosome-level reference genome of G. pachycheilus by Illumina short reads, PacBio HiFi long reads, and Hi-C technologies. The final genome assembly spans 1.83 Gb, with 95.52% of the sequences anchored onto 25 pseudochromosomes, a contig N50 of 71.36 Mb, and a BUSCO completeness of 98.40%. Repetitive sequences accounted for 47.75% of this genome. We predicted 48,952 protein-coding genes, of which 92.51% were functionally annotated using multiple public databases, together with diverse classes of non-coding RNAs. This genome assembly represents the first high-quality reference for G. pachycheilus and provides a valuable resource for exploring genome evolution, rediploidization processes, and adaptive mechanisms of schizothoracinae fishes on the Qinghai-Tibet Plateau.",
+          "url": "https://www.semanticscholar.org/paper/8e86d84d8d3acba3adb1bffbaa9dca69d90018d1",
+          "doi": "10.1038/s41597-026-07037-1",
+          "pmid": "41820404",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-07037-1_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 0,
+          "tldr": "This genome assembly represents the first high-quality reference for G. pachycheilus and provides a valuable resource for exploring genome evolution, rediploidization processes, and adaptive mechanisms of schizothoracinae fishes on the Qinghai-Tibet Plateau.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S2607323502",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "10.3390/ani16050802",
           "title": "Genetic Variation of Schizothorax wangchiachii Populations Between the Jinsha and Yalong Rivers Using Simplified Genome Sequencing.",
           "authors": [
@@ -2374,6 +2500,31 @@
           "is_fish": true,
           "tier": 0,
           "openalex_source_id": "S55645480"
+        },
+        {
+          "title": "A Multi-omics Atlas of Gonadal Sex Differences and Characterization of the dmrt1 Gene in Gymnocypris Eckloni Herzenstein",
+          "authors": "Luo Lei, Yin-Hua Zhou, Qing Liu, Hejiao Li, Wuga Sha et al.",
+          "journal": "Marine Biotechnology",
+          "date": "2026-02-25",
+          "abstract": "",
+          "url": "https://www.semanticscholar.org/paper/edcd5cbc5b033877677993d764882ee446baa2a5",
+          "doi": "10.1007/s10126-025-10541-x",
+          "pmid": "41739235",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 1,
+          "tldr": "Hormonal treatments revealed that dmrt1 expression was significantly upregulated in both female and male gonads following methyltestosterone injection, peaking at 24 h, providing valuable insights for potential sex control strategies in aquaculture and advancing sex differentiation studies in Schizothoracinae fishes.",
+          "oa_status": "closed",
+          "openalex_source_id": "S55645480",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
         },
         {
           "id": "10.1016/j.jenvman.2026.128758",
@@ -2605,6 +2756,32 @@
           "openalex_source_id": "S2737566431"
         },
         {
+          "title": "Comparative mitochondrial genome analyses of Diptychus maculatus (Actinopterygii, Cypriniformes, Cyprinidae) uncover conserved genome features and phylogenetic relationships of Schizopygopsinae",
+          "authors": "Cui-Lan Hao, Yu-Lan Ma, Cheng Yue, Yuan-Yuan Yang, Shen-Zhen Xia et al.",
+          "journal": "Acta Ichthyologica et Piscatoria",
+          "date": "2026-01-09",
+          "abstract": "The subfamily Schizopygopsinae (Cyprinidae), endemic to high-altitude Asian ecosystems, is widely used as a model for studying adaptive evolution, owing to specialized hypoxia tolerance and reduced squamation in high-altitude environments. Despite advances in mitochondrial genomics, comprehensive analyses of conserved genomic features and phylogenetic relationships within this subfamily remain limited. Herein, we sequenced and annotated the mitochondrial genome of\n Diptychus maculatus\n Steindachner, 1866 (16 764 bp; GenBank: ON872378) and comparatively analyzed the mitogenomes across 56 Cyprinidae species, including 33 Schizopygopsinae members, 21 Schizothoracinae members and two Leuciscinae outgroups (\n Leuciscus baicalensis\n ,\n Rutilus rutilus\n ). The mitochondrial genome of\n D. maculatus\n exhibited conserved teleost features, including 13 protein-coding genes (PCGs), 22 tRNAs, and 2 rRNAs. Its gene order and strand distribution align with those of related taxa. Notable AT bias (54.3%) and negative GC skew (−0.163) were observed, consistent with mutation-driven thymine accumulation in PCGs. Codon usage analysis revealed a preference for A/T-ending codons, with lineage-specific reductions in relative synonymous codon usage in\n Diptychus\n . Phylogenetic reconstructions using Bayesian and maximum likelihood methods resolved Schizopygopsinae and Schizothoracinae into two primary clades, supporting their monophyly but revealing paraphyly in genera\n Schizothorax\n and\n Gymnocypris\n , which are likely due to rapid radiation and ecological diversification. The placement of\n D. maculatus\n as sister to\n Gymnodiptychus\n underscores shared adaptations to plateau environments. Our findings highlight conserved mitogenomic architecture shaped by mutation pressure and selection, while phylogenetic discordance with morphology-based classifications emphasizes the need for integrative taxonomic approaches. This study provides critical genomic insights into the evolutionary mechanisms driving high-altitude adaptation and diversification in Schizopygopsinae and offers a foundation for future research on Cyprinidae biogeography and speciation.",
+          "url": "https://www.semanticscholar.org/paper/569ffdcffe0f75df8efa976fac7b84d96fd4b118",
+          "doi": "10.3897/aiep.56.166770",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://aiep.pensoft.net/article/166770/download/pdf/",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 1,
+          "tldr": "Critical genomic insights are provided into the evolutionary mechanisms driving high-altitude adaptation and diversification in Schizopygopsinae and offers a foundation for future research on Cyprinidae biogeography and speciation.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S107494347",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "10.1002/ece3.72616",
           "title": "The Geographical Differences in the Morphology of Diptychus maculatus: Environmental Driving Factors and Adaptive Evolution.",
           "authors": [
@@ -2706,6 +2883,32 @@
           "track": "A",
           "source": "PubMed",
           "openalex_source_id": "S2484704948",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "The Geographical Differences in the Morphology of Diptychus maculatus: Environmental Driving Factors and Adaptive Evolution",
+          "authors": "Yichao Hao, Hui-Min Hao, Zhengwei Wang, Yinsheng Chen, Hua-Le Lu et al.",
+          "journal": "Ecology and Evolution",
+          "date": "2026-01-01",
+          "abstract": "ABSTRACT As a typical cold‐water fish in the Schizothoracinae subfamily, Diptychus maculatus serves as an important model for understanding species adaptation through morphological differentiation and geographical environment interactions. This study characterized five geographical populations (Kizil River, Toshkan River, Muzati River, Karasu River, and Kyzyl River) in the Tarim River Basin. By integrating traditional morphology (12 traits measured with vernier calipers) and geometric morphometrics (21 landmarks), and using nonparametric tests, principal component analysis (PCA), cluster analysis (CA), and discriminant analysis (DA), we analyzed the environmental driving mechanisms of morphological variation. Results showed 34 morphological traits differed significantly (p < 0.01) among populations. The Kyzyl River population exhibited larger body size and expanded mouth cleft morphology, putatively adaptive to high altitude, low temperature, and food‐scarce feeding strategies. The Muzati River population showed greater caudal peduncle height and posterior dorsal fin origin, reflecting locomotor adaptation to rapid‐current habitats. The Kizil River population had reduced eye diameter, possibly linked to decreased visual dependence in reservoir slow‐flow environments. PCA revealed the first three components explained 87.3% of variance, reflecting body energy, cranial feeding, and sensory function modules. CA divided populations into two clades: Karasu‐Toshkan convergence due to moderate‐flow habitats, and Kizil River isolation. DA achieved 90.6% accuracy, identifying 19 key traits (e.g., interorbital distance, caudal peduncle height). This study reveals environmental and human‐induced (e.g., reservoir blockage) morphological adaptation, providing insights for plateau cold‐water fish research.",
+          "url": "https://www.semanticscholar.org/paper/0e04b1bc4c3abe296ccff6c17d2549254b47f0eb",
+          "doi": "10.1002/ece3.72616",
+          "pmid": "41531922",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12793776/pdf/ECE3-16-e72616.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "A",
+          "cited_by_count": 0,
+          "tldr": "Environmental and human‐induced (e.g., reservoir blockage) morphological adaptation is revealed, providing insights for plateau cold‐water fish research.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S2482021738",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
@@ -32119,7 +32322,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210239046"
         },
         {
           "id": "10.3389/fpls.2022.1022555",
@@ -32192,7 +32396,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2595292759"
         },
         {
           "id": "10.7717/peerj.13622",
@@ -32243,7 +32448,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S115516119"
         },
         {
           "id": "10.1038/s41437-021-00482-1",
@@ -32340,7 +32546,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S64961995"
         },
         {
           "id": "10.1111/1755-0998.13469",
@@ -32370,7 +32577,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S64961995"
         },
         {
           "id": "10.1371/journal.pone.0278681",
@@ -32542,7 +32750,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2597340651"
         },
         {
           "id": "10.1371/journal.pone.0264519",
@@ -32782,7 +32991,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S96989847"
         },
         {
           "id": "10.1101/gr.275380.121",
@@ -32804,7 +33014,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S43092948"
         },
         {
           "id": "10.3390/cells10123372",
@@ -33070,7 +33281,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2482021738"
         },
         {
           "id": "10.1186/s12870-021-03287-w",
@@ -33426,7 +33638,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S96989847"
         },
         {
           "id": "10.1111/nph.17564",
@@ -33716,7 +33929,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2597340651"
         },
         {
           "id": "10.1371/journal.pone.0261403",
@@ -33761,7 +33975,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2597340651"
         }
       ]
     },
@@ -33814,6 +34029,78 @@
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.3390/cells15201834",
+          "title": "Extrachromosomal DNA: A New Therapeutic Frontier for Overcoming Cancer Drug Resistance",
+          "authors": [
+            "Dooil Jeoung"
+          ],
+          "journal": "Cells",
+          "date": "2026-10-09",
+          "doi": "10.3390/cells15201834",
+          "url": "https://openalex.org/W7221072011",
+          "abstract": "Extrachromosomal DNAs (ecDNAs) are acentric circular DNA molecules that frequently harbor amplified oncogenes and their regulatory elements. Although ecDNAs occur at low levels in normal cells, oncogenic ecDNAs are enriched in cancer, where they promote tumor evolution, intratumoral heterogeneity, and therapeutic resistance. Advances in long-read sequencing, single-cell multi-omics, and high-resolution imaging have provided new insights into their biogenesis, structure, inheritance, and function. EcDNAs can arise through chromothripsis, breakage–fusion–bridge cycles, replication stress, and aberrant DNA repair, all of which lead to the excision, circularization, and amplification of genomic fragments. Because they lack centromeres and telomeres, ecDNAs undergo dynamic copy-number variation, enhanced chromatin accessibility, enhancer rewiring, and non-Mendelian segregation, thereby facilitating rapid adaptation to selective pressures. EcDNAs contribute to resistance to chemotherapy, targeted therapy, and radiotherapy, and they may also promote immune evasion and immunotherapy resistance through oncogene amplification, enhancer-driven transcription, ecDNA hub formation, and remodeling of the tumor microenvironment. Here, we review recent advances in ecDNA biogenesis, inheritance, and function, with an emphasis on therapeutic resistance, and we discuss emerging strategies that target ecDNA formation, maintenance, and segregation, as well as ecDNA hubs, DNA damage response (DDR) pathways, and replication stress. Collectively, these advances highlight the potential of ecDNA-based biomarkers and ecDNA-directed therapies in precision oncology.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2736626452",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1007/s10577-026-09819-0",
+          "title": "Near-complete genomes for nine haplochromine cichlid fishes reveal a novel centromeric satellite structure organised around a pair of inverted elements.",
+          "authors": [
+            "Sierra P",
+            "Zhou C",
+            "Fischer B",
+            "Lim SW",
+            "Blumer M",
+            "Ngochera M",
+            "Durbin R"
+          ],
+          "journal": "Chromosome research : an international journal on the molecular, supramolecular and evolutionary aspects of chromosome biology",
+          "date": "2026-10-09",
+          "doi": "10.1007/s10577-026-09819-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42855603/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Centromeric islands constrain CENP-A domain size and position",
+          "authors": "Patel P, Trasmondi D, Mellone BG.",
+          "journal": "",
+          "date": "2026-10-09",
+          "abstract": "Centromere identity is specified epigenetically by nucleosomes containing the histone H3 variant CENP-A, yet centromeres are almost invariably embedded within repetitive DNA, suggesting that underlying DNA sequences contribute to the organization of centromeric chromatin. In Drosophila melanogaster, CENP-A primarily occupies retroelement-rich islands flanked by simple satellite DNA, but their functional contribution remains unclear. Here, we delete the ~50-kb island Giglio from centromere 3 while preserving the flanking satellites and residual CENP-A chromatin. Despite removal of the DNA sequence associated with most centromeric CENP-A, centromere identity and overall CENP-A levels are preserved at the native locus, indicating that the island itself is not required for centromere identity. Instead, Giglio deletion increases variability in CENP-A chromatin organization, producing highly heterogeneous domain sizes and preferential redistribution of the CENP-A domain into the adjacent dodeca satellite. Together, these findings demonstrate that Giglio is dispensable for centromere identity but constrains the size and position of the CENP-A domain, establishing centromeric islands as key determinants of CENP-A domain architecture.",
+          "url": "https://doi.org/10.64898/2026.10.08.757135",
+          "doi": "10.64898/2026.10.08.757135",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.64898/2026.10.08.757135",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "green",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -36384,7 +36671,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S43092948"
         },
         {
           "id": "10.1101/gr.281813.125",
@@ -36420,7 +36708,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S43092948"
         },
         {
           "id": "10.1038/s41580-026-00989-7",
@@ -36606,7 +36895,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S96989847"
         },
         {
           "id": "10.1016/j.jgg.2026.03.011",
@@ -83152,16 +83442,16 @@
     }
   },
   "stats": {
-    "total_count": 3140,
-    "new_this_week": 27,
+    "total_count": 3151,
+    "new_this_week": 29,
     "weekly_trend": [
       {
         "week": "2026-W35",
-        "count": 37
+        "count": 47
       },
       {
         "week": "2026-W36",
-        "count": 21
+        "count": 11
       },
       {
         "week": "2026-W37",
@@ -83169,22 +83459,22 @@
       },
       {
         "week": "2026-W38",
-        "count": 16
+        "count": 24
       },
       {
         "week": "2026-W39",
-        "count": 62
+        "count": 55
       },
       {
         "week": "2026-W40",
-        "count": 16
+        "count": 22
       }
     ],
     "tier_counts": {
       "1": 467,
       "2": 0,
       "3": 0,
-      "0": 2673
+      "0": 2684
     }
   }
 }
