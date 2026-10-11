@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:04:01Z",
+  "generated_at": "2026-10-11T12:17:14Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -7624,6 +7624,38 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "id": "10.1016/j.ympev.2026.108749",
+          "title": "Phylogeny and evolutionary history of the genus Nectogale (Soricidae) inferred from whole-genome analyses, with description of a new species endemic to the Himalayas.",
+          "authors": [
+            "Pei X",
+            "Li Y",
+            "Onditi KO",
+            "Wang H",
+            "Qin W",
+            "Zhu R",
+            "Li Q",
+            "Song W",
+            "Li X",
+            "Zhu Z",
+            "Chen Z",
+            "Jiang X"
+          ],
+          "journal": "Molecular phylogenetics and evolution",
+          "date": "2026-10-10",
+          "doi": "10.1016/j.ympev.2026.108749",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42858910/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "green",
+          "openalex_source_id": "S96989847",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "title": "Whole-genome resequencing of the Kazakh coarse-wool fat-tailed sheep identifies functional variants in disease-associated genes",
@@ -33101,7 +33133,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210225776"
         },
         {
           "id": "10.1093/genetics/iyab124",
@@ -33172,7 +33205,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S205086949"
         },
         {
           "id": "10.1111/mec.16168",
@@ -33389,7 +33423,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S122317144"
         },
         {
           "id": "10.1073/pnas.2025711118",
@@ -33476,7 +33511,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S75702506"
         },
         {
           "id": "10.1093/genetics/iyab106",
@@ -33589,7 +33625,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S181418318"
         },
         {
           "id": "10.1094/pdis-10-20-2270-re",
@@ -33613,7 +33650,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S135458494"
         },
         {
           "id": "10.1016/j.ympev.2021.107258",
@@ -33698,7 +33736,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S28614077"
         },
         {
           "id": "10.3390/ijms221910400",
@@ -33792,7 +33831,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S64187185"
         },
         {
           "id": "10.1021/acssynbio.1c00269",
@@ -34105,6 +34145,36 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "id": "10.1016/j.celrep.2026.118109",
+          "title": "Oxidative DNA damage drives centromere fragility and chromosome instability.",
+          "authors": [
+            "Thompson L",
+            "Nassar R",
+            "Angrisani A",
+            "Hsiu OON",
+            "Yang Y",
+            "Kedziora KM",
+            "Muoio D",
+            "Gupta R",
+            "Fachinetti D",
+            "Stallaert W",
+            "Fouquerel E"
+          ],
+          "journal": "Cell reports",
+          "date": "2026-10-09",
+          "doi": "10.1016/j.celrep.2026.118109",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42858250/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "id": "10.1128/mra.00630-26",
@@ -36153,7 +36223,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S64187185"
         },
         {
           "id": "10.1038/s41559-026-03143-w",
@@ -37371,7 +37442,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S64187185"
         },
         {
           "title": "Deciphering complete archaic introgression sequences in modern human genomes",
@@ -37677,7 +37749,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S2737427234"
         },
         {
           "title": "Two near‐complete assemblies reveal R‐subgenome structural and centromeric divergence associated with reproductive isolation in hexaploid triticale",
@@ -37843,7 +37916,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S64187185"
         },
         {
           "id": "10.1038/s42003-026-10612-2",
@@ -37867,7 +37941,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210225776"
         },
         {
           "id": "10.1038/s41597-026-07834-8",
@@ -83442,8 +83517,8 @@
     }
   },
   "stats": {
-    "total_count": 3151,
-    "new_this_week": 29,
+    "total_count": 3153,
+    "new_this_week": 30,
     "weekly_trend": [
       {
         "week": "2026-W35",
@@ -83451,27 +83526,27 @@
       },
       {
         "week": "2026-W36",
-        "count": 11
+        "count": 10
       },
       {
         "week": "2026-W37",
-        "count": 7
+        "count": 6
       },
       {
         "week": "2026-W38",
-        "count": 24
+        "count": 28
       },
       {
         "week": "2026-W39",
-        "count": 55
+        "count": 52
       },
       {
         "week": "2026-W40",
-        "count": 22
+        "count": 23
       }
     ],
     "tier_counts": {
-      "1": 467,
+      "1": 469,
       "2": 0,
       "3": 0,
       "0": 2684
