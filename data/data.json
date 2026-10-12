@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:17:14Z",
+  "generated_at": "2026-10-12T14:41:59Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -33852,7 +33852,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S54167817"
         },
         {
           "id": "10.1111/jeb.13910",
@@ -33896,7 +33897,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S36510773"
         },
         {
           "id": "10.1111/plb.13275",
@@ -34174,7 +34176,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "id": "10.1128/mra.00630-26",
@@ -34198,7 +34201,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210232526"
         },
         {
           "title": "Cell-cycle-resolved Hi-C reveals unexpected plasticity of A/B compartments across interphase",
@@ -34250,7 +34254,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "title": "Haplotype-resolved genome of a dry-preservable cell line reveals chromosome evolution and DNA damage",
@@ -34295,7 +34300,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S96410829"
         },
         {
           "id": "10.1093/hr/uhag189",
@@ -34330,7 +34336,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764753230"
         },
         {
           "title": "CCNE1: A Cell Cycle Regulator That Influences Tumor Progression.",
@@ -34578,7 +34585,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210177645"
         },
         {
           "id": "10.5445/ir/1000197430",
@@ -34634,7 +34642,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4394735535"
         },
         {
           "id": "10.1002/cbin.70221",
@@ -35483,7 +35492,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S96410829"
         },
         {
           "title": "STED microscopy reveals mitotic stage-dependent CENP-A organization",
@@ -35677,7 +35687,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4394735535"
         },
         {
           "id": "10.1016/j.abiote.2026.100049",
@@ -36016,7 +36027,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764753230"
         },
         {
           "title": "Pepper centromeres sit within ultra-long, trait-linked haplotypes",
@@ -36277,7 +36289,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "title": "Evolution and domestication-trait associations of ultra-long centromere haplotypes in pepper plants",
@@ -36326,7 +36339,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764753230"
         },
         {
           "id": "10.1016/j.xgen.2026.101307",
@@ -36689,7 +36703,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "id": "10.1007/s10577-026-09804-7",
@@ -36917,7 +36932,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2764753230"
         },
         {
           "id": "10.1111/tpj.71075",
@@ -37356,7 +37372,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "id": "10.1111/nph.71458",
@@ -83518,31 +83535,31 @@
   },
   "stats": {
     "total_count": 3153,
-    "new_this_week": 30,
+    "new_this_week": 29,
     "weekly_trend": [
       {
-        "week": "2026-W35",
-        "count": 47
-      },
-      {
         "week": "2026-W36",
-        "count": 10
+        "count": 48
       },
       {
         "week": "2026-W37",
-        "count": 6
+        "count": 9
       },
       {
         "week": "2026-W38",
-        "count": 28
+        "count": 6
       },
       {
         "week": "2026-W39",
-        "count": 52
+        "count": 30
       },
       {
         "week": "2026-W40",
-        "count": 23
+        "count": 51
+      },
+      {
+        "week": "2026-W41",
+        "count": 22
       }
     ],
     "tier_counts": {
