@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:23:19Z",
+  "generated_at": "2026-10-15T11:00:01Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -7645,6 +7645,37 @@
           "track": "B",
           "cited_by_count": 0,
           "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1007/s00122-026-05382-8",
+          "title": "Genome-wide association mapping of tan spot resistance in a modified NAM population derived from synthetic hexaploid wheat.",
+          "authors": [
+            "Karmacharya A",
+            "Lhamo D",
+            "Islam MM",
+            "Chang HC",
+            "Fiedler JD",
+            "Friesen TL",
+            "Faris JD",
+            "Yang S",
+            "Zhang X",
+            "Gu YQ",
+            "Liu Z",
+            "Xu SS"
+          ],
+          "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+          "date": "2026-10-14",
+          "doi": "10.1007/s00122-026-05382-8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42873275/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": false,
+          "oa_status": "closed",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -35285,6 +35316,35 @@
       ],
       "papers": [
         {
+          "id": "10.1186/s12870-026-10103-w",
+          "title": "Telomere-to-telomere, gap-free genome assembly of the Chinese holly, Ilex cornuta",
+          "authors": [
+            "Peng Zhou",
+            "Kewang Xu",
+            "Weixiang Gong",
+            "Fei Li",
+            "Hainan Sun",
+            "Qiang Zhang",
+            "Min Zhang"
+          ],
+          "journal": "BMC Plant Biology",
+          "date": "2026-10-12",
+          "doi": "10.1186/s12870-026-10103-w",
+          "url": "https://openalex.org/W7221553163",
+          "abstract": "The Chinese holly ( Ilex cornuta Lindl. & Paxton), a prominent ornamental species in the Aquifoliaceae family, is valued for its aesthetic appeal, medicinal properties, and robust stress tolerance. Despite its potential for breeding and functional studies, the lack of a high-quality reference genome has constrained genetic dissection of its key traits. We present the first telomere-to-telomere (T2T) gap-free genome assembly for I. cornuta , achieved through the integration of PacBio long reads, ONT ultra-long reads, and Hi-C data. The final assembly, totaling ~ 890.50 Mb with a scaffold N50 of 44.26 Mb, was organized into 20 gap-free chromosomes. We identified 40 telomeres and 20 putative centromere regions. Crucially, both our T2T genome assembly and independent root‑tip karyotype analysis definitively establish the basic chromosome number of I. cornuta as 20 (2n = 2x = 40), settling a long-standing controversy. The genome annotation yielded 35,437 protein-coding genes, demonstrating high completeness (98.33% BUSCO) and accuracy (QV of 48.97). Comparative genomics uncovered two whole-genome duplication events and lineage-specific gene family expansions, particularly those involved in secondary metabolism, which represent candidate gene sets that could potentially contribute to environmental adaptability; further transcriptomic or functional assays will be required to verify their biological roles. This first gap-free T2T reference genome for the genus Ilex not only provides a crucial resource for understanding the genomic architecture and evolutionary history of hollies but also serves as a powerful foundation for molecular breeding and genetic improvement of I. cornuta and its relatives.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S6444338",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Rapid protamine evolution suppresses meiotic drive in Drosophila",
           "authors": "Chang C, A. de la Cruz A, Lai H, Mejia Natividad I, Noyola A, Angelo Magsino Abellanosa E, Lee N, Malik H.",
           "journal": "",
@@ -35839,6 +35899,31 @@
           "is_fish": false,
           "tier": 0,
           "openalex_source_id": "S4210177645"
+        },
+        {
+          "title": "A near-complete quail genome identifies heterochromatin expansion and chromosome architecture remodeling.",
+          "authors": "Jiao Liu, Qi-Xin Guo, Shi-Yu Fan, Jia-Hong Wu, Tong-Yang Wang et al.",
+          "journal": "Cell reports",
+          "date": "2026-10-01",
+          "abstract": "Avian genomes are typically compact, with limited repetitive content, but the Japanese quail (Coturnix japonica) represents an exception. Here, we report a near-complete chromosome-level quail genome assembly (1.33 Gb), up to 43% larger than previous quail assemblies. The assembly reveals extensive repeat accumulation and heterochromatin expansion, particularly in the pericentromeric regions of micro- and dot chromosomes, and identifies a conserved centromeric repeat shared across chromosomes. Comparative analyses show that transposable element accumulation reshaped chromatin architecture, histone modification landscapes, and interchromosomal interactions. The female-specific W chromosome underwent extensive heterochromatinization and gene degeneration. Integrated epigenomic profiling further identifies quail-specific chromatin states. These findings reveal quail-specific heterochromatin expansion and provide new insights into avian centromere evolution, heterochromatin biology, and sex chromosome remodeling.",
+          "url": "https://www.semanticscholar.org/paper/c5361176a114ee1f546fca9f2284f41e860dec0e",
+          "doi": "10.1016/j.celrep.2026.118099",
+          "pmid": "42837258",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "C",
+          "cited_by_count": 0,
+          "tldr": "A near-complete chromosome-level quail genome assembly is reported, up to 43% larger than previous quail assemblies, and reveals extensive repeat accumulation and heterochromatin expansion, particularly in the pericentromeric regions of micro- and dot chromosomes, and identifies a conserved centromeric repeat shared across chromosomes.",
+          "oa_status": "gold",
+          "openalex_source_id": "S169236886",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "id": "10.5445/ir/1000197430",
@@ -37313,7 +37398,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S2764884935"
         },
         {
           "id": "10.1146/annurev-genet-022026-032132",
@@ -37416,7 +37502,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S207313999"
         },
         {
           "title": "Ablation and Seed-driven Restoration of an Alpha-Satellite Devoid Human Centromere Reveals Size Homeostasis Mechanisms",
@@ -37528,7 +37615,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S2764884935"
         },
         {
           "id": "10.1016/j.celrep.2026.117846",
@@ -37578,7 +37666,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S2764884935"
         },
         {
           "title": "A Gapless T2T Genome and Population-Scale Resequencing of Adzuki Bean Reveal Centromere Evolution and Accelerate Molecular Breeding",
@@ -37652,7 +37741,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210194377"
         },
         {
           "id": "10.1016/j.xgen.2026.101281",
@@ -37682,7 +37772,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210194377"
         },
         {
           "id": "10.1016/j.xgen.2026.101324",
@@ -37725,7 +37816,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210194377"
         },
         {
           "id": "10.1016/j.cell.2026.07.018",
@@ -37909,7 +38001,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "id": "10.1093/genetics/iyaf264",
@@ -37936,7 +38029,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "id": "10.1016/j.celrep.2026.117770",
@@ -38083,7 +38177,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S196724125"
         },
         {
           "id": "10.1371/journal.pcbi.1014568",
@@ -38107,7 +38202,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S86033158"
         },
         {
           "id": "10.1002/imt2.70155",
@@ -38132,7 +38228,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4220650979"
         },
         {
           "id": "10.1111/tpj.71091",
@@ -38370,7 +38467,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S67862205"
         },
         {
           "title": "The complete genome of a songbird.",
@@ -38421,7 +38519,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210194377"
         },
         {
           "title": "Phased T2T horse and donkey assemblies from a mule reveal peculiar equid centromere evolution",
@@ -38445,7 +38544,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210194377"
         },
         {
           "title": "Parallel evolution of transposable elements and satellite repeats shapes Malvaceae centromere diversity using a high-accuracy centromere identification tool",
@@ -39064,7 +39164,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4220650979"
         },
         {
           "id": "10.1007/s00122-026-05267-w",
@@ -39281,7 +39382,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "title": "A near telomere-to-telomere genome assembly of Rhodiola macrocarpa (Crassulaceae).",
@@ -39847,7 +39949,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "id": "10.1093/nar/gkag597",
@@ -40496,6 +40599,31 @@
           "abstract": "",
           "track": "C",
           "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Population-scale Y chromosome assemblies reveal recurrent remodeling within constrained architectures",
+          "authors": "P. Hallast, A. Rhie, Mark Loftus, Mariateresa Mazzetto, Peter Ebert et al.",
+          "journal": "bioRxiv",
+          "date": "2026-06-05",
+          "abstract": "The human Y chromosome remains underrepresented in genomic resources because its repetitive architecture is difficult to resolve and poorly represented by any single reference. Here, we present 142 curated near-complete de novo Y chromosome assemblies spanning 98 terminal-marker-defined lineages across 17 haplogroup clades and 180,000 years of evolution, establishing a population-scale sequence and annotation resource for the chromosome. Across 100 quality-filtered AZFc intervals, recurrent inversions, deletions and complex rearrangements resolve into 12 structural haplotypes, while DAZ, RBMY and TSPY families show distinct paralogue- and array-specific evolution. Complete centromere and Yq12 sequences reveal extensive lineage-specific change within comparatively stable higher-order architectures, and haplotype-resolved methylomes show distinct epigenetic states among similar repeat copies. The reference panel reduces analytical bias: in testis Iso-Seq data, the best-matching assembly increased median DAZ transcript alignment identity from 91.7% to 99.9% and improved isoform annotation. Together, this resource enables analysis of Y-chromosome structural, evolutionary and reproductive variation.",
+          "url": "https://www.semanticscholar.org/paper/735b183162a54d045c290549d599547a637560e9",
+          "doi": "10.64898/2026.06.03.729890",
+          "pmid": "42282846",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/06/06/2026.06.03.729890.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "C",
+          "cited_by_count": 0,
+          "tldr": "142 curated near-complete de novo Y chromosome assemblies spanning 98 terminal-marker-defined lineages across 17 haplogroup clades and 180,000 years of evolution are presented, establishing a population-scale sequence and annotation resource for the chromosome.",
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -76582,6 +76710,30 @@
           "tier": 0
         },
         {
+          "title": "Knowledge and Interest in Nutritional Genomics Among Clinical Dietitians in Kuwait: A Cross-Sectional Study.",
+          "authors": "M. Abdullah, Fatemah Osama Al-Muaili, Esra Shishtar, P. Eck, M. Vohl et al.",
+          "journal": "Lifestyle genomics",
+          "date": "2026-09-24",
+          "abstract": "INTRODUCTION\nThe evolution of nutritional genomics informs promising opportunities to improve the efficacy of personalized dietary protocols through the interplay between genetics and nutrition. As the primary healthcare providers of nutrition services, dietetic practitioners can play a critical role in translating genomic knowledge into clinical practice for optimized health and quality of life. The objective of this study was to assess the knowledge and interest in nutritional genomics among clinical dietitians in Kuwait.\n\n\nMETHODS\nA total of 319 dietitians practicing in public and private hospitals completed an online survey of a validated, structured questionnaire. Data were processed by using chi-square tests, ANOVA, and regression modeling.\n\n\nRESULTS\nThe majority of study participants were females and had diploma or BSc degree in nutrition. Overall, 87% of dietitians showed low-to-moderate knowledge in nutritional genomics, with an entire cohort mean knowledge score of 5.2 ± 1.9 out of a possible 10. Notably, dietitians with higher baseline knowledge levels in nutritional genomics also expressed a significantly greater interest in the field (p < 0.05). Furthermore, while 82.1% of dietitians perceived personalized nutrition as highly important and 55.2% agreed that nutritional genomics could improve clinical outcomes of the dietetic profession, 79.6% either remained neutral or indicated a lack of adequate knowledge to successfully integrate the science into everyday practice. Concurrently, 39.8% showed high interest in advanced training programs.\n\n\nCONCLUSION\nThese findings invite action toward establishing institutional policies and specialized educational programs to enhance nutritional genomics literacy and integration into the dietetic practice in Kuwait.",
+          "url": "https://www.semanticscholar.org/paper/59ad35d6ebf2a1fcbaea660fc6266558efca835b",
+          "doi": "10.1159/lfg/adlag003",
+          "pmid": "42784521",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "These findings invite action toward establishing institutional policies and specialized educational programs to enhance nutritional genomics literacy and integration into the dietetic practice in Kuwait.",
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1111/jpg.70144",
           "title": "Stratigraphic Intelligence for Hydrocarbon Discovery: Integrating Basin Architecture, Correlation Uncertainty and Predictive Petroleum Systems in Frontier Basins",
           "authors": [
@@ -76605,6 +76757,30 @@
           "source_is_core": true,
           "is_oa": false,
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "MACS3: A Peak-calling Platform for Bulk and Single-cell Regulatory Genomics.",
+          "authors": "Philippa Doherty, Qiang Hu, Zi-Han Zhuang, Hong Zhang, Sai C. Penikalapati et al.",
+          "journal": "Genomics, proteomics & bioinformatics",
+          "date": "2026-09-16",
+          "abstract": "Since the original publication of Model-based Analysis for ChIP-Seq (MACS), the software has been widely used to identify enriched genomic regions in ChIP-seq, ATAC-seq, CUT&RUN, DNase-seq, and related regulatory genomics assays. Over the years, MACS has evolved substantially, with MACS version 3 (MACS3) now serving as the actively maintained implementation. MACS3 preserves the core MACS framework for fragment pileup, dynamic local background noise, statistical enrichment testing, and peak refinement, while adding functionality needed for contemporary bulk and single-cell workflows. It supports conventional bulk peak calling, paired-end and fragment-based file formats, modular signal processing, direct analysis of single-cell ATAC-seq fragment files, barcode-restricted pseudobulk and cluster-level peak calling, specialized ATAC-seq and variant-calling modules, as well as command-line and programmatic interfaces. MACS3 is distributed through standard software channels and supported by continuous testing across operating systems, Python versions, and CPU architectures. Here we describe the architecture, current capabilities, and recommended use of MACS3, providing an updated reference for applying the MACS framework in contemporary bulk and single-cell regulatory genomics workflows. MACS3 is open-source software available at https://github.com/macs3-project/MACS.",
+          "url": "https://www.semanticscholar.org/paper/c6da8e6eedd050980b26d1d55407b5e7ecc85d30",
+          "doi": "10.1093/gpbjnl/qzag097",
+          "pmid": "42747312",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 1,
+          "tldr": "The architecture, current capabilities, and recommended use of MACS3 is described, providing an updated reference for applying the MACS framework in contemporary bulk and single-cell regulatory genomics workflows.",
+          "oa_status": "gold",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -76654,6 +76830,31 @@
           "cited_by_count": 2,
           "tldr": "",
           "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Mutual Information–based Prognostic Biomarker Discovery in Cancer Genomics: Conceptual Framework and Representative Applications of MI-POG",
+          "authors": "Kazunori Akimoto, Shoma Tamori, Keiko Sato",
+          "journal": "Cancer Genomics & Proteomics",
+          "date": "2026-08-31",
+          "abstract": "Abstract Mutual information (MI)-based approaches have increasingly been applied to cancer genomics; however, their use for genome-wide prognostic biomarker discovery remains relatively underexplored. The present article summarizes the conceptual workflow of Mutual Information-based Prognostic Omics Gene (MI-POG) based on previously published applications in breast cancer, lower-grade glioma, and other cancer datasets. The framework consists of clinical endpoint discretization, genome-wide MI-based screening, candidate ranking, and downstream validation using conventional survival-analysis approaches. Previous MI-POG applications identified solute carrier family 20 member 1 (SLC20A1) as a prognostic biomarker in hormone receptor-positive breast cancer. Elevated SLC20A1 expression was associated with unfavorable survival outcomes and was independently validated in the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC) cohort. Methodological analyses demonstrated how survival endpoints can be integrated into an information-theoretic framework through fixed-time outcome discretization, enabling model-independent assessment of molecular–clinical dependencies. Applications across multiple cancer datasets suggested the potential applicability of the framework across biologically distinct tumor types, although further validation will be required to establish its robustness and generalizability. In conclusion, MI-POG can be formalized as an information-theoretic framework for genome-wide identification of prognostic biomarkers by quantifying molecular–clinical dependencies using mutual information. Representative applications from previously published studies suggest that MI-POG may complement conventional survival-analysis approaches and provide a useful strategy for biomarker discovery, although additional benchmarking and prospective validation will be required.",
+          "url": "https://www.semanticscholar.org/paper/0fff62101f21b653b464df67c88a21e112d84ec9",
+          "doi": "10.21873/cgp.20606",
+          "pmid": "42674823",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13531165/pdf/cgp-23-880.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "MI-POG can be formalized as an information-theoretic framework for genome-wide identification of prognostic biomarkers by quantifying molecular–clinical dependencies by quantifying molecular–clinical dependencies using mutual information.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -77031,6 +77232,56 @@
           "track": "D",
           "cited_by_count": 1,
           "tldr": "These findings provide the first insights into the genomic adaptations of fungus-farming ambrosia beetles, suggesting that co-evolved insect-microbe mutualisms may lead to reductions in a variety of gene families.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Comparative genomics reveals the evolution of anthraquinone biosynthesis in Polygonaceae",
+          "authors": "Qian Cheng, Fanbo Meng, Xiu-Ping Yang, Xiaoming Song, Wei Chen",
+          "journal": "BMC Genomics",
+          "date": "2026-06-15",
+          "abstract": "Polygonaceae is a globally distributed angiosperm family rich in anthraquinones (AQs), which contribute to diverse medicinal properties and species-specific chemical defenses. Despite their ecological and pharmacological significance, the evolutionary dynamics and transcriptional regulation of AQ biosynthesis genes in Polygonaceae remain largely unexplored. In this study, we combined comparative genomics and multi-omics analyses to investigate these processes. Phylogenomic reconstruction indicated that Polygonaceae diverged from its sister family approximately 66.26 million years ago. A total of 206 polyketide synthase (PKS) genes were identified, with lineage-specific tandem duplication driving substantial expansion. Polyketide biosynthetic gene clusters with dense PKS aggregation were detected in three species, primarily shaped by tandem duplication. By integrating gene expression and synteny analyses, candidate PKS genes likely involved in AQ biosynthesis were identified. Multi-level gene regulatory networks constructed from root transcriptomes of Fallopia multiflora across different growth years revealed hierarchical regulatory relationships and divergence among candidate PKS genes. Weighted gene co-expression network analysis further identified co-expression modules and transcription factors potentially associated with AQ biosynthesis, while machine learning approaches prioritized transcription factors regulating the glycosyltransferase involved in AQ modification. These results reveal the evolutionary expansion, diversification, and functional specialization of PKS genes, as well as the hierarchical transcriptional regulation underlying AQ biosynthesis in Polygonaceae. The identified candidate genes and regulatory networks provide a valuable resource for metabolic engineering and molecular breeding strategies aimed at enhancing medicinal AQ production.",
+          "url": "https://www.semanticscholar.org/paper/9673a3cfad2e8d5c843fcc0e97b5a93c5a7244f7",
+          "doi": "10.1186/s12864-026-13060-8",
+          "pmid": "42298393",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13495219/pdf/12864_2026_Article_13060.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "Comparative genomics and multi-omics analyses reveal the evolutionary expansion, diversification, and functional specialization of PKS genes, as well as the hierarchical transcriptional regulation underlying AQ biosynthesis in Polygonaceae.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A review of AI-driven phenomics, genomics, and predictive breeding in wheat",
+          "authors": "Mohammad Jafar Tanin, D. K. Saini, Praveenkumar Alagappan, Jatinder Paul Kaur",
+          "journal": "Discover Plants",
+          "date": "2026-06-11",
+          "abstract": "Wheat (Triticum aestivum L.) is a staple crop that feeds billions of people worldwide, but increasing pressure from climate change, pests, diseases, and growing food demands is making its improvement more urgent than ever. Traditional breeding methods, though valuable, often fall short in meeting these complex challenges quickly and efficiently. In recent years, artificial intelligence (AI), particularly machine learning (ML), has emerged as a powerful tool that is reshaping wheat breeding. While AI, and specifically ML approaches have advanced substantially in crop improvement, their application in wheat breeding remains fragmented, with limited integration across phenotyping, genotyping, and multi-omics layers, and insufficient attention to model interpretability and deployment in resource-constrained breeding programs. This review critically synthesizes recent ML-based approaches applied throughout modern wheat improvement, from large-scale phenotypic and genotypic data analysis to trait prediction and multi-omics integration. We highlight how these methods are being used to enhance genetic gain for resistance to biotic stress (e.g., disease and pests) and abiotic stress (e.g., heat and drought), while identifying key methodological and infrastructural barriers that currently limit their broader adoption. The role of big data, effective data management, and the difficulties in handling complex datasets are also discussed. Despite their promise, challenges remain, such as the need for better model transparency, access to computing resources in developing regions, and ensuring that these technologies are equitably accessible. Further, the review briefly discusses emerging directions, including deep learning (DL)-based frameworks, explainable AI (XAI), and their potential integration with genome editing, and digital twin concepts, as future opportunities to further enhance wheat breeding efficiency. Finally, we emphasize the importance of collaboration and open-access platforms to ensure these innovations benefit researchers and farmers alike. Together, these advancements mark a significant shift toward faster, smarter, and more sustainable wheat improvement for the future.",
+          "url": "https://www.semanticscholar.org/paper/edea6bab084810e1fcd227aca6b2723a049621d6",
+          "doi": "10.1007/s44372-026-00696-9",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44372-026-00696-9.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 5,
+          "tldr": "This review critically synthesizes recent ML-based approaches applied throughout modern wheat improvement, from large-scale phenotypic and genotypic data analysis to trait prediction and multi-omics integration, and highlights how these methods are being used to enhance genetic gain for resistance to biotic stress and abiotic stress.",
           "oa_status": "gold",
           "oa_pdf_source": "publisher",
           "journal_h_index": null,
@@ -77524,6 +77775,30 @@
           "tier": 0
         },
         {
+          "title": "A consensus model for implementation of genomics in Queensland Health – a Delphi study",
+          "authors": "M. Bui, Zoe Fehlberg, Mathilde R. Desselle, Saras Menon, S. Idrisoglu et al.",
+          "journal": "Human Genomics",
+          "date": "2026-04-27",
+          "abstract": "As genomic technologies in healthcare expand, health systems face integration challenges. This study aimed to consolidate collective expertise, experiences, and existing knowledge from local, statewide, and national genomics projects to inform a model of care for integrating and delivering genomic services in the Queensland public health system. We used a modified Delphi methodology with three survey rounds to achieve expert consensus on the model of care. We analysed quantitative data using descriptive statistics and qualitative data using content analysis. From 112 invited experts, 43 participants took part. The model of care comprised 30 actions across three phases: pre-test, testing, and post-test. Consensus (≥ 75% agreement) was achieved on 25 of the actions, with 5 included with specific considerations. Ten recommendations were developed, including building sustainability, improving access to specialists through a distributed model, and investing in clinical-pathology partnerships and infrastructures. These findings may inform a comprehensive, stakeholder-informed, system-level implementation effort for mainstreaming genomic medicine that is practical, feasible, and acceptable to key stakeholders across the system. The three-phase model of care provides a structured approach to genomic service delivery and has the potential to significantly improve patient access and healthcare delivery.",
+          "url": "https://www.semanticscholar.org/paper/48a276a428a79ffd14450b5a2d269d361a8a16c6",
+          "doi": "10.1186/s40246-026-00941-y",
+          "pmid": "42046118",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "The three-phase model of care provides a structured approach to genomic service delivery and has the potential to significantly improve patient access and healthcare delivery.",
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Seismic Stratigraphy and Tectonic Evolution of the Forearc Georgia Basin (Upper Cretaceous–Miocene), Canada and USA, With Implications for CO2 Sequestration",
           "authors": "F. Amarante, Shahin E. Dashtgard, Maziyar Nazemi, A. Calvert, H. D. Gibson",
           "journal": "Basin Research",
@@ -77639,6 +77914,30 @@
           "cited_by_count": 2,
           "tldr": "",
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genomics-Driven Immunotherapy: Advancing Cancer Treatment through Personalized Approaches.",
+          "authors": "Aditi A. Kate, Sharav A. Desai, Siddhi P. Sapkal, M. More, Vipul P. Patel",
+          "journal": "Current genomics",
+          "date": "2026-04-17",
+          "abstract": "Cancer is a complex disease involving the abnormal growth and dissemination of cells. The traditional treatments of cancer suffer from challenges like drug resistance and non-specificity. However, immunotherapy has become a promising alternative, leveraging the body's immune system to attack cancer cells. However, the variability in patients' responses to immunotherapy underscores the significance of personalized treatment strategies. Genomics is key to understanding how genetic changes drive tumor development and response to immunotherapy. Genomic profiling techniques, such as NGS, enable the identification of molecular biomarkers, such as Tumor Mutational Burden (TMB) and Microsatellite Instability (MSI), that predict response to immunotherapy. Furthermore, the Tumor Microenvironment (TME), consisting of different cells and molecules surrounding the tumor, plays an important role in cancer progression and treatment outcomes. In this review, we highlight how genomics-driven approaches are accelerating cancer immunotherapy. It presents how genomics can be used to personalize immunotherapy for cancer and discusses challenges such as tumor heterogeneity and resistance to therapy, which require innovative technologies such as single-cell RNA sequencing, AI, and machine learning in immunogenomics, and liquid biopsies to refine treatment strategies. In the future, the incorporation of CRISPR-based gene editing, personalized neoantigen vaccines, and combination therapies holds great promise for transforming cancer treatment.",
+          "url": "https://www.semanticscholar.org/paper/04cb28d542d8e6db43045a3710b07cafa0707498",
+          "doi": "10.2174/0113892029403241260416110923",
+          "pmid": "42164985",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "How genomics can be used to personalize immunotherapy for cancer is presented and challenges such as tumor heterogeneity and resistance to therapy are discussed, which require innovative technologies such as single-cell RNA sequencing, AI, and machine learning in immunogenomics, and liquid biopsies to refine treatment strategies.",
+          "oa_status": "green",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -78232,6 +78531,30 @@
           "tldr": "",
           "oa_status": "gold",
           "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "The Genomics and Genetics of Rare Disease Illuminate Human Biology.",
+          "authors": "J. Lupski, R. Gibbs",
+          "journal": "Annual review of genomics and human genetics",
+          "date": "2026-03-04",
+          "abstract": "Richard Gibbs interviews James (Jim) Lupski about his training in New York and work in Houston to elucidate the role of complex genomic rearrangements in human genetic diseases. The challenges and excitement of developing human personalized genomics and the advantages of clinical translation of genome methods for both patients and researchers are discussed.",
+          "url": "https://www.semanticscholar.org/paper/dc47c7cc94031b703e71e837940775fa2b056f30",
+          "doi": "10.1146/annurev-genom-020525-014546",
+          "pmid": "41780058",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "James (Jim) Lupski is interviewed about his training in New York and work in Houston to elucidate the role of complex genomic rearrangements in human genetic diseases.",
+          "oa_status": "hybrid",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -78843,6 +79166,31 @@
           "cited_by_count": 1,
           "tldr": "This study aims to infer the historical biogeography of bark and ambrosia beetles using a genus‐level time‐calibrated molecular phylogeny that encompasses 70% of all described genera.",
           "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Alzheimer’s 2030: From Precision Genomics to Artificial Intelligence",
+          "authors": "V. D'Argenio, Rossella Tomaiuolo, S. Bargeri, Giulia Sancesario",
+          "journal": "Genes",
+          "date": "2026-02-01",
+          "abstract": "Alzheimer’s disease (AD) represents a critical global health challenge, with its prevalence and associated costs expected to double significantly by 2030 and 2050. While lifestyle interventions are crucial, sporadic late-onset AD has a substantial genetic component (40–80% heritability), though known variants limit the scope of traditional precision medicine. Crucially, sex and gender are significant risk determinants, with women accounting for two-thirds of cases due to a complex interplay of biological and sociocultural factors. This review focuses on the influence of genetic and gender-related factors, examining large-scale genome-wide association studies (GWASs) and their role in developing advanced genetic risk scores (GRS) for precision genomics. We also explore the potential of Artificial Intelligence (AI) for multimodal big data analysis and digital health tools to promote personalized prevention and emerging concerns about ethics, privacy and data treatment. The convergence of these findings underscores the urgent need for a genetic-, sex- and gender-informed precision-medicine approach to AD.",
+          "url": "https://www.semanticscholar.org/paper/b3aa4248f7db475471cc53807b0321bd521248fc",
+          "doi": "10.3390/genes17020233",
+          "pmid": "41751617",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.mdpi.com/2073-4425/17/2/233/pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 4,
+          "tldr": "Examining large-scale genome-wide association studies (GWASs) and their role in developing advanced genetic risk scores (GRS) for precision genomics underscores the urgent need for a genetic-, sex- and gender-informed precision-medicine approach to AD.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -84807,8 +85155,8 @@
     }
   },
   "stats": {
-    "total_count": 3202,
-    "new_this_week": 23,
+    "total_count": 3208,
+    "new_this_week": 21,
     "weekly_trend": [
       {
         "week": "2026-W36",
@@ -84820,11 +85168,11 @@
       },
       {
         "week": "2026-W38",
-        "count": 8
+        "count": 12
       },
       {
         "week": "2026-W39",
-        "count": 42
+        "count": 40
       },
       {
         "week": "2026-W40",
@@ -84832,14 +85180,14 @@
       },
       {
         "week": "2026-W41",
-        "count": 16
+        "count": 14
       }
     ],
     "tier_counts": {
-      "1": 477,
+      "1": 478,
       "2": 0,
       "3": 0,
-      "0": 2725
+      "0": 2730
     }
   }
 }
