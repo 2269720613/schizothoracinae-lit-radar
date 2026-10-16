@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:00:01Z",
+  "generated_at": "2026-10-16T10:55:21Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -7651,6 +7651,39 @@
           "tier": 0
         },
         {
+          "id": "10.1038/s41467-026-76954-x",
+          "title": "FKS1/2-variant independent mechanisms underlying the emergence of resistance in echinocandin-refractory Candida auris infections.",
+          "authors": [
+            "Gifford H",
+            "Pradhan A",
+            "Caswall B",
+            "Murphy SE",
+            "Leaves I",
+            "Edmondson MB",
+            "Chakraborty T",
+            "Wilson D",
+            "Taori SK",
+            "Gow NAR",
+            "Farrer RA",
+            "Brown AJP",
+            "Bicanic T"
+          ],
+          "journal": "Nature communications",
+          "date": "2026-10-15",
+          "doi": "10.1038/s41467-026-76954-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42881167/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "openalex_source_id": "S64187185",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
           "id": "10.1007/s00122-026-05382-8",
           "title": "Genome-wide association mapping of tan spot resistance in a modified NAM population derived from synthetic hexaploid wheat.",
           "authors": [
@@ -8097,6 +8130,31 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "title": "Phylogeny and evolutionary history of the genus Nectogale (Soricidae) inferred from whole-genome analyses, with description of a new species endemic to the Himalayas.",
+          "authors": "Xiao-Xin Pei, Yi-Xian Li, K. Onditi, Hong-Jiao Wang, Wei-Hua Qin et al.",
+          "journal": "Molecular phylogenetics and evolution",
+          "date": "2026-10-01",
+          "abstract": "The genus Nectogale, endemic to the Himalayas, Hengduan Mountains, and adjacent ranges, comprises highly specialized semi-aquatic shrews adapted to high-elevation streams. Its diversity has likely been underestimated because of limited sampling and morphological conservatism, leaving species limits and evolutionary relationships unresolved. Here, we combined whole-genome data with morphological evidence to delimit species, infer phylogenetic history, and test for introgression and demographic change. Our results support three species: Nectogale elegans, Nectogale sikhimensis, and a newly identified species, Nectogale jilongensis sp. nov. Divergence-time analyses indicated that the Nectogale lineage diverged from its sister genus in the Middle Miocene (∼14 Ma), followed by diversification between the Late Miocene (∼7 Ma) and Early Pliocene (∼4.5 Ma), broadly coinciding with Himalayan uplift and regional climatic transitions. Admixture analyses and D-statistics (ABBA-BABA tests) indicated significant introgression near species range boundaries, while pairwise sequentially Markovian coalescent (PSMC) analyses revealed contrasting population histories among the three lineages. These results highlight the role of contact zones in facilitating lineage divergence through gene flow, and suggest that regional environmental heterogeneity contributes to distinct evolutionary trajectories across the Himalayas. Our study revises Nectogale taxonomy and clarifies its evolutionary history, offering new insights into diversification in the Himalayan biodiversity hotspot.",
+          "url": "https://www.semanticscholar.org/paper/c98d486bba36d2895d745385ea14906f95c02731",
+          "doi": "10.1016/j.ympev.2026.108749",
+          "pmid": "42858910",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "This study revises Nectogale taxonomy and clarifies its evolutionary history, offering new insights into diversification in the Himalayan biodiversity hotspot.",
+          "oa_status": "green",
+          "openalex_source_id": "S96989847",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "title": "First Observation of Wild Double‐Flowered Rhododendron nivale With Stamen Petaloidy and Possible Parallel Evolution",
@@ -18758,6 +18816,29 @@
           "tier": 0
         },
         {
+          "title": "quaint: An R Package for detecting introgression across a phylogeny using discordant gene tree topologies",
+          "authors": "Ethan A. Baldwin, J. Leebens-Mack",
+          "journal": "",
+          "date": "2026-06-21",
+          "abstract": "Premise: Hybrid speciation and introgressive hybridization are increasingly recognized as important evolutionary phenomena across the tree of life. One widely used class of methods to detect introgression includes D statistics and related methods which employ the ABBA-BABA test using nucleotide site patterns. Recent studies have applied this theoretical framework to phylogenomic datasets using gene tree topologies instead, but no software packages using this method have been developed. Methods and Results: An R package was developed to facilitate the inference of introgression given a set of gene trees and a species tree. Using an ABBA-BABA framework, this package summarizes patterns of gene tree discordance to infer introgression across large phylogenies. Conclusions: Using gene tree topologies, quaint overcomes the limitations of site-based methods, enabling the detection of introgression across broad phylogenomic contexts. This R package provides an accessible and reproducible tool for researchers investigating reticulate evolution.",
+          "url": "https://www.semanticscholar.org/paper/858b29721032adfe4199888d90e495a24e76e50c",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": null,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 1,
+          "tldr": "This R package summarizes patterns of gene tree discordance to infer introgression across large phylogenies and overcomes the limitations of site-based methods, enabling the detection of introgression across broad phylogenomic contexts.",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.64898/2026.06.15.732430",
           "title": "Long-term isolation and introgression shape the genomic distinctiveness of Rice's Whale.",
           "authors": [
@@ -19470,6 +19551,30 @@
           "tldr": "A compelling case-control study that presents a powerful argument against a one-size-fits-all genetic model and forcefully introduces the critical roles of population-specific genetic architecture, local environmental factors, and unique gene-gene interactions in genetic research.",
           "oa_status": "gold",
           "openalex_source_id": "S9864596",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A Rarefaction Approach to Identify Local Introgression in a Three Population Tree",
+          "authors": "T. Smith, Z. Szpiech",
+          "journal": "bioRxiv",
+          "date": "2026-05-15",
+          "abstract": "Patterson’s D statistic, also known as the ABBA–BABA statistic, is widely used to detect the presence of archaic genome-wide introgression between two non-sister taxa. Patterson’s D counts the imbalance between the number of biallelic sites where either the second and third taxa (ABBA site) share the derived allele or the first and third taxa (BABA site) share the derived allele in a four taxa tree. Here, the fourth taxon acts as an outgroup to determine the ancestral allele. When there is no introgression, these counts are expected to be equal, and a discordance between counts suggests introgression from the third taxon into either the first or second. Patterson’s D is limited to the detection of genome-wide introgression and exhibits a high false-positive rate when applied to smaller genomic segments. Here, we present a new method, D STatistic with Allelic Rarefaction (D*), to address these limitations. D* uses multiple lineages and does not require an outgroup to calculate the imbalance between the number of alleles found exclusively in the second and third taxa and the number of alleles found exclusively in the first and third taxa. D* employs a rarefaction technique to correct for unequal sample-size and allows multiallelic sites. We use simulations to show that D* has better precision and recall for detecting introgressed segments of DNA when compared to other methods. We conclude by recovering Denisovan DNA related to immune function in modern day Papuans. Precompiled executables, the manual, source code, and simulation and analysis scripts used in this study can be found at https://github.com/TQ-Smith/DSTAR",
+          "url": "https://www.semanticscholar.org/paper/3b7d06eb38c5f0c62d05aeda089754915143b3d3",
+          "doi": "10.64898/2026.05.13.724952",
+          "pmid": "42182113",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "Denisovan DNA related to immune function in modern day Papuans is recovered by recovering Denisovan DNA related to immune function in modern day Papuans by using simulations to show that D* has better precision and recall for detecting introgressed segments of DNA when compared to other methods.",
+          "oa_status": "green",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -21413,6 +21518,32 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "title": "Synergizing Bayesian and Heuristic Approaches: D-BPP Uncovers Ghost Introgression in Panthera and Thuja.",
+          "authors": "Yang Yang, Xiao-Xu Pang, Yanzhe Ding, Bo-Wen Zhang, W. Bai et al.",
+          "journal": "Systematic biology",
+          "date": "2026-02-05",
+          "abstract": "Hybridization involving extinct or unsampled (\"ghost\") lineages profoundly influences species' evolutionary histories, but detecting such introgression remains methodologically challenging. We introduce D-BPP, a framework that integrates the heuristic D-statistic (or ABBA-BABA test) with Bayesian phylogenomic inference (implemented in BPP) to efficiently infer phylogenetic networks. In D-BPP, we first employ the D-statistic to rapidly identify candidate introgression events on a predefined bifurcating species tree; then we leverage the Bayesian test in BPP to rigorously validate these candidates and sequentially add them to the species tree, retaining only those events with strong statistical support. When the species tree is ambiguous, D-BPP identifies the most probable topology by comparing introgression models in a Bayesian framework. Through dedicated simulation analyses, we show that the D-BPP workflow has high power: the D-statistic reliably detects the presence of introgression, BPP accurately discriminates among alternative introgression scenarios, and the key procedural steps of the pipeline are empirically well-justified. Critically, our framework excels at detecting ghost introgression, which is often unidentifiable or overlooked by existing methods-whether heuristic or full-likelihood. Applied to genomic datasets from Panthera (big cats) and Thuja (conifers), D-BPP uncovered previously undetected ghost introgression events in both clades, underscoring the pervasive role ghost lineages have played across diverse taxa. By combining the computational efficiency of heuristic D-statistics with the robust statistical rigor of full-likelihood Bayesian inference, D-BPP provides a practical and powerful approach for reconstructing complex reticulate evolutionary histories.",
+          "url": "https://www.semanticscholar.org/paper/3a47a84d2e5d5f0f0823e16e9738502c0d976b59",
+          "doi": "10.1093/sysbio/syag012",
+          "pmid": "41642269",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/02/2025.06.27.662067.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 3,
+          "tldr": "D-BPP is introduced, a framework that integrates the heuristic D-statistic with Bayesian phylogenomic inference to efficiently infer phylogenetic networks and excels at detecting ghost introgression, which is often unidentifiable or overlooked by existing methods.",
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
+          "openalex_source_id": "S65478581",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "title": "Correction: The application of DNA markers in population genetics of mosquitoes: a comprehensive review",
@@ -35316,6 +35447,71 @@
       ],
       "papers": [
         {
+          "id": "10.1016/j.cell.2026.09.033",
+          "title": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer.",
+          "authors": [
+            "Sohn MH",
+            "Dubocanin D",
+            "Vollger MR",
+            "Kwon Y",
+            "Minkina A",
+            "Munson KM",
+            "Hart SFM",
+            "Ranchalis JE",
+            "Parmalee NL",
+            "Sedeño-Cortés AE",
+            "Ou J",
+            "Neph SJ",
+            "Au NYT",
+            "Bohaczuk S",
+            "Carroll B",
+            "Frazar CD",
+            "Harvey WT",
+            "Hoekzema K",
+            "Huang MF",
+            "Jacques CN",
+            "Jensen DM",
+            "Kolar JT",
+            "Lee R",
+            "Lin J",
+            "Loy K",
+            "Mack T",
+            "Mao Y",
+            "Mitchell MW",
+            "Pham MM",
+            "Scheinfeldt LB",
+            "Smith G",
+            "Ryke E",
+            "Smith JD",
+            "Sutherlin L",
+            "Swanson EG",
+            "Weiss JM",
+            "SMaHT Assembly WG",
+            "Carvalho CMB",
+            "Coorens THH",
+            "Harris K",
+            "Wei CL",
+            "Eichler EE",
+            "Altemose N",
+            "Bennett JT",
+            "Stergachis AB"
+          ],
+          "journal": "Cell",
+          "date": "2026-10-15",
+          "doi": "10.1016/j.cell.2026.09.033",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42880233/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "openalex_source_id": "S110447773",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
           "id": "10.1186/s12870-026-10103-w",
           "title": "Telomere-to-telomere, gap-free genome assembly of the Chinese holly, Ilex cornuta",
           "authors": [
@@ -38569,7 +38765,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2491286908"
         },
         {
           "id": "10.3390/ijms27156834",
@@ -38592,7 +38789,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "title": "Extracellular Alpha-Satellite DNA in Human Plasma as a Candidate Biomarker for Bladder Cancer Detection: Preliminary Evidence Using Digital PCR",
@@ -38617,7 +38815,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S10623703"
         },
         {
           "id": "10.1038/s41586-026-10841-9",
@@ -38711,7 +38910,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2737737698"
         },
         {
           "id": "10.1016/j.celrep.2026.117588",
@@ -40261,7 +40461,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S64187185"
         },
         {
           "title": "Transposable element dynamics drive rapid evolution of centromere architecture in the Avena genus",
@@ -76365,6 +76566,54 @@
       ],
       "papers": [
         {
+          "title": "Twelve voices from China: On publishing, community, and how the field of genomics is developing.",
+          "authors": "Jian Yang, Yong Zhang, Si-Yan Liu, Yan Zheng, Gang-Qiao Zhou et al.",
+          "journal": "Cell genomics",
+          "date": "2026-10-14",
+          "abstract": "To mark 5 years of Cell Genomics, we asked authors across China to reflect on their research and the field of genomics. Together, these voices reflect on their findings, publishing, belonging to a community, and what shape the field's next 5 years should take.",
+          "url": "https://www.semanticscholar.org/paper/fc868340422a468e6a6978b20fdb876a4fb5a50f",
+          "doi": "10.1016/j.xgen.2026.101393",
+          "pmid": "42874564",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "To mark 5 years of Cell Genomics, authors across China reflect on their research and the field of genomics, publishing, belonging to a community, and what shape the field's next 5 years should take.",
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Comments from the Cell Genomics board.",
+          "authors": "S. Teichmann, B. Shapiro, N. Hanchard, H. Rehm",
+          "journal": "Cell genomics",
+          "date": "2026-10-14",
+          "abstract": "We asked members of our board to reflect on 5 years of Cell Genomics and provide comments regarding the journal.",
+          "url": "https://www.semanticscholar.org/paper/cac2f46f55d64c59bbf0328b32466f3151962ac6",
+          "doi": "10.1016/j.xgen.2026.101395",
+          "pmid": "42874566",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": null,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1130/ges02902.1",
           "title": "Stratigraphy, geochronology, geometry, and evolution of the Cenozoic paleovalleys (“auriferous gravel” river valleys), northern Sierra Nevada, western United States",
           "authors": [
@@ -76784,6 +77033,29 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Integrating genomics, multi-omics, CRISPR and speed breeding for stress-resilient vegetable legume improvement",
+          "authors": "S. Indurthi, Gurpreet Kaur, Rituraj Dutta, Saatu Madhu, Bhaskar Chodasani et al.",
+          "journal": "Functional & Integrative Genomics",
+          "date": "2026-09-03",
+          "abstract": "",
+          "url": "https://www.semanticscholar.org/paper/d712164654129615727879132607deb0978dd22c",
+          "doi": "10.1007/s10142-026-02037-1",
+          "pmid": "42690503",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "This review synthesizes advances in QTL mapping, genome-wide association studies, transcriptomics, metabolomics, and CRISPR-based functional genomics that have identified key regulators and pathways underlying resistance to major biotic and abiotic stresses into a systems-breeding framework to bridge the gap between gene discovery and cultivar development.",
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
           "tier": 0
         },
         {
@@ -77532,6 +77804,31 @@
           "tier": 1
         },
         {
+          "title": "Geospatial Genomics in Cassava: Integrating GIS, Remote Sensing, and Genomic Tools for Disease-resistant Variety Development in Africa",
+          "authors": "Vandi Amara, A. Samura, P. Norman, Jame Kargbo, Suffian Mansaray",
+          "journal": "International Journal of Genetics and Genomics",
+          "date": "2026-05-19",
+          "abstract": "Cassava (\n Manihot esculenta Crantz\n ) is a vital staple crop in sub-Saharan Africa, underpinning food security, rural livelihoods, and agro-industrial development. Despite its resilience to marginal soils and drought, cassava productivity is severely constrained by viral and bacterial diseases, notably cassava mosaic disease (CMD), cassava brown streak disease (CBSD), and cassava bacterial light (CBB). Conventional breeding approaches for disease resistance remain limited by long phenotyping cycles, genotype-by-environment interactions, and inadequate spatial integration. This review highlights the emerging role of geospatial genomics, an interdisciplinary framework that integrates Geographic Information Systems (GIS), remote sensing, and genomic tools to accelerate cassava improvement. GIS enables spatial mapping of disease incidence and environmental gradients, while remote sensing technologies such as satellite indices and drone-based hyperspectral imaging provide real-time crop health monitoring. Advances in genomics, including SNP genotyping, genotyping-by-sequencing, and marker-assisted selection, facilitate the identification of resistance loci and predictive breeding. Integrating spatial datasets with genomic information through environmental association analyses enhances understanding of genotype-environment interactions and supports climate-resilient breeding strategies. Applications of geospatial genomics in cassava include disease surveillance, predictive modeling of outbreaks, targeted germplasm deployment, and improved selection efficiency across diverse agro-ecological zones. Through linking environmental variability, disease dynamics, and genetic diversity, geospatial genomics offers a comprehensive pathway to develop disease-resistant cassava varieties, thereby strengthening food security and sustainable agriculture in Africa.",
+          "url": "https://www.semanticscholar.org/paper/f2708e1aaea601e03e4891beafacf2114ccf7482",
+          "doi": "10.11648/j.ijgg.20261402.14",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "http://article.sciencepg.com/pdf/j.ijgg.20261402.14",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "Through linking environmental variability, disease dynamics, and genetic diversity, geospatial genomics offers a comprehensive pathway to develop disease-resistant cassava varieties, thereby strengthening food security and sustainable agriculture in Africa.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Decoupling of Neogene seawater lithium isotopes from uplift-driven weathering",
           "authors": "Yi-Bo Yang, Yudong Liu, Philip A. E. Pogge von Strandmann, Zhang-Dong Jin, A. Galy et al.",
           "journal": "Nature Communications",
@@ -77575,6 +77872,31 @@
           "cited_by_count": 3,
           "tldr": "",
           "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Synthetic Regulatory Genomics",
+          "authors": "Matthew T. Maurano",
+          "journal": "Annual review of genomics and human genetics",
+          "date": "2026-05-11",
+          "abstract": "The genomics era has yielded high-quality genome assemblies, comprehensive atlases of biochemical signatures of gene regulation, and genetic associations for thousands of common human diseases and traits. These dramatic advances in observational approaches have not been matched by perturbational genetic tools to facilitate direct and systematic hypothesis testing. Enabled by advances in DNA synthesis and assembly, genome engineering tools, and genomic readouts, synthetic regulatory genomics now promises access to a new scale of genomic manipulation to study the function of cohesive genomic units. Synthetic regulatory genomics is distinguished by the breadth of the genetic manipulations and their divergence from the reference sequence. These new tools enable an expanded focus to encompass sufficiency in addition to necessity and to enable a new era of perturbation analysis.",
+          "url": "https://www.semanticscholar.org/paper/889057673ac18dbb644a3377e7d33e6b454f4471",
+          "doi": "10.1146/annurev-genom-120324-123022",
+          "pmid": "42113869",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13166085/pdf/nihms-2149839.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "D",
+          "cited_by_count": 0,
+          "tldr": "This work states that new tools enabling an expanded focus to encompass sufficiency in addition to necessity and to enable a new era of perturbation analysis are needed to enable a new era of perturbation analysis.",
+          "oa_status": "hybrid",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -85155,39 +85477,39 @@
     }
   },
   "stats": {
-    "total_count": 3208,
-    "new_this_week": 21,
+    "total_count": 3217,
+    "new_this_week": 23,
     "weekly_trend": [
       {
         "week": "2026-W36",
-        "count": 25
+        "count": 22
       },
       {
         "week": "2026-W37",
-        "count": 7
+        "count": 9
       },
       {
         "week": "2026-W38",
-        "count": 12
+        "count": 16
       },
       {
         "week": "2026-W39",
-        "count": 40
+        "count": 65
       },
       {
         "week": "2026-W40",
-        "count": 44
+        "count": 16
       },
       {
         "week": "2026-W41",
-        "count": 14
+        "count": 16
       }
     ],
     "tier_counts": {
-      "1": 478,
+      "1": 482,
       "2": 0,
       "3": 0,
-      "0": 2730
+      "0": 2735
     }
   }
 }
