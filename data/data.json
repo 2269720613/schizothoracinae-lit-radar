@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:17:28Z",
+  "generated_at": "2026-10-18T10:33:15Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -39332,7 +39332,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1038/s41467-026-75953-2",
@@ -39459,7 +39460,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S23181512"
         },
         {
           "id": "10.1101/2025.06.11.659220",
@@ -39764,7 +39766,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1007/s10709-026-00275-6",
@@ -40278,7 +40281,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "title": "A gapless Landrace pig genome resolves centromeres and telomeres and highlights telomere repeat structures in different pig breeds",
@@ -40326,7 +40330,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "title": "Near-complete genomes for nine haplochromine cichlid fishes reveal a novel centromeric satellite structure organised around a pair of inverted elements",
@@ -40649,7 +40654,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "title": "Gapless and phased genome assembly reveals post-allopolyploidization subgenomic diversification of tobacco centromeres",
@@ -40673,7 +40679,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1186/s12864-026-13072-4",
@@ -40747,7 +40754,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1186/s13039-026-00775-2",
@@ -40819,7 +40827,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1186/s13059-026-04159-y",
@@ -40852,7 +40861,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1186/s12915-026-02647-y",
@@ -41275,7 +41285,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "id": "10.1111/nph.71111",
@@ -87028,23 +87039,23 @@
   },
   "stats": {
     "total_count": 3281,
-    "new_this_week": 29,
+    "new_this_week": 28,
     "weekly_trend": [
       {
         "week": "2026-W36",
-        "count": 13
+        "count": 12
       },
       {
         "week": "2026-W37",
-        "count": 9
+        "count": 8
       },
       {
         "week": "2026-W38",
-        "count": 25
+        "count": 30
       },
       {
         "week": "2026-W39",
-        "count": 59
+        "count": 55
       },
       {
         "week": "2026-W40",
@@ -87052,7 +87063,7 @@
       },
       {
         "week": "2026-W41",
-        "count": 22
+        "count": 21
       }
     ],
     "tier_counts": {
