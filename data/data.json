@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:20:31Z",
+  "generated_at": "2026-10-22T11:19:48Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -33,6 +33,35 @@
           "openalex_source_id": "S2764883586",
           "journal_h_index": null,
           "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "id": "10.1111/jfb.70688",
+          "title": "Hatch date and early growth characteristics of different subspecies of Schizopygopsis younghusbandi Regan, 1905 in Xizang, China",
+          "authors": [
+            "Ji Liu",
+            "Jie Chen",
+            "Feng Huang",
+            "Lin Chen",
+            "Xin Gao",
+            "Baoshan Ma",
+            "Pengcheng Lin"
+          ],
+          "journal": "Journal of Fish Biology",
+          "date": "2026-10-20",
+          "doi": "10.1111/jfb.70688",
+          "url": "https://openalex.org/W7223134334",
+          "abstract": "Abstract Fish otolith microstructure is a fundamental aspect of fish ecology, providing insights into early‐life history traits such as daily age, growth rates and hatch dates. To investigate variations in hatch dates and early growth characteristics among different subspecies, Schizopygopsis younghusbandi younghusbandi and Schizopygopsis younghusbandi shannaensis were collected from Xizang, China, during the spring and autumn of 2016 ( S. y. younghusbandi ) and 2020 ( S. y. shannaensis ). The formation of the first otolith increment in S. younghusbandi occurred on the second day post‐hatching, with subsequent increments increasing at a rate of one per day, as confirmed through the analysis of otoliths from juveniles of known age. The hatch date differed between subspecies: S. y. shannaensis hatched earlier, beginning in January, while S. y . younghusbandi hatched from February onward. The growth rates also varied, with S. y. shannaensis exhibiting a higher rate than S. y. younghusbandi (total length [ TL ] = 0.096 D + 10.330, R 2 = 0.690 for S. y. younghusbandi , TL = 0.118 D + 12.180, R 2 = 0.886 for S. y. shannaensis ). Increment width measurements of lapilli further supported the observation that S. y. shannaensis grows faster. Moreover, individuals collected in autumn demonstrated significantly greater growth than those collected in spring. These findings provide essential information for developing conservation strategies for S. younghusbandi and deepen our understanding of species adaptation to high‐altitude riverine environments.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S9351502",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": false,
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
           "tier": 0
         },
         {
@@ -9400,6 +9429,28 @@
           "tier": 0
         },
         {
+          "title": "From plant pangenome assemblies to operational graph references",
+          "authors": "D’Agostino N.",
+          "journal": "",
+          "date": "2026-10-21",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13680438",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13680438/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1007/s00122-026-05423-2",
           "title": "Multi-isolate GWAS identifies broad-spectrum and isolate-specific resistance-associated loci for Septoria tritici blotch in synthetic hexaploid wheat.",
           "authors": [
@@ -9569,6 +9620,31 @@
           "tier": 1
         },
         {
+          "title": "Long-Read Evidence for Repeat-Associated Structural Heterogeneity in the Mitochondrial Genome of Rhododendron spinuliferum",
+          "authors": "Jie Chen, Yi Feng, Xin-Yi Qian, De-Ju Zhang",
+          "journal": "Genes",
+          "date": "2026-10-15",
+          "abstract": "Background/Objectives: Plant mitochondrial genomes are structurally dynamic, and assembled paths may not reflect all molecular configurations. We characterized the mitochondrial genome of Rhododendron spinuliferum and evaluated repeat-associated structural heterogeneity and transcript support for mitochondrial RNA processing. Methods: Public PacBio HiFi reads were assembled and curated; Illumina reads from a second individual provided cross-individual sequence support. Candidate local connections were assessed by strict single-read two-junction phasing. Gene content, repeats, plastid-derived sequences, comparative genomics, phylogeny, predicted C-to-U RNA-editing sites, and mature exon junctions were also examined. Results: Three representative assembly paths totaled 786,593 bp and contained 32 protein-coding loci, three rRNA genes, and 19 tRNA types. A total of 226 HiFi reads supported four local configurations associated with two repeat pairs, and all four persisted across 24 filtering combinations. Nine mitochondrial plastid DNA transfer blocks covered 6.77 kb. Public RNA-seq data provided read-level support for 211 of 475 predicted editing sites and all 12 examined mature exon junctions of nad1, nad2, and nad5. Across six congeners, 99.7% of resolved homologous positions corresponding to RNA-supported sites retained genomic C. Conclusions: These results support repeat-associated local structural heterogeneity in the R. spinuliferum mitogenome and provide a curated DNA- and RNA-supported resource for comparative Rhododendron mitochondrial genomics.",
+          "url": "https://www.semanticscholar.org/paper/c82c73cedc714cd261b320f03c6cd29129b47a0c",
+          "doi": "10.3390/genes17101288",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "The results support repeat-associated local structural heterogeneity in the R. spinuliferum mitogenome and provide a curated DNA- and RNA-supported resource for comparative Rhododendron mitochondrial genomics.",
+          "oa_status": "gold",
+          "openalex_source_id": "S194631498",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1007/s00122-026-05382-8",
           "title": "Genome-wide association mapping of tan spot resistance in a modified NAM population derived from synthetic hexaploid wheat.",
           "authors": [
@@ -9594,6 +9670,32 @@
           "source": "PubMed",
           "is_oa": false,
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Near telomere-to-telomere reference genome assembly of Megacarpaea megalocarpa (Brassicaceae)",
+          "authors": "Han-Ze Ma, Rui-Min Yu, Qi Wu, Juan Qiu, Jannathan Mamut et al.",
+          "journal": "Scientific Data",
+          "date": "2026-10-14",
+          "abstract": "As a perennial spring ephemeral,\n Megacarpaea megalocarpa\n escapes extreme summer drought through rapid early-spring growth and deeply buried meristems. However, the molecular mechanisms underlying this specialized stress-avoidance strategy remain unclear. Moreover, the complex mesopolyploid and allopolyploid history of this tribe has continuously obscured its phylogenetic position, complicating our understanding of its evolutionary origins. Here, we present the first near telomere-to-telomere genome assembly of\n M. megalocarpa\n integrating PacBio HiFi, ONT ultra-long, Hi-C, and Illumina sequencing. The 983.65 Mb assembly is anchored to nine pseudo-chromosomes, with 37.67% GC content and 77.67% repetitive sequences. Assessments confirm high continuity (contig N50: 40.62 Mb; scaffold N50: 118.87 Mb), completeness (LAI: 15.20; BUSCO: 98.70%), and correctness (QV: 57.12) of the genome. We identified 30,168 protein-coding genes, of which 29,679 (98.38%) were functionally annotated, and the BUSCO assessment confirmed 96.40% completeness of the gene models. This high-quality assembly provides a robust foundation for elucidating the molecular mechanisms underlying adaptive evolution in response to extreme environmental conditions and resolving the complex phylogenetic position of the tribe Megacarpaeeae.",
+          "url": "https://www.semanticscholar.org/paper/df824061448efff62df5f3ec82bf60112e86ccd8",
+          "doi": "10.1038/s41597-026-08419-1",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-08419-1_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "This first near telomere-to-telomere genome assembly of M. megalocarpa is presented, providing a robust foundation for elucidating the molecular mechanisms underlying adaptive evolution in response to extreme environmental conditions and resolving the complex phylogenetic position of the tribe Megacarpaeeae.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S2607323502",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -37376,6 +37478,93 @@
       ],
       "papers": [
         {
+          "id": "10.3390/agronomy16202064",
+          "title": "Polyploidy in Two Species of the Allium ampeloprasum Complex (Amaryllidaceae): New Evidence and Cytogenetic Insights",
+          "authors": [
+            "Alessio Turco",
+            "Robert P. Wagensommer",
+            "Antonella Albano",
+            "Pietro Medagli",
+            "Saverio D’Emerico"
+          ],
+          "journal": "Agronomy",
+          "date": "2026-10-21",
+          "doi": "10.3390/agronomy16202064",
+          "url": "https://openalex.org/W7223141600",
+          "abstract": "Providing new cytogenetic results, this study analyzes the karyotype of Allium polyanthum and A. atroviolaceum (Amaryllidaceae sect. Allium) using classical cytogenetic techniques (Feulgen staining, Ag-NOR, C-banding), while explicitly excluding meiotic analyses. Both species show a stable tetraploid chromosome complement (2n = 4x = 32) across all examined populations, with predominantly symmetrical karyotypes dominated by metacentric chromosomes; quantitative asymmetry parameters (MCA, CVCL, CVCI) are very similar between the two species. Notably, a single specimen of A. atroviolaceum from Albania represented an exception: the chromosome number was variable within the meristematic tissue, exhibiting somatic numerical instability. The main differences concern the organization of nucleolar chromosomes: both species show secondary constrictions in a sub-telomeric position (i.e., “scorodoprasum” type) and secondary constrictions near the centromere (i.e., “sativum” type), but with different numbers and distributions. Allium polyanthum shows a maximum of 4 nucleoli per interphase nucleus (corresponding to 2 pairs of homologous chromosomes with secondary constrictions), while A. atroviolaceum shows up to 7, often smaller in size. The distribution of constitutive heterochromatin (C-banding) is also species-specific, despite an overall similarity in chromosome morphology. The authors interpret these features (normal chromosomal rearrangement, karyotype symmetry, heterochromatin organization) as indicative of a relatively recent evolutionary event, which may have contributed to the cytogenetic stabilization and diversification of these taxa. The study also confirms the usefulness of conventional cytogenetic markers, when integrated with NOR and heterochromatin analysis, for studying chromosome evolution in polyploid species of the genus Allium.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2738977497",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1007/s13237-026-00720-z",
+          "title": "Transcription of satellite DNA and 5-methylcytosine in parental and hybrid manatees (Trichechus manatus and Trichechus inunguis)",
+          "authors": [
+            "Flávia dos Santos Tavares",
+            "Fernanda Löffler Niemeyer Attademo",
+            "Fábia de Oliveira Luna",
+            "Luís Adriano Santos do Nascimento",
+            "Leonardo dos Santos Sena",
+            "Cesar Martins",
+            "Adauto Lima Cardoso",
+            "Renata Coelho Rodrigues Noronha"
+          ],
+          "journal": "The Nucleus",
+          "date": "2026-10-21",
+          "doi": "10.1007/s13237-026-00720-z",
+          "url": "https://openalex.org/W7223105764",
+          "abstract": "Abstract Satellite DNAs are essential components of centromeric regions, contributing to chromosome segregation and genome stability. Recent evidence indicates that these sequences are not merely structural elements but may also be transcriptionally active and subject to epigenetic regulation. In hybrid genomes, interactions between divergent parental epigenomes may alter the regulation of repetitive elements, potentially affecting genome stability. In this study, we investigated the centromeric satellite DNA TMAsat in the American manatees Trichechus manatus and Trichechus inunguis , as well as in their natural hybrids. An integrated approach was employed, including chromosomal localization by fluorescence in situ hybridization (FISH), gene expression analysis, and assessment of DNA methylation patterns. TMAsat FISH signals were detected in the centromeric regions of all chromosomes in both hybrid individuals analyzed, except for the Y chromosome, supporting the conservation of its chromosomal distribution in these specimens. Expression analyses revealed that TMAsat is transcribed in both parental species and the two hybrid individuals, which exhibited reduced transcript levels compared with T. inunguis . DNA methylation analyses revealed interindividual variation in global methylation levels, whereas both methylated and unmethylated TMAsat-specific products were detected in all individuals analyzed. Collectively, our findings suggest that TMAsat retains its centromeric localization and transcriptional activity in the hybrid individuals analyzed, with epigenetic modulation potentially contributing to its regulation. These results provide new insights into the functional dynamics of satellite DNA in natural hybrid systems and highlight the potential role of epigenetic mechanisms in the regulation of centromeric satellite DNA. By advancing knowledge of genome organization and epigenetic regulation in manatees, this study contributes to the United Nations Sustainable Development Goal 15 (Life on Land) by providing genetic knowledge relevant to biodiversity research and species conservation.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210187714",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1126/sciadv.aef4365",
+          "title": "CCAN forms the spherical shell-like structure in interphase kinetochores",
+          "authors": [
+            "Yuji Sakai",
+            "Mariko Ariyoshi",
+            "Yasuhiro Hirano",
+            "Yutaka Mahana",
+            "Aussie Suzuki",
+            "Toru Hirota",
+            "Masashi Tachikawa",
+            "Tatsuo Fukagawa"
+          ],
+          "journal": "Science Advances",
+          "date": "2026-10-21",
+          "doi": "10.1126/sciadv.aef4365",
+          "url": "https://openalex.org/W7223127596",
+          "abstract": "The kinetochore is an essential structure for the faithful chromosome segregation during mitosis. The 16-protein complex known as the constitutive centromere-associated network (CCAN) localizes the centromere throughout the cell cycle and forms the basis of the kinetochore. Although cryo–electron microscopy has provided a structural model of an individual CCAN unit, how multiple CCAN units are organized within cells remains unclear. Here, using in silico and in vivo analyses, we demonstrate that multiple CCAN units form a spherical shell-like structure in interphase DT40 kinetochores. CENP-T and CENP-N localize to the CCAN shell, whereas the CENP-C cupin domain clusters at the center. Molecular dynamics simulations of CCAN assembly suggest that CENP-C–DNA interactions constrain the orientation of CCAN units, supporting a spherical shell-like organization via CENP-C oligomerization. Super-resolution imaging reveals the spherical shell-like structure at DT40 kinetochores, and CENP-C knockout or expression of a CENP-C DNA binding deficient mutant abolishes the structure, consistent with the simulation-derived model. These findings provide important insights into the spatial organization of functional kinetochores within cells.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S2737427234",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
           "title": "Coherence, transformation, and breakdown in living systems: part I — the common higher-order regulatory architecture (CHORA) hypothesis",
           "authors": "Nicolaides A.",
           "journal": "",
@@ -37515,6 +37704,28 @@
           "cited_by_count": 0,
           "tldr": "Findings support a role for reduced CENP-A–dependent centromere function in chromosome segregation errors and highlight multiple vulnerabilities that may compromise egg quality with advancing maternal age.",
           "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Local Adaptation With Gene Flow Has a Polygenic Basis in a Threatened Coastal Songbird.",
+          "authors": "Clark JD, Lim HC, Olsen BJ, Kovach AI.",
+          "journal": "",
+          "date": "2026-10-18",
+          "abstract": "Species that span heterogenous environments often exhibit local adaptation despite gene flow among populations. In such cases, the maintenance of local adaptation is controlled by several factors, including the strength of selection, migration, assortative mating, and genomic architecture. The song sparrow (<i>Melospiza melodia</i>) is a widespread songbird with diverse subspecies, including the coastally adapted Atlantic song sparrow (<i>M. m. atlantica</i>). Despite extensive gene flow with a generalist subspecies, Atlantic song sparrow populations have been found to maintain their coastally adaptive phenotypes. We produced a new chromosome-level reference assembly for the species and whole-genome data to explore the genomic architecture of divergence with gene flow and the genetic basis of adaptation in this subspecies. Adaptation in the Atlantic song sparrow has a polygenic basis, with loci under divergent selection scattered throughout the genome rather than concentrated in low-recombination linkage blocks. Signatures of fine-scale population structure, limited genomic differentiation, and divergent selection on a small set of genes suggest a role for natural selection in maintaining this subspecies boundary. Our findings highlight the complex interplay among selection, gene flow, and recombination in shaping adaptation with gene flow and provide insights into the genomic architecture of ecological divergence within a widespread, morphologically diverse species.",
+          "url": "https://europepmc.org/article/MED/42898817",
+          "doi": "10.1002/ece3.74506",
+          "pmid": "42898817",
+          "pmcid": "PMC13678279",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13678279?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/ece3.74506",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -41917,7 +42128,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.1126/sciadv.ady2267",
@@ -42151,7 +42363,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.1038/s41467-026-75362-5",
@@ -42231,7 +42444,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.1093/genetics/iyag134",
@@ -42281,7 +42495,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.1126/sciadv.aeg5356",
@@ -42807,7 +43022,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.1038/s41597-026-07645-x",
@@ -42829,7 +43045,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.64898/2026.06.10.731283",
@@ -43395,7 +43612,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "title": "Satellitome analysis of the black soldier fly Hermetia illucens reveals genome organization, interstocks dynamics, and insights into centromeric and telomeric repeat composition",
@@ -43500,7 +43718,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2607323502"
         },
         {
           "id": "10.1007/s11033-026-12112-2",
@@ -90086,39 +90305,39 @@
     }
   },
   "stats": {
-    "total_count": 3403,
-    "new_this_week": 35,
+    "total_count": 3411,
+    "new_this_week": 37,
     "weekly_trend": [
       {
         "week": "2026-W37",
-        "count": 11
-      },
-      {
-        "week": "2026-W38",
         "count": 10
       },
       {
+        "week": "2026-W38",
+        "count": 15
+      },
+      {
         "week": "2026-W39",
-        "count": 44
+        "count": 43
       },
       {
         "week": "2026-W40",
-        "count": 52
+        "count": 49
       },
       {
         "week": "2026-W41",
-        "count": 25
+        "count": 27
       },
       {
         "week": "2026-W42",
-        "count": 27
+        "count": 29
       }
     ],
     "tier_counts": {
-      "1": 501,
+      "1": 502,
       "2": 0,
       "3": 0,
-      "0": 2902
+      "0": 2909
     }
   }
 }
