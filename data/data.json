@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:10:29Z",
+  "generated_at": "2026-10-24T10:28:30Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9452,6 +9452,42 @@
           "tier": 0
         },
         {
+          "id": "10.1093/gbe/evag268",
+          "title": "Haplotype tagging sheds light on speciation between two divergent cryptic species of the brown algae Ectocarpus.",
+          "authors": [
+            "Molinier C",
+            "Reynes L",
+            "Kučka M",
+            "Chan YF",
+            "Coudret J",
+            "Luthringer R",
+            "Haas FB",
+            "Peters AF",
+            "Montecinos AE",
+            "Guillemin ML",
+            "Destombe C",
+            "Coelho SM",
+            "Valero M",
+            "Lipińska AP"
+          ],
+          "journal": "Genome biology and evolution",
+          "date": "2026-10-22",
+          "doi": "10.1093/gbe/evag268",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42913085/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "pdf_url": "https://academic.oup.com/gbe/advance-article-pdf/doi/10.1093/gbe/evag268/72372716/evag268.pdf",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S10195028",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "From plant pangenome assemblies to operational graph references",
           "authors": "D’Agostino N.",
           "journal": "",
@@ -9604,6 +9640,31 @@
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Synchronised developmental partitioning of visual opsins across parental subgenomes in allopolyploid Barbus barbus",
+          "authors": "Zuzana Konvičková, Pau Balart-García, Demian Burguera, Veronika Truhlářová, P. Lepic et al.",
+          "journal": "bioRxiv",
+          "date": "2026-10-16",
+          "abstract": "Hybridisation and whole-genome duplication generate evolutionary novelty by combining and duplicating divergent parental genomes. Yet, how organisms differentially deploy duplicated gene repertoires across development remains poorly understood. The vertebrate visual system provides an excellent model for addressing this question because colour vision depends on the tightly regulated expression of opsin genes, which often undergo pronounced ontogenetic changes. Here, using comparative transcriptomics, we show that the allopolyploid common barbel (Barbus barbus) has evolved coordinated developmental partitioning of duplicated cone opsin genes. During ontogeny, the short-wavelength-sensitive opsins SWS1 and SWS2 switch expression between parental-subgenome ohnologs, while the middle-wavelength-sensitive RH2 switches between tandem paralogs, with all three transitions being synchronised. In contrast, the long-wavelength-sensitive LWS ohnologs from both parental genomes remain co-expressed throughout development. Single-nucleus RNA sequencing further revealed a strongly rod-dominated retina and largely conserved expression of phototransduction genes across recent ohnologs. The retention of all 14 visual opsin genes and their differential developmental deployment in common barbel highlights the value of independently evolved allopolyploid lineages for investigating the evolutionary consequences of genome duplication. More broadly, our findings show how hybridisation and genome duplication can enable divergent expression of parental gene copies, potentially contributing to sensory adaptation over evolutionary timescales.",
+          "url": "https://www.semanticscholar.org/paper/16d0f62687031fb25db85c89d9ccd103f846185b",
+          "doi": "10.64898/2026.10.12.758434",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/16/2026.10.12.758434.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "It is shown that the allopolyploid common barbel (Barbus barbus) has evolved coordinated developmental partitioning of duplicated cone opsin genes, and how hybridisation and genome duplication can enable divergent expression of parental gene copies, potentially contributing to sensory adaptation over evolutionary timescales.",
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -37501,6 +37562,78 @@
       ],
       "papers": [
         {
+          "id": "10.1073/pnas.2616836123",
+          "title": "The revised diploid genome sequence of an individual human: A workflow for near telomere-to-telomere assemblies using only Oxford Nanopore Technologies Simplex-reads",
+          "authors": [
+            "Si Lok",
+            "Timothy N.H. Lau",
+            "Amy H.Y. Tong",
+            "Brett Trost",
+            "Miriam S. Reuter",
+            "Bhooma Thiruvahindrapuram",
+            "Tara Paton",
+            "Jeffrey R. MacDonald",
+            "Lynette Y. S. Lau",
+            "Christian R. Marshall",
+            "J. Craig Venter",
+            "Stephen W. Scherer"
+          ],
+          "journal": "Proceedings of the National Academy of Sciences",
+          "date": "2026-10-23",
+          "doi": "10.1073/pnas.2616836123",
+          "url": "https://openalex.org/W7223368921",
+          "abstract": "The first draft diploid genome assembly (HuRef) of an individual in 2007 was a milestone in genomics. Here, we report HuRef2.0, a revision of HuRef assembled using only Oxford Nanopore Technologies (ONT) Simplex-reads and the hifiasm assembler. Results are close in continuity to the telomere-to-telomere (T2T) assemblies but were assembled from standard DNA samples without using multiple sequencing and mapping technologies, including ultra-long-reads and/or proximity-ligation. Three ONT flowcells (~103× coverage) from fresh blood DNA produced an assembly comprising 26 contigs, with gapless assembly of 23 chromosomes (Chr). Two gaps on ChrY were locally assembled to yield the final T2T-assembly, HuRef2.0, with base accuracy >Q60.34 and 2,393 phase blocks with an NG50 value of 2.36 Mb. Assembly from a single ONT flowcell (~35× coverage) consistently produced an assembly more contiguous than GRCh38.p14, providing a foundation for further optimization and scaling. Assembly quality was assessed by direct chromosome-level alignments to a reference genome, variant calling, and annotation of gene-rich regions at Chr22q11, the extended MHC locus, and at several difficult to assemble regions, including the rRNA gene clusters, the subtelomeric region on Chr4q35, ChrY, and the centromeres. More accurate but shorter Pacific Biosciences HiFi-reads produced less contiguous assemblies than from equivalent coverage of error-corrected ONT reads, indicating the importance of read-length. We compared HuRef2.0 to an assembly of a low-passage EBV-transformed lymphoblastoid cell line derived from the same donor. At least at a 400 kb resolution, we did not observe notable structural differences in the two assemblies.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S125754415",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
+          "id": "10.1126/sciadv.aef6029",
+          "title": "Loss of KAT5-dependent H2A.Z acetylation provokes chromosomal instability in recurrent pregnancy loss.",
+          "authors": [
+            "Bi S",
+            "Chen Y",
+            "Zhang L",
+            "Zhang J",
+            "Wang Y",
+            "Huang B",
+            "Li S",
+            "Huang L",
+            "Wang Y",
+            "Wang H",
+            "Meng R",
+            "Tu Z",
+            "Du L",
+            "Wang H",
+            "Wang Z",
+            "Chen D",
+            "Zhang S",
+            "Wang F"
+          ],
+          "journal": "Science advances",
+          "date": "2026-10-23",
+          "doi": "10.1126/sciadv.aef6029",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42913007/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "openalex_source_id": "S2737427234",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
           "id": "10.1038/s41588-026-02808-3",
           "title": "Near-complete assembly of wild emmer wheat unveils centromere reorganization during polyploid evolution",
           "authors": [
@@ -37529,6 +37662,38 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 1
+        },
+        {
+          "id": "10.1007/s11046-026-01105-1",
+          "title": "A Gap-Free Telomere-to-Telomere Genome Assembly of Talaromyces marneffei Strain B33c Provides Insights into Chromosomal Architecture and Comparative Genomics.",
+          "authors": [
+            "Zhou X",
+            "Zheng Y",
+            "Jiang Z",
+            "Karki S",
+            "Pan K",
+            "Zheng D",
+            "Li X",
+            "Huang L",
+            "Liu G",
+            "Ling J",
+            "Tsui CKM",
+            "Cao C"
+          ],
+          "journal": "Mycopathologia",
+          "date": "2026-10-22",
+          "doi": "10.1007/s11046-026-01105-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42911307/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": false,
+          "oa_status": "closed",
+          "openalex_source_id": "S154926289",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.3390/agronomy16202064",
@@ -42419,7 +42584,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S13880985"
         },
         {
           "id": "10.1038/s41597-026-07833-9",
@@ -42628,7 +42794,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S14311075"
         },
         {
           "title": "Two satellite repeats reveal B chromosome structural diversity in Atractylodes lancea.",
@@ -42652,7 +42819,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S170991295"
         },
         {
           "id": "10.1093/plphys/kiag438",
@@ -42678,7 +42846,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S42294715"
         },
         {
           "id": "10.1016/j.ajhg.2026.05.010",
@@ -42761,7 +42930,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S52395412"
         },
         {
           "id": "10.1111/1755-0998.70176",
@@ -91678,39 +91848,39 @@
     }
   },
   "stats": {
-    "total_count": 3465,
-    "new_this_week": 37,
+    "total_count": 3470,
+    "new_this_week": 32,
     "weekly_trend": [
       {
         "week": "2026-W37",
-        "count": 12
+        "count": 11
       },
       {
         "week": "2026-W38",
-        "count": 19
+        "count": 26
       },
       {
         "week": "2026-W39",
-        "count": 74
+        "count": 67
       },
       {
         "week": "2026-W40",
-        "count": 16
+        "count": 24
       },
       {
         "week": "2026-W41",
-        "count": 28
+        "count": 29
       },
       {
         "week": "2026-W42",
-        "count": 29
+        "count": 24
       }
     ],
     "tier_counts": {
-      "1": 517,
+      "1": 519,
       "2": 0,
       "3": 0,
-      "0": 2948
+      "0": 2951
     }
   }
 }
