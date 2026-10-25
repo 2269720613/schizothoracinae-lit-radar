@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:28:30Z",
+  "generated_at": "2026-10-25T10:55:46Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -33,6 +33,33 @@
           "openalex_source_id": "S2764883586",
           "journal_h_index": null,
           "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "id": "10.1007/s40011-026-01814-z",
+          "title": "Reproductive Dynamics of Himalayan Snowtrouts: Relevance to Conservation and Fisheries Management",
+          "authors": [
+            "Farooq Ahmad Mir",
+            "Navpreet Kaur",
+            "Javaid Iqbal Mir",
+            "Farroq Ahmad Ganaie",
+            "Tariq Ahmad War"
+          ],
+          "journal": "Proceedings of the National Academy of Sciences India Section B Biological Sciences",
+          "date": "2026-10-24",
+          "doi": "10.1007/s40011-026-01814-z",
+          "url": "https://openalex.org/W7223444869",
+          "abstract": "",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210190533",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": false,
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
           "tier": 0
         },
         {
@@ -9446,6 +9473,28 @@
           "track": "B",
           "cited_by_count": 0,
           "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Analysis of genetic diversity and phylogenetic evolution of cattle population in the Ili River Valley region, Xinjiang, based on mtDNA D-loop sequence.",
+          "authors": "Amat G, Kader A, Zhan Z, Tuo Y, Wang Z, Zhang Z, Wen X, Ren Z, Tursun A, Sulayman A, Guo T.",
+          "journal": "",
+          "date": "2026-10-23",
+          "abstract": "This study used mitochondrial DNA (mtDNA) D-loop region sequence polymorphisms as molecular markers to investigate the genetic structure and maternal origin of six cattle breeds in the Ili River Valley region of Xinjiang, China. Blood samples were collected from six cattle breeds in the region, including Xinjiang Brown cattle (n = 30), Kazakh cattle (n = 33), Altay White-headed cattle (n = 33), Chinese Simmental cattle (n = 34), Chinese Holstein cattle (n = 31), and Angus cattle (n = 22), for DNA extraction. Complete mtDNA D-loop region sequences were obtained from 183 individuals. Sequence alignment, correction and SNP screening were implemented to characterize sequence variation and base composition. Genetic diversity parameters and pairwise genetic distances were estimated, and a neighbor-joining (NJ) phylogenetic tree was constructed. The complete sequences of the mtDNA D-loop region in the six cattle breed populations were 910-911 bp. The average contents of A, G, T, and C were 32.76%, 13.83%, 28.79%, and 24.62%, respectively, and the overall AT content was higher than GC content. A total of 147 SNPs were detected, accounting for 16.10% of the total sequence length. In total, 107 haplotypes were identified, of which 92 were classified as Bos taurus and 15 as Bos indicus. The k, Hd, and Pi values were 14.24, 0.99, and 0.02, respectively. The constructed NJ phylogenetic tree revealed two major maternal origins-Bos taurus and Bos indicus-among the six cattle breeds. The six cattle breeds in the Ili River Valley region exhibit rich genetic diversity and two maternal origins, predominantly influenced by Bos taurus. These findings provide a theoretical basis for the conservation and rational use of cattle genetic resources in the region.",
+          "url": "https://europepmc.org/article/MED/42912699",
+          "doi": "10.1371/journal.pone.0359629",
+          "pmid": "42912699",
+          "pmcid": "PMC13693866",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13693866?pdf=render",
+          "full_text_url": "https://doi.org/10.1371/journal.pone.0359629",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -37562,6 +37611,50 @@
       ],
       "papers": [
         {
+          "title": "Genome Aging in Women: Hematopoietic Loss of X Chromosome as An Exemplar.",
+          "authors": "Guo X, Dai X.",
+          "journal": "",
+          "date": "2026-11-01",
+          "abstract": "Genome aging refers to age-related acquisition and expansion of de novo mutations in somatic cells, and is now increasingly viewed as a central driver of organismal aging. Loss of X chromosome (LOX), the state in which one X chromosome (ChrX) is missing, represents the most common genetically inferred type of acquired mutation in women. Recent technological advancements, along with the growing availability of large-scale cohorts for association studies, have provided powerful new insights into this phenomenon. The frequency and clone size of LOX increase significantly with age: with over 10% of women aged 55 years or older showing detectable LOX in blood. LOX preferentially affects the inactivated ChrX derived from either parent, or in some cases, affects the ChrX from one specific parent. Besides aging, the acquisition and expansion of LOX are shaped by factors related to ChrX itself, genome-wide inherited and acquired variants, and lifestyle and environmental stressors. Due to the critical biological roles of ChrX, even in its inactive state, LOX impairs cellular functions and is strongly linked to hematological malignancies and a range of benign diseases. Understanding the mechanisms driving the causes and consequences of LOX may expand the sex-biased genomic architecture of aging and uncover strategies for disease prevention in women. In this review, by integrating the most recent progress in LOX studies with unique biology of ChrX and perspectives from aneuploidy, we provide a synthesized and updated understanding of the rise, expansion and consequences of blood LOX, while also posing key questions for future research.",
+          "url": "https://europepmc.org/article/MED/42904520",
+          "doi": "10.1111/acel.70778",
+          "pmid": "42904520",
+          "pmcid": "PMC13685063",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13685063?pdf=render",
+          "full_text_url": "https://doi.org/10.1111/acel.70778",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "The fluorescence patterns of antinuclear antibodies: morphological characteristics, immunological correlations and clinical significance",
+          "authors": "Liu Y, Han X, Shi X.",
+          "journal": "",
+          "date": "2026-10-24",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13687947",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13687947/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1073/pnas.2616836123",
           "title": "The revised diploid genome sequence of an individual human: A workflow for near telomere-to-telomere assemblies using only Oxford Nanopore Technologies Simplex-reads",
           "authors": [
@@ -37634,6 +37727,50 @@
           "tier": 1
         },
         {
+          "title": "Loss of KAT5-dependent H2A.Z acetylation provokes chromosomal instability in recurrent pregnancy loss.",
+          "authors": "Bi S, Chen Y, Zhang L, Zhang J, Wang Y, Huang B, Li S, Huang L, Wang Y, Wang H, Meng R, Tu Z, Du L, Wang H, Wang Z, Chen D, Zhang S, Wang F.",
+          "journal": "",
+          "date": "2026-10-23",
+          "abstract": "Placenta defects are one of the major causes of miscarriages, yet the underlying mechanisms remain poorly understood. We demonstrate that trophoblast-specific depletion of the acetyltransferase <i>Kat5</i>, or introduction of acetylation-defective mutants <i>Kat5-Q377E G380E</i> and <i>Kat5-Y47A</i>, induces severe chromosomal instability (CIN) during trophoblast cells division, leading to embryonic lethality. Moreover, mutation of a key lysine acetyltransferase 5 (KAT5) substrate, H2A.Z, via the introduction of <i>H2az1-K5R K8R K12R K14R</i> (which prevents H2A.Z acetylation), phenocopies the effects of KAT5 loss. Integrated RNA sequencing and CUT&Tag in mouse trophoblast stem cells reveal that KAT5, through H2A.Z acetylation, regulates transcription of key mitotic genes (<i>Aurka</i>, <i>Aurkb</i>, and <i>Cenpa</i>). We extend our finding to human trophoblast stem cells, demonstrating a conserved role for KAT5 in preventing CIN. Clinical analysis of placental villi from recurrent pregnancy loss patients with copy number variations revealed reduced expression of KAT5 and acetylated H2A.Z. This study demonstrates that the conserved KAT5-H2A.Z acetylation pathway safeguards chromosomal stability in trophoblast cells, supporting placenta development and successful pregnancy.",
+          "url": "https://europepmc.org/article/MED/42913007",
+          "doi": "10.1126/sciadv.aef6029",
+          "pmid": "42913007",
+          "pmcid": "PMC13693675",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13693675?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aef6029",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A noncanonical meiotic cohesin complex associates with specific MCM complexes to promote cohesion establishment and homolog bias.",
+          "authors": "Ma L, Jin Q, Hu D, Lin X, Fan Z, Yan R.",
+          "journal": "",
+          "date": "2026-10-23",
+          "abstract": "A meiosis-specific cohesin complex is essential for the segregation of homologous chromosomes and sister chromatids during meiosis, yet its composition and mechanism in <i>Drosophila</i> remain elusive. Here, we demonstrate that SOLO directly interacts with SUNN, SSEP, and SMC1 and that these interactions are conserved between <i>Drosophila melanogaster</i> and <i>Zeugodacus cucurbitae</i>, a Tephritidae species within Diptera. SOLO associates with SMC1 via specific conserved residues within its highly conserved carboxyl-terminal domain. Furthermore, SOLO directly interacts with the MCM4 and MCM6 subunits of the MCM complex and with MMS22L to establish cohesion; consequently, postreplicative expression of SOLO results in a complete function loss. SOLO also interacts with the MEI-217 and MEI-218 subunits of the meiosis-specific minichromosome maintenance complex to promote homolog bias during meiosis. We propose that in Diptera, an evolutionarily diverged meiotic cohesin complex, composed of SOLO, SUNN, SSEP, SMC1, and SMC3, interacts with various complexes to fulfill its diverse meiotic functions.",
+          "url": "https://europepmc.org/article/MED/42912988",
+          "doi": "10.1126/sciadv.aej1008",
+          "pmid": "42912988",
+          "pmcid": "PMC13693663",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13693663?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aej1008",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1038/s41588-026-02808-3",
           "title": "Near-complete assembly of wild emmer wheat unveils centromere reorganization during polyploid evolution",
           "authors": [
@@ -37690,6 +37827,51 @@
           "is_oa": false,
           "oa_status": "closed",
           "openalex_source_id": "S154926289",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Near-complete assembly of wild emmer wheat unveils centromere reorganization during polyploid evolution.",
+          "authors": "Yi C, Liu Q, Shen L, Zhang J, Zhu C, Wang T, Han F, Liu Y.",
+          "journal": "",
+          "date": "2026-10-22",
+          "abstract": "Wild emmer wheat (Triticum turgidum ssp. dicoccoides, BBAA), the wild progenitor of cultivated tetraploid and hexaploid wheats, provides an important reference for investigating centromere reorganization during polyploidization and domestication. Here we generated a near-complete genome assembly of wild emmer wheat, including centromeric regions for all 14 centromeres. Comparative analyses with cultivated tetraploid and hexaploid wheats revealed extensive variation in centromere-associated sequences and centromere-proximal structure, as well as distinct subgenome-associated patterns in the A and B subgenomes. The A subgenome was characterized by positional shifts and sequence turnover of CRW-rich centromere-derived blocks, whereas the B subgenome showed reduced CentT566 satellite abundance accompanied by localized retention or expansion on specific chromosomes. These results provide a high-resolution tetraploid wheat reference and reveal subgenome-associated patterns of centromere remodeling during wheat polyploid evolution.",
+          "url": "https://europepmc.org/article/MED/42918899",
+          "doi": "10.1038/s41588-026-02808-3",
+          "pmid": "42918899",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1038/s41588-026-02808-3",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Gap‐Free Cannabis sativa Assemblies Reveal Post‐Polyploid Genome Remodelling and Refine the Evolution of Cannabinoid Synthase Genes",
+          "authors": "Zhang J, Qin C, Li Z, Zhao L, Biswas A, Liu T, Luan M, Li L, Li D, Yan J.",
+          "journal": "",
+          "date": "2026-10-22",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13691442",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13691442/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -37802,6 +37984,50 @@
           "is_oa": true,
           "oa_status": "hybrid",
           "openalex_source_id": "S98085912",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Terahertz Modulation of Biomolecular Dynamics: Physical Mechanisms, Biological Implications, and Future Challenges.",
+          "authors": "Li X, Chen Z, Ru K, Yang W, Wang X, Huang L, Ping B, Pi M, Zhu C, Ren T, Dai J, Tian Y, Qian A.",
+          "journal": "",
+          "date": "2026-10-21",
+          "abstract": "With the rapid expansion of terahertz (THz) technologies across communications, imaging, sensing, and biomedicine, defining their biological effects, safety boundaries, and controlled intervention has become a critical scientific priority for their responsible deployment. Although diverse biological responses have been observed at different levels of biological organization, the findings are highly dependent on exposure parameters and biological models. Moreover, how molecular perturbations propagate across scales to produce higher-order biological effects remains poorly understood. Because biomacromolecules and their hydration environments constitute the primary interface which THz radiation interacts with biological systems, elucidating THz bioeffects at the molecular scale is essential for mechanistic understanding. Here, we systematically review recent advances in THz interactions with key biological targets, including proteins, nucleic acids, ion channels, and biological membranes, and examine how local molecular perturbations translate into higher-level phenotypes. On this basis, we critically assess the major challenges facing the field and propose an integrative framework for mechanistic validation. By consolidating dispersed findings and emphasizing methodological standardization, this review provides a coherent conceptual basis for interpreting THz bioeffects and guiding their biomedical translation.",
+          "url": "https://europepmc.org/article/MED/42909246",
+          "doi": "10.34133/research.1432",
+          "pmid": "42909246",
+          "pmcid": "PMC13683953",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13683953?pdf=render",
+          "full_text_url": "https://doi.org/10.34133/research.1432",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "CCAN forms the spherical shell-like structure in interphase kinetochores.",
+          "authors": "Sakai Y, Ariyoshi M, Hirano Y, Mahana Y, Suzuki A, Hirota T, Tachikawa M, Fukagawa T.",
+          "journal": "",
+          "date": "2026-10-21",
+          "abstract": "The kinetochore is an essential structure for the faithful chromosome segregation during mitosis. The 16-protein complex known as the constitutive centromere-associated network (CCAN) localizes the centromere throughout the cell cycle and forms the basis of the kinetochore. Although cryo-electron microscopy has provided a structural model of an individual CCAN unit, how multiple CCAN units are organized within cells remains unclear. Here, using in silico and in vivo analyses, we demonstrate that multiple CCAN units form a spherical shell-like structure in interphase DT40 kinetochores. CENP-T and CENP-N localize to the CCAN shell, whereas the CENP-C cupin domain clusters at the center. Molecular dynamics simulations of CCAN assembly suggest that CENP-C-DNA interactions constrain the orientation of CCAN units, supporting a spherical shell-like organization via CENP-C oligomerization. Super-resolution imaging reveals the spherical shell-like structure at DT40 kinetochores, and CENP-C knockout or expression of a CENP-C DNA binding deficient mutant abolishes the structure, consistent with the simulation-derived model. These findings provide important insights into the spatial organization of functional kinetochores within cells.",
+          "url": "https://europepmc.org/article/MED/42905837",
+          "doi": "10.1126/sciadv.aef4365",
+          "pmid": "42905837",
+          "pmcid": "PMC13685990",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13685990?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aef4365",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -42952,7 +43178,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S64961995"
         },
         {
           "id": "10.1016/j.tig.2026.01.015",
@@ -43053,7 +43280,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S64961995"
         },
         {
           "title": "L26/P-285 Impact of anti-centromere antibody on human oocytes: spindle disruption leads to multi-pronuclear formation and developmental failure",
@@ -43077,7 +43305,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S127900037"
         },
         {
           "id": "10.1186/s13059-026-04175-y",
@@ -44542,7 +44771,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2597028195"
         },
         {
           "title": "A haplotype-resolved nutmeg genome reveals XY sex chromosome evolution and enables molecular sexing",
@@ -80283,6 +80513,50 @@
       ],
       "papers": [
         {
+          "title": "Genomic differentiation and conservation relevance of isolated marginal Primula farinosa populations in Central-Eastern Europe",
+          "authors": "Babar N, Laczkó L, Cservenka J, Póliska S, Shodiev N, Mészáros A, Molnár V. A, Sramkó G.",
+          "journal": "",
+          "date": "2026-10-24",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13690800",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13690800/?tool=EBI",
+          "source": "europepmc",
+          "track": "D",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Rapid turnover of sex chromosomes is associated with speciation in Neotropical armored catfish Harttia (Siluriformes, Loricariidae).",
+          "authors": "Sassi FMC, de Souza FHS, Perez MF, Shams F, Ezaz T, Deon GA, Liehr T, Xu L, Cioffi MB.",
+          "journal": "",
+          "date": "2026-10-21",
+          "abstract": "<h4>Background</h4>The Neotropical armored catfish genus Harttia is an exceptional model for studying sex chromosome evolution, as it harbors the highest diversity of multiple sex chromosome systems known among fishes. However, the evolutionary history of these systems and their contribution to lineage diversification remain unresolved. We generated genome-wide DArTseq data for 17 Harttia species to investigate the origins of sex chromosome turnover, reconstruct phylogenetic and biogeographic history, identify sex-linked markers, and test whether multiple sex chromosomes are associated with increased speciation.<h4>Results</h4>Genome-wide SNP analyses resolved three major Harttia clades and dated their diversification to the last 10 million years, coinciding with major Neotropical drainage rearrangements. We identified 443 candidate sex-linked markers that suggest independent origins for the X₁X₂Y and XY₁Y₂ multiple sex chromosome systems. Ancestral chromosome-number reconstruction supported an ancestral karyotype of 2n = 58, while integration of candidate sex-linked markers with previous cytogenetic evidence is consistent with an ancestral homomorphic XY system followed by independent chromosome rearrangements generating multiple sex chromosomes in distinct lineages. State-dependent diversification analyses revealed significantly higher speciation rates in clades carrying multiple sex chromosomes than in those with simple systems, suggesting a close association between rapid sex chromosome turnover and lineage diversification.<h4>Conclusions</h4>Our results provide the first genome-wide evolutionary framework for Harttia, suggesting that multiple sex chromosome systems may be associated with elevated diversification in some Harttia lineages, while highlighting the need for broader genomic and taxonomic sampling to test this association. These findings identify Harttia as a powerful model for investigating how sex chromosome turnover, chromosome evolution, and landscape history jointly shape biodiversity.",
+          "url": "https://europepmc.org/article/MED/42907846",
+          "doi": "10.1186/s13062-026-00994-y",
+          "pmid": "42907846",
+          "pmcid": "PMC13685301",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13685301?pdf=render",
+          "full_text_url": "https://doi.org/10.1186/s13062-026-00994-y",
+          "source": "europepmc",
+          "track": "D",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Twelve voices from China: On publishing, community, and how the field of genomics is developing.",
           "authors": "Jian Yang, Yong Zhang, Si-Yan Liu, Yan Zheng, Gang-Qiao Zhou et al.",
           "journal": "Cell genomics",
@@ -88670,6 +88944,50 @@
           "tier": 0
         },
         {
+          "title": "DMRT1 is required at two steps of ovarian differentiation in rabbits.",
+          "authors": "Dujardin E, Poulat F, Aura IB, Dewaele A, André M, McKey J, Le Gras S, Frambourg A, Jouneau L, Lupiáñez DG, Mandon-Pépin B, Pailhoux E.",
+          "journal": "",
+          "date": "2026-10-21",
+          "abstract": "The transcription factor Doublesex and Mab-3 Related Transcription Factor 1 (DMRT1) is essential for testis differentiation and male fertility, but less is known about its potential involvement in ovarian differentiation. In mice, <i>Dmrt1</i><sup>-/-</sup> females are fertile, although they show a reduction of <i>Stra8</i> expression. Using our <i>DMRT1</i> mutant rabbit model, we analyzed ovarian differentiation when <i>DMRT1</i> expression is abolished. First, we observed that during early gonadal development, <i>DMRT1</i><sup>-/-</sup> gonads display a specific transcriptome different from control ovaries and control testes. Second, we assessed the infertility phenotype of mutant females. DMRT1 is highly expressed in germ cells until meiosis initiation, and its disruption leads to a down-regulation of key genes involved in the meiotic process. Chromatin immunoprecipitation sequencing data highlighted that DMRT1 can bind these genes in the rabbit ovary. Our study using the rabbit model shows that in addition to its role in testicular differentiation, DMRT1 has two important functions in ovarian differentiation: an initial involvement in the differentiation of somatic cells and a pivotal role in the differentiation of germ cells. Our data suggested that DMRT1 could be considered in human health as a gene necessary for female fertility.",
+          "url": "https://europepmc.org/article/MED/42905833",
+          "doi": "10.1126/sciadv.aeh1087",
+          "pmid": "42905833",
+          "pmcid": "PMC13685955",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13685955?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aeh1087",
+          "source": "europepmc",
+          "track": "E",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genetic Bottleneck and Panmixia Following the Collapse of a Great Lakes Lake Whitefish Fishery.",
+          "authors": "Euclide PT, Schmitt JD, Slagle ZJ, Homola JJ, Cook HA, Wilkins PD, MacDougall TM, Koenigbauer ST, Kraus RT.",
+          "journal": "",
+          "date": "2026-10-20",
+          "abstract": "Lake whitefish <i>Coregonus clupeaformis</i> abundance has declined throughout most of the Laurentian Great Lakes in North America for two decades. Current management strategies in Lake Erie assume that there is a single stock of lake whitefish that spawns in the West Basin. There is documented lake whitefish spawning activity throughout the lake, leading to questions about locally adapted genetic stocks. Past research on lake whitefish genetic structure in Lake Erie has supported the single-stock hypothesis, but these studies used only neutral genetic markers or contained a limited number of samples that were collected during the spawning season when stocks would be spatially isolated. Using a GT-seq panel, we evaluate the genetic structure of lake whitefish collected from spawning shoals in the West, Central, and East basins of Lake Erie and compare these populations to lake whitefish from Lake Huron. We then investigate evidence of local adaptation and conduct demographic reconstruction using whole-genome sequencing. Our goals were to conclusively quantify intra-lake genetic structure in Lake Erie and determine whether spawning aggregations possess putatively adaptive variants that could be used for genetic stock identification at a sub-lake level. Our analysis supported the single-stock hypothesis in Lake Erie. However, Lake Erie stocks were distinct from neighboring Lake Huron. Whole-genome analysis did not identify any strong evidence of adaptive loci differentiating stocks. Inference of historic effective population size suggests that declines in lake whitefish populations may have caused a genetic bottleneck. Combined, these results indicate that lake whitefish in Lake Erie may have experienced an Allee Effect after population declines, resulting in a loss of population structure and genetic diversity as spawning shoals were recolonized from a common source.",
+          "url": "https://europepmc.org/article/MED/42903575",
+          "doi": "10.1111/eva.70337",
+          "pmid": "42903575",
+          "pmcid": "PMC13681039",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13681039?pdf=render",
+          "full_text_url": "https://doi.org/10.1111/eva.70337",
+          "source": "europepmc",
+          "track": "E",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "title": "Interpretable machine learning reveals time-dependent cellular injury in live hybrid sturgeon during low-temperature waterless transport",
           "authors": "Bai-Tao Zhang, Jia-Hao Yu, Rui-Qin Ma, Chuan Liu, Xiao-Shuan Zhang",
           "journal": "Aquaculture International",
@@ -91848,20 +92166,20 @@
     }
   },
   "stats": {
-    "total_count": 3470,
-    "new_this_week": 32,
+    "total_count": 3484,
+    "new_this_week": 46,
     "weekly_trend": [
       {
         "week": "2026-W37",
-        "count": 11
+        "count": 10
       },
       {
         "week": "2026-W38",
-        "count": 26
+        "count": 31
       },
       {
         "week": "2026-W39",
-        "count": 67
+        "count": 63
       },
       {
         "week": "2026-W40",
@@ -91869,18 +92187,18 @@
       },
       {
         "week": "2026-W41",
-        "count": 29
+        "count": 28
       },
       {
         "week": "2026-W42",
-        "count": 24
+        "count": 37
       }
     ],
     "tier_counts": {
       "1": 519,
       "2": 0,
       "3": 0,
-      "0": 2951
+      "0": 2965
     }
   }
 }
