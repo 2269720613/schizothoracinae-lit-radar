@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:45:09Z",
+  "generated_at": "2026-10-28T12:18:15Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9638,6 +9638,28 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13686814?pdf=render",
           "full_text_url": "https://doi.org/10.1002/ece3.74383",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Schistosoma haematobium infection among school age children in two peri-urban areas of Lusaka, Zambia: A cross-sectional study.",
+          "authors": "Mutengo MM, Mwansa J, Chisanga K, Zulu E, Mulunda NR, Muchinga J, Rodríguez E, Sánchez S, Castro L, Perteguer MJ, Carmena D, Sotillo J.",
+          "journal": "",
+          "date": "2026-10-21",
+          "abstract": "<h4>Background</h4>Schistosomiasis is one of the most prevalent neglected tropical diseases in sub-Saharan Africa, causing substantial morbidity and millions of disability-adjusted life years (DALYs). Although the WHO aims to eliminate schistosomiasis as a public health problem in several countries by 2030, current epidemiological data on schistosomiasis in Zambia are insufficient to adequately characterize transmission patterns, identify priority intervention areas, and inform the planning and evaluation of control programmes.<h4>Methods</h4>We assessed the prevalence of urogenital schistosomiasis among school-age children in two peri-urban districts of Lusaka (Chongwe and Kafue). A total of 208 participants were enrolled, and infection status was determined using urine filtration microscopy, ELISA, and quantitative PCR (qPCR).<h4>Results</h4>Urogenital schistosomiasis prevalence was significantly higher in Chongwe than in Kafue, as determined by both microscopy and qPCR. By microscopy, 34 of 48 positive cases (70.8%) were from Chongwe and 14 (29.2%) from Kafue (χ² = 4.82; P < 0.05). Similarly, qPCR revealed a prevalence of 73.9% in Chongwe and 27.84% in Kafue (χ² = 14.31; P < 0.01). No significant association was observed between sex and infection status. However, infection was significantly associated with age across the study population.<h4>Conclusions</h4>Our findings demonstrate that urogenital schistosomiasis remains highly prevalent in the peri-urban districts of Chongwe and Kafue in Lusaka Province, Zambia, highlighting ongoing transmission and the need for strengthened surveillance and control efforts. These results provide updated information on the epidemiological situation of urogenital schistosomiasis in Zambia and will support planning and implementation within the WHO NTD agenda.",
+          "url": "https://europepmc.org/article/MED/42905868",
+          "doi": "10.1371/journal.pntd.0014013",
+          "pmid": "42905868",
+          "pmcid": "PMC13705608",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13705608?pdf=render",
+          "full_text_url": "https://doi.org/10.1371/journal.pntd.0014013",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -37721,6 +37743,102 @@
           "tier": 0
         },
         {
+          "id": "10.1007/s10577-026-09822-5",
+          "title": "Satellite DNA content and distribution along the mitotic and meiotic chromosomes of Coleonyx mitratus (Eublepharidae, Gekkota).",
+          "authors": [
+            "Tishakova KV",
+            "Lisachov AP",
+            "Prokopov DY",
+            "Lisachova LS",
+            "Borodin PM",
+            "Trifonov VA"
+          ],
+          "journal": "Chromosome research : an international journal on the molecular, supramolecular and evolutionary aspects of chromosome biology",
+          "date": "2026-10-28",
+          "doi": "10.1007/s10577-026-09822-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42946935/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": false,
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1093/g3journal/jkag289",
+          "title": "A near-complete Landrace pig (Sus scrofa) genome resolves centromeres and telomeres and highlights telomere repeat structures in different pig breeds.",
+          "authors": [
+            "Grove H",
+            "Stenløkk K",
+            "Lien S",
+            "Gjuvsland A",
+            "Árnyasi M",
+            "van Son M",
+            "Kent M"
+          ],
+          "journal": "G3 (Bethesda, Md.)",
+          "date": "2026-10-27",
+          "doi": "10.1093/g3journal/jkag289",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42937047/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A near-complete Landrace pig (Sus scrofa) genome resolves centromeres and telomeres and highlights telomere repeat structures in different pig breeds.",
+          "authors": "Grove H, Stenløkk K, Lien S, Gjuvsland A, Árnyasi M, van Son M, Kent M.",
+          "journal": "",
+          "date": "2026-10-27",
+          "abstract": "The Duroc-derived reference genome Sscrofa11.1 has provided a critical foundation for pig genomics, supporting accurate variant detection and comparative analyses, but does not capture breed-specific variation. Here, we present a near-complete genome assembly for the Landrace pig (Landrace_v1, GCA_963921485.1), spanning all 20 chromosomes and totaling 2.6 Gb, including 176 Mb of sequence absent from Sscrofa11.1. Comparative analyses with recently published high-quality pig genomes reveals conserved centromere organization across breeds, accompanied by substantial variation in repeat composition and length, and identifies a pig-specific pattern of telomere variant repeats across eight breeds. The improved resolution of repetitive regions in Landrace_v1 enables more complete reconstruction of complex gene families, including olfactory receptors, and uncovers structural variation at the KIT proto-oncogene receptor tyrosine kinase locus absent from the Duroc reference. Together, these findings highlight limitations of single-reference genomes and demonstrate the value of breed-specific assemblies for capturing genomic diversity and improving downstream analyses.",
+          "url": "https://europepmc.org/article/MED/42937047",
+          "doi": "10.1093/g3journal/jkag289",
+          "pmid": "42937047",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1093/g3journal/jkag289",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Mixed Autoimmune Hemolytic Anemia as the Initial Manifestation of Systemic Lupus Erythematosus: A Case Report",
+          "authors": "Iqbal T, Chivero C, Farhana S.",
+          "journal": "",
+          "date": "2026-10-27",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13696547",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13696547/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1101/gr.281858.126",
           "title": "Chromosome-scale genome assembly and annotation of Octodon degus.",
           "authors": [
@@ -37771,6 +37889,28 @@
           "abstract": "",
           "track": "C",
           "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Slender lobes is a spindle matrix protein regulated by spindle envelope kinase Greatwall in oocytes.",
+          "authors": "Kaade R, Peat E, Repton C, Niziol J, Mason CS, Yap LE, Pavlova G, Ohkura H.",
+          "journal": "",
+          "date": "2026-10-26",
+          "abstract": "Chromosome segregation is mediated by microtubule-based machinery, the spindle. Microtubule-independent structures, often called the spindle matrix or the spindle envelope, have been reported to embed or surround the spindle, respectively. The concepts have been around for several decades, but they still remain enigmatic. Here, we show the spindle matrix and the spindle envelope form one functional unit crucial for spindle structure and function in oocytes. We found that in Drosophila oocytes, Slender lobes (Sle) protein is an integral component of the spindle matrix, which has a composition different from that in mitotic cells. We further found that Greatwall (Gwl) kinase localizes to the spindle envelope tightly surrounding the Sle spindle matrix in oocytes. Gwl promotes assembly of the Sle spindle matrix, which in turn determines the location of the Gwl spindle envelope. sle silencing in oocytes resulted in spindle abnormalities. Cosilencing experiments revealed that Sle buffers the impacts of compromised kinetochore-microtubule interaction on centromere bi-orientation in meiotic metaphase I.",
+          "url": "https://europepmc.org/article/MED/42929796",
+          "doi": "10.1083/jcb.202606020",
+          "pmid": "42929796",
+          "pmcid": "PMC13701656",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13701656?pdf=render",
+          "full_text_url": "https://doi.org/10.1083/jcb.202606020",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -38036,6 +38176,28 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13691442/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "The average individual genome: a survey of nearly 1 million whole-genome sequences.",
+          "authors": "Wright HIW, Beaumont RN, Fasham J, Leslie JS, Chundru VK, Hall TS, Cannon SJ, Pagnamenta AT, Baple EL, Wood AR, Murray A, Jackson L, Weedon MN, Patel K, Hawkes G, Wright CF.",
+          "journal": "",
+          "date": "2026-10-22",
+          "abstract": "<h4>Background</h4>As whole-genome sequencing (WGS) is increasingly used in clinical and public health contexts, clearer expectations regarding the amount of variation present in the \"average\" human genome are required to contextualise findings.<h4>Methods</h4>We analysed WGS data from two large population cohorts: 490,541 individuals in UK Biobank (UKB) and 414,830 individuals in All of Us. Following variant and genotype QC, we aimed to assess the range of neutral and disease-associated variation across six genetically-inferred ancestry groups.<h4>Results</h4>The \"average\" genome contains ~4.3-5.3 million variants, of which ~1.5% are rare (within-cohort allele frequency < 1%). This includes ~67 autosomal deletions/duplications > 10,000 basepairs per genome, and rare autosomal copy number variants > 1 Mb present in ~ 1 in 41 (2.5%) individuals. On average, ~32-42% of variants per person are homozygous and individuals have ~4 unique runs of homozygosity > 1.5 Mb, with marked variation observed across ancestry groups. Of the ~21- 26,000 SNVs/indels per person in coding exons of MANE Select transcripts, ~48% are predicted to alter the protein, of which ~0.8% are high-confidence loss-of-function and ~0.1% have REVEL score > 0.7 suggestive of pathogenicity. Depending upon parental age, the average genome contains ~63 de novo variants, of which ~75-80% are paternal in origin. Considering only rare variants in GenCC-curated monogenic disease-associated genes, the average genome contains ~1-3 ClinVar pathogenic or likely pathogenic variants, ~2-5 high-confidence loss-of-function variants, and ~50 ClinVar variants of uncertain significance. Most ClinVar pathogenic variants are heterozygous in recessive disease genes, consistent with carrier status, and have multiple ClinVar submitters. Finally, applying polygenic scores (PGS) for 28 common diseases within UKB, we estimate that the average person is in the top 10% for ~3 conditions, and around 1 in 5 people are in the top 1% for at least one PGS.<h4>Conclusions</h4>The ubiquity of genetic variation in individuals has important implications for policy-makers considering genomic screening and clinicians counselling families. The continued underrepresentation of many global populations reflects a broader limitation of contemporary genomic research, underscoring the need for more inclusive datasets worldwide in order to enable equitable precision medicine.",
+          "url": "https://europepmc.org/article/MED/42907903",
+          "doi": "10.1186/s13073-026-01792-x",
+          "pmid": "42907903",
+          "pmcid": "PMC13689340",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13689340?pdf=render",
+          "full_text_url": "https://doi.org/10.1186/s13073-026-01792-x",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -39399,6 +39561,27 @@
           "tldr": "It is shown that oxidative DNA damage destabilizes centromeres and promotes chromosome instability and oxidative stress as a direct driver of centromere fragility and chromosome instability in pre-tumorigenic cells.",
           "oa_status": "gold",
           "openalex_source_id": "S169236886",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
+          "id": "10.1371/journal.pgen.1012333",
+          "title": "The peculiar properties of pericentromeric regions of genomes and their influence on sex chromosome evolution.",
+          "authors": [
+            "Charlesworth D"
+          ],
+          "journal": "PLoS genetics",
+          "date": "2026-10-01",
+          "doi": "10.1371/journal.pgen.1012333",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42945196/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "openalex_source_id": "S103870658",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -80750,6 +80933,29 @@
           "tier": 0
         },
         {
+          "title": "Sources and sinks: Geoclimatic dynamics shaped the assembly of endemic fauna in the world's Third Pole.",
+          "authors": "Jiang D, Li ML, Ren JL, Li RH, Lyu ZT, Klaus S, Jia RW, Xue T, Li JT.",
+          "journal": "",
+          "date": "2026-10-26",
+          "abstract": "The Qinghai-Tibet Plateau (QTP), a biodiversity hotspot shaped by tectonic and climatic forces, has seen significant progress in understanding its floristic origins. However, a comprehensive, multitaxon perspective on how its terrestrial fauna assembled remains lacking. Here we integrate time-calibrated phylogenies of over 20,000 species from five major groups (invertebrates, amphibians, reptiles, birds, and mammals), to reconstruct the evolutionary history of 527 terrestrial animal species endemic to the QTP. Our finding reveals that the QTP has functioned both as a center of in situ diversification and as a \"biogeographic sink\" that receives species from surrounding regions, however, with pronounced subregional differentiation: the Hengduan Mountains acted primarily as a diversification source, while the Himalaya and the Plateau Platform acted as sinks, accumulating lineages from adjacent regions. The Eocene-Oligocene climatic transition, rather than late Neogene uplift, initiated sustained faunal diversification and biotic exchange. Across subregions, distinct uplift histories and monsoon regimes drove asynchronous evolutionary trajectories, showing that even geographically adjacent regions can exhibit distinct accumulation patterns of lineages. Notably, integrating our faunal evidence with recent floristic assembly data reveals a consistent \"plants first, animals later\" pattern across the QTP and its subregions, suggesting that early-arriving plant lineages created ecological niches that facilitated subsequent faunal colonization and diversification. This framework advances our understanding of how mountain biotas assemble over time, with implications extending far beyond the QTP.",
+          "url": "https://europepmc.org/article/MED/42932642",
+          "doi": "10.1073/pnas.2602323123",
+          "pmid": "42932642",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1073/pnas.2602323123",
+          "source": "europepmc",
+          "track": "D",
+          "cited_by_count": 0,
+          "oa_status": "hybrid",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Genomic differentiation and conservation relevance of isolated marginal Primula farinosa populations in Central-Eastern Europe",
           "authors": "Babar N, Laczkó L, Cservenka J, Póliska S, Shodiev N, Mészáros A, Molnár V. A, Sramkó G.",
           "journal": "",
@@ -93931,39 +94137,39 @@
     }
   },
   "stats": {
-    "total_count": 3550,
-    "new_this_week": 44,
+    "total_count": 3559,
+    "new_this_week": 48,
     "weekly_trend": [
       {
         "week": "2026-W38",
-        "count": 11
+        "count": 10
       },
       {
         "week": "2026-W39",
-        "count": 42
+        "count": 47
       },
       {
         "week": "2026-W40",
-        "count": 59
+        "count": 58
       },
       {
         "week": "2026-W41",
-        "count": 31
+        "count": 27
       },
       {
         "week": "2026-W42",
-        "count": 33
+        "count": 35
       },
       {
         "week": "2026-W43",
-        "count": 33
+        "count": 36
       }
     ],
     "tier_counts": {
-      "1": 535,
+      "1": 536,
       "2": 0,
       "3": 0,
-      "0": 3015
+      "0": 3023
     }
   }
 }
