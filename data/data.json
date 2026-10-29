@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:18:15Z",
+  "generated_at": "2026-10-29T12:27:49Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -37762,6 +37762,35 @@
           "source": "PubMed",
           "is_oa": false,
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1186/s40659-026-00735-5",
+          "title": "Structure-guided discovery of chemical probes targeting CDCA7-mediated DNA recognition",
+          "authors": [
+            "Chunyi Liu",
+            "Zihan Zhao",
+            "Chen Yang",
+            "Gaixiu Zheng",
+            "Rongjing He",
+            "Zhongyao Xiao",
+            "Zhengzhou Ying"
+          ],
+          "journal": "Biological Research",
+          "date": "2026-10-28",
+          "doi": "10.1186/s40659-026-00735-5",
+          "url": "https://openalex.org/W7224121715",
+          "abstract": "Abstract Background Maintenance of DNA methylation is essential for genome stability and epigenetic inheritance. Although the enzymatic machinery responsible for DNA methylation maintenance has been extensively characterized, whether regulatory proteins governing this process can be chemically modulated remains largely unexplored. CDCA7 is a hemi-methylated DNA reader that functions within the ZBTB24–CDCA7–HELLS pathway to promote heterochromatic DNA methylation maintenance, and its dysfunction causes Immunodeficiency, Centromeric instability and Facial anomalies (ICF) syndrome. Here, we sought to identify the first chemical probes targeting CDCA7-mediated hemi-methylated DNA recognition. Results Using structure-guided virtual screening followed by biochemical and cellular validation, we identified two structurally distinct compounds that selectively interfere with CDCA7 binding to hemi-methylated DNA while exhibiting minimal activity toward the closely related paralog CDCA7L. These compounds disrupted CDCA7–DNA interactions in vitro, impaired antibody class switch recombination in B cells, and induced hypomethylation of pericentromeric satellite repeats, thereby partially recapitulating key molecular and cellular phenotypes associated with CDCA7 deficiency. Conclusion Our findings establish CDCA7-mediated DNA recognition as a chemically tractable biological process and provide the first chemical probes for investigating the biological functions of the ZBTB24–CDCA7–HELLS pathway and non-canonical DNA methylation maintenance.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S186646444",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -94137,39 +94166,39 @@
     }
   },
   "stats": {
-    "total_count": 3559,
-    "new_this_week": 48,
+    "total_count": 3560,
+    "new_this_week": 37,
     "weekly_trend": [
       {
         "week": "2026-W38",
-        "count": 10
+        "count": 15
       },
       {
         "week": "2026-W39",
-        "count": 47
+        "count": 46
       },
       {
         "week": "2026-W40",
-        "count": 58
+        "count": 56
       },
       {
         "week": "2026-W41",
-        "count": 27
+        "count": 28
       },
       {
         "week": "2026-W42",
-        "count": 35
+        "count": 41
       },
       {
         "week": "2026-W43",
-        "count": 36
+        "count": 26
       }
     ],
     "tier_counts": {
       "1": 536,
       "2": 0,
       "3": 0,
-      "0": 3023
+      "0": 3024
     }
   }
 }
