@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:27:49Z",
+  "generated_at": "2026-10-30T12:19:36Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -33,6 +33,30 @@
           "openalex_source_id": "S2764883586",
           "journal_h_index": null,
           "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "title": "Experimental Study on Hydrodynamic Preferences and Collective Behavior of Fish Groups During Upstream Migration in Non-Uniform Flow",
+          "authors": "Chen B, Wu S, Li J, Peng D, Zhang G, Tang X, Yu J, An R.",
+          "journal": "",
+          "date": "2026-10-28",
+          "abstract": "<title>Abstract</title>  <p>Fish passage facilities are critical for restoring longitudinal river connectivity and sustaining fish migration in dammed rivers. However, their effectiveness is compromised because fish struggle to locate entrances amid complex hydrodynamic conditions, and existing behavioral assessments rely on solitary fish in simplified, homogeneous flows. To address this gap, we constructed a large-scale non-uniform open-channel flow field with pronounced velocity gradients and turbulence, and quantified the collective responses of Schizothorax prenanti groups to flow heterogeneity during upstream migration. This study aimed to (a) map migration route selection and hydrodynamic preferences, (b) quantify collective movement patterns and group cohesion, and (c) evaluate how collective movement affects swimming performance under non-uniform flows. The results showed that fish groups preferred regions with lower hydrodynamic loads. Order parameter analysis revealed that despite transient phase transitions induced by turbulence, highly ordered schooling remained the dominant migration mode. By compressing inter-individual distances to within 0.4 m, the groups migrated upstream under more complex hydrodynamic conditions. As fish entered regions of higher flow velocity, their mean swimming speed increased from 0.458 m·s⁻¹ to 1.042 m·s⁻¹. A maximum swimming speed of 2.06 m·s⁻¹ was recorded in the highest-velocity region, although fish spent less than 1% of observation time there. Therefore, the design of fish passage facilities and the restoration of river connectivity should consider the continuity of low-velocity approach corridors, the spatial organization of flow transition zones, and the continuous length of high-hydrodynamic-load regions, so that hydrodynamic design better matches the upstream movement requirements of fish groups.</p>",
+          "url": "https://doi.org/10.21203/rs.3.rs-11329847/v1",
+          "doi": "10.21203/rs.3.rs-11329847/v1",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.researchsquare.com/article/rs-11329847/latest.pdf",
+          "full_text_url": "https://doi.org/10.21203/rs.3.rs-11329847/v1",
+          "source": "europepmc",
+          "track": "A",
+          "cited_by_count": 0,
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
           "tier": 0
         },
         {
@@ -9495,6 +9519,29 @@
           "track": "B",
           "cited_by_count": 0,
           "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genomic prediction enables selection for improved fruit ripening traits in northern highbush blueberry (Vaccinium corymbosum L.) breeding populations.",
+          "authors": "Hislop LM, Anderson T, Rhoades K, Bassil N, Zhao D, Beil CT, Sheehan MJ, Luby CH, Hardigan MA, Loarca J.",
+          "journal": "",
+          "date": "2026-10-28",
+          "abstract": "Blueberry (Vaccinium corymbosum L.) breeding is a time-consuming, complex, and labor-intensive process due to the long-lived woody perennial nature of blueberries and their autotetraploid (2n = 4x = 48) genome. Blueberry breeders have recently adopted and implemented molecular tools for enhancing breeding efficiency and accuracy. Genomic prediction (GP) utilizing genome-wide molecular marker information to predict breeding values of untested genotypes could help accelerate development of adapted varieties. GP and its implementation through genomic selection is an attractive accompaniment to traditional breeding for its potential to improve selection efficiency, particularly for complex polygenic traits. In this study, we utilized a low-cost ($15/sample) mid-density genetic marker platform developed for blueberries by the Breeding Insight initiative to test the first application of genomic prediction in a breeding population of Northern Highbush Blueberries in the Pacific Northwest (PNW), United States. We predicted breeding values for 18 traits related to fruit quality, timing of flowering, and fruit ripening time using 1,822 markers and phenotype data from 4,320 seedlings. Within-population cross-validation indicated moderate to moderately high prediction accuracy (0.6 to 0.8). In contrast, genome-wide association study (GWAS) identified significant markers with small effect (0.50% < phenotype variance explained (PVE) < 2.5%) for 14 traits, while genomic prediction regularly exceeded 0.60 for most traits in most years. Low GWAS signal and strong genomic prediction performance for several traits are consistent with predominantly polygenic trait architecture in this breeding population, where prediction benefits more from genome-wide relatedness and cumulative small effects than from a small number of detectable major loci. This study demonstrates that related individuals can be predicted when phenotypes from the same environment or year structure help estimate marker effects. These results support the potential for genomic prediction to assist early-stage selection in the US Department of Agriculture-Agricultural Research Service PNW blueberry breeding program, with possible reductions in time and phenotyping burden pending future validation in independent cohorts and breeding cycles.",
+          "url": "https://europepmc.org/article/MED/42950067",
+          "doi": "10.1093/g3journal/jkag271",
+          "pmid": "42950067",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1093/g3journal/jkag271",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "oa_status": "gold",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -37743,6 +37790,31 @@
           "tier": 0
         },
         {
+          "id": "10.1093/genetics/iyag308",
+          "title": "Yra2 regulates proteolysis of Cse4 to prevent its mislocalization to non-centromeric regions for chromosomal stability in budding yeast.",
+          "authors": [
+            "Mishra PK",
+            "Ohkuni K",
+            "Raymond P",
+            "Hicks EM",
+            "Costanzo M",
+            "Boone C",
+            "Zenklusen DR",
+            "Basrai MA"
+          ],
+          "journal": "Genetics",
+          "date": "2026-10-29",
+          "doi": "10.1093/genetics/iyag308",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42956001/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1007/s10577-026-09822-5",
           "title": "Satellite DNA content and distribution along the mitotic and meiotic chromosomes of Coleonyx mitratus (Eublepharidae, Gekkota).",
           "authors": [
@@ -37791,6 +37863,29 @@
           "source_is_core": true,
           "is_oa": true,
           "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Satellite DNA content and distribution along the mitotic and meiotic chromosomes of Coleonyx mitratus (Eublepharidae, Gekkota).",
+          "authors": "Tishakova KV, Lisachov AP, Prokopov DY, Lisachova LS, Borodin PM, Trifonov VA.",
+          "journal": "",
+          "date": "2026-10-28",
+          "abstract": "Satellite DNAs (satDNAs) are repetitive sequences that play important structural and functional roles in vertebrate genomes; however, their genomic composition and behavior during meiosis remain poorly understood in geckos. Here, we investigated the satellitome of the Central American banded gecko (Coleonyx mitratus) using bioinformatic and cytogenetic approaches. We identified fifteen candidate satDNA sequences representing at least fourteen satDNA families and mapped their distribution on mitotic and meiotic chromosomes. Most satellites were concentrated in constitutive heterochromatin regions. One of the satDNA families, CmitSat-10-58, showed compact signals associated with the core of the synaptonemal complex on most chromosomes and co-localized with anti-centromere antibodies, suggesting a possible role in centromeric function. A heterochromatin region on chromosome 6 containing two satDNA families showed delayed synapsis and excessive stretching during the pachytene stage. Differences in satDNA composition between the X and Y chromosomes may be associated with their delayed synapsis. Our results provide new insight into the organization, chromosomal distribution, and potential functional significance of satellite DNA in gecko genomes, and support further investigation of the relationship between repetitive DNA, heterochromatin organization, and chromosome dynamics during meiosis.",
+          "url": "https://europepmc.org/article/MED/42946935",
+          "doi": "10.1007/s10577-026-09822-5",
+          "pmid": "42946935",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1007/s10577-026-09822-5",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "closed",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -37868,6 +37963,30 @@
           "tier": 0
         },
         {
+          "title": "The peculiar properties of pericentromeric regions of genomes and their influence on sex chromosome evolution.",
+          "authors": "Charlesworth D.",
+          "journal": "",
+          "date": "2026-10-27",
+          "abstract": "Results from recent genome sequences support the idea that the lack of recombination across extensive sex-linked regions (SLRs) in some species may be a pre-existing feature, due mainly to the sex-determining locus being located near a centromere. This would cause it to be affected by the \"centromere-effect\", which ensures low recombination rates near centromeres. In such cases, it is unnecessary to invoke any active recombination suppression process, or to debate ideas about the types of selection involved. In this review, I outline the properties of genome regions that recombine rarely, including pericentromeric regions of chromosomes, and discuss SLRs that overlap with pericentromeric regions. Unsurprisingly, it is difficult to distinguish special features of such SLRs that would suggest they have undergone a recombination suppression process. The property most likely to be specific to completely SLRs is major gene loss from Y- or W-linked regions of genes found in their respective X- or Z-linked counterparts, and this asymmetry is observed in many species. However, if pericentromeric regions are characterised by ephemeral gene content and low gene expression, asymmetry between pericentromeric SLRs might be less pronounced than in SLRs in other genome regions, and similar Y and X degeneration levels are indeed documented in several species. Additionally, some such SLRs may not be completely sex-linked, which could explain findings of extensive SLRs with low Y-X (or W-Z) divergence.",
+          "url": "https://europepmc.org/article/MED/42945196",
+          "doi": "10.1371/journal.pgen.1012333",
+          "pmid": "42945196",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1012333&type=printable",
+          "full_text_url": "https://doi.org/10.1371/journal.pgen.1012333",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1101/gr.281858.126",
           "title": "Chromosome-scale genome assembly and annotation of Octodon degus.",
           "authors": [
@@ -37937,6 +38056,28 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13701656?pdf=render",
           "full_text_url": "https://doi.org/10.1083/jcb.202606020",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A non-allelic homologous recombination-induced inversion in intron 22 of the F8 gene is causative for haemophilia A in a Weimaraner male dog.",
+          "authors": "Pach S, Nogueira JF, Brenig B.",
+          "journal": "",
+          "date": "2026-10-26",
+          "abstract": "Haemophilia A is a severe coagulation disorder caused by partial or complete loss of function of the X-chromosomal F8 gene. It is a relatively common coagulation disorder that has been reported in at least 17 dog breeds to date. However, only five distinct molecular causes have been identified so far. One molecular genetic cause is a large inversion, which has also been described in humans and was first studied in a research colony of Irish Setters at the University of North Carolina at Chapel Hill. However, the exact location of the inversion breakpoint junctions in dogs has not been determined. Here, we describe the molecular analysis of a case of haemophilia A in a Weimaraner dog family using long-read sequencing. We show that the cause of haemophilia A is an approximately 420kb inversion affecting the F8 gene. The breakpoints of the inversion were identified in intron 22 at position 124,003,000 and between chloride intracellular channel 2 (CLIC2) and epsilon-trimethyllysine hydroxylase (TMLHE) at position 124,432,668 (NC_049260.1:g.124003000_124432668inv). As in humans, the inversion is most likely caused by non-allelic homologous recombination between intron 22 and a region approximately 420kb downstream of the F8 gene. By identifying the inversion breakpoint junctions, it is now possible to test carriers of the disorder at the DNA level and thus prevent the risk of disease in male offspring.",
+          "url": "https://europepmc.org/article/MED/42932266",
+          "doi": "10.1371/journal.pone.0360975",
+          "pmid": "42932266",
+          "pmcid": "PMC13704881",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13704881?pdf=render",
+          "full_text_url": "https://doi.org/10.1371/journal.pone.0360975",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -38984,6 +39125,31 @@
           "track": "C",
           "cited_by_count": 0,
           "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Centromere Stability and Chromosome Segregation: Implications for Trisomies, Cancer & Other Genetic Disorders",
+          "authors": "P. Chatterjee",
+          "journal": "Proceedings of the OJSS Virtual Research Conference 2026",
+          "date": "2026-10-10",
+          "abstract": "Chromosome segregation is an important process for maintaining genetic stability during mitosis and meiosis. This paper examines the role of centromere structure, epigenetic regulation, and kinetochore function for supporting chromosome segregation. Defects in centromeric DNA organization, CENP-A mislocalization, impaired kinetochore-spindle attachment, defective spindle checkpoint regulation, centromere size asymmetry, altered methylation patterns, and disrupted heterochromatin organization can contribute to chromosome missegregation, nondisjunction, and aneuploidy. This review focuses on Trisomy 13, Trisomy 18, and Trisomy 21, highlighting how similar segregation errors can lead to distinct clinical outcomes and are beyond developmental disorders. The paper also explores related mechanisms in cancer biology, where centromere and kinetochore abnormalities contribute to chromosomal instability, tumor progression, and potential biomarker development.\n A systematic literature review approach was used, drawing on studies from PubMed, Google Scholar, Nature Reviews, Cold Spring Harbor Perspectives in Biology, and related scientific sources. The review synthesizes evidence from research on centromeric DNA organization, alpha-satellite higher-order repeats, CENP-A localization, DNA methylation, histone modification, R-loop accumulation, kinetochore assembly, and spindle attachment errors. Emerging tools such as long-read sequencing, epigenomic profiling, transcriptomic analysis, human artificial chromosome systems, and genome-editing technologies were among the methods reviewed for studying centromere structure, function, and chromosome segregation.\n Even though these approaches remain largely experimental, and no current clinical intervention can reliably prevent trisomy or correct the underlying chromosomal abnormality, continued research into centromere engineering (eg HACs) and kinetochore function may provide valuable insight into the molecular causes of nondisjunction and identify future avenues to correct chromosomal imbalances in trisomy or cancer, or broader prevention, diagnosis, risk management, genetic counseling, and individualized clinical management of trisomy and other genetic disorders.",
+          "url": "https://www.semanticscholar.org/paper/c5991d571f35d5eabe23587854f72dacb1795d52",
+          "doi": "10.65161/ojssc26.recuomiknlmppajnm",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.oxfordjss.org/_files/ugd/a9c49e_0eedfccdac944c2fb67b7ae46ab221bd.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "C",
+          "cited_by_count": 0,
+          "tldr": "Evidence from research on centromeric DNA organization, alpha-satellite higher-order repeats, CENP-A localization, DNA methylation, histone modification, R-loop accumulation, kinetochore assembly, and spindle attachment errors is synthesized.",
+          "oa_status": "bronze",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -94166,28 +94332,28 @@
     }
   },
   "stats": {
-    "total_count": 3560,
+    "total_count": 3567,
     "new_this_week": 37,
     "weekly_trend": [
       {
         "week": "2026-W38",
-        "count": 15
+        "count": 19
       },
       {
         "week": "2026-W39",
-        "count": 46
+        "count": 80
       },
       {
         "week": "2026-W40",
-        "count": 56
+        "count": 18
       },
       {
         "week": "2026-W41",
-        "count": 28
+        "count": 31
       },
       {
         "week": "2026-W42",
-        "count": 41
+        "count": 43
       },
       {
         "week": "2026-W43",
@@ -94198,7 +94364,7 @@
       "1": 536,
       "2": 0,
       "3": 0,
-      "0": 3024
+      "0": 3031
     }
   }
 }
