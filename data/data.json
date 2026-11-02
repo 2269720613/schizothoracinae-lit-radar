@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:49:35Z",
+  "generated_at": "2026-11-02T14:59:23Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9615,6 +9615,94 @@
           "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "title": "Graph-based pangenome analysis uncovers structural and functional impacts of allopolyploidization events.",
+          "authors": "Loegler V, Friedrich A, Schacherer J.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "The emergence of graph pangenomes has advanced the study of structural variants (SVs) across diverse species, yet the impact of complex ploidy on SV landscapes remains poorly explored. <i>Brettanomyces bruxellensis</i>, a yeast shaped by multiple allopolyploidization events, offers a compelling model due to its well-characterized genomic and phenotypic diversity. Here, we integrated subgenome-resolved assemblies with population-scale genomic and transcriptomic datasets to characterize SV distribution and functional impact at the species level. Leveraging a reference graph pangenome, we detected 5972 unique SVs across 1060 isolates. Allopolyploid genomes harbored significantly more SVs (320 on average) than diploids (116), reflecting hybridization's extensive impact on genome architecture. Functional association analysis revealed that 27.5% of SVs locally influence gene expression. Furthermore, a subset of SVs originating from ancestral divergence between subgenomes (hybridization-associated SVs) formed hotspots of structural diversity and disproportionately affect gene expression, with larger effect sizes than other SVs. These findings underscore allopolyploidization as a driver of structural and functional genomic diversification, highlighting the value of graph-based approaches in dissecting complex genome evolution.",
+          "url": "https://europepmc.org/article/MED/42962033",
+          "doi": "10.1126/sciadv.aea5812",
+          "pmid": "42962033",
+          "pmcid": "PMC13721995",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13721995?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aea5812",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Equipositioning of chromosomes in the polyploid archaeon Haloferax volcanii by HpaAB.",
+          "authors": "Premrajka K, Johnsen U, Preidel H, Wienberg J, Corleis C, Ortjohann M, Giacomelli G, Bramkamp M.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "Proper genome segregation is essential for cellular survival, yet this process is poorly understood in archaea. Archaea show considerable variability in genome ploidy and organization. Haloferax volcanii DS2 is a polyploid archaeon with a fragmented genome consisting of a main chromosome, three secondary chromosomes and a plasmid. Due to high ploidy, genomic segregation in H. volcanii is typically considered random. However, we identified four two-gene operons encoding ParA-like proteins and uncharacterized partners. Here we characterized HpaA and HpaB, encoded on the secondary chromosome pHV3. HpaA contains conserved ATPase walker motifs and is a ParA protein with a bacterial origin. Mutation of key residues in HpaA alters its localization, while HpaA is necessary for proper HpaB spatial distribution. HpaB forms cytosolic foci and functions as a centromere-binding protein, analogous to bacterial ParB. Deletion of the genes hpaA and hpaB results in severe growth defects when xylose is the sole carbon source, consistent with the location of xylose degradation genes on pHV3. It also reduces the pHV3 to main chromosome ratio. Single-particle tracking suggests that HpaB influences HpaA dynamics. Together, these findings demonstrate an equipositioning of pHV3, likely supporting maintenance in the different cell morphologies observed in H. volcanii.",
+          "url": "https://europepmc.org/article/MED/42963357",
+          "doi": "10.1038/s41467-026-78993-w",
+          "pmid": "42963357",
+          "pmcid": "PMC13722703",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13722703?pdf=render",
+          "full_text_url": "https://doi.org/10.1038/s41467-026-78993-w",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Nationwide Tracking of A‐Lineage Spread in Western Honey Bees Using Haplotype Sharing, Local Ancestry Mapping, and Migration Inference",
+          "authors": "Fikere M, Ryals D, Paterson A, Harpur B.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13722957",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13722957/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Resource‐Related Interactions Between Wolverines and Brown Bears in Scandinavia",
+          "authors": "Heeres R, Persson J, Heeres J, Ordiz A, Kindberg J, Aronsson M.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13722612",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13722612/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
           "tier": 0
         },
         {
@@ -23160,7 +23248,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S137773608"
         },
         {
           "title": "Uncovering novel virophages and giant viruses in high-altitude Lake Namtso: diversity and evolution of host–virus–virophage tripartite interaction systems",
@@ -23184,7 +23273,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S111869560"
         },
         {
           "title": "Pan-genomic insights into resistance, virulence, and stress adaptation in Clostridium perfringens from the Tibetan Plateau",
@@ -23207,7 +23297,8 @@
           "oa_status": "gold",
           "journal_h_index": null,
           "journal_citedness": null,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210207018"
         },
         {
           "id": "10.1038/s41467-026-71262-w",
@@ -23312,7 +23403,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S86558740"
         },
         {
           "id": "10.3390/genes17040444",
@@ -23539,7 +23631,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S152803389"
         },
         {
           "title": "The influence of size, longevity and environmental temperature on mitochondrial DNA evolution in fishes.",
@@ -23564,7 +23657,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210191701"
         },
         {
           "id": "10.1002/ajb2.70176",
@@ -24566,7 +24660,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210223803"
         },
         {
           "id": "10.1016/j.canlet.2025.218173",
@@ -24654,7 +24749,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2734413303"
         },
         {
           "title": "Markov processes forced on a subspace by a large drift, with applications to population genetics",
@@ -25538,7 +25634,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S13880985"
         },
         {
           "id": "10.1038/s41598-026-35876-w",
@@ -26051,7 +26148,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210236520"
         },
         {
           "title": "Genetic Differentiation and Adaptive Evolution Mechanisms of Cultured and Wild Spotted Sea Bass (\n Lateolabrax maculatus\n ) Populations Based on a 40K SNP Liquid Array",
@@ -26075,7 +26173,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S185347631"
         },
         {
           "title": "Belambangan Biosphere Reserve supports wildlife corridors: Evidence from population genetics of Rusa deer (\n Cervus timorensis\n ) in Java, Indonesia",
@@ -39266,6 +39365,30 @@
           "tier": 0
         },
         {
+          "title": "More than just a centromere: evolution of a structural supergene causing female meiotic drive in monkeyflowers.",
+          "authors": "Stark-Dykema E, Finseth FR, Conner W, Plott CB, Fishman L.",
+          "journal": "",
+          "date": "2026-10-31",
+          "abstract": "Meiotic drivers capitalize on vulnerabilities in eukaryotic meiosis and gametogenesis to gain greater-than-equal transmission to the next generation. In most plants and animals, asymmetric female meiosis presents an arena for meiotic drive, as centromeric variants may bias their segregation to the one egg cell. Although centromeric drive is predicted to be pervasive, its mechanisms and consequences remain obscure. Here, we build on representative chromosome-scale assemblies of yellow monkeyflowers (Mimulus guttatus species complex) to compare three functionally distinct haplotypes at Meiotic Drive Locus on Chromosome 11 (MDL11). The driving D allele at MDL11 was previously shown to be centromere-containing, costly, and maintained as a balanced polymorphism in wild M. guttatus populations. D has diverged from nondrivers via at least two major rearrangements (including a hemicentric inversion creating linked arrays of centromeric satellite Cent728 separated by > 200 trapped genes), massive expansions of a novel MDL11-specific subfamily of satellite repeats (Cent728D) that increase the length of the driver chromosome by >50% over homologues, and the build-up of a 2Mb D-exclusive pericentromeric region containing ∼37 extra D-associated genes duplicated and translocated from diverse genomic sources. Differences in centromeric satellite arrays, particularly the recent expansion of Cent728D are primary candidates for generating female meiotic drive. However, substantial divergence in gene content and sequence among the three haplotypes also points to candidate genic modifiers that may enhance D drive and contribute to differences in drive-susceptibility among non-drivers. Overall, our findings support the sequential buildup of this model centromeric driver, reveal intriguing parallels with other selfish supergenes, and provide a strong platform for understanding the mechanisms of its dramatic violation of Mendelian rules.",
+          "url": "https://europepmc.org/article/MED/42965917",
+          "doi": "10.1093/genetics/iyag311",
+          "pmid": "42965917",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/02/23/2026.02.23.707561.full.pdf",
+          "full_text_url": "https://doi.org/10.1093/genetics/iyag311",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Towards a complete diploid chicken genome",
           "authors": "Fan S, Liu J, Kang N, Li D, Li Z, Xu N, Xu L.",
           "journal": "",
@@ -39327,6 +39450,28 @@
           "in_pmc": false,
           "pdf_url": "",
           "full_text_url": "https://doi.org/10.1080/17501911.2026.2751852",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Equipositioning of chromosomes in the polyploid archaeon Haloferax volcanii by HpaAB.",
+          "authors": "Premrajka K, Johnsen U, Preidel H, Wienberg J, Corleis C, Ortjohann M, Giacomelli G, Bramkamp M.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "Proper genome segregation is essential for cellular survival, yet this process is poorly understood in archaea. Archaea show considerable variability in genome ploidy and organization. Haloferax volcanii DS2 is a polyploid archaeon with a fragmented genome consisting of a main chromosome, three secondary chromosomes and a plasmid. Due to high ploidy, genomic segregation in H. volcanii is typically considered random. However, we identified four two-gene operons encoding ParA-like proteins and uncharacterized partners. Here we characterized HpaA and HpaB, encoded on the secondary chromosome pHV3. HpaA contains conserved ATPase walker motifs and is a ParA protein with a bacterial origin. Mutation of key residues in HpaA alters its localization, while HpaA is necessary for proper HpaB spatial distribution. HpaB forms cytosolic foci and functions as a centromere-binding protein, analogous to bacterial ParB. Deletion of the genes hpaA and hpaB results in severe growth defects when xylose is the sole carbon source, consistent with the location of xylose degradation genes on pHV3. It also reduces the pHV3 to main chromosome ratio. Single-particle tracking suggests that HpaB influences HpaA dynamics. Together, these findings demonstrate an equipositioning of pHV3, likely supporting maintenance in the different cell morphologies observed in H. volcanii.",
+          "url": "https://europepmc.org/article/MED/42963357",
+          "doi": "10.1038/s41467-026-78993-w",
+          "pmid": "42963357",
+          "pmcid": "PMC13722703",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13722703?pdf=render",
+          "full_text_url": "https://doi.org/10.1038/s41467-026-78993-w",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -96335,39 +96480,39 @@
     }
   },
   "stats": {
-    "total_count": 3644,
-    "new_this_week": 56,
+    "total_count": 3649,
+    "new_this_week": 61,
     "weekly_trend": [
       {
-        "week": "2026-W38",
-        "count": 31
-      },
-      {
         "week": "2026-W39",
-        "count": 71
+        "count": 32
       },
       {
         "week": "2026-W40",
-        "count": 28
+        "count": 70
       },
       {
         "week": "2026-W41",
-        "count": 29
+        "count": 27
       },
       {
         "week": "2026-W42",
-        "count": 44
+        "count": 31
       },
       {
         "week": "2026-W43",
-        "count": 40
+        "count": 42
+      },
+      {
+        "week": "2026-W44",
+        "count": 53
       }
     ],
     "tier_counts": {
       "1": 539,
       "2": 0,
       "3": 0,
-      "0": 3105
+      "0": 3110
     }
   }
 }
