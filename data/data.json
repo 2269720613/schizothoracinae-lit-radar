@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:59:23Z",
+  "generated_at": "2026-11-03T13:46:52Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9530,6 +9530,51 @@
           "tier": 0
         },
         {
+          "title": "T cells in type 1 diabetes: mechanisms of β-cell autoimmunity, innate-adaptive immune crosstalk, and translational immunotherapy",
+          "authors": "Amer B, Alnukhali M, Haidarah A, Ahmad A.",
+          "journal": "",
+          "date": "2026-11-03",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13725358",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13725358/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1002/ajb2.70284",
+          "title": "A tribal-scale phylogenomic perspective on ancestry and major lineages of the allotetraploid Hawaiian silversword alliance (Madieae, Compositae).",
+          "authors": [
+            "Baldwin BG",
+            "Fawcett S",
+            "Kostic A",
+            "Wessa BL",
+            "Freyman WA"
+          ],
+          "journal": "American journal of botany",
+          "date": "2026-11-02",
+          "doi": "10.1002/ajb2.70284",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42972903/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "openalex_source_id": "S205086949",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Authentication of the Botanical Origins of Curcumae Radix Based on DNA Barcoding and HS-GC-IMS.",
           "authors": "Jiang Q, Yin J, Han X, Yong J, Sun R, Liu M, Wang W, Wang Y, Song M, Xiang B, Yu H.",
           "journal": "",
@@ -9566,6 +9611,50 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13721899?pdf=render",
           "full_text_url": "https://doi.org/10.1111/1751-7915.70463",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Assessing the Potential for Genetic Rescue in Critically Endangered Saimaa Salmon: Early Viability and Genomic Outcomes via First Backcrossing",
+          "authors": "Janhunen M, Tapio M, Eronen A, Kortet R, Kause A.",
+          "journal": "",
+          "date": "2026-11-01",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13725124",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13725124/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Unveiling the Ongoing Expansion of Bullheads of the Genus Ameiurus (Actinopteri: Siluriformes) in the Dnipro River Basin, Ukraine: New Distributional Records and Genetic Diversity",
+          "authors": "Bielikova O, Čiampor F, Didenko O, Pekárik L, Kutsokon Y.",
+          "journal": "",
+          "date": "2026-11-01",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13724293",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13724293/?tool=EBI",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -39228,6 +39317,51 @@
       ],
       "papers": [
         {
+          "title": "ogMapper improves speed and memory for short-sequencing read mapping using a novel guided sparse genome index",
+          "authors": "Treviño V, Guzman-Cerezo E.",
+          "journal": "",
+          "date": "2026-11-03",
+          "abstract": "",
+          "url": "",
+          "doi": "",
+          "pmid": "",
+          "pmcid": "PMC13725094",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "",
+          "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13725094/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Recognition of the centromere-binding protein Ndc10 by Scm3  <sup>HJURP</sup>  directs Cse4  <sup>CENP-A</sup>  deposition at native centromeres",
+          "authors": "Cai J, Wang Z, Cheng L, Xu T, Zhang CY, Hinshaw SM, Suhandynata RT, Desai A, Zhou H.",
+          "journal": "",
+          "date": "2026-11-02",
+          "abstract": "Kinetochores connect centromeres to spindle microtubules, ensuring accurate chromosome segregation. Kinetochore assembly at centromeres depends on deposition of CENP-A, a histone H3 variant. Despite considerable progress, how CENP-A is specifically assembled on native centromeres remains an open question. Centromere-specific assembly of CENP-A occurs spontaneously in a cell-free extract system from the yeast  Saccharomyces cerevisiae , but with low efficiency, suggesting that one or more factors are limiting. Here, we show Scm3  HJURP , a specific chaperone for the centromeric histone Cse4  CENP-A , is one such limiting component. The addition of a complex of Scm3, Cse4 and histone H4 strongly stimulates Cse4 assembly in a centromeric DNA sequence- and dose-dependent manner; in addition, improvements in both Cse4 and kinetochore assembly were more prominent in mitotic versus interphase (G1) extracts. Using the complemented cell-free reconstitution system, we show that distinct Scm3 interfaces with Cse4 and with the Ndc10 subunit of the yeast centromere DNA sequence-recognizing CBF3 complex are essential for centromere-specific Cse4 assembly and cell viability. Thus, recognition of Ndc10 directs Scm3-dependent and locus-specific centromeric histone deposition.",
+          "url": "https://doi.org/10.64898/2026.10.30.763002",
+          "doi": "10.64898/2026.10.30.763002",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.64898/2026.10.30.763002",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Genome Aging in Women: Hematopoietic Loss of X Chromosome as An Exemplar.",
           "authors": "Guo X, Dai X.",
           "journal": "",
@@ -39434,7 +39568,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S42283280"
         },
         {
           "title": "CTCF contributes with α-satellite and satellite 2 expression in cancer cells: implications for centromeric chromatin organisation.",
@@ -96480,24 +96615,24 @@
     }
   },
   "stats": {
-    "total_count": 3649,
-    "new_this_week": 61,
+    "total_count": 3655,
+    "new_this_week": 58,
     "weekly_trend": [
       {
         "week": "2026-W39",
-        "count": 32
+        "count": 42
       },
       {
         "week": "2026-W40",
-        "count": 70
+        "count": 62
       },
       {
         "week": "2026-W41",
-        "count": 27
+        "count": 32
       },
       {
         "week": "2026-W42",
-        "count": 31
+        "count": 33
       },
       {
         "week": "2026-W43",
@@ -96505,14 +96640,14 @@
       },
       {
         "week": "2026-W44",
-        "count": 53
+        "count": 48
       }
     ],
     "tier_counts": {
       "1": 539,
       "2": 0,
       "3": 0,
-      "0": 3110
+      "0": 3116
     }
   }
 }
