@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:46:52Z",
+  "generated_at": "2026-11-04T13:55:05Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9664,6 +9664,82 @@
           "tier": 0
         },
         {
+          "id": "10.1002/advs.77098",
+          "title": "Conditionally Significant eQTL and TWAS Analyses Identify MsRD26 as a Major Candidate Positive Regulator of Salt Tolerance in Medicago sativa L.",
+          "authors": [
+            "Chen L",
+            "Zhang Y",
+            "Ma X",
+            "Bi J",
+            "He F",
+            "Zhao L",
+            "Lei H",
+            "Xiao Z",
+            "Wang X",
+            "Zhang T",
+            "Long R",
+            "Kang J",
+            "Yang Q"
+          ],
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "date": "2026-11-01",
+          "doi": "10.1002/advs.77098",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42579509/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "openalex_source_id": "S2737737698",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "title": "Assessing the Potential for Genetic Rescue in Critically Endangered Saimaa Salmon: Early Viability and Genomic Outcomes via First Backcrossing.",
+          "authors": "Janhunen M, Tapio M, Eronen A, Kortet R, Kause A.",
+          "journal": "",
+          "date": "2026-11-01",
+          "abstract": "Small, threatened populations often suffer from a limited gene pool, which increases inbreeding and reduces their adaptability. We investigated the phenotypic and genomic effects of hybridization (resulting from backcrossing) on the critically endangered Lake Saimaa landlocked salmon, <i>Salmo salar</i> m. <i>sebago</i>, focusing on a particularly sensitive alevin-fry life stage. The Saimaa salmon has undergone severe genetic bottlenecks and relies exclusively on a hatchery-based conservation program. Since 2017, crossings with geographically proximate anadromous Baltic Sea salmon populations (Neva and Tornio) have been conducted as a possible means to restore genetic diversity. Here, we used a maternal half-sib design to compare early viability of purebred Saimaa salmon with their first-generation Neva and Tornio backcrosses in semi-natural conditions. The backcrossed fry survived better than purebreds, showing a 9-12 percentage-point increase in viability, whereas no significant cross differences were found in body mass. Quantitative genetic analysis further showed that hybrid sires conferred higher genetic merit for survival. Genomic analyses using a high-density SNP array (47,901 loci) confirmed clear differentiation between pure and backcross groups, validating admixture. Pure Saimaa salmon had heterozygosity (<i>H</i> <sub>S</sub>) of 0.13 (over 50% of loci monomorphic), while backcrosses possessed <i>H</i> <sub>S</sub> of 0.25 and substantially more polymorphism (96%-97% of loci). Analysis of homozygous genomic segments showed that the inbreeding of Saimaa salmon has predominantly accumulated prior to the conservation program. Widespread reductions in autozygosity were found in both cross types, though introgression varied across the genome and also showed substantial donor- and family-specificity. Overall, the results suggest that hybridization improved early survival through additive and potential dominance effects (reduced genetic load, heterozygote advantage), and expanded genomic variation without immediate indication of outbreeding depression. However, sequential backcrossing across multiple generations is necessary to ensure the preservation of Saimaa salmon's unique genetic identity while enhancing its resilience through the life cycle.",
+          "url": "https://europepmc.org/article/MED/42974041",
+          "doi": "10.1111/eva.70349",
+          "pmid": "42974041",
+          "pmcid": "PMC13725124",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13725124?pdf=render",
+          "full_text_url": "https://doi.org/10.1111/eva.70349",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Unveiling the Ongoing Expansion of Bullheads of the Genus &lt;i&gt;Ameiurus&lt;/i&gt; (Actinopteri: Siluriformes) in the Dnipro River Basin, Ukraine: New Distributional Records and Genetic Diversity.",
+          "authors": "Bielikova O, Čiampor F, Didenko O, Pekárik L, Kutsokon Y.",
+          "journal": "",
+          "date": "2026-11-01",
+          "abstract": "Invasive bullheads of the genus Ameiurus are actively expanding across Eastern Europe, yet accurate species identification remains problematic owing to phenotypic plasticity and high intraspecific morphological variability. This study aims to resolve the taxonomic identity, spatial distribution, and invasion dynamics of Ameiurus populations within the Dnipro River catchment, Ukraine, where mapping the current frontiers of these non-native species is critical for freshwater conservation. We employed an integrated framework combining laboratory molecular analysis (mtDNA COI barcoding) with field-based morphological scoring via Discriminant Analysis of Principal Components (DAPC). Sampling was conducted across multiple riverine networks within the catchment to evaluate whether range expansion is driven by natural downstream dispersal or human-mediated pathways. A total of 66 specimens from six sampling localities were analysed, yielding 66 COI sequences. Phylogenetic reconstruction consistently recovered two discrete, high-support clades corresponding to <i>A. nebulosus</i> and <i>A. melas</i>, a topology consistently supported across multiple distance-based and phylogeny-based delimitation methods. These results document the continued range expansion of both species in the Dnipro River basin, including the first molecularly confirmed occurrence record of <i>A. melas</i> in this basin, previously known only from the Southern Buh and Danube basins. Genetic analysis revealed five COI haplotypes per species, most of which are new to Ukraine, a pattern consistent with multiple independent introduction events or the retention of standing genetic variation from diverse source populations. DAPC profiling identified body colouration, pectoral spine serration, anal fin membrane pigmentation, and gill raker count as the most robust diagnostic traits for reliable field delimitation. The observed lack of isolation-by-distance and the allopatric establishment of both species in adjacent water bodies support a 'jumpy' colonisation pattern driven by unauthorised human-mediated translocations rather than natural dispersal. This study provides a scalable, integrated framework to resolve taxonomic ambiguities in cryptic or plastic invasive fish populations. Our findings establish an ecological baseline for range forecasting and risk assessment of Ameiurus in European inland waters, underscoring the urgent need for coordinated molecular monitoring at the leading edges of freshwater biological invasions.",
+          "url": "https://europepmc.org/article/MED/42973541",
+          "doi": "10.1002/ece3.74564",
+          "pmid": "42973541",
+          "pmcid": "PMC13724293",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13724293?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/ece3.74564",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Pan-genome analysis reveals conservation and diversification of the SWEET gene family in wheat",
           "authors": "Yang Y, Wu L, Sun J, Li J, Liu S, Tang M, Chu Z, Dong L, Li S, Dong L.",
           "journal": "",
@@ -9786,6 +9862,50 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13722612/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Nationwide Tracking of A-Lineage Spread in Western Honey Bees Using Haplotype Sharing, Local Ancestry Mapping, and Migration Inference.",
+          "authors": "Fikere M, Ryals DK, Paterson AH, Harpur BA.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "Understanding the spatial dynamics of genetic ancestry is essential for elucidating historical and contemporary patterns of gene flow among populations. Honey bees in the United States have a 400-year history of importation, management, and adaptation to diverse environments. Genetic diversity is a key factor for colony health and resilience. Notably, the most genetically diverse populations in the country originate from the invasive A-lineage (Africanized or 'Killer' honey bees). In this study, we leveraged a nationwide community-science platform to assemble an extensive genomic dataset of U.S. honey bee populations and used it to ask how this invasive lineage is spreading across the country and how its spread has impacted honey bee genetic diversity nationwide. Using RFMix, we assigned local ancestry across the genome to capture fine-scale ancestry patterns and applied TreeMix to genome-wide allele frequency data to infer directional gene flow among U.S. populations. Our analyses revealed patterns consistent with a strong northward migration, with major source populations in southern states such as Texas (TX), Arizona (AZ), and Florida (FL), and primary targets in northern states including Michigan (MI), New York (NY), and Vermont (VT). Covariance estimates indicated strong genetic connectivity, particularly from TX and AZ. Spatial visualization of migration edges highlighted key routes of A-lineage expansion. Together, these results provide the first genome-wide evidence for a nationwide spread of A-lineage ancestry in the U.S., offering insights to guide breeding strategies and predict the future dynamics of honey bee genetic diversity.",
+          "url": "https://europepmc.org/article/MED/42967103",
+          "doi": "10.1002/ece3.74574",
+          "pmid": "42967103",
+          "pmcid": "PMC13722957",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13722957?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/ece3.74574",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Resource-Related Interactions Between Wolverines and Brown Bears in Scandinavia.",
+          "authors": "Heeres RW, Persson J, Heeres J, Ordiz A, Kindberg J, Aronsson M.",
+          "journal": "",
+          "date": "2026-10-30",
+          "abstract": "Ongoing recovery of large carnivore species into their former ranges increases the occurrence of interactions among them. The recovering Scandinavian wolverine (<i>Gulo gulo</i>) population has recently expanded southwards and is increasingly overlapping with the core of the brown bear (<i>Ursus arctos</i>) range. Both species are facultative scavengers that feed on moose (<i>Alces alces</i>) carcasses, which are an important resource all year round for wolverines and seasonally for bears. Reliance on the same resource may lead to interactions. We monitored five GPS-collared wolverines in central Sweden to investigate feeding sites with food remains and determine bear activity. In addition, we used motion-triggered cameras to monitor wolverine and bear activity at three wolverine rendezvous sites (i.e., temporary sites where females keep cubs) and at a recently bear-killed adult moose carcass. We found 115 wolverine feeding sites, of which 25 (22%) showed signs of bear activity. At 24 sites we found remains from adult moose carcasses, five presumably bear-killed of which two were fresh (< 1 week). Based on GPS-data, wolverines repeatedly used these recently bear-killed moose for periods ranging from a few hours to multiple days. Bear activity was documented at two of the three presumed rendezvous sites used by a female wolverine with cubs. Camera data also documented repeated visits by at least three different wolverines at the presumed bear-killed moose carcass, including visits short before and after bear activity at the site. Our results illustrate that wolverines and bears overlap and share food resources, potentially leading to direct and/or indirect interactions. These observations suggest that co-occurrence between these two species create both feeding opportunities and potential risks for wolverines, which deserves further research.",
+          "url": "https://europepmc.org/article/MED/42966928",
+          "doi": "10.1002/ece3.74553",
+          "pmid": "42966928",
+          "pmcid": "PMC13722612",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13722612?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/ece3.74553",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -39362,6 +39482,50 @@
           "tier": 0
         },
         {
+          "title": "Extended DNA damage-induced G2/M arrests lead to aberrant mitoses through accumulation of securin.",
+          "authors": "Dubenko A, Jnied M, Kotenko O, Makovets S.",
+          "journal": "",
+          "date": "2026-11-02",
+          "abstract": "The stochastic nature of DNA damage dictates various scenarios of stress survival among different cells. We used time-lapse microscopy to perform single-cell level analyses of yeast populations with double-stranded DNA breaks and nonfunctional telomeres. Activation of the DNA damage signalling resulted in a broad distribution in the duration of G2/M arrests. Strikingly, the longer arrests correlated with aberrant mitoses caused by miscoordination of nuclear division and cytokinesis, leading to cell death. Chk1-dependent phosphorylation of Pds1 (securin), an inhibitor of sister chromatid separation in mitosis, was responsible for this phenomenon. Securin progressively accumulated during G2/M arrests, leading to grossly delayed or missed nuclear divisions. This phenotype could be suppressed by slowing down the progression of mitotic exit via LTE1 deletion or by lowering securin levels. Our results demonstrate that in cells taking too long to complete DNA repair, the DNA damage checkpoint promotes aberrant mitoses and cell death, thereby eliminating cells with a higher chance of genomic instability.",
+          "url": "https://europepmc.org/article/MED/42969970",
+          "doi": "10.1083/jcb.202511106",
+          "pmid": "42969970",
+          "pmcid": "PMC13726689",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13726689?pdf=render",
+          "full_text_url": "https://doi.org/10.1083/jcb.202511106",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Chromosomal requirements for formation of multivalent human nucleoli.",
+          "authors": "Giemza K, Mangan H, McStay B.",
+          "journal": "",
+          "date": "2026-11-02",
+          "abstract": "Human nucleoli are multivalent, involving contributions from up to 10 NOR-bearing acrocentric chromosome p-arms. Precision megabase-scale chromosome engineering defines the requirements for this major genome organizational event. NOR deletions reveal that p-arm clustering can occur independent of rDNA. Deletion of all NOR-distal or NOR-proximal sequences individually have only a marginal effect on nucleolar association. Finally, deletion of an entire p-arm, while leaving centromere function intact, destroys the nucleolar association potential of that acrocentric. We propose that formation of multivalent nucleoli is not a nucleolar fusion event per se; rather it is driven by the surrounding chromosomal context of NORs.",
+          "url": "https://europepmc.org/article/MED/42629160",
+          "doi": "10.1101/gad.354012.126",
+          "pmid": "42629160",
+          "pmcid": "PMC13726607",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13726607?pdf=render",
+          "full_text_url": "https://doi.org/10.1101/gad.354012.126",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Genome Aging in Women: Hematopoietic Loss of X Chromosome as An Exemplar.",
           "authors": "Guo X, Dai X.",
           "journal": "",
@@ -39638,7 +39802,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S65932378"
         },
         {
           "title": "Yra2 regulates proteolysis of Cse4 to prevent its mislocalization to non-centromeric regions for chromosomal stability in budding yeast.",
@@ -39725,6 +39890,30 @@
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Kinetochore Proteins CENP-B and LIC2 are critical for Episome Persistence and Replication of Kaposi’s Sarcoma-Associated Herpesvirus",
+          "authors": "Singh RK, Zhang S, Bose D, Ma N, Vangala R, Chunduru K, Robertson ES.",
+          "journal": "",
+          "date": "2026-10-29",
+          "abstract": "Kaposi’s sarcoma-associated herpesvirus (KSHV) establishes lifelong latency by maintaining its genome as circular episomes tethered to host chromatin and faithfully segregated during mitosis. This process is primarily mediated by the latency-associated nuclear antigen (LANA), which interacts with host chromosome-associated factors to ensure viral genome persistence. Several kinetochore proteins, including CENP-F, Bub1, BubR1, Aurora B, Survivin, and NuMA, have been implicated in this process, yet the broader contribution of kinetochore components remains poorly defined. We performed a systematic shRNA-based screen of the 37 host genes encoding kinetochore-associated proteins to evaluate their role in KSHV episome maintenance. We validated involvement of previously reported factors and identified Centromere Protein B (CENP-B) and Light Intermediate Chain 2 of the dynein complex (LIC2) as novel kinetochore-associated proteins critical for KSHV episome persistence. Loss of these proteins significantly reduced episome stability, highlighting previously unrecognized host-virus interactions at the chromosome segregation machinery. These findings identify critical host factors that expand the repertoire of kinetochore proteins co-opted by KSHV for episome maintenance and provide new mechanistic insights into how viral episomes exploit host chromosome segregation pathways for long-term persistence. Our work underscores kinetochore proteins as a broader class of host dependency factors in Ƴ-herpesvirus biology and suggests potential therapeutic targets for KSHV-associated malignancies.",
+          "url": "https://doi.org/10.64898/2026.10.28.762626",
+          "doi": "10.64898/2026.10.28.762626",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/29/2026.10.28.762626.full.pdf",
+          "full_text_url": "https://doi.org/10.64898/2026.10.28.762626",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -40045,7 +40234,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S43092948"
         },
         {
           "id": "10.1371/journal.ppat.1014708",
@@ -40068,7 +40258,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S2004986"
         },
         {
           "title": "Slender lobes is a spindle matrix protein regulated by spindle envelope kinase Greatwall in oocytes.",
@@ -96615,39 +96806,39 @@
     }
   },
   "stats": {
-    "total_count": 3655,
-    "new_this_week": 58,
+    "total_count": 3663,
+    "new_this_week": 59,
     "weekly_trend": [
       {
         "week": "2026-W39",
-        "count": 42
+        "count": 47
       },
       {
         "week": "2026-W40",
-        "count": 62
+        "count": 60
       },
       {
         "week": "2026-W41",
-        "count": 32
+        "count": 28
       },
       {
         "week": "2026-W42",
-        "count": 33
+        "count": 35
       },
       {
         "week": "2026-W43",
-        "count": 42
+        "count": 45
       },
       {
         "week": "2026-W44",
-        "count": 48
+        "count": 52
       }
     ],
     "tier_counts": {
       "1": 539,
       "2": 0,
       "3": 0,
-      "0": 3116
+      "0": 3124
     }
   }
 }
