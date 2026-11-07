@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:52:44Z",
+  "generated_at": "2026-11-07T12:37:37Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9904,6 +9904,34 @@
           "source_is_core": true,
           "is_oa": false,
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1002/ece3.74474",
+          "title": "Contrasting Spatial Genomic Structure in Two Widespread Grassland Species Across Norway Supports Species-Specific Seed Sourcing.",
+          "authors": [
+            "Gizaw A",
+            "Hanslin HM",
+            "Aamlid TS",
+            "Borch H",
+            "Šípková H",
+            "Fossdal CG"
+          ],
+          "journal": "Ecology and evolution",
+          "date": "2026-11-01",
+          "doi": "10.1002/ece3.74474",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42991383/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ece3.74474",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S2482021738",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -48034,7 +48062,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S64187185"
         },
         {
           "title": "Reproductive mode and ploidy are associated with distinct organization of clustered centromeric regions in Meloidogyne nematodes",
@@ -48058,7 +48087,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S81160022"
         },
         {
           "title": "Functional CENP-B boxes are selectively conserved at centromeric regions",
@@ -48104,7 +48134,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S156208185"
         },
         {
           "title": "Damage-induced i-loops generate eccDNA from repetitive elements.",
@@ -97284,16 +97315,16 @@
     }
   },
   "stats": {
-    "total_count": 3680,
-    "new_this_week": 50,
+    "total_count": 3681,
+    "new_this_week": 40,
     "weekly_trend": [
       {
         "week": "2026-W39",
-        "count": 82
+        "count": 75
       },
       {
         "week": "2026-W40",
-        "count": 18
+        "count": 27
       },
       {
         "week": "2026-W41",
@@ -97301,22 +97332,22 @@
       },
       {
         "week": "2026-W42",
-        "count": 43
+        "count": 39
       },
       {
         "week": "2026-W43",
-        "count": 46
+        "count": 51
       },
       {
         "week": "2026-W44",
-        "count": 42
+        "count": 32
       }
     ],
     "tier_counts": {
       "1": 542,
       "2": 0,
       "3": 0,
-      "0": 3138
+      "0": 3139
     }
   }
 }
