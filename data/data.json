@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:37:37Z",
+  "generated_at": "2026-11-08T12:54:24Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -10113,6 +10113,31 @@
           "tier": 0
         },
         {
+          "title": "Towards a complete diploid chicken genome",
+          "authors": "Shi-Yu Fan, Jiao Liu, Na Kang, Di-Yan Li, Zhuan-Jian Li et al.",
+          "journal": "bioRxiv",
+          "date": "2026-10-30",
+          "abstract": "The repetitive and heterochromatic parts of microchromosomes and dot chromosomes have impeded the creation of a complete, haplotype-resolved chicken genome. To overcome these challenges, we employed a trio-sequencing approach, utilizing long reads from a female chick, supplemented by parental long-read data for accurate haplotype phasing. This strategy produced nearly complete, haplotype-resolved paternal and maternal assemblies, with 14 residual gaps. Telomeric sequences remain missing in two paternal and four maternal chromosomes, suggesting a still incomplete assembly. GGswu2 resolved more than 50 Mb of previously unresolved regions, predominantly within dot chromosomes. The dot chromosomes exhibit low nucleotide diversity but a high density of structural variants between haplotypes. We found that the centromere sizes and relative positions of centromere cores sometimes differ between the two haplotype genomes. These findings suggest that comparative genomics must incorporate the high-resolution of these dynamic complex regions to fully understand avian genome evolution and genetic complexity.",
+          "url": "https://www.semanticscholar.org/paper/5d894856379de07b04ce51c72199fad451e34dc0",
+          "doi": "10.64898/2026.10.25.761615",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/30/2026.10.25.761615.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "It is found that the centromere sizes and relative positions of centromere cores sometimes differ between the two haplotype genomes, suggesting that comparative genomics must incorporate the high-resolution of these dynamic complex regions to fully understand avian genome evolution and genetic complexity.",
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Genomic prediction enables selection for improved fruit ripening traits in northern highbush blueberry (Vaccinium corymbosum L.) breeding populations.",
           "authors": "Hislop LM, Anderson T, Rhoades K, Bassil N, Zhao D, Beil CT, Sheehan MJ, Luby CH, Hardigan MA, Loarca J.",
           "journal": "",
@@ -10852,6 +10877,32 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "title": "PSHIC reveals allele-specific chromatin organization by phasing-free structural modeling",
+          "authors": "Wei Liu, Xue-Ying Wang, Yu-Wei Zhang, Guang-Ze Pan, Shuai-Cheng Li",
+          "journal": "Nature Communications",
+          "date": "2026-10-05",
+          "abstract": "Resolving the distinct 3D chromatin architectures of parental chromosomes is critical for understanding diploid genome function, but many haplotype-resolved Hi-C contact-map methods remain constrained by their reliance on phased single-nucleotide polymorphisms (SNPs). This dependency treats reconstruction as a simple tag-and-sort problem, leading to massive data loss, extreme fragility to phasing errors, and inapplicability in SNP-sparse contexts. We introduce PSHIC, a computational framework that reveals this hidden chromatin organization by employing phasing-free structural modeling, directly from aggregated Hi-C data. PSHIC models chromosomes as continuous manifolds and solves the inverse problem of finding two homolog-specific structures whose combined contacts best explain the observed data. Comprehensive simulations across varying sequencing depths, SNP densities, and phasing error rates demonstrate that PSHIC consistently outperforms established methods, achieving superior accuracy (SCC ≥ 0.987), loop detection (F1≥ 0.952), and structural fidelity (DER ≤ 0.04). Applications to real human and mouse Hi-C datasets show that PSHIC recovers known allele-associated features in X-chromosome inactivation, genomic imprinting, and regulatory networks. Results align with orthogonal experimental approaches including 3D DNA-FISH, 4C-seq, and ChIA-PET. PSHIC democratizes diploid chromatin analysis by enabling robust reconstruction in non-model organisms and other SNP-limited or poorly phased contexts. PSHIC reconstructs parent-specific 3D genome organization from standard Hi-C data without phased genetic variants. It outperforms existing methods and recovers validated features of X inactivation, imprinting and gene regulation.",
+          "url": "https://www.semanticscholar.org/paper/b7c2413246107d65da61644114f65d0b61cd1524",
+          "doi": "10.1038/s41467-026-78098-4",
+          "pmid": "42971985",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41467-026-78098-4_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "PSHIC democratizes diploid chromatin analysis by enabling robust reconstruction in non-model organisms and other SNP-limited or poorly phased contexts and recovers validated features of X inactivation, imprinting and gene regulation.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S64187185",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "id": "https://openalex.org/W7162962396",
@@ -22788,6 +22839,31 @@
           "journal_citedness": null,
           "is_fish": true,
           "tier": 1
+        },
+        {
+          "title": "In vitro fertilization (IVF): production of distant hybrids with suitable genome combination",
+          "authors": "Takashi Okamoto",
+          "journal": "Breeding Science",
+          "date": "2026-06-01",
+          "abstract": "Hybridization generates biodiversity and wide hybridization plays a pivotal role in enhancing and broadening the useful attributes of crops. Hybridization can be achieved through sexual or somatic hybridization between distant species; however, sexual hybridization between intergeneric or inter-subfamily combinations often results in unsuccessful fertilization/embryogenesis due to pre- and/or post-fertilization barriers. In addition, as cytoplasmic organelles are maternally transmitted to the zygote via sexual reproduction, cytoplasmic genome hybridization is rare. Although somatic hybridization offers distinct advantages over sexual hybridization, the isolation and culture of protoplasts are not feasible in most plant species, including vital crops. Recently, allopolyploid wheat–rice or wheat–maize hybrid zygotes were produced by in vitro fertilization (IVF) using isolated wheat, rice, and maize gametes, and these hybrid zygotes developed into wheat cytoplasmic hybrids (cybrids) with wheat–rice or wheat–maize hybrid mitochondria. These indicate that the IVF system with isolated gametes provides a solution to limitations of fertilization barriers and one-way cytoplasmic inheritance in sexual and somatic hybridizations, and that the present rice–wheat cybrid, OryzaWheat, and maize–wheat, ZeaWheat, will provide a new horizon for the utilization of inter-subfamily genetic resources.",
+          "url": "https://www.semanticscholar.org/paper/b02650e433e2fc4bb5b4867b597dca520c40a2ab",
+          "doi": "10.1270/jsbbs.25086",
+          "pmid": "42936847",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13709634/pdf/76_205.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "title": "GPU accelerated population genetics statistics using pg_gpu",
@@ -97315,24 +97391,24 @@
     }
   },
   "stats": {
-    "total_count": 3681,
-    "new_this_week": 40,
+    "total_count": 3683,
+    "new_this_week": 35,
     "weekly_trend": [
       {
         "week": "2026-W39",
-        "count": 75
+        "count": 71
       },
       {
         "week": "2026-W40",
-        "count": 27
+        "count": 29
       },
       {
         "week": "2026-W41",
-        "count": 31
+        "count": 29
       },
       {
         "week": "2026-W42",
-        "count": 39
+        "count": 44
       },
       {
         "week": "2026-W43",
@@ -97340,14 +97416,14 @@
       },
       {
         "week": "2026-W44",
-        "count": 32
+        "count": 27
       }
     ],
     "tier_counts": {
-      "1": 542,
+      "1": 543,
       "2": 0,
       "3": 0,
-      "0": 3139
+      "0": 3140
     }
   }
 }
