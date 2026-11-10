@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:28:58Z",
+  "generated_at": "2026-11-10T14:29:23Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -9963,6 +9963,37 @@
           "tier": 0
         },
         {
+          "id": "10.1016/j.xplc.2026.101940",
+          "title": "The long non-coding RNA NEXUS arose from a chromosomal structural variation and enhances drought tolerance through epigenetic regulation in allotetraploid cotton.",
+          "authors": [
+            "Han J",
+            "Hao Y",
+            "Wu H",
+            "Nie K",
+            "Wang L",
+            "Cao Z",
+            "Tao X",
+            "Zhao T",
+            "Mao C",
+            "Zhang T",
+            "Fang L",
+            "Guan X"
+          ],
+          "journal": "Plant communications",
+          "date": "2026-11-09",
+          "doi": "10.1016/j.xplc.2026.101940",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42226459/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "openalex_source_id": "S4210223803",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "tier": 0
+        },
+        {
           "title": "Genetic Structure of Harbour Seals <i>Phoca vitulina vitulina</i> Along the Coast of Norwegian Mainland: Implications for Management.",
           "authors": "Quintela M, Frie AK, Lille-Langøy R, Tiedemann R, Nilssen KT.",
           "journal": "",
@@ -9998,6 +10029,28 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13735954/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genetic Structure of Harbour Seals &lt;i&gt;Phoca vitulina vitulina&lt;/i&gt; Along the Coast of Norwegian Mainland: Implications for Management.",
+          "authors": "Quintela M, Frie AK, Lille-Langøy R, Tiedemann R, Nilssen KT.",
+          "journal": "",
+          "date": "2026-11-07",
+          "abstract": "Alignment between biologically meaningful units and stock boundaries is one or the requirements for sustainable resource management. In Norway, harbour seals (<i>Phoca vitulina vitulina</i>) are managed at the county level and, when local populations are deemed sufficiently large to support harvesting, hunting is permitted under a quota corresponding to 5% of the counted individuals. An assessment of population structure along the entire Norwegian coastline based upon 16 microsatellites revealed significant overall differentiation (<i>F</i> <sub>ST</sub> = 0.036, <i>p</i> < 0.001) consistent with a pattern of Isolation by Distance, in agreement with the estimated effective migration surface (EEMS). Pairwise differentiation among sampling sites challenged the current stock outline. Specifically, (a) geographically large counties (e.g., Finnmark, Nordland) could warrant subdivision into smaller management units, whereas (b) no differentiation was detected across the four south-eastern counties (Agder, Vestfold, Telemark and Østfold). Positive and statistically significant spatial autocorrelation detected at distances of 0-300 km invoked larger genetical similarity than expected by chance and agreed with the fine-grained population structure revealed by former tagging studies. The absence of evidence for recent bottleneck events suggests that populations remain at mutation-drift equilibrium.",
+          "url": "https://europepmc.org/article/MED/42999567",
+          "doi": "10.1002/ece3.74648",
+          "pmid": "42999567",
+          "pmcid": "PMC13743989",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13743989?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/ece3.74648",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -48893,7 +48946,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S156208185"
         },
         {
           "id": "10.64898/2026.05.16.725662",
@@ -48952,7 +49006,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S191963794"
         },
         {
           "title": "Rapid centromere turnover and the adaptive radiation of lemurs",
@@ -94306,6 +94361,31 @@
           "tier": 0
         },
         {
+          "title": "Chromosome-level genome assembly and annotation of the endemic and endangered karst medicinal plant Corydalis saxicola",
+          "authors": "Ming Lei, Jing Wang, S. Sooranna, Han Liu, Zhaodi Wen et al.",
+          "journal": "Scientific Data",
+          "date": "2026-08-05",
+          "abstract": "Corydalis saxicola\n , an endangered herbaceous plant belonging to the Papaveraceae family and used traditionally as folk medicine, is exclusively endemic to karst habitats. However, the lack of a reference genome limits the implementation of molecular techniques in its breeding, pharmacology and domestication. Here, we present a high-quality chromosome-level genome assembly of\n C. saxicola\n based on PacBio HiFi and Hi-C data. The assembled genome size is 240.94 Mb with a contig N50 of 29.21 Mb and BUSCO completeness of 97.71%. Approximately 93.26% of the assembled sequences could be anchored to eight pseudo-chromosomes. A total of 74.29 Mb repeat sequences were identified, which account for 32.33% of the genome. In addition, 24,203 protein-coding genes were identified with a BUSCO completeness of 97.89%. This high-quality genome assembly will serve as a valuable resource for understanding the ecology, genetics, and evolution of\n C. Saxicola\n and will help towards its cultivation.",
+          "url": "https://www.semanticscholar.org/paper/3d0f18ddadb37b24c88be9f0ce930c1f484b0092",
+          "doi": "10.1038/s41597-026-07612-6",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-07612-6_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "This high-quality chromosome-level genome assembly of C. Saxicola will serve as a valuable resource for understanding the ecology, genetics, and evolution of the endangered herbaceous plant and will help towards its cultivation.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Emergent function, not microbial conformity: functional redundancy and the limits of taxonomic inference in microbiome genomics",
           "authors": "Rebecca Lewandowski",
           "journal": "Microbial Genomics",
@@ -94877,6 +94957,31 @@
           "cited_by_count": 0,
           "tldr": "This work presents the first genomic evidence associating P. shahriarae with sturgeon disease and uncovers a genetically varied bacteria that may impact aquaculture health and the spread of antibiotic resistance.",
           "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A high-quality chromosome-level genome assembly of Ficus carica cultivar ‘Green Peel’",
+          "authors": "Han-Tang Huang, Teng-Yue Zhang, Pin-Qi Sun, Yi-Jun Chen, Dan Zhao et al.",
+          "journal": "Scientific Data",
+          "date": "2026-06-20",
+          "abstract": "Fig (Ficus carica L.) is an early-domesticated fruit crop of high cultural and economic value. However, high-quality genome resources for evolutionary and genetic diversity studies remain limited. Here we report a high-quality, chromosome-level genome assembly for fig cv. ‘Green Peel’ generated with Oxford Nanopore long reads and Hi-C data, and polished with Illumina reads. The final assembly is 306.83 Mb and comprises 13 pseudo-chromosomes, with a contig N50 of 5.77 Mb. Read mapping supported the assembly, with mapping rate and genome coverage exceeding 99.5%, and BUSCO completeness reaching 98.1%. Annotation predicted 27,036 protein-coding genes with 97.3% BUSCO completeness, together with 1,303 transcription factors and 2,080 non-coding RNAs. Comparative analyses with Ficus pumila characterized gene family expansion and duplication modes and identified 131.43 Mb of structural variation. This dataset provides a valuable resource for trait mapping, genome-assisted breeding, and future fig pan-genome studies.",
+          "url": "https://www.semanticscholar.org/paper/27ed61350fdd5d3f653a00107a19c10bd7eef84b",
+          "doi": "10.1038/s41597-026-07646-w",
+          "pmid": "42323366",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-07646-w_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "A high-quality, chromosome-level genome assembly for fig cv, generated with Oxford Nanopore long reads and Hi-C data, and polished with Illumina reads and identified 131.43 Mb of structural variation.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -96355,6 +96460,31 @@
           "tier": 0
         },
         {
+          "title": "Chromosome-level genome assembly and annotation of the emblematic silver-lipped pearl oyster Pinctada maxima Jameson 1901",
+          "authors": "L. Benestan, A. Cormier, T. Destanque, O. Romatif, J. Vidal-Dupiol et al.",
+          "journal": "Scientific Data",
+          "date": "2026-03-26",
+          "abstract": "The silver-lipped pearl oyster, Pinctada maxima, is an iconic bivalve farmed in tropical Australia and South-east Asia to produce high valued South Sea pearls. Here, we present a high-quality, chromosome-level reference genome for P. maxima. The final genome assembly has a total size of 1.27 Gb, with a scaffold N50 length of 65.69 Mb. Using high-throughput chromosome conformation capture (Hi-C) technology, we have anchored 80.99% of the assembly to 14 chromosomes. The BUSCO analysis revealed a high level of accuracy and completeness, identifying 87.9% (n = 4,658) of Mollusca core genes, which exceeds the average completeness of 79.2% reported for other mollusc genomes sequenced and annotated to date. The assembly includes 62.79% repeat elements (809 Mb), and gene annotation predicted 25,752 protein-coding genes. This genomic resource offers a powerful tool for unraveling the molecular mechanisms underlying pearl formation and facilitating continued research into the evolutionary biology of pearl oysters worldwide.",
+          "url": "https://www.semanticscholar.org/paper/ed5d0e009cef74dc7dfab59a4d960540a88c1073",
+          "doi": "10.1038/s41597-026-06905-0",
+          "pmid": "41888527",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-06905-0_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "A high-quality, chromosome-level reference genome for P. maxima, an iconic bivalve farmed in tropical Australia and South-east Asia to produce high valued South Sea pearls, offers a powerful tool for unraveling the molecular mechanisms underlying pearl formation and facilitating continued research into the evolutionary biology of pearl oysters worldwide.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Chromosome-level genome provides new insights into the fatty acid biosynthesis and metabolism of the sea urchin Strongylocentrotus intermedius",
           "authors": "Ling-Shu Han, Jun Ding, Heng Wang, Yang Zhang, Jun-Xiao Sun et al.",
           "journal": "BMC Genomics",
@@ -96490,6 +96620,31 @@
           "track": "E",
           "cited_by_count": 4,
           "tldr": "This high-quality genome provides a valuable resource for studying alpine adaptation, specialized metabolite biosynthesis, and evolutionary diversification in Rhodiola and other high-altitude plants.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A chromosome-level genome assembly of two-spotted cricket, Gryllus bimaculatus (Orthoptera: Grylloidea)",
+          "authors": "Xia Li, Yuan-Yuan Wang, Cheng-Wei Lu, Tingting Lu, He-Tan Chang et al.",
+          "journal": "Scientific Data",
+          "date": "2026-03-17",
+          "abstract": "The crickets, Gryllus bimaculatus is a nutritionally valuable insect widely utilized in agricultural production as a high-quality protein source and an emerging resource species. However, the absence of a sequenced genome has limited exploration of its biological characteristics and population genetics. In this study, we generated a chromosome-level genome assembly for G. bimaculatus using PacBio HiFi and Hi-C technologies, yielding a 1,655.48 Mb genome with scaffold N50 of 111.16 Mb and contig N50 of 4.08 Mb. BUSCO analysis demonstrated 98.7% completeness, with repetitive sequences constituting 41.80% of the assembly. A total of 14,457 protein-coding genes were annotated. This high-quality genome assembly provides a valuable resource for investigating the genetic basis of local adaptation and developing effective management strategies.",
+          "url": "https://www.semanticscholar.org/paper/017fa8f69b06f3b37165bc94c9da6e6f1ad4485a",
+          "doi": "10.1038/s41597-026-06995-w",
+          "pmid": "41844630",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-06995-w_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "A chromosome-level genome assembly for Gryllus bimaculatus is generated using PacBio HiFi and Hi-C technologies, yielding a high-quality genome that provides a valuable resource for investigating the genetic basis of local adaptation and developing effective management strategies.",
           "oa_status": "gold",
           "oa_pdf_source": "publisher",
           "journal_h_index": null,
@@ -96711,6 +96866,31 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "An Improved Chromosome-Level Genome Assembly and Comprehensive Annotation of the Model Ascidian Ciona savignyi",
+          "authors": "Xue-Na Huang, A. Zhan",
+          "journal": "Scientific Data",
+          "date": "2026-03-06",
+          "abstract": "Ciona savignyi is an important model organism across multiple disciplines, including developmental biology, ecology, evolution, and invasion science, and has become increasingly valuable for elucidating the genomic basis of adaptation in a rapidly changing world. Here, we present an improved chromosome-level genome assembly of C. savignyi, generated using a combination of Illumina short-read sequencing, Oxford Nanopore long-read sequencing, and High-Throughput Chromosome Conformation Capture (Hi-C). The final assembly spans 200.63 Mb, with a contig N50 of 1.66 Mb and a scaffold N50 of 14.37 Mb, successfully anchored to 13 chromosomes. Interestingly, despite the compact genome, approximately 45% of the genome consists of repetitive sequences. We predicted 15,327 protein-coding genes, of which 96.2% were functionally annotated. This assembly substantially improves the quality and completeness relative to the previous version and represents one of the most contiguous ascidian genomes assembled to date. This genomic resource provides an essential resource for future research using C. savignyi as a model in multiple disciplines.",
+          "url": "https://www.semanticscholar.org/paper/ee9698fbfe052930340151f78a11d5c7690828de",
+          "doi": "10.1038/s41597-026-06990-1",
+          "pmid": "41792167",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.nature.com/articles/s41597-026-06990-1_reference.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "This assembly substantially improves the quality and completeness relative to the previous version and represents one of the most contiguous ascidian genomes assembled to date and represents one of the most contiguous ascidian genomes assembled to date.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
           "tier": 0
         },
         {
@@ -99388,20 +99568,20 @@
     }
   },
   "stats": {
-    "total_count": 3758,
-    "new_this_week": 37,
+    "total_count": 3765,
+    "new_this_week": 34,
     "weekly_trend": [
       {
         "week": "2026-W40",
-        "count": 70
+        "count": 63
       },
       {
         "week": "2026-W41",
-        "count": 28
+        "count": 32
       },
       {
         "week": "2026-W42",
-        "count": 32
+        "count": 34
       },
       {
         "week": "2026-W43",
@@ -99409,18 +99589,18 @@
       },
       {
         "week": "2026-W44",
-        "count": 68
+        "count": 64
       },
       {
         "week": "2026-W45",
-        "count": 28
+        "count": 25
       }
     ],
     "tier_counts": {
       "1": 545,
       "2": 0,
       "3": 0,
-      "0": 3213
+      "0": 3220
     }
   }
 }
