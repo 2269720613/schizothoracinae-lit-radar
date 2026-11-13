@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:47:05Z",
+  "generated_at": "2026-11-13T14:05:28Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -40772,6 +40772,52 @@
           "tier": 0
         },
         {
+          "id": "10.1016/j.celrep.2026.118280",
+          "title": "Toward a complete diploid chicken genome.",
+          "authors": [
+            "Fan S",
+            "Liu J",
+            "Kang N",
+            "Li D",
+            "Li Z",
+            "Xu N",
+            "Xu L"
+          ],
+          "journal": "Cell reports",
+          "date": "2026-11-12",
+          "doi": "10.1016/j.celrep.2026.118280",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43019056/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
+          "title": "Toward a complete diploid chicken genome.",
+          "authors": "Fan S, Liu J, Kang N, Li D, Li Z, Xu N, Xu L.",
+          "journal": "",
+          "date": "2026-11-12",
+          "abstract": "The repetitive and heterochromatic parts of microchromosomes and dot chromosomes have impeded the creation of a complete, haplotype-resolved chicken genome. To overcome these challenges, we employed a trio-sequencing approach, utilizing long reads from a female chick, supplemented by parental long-read data for accurate haplotype phasing. This strategy generated nearly complete, haplotype-resolved paternal and maternal assemblies, with 14 residual gaps. Telomeric sequences remain missing from two paternal and four maternal chromosomes, suggesting a still incomplete assembly. GGswu2 resolved more than 50 Mb of previously unresolved regions, predominantly within dot chromosomes. The dot chromosomes exhibit low nucleotide diversity but a high density of structural variants between haplotypes. We found that the centromere sizes and relative positions of centromere cores sometimes differ between the two haplotype genomes. These findings suggest that comparative genomics must incorporate high-resolution analyses of these dynamic and complex regions to fully understand avian genome evolution and genetic complexity.",
+          "url": "https://europepmc.org/article/MED/43019056",
+          "doi": "10.1016/j.celrep.2026.118280",
+          "pmid": "43019056",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1016/j.celrep.2026.118280",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Fabaceae pan-centromere analysis traces the evolutionary origin of centromeric satellites with widespread solo-LTR transition",
           "authors": "Guo B, Liu R, Chen W, Zhou G, Feng J, Wang H, Yue X, Wang K, Li R, Wang J, Yao T, Qin Y, Tao H, Zhao Y, Wang H, Fu Y, He W, Guo L.",
           "journal": "",
@@ -40991,6 +41037,28 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13744756/?tool=EBI",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Automated Conformational Clustering Reveals Desolvation Mechanisms in a Wide-Temperature-Range Sodium-Ion Electrolytes.",
+          "authors": "Huang L, Gao K, Han Y, Yang J.",
+          "journal": "",
+          "date": "2026-11-09",
+          "abstract": "The desolvation kinetics of Na<sup>+</sup> at the electrode-electrolyte interface critically limit the wide-temperature performance of sodium-ion batteries (SIBs). Conventional radial distribution function analyses, which rely on spherical symmetry averaging, inherently fail to capture the microscopic conformational inhomogeneity that governs this process. Herein, we develop an automated conformational clustering framework that integrates unsupervised machine learning with a multiscale DFT (Density Functional Theory) MD (Molecular Dynamics) approach to resolve the temperature-dependent solvation evolution in a model carbonate-based sodium-ion electrolyte. By mapping high-dimensional trajectory data, this approach quantitatively identifies solvent-separated ion pairs (SSIP) and contact ion pairs (CIP) conformations, revealing a temperature-driven population shift from SSIP-dominated (79.9% at 233.15 K) to CIP-dominated (61.7% at 333.15 K). Density functional theory vertical energy calculations demonstrate that elevated temperatures substantially lower the SSIP-to-CIP energy penalty (from 98.3 to 47.0 kcal/mol). Consequently, the increased CIP proportion reduces the system-averaged desolvation binding energy from 72.6 to 67.6 kcal/mol, which directly accounts for the order-of-magnitude enhancement in sodium cation mobility observed in molecular dynamics simulations. This work establishes a quantitative mechanistic closed loop linking microscopic conformational transitions to macroscopic transport kinetics, providing explicit molecular design principles for advanced wide-temperature SIB electrolytes.",
+          "url": "https://europepmc.org/article/MED/43004691",
+          "doi": "10.1002/advs.78718",
+          "pmid": "43004691",
+          "pmcid": "PMC13748889",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13748889?pdf=render",
+          "full_text_url": "https://doi.org/10.1002/advs.78718",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -101025,24 +101093,24 @@
     }
   },
   "stats": {
-    "total_count": 3824,
-    "new_this_week": 50,
+    "total_count": 3827,
+    "new_this_week": 45,
     "weekly_trend": [
       {
         "week": "2026-W40",
-        "count": 60
+        "count": 19
       },
       {
         "week": "2026-W41",
-        "count": 29
+        "count": 31
       },
       {
         "week": "2026-W42",
-        "count": 43
+        "count": 45
       },
       {
         "week": "2026-W43",
-        "count": 47
+        "count": 49
       },
       {
         "week": "2026-W44",
@@ -101050,14 +101118,14 @@
       },
       {
         "week": "2026-W45",
-        "count": 33
+        "count": 32
       }
     ],
     "tier_counts": {
-      "1": 555,
+      "1": 556,
       "2": 0,
       "3": 0,
-      "0": 3269
+      "0": 3271
     }
   }
 }
