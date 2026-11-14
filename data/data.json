@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:05:28Z",
+  "generated_at": "2026-11-14T13:07:29Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -33,6 +33,54 @@
           "openalex_source_id": "S2764883586",
           "journal_h_index": null,
           "journal_citedness": null,
+          "tier": 0
+        },
+        {
+          "id": "10.1016/j.jenvman.2026.131350",
+          "title": "Host habitat environment and species shape the microbial community of Schizothoracinae fishes on the Qinghai-Tibet Plateau.",
+          "authors": [
+            "Zhang C",
+            "Wang X",
+            "Zhu P",
+            "Gao Q",
+            "Liu D",
+            "Nie M",
+            "Jia J",
+            "Qi D"
+          ],
+          "journal": "Journal of environmental management",
+          "date": "2026-11-13",
+          "doi": "10.1016/j.jenvman.2026.131350",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43025129/",
+          "abstract": "",
+          "track": "A",
+          "source": "PubMed",
+          "openalex_source_id": "S44455300",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Host habitat environment and species shape the microbial community of Schizothoracinae fishes on the Qinghai-Tibet Plateau.",
+          "authors": "Zhang C, Wang X, Zhu P, Gao Q, Liu D, Nie M, Jia J, Qi D.",
+          "journal": "",
+          "date": "2026-11-13",
+          "abstract": "Exploring the microbial diversity of endemic Schizothoracinae fish on the Qinghai-Tibet Plateau and its environmental drivers is critical for the conservation of these vulnerable species and plateau aquatic ecosystem stability. Here, we investigated tissue-specific microbiota of 120 Schizothoracinae individuals (7 species, 4 genera) across four basins in Qinghai, China. Using 16 S rRNA sequencing, we performed alpha diversity analysis, partial least squares path modeling (PLS-PM), constrained PCoA, and regression models to disentangle drivers of microbial variation. Results showed that Proteobacteria (64.26%) and Firmicutes (12.22%) dominated all samples, with gut microbiota showing distinct signatures: lowest Proteobacteria (51.27%), highest Firmicutes (19.20%), and significantly higher alpha diversity compared with the other three tissues. Environmental factors were the primary contributors, with sampling site and host species being the core drivers. Notably, PLS-PM revealed water pH negatively correlated with gut microbial diversity (standardized path coefficient = -0.42, P< 0.001), while constrained PCoA showed sampling site explained the largest variance in gut and skin microbiota. Secondly, constrained PCoA indicated that the variance explained by sampling site was highest in the gut (28.1%) and skin (27.8%). Moreover, geographical distance of sampling sites was the major driving factor affecting the microbiota dissimilarity, and tissue type was also an important factor in closely related species by a least-squares linear regression model and clustering Barplot. Thirdly, the abundance of the top 10 bacteria phyla significantly correlated with water pH, temperature, altitude and body weight, particularly, the abundance of Proteobacteria and Firmicutes increased with rising water pH and temperature.",
+          "url": "https://europepmc.org/article/MED/43025129",
+          "doi": "10.1016/j.jenvman.2026.131350",
+          "pmid": "43025129",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1016/j.jenvman.2026.131350",
+          "source": "europepmc",
+          "track": "A",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
           "tier": 0
         },
         {
@@ -40728,6 +40776,82 @@
           "tier": 0
         },
         {
+          "id": "10.1126/sciadv.aed3856",
+          "title": "An LHX2-DACH1 regulatory innovation drives basal progenitor expansion in the primate neocortex.",
+          "authors": [
+            "Hou PS",
+            "Chuang CY",
+            "Chiu FL",
+            "Yeh CH",
+            "Hung SS",
+            "Wu Q",
+            "Suetsugu T",
+            "Matsuzaki F",
+            "Chou SJ",
+            "Kuo HC"
+          ],
+          "journal": "Science advances",
+          "date": "2026-11-13",
+          "doi": "10.1126/sciadv.aed3856",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43024713/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "is_oa": true,
+          "oa_status": "gold",
+          "openalex_source_id": "S2737427234",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
+        },
+        {
+          "title": "An LHX2-DACH1 regulatory innovation drives basal progenitor expansion in the primate neocortex.",
+          "authors": "Hou PS, Chuang CY, Chiu FL, Yeh CH, Hung SS, Wu Q, Suetsugu T, Matsuzaki F, Chou SJ, Kuo HC.",
+          "journal": "",
+          "date": "2026-11-13",
+          "abstract": "A defining feature of the primate neocortex is an expanded cortical progenitor pool, especially the basal radial glia (bRG), contributing to complex intracortical circuitry underlying higher cognition. Here, a comparative transcriptomic analysis of developing human and mouse neocortical cells identified DACH1 as a transcription factor enriched in human neurogenic RGs. Using both primate ESCs and mouse models, we found an LHX2-DACH1-miR-215-5p program regulating bRG production. DACH1 loss in human cortical progenitors impaired bRG production and shifted neuronal output toward corticospinal neurons, whereas Dach1 depletion in mice had no effect. Conversely, ectopic DACH1 expression in the rodent neocortex induced bRG formation and promoted callosal neuron production. Further, we found that DACH1 is regulated by LHX2 via a primate-evolved enhancer. Introducing this enhancer into mice promoted bRG generation, while its removal in primates impaired bRG production. Mechanistically, DACH1 promotes bRG generation by suppressing miR-215-5p-mediated down-regulation of centromere- and centrosome-related genes. These findings reveal a mechanism by which cortical progenitor expansion shapes the primate cortical connectome for cognitive evolution.",
+          "url": "https://europepmc.org/article/MED/43024713",
+          "doi": "10.1126/sciadv.aed3856",
+          "pmid": "43024713",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aed3856",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "DNA Sequence Differentially Modulates Histone Core and Tail Interactions in Canonical and Centromeric Nucleosomes",
+          "authors": "Ghosh Moulick A, Erhardt S, Kozlowska M.",
+          "journal": "",
+          "date": "2026-11-13",
+          "abstract": "Human centromeric chromatin is a specialized chromatin domain characterized by CENP-A-containing nucleosomes interspersed with canonical histone H3 nucleosomes. It is assembled on tandem repeats of 𝛼-satellite DNA and defines centromere identity. How histone variant identity and DNA sequence jointly shape nucleosome structure and histone-DNA interactions that underpin centromeric chromatin formation remains incompletely understood. Here, we investigate the structural plasticity of the histone core and nucleosomal DNA, histone tail dynamics and DNA-sequence dependent changes for canonical (H3) and centromeric (CENP-A) nucleosomes using the SIRAH coarse-grained molecular dynamics (CG-MD) simulations. Nucleosomes containing 𝛼-satellite positioning sequence (ASP) and Widom 601 DNA sequence are systematically analyzed and compared. Our simulations reveal that the centromeric nucleosome exhibits a more stable histone core with lower structural plasticity and the histone tails engage DNA differently with an overall reduction in the histone-DNA contacts compared to the canonical nucleosome. Further investigation of CENP-N binding to the CENP-A nucleosome demonstrates substantial modulation of nucleosomal DNA dynamics and histone-DNA interactions. Replacing the ASP DNA sequence with the Widom 601 sequence preserves the stability of both types of the histone core while markedly altering histone-tail dynamics. The conformational dynamics of canonical nucleosomes is more strongly affected by the Widom 601 DNA sequence than those of their centromeric counterparts. However, CENP-N binding induces more spatially extensive changes in DNA geometry in Widom 601 than in ASP DNA. Our findings suggest that DNA sequence and histone composition have residue-level differences translating into distinct nucleosome dynamics, which could be among the determinants governing the structural and dynamic properties of centromeric chromatin and its biological function.",
+          "url": "https://doi.org/10.64898/2026.11.12.766163",
+          "doi": "10.64898/2026.11.12.766163",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.64898/2026.11.12.766163",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "oa_status": "green",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Differential DNA methylation profiling of spermatogenesis-associated genes in patients with idiopathic hypospermatogenesis: a hospital-based case-control study",
           "authors": "Sharma N, Singh S, Kumar V, Halder A, Kaushal S, Kumar M, Jain M.",
           "journal": "",
@@ -40793,7 +40917,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 1
+          "tier": 1,
+          "openalex_source_id": "S169236886"
         },
         {
           "title": "Toward a complete diploid chicken genome.",
@@ -40887,6 +41012,65 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13753873?pdf=render",
           "full_text_url": "https://doi.org/10.1083/jcb.202603185",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1016/j.fander.2026.09.596",
+          "title": "Réponse complète sous cobimétinib d’une histiocytose langerhansienne cutanée et vulvaire associée à une leucémie myélomonocytaire",
+          "authors": [
+            "M. Belkacem",
+            "A. Louchez",
+            "E. Obadia",
+            "L. Moreuil",
+            "M. Michel",
+            "S. Berville",
+            "Anne Laure Roupie",
+            "P. Sogni",
+            "Y. Gouyette",
+            "Gwenaël Lorillon",
+            "J. Haroche",
+            "Françoise Plantier",
+            "Pierre Sohier",
+            "N. Dupin",
+            "H. Bugaut"
+          ],
+          "journal": "Annales de Dermatologie et de Vénéréologie - FMC",
+          "date": "2026-11-11",
+          "doi": "10.1016/j.fander.2026.09.596",
+          "url": "https://openalex.org/W7225797637",
+          "abstract": "",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210216760",
+          "source_type": "journal",
+          "source_is_core": false,
+          "is_oa": false,
+          "oa_status": "closed",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Scleredema Diabeticorum Mimicking Systemic Sclerosis in a 75-Year-Old Female: A Case Report.",
+          "authors": "Imran MW, Nawaz SS, Abbasi H, Khurshid F, Khattak W, Iqbal T.",
+          "journal": "",
+          "date": "2026-11-11",
+          "abstract": "Scleredema diabeticorum is a rare sclerosing cutaneous disorder characterized by diffuse, nonpitting, woody skin induration, most commonly occurring in patients with long-standing diabetes mellitus. Its clinical resemblance to systemic sclerosis (SSc) may result in diagnostic confusion, particularly in atypical presentations. We report a 75-year-old woman with a 20-year history of insulin-dependent Type 2 diabetes mellitus who developed progressive, generalized skin thickening. The disease initially involved the lower extremities and subsequently progressed proximally to the trunk, upper limbs, and face, with prominent facial and periorbital involvement and sparing of the hands and feet. She was initially suspected to have SSc because of diffuse skin induration and positive antinuclear antibodies and was treated with corticosteroids. However, the absence of characteristic distal scleroderma features, negative SSc-specific antibody testing, and histopathological findings of marked dermal thickening with broad collagen bundles and mucin deposition supported a diagnosis of scleredema diabeticorum. Management was complicated by diabetic nephropathy and concurrent cardiac disease, requiring individualized immunomodulatory therapy, close monitoring, and optimization of glycemic control. UVA1 phototherapy was attempted but discontinued because of immediate clinical intolerance. The patient subsequently received systemic immunomodulatory treatment with clinical improvement during follow-up. This case highlights the importance of distinguishing scleredema diabeticorum from SSc, particularly when atypical clinical features and positive nonspecific autoantibodies may lead to diagnostic uncertainty. Careful clinical assessment, appropriate serological evaluation, and histopathology are essential for accurate diagnosis and management.",
+          "url": "https://europepmc.org/article/MED/43016990",
+          "doi": "10.1155/crdm/1671656",
+          "pmid": "43016990",
+          "pmcid": "PMC13752714",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13752714?pdf=render",
+          "full_text_url": "https://doi.org/10.1155/crdm/1671656",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -42780,7 +42964,8 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
-          "tier": 0
+          "tier": 0,
+          "openalex_source_id": "S4210187714"
         },
         {
           "title": "Coherence, transformation, and breakdown in living systems: part I — the common higher-order regulatory architecture (CHORA) hypothesis",
@@ -101093,39 +101278,39 @@
     }
   },
   "stats": {
-    "total_count": 3827,
-    "new_this_week": 45,
+    "total_count": 3834,
+    "new_this_week": 47,
     "weekly_trend": [
       {
         "week": "2026-W40",
-        "count": 19
+        "count": 28
       },
       {
         "week": "2026-W41",
-        "count": 31
+        "count": 32
       },
       {
         "week": "2026-W42",
-        "count": 45
+        "count": 40
       },
       {
         "week": "2026-W43",
-        "count": 49
+        "count": 54
       },
       {
         "week": "2026-W44",
-        "count": 56
+        "count": 50
       },
       {
         "week": "2026-W45",
-        "count": 32
+        "count": 34
       }
     ],
     "tier_counts": {
-      "1": 556,
+      "1": 557,
       "2": 0,
       "3": 0,
-      "0": 3271
+      "0": 3277
     }
   }
 }
