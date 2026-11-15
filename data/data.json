@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:07:29Z",
+  "generated_at": "2026-11-15T13:36:47Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -10133,6 +10133,32 @@
           "tier": 0
         },
         {
+          "title": "Sky-lit stage: lunar and solar rhythms shape the acoustic behaviour of marine mammals and fish",
+          "authors": "FW Shabangu, D. Yemane",
+          "journal": "Frontiers in Ecology and Evolution",
+          "date": "2026-11-12",
+          "abstract": "Rhythmic lunar and solar cycles are well recognised to influence the biology, behaviour, physiology, and ecological adaptations of many terrestrial organisms, yet their effects on marine organisms remain poorly understood. In this study, we investigated the influence of lunar and solar rhythms, together with total cloud cover as a light-blocking factor, on the acoustic behaviour of nine vocally active cetacean species, one pinniped species, and one fish species off Antarctica, the sub-Antarctic region, and the west coast of South Africa. These marine organisms exhibited species-, season-, and site-specific behavioural responses to cloud cover, lunar and solar rhythms. Total cloud cover, lunar phase or solar altitude (or, on a few occasions, moonlight intensity/lunar altitude) were the most important predictors of the observed acoustic behaviour. Observed behavioural changes related to light availability were also associated with breeding and migration phenology, communication, foraging and predator-avoidance strategies of the studied animals. On the whole, light availability drives the acoustic ecology and chronobiology of marine mammals and fish, likely as adaptations to their dynamic marine environments. Shifts in acoustic and diving behaviour relative to light availability have conservation implications, as sound production may reflect time spent near the sea surface and increase animals’ vertical risk of ship-strike. These predictable chronobiological patterns provide an empirical foundation for dynamic marine spatial management, suggesting that seasonal vessel slowdowns during dark-sky cycles could significantly reduce anthropogenic ship-strike risk in high-traffic zones like the South African coast.",
+          "url": "https://www.semanticscholar.org/paper/a220734f4d89ebd0d13b07332ee95ed1c9f729e8",
+          "doi": "10.3389/fevo.2026.1918874",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2026.1918874/pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S2597028195",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "10.1007/s10722-026-02974-7",
           "title": "Occurrence and maintenance of non-commercially cultivated Gossypium in Pará, Brazil",
           "authors": [
@@ -10164,6 +10190,28 @@
           "tier": 0
         },
         {
+          "title": "Evolutionary dynamics of chromosomal races in the Japanese allotetraploid spined loach, Cobitis sp. 'yamato' species complex.",
+          "authors": "Oka H, Yashima Y, Uechi T, Fujimoto T, Kitagawa T.",
+          "journal": "",
+          "date": "2026-11-11",
+          "abstract": "The Japanese spined loach, Cobitis sp. 'yamato' species complex (hereafter Yamato spined loach), is an allotetraploid group originating from two diploid Cobitis species hybridization. Although specific regional populations have ancestral 2n = 98, decreases in 2n have been reported, indicating ongoing rediploidization. However, distribution patterns and phylogenetic relationships of each chromosomal race remain unknown. Using conventional cytogenetics, we identified seven 2n values across 45 populations (2n = 80, 82, 86, 90, 92, 94, and 98), including two newly reported karyotypes (2n = 80 and 92). Five races clustered in specific geographical areas, whereas two races (2n = 80 and 90) formed discontinuous distribution ranges. Mitochondrial phylogenies (cytb + ND2) revealed three major clusters with shallow differentiation and ancestral polymorphism retention across races, indicating rapid rediploidization. Races with few chromosomes belonged to derivative clusters, which reflect a gradual chromosome number reduction during Yamato spined loach evolution. Polyphyly within races indicates parallel and independent chromosomal reductions. Flow cytometry showed no positive correlation between chromosome number and relative DNA content, suggesting that karyotype rearrangements, rather than the loss of specific chromosomes, contributed to the decrease in chromosome or fundamental numbers.",
+          "url": "https://europepmc.org/article/MED/43013493",
+          "doi": "10.1371/journal.pone.0351665",
+          "pmid": "43013493",
+          "pmcid": "PMC13754105",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13754105?pdf=render",
+          "full_text_url": "https://doi.org/10.1371/journal.pone.0351665",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "id": "10.1016/j.ympev.2026.108777",
           "title": "Genomic insights into the diversification of the planthopper genus Megamelus in southern South America.",
           "authors": [
@@ -10187,6 +10235,31 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 1
+        },
+        {
+          "title": "Expression Characteristics of Hypoxia Adaptation-Associated Genes in Pastor roseus under Different Altitudinal Conditions.",
+          "authors": "Ran Li, Xi-Xiu Sun, Kun Yang, Jun Lin, Rong Ji et al.",
+          "journal": "Journal of evolutionary biology",
+          "date": "2026-11-10",
+          "abstract": "Pastor roseus is a long-distance migratory bird that arrives annually in May at grasshopper-infested steppes of Xinjiang, characterized by a broad altitudinal gradient, for breeding. The dual physiological stressors of high metabolic demand during breeding and high-altitude hypoxia are key selective pressures driving the evolution of hypoxia adaptation in birds. Hypoxia-inducible factor (HIF) is critical for cellular hypoxia responses, and Prolyl hydroxylase 2 (PHD-2) maintains its homeostatic balance. We examined the molecular basis of hypoxia adaptation by measuring HIF-2α, HIF-1β, and PHD-2 expression via qRT-PCR in whole blood of birds sampled across an altitudinal gradient. Results showed: (1) HIF-2α expression was significantly higher at the WQ and XY sites than at the lowest-altitude HC site (P < 0.05). (2) HIF-1β remained relatively stable, being significantly higher at the highest-altitude (XY) site than in the HC and YN groups (P < 0.05), with no significant differences among the other groups. (3) PHD-2 expression was significantly higher in the YN and HM groups than in the lowest-altitude HC group (P < 0.05), with no significant differences among the other groups or between YN and HM. These findings indicate that HIF-2α, HIF-1β, and PHD-2 show distinct but coordinated expression along the altitudinal gradients of P. roseus breeding habitats, suggesting their potential joint involvement in the hypoxic stress response. This contributes to a deeper understanding of the molecular mechanisms underlying high-altitude hypoxia adaptation and provides a theoretical framework for conserving grasshopper natural enemies and investigating the ecological adaptability of migratory avian species.",
+          "url": "https://www.semanticscholar.org/paper/a208e74b6fa082842d7029086312cae85e170fe5",
+          "doi": "10.1093/jeb/voag123",
+          "pmid": "43008310",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "Findings indicate that HIF-2α, HIF-1β, and PHD-2 show distinct but coordinated expression along the altitudinal gradients of P. roseus breeding habitats, suggesting their potential joint involvement in the hypoxic stress response.",
+          "oa_status": "closed",
+          "openalex_source_id": "S138169916",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.1016/j.xplc.2026.101940",
@@ -10515,6 +10588,32 @@
           "oa_status": "gold",
           "oa_pdf_source": "publisher",
           "openalex_source_id": "S4387287361",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genome evolution in a Tibetan highland catfish reveals chemosensory gene reduction and recent sex chromosome emergence",
+          "authors": "Yuan-Hang Li, Zhi-Bang Wang, He Gao, Lan Chen, Yun-Peng Xiang et al.",
+          "journal": "Journal of Systematics and Evolution",
+          "date": "2026-11-02",
+          "abstract": "Catfishes (order Siluriformes) inhabit diverse aquatic environments worldwide, ranging from tropical lowlands to fast‐flowing mountain rivers. However, the contribution of genomic variation to ecological diversification in catfishes, particularly within high‐altitude lineages, remains poorly understood. Here, we investigated genome evolution in an extreme environment by focusing on\n Glyptosternum maculatum\n , the highest‐altitude‐dwelling catfish known and a basal lineage of Glyptosternoid fishes. We generated a high‐quality, haplotype‐resolved genome assembly using PacBio HiFi and Hi‐C sequencing. The two phased haplotypes span 741.8 Mb and 753.7 Mb, with contig N50 values >4 Mb, representing a substantial improvement in continuity and accuracy over previous assemblies. Comparative genomic analyses revealed significant contraction of gene families associated with G protein‐coupled receptor activity, particularly olfactory receptor (OR) and trace amine‐associated receptor (TAAR) genes. Water‐soluble OR subfamilies showed a pronounced reduction relative to other catfishes, suggesting lineage‐specific remodeling of chemosensory repertoires that may reflect ecological specialization in high‐altitude river systems. Population genetic analyses identified chromosome 11 as the sex chromosome, harboring an ~0.97 Mb sex‐determining region (SDR) consistent with an XX/XY system. The X and Y chromosomes are highly similar and lack evolutionary strata, indicating a young, homomorphic pair. Despite limited sequence divergence, the SDR shows an enrichment of LINE retrotransposons, with evidence of recent transposable element accumulation extending into adjacent regions. Our results provide a chromosome‐level genomic resource for Glyptosternoid fishes and offer new insights into sensory gene evolution and the early dynamics of sex chromosome differentiation in a high‐altitude teleost.",
+          "url": "https://www.semanticscholar.org/paper/d3631600592f5baf629d04790f00af03793d510b",
+          "doi": "10.1111/jse.70119",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jse.70119",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "This work investigates genome evolution in an extreme environment by focusing on Glyptosternum maculatum, the highest‐altitude‐dwelling catfish known and a basal lineage of Glyptosternoid fishes, and provides a chromosome‐level genomic resource for Glyptosternoid fishes.",
+          "oa_status": "bronze",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S56397279",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -10934,6 +11033,30 @@
           "tldr": "It is found that the centromere sizes and relative positions of centromere cores sometimes differ between the two haplotype genomes, suggesting that comparative genomics must incorporate the high-resolution of these dynamic complex regions to fully understand avian genome evolution and genetic complexity.",
           "oa_status": "green",
           "oa_pdf_source": "repository",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Genome-Wide Analysis Reveals Copy Number Variation-Mediated Adaptive Evolution in Chickens Under Diverse Environmental and Domestication Pressures.",
+          "authors": "Y. Song, Lin-Ran Chen, Wen-Qing Lu, Yi Luo, Nai-Yi Xu et al.",
+          "journal": "Animals : an open access journal from MDPI",
+          "date": "2026-10-29",
+          "abstract": "To elucidate the genetic basis underlying chicken adaptation to diverse environmental selection pressures, this study performed a genome-wide analysis of copy number variations (CNVs) using publicly available whole-genome resequencing data from global chicken populations. Population differentiation (FST) and nucleotide diversity (π ratio) were integrated to identify signatures of selection associated with thermal adaptation, domestication, and high-altitude adaptation, followed by the identification of candidate genes and enriched biological pathways. In total, 6862, 9348, and 9384 high-confidence copy number variations (CNVs) were identified in the heat adaptation group, domestication group, and high-altitude adaptation group, respectively. Candidate genes associated with heat adaptation include AQP9, SLC4A8, CAT, SMPD2, and CLOCK, which are mainly enriched in biological processes related to water and ion homeostasis, antioxidant defense, and circadian rhythm regulation. Candidate genes related to domestication, such as IL18R1, HTR2C, GRIN2A, PRKAG2, and FABP1, are mainly involved in neuroactive ligand-receptor interaction, energy metabolism, immune regulation, and melanogenesis. In contrast, candidate genes identified in high-altitude populations include EDNRB, ITPR1, OGDH, PPARA, and ADCY6, which are significantly enriched in vascular smooth muscle contraction, the tricarboxylic acid (TCA) cycle, the PPAR signaling pathway, and pathways related to hypoxic metabolic adaptation. The above findings indicate that distinct environmental selection pressures and artificial selection pressures have shaped population-specific CNV patterns in the chicken genome and promoted the formation of phenotypic adaptation through regulating water-salt balance, neural function, energy metabolism, vascular homeostasis, and hypoxic response pathways.",
+          "url": "https://www.semanticscholar.org/paper/e5a5e4219d16ad50e21da8c2844dd2f77169689d",
+          "doi": "10.3390/ani16213424",
+          "pmid": "43027155",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "Findings indicate that distinct environmental selection pressures and artificial selection pressures have shaped population-specific CNV patterns in the chicken genome and promoted the formation of phenotypic adaptation through regulating water-salt balance, neural function, energy metabolism, vascular homeostasis, and hypoxic response pathways.",
+          "oa_status": "gold",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -14625,6 +14748,31 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Surface Micromorphology of Oropharyngeal Structures in Schizopyge niger (Heckel, 1838): A SEM Study of Feeding Adaptations in a Coldwater Himalayan Fish",
+          "authors": "Syeda Bareeha Shah, S. T. Mushtaq, T. H. Shah, F. A. Bhat, Aziz-ul-Rehman et al.",
+          "journal": "Proceedings of the National Academy of Sciences, India Section B: Biological Sciences",
+          "date": "2026-08-22",
+          "abstract": "",
+          "url": "https://www.semanticscholar.org/paper/97759e02d5fb04553be694a2fa924f35d931c341",
+          "doi": "10.1007/s40011-026-01816-x",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "Detailed microstructural evidence is provided supporting the mechanical and sensory adaptations of S. niger for effective feeding in turbulent, rocky freshwater habitats.",
+          "oa_status": "closed",
+          "openalex_source_id": "S4210190533",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
           "tier": 0
         },
         {
@@ -19049,6 +19197,32 @@
           "journal_citedness": null,
           "tier": 0,
           "is_fish": false
+        },
+        {
+          "title": "A reference mitogenome for the yellow-tailed woolly monkey (Lagothrix flavicauda) using Oxford Nanopore sequencing shows no evidence for adaptation to high elevations",
+          "authors": "Melissa A. Zarate, S. Shanee, F. Cornejo, A. Di Fiore, C. Schmitt",
+          "journal": "BMC Genomics",
+          "date": "2026-08-06",
+          "abstract": "Species inhabiting high-elevation environments face energetic and physiological challenges, creating opportunities for adaptive divergence from lowland taxa. The yellow-tailed woolly monkey (Lagothrix flavicauda), a Critically Endangered primate endemic to high-elevation forests in Andean Perú, provides a unique system for investigating the evolutionary consequences of long-term occupation of high elevations. We used Oxford Nanopore Technology (ONT) to generate a high-coverage mitochondrial reference genome using low-quality fecal samples. Using this and a new mitogenome from a closely-related lowland common woolly monkey (L. lagotricha poeppigii), we estimated divergence dates and calculated substitution ratios to investigate the evolutionary history of both Lagothrix taxa and assess whether high-elevation living has left signatures of selection in the mitochondrial oxidative phosphorylation genes of L. flavicauda. We assembled a high-coverage (9190X) reference mitogenome of 16,603 bp for L. flavicauda from a 15-year-old fecal sample, and a novel mitogenome for L. lagotricha poeppigii from fresh tissue (112X, 16,590 bp). Our phylogenetic reconstruction is consistent with other platyrrhine primate phylogenies with high bootstrap support, with the two Lagothrix taxa showing evidence of having diverged from one another ~ 2.8 million years ago. Substitution (dN/dS) ratios suggest purifying selection on protein-coding mitogenomic regions in all assessed lineages. We found no evidence of positive selection acting on mitochondrial protein-coding genes in either L. flavicauda or the broader genus Lagothrix; all analyses instead support pervasive purifying selection across genes involved in oxidative phosphorylation. These results suggest that unlike in some other non-human primates occupying high elevations, the adaptive response of L. flavicauda to living in the Andes does not appear to involve evolution in the mitochondrial oxidative phosphorylation pathway, and likely involves alternative genetic pathways or mechanisms not captured by mitochondrial sequence evolution. By providing the first publicly available high-coverage mitochondrial genome for L. flavicauda, this study establishes a foundation for future population mitogenomic investigations of adaptation, evolutionary history, and conservation in this Critically Endangered, high-altitude primate.",
+          "url": "https://www.semanticscholar.org/paper/e992360c8ecf2ec6d3cbdeaf9dd3cc1614eb6c81",
+          "doi": "10.1186/s12864-026-13250-4",
+          "pmid": "42972244",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13729675/pdf/12864_2026_Article_13250.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "The results suggest that unlike in some other non-human primates occupying high elevations, the adaptive response of L. flavicauda to living in the Andes does not appear to involve evolution in the mitochondrial oxidative phosphorylation pathway, and likely involves alternative genetic pathways or mechanisms not captured by mitochondrial sequence evolution.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S28614077",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
         },
         {
           "id": "10.1038/s41597-026-08016-2",
@@ -94743,6 +94917,37 @@
           "tier": 0
         },
         {
+          "id": "10.1186/s13293-026-01022-4",
+          "title": "W chromosome copy number is associated with DNA methylation remodeling and steroid hormone metabolism in the gonads of sterlets (Acipenser ruthenus)",
+          "authors": [
+            "Ruoyu Wang",
+            "Yutao Li",
+            "Yingjie Lian",
+            "Xiaoge Ning",
+            "Bo Ma",
+            "Dingchen Cao",
+            "Jiahao Wang",
+            "Xianhu Zheng",
+            "Ying Zhang"
+          ],
+          "journal": "Biology of Sex Differences",
+          "date": "2026-11-13",
+          "doi": "10.1186/s13293-026-01022-4",
+          "url": "https://openalex.org/W7226032098",
+          "abstract": "Abstract In sturgeons with a ZZ/ZW sex chromosome system, the W chromosome is female-specific and is closely associated with sex determination and gonadal differentiation. However, the mechanisms by which the W chromosome regulates gonadal differentiation remain largely unknown. In this study, gynogenetic diploid sterlets (Acipenser ruthenus) with three W chromosome copy number genotypes, ZZ, ZW, and WW, were used to characterize molecular differences associated with W chromosome copy number in the gonads. Histological analysis showed that ZZ individuals exhibited testicular characteristics, whereas both ZW and WW individuals displayed typical ovarian morphology. Genome-wide DNA methylation analysis revealed distinct methylation patterns among the three genotypes despite similar global CpG methylation levels. Transcriptomic analysis further revealed distinct gene expression profiles among the three genotypes, with differentially expressed genes commonly enriched in the Steroid hormone biosynthesis pathway. Several genes involved in steroid hormone biosynthesis and metabolism, including hsd17b7, hsd17b2, hsd17b12-b, hsd3b, cyp17a1, comt, and srd5a3, showed progressively increased expression with increasing W chromosome copy number. Integration of promoter DNA methylation and gene expression identified a subset of genes exhibiting coordinated methylation and transcriptional changes, which were mainly involved in lipid metabolic processes closely related to steroid hormone biosynthesis. Together, these results reveal distinct DNA methylation and gene expression patterns associated with W chromosome copy number, with coordinated molecular changes involving lipid metabolism and steroid hormone biosynthesis. These findings provide new insights into the transcriptional and epigenetic regulation associated with W chromosome copy number in sturgeon gonads, offering a comparative perspective on the evolution of sex differentiation mechanisms between chondrosteans and teleosts.",
+          "track": "E",
+          "source": "OpenAlex",
+          "openalex_source_id": "S184776610",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
           "title": "Vertebrate paired fins are specified by an ancient dorso-ventral patterning system.",
           "authors": "Dale RE, Berger S, Alaei S, Davis MC, Tulenko FJ, Currie PD.",
           "journal": "",
@@ -94931,6 +95136,31 @@
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "A chromosome-level genome assembly of Amaranthus spinosus provides insights into its evolution and invasion.",
+          "authors": "Ya-Dong Deng, Li-Jun Cao, Zi'en Cheng, Shao-Ting Wei, Yi-Hao Chen et al.",
+          "journal": "Pest management science",
+          "date": "2026-10-22",
+          "abstract": "BACKGROUND\nSeveral Amaranthus species native to the Americas have become widespread invasive weeds, posing threats to agricultural production and ecosystems worldwide. Amaranthus spinosus is a tropical America weed that has established populations across tropical, subtropical, and warm-temperate regions. However, limited genomic resources have constrained our understanding of its invasion history and adaptive evolution.\n\n\nRESULTS\nWe generated a chromosome-level genome assembly of Amaranthus spinosus comprising 17 chromosomes, with a genome size of 420.11 Mb and 98.0% BUSCO completeness. Comparative genomics analyses identified Amaranthus palmeri as the closest relative and revealed expansion of cytochrome P450 (P450), UDP-glycosyltransferase (UGT), and glutathione S-transferase (GST) gene families, which may contribute to environmental adaptation. A genus-level pan-genome of eight Amaranthus species identified 24 274 orthologous gene families, including 13 410 common, 9366 dispensable, and 1498 species-specific orthogroups. Genome-wide single nucleotide polymorphisms (SNPs) analysis of 61 accessions from five geographic regions identified six genetic subpopulations, including two strongly differentiated subpopulations within the United States (USA-1 and USA-2). Demographic history inferred from genome-wide SNPs supported an invasion history originating in the Americas, followed by spread to China and Zimbabwe and subsequently dispersal to Kenya. Selective sweep analyses identified candidate genes involved in environmental adaptation, with the two Africa populations showing enrichment of adenosine triphosphate (ATP) binding cassette (ABC) transporters and stress-response genes.\n\n\nCONCLUSION\nThe chromosome-level genome and genome-wide SNPs generated in this study provides insights into the invasion history and adaptive evolution of Amaranthus spinosus. These resources establish a valuable foundation for functional investigation of invasive traits and may facilitate the development of genomics-informed strategies for monitoring and managing invasive Amaranthus weeds. © 2026 Society of Chemical Industry.",
+          "url": "https://www.semanticscholar.org/paper/6308e27262c214bc08ec38a0f02e518c8e24251e",
+          "doi": "10.1002/ps.71410",
+          "pmid": "42921958",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ps.71410",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 0,
+          "tldr": "The chromosome-level genome and genome-wide SNPs generated in this study provides insights into the invasion history and adaptive evolution of Amaranthus spinosus and may facilitate the development of genomics-informed strategies for monitoring and managing invasive Amaranthus weeds.",
+          "oa_status": "bronze",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
           "tier": 0
         },
         {
@@ -98338,6 +98568,31 @@
           "tier": 0
         },
         {
+          "title": "Near chromosome-level genome assembly of Neomusotima conspurcatalis gives insights into the evolution of moth genome architecture and fern-insect interactions.",
+          "authors": "Jessie A. Pelosi, Taylor R. Curry, Abby R. Pearse, Melissa C. Smith, Katrina M. Dlugosch",
+          "journal": "G3",
+          "date": "2026-03-18",
+          "abstract": "Plant-insect interactions are the foundation of ecosystems globally, yet we are still determining the underlying mechanisms through which these relationships evolve. The co-evolution between insects and their host plants should shape the genomes of both partners, and genes involved in interaction specificity should show unique genomic signatures (e.g., rapid evolution, gene family expansions). Biological control programs are an excellent system for disentangling the genomics and molecular biology of the establishment of an insect and its host plant specificity. Fern-insect relationships are among the most poorly understood, and ferns have long been thought to have few interactions with insects, although recent evidence suggests that these relationships are under-sampled and under-studied. Here, we present a near-chromosome level genome assembly of the crambid moth Neomusotima conspurcatalis, a biological control agent employed in the management of the invasive vining fern Lygodium microphyllum. We use this novel genomic resource to 1) investigate the relationships among the Crambidae using genome-wide sequences and genome structure and 2) examine gene family evolution across this phylogeny. Our results reveal highly conserved genome structure across this family of moths, and expansions in odorant receptor gene families that may be involved in the highly specific interaction of N. conspurcatalis with L. microphyllum. This work highlights the utility of genomics in biological control, and the utility of biological control in informing fundamental understanding of plant-insect interactions.",
+          "url": "https://www.semanticscholar.org/paper/a866c54e595f4bc5e3552720d897916623483f70",
+          "doi": "10.1093/g3journal/jkag065",
+          "pmid": "41845186",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/12/19/2025.12.17.694975.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 1,
+          "tldr": "A near-chromosome level genome assembly of the crambid moth Neomusotima conspurcatalis is presented, a biological control agent employed in the management of the invasive vining fern Lygodium microphyllum, and highly conserved genome structure is revealed across this family of moths.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "A chromosome-level genome assembly of two-spotted cricket, Gryllus bimaculatus (Orthoptera: Grylloidea)",
           "authors": "Xia Li, Yuan-Yuan Wang, Cheng-Wei Lu, Tingting Lu, He-Tan Chang et al.",
           "journal": "Scientific Data",
@@ -101037,6 +101292,31 @@
           "tier": 1
         },
         {
+          "title": "Chromosome-level genome assembly of Tadehagi triquetrum provides new insights into genome evolution and biosynthesis of tadehaginoside",
+          "authors": "Yong-Jiang Luo, Ru Wang, Daoshou Qiu",
+          "journal": "Plant Diversity",
+          "date": "2026-01-01",
+          "abstract": "Highlights • First chromosome-level genome of Tadehagi triquetrum (627.33 Mb, contig N50 = 34.04 Mb, 99.2% BUSCO).• Phylogenomics places T. triquetrum sister to soybean, diverged ～34.16 Mya.• Identification and characterization of TtHCT1 reveals tadehaginoside biosynthetic step.",
+          "url": "https://www.semanticscholar.org/paper/5c44c567b7ba73826a010a642c79851ae1567b88",
+          "doi": "10.1016/j.pld.2025.12.017",
+          "pmid": "42539735",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13424416/pdf/main.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "E",
+          "cited_by_count": 1,
+          "tldr": "First chromosome-level genome of Tadehagi triquetrum reveals tadehaginoside biosynthetic step and identification and characterization of TtHCT1 reveals tadehaginoside biosynthetic step.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Characterization of the allele pool of Siberian sturgeon (Acipenser baerii B.) bred in Russia using an optimized multiplex panel of microsatellite loci",
           "authors": "A. K. Nikipelova, A. Dotsev, N. Bardukov, V. I. Nikipelov, A. A. Belous",
           "journal": "Вестник Пермского университета. Серия «Биология»=Bulletin of Perm University. Biology",
@@ -101278,24 +101558,24 @@
     }
   },
   "stats": {
-    "total_count": 3834,
+    "total_count": 3845,
     "new_this_week": 47,
     "weekly_trend": [
       {
         "week": "2026-W40",
-        "count": 28
+        "count": 29
       },
       {
         "week": "2026-W41",
-        "count": 32
+        "count": 30
       },
       {
         "week": "2026-W42",
-        "count": 40
+        "count": 46
       },
       {
         "week": "2026-W43",
-        "count": 54
+        "count": 55
       },
       {
         "week": "2026-W44",
@@ -101310,7 +101590,7 @@
       "1": 557,
       "2": 0,
       "3": 0,
-      "0": 3277
+      "0": 3288
     }
   }
 }
