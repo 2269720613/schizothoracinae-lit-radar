@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:36:47Z",
+  "generated_at": "2026-11-16T15:06:50Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -40950,6 +40950,87 @@
           "tier": 0
         },
         {
+          "id": "10.1093/aob/mcag359",
+          "title": "Roses (Rosa L.) as a model for hybridisation, polyploidy and reproductive evolution.",
+          "authors": [
+            "Lunerová J",
+            "Marques A",
+            "Ritz CM"
+          ],
+          "journal": "Annals of botany",
+          "date": "2026-11-16",
+          "doi": "10.1093/aob/mcag359",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43036258/",
+          "abstract": "",
+          "track": "C",
+          "source": "PubMed",
+          "openalex_source_id": "S2254258",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Roses (Rosa L.) as a model for hybridisation, polyploidy and reproductive evolution.",
+          "authors": "Lunerová J, Marques A, Ritz CM.",
+          "journal": "",
+          "date": "2026-11-16",
+          "abstract": "Because of their large, beautiful flowers, wild rose species have always fascinated people and are the source of countless cultivated rose varieties. Both the natural and the human-influenced evolution of rose diversity have been strongly shaped by polyploidy and hybridisation. These mechanisms have not only influenced the evolution of morphological diversity but have also driven the evolution of a great variety of reproductive systems including apomixis and the hemisexual system in dogroses, which is based on the unique Canina meiosis. Since roses are the subject of considerable interest among both botanists and breeders, and because increased efforts in high-throughput sequencing have significantly expanded the available data on rose genomes, we summarise the current state of knowledge regarding phylogenetic relationships within the genus and place this in the context of hybridisation and polyploidy. We describe the diversity of reproductive systems and place particular emphasis on chromosome pairing in the hemisexual dogroses. Although the available rose genomes exhibit a relatively high degree of conservation, chromosome structure, particularly centromere organisation, could influence meiotic behaviour and, consequently, sexual reproduction. The new insights gained regarding phylogeny, reproduction, and genome evolution now open up new possibilities for using roses as a model to understand the evolution of sexual reproduction systems in plants. We discuss how reproduction and meiosis are influenced by chromosome structure.",
+          "url": "https://europepmc.org/article/MED/43036258",
+          "doi": "10.1093/aob/mcag359",
+          "pmid": "43036258",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "https://doi.org/10.1093/aob/mcag359",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "id": "10.1038/s41422-026-01319-4",
+          "title": "A gap-free telomere-to-telomere pig reference genome provides insights into Eurasian pig diversity",
+          "authors": [
+            "Dong Li",
+            "Yulong Wang",
+            "Tiantian Yuan",
+            "Xiang Li",
+            "Yu Quan",
+            "Xuekai Tian",
+            "Wansheng Liu",
+            "Kyle M. Schachtschneider",
+            "Lawrence B. Schook",
+            "Richard P. M. A. Crooijmans",
+            "Rongrong Ding",
+            "Martien A. M. Groenen",
+            "Martijn F. L. Derks",
+            "Taiyong Yu"
+          ],
+          "journal": "Cell Research",
+          "date": "2026-11-14",
+          "doi": "10.1038/s41422-026-01319-4",
+          "url": "https://openalex.org/W4415823237",
+          "abstract": "Abstract The domestic pig is a key agricultural species and biomedical model, yet its reference genome has remained incomplete. Using PacBio HiFi, Oxford Nanopore reads, and Hi-C sequencing, we assembled the first telomere-to-telomere (T2T), gap-free pig genome (T2T-Sscrofa). Importantly, this assembly derives from the same individual pig that provided the original reference genome, thereby completing the long-standing foundation of pig genomics. This assembly resolves 274.8 Mb of previously unassembled sequence, including centromeres, segmental duplications, and ribosomal DNA arrays, and identifies 255 new protein-coding genes. Comparative analyses reveal a Robertsonian translocation in the western European wild boar and extensive structural variation across global pig populations. T2T-Sscrofa provides a comprehensive genomic foundation for agricultural, evolutionary, and biomedical research.",
+          "track": "C",
+          "source": "OpenAlex",
+          "openalex_source_id": "S128296271",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "pdf_url": "https://www.nature.com/articles/s41422-026-01319-4.pdf",
+          "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1126/sciadv.aed3856",
           "title": "An LHX2-DACH1 regulatory innovation drives basal progenitor expansion in the primate neocortex.",
           "authors": [
@@ -45132,6 +45213,31 @@
           "tldr": "These findings reveal separable roles for TOPBP1 in chromosome organization and centromere destabilization, showing how a protective genome surveillance pathway can instead drive chromosome instability in an inviable hybrid.",
           "oa_status": "green",
           "oa_pdf_source": "repository",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Satellite DNA evolution in Tytonidae (Aves: Strigiformes): dynamic repeat landscapes despite conserved karyotypes",
+          "authors": "Felipe Lagreca Bitencourt, G. A. Toma, L. Pozzobon, Victor Cruz Cuervo, R. Utsunomia et al.",
+          "journal": "Chromosome Research",
+          "date": "2026-09-17",
+          "abstract": "The elevated chromosome numbers observed in Tytonidae relative to the putative ancestral avian karyotype suggest that lineage-specific chromosomal fissions may have played an important role in the evolutionary history of this family. Here, we provide the first cytogenetic characterization of the American barn owl (Tyto furcata) and performs a comparative repeatome analysis across members of the Tytonidae, including other two species, the Western barn owl (Tyto alba), and the Oriental bay owl (Phodilus badius). The karyotype of T. furcata showed a 2n = 92, closely resembling that previously described for T. alba, indicating a high degree of chromosomal conservation within Tytonidae. Although T. furcata and T. alba exhibit similar karyotypic organization, comparative repeatomic analyses revealed differences in their composition, including variation in satellite DNA (satDNA) repertoires and abundance. Eight satDNA families were identified in T. furcata, nine in T. alba, and 28 in P. badius, highlighting the dynamic evolution of repetitive sequences. Several satDNA families were shared between T. furcata and T. alba, whereas some appeared species-specific, supporting the library hypothesis of satDNA evolution. In P. badius, multiple satDNAs exhibited similarity to transposable elements, suggesting that mobile elements contributed to their diversification. Cytogenetic analyses demonstrated centromeric heterochromatin distribution in T. furcata, as well as a large heterochromatic W chromosome enriched in DNA repeats. The localization of satDNAs in centromeric regions and the apparent accumulation of repeats on the W chromosome reinforce the role of repetitive sequences in chromosome organization and sex chromosome differentiation. Together, these findings reveal repeatome diversification despite conserved macrochromosomal structure and provide new insights into genome evolution and chromosomal dynamics in birds.",
+          "url": "https://www.semanticscholar.org/paper/c6eead92d48e1878432dad6d42903c5d97d28b42",
+          "doi": "10.1007/s10577-026-09817-2",
+          "pmid": "42749948",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10577-026-09817-2.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "C",
+          "cited_by_count": 1,
+          "tldr": "The first cytogenetic characterization of the American barn owl (Tyto furcata) is provided and a comparative repeatome analysis across members of the Tytonidae, including other two species, the Western barn owl (Tyto alba) and the Oriental bay owl, is performed to provide new insights into genome evolution and chromosomal dynamics in birds.",
+          "oa_status": "hybrid",
+          "oa_pdf_source": "publisher",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -101558,39 +101664,39 @@
     }
   },
   "stats": {
-    "total_count": 3845,
-    "new_this_week": 47,
+    "total_count": 3849,
+    "new_this_week": 50,
     "weekly_trend": [
       {
-        "week": "2026-W40",
-        "count": 29
-      },
-      {
         "week": "2026-W41",
-        "count": 30
+        "count": 28
       },
       {
         "week": "2026-W42",
-        "count": 46
+        "count": 32
       },
       {
         "week": "2026-W43",
-        "count": 55
+        "count": 45
       },
       {
         "week": "2026-W44",
-        "count": 50
+        "count": 71
       },
       {
         "week": "2026-W45",
-        "count": 34
+        "count": 33
+      },
+      {
+        "week": "2026-W46",
+        "count": 35
       }
     ],
     "tier_counts": {
       "1": 557,
       "2": 0,
       "3": 0,
-      "0": 3288
+      "0": 3292
     }
   }
 }
