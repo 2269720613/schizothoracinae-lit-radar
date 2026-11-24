@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T17:35:54Z",
+  "generated_at": "2026-11-24T17:06:33Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -49,6 +49,35 @@
           "doi": "10.3390/ani16223694",
           "url": "https://openalex.org/W7237119204",
           "abstract": "Fulvic acid (FA), a low-molecular-weight fraction of humic substances, is increasingly used as a natural growth-promoting additive in aquaculture, but the molecular mechanisms underlying its effects on fish metabolism remain poorly understood. A preliminary 120-day dose-selection trial with 0, 0.4%, 0.8%, 1.2%, and 1.6% dietary FA identified 1.2% as the optimal inclusion level. In the subsequent main trial, 300 juvenile Schizothorax wangchiachii (initial body weight 3.87 ± 1.76 g) were randomly assigned to six indoor tanks (50 fish per tank, three replicate tanks per treatment) and fed either a control diet (CT) or the same diet supplemented with 1.2% FA (HC) three times daily at 2–3% of tank biomass for 120 days. Growth performance was recorded from ten fish per tank (n = 30 per treatment), and the hepatopancreatic transcriptomes of the two groups were compared using RNA sequencing (RNA-Seq) of six cDNA libraries (three pooled samples per treatment, each pool comprising the hepatopancreas of five fish from one replicate tank). Fish fed the HC diet achieved a weight gain rate (WGR) of 518.05 ± 110.67%, which was significantly higher than that of the CT group (285.00 ± 75.15%, p < 0.001), with no significant difference in survival rate (86.00 ± 2.00% vs. 88.00 ± 2.00%, p = 0.288). Sequencing yielded 39.66 Gb of clean data (Q30 > 92%) and 41,771 unigenes with an average length of 1321 bp. A total of 6583 differentially expressed genes (DEGs) were identified (|log2FC| > 1 and q < 0.05), of which 3049 were up-regulated and 3534 were down-regulated in the HC group. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses showed that the DEGs were predominantly involved in carbohydrate metabolism, energy metabolism, amino acid metabolism, and lipid metabolism. The DEGs related to glycolysis/gluconeogenesis, the tricarboxylic acid cycle, oxidative phosphorylation, fatty acid elongation and degradation, and the pentose phosphate pathway were mostly up-regulated in the HC group, whereas several genes involved in amino acid catabolism, such as aspartate aminotransferase, glutaminase, and arginase-1, were down-regulated. Quantitative real-time PCR (qRT-PCR) validation of eight randomly selected DEGs confirmed the reliability of the RNA-Seq data. Our results indicate that dietary FA promotes the growth of S. wangchiachii by enhancing hepatic nutrient oxidation and energy production, and provide new insights into the molecular basis of FA as a functional feed additive in cold-water fish aquaculture.",
+          "track": "A",
+          "source": "OpenAlex",
+          "openalex_source_id": "S4210168508",
+          "source_type": "journal",
+          "source_is_core": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "id": "10.3390/ani16223699",
+          "title": "Non-Invasive Quantification of Fine-Scale Behaviour in Gymnocypris eckloni Along a Warming Gradient",
+          "authors": [
+            "Chao Ma",
+            "He Gao",
+            "X H Chen",
+            "Junting Li",
+            "Zhaofang Han",
+            "C. Zhou",
+            "Haiping Liu"
+          ],
+          "journal": "Animals",
+          "date": "2026-11-20",
+          "doi": "10.3390/ani16223699",
+          "url": "https://openalex.org/W7116778311",
+          "abstract": "Video analysis can quantify fish movement under different temperature conditions. We recorded 15 Gymnocypris eckloni individually at 16, 19, 21, 23 and 25 °C after 24 h at the target temperature. A YOLO11n detector was trained on images from eight recordings, partitioned chronologically into 2891 training images and 635 validation images, with 246 intervening images held out as a guard zone. The chronological validation yielded an mAP50 of 0.876; a separate leave-one-fish-out evaluation yielded mean mAP50 values of 0.721–0.741 across three random seeds. The model used for behavioural measurements was selected using chronological validation. Whole-fish box centres were used to calculate projected trajectories and movement measures, and regional detection states were converted to opercular, pectoral-fin and caudal-peduncle event counts. Model positions at one-second intervals and event counts in 10-s windows were compared with manual observations from 03:00 to 06:00. Across the five temperature groups, mean projected speeds ranged from 3.32 to 7.44 cm/s. The workflow produced whole-fish and regional movement measurements from the same recordings.",
           "track": "A",
           "source": "OpenAlex",
           "openalex_source_id": "S4210168508",
@@ -10014,6 +10043,29 @@
       ],
       "papers": [
         {
+          "id": "10.1016/j.biotechadv.2026.109077",
+          "title": "Evolutionary logic and biotechnological potential of alternative splicing in higher eukaryotes: Comparative insights from plants and animals.",
+          "authors": [
+            "Zhou Z",
+            "Cho IH",
+            "Kadam US"
+          ],
+          "journal": "Biotechnology advances",
+          "date": "2027-01-01",
+          "doi": "10.1016/j.biotechadv.2026.109077",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42880429/",
+          "abstract": "",
+          "track": "B",
+          "source": "PubMed",
+          "is_oa": false,
+          "oa_status": "closed",
+          "openalex_source_id": "S160877137",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "id": "10.1016/j.ympev.2026.108702",
           "title": "Introgression shapes the genomic conflict landscape of Malus, providing evidence for a reticulate backbone in a woody crop lineage.",
           "authors": [
@@ -10372,6 +10424,28 @@
           "in_pmc": true,
           "pdf_url": "",
           "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13788144/?tool=EBI",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "World Congress on Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (WCO-IOF-ESCEO 2026).",
+          "authors": "",
+          "journal": "",
+          "date": "2026-11-20",
+          "abstract": "",
+          "url": "https://europepmc.org/article/MED/43064873",
+          "doi": "10.1007/s40520-026-03479-0",
+          "pmid": "43064873",
+          "pmcid": "PMC13788168",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13788168?pdf=render",
+          "full_text_url": "https://doi.org/10.1007/s40520-026-03479-0",
           "source": "europepmc",
           "track": "B",
           "cited_by_count": 0,
@@ -41476,6 +41550,28 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13788075?pdf=render",
           "full_text_url": "https://doi.org/10.1007/s10577-026-09827-0",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "World Congress on Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (WCO-IOF-ESCEO 2026).",
+          "authors": "",
+          "journal": "",
+          "date": "2026-11-20",
+          "abstract": "",
+          "url": "https://europepmc.org/article/MED/43064873",
+          "doi": "10.1007/s40520-026-03479-0",
+          "pmid": "43064873",
+          "pmcid": "PMC13788168",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13788168?pdf=render",
+          "full_text_url": "https://doi.org/10.1007/s40520-026-03479-0",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -103837,39 +103933,39 @@
     }
   },
   "stats": {
-    "total_count": 3926,
-    "new_this_week": 43,
+    "total_count": 3929,
+    "new_this_week": 38,
     "weekly_trend": [
       {
         "week": "2026-W42",
-        "count": 32
+        "count": 34
       },
       {
         "week": "2026-W43",
-        "count": 45
+        "count": 46
       },
       {
         "week": "2026-W44",
-        "count": 72
+        "count": 69
       },
       {
         "week": "2026-W45",
-        "count": 33
+        "count": 30
       },
       {
         "week": "2026-W46",
-        "count": 43
+        "count": 47
       },
       {
         "week": "2026-W47",
-        "count": 26
+        "count": 20
       }
     ],
     "tier_counts": {
       "1": 560,
       "2": 0,
       "3": 0,
-      "0": 3366
+      "0": 3369
     }
   }
 }
