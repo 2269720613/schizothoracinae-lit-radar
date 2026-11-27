@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:32:30Z",
+  "generated_at": "2026-11-27T16:18:47Z",
   "tracks": {
     "A": {
       "label": "裂腹鱼亚科物种精确检索",
@@ -175,6 +175,50 @@
           "track": "A",
           "cited_by_count": 0,
           "oa_status": "gold",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Dietary Supplementation with 1.2% Fulvic Acid Improves Growth Performance and Reshapes the Hepatopancreatic Transcriptome of the Cold-Water Cyprinid &lt;i&gt;Schizothorax wangchiachii&lt;/i&gt;.",
+          "authors": "Zhou J, Dong Y, Qi D, Zhao J.",
+          "journal": "",
+          "date": "2026-11-20",
+          "abstract": "Fulvic acid (FA), a low-molecular-weight fraction of humic substances, is increasingly used as a natural growth-promoting additive in aquaculture, but the molecular mechanisms underlying its effects on fish metabolism remain poorly understood. A preliminary 120-day dose-selection trial with 0, 0.4%, 0.8%, 1.2%, and 1.6% dietary FA identified 1.2% as the optimal inclusion level. In the subsequent main trial, 300 juvenile <i>Schizothorax wangchiachii</i> (initial body weight 3.87 ± 1.76 g) were randomly assigned to six indoor tanks (50 fish per tank, three replicate tanks per treatment) and fed either a control diet (CT) or the same diet supplemented with 1.2% FA (HC) three times daily at 2-3% of tank biomass for 120 days. Growth performance was recorded from ten fish per tank (<i>n</i> = 30 per treatment), and the hepatopancreatic transcriptomes of the two groups were compared using RNA sequencing (RNA-Seq) of six cDNA libraries (three pooled samples per treatment, each pool comprising the hepatopancreas of five fish from one replicate tank). Fish fed the HC diet achieved a weight gain rate (WGR) of 518.05 ± 110.67%, which was significantly higher than that of the CT group (285.00 ± 75.15%, <i>p</i> < 0.001), with no significant difference in survival rate (86.00 ± 2.00% vs. 88.00 ± 2.00%, <i>p</i> = 0.288). Sequencing yielded 39.66 Gb of clean data (Q30 > 92%) and 41,771 unigenes with an average length of 1321 bp. A total of 6583 differentially expressed genes (DEGs) were identified (|log2FC| > 1 and q < 0.05), of which 3049 were up-regulated and 3534 were down-regulated in the HC group. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses showed that the DEGs were predominantly involved in carbohydrate metabolism, energy metabolism, amino acid metabolism, and lipid metabolism. The DEGs related to glycolysis/gluconeogenesis, the tricarboxylic acid cycle, oxidative phosphorylation, fatty acid elongation and degradation, and the pentose phosphate pathway were mostly up-regulated in the HC group, whereas several genes involved in amino acid catabolism, such as aspartate aminotransferase, glutaminase, and arginase-1, were down-regulated. Quantitative real-time PCR (qRT-PCR) validation of eight randomly selected DEGs confirmed the reliability of the RNA-Seq data. Our results indicate that dietary FA promotes the growth of <i>S. wangchiachii</i> by enhancing hepatic nutrient oxidation and energy production, and provide new insights into the molecular basis of FA as a functional feed additive in cold-water fish aquaculture.",
+          "url": "https://europepmc.org/article/MED/43087658",
+          "doi": "10.3390/ani16223694",
+          "pmid": "43087658",
+          "pmcid": "PMC13798961",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13798961?pdf=render",
+          "full_text_url": "https://doi.org/10.3390/ani16223694",
+          "source": "europepmc",
+          "track": "A",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": true,
+          "tier": 0
+        },
+        {
+          "title": "Non-Invasive Quantification of Fine-Scale Behaviour in &lt;i&gt;Gymnocypris eckloni&lt;/i&gt; Along a Warming Gradient.",
+          "authors": "Ma C, Gao H, Chen X, Li J, Han Z, Zhou C, Liu H.",
+          "journal": "",
+          "date": "2026-11-20",
+          "abstract": "Video analysis can quantify fish movement under different temperature conditions. We recorded 15 <i>Gymnocypris eckloni</i> individually at 16, 19, 21, 23 and 25 °C after 24 h at the target temperature. A YOLO11n detector was trained on images from eight recordings, partitioned chronologically into 2891 training images and 635 validation images, with 246 intervening images held out as a guard zone. The chronological validation yielded an mAP50 of 0.876; a separate leave-one-fish-out evaluation yielded mean mAP50 values of 0.721-0.741 across three random seeds. The model used for behavioural measurements was selected using chronological validation. Whole-fish box centres were used to calculate projected trajectories and movement measures, and regional detection states were converted to opercular, pectoral-fin and caudal-peduncle event counts. Model positions at one-second intervals and event counts in 10-s windows were compared with manual observations from 03:00 to 06:00. Across the five temperature groups, mean projected speeds ranged from 3.32 to 7.44 cm/s. The workflow produced whole-fish and regional movement measurements from the same recordings.",
+          "url": "https://europepmc.org/article/MED/43087663",
+          "doi": "10.3390/ani16223699",
+          "pmid": "43087663",
+          "pmcid": "PMC13798990",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13798990?pdf=render",
+          "full_text_url": "https://doi.org/10.3390/ani16223699",
+          "source": "europepmc",
+          "track": "A",
+          "cited_by_count": 0,
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": true,
@@ -10544,6 +10588,28 @@
           "tier": 0
         },
         {
+          "title": "Evolution of trans-regulatory architecture and gene expression dosage compensation after genome duplication.",
+          "authors": "Diblasi C, Manousi D, Hazlerigg D, Paulsen J, Patalano F, Podgorniak T, Grønvold L, Barson NJ, Sandve SR, Saitou M.",
+          "journal": "",
+          "date": "2026-11-25",
+          "abstract": "Whole-genome duplication (WGD) through polyploidization has played a major role in genome evolution across eukaryotes. While many well-studied WGDs involve allopolyploidization, autopolyploidization provides a distinct context because duplicated chromosomes initially originate from within the same species and retain high sequence similarity. A major consequence of WGD is the rewiring of gene regulatory networks, partly driven by selection on gene expression dosage. In multicellular organisms, evidence for dosage balance selection has relied largely on comparative patterns of duplicate gene retention and expression, with few studies directly examining regulatory architecture after WGD. Here, we analyzed a large-scale eQTL dataset from Atlantic salmon (<i>Salmo salar</i>), which experienced a salmonid-specific autopolyploid WGD approximately 80 to 100 million years ago. We found that trans-regulatory connections were preferentially retained between WGD-derived syntenic regions and that syntenic trans-eQTL pairs showed elevated three-dimensional genomic contact, suggesting partial preservation of spatial proximity between duplicated chromosomal regions. Overall, 230 duplicated gene pairs (5%) shared eQTLs, suggesting conserved regulatory control. Moreover, 16 gene pairs showed genotype-dependent compensatory expression effects mediated by a common regulator, consistent with predictions of the dosage balance hypothesis. These gene pairs were significantly enriched in late-rediploidizing regions. Our results indicate that a small subset of duplicated genes have retained dosage-balanced regulatory architecture long after WGD.",
+          "url": "https://europepmc.org/article/MED/43084664",
+          "doi": "10.1126/sciadv.aee6574",
+          "pmid": "43084664",
+          "pmcid": "PMC13801683",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13801683?pdf=render",
+          "full_text_url": "https://doi.org/10.1126/sciadv.aee6574",
+          "source": "europepmc",
+          "track": "B",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "Physiology and the Co-Occurrence of Competing Carnivores: The Diet and Digestive Enzymes of Fishers (&lt;i&gt;Pekania pennanti&lt;/i&gt;) and Martens (&lt;i&gt;Martes americana&lt;/i&gt; and &lt;i&gt;Martes caurina&lt;/i&gt;) in the Forests of the Great Lakes and the Sierra Nevadas.",
           "authors": "Oguchi Y, Blackdeer EP, Smith MM, Suen G, Caviedes-Vidal E, Brun A, Gabriel M, Wengert G, Karasov WH, Pauli JN.",
           "journal": "",
@@ -10695,6 +10761,31 @@
           "cited_by_count": 0,
           "oa_status": "hybrid",
           "oa_pdf_source": "publisher",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "All the diversity we cannot see: Using single-cell population genetics to reveal the reproductive mode of the snow alga Chlainomonas sp. (Chlorophyta)",
+          "authors": "Alexander Geragotelis, S. Stoeckel, R. Kodner, T. Hamilton, Honu Pata et al.",
+          "journal": "bioRxiv",
+          "date": "2026-11-20",
+          "abstract": "",
+          "url": "https://www.semanticscholar.org/paper/8675cc924be15a17a82519fb8c5d5bbbef21da36",
+          "doi": "10.64898/2026.11.19.767852",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/20/2026.11.19.767852.full.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "This study represents a first use of single cell population genetic methods to understand natural populations of partially clonal microeukaryotes and found high selfing rates, but selfing and clonality are often indistinguishable without understanding an organism’s natural history.",
+          "oa_status": "green",
+          "oa_pdf_source": "repository",
           "journal_h_index": null,
           "journal_citedness": null,
           "is_fish": false,
@@ -11646,6 +11737,32 @@
           "journal_citedness": null,
           "is_fish": false,
           "tier": 0
+        },
+        {
+          "title": "Transformer models in genomics: from sequence analysis to population genetics and biodiversity",
+          "authors": "Iqra Farooq, Sara Atito, I. Prokopenko, Muhammad Awais, A. Demirkan",
+          "journal": "Briefings in Bioinformatics",
+          "date": "2026-11-01",
+          "abstract": "Abstract Modern genomics and artificial intelligence converge at a breakthrough point with the emergence of transformer-based large language models for genomic analysis. This review examines how transformer-based models have advanced genomic sequence analysis through novel tokenization strategies, self-attention mechanisms, and pre-training/fine-tuning paradigms. Unlike prior broad surveys, we focus on three sub-areas of genomics where transformer architectures have had a substantive impact: sequence-level analysis, population-level genetics, including genetic imputation and genome-wide association analysis, and biodiversity research, while addressing challenges like genome-scale computational demands, training biases, and interpreting attention in biological contexts. Looking forward, we outline how emerging foundation models, multi-modal integration, and biologically informed attention mechanisms could transform our understanding of genome function, providing a roadmap for leveraging genome language models to decode genome complexity and advance functional and population-level genomics.",
+          "url": "https://www.semanticscholar.org/paper/ad5661e47b1a38a973ef844896e1e840dd802b05",
+          "doi": "10.1093/bib/bbag628",
+          "pmid": "43035902",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://academic.oup.com/bib/article-pdf/27/6/bbag628/73667559/bbag628.pdf",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "This review examines how transformer-based models have advanced genomic sequence analysis through novel tokenization strategies, self-attention mechanisms, and pre-training/fine-tuning paradigms, providing a roadmap for leveraging genome language models to decode genome complexity and advance functional and population-level genomics.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S91767247",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 1
         },
         {
           "title": "Pan-genome analysis reveals conservation and diversification of the SWEET gene family in wheat",
@@ -13021,6 +13138,32 @@
           "tier": 0
         },
         {
+          "title": "From HBB Mutation to Precision Medicine: Molecular Pathogenesis, Genetic Modifiers, and Population Genetics of Sickle Cell Disease",
+          "authors": "God'sglory Ebubechukwu Ilechukwu",
+          "journal": "Path of Science",
+          "date": "2026-09-30",
+          "abstract": "Sickle cell disease (SCD) illustrates how a single nucleotide substitution produces protein dysfunction, systemic pathology, and heterogeneous clinical outcomes. This review outlines the molecular cascade that begins with the HBB c.20A>T (p.Glu6Val) variant, which leads to haemoglobin S (HbS) polymerisation, red-cell sickling, haemolysis, adhesion, inflammation, and vaso-occlusion. It incorporates evidence on genetic modifiers, population genetics, and precision medicine.We searched PubMed/MEDLINE, Web of Science, Scopus, and Google Scholar, and used genetic databases to find nomenclature and allele data. This structured narrative review brings together peer-reviewed original research, systematic reviews, meta-analyses and authoritative guidelines on SCD genetics, pathogenesis, modifiers, population genetics, or precision medicine.Known HbF loci account for a significant proportion of HbF heritability, with the best supported modifiers being fetal haemoglobin (HbF) loci (BCL11A, HBS1L-MYB, Xmn1-HBG2) and α-thalassaemia. The distribution of HbS haplotypes and their association with HbF vary among African populations, and the single origin and multicentric hypotheses are not resolved. The current disease-modifying treatment is hydroxyurea, and gene-based therapy (lentiviral gene addition and CRISPR-based editing of the BCL11A erythroid enhancer) is now approved in some jurisdictions, but requires myeloablative conditioning and specialist centres and is too expensive for many patients in sub-Saharan Africa.Modifier associations and prediction models are only partially transferable because African genomes are underrepresented. Integrated efforts are needed across molecular mechanisms, African genomic diversity, and health-system delivery to advance precision medicine in SCD.",
+          "url": "https://www.semanticscholar.org/paper/dbe5bb797633252e8964841dd8a71df50f95fb60",
+          "doi": "10.22178/pos.134-9",
+          "pmid": "",
+          "pmcid": "",
+          "is_oa": true,
+          "in_pmc": false,
+          "pdf_url": "https://pathofscience.org/index.php/ps/article/download/4036/1972",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 0,
+          "tldr": "This structured narrative review brings together peer-reviewed original research, systematic reviews, meta-analyses and authoritative guidelines on SCD genetics, pathogenesis, modifiers, population genetics, or precision medicine.",
+          "oa_status": "gold",
+          "oa_pdf_source": "publisher",
+          "openalex_source_id": "S4210221617",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
           "title": "First Observation of Wild Double‐Flowered Rhododendron nivale With Stamen Petaloidy and Possible Parallel Evolution",
           "authors": "Chen X, Deng S, Wang Z.",
           "journal": "",
@@ -13380,6 +13523,31 @@
           "track": "B",
           "cited_by_count": 1,
           "tldr": "It is argued that population genetics provides the mathematical framework needed to extract evolutionary dynamics from cancer genomes and it is shown how models of mutation, selection and drift transform allele frequencies from descriptive measurements into quantitative estimates of clonal fitness and evolutionary timings.",
+          "oa_status": "closed",
+          "openalex_source_id": "S160464432",
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "A guide to understanding tumour evolution through the lens of population genetics",
+          "authors": "G. Caravagna, T. Graham, A. Sottoriva",
+          "journal": "Nature Reviews Cancer",
+          "date": "2026-09-09",
+          "abstract": "",
+          "url": "https://www.semanticscholar.org/paper/fc31cfd55593d7c9ccd100e022dfb1cf47c5cf08",
+          "doi": "10.1038/s41568-026-00973-5",
+          "pmid": "42717056",
+          "pmcid": "",
+          "is_oa": false,
+          "in_pmc": false,
+          "pdf_url": "",
+          "full_text_url": "",
+          "source": "semanticscholar",
+          "track": "B",
+          "cited_by_count": 1,
+          "tldr": "It is argued that population genetics provides the mathematical framework needed to extract evolutionary dynamics from cancer genomes and how models of mutation, selection and drift enable inference of tumour dynamics from sequencing data, distinguish genetic and non-genetic processes, and support extraction of evolutionary trajectories beyond pattern-based statistical genomics are outlined.",
           "oa_status": "closed",
           "openalex_source_id": "S160464432",
           "journal_h_index": null,
@@ -41966,6 +42134,28 @@
           "in_pmc": true,
           "pdf_url": "https://europepmc.org/articles/PMC13795324?pdf=render",
           "full_text_url": "https://doi.org/10.2147/DDDT.S652879",
+          "source": "europepmc",
+          "track": "C",
+          "cited_by_count": 0,
+          "journal_h_index": null,
+          "journal_citedness": null,
+          "is_fish": false,
+          "tier": 0
+        },
+        {
+          "title": "Dynamic Cell and Organelle Architecture in Homeostasis and Cancer.",
+          "authors": "Wu Y, Kang J, Pan K, Fang X, Feng J, Chen P.",
+          "journal": "",
+          "date": "2026-11-20",
+          "abstract": "Cellular function depends on the regulated size, shape, and spatial organization of cells and their organelles. This review examines cell-size control and the architectural regulation of the plasma membrane, cell-matrix adhesions, cytoskeleton, nucleus, mitochondria, endomembrane system, and biomolecular condensates. We relate these regulatory mechanisms to their functional consequences in physiological and disease contexts. Particular attention is given to cytoskeleton-nucleus coupling and the roles of the nuclear envelope and chromatin in mechanical responses, nucleocytoplasmic transport, transcription, and genome stability. Cancer serves as the principal disease context, while selected non-malignant disorders provide comparisons. Physiological adaptation supports tissue homeostasis, whereas pathological remodeling contributes to tissue dysfunction or disease progression, even when it benefits individual cells. Our contribution is a comparative structure-function framework that connects these systems through recurring constraints involving geometry, limiting molecular pools, intercompartmental connectivity, and quality control. This framework guides the interpretation of structural changes as potential drivers, adaptive responses, or downstream markers. Building on this synthesis, we hypothesize that mechanical and biochemical coupling between cellular compartments can buffer or amplify the functional impact of a given architectural perturbation. This perspective links structural observations to functional measurements and helps identify context-dependent disease mechanisms and potential therapeutic vulnerabilities.",
+          "url": "https://europepmc.org/article/MED/43092094",
+          "doi": "10.3390/ijms272210474",
+          "pmid": "43092094",
+          "pmcid": "PMC13804094",
+          "is_oa": true,
+          "in_pmc": true,
+          "pdf_url": "https://europepmc.org/articles/PMC13804094?pdf=render",
+          "full_text_url": "https://doi.org/10.3390/ijms272210474",
           "source": "europepmc",
           "track": "C",
           "cited_by_count": 0,
@@ -105549,16 +105739,16 @@
     }
   },
   "stats": {
-    "total_count": 3996,
-    "new_this_week": 52,
+    "total_count": 4004,
+    "new_this_week": 53,
     "weekly_trend": [
       {
         "week": "2026-W42",
-        "count": 43
+        "count": 46
       },
       {
         "week": "2026-W43",
-        "count": 48
+        "count": 50
       },
       {
         "week": "2026-W44",
@@ -105566,22 +105756,22 @@
       },
       {
         "week": "2026-W45",
-        "count": 39
-      },
-      {
-        "week": "2026-W46",
         "count": 38
       },
       {
+        "week": "2026-W46",
+        "count": 35
+      },
+      {
         "week": "2026-W47",
-        "count": 24
+        "count": 28
       }
     ],
     "tier_counts": {
-      "1": 564,
+      "1": 565,
       "2": 0,
       "3": 0,
-      "0": 3432
+      "0": 3439
     }
   }
 }
